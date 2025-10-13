@@ -1,0 +1,13 @@
+feedparser
+requests
+beautifulsoup4
+lxml
+duckdb
+pandas
+pyyaml
+ratelimit
+python-dateutil
+scikit-learn
+sentence-transformers
+tqdm
+playwright

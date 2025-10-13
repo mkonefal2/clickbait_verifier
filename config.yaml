@@ -1,0 +1,11 @@
+sources:
+  - name: Example
+    rss: https://example.com/rss
+    enabled: false
+  - name: FocusPL
+    url: https://www.focus.pl/artykul/skamienialosc-gad-sprzed-242-milionow-lat
+    enabled: true
+  - name: VerkSklep
+    url: https://verk.sklep.pl/product-pol-3087-Lampka-nocna-dla-dzieci-led-kaczka-rgb-pilot-usb.html
+    enabled: true
+rate_limit_per_sec: 1

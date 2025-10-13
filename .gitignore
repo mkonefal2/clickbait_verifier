@@ -1,0 +1,6 @@
+data/db.duckdb
+logs/
+reports/
+*.pyc
+__pycache__/
+.env

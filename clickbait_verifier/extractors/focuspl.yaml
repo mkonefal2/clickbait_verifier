@@ -1,0 +1,3 @@
+name: focuspl
+content_css: 'div.article__content, div.article-content, div.entry-content, article'
+title_css: 'h1.article__title, h1.entry-title, header h1'
