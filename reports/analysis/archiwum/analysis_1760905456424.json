@@ -1,0 +1,20 @@
+{
+  "id": 1760905456424,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/swiat/news-wiadomo-co-skradziono-z-luwru-eksperci-sa-przerazeni,nId,8032788",
+  "title": "Wiadomo, co skradziono z Luwru",
+  "score": 36,
+  "label": "mild",
+  "rationale": [
+    "title: neutral informative phrasing; no overt sensational tokens",
+    "content: detailed list of stolen items and expert reactions -> credibility signals but also emotionally loaded quotes ('absolutnie nie do sprzedania', 'przerażeni') increasing mild score",
+    "alignment_score=0.85 -> title supported by content"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jest informacyjny — artykuł podaje listę skradzionych cennych przedmiotów.",
+    "Treść zawiera cytaty ekspertów i opisy, co uzasadnia uwagę mediów, ale nagłówek nie jest sensacyjny." 
+  ],
+  "signals": {"title_hits": [], "content_hits": ["details of stolen items, expert quotes, risk of melting"], "title_semantic_hits": [], "content_semantic_hits": [], "credibility_hits": ["expert statements, item descriptions"], "monetization_hits": [], "geography_hits": {"title_countries": [], "content_countries": ["Francja"]}, "mismatch": {"alignment_score": 0.85, "exaggeration_gap": false, "paywall_or_short": false, "country_mismatch": false, "time_omission": false, "date_omission": false, "detected_time_windows": [], "detected_dates": []}},
+  "suggestions": {"rewrite_title_neutral": "Lista przedmiotów skradzionych z Luwru — eksperci alarmują", "notes_to_editor": "Można dodać słowo 'lista' by podkreślić faktografię artykułu."},
+  "diagnostics": {"tokens_title": 4, "tokens_content": 500, "processing_time_ms": 90, "windows_scanned": []}
+}

@@ -1,0 +1,29 @@
+{
+	"id": 1761128137023,
+	"source": "rmf24",
+	"url": "https://www.rmf24.pl/fakty/swiat/news-strzaly-przed-serbskim-parlamentem-zatrzymano-jedna-osobe,nId,8033593",
+	"title": "Strzały przed serbskim parlamentem. Zatrzymano jedną osobę",
+	"score": 20,
+	"label": "not_clickbait",
+	"rationale": [
+		"title_alarming: contains 'Strzały' -> alarming +10",
+		"content_support: short factual report referencing Reuters and local media, video evidence mentioned -> credibility reduction -3 and alignment high",
+		"final: due to factual, short reporting and explicit citations, label not_clickbait"
+	],
+	"rationale_user_friendly": [
+		"Tytuł opisuje nagłe zdarzenie (strzały) — to naturalnie alarmujące, ale artykuł prezentuje natychmiastowe fakty i źródła.",
+		"Ponieważ informacja jest potwierdzona przez agencję i media lokalne, nie klasyfikujemy tego jako clickbait." 
+	],
+	"signals": {
+		"title_hits": ["alarming_frame: 'Strzały'"],
+		"content_hits": ["news_agency: 'Reuter'","video_evidence_mention"],
+		"title_semantic_hits": [],
+		"content_semantic_hits": [],
+		"credibility_hits": ["news_agency","video_reference"],
+		"monetization_hits": [],
+		"geography_hits": { "title_countries": [], "content_countries": ["Serbia"] },
+		"mismatch": { "alignment_score": 0.9, "exaggeration_gap": false, "paywall_or_short": false, "country_mismatch": false, "time_omission": false, "date_omission": false, "detected_time_windows": [], "detected_dates": [] }
+	},
+	"suggestions": { "rewrite_title_neutral": "Zatrzymano jedną osobę po strzałach przed parlamentem w Serbii", "notes_to_editor": "Tytuł jest krótki i opisowy; pozostawić lub dodać źródło." },
+	"diagnostics": { "tokens_title": 6, "tokens_content": 150, "processing_time_ms": 30, "windows_scanned": [{"index":0,"start":"0","length_chars":600,"evidence_hits":["content: 'agencja Reutera','zatrzymano jedną osobę'" ]},{"index":1,"start":"25%","length_chars":600,"evidence_hits":["content: 'nagranie opublikowane'" ]},{"index":2,"start":"50%","length_chars":600,"evidence_hits":["content: 'pożar, podpalenie namiotów'" ]},{"index":3,"start":"75%","length_chars":600,"evidence_hits":[]},{"index":4,"start":"end","length_chars":600,"evidence_hits":[]}] }
+}

@@ -1,0 +1,30 @@
+{
+	"id": 1761128139040,
+	"source": "rmf24",
+	"url": "https://www.rmf24.pl/polityka/news-kaczynski-w-prokuraturze-chodzi-o-sprawe-z-czasow-pandemii,nId,8033565",
+	"title": "Kaczyński w prokuraturze. Chodzi o sprawę z czasów pandemii",
+	"score": 24,
+	"label": "mild",
+	"rationale": [
+		"title_alarming: mentions prominent political figure and 'prokuratura' -> attention-grabbing +10",
+		"content_support: factual description of summons and context (2020 elections) with quotes -> credibility reduction -3",
+		"alignment: content matches title; no exaggeration_gap",
+		"final score after caps and reductions -> 24"
+	],
+	"rationale_user_friendly": [
+		"Tytuł informuje o ważnym, oficjalnym wydarzeniu — wezwanie do prokuratury polityka.",
+		"Artykuł opisuje jednak fakty i kontekst (wybory korespondencyjne z 2020 r.), więc ton jest informacyjny, nie sensacyjny." 
+	],
+	"signals": {
+		"title_hits": ["alarming_frame: 'prokuratura'","named_person: 'Kaczyński'"],
+		"content_hits": ["context: 'wybory korespondencyjne 2020'","quoted_statements"],
+		"title_semantic_hits": [],
+		"content_semantic_hits": [],
+		"credibility_hits": ["quoted_speakers","context_dates"],
+		"monetization_hits": [],
+		"geography_hits": { "title_countries": ["Polska"], "content_countries": ["Polska"] },
+		"mismatch": { "alignment_score": 0.85, "exaggeration_gap": false, "paywall_or_short": false, "country_mismatch": false, "time_omission": false, "date_omission": false, "detected_time_windows": [], "detected_dates": ["2020"] }
+	},
+	"suggestions": { "rewrite_title_neutral": "Jarosław Kaczyński złożył zeznania w prokuraturze ws. sprawy z 2020 r.", "notes_to_editor": "Tytuł jest informacyjny; zachować jasność i przytoczyć źródło wezwania." },
+	"diagnostics": { "tokens_title": 9, "tokens_content": 140, "processing_time_ms": 32, "windows_scanned": [{"index":0,"start":"0","length_chars":600,"evidence_hits":["content: 'wezwanie do prokuratury','wybory korespondencyjne 2020'" ]},{"index":1,"start":"25%","length_chars":600,"evidence_hits":[]},{"index":2,"start":"50%","length_chars":600,"evidence_hits":[]},{"index":3,"start":"75%","length_chars":600,"evidence_hits":[]},{"index":4,"start":"end","length_chars":600,"evidence_hits":[]}] }
+}

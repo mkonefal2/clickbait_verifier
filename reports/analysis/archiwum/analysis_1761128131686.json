@@ -1,0 +1,30 @@
+{
+	"id": 1761128131686,
+	"source": "rmf24",
+	"url": "https://www.rmf24.pl/ekonomia/news-maly-chip-wielki-problem-volkswagen-wstrzyma-produkcje,nId,8033583",
+	"title": "Mały chip, wielki problem",
+	"score": 28,
+	"label": "mild",
+	"rationale": [
+		"title_sensational: 'wielki problem' -> sensational +12",
+		"content_credibility: many named organizations and numbers (Volkswagen, Nexperia, liczby pracowników) -> credibility reductions -3 (org_names) and -2 (numbers)",
+		"alignment: content supports claim that chip shortage causes production issues -> high alignment, so no exaggeration_gap",
+		"final score adjusted with caps and source penalty_relaxation (rmf24 has base_reputation medium) -> 28"
+	],
+	"rationale_user_friendly": [
+		"Tytuł sugeruje poważny problem, ale artykuł przedstawia konkretne informacje i źródła (dziennik 'Bild', firmy, liczby), więc dramatyzm tytułu jest częściowo uzasadniony.",
+		"Zalecamy złagodzić sformułowanie lub dodać kontekst, skąd pochodzą dane." 
+	],
+	"signals": {
+		"title_hits": ["sensational: 'wielki problem'"],
+		"content_hits": ["org_names: 'Volkswagen','Nexperia','Bild'","numbers: '35 tysięcy pracowników'"],
+		"title_semantic_hits": [],
+		"content_semantic_hits": [],
+		"credibility_hits": ["org_names","numbers"],
+		"monetization_hits": [],
+		"geography_hits": { "title_countries": ["Polska (assumed)"], "content_countries": ["Niemcy"] },
+		"mismatch": { "alignment_score": 0.82, "exaggeration_gap": false, "paywall_or_short": false, "country_mismatch": false, "time_omission": false, "date_omission": false, "detected_time_windows": [], "detected_dates": [] }
+	},
+	"suggestions": { "rewrite_title_neutral": "Braki chipów wpływają na produkcję samochodów Volkswagena", "notes_to_editor": "Tytuł jest krótki i sensacyjny — rozważ dodanie źródła lub danych w leadzie." },
+	"diagnostics": { "tokens_title": 4, "tokens_content": 480, "processing_time_ms": 52, "windows_scanned": [{"index":0,"start":"0","length_chars":600,"evidence_hits":["content: '35 tysięcy pracowników','Nexperia'" ]},{"index":1,"start":"25%","length_chars":600,"evidence_hits":["content: 'konflikt USA-Chiny','blokady eksportu'" ]},{"index":2,"start":"50%","length_chars":600,"evidence_hits":["content: 'Kurzarbeit','wstrzymanie produkcji'" ]},{"index":3,"start":"75%","length_chars":600,"evidence_hits":["content: 'efekt domina na inne sektory'" ]},{"index":4,"start":"end","length_chars":600,"evidence_hits":["content: 'wspomnienie o polityce i negocjacjach'" ]}] }
+}

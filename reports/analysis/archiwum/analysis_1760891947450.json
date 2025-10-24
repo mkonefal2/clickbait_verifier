@@ -1,0 +1,31 @@
+{
+  "id": 1760891947450,
+  "source": "CLI",
+  "url": "https://naukawpolsce.pl/aktualnosci/news%2C107913%2Cnaukowcy-wolnosc-akademicka-wymaga-ochrony-i-czujnosci.html",
+  "title": "Naukowcy: wolność akademicka wymaga ochrony i czujności",
+  "score": 10,
+  "label": "not_clickbait",
+  "rationale": [
+    "title: no sensational regex matches; neutral language",
+    "content: contains credibility signals (org names, references to documents like 'Sztokholmska Karta') -> credibility reductions applied",
+    "geography: mentions Poland contextually but title does not mislead about country",
+    "sampling: content length > min_content_chars; no paywall detected"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jest opisowy i nie używa sensacyjnego języka.",
+    "Artykuł przytacza źródła i wypowiedzi ekspertów, co zwiększa jego wiarygodność.",
+    "Ocena: brak oznak clickbaitu." 
+  ],
+  "signals": {
+    "title_hits": [],
+    "content_hits": ["credibility: references to Akademia Młodych Uczonych, Sztokholmska Karta"],
+    "title_semantic_hits": [],
+    "content_semantic_hits": [],
+    "credibility_hits": ["org_names: Akademia Młodych Uczonych, IMGW-like references"],
+    "monetization_hits": [],
+    "geography_hits": {"title_countries": [], "content_countries": ["Polska"]},
+    "mismatch": {"alignment_score": 0.95, "exaggeration_gap": false, "paywall_or_short": false, "country_mismatch": false, "time_omission": false, "date_omission": false, "detected_time_windows": [], "detected_dates": []}
+  },
+  "suggestions": {"rewrite_title_neutral": "Wolność akademicka: eksperci apelują o ochronę i czujność", "notes_to_editor": "Tytuł jest już neutralny; brak dodatkowych sugestii."},
+  "diagnostics": {"tokens_title": 6, "tokens_content": 800, "processing_time_ms": 80, "windows_scanned": []}
+}

@@ -1,0 +1,20 @@
+{
+  "id": 1760905487320,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/trojmiasto/news-dramatyczne-wydarzenia-w-szkole-w-ustce-11-latek-uratowany-w,nId,8032782",
+  "title": "Dramatyczne wydarzenia w szkole w Ustce. 11-latek uratowany w ostatniej chwili",
+  "score": 18,
+  "label": "not_clickbait",
+  "rationale": [
+    "title: 'Dramatyczne' is attention-grabbing but article reports life-saving first aid — supported",
+    "content: factual rescue details and medical follow-up increase credibility; title reasonable",
+    "alignment_score=0.9"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł oddaje powagę zdarzenia; artykuł opisuje działania ratujące życie, więc nagłówek nie jest clickbaitem.",
+    "Sugerowane: ewentualnie unikać nadmiernego dramatyzmu, ale brak wprowadzania w błąd." 
+  ],
+  "signals": {"title_hits": ["alarming: 'Dramatyczne'"], "content_hits": ["medical rescue details, Heimlich maneuver, hospital transfer"], "title_semantic_hits": [], "content_semantic_hits": [], "credibility_hits": ["medical procedures described"], "monetization_hits": [], "geography_hits": {"title_countries": [], "content_countries": ["Polska"]}, "mismatch": {"alignment_score": 0.9, "exaggeration_gap": false, "paywall_or_short": false, "country_mismatch": false, "time_omission": false, "date_omission": false, "detected_time_windows": [], "detected_dates": []}},
+  "suggestions": {"rewrite_title_neutral": "11-latek uratowany w szkole w Ustce dzięki szybkiej pomocy", "notes_to_editor": "Tytuł może być mniej dramatyczny, ale jest adekwatny."},
+  "diagnostics": {"tokens_title": 8, "tokens_content": 260, "processing_time_ms": 50, "windows_scanned": []}
+}

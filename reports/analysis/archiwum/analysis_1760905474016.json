@@ -1,0 +1,20 @@
+{
+  "id": 1760905474016,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/raporty/raport-wojna-z-rosja/news-szokujace-kulisy-dyskusji-trumpa-z-zelenskim-przeklinal-i-rz,nId,8032795",
+  "title": "Szokujące kulisy dyskusji Trumpa z Zełenskim",
+  "score": 48,
+  "label": "mild",
+  "rationale": [
+    "title: 'Szokujące' -> sensational token; implies drama",
+    "content: contains claims of shouting, swearing, dramatic behavior; source FT/Reuters referenced -> partial support",
+    "alignment_score estimated=0.55 -> title somewhat amplifies, apply moderate penalties"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'Szokujące', co sugeruje duże emocje.",
+    "Artykuł opisuje napiętą rozmowę z cytatami i raportami, więc nagłówek ma pewne podstawy, ale ton można złagodzić." 
+  ],
+  "signals": {"title_hits": ["sensational: 'Szokujące'"], "content_hits": ["reports: shouting, swearing, FT source"], "title_semantic_hits": [], "content_semantic_hits": [], "credibility_hits": ["Financial Times reference"], "monetization_hits": [], "geography_hits": {"title_countries": [], "content_countries": ["USA","Ukraina"]}, "mismatch": {"alignment_score": 0.55, "exaggeration_gap": true, "paywall_or_short": false, "country_mismatch": false, "time_omission": false, "date_omission": false, "detected_time_windows": [], "detected_dates": []}},
+  "suggestions": {"rewrite_title_neutral": "Kulisy rozmowy Trumpa z Zełenskim — napięta wymiana zdań według FT", "notes_to_editor": "Usuń słowo 'szokujące' jeśli chcesz zmniejszyć sensacyjność."},
+  "diagnostics": {"tokens_title": 4, "tokens_content": 520, "processing_time_ms": 85, "windows_scanned": []}
+}

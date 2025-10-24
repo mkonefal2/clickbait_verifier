@@ -1,0 +1,20 @@
+{
+  "id": 1760905473293,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/raporty/raport-wojna-z-rosja/news-rosja-zagarnie-czesc-ukrainy-zdecydowane-slowa-tuska,nId,8032791",
+  "title": "Rosja zagarnie część Ukrainy? Zdecydowane słowa Tuska",
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title: question plus 'Zdecydowane słowa' increases curiosity and mild sensational tone",
+    "content: political commentary with quotes; alignment moderate (title posits possibility discussed in text)",
+    "alignment_score=0.6"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł sugeruje możliwość utraty terytorium, co jest poważne, ale artykuł cytuje przywódców i analizuje kontekst.",
+    "Ocena: umiarkowana — tytuł prowokuje ciekawość, ale nie jest w pełni fałszywy." 
+  ],
+  "signals": {"title_hits": ["curiosity_gap: question 'Rosja zagarnie...'", "alarming phrasing: 'Zdecydowane słowa'"], "content_hits": ["quotes from Donald Tusk, Trump references"], "title_semantic_hits": [], "content_semantic_hits": [], "credibility_hits": ["direct quotes, Reuters/AFP references"], "monetization_hits": [], "geography_hits": {"title_countries": ["Ukraina","Rosja"], "content_countries": ["Ukraina","Rosja"]}, "mismatch": {"alignment_score": 0.6, "exaggeration_gap": false, "paywall_or_short": false, "country_mismatch": false, "time_omission": false, "date_omission": false, "detected_time_windows": [], "detected_dates": []}},
+  "suggestions": {"rewrite_title_neutral": "Tusk o roszczeniach terytorialnych Rosji wobec Ukrainy: stanowcze stanowisko", "notes_to_editor": "Dodać kontekst źródła cytatu."},
+  "diagnostics": {"tokens_title": 7, "tokens_content": 380, "processing_time_ms": 70, "windows_scanned": []}
+}

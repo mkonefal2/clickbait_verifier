@@ -1,0 +1,20 @@
+{
+  "id": 1760905450567,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/polska/news-nowe-zycie-katarzyny-w-matka-madzi-szykuje-sie-do-wyjscia-z-,nId,8032648",
+  "title": "Nowe życie Katarzyny W.?",
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "title: question mark + ellipsis-like ambiguity -> curiosity_gap signal",
+    "content: crime reporting; factual numbers and dates present increase credibility reductions; some sensational framing in preview but content provides details",
+    "alignment_score estimated=0.7 -> title's suggestion of 'Nowe życie' partially supported by content"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł sugeruje znaczącą zmianę ('Nowe życie') i pozostawia pytanie, co przyciąga czytelnika.",
+    "Artykuł opisuje poważne fakty (wyrok, możliwe starania o warunkowe zwolnienie), więc sensacyjny wydźwięk tytułu jest umiarkowany." 
+  ],
+  "signals": {"title_hits": ["curiosity_gap: trailing question/implication"], "content_hits": ["numbers_dates: 25-year sentence, 12 years served, 2032 possible release"], "title_semantic_hits": [], "content_semantic_hits": [], "credibility_hits": ["legal dates and sentence details"], "monetization_hits": [], "geography_hits": {"title_countries": [], "content_countries": ["Polska"]}, "mismatch": {"alignment_score": 0.7, "exaggeration_gap": false, "paywall_or_short": false, "country_mismatch": false, "time_omission": false, "date_omission": false, "detected_time_windows": [], "detected_dates": ["2032"]}},
+  "suggestions": {"rewrite_title_neutral": "Katarzyna W. przygotowuje się do życia po więzieniu — możliwe starania o warunkowe zwolnienie", "notes_to_editor": "Dodać precyzję w tytule, by uniknąć wrażenia sensacji."},
+  "diagnostics": {"tokens_title": 3, "tokens_content": 260, "processing_time_ms": 75, "windows_scanned": []}
+}

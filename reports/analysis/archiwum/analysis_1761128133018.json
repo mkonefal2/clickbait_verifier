@@ -1,0 +1,30 @@
+{
+	"id": 1761128133018,
+	"source": "rmf24",
+	"url": "https://www.rmf24.pl/ekonomia/news-waloryzacja-emerytur-2026-juz-pewna-ile-zyskaja-seniorzy,nId,8033579",
+	"title": "Waloryzacja emerytur 2026 już pewna. Ile zyskają seniorzy?",
+	"score": 22,
+	"label": "not_clickbait",
+	"rationale": [
+		"title_absolute_language: 'już pewna' -> absolute signal +8",
+		"content_support: article provides numbers, dates, and official references (ZUS, GUS, kwoty) -> credibility reductions -3 (org_names) and -2 (numbers) which offset title absolutism",
+		"alignment_score high (content supports title claim about planned waloryzacja) -> no exaggeration gap",
+		"final score after reductions and caps -> 22"
+	],
+	"rationale_user_friendly": [
+		"Tytuł brzmi pewnie, ale artykuł podaje prognozy i konkretne liczby oraz informuje o ostatecznej decyzji w przyszłości.",
+		"Informacje są poparte danymi i odwołaniami do instytucji, więc sformułowanie nie jest w dużym stopniu clickbaitowe." 
+	],
+	"signals": {
+		"title_hits": ["absolute_phrase: 'już pewna'"],
+		"content_hits": ["org_names: 'ZUS','GUS'","numbers: '4.9%','1970,98 zł'"],
+		"title_semantic_hits": [],
+		"content_semantic_hits": [],
+		"credibility_hits": ["org_names","numbers"],
+		"monetization_hits": [],
+		"geography_hits": { "title_countries": ["Polska"], "content_countries": ["Polska"] },
+		"mismatch": { "alignment_score": 0.88, "exaggeration_gap": false, "paywall_or_short": false, "country_mismatch": false, "time_omission": false, "date_omission": false, "detected_time_windows": [], "detected_dates": ["2026"] }
+	},
+	"suggestions": { "rewrite_title_neutral": "Prognozy waloryzacji emerytur na 2026: ile mogą zyskać seniorzy?", "notes_to_editor": "Rozważ dodanie słowa 'prognozy' jeśli ostateczna decyzja nie zapadła." },
+	"diagnostics": { "tokens_title": 6, "tokens_content": 430, "processing_time_ms": 47, "windows_scanned": [{"index":0,"start":"0","length_chars":600,"evidence_hits":["content: 'waloryzacja 2026','4.9%'" ]},{"index":1,"start":"25%","length_chars":600,"evidence_hits":["content: 'kwoty minimalne','ZUS obliczenia'" ]},{"index":2,"start":"50%","length_chars":600,"evidence_hits":["content: 'budżet 22 miliardy'" ]},{"index":3,"start":"75%","length_chars":600,"evidence_hits":["content: 'daty i procedury'" ]},{"index":4,"start":"end","length_chars":600,"evidence_hits":["content: 'metody obliczeń'" ]}] }
+}

@@ -1,0 +1,30 @@
+{
+	"id": 1761128138372,
+	"source": "rmf24",
+	"url": "https://www.rmf24.pl/nauka/news-cyfrowe-blizniaki-urodza-sie-w-krakowie-nadchodzi-przelom-w-,nId,8033557",
+	"title": "Cyfrowe bliźniaki \"urodzą się\" w Krakowie. Nadchodzi przełom w medycynie?",
+	"score": 46,
+	"label": "mild",
+	"rationale": [
+		"title_curiosity and sensational: 'Nadchodzi przełom' and question mark -> +12",
+		"content_support: article cites researchers, institutions and concrete examples of application -> credibility reduction -3 (org_names) and methods_terms present -> -2 reduction applied differently as credibility improvement",
+		"alignment: content suggests potential but cautious claims -> hedging present ('mogą', 'może'), so hedging reduction lowers final score",
+		"final score = 46"
+	],
+	"rationale_user_friendly": [
+		"Tytuł sugeruje przełom, ale artykuł przedstawia raczej potencjał i wyjaśnia, że technologia może przyspieszyć badania — jest to możliwe, lecz jeszcze nie udowodnione na dużą skalę.",
+		"Rekomendujemy dodanie słowa 'potencjalny' lub 'może' w tytule, aby lepiej odzwierciedlić ostrożność naukowców." 
+	],
+	"signals": {
+		"title_hits": ["sensational: 'przełom'","curiosity_gap: 'Nadchodzi'","question_mark_end"],
+		"content_hits": ["org_names: 'UJ','Gaia AI Factory','AGH'","methods_terms: 'modele komputerowe','mikrobiom'","hedging: 'mogą','może'"],
+		"title_semantic_hits": [],
+		"content_semantic_hits": [],
+		"credibility_hits": ["org_names","methods_terms"],
+		"monetization_hits": [],
+		"geography_hits": { "title_countries": ["Polska"], "content_countries": ["Polska"] },
+		"mismatch": { "alignment_score": 0.69, "exaggeration_gap": true, "paywall_or_short": false, "country_mismatch": false, "time_omission": false, "date_omission": false, "detected_time_windows": [], "detected_dates": [] }
+	},
+	"suggestions": { "rewrite_title_neutral": "W Krakowie powstaje centrum tworzące cyfrowe bliźniaki — jaki może to mieć wpływ na medycynę?", "notes_to_editor": "Tytuł można złagodzić, by oddać ostrożność przedstawioną przez naukowców." },
+	"diagnostics": { "tokens_title": 10, "tokens_content": 550, "processing_time_ms": 55, "windows_scanned": [{"index":0,"start":"0","length_chars":600,"evidence_hits":["content: 'Cyfrowe bliźniaki','Gaia AI Factory'" ]},{"index":1,"start":"25%","length_chars":600,"evidence_hits":["content: 'mikrobiom jelitowy','prof. Łabaj'" ]},{"index":2,"start":"50%","length_chars":600,"evidence_hits":["content: 'dane z projektów naukowych'" ]},{"index":3,"start":"75%","length_chars":600,"evidence_hits":["content: 'infrastruktura obliczeniowa'" ]},{"index":4,"start":"end","length_chars":600,"evidence_hits":["content: 'ogłoszenie ministerstw'" ]}] }
+}

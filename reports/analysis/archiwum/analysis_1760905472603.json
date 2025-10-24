@@ -1,0 +1,20 @@
+{
+  "id": 1760905472603,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/raporty/raport-wojna-z-rosja/news-nakaz-aresztowania-i-zamkniete-niebo-w-jaki-sposob-putin-tra,nId,8032268",
+  "title": "W jaki sposób Putin trafi do Budapesztu?",
+  "score": 12,
+  "label": "not_clickbait",
+  "rationale": [
+    "title: neutral question; not sensational",
+    "content: discusses logistical and legal issues of high-profile visit; includes hedging and expert opinion -> hedging reduces clickbait score",
+    "alignment_score high"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł stawia konkretne pytanie, a artykuł omawia realne trudności logistyczne i prawne.",
+    "Brak sensacyjnego języka." 
+  ],
+  "signals": {"title_hits": [], "content_hits": ["legal/operational constraints, MTK arrest warrant, closed airspace"], "title_semantic_hits": [], "content_semantic_hits": [], "credibility_hits": ["official statements, expert comments"], "monetization_hits": [], "geography_hits": {"title_countries": [], "content_countries": ["Węgry", "Rosja"]}, "mismatch": {"alignment_score": 0.9, "exaggeration_gap": false, "paywall_or_short": false, "country_mismatch": false, "time_omission": false, "date_omission": false, "detected_time_windows": [], "detected_dates": []}},
+  "suggestions": {"rewrite_title_neutral": "Jak Putin mógłby dotrzeć do Budapesztu — opcje i problemy logistyczne", "notes_to_editor": "Tytuł jest adekwatny."},
+  "diagnostics": {"tokens_title": 5, "tokens_content": 520, "processing_time_ms": 65, "windows_scanned": []}
+}

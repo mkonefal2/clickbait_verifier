@@ -1,0 +1,32 @@
+{
+	"id": 1761128131039,
+	"source": "rmf24",
+	"url": "https://www.rmf24.pl/ciekawostki/news-wystarczy-jeden-trik-aby-odstraszyc-kuny-od-twojego-auta,nId,8033586",
+	"title": "Wystarczy jeden trik, aby odstraszyć kuny od twojego auta!",
+	"score": 58,
+	"label": "strong",
+	"rationale": [
+		"title_curiosity_gap/listicle: regex hit 'Wystarczy jeden trik' -> curiosity_gap +6 and listicle-like framing -> +6",
+		"title_punctuation: exclamation mark not present but imperative phrasing -> treated as strong claim",
+		"content_sensational: content uses alarm framing about costs 'kilku tysięcy' and 'zmora kierowców' -> content sensational +8",
+		"credibility_reduction: few concrete citations, advice based on anecdotal remedies -> reduce -3 (quoted_speakers absent) and -2 (methods_terms missing)",
+		"final score reflects strong title promise with limited evidence in content -> 58"
+	],
+	"rationale_user_friendly": [
+		"Tytuł obiecuje prosty, jedyny skuteczny sposób — to tworzy wrażenie łatwej i pewnej metody.",
+		"Artykuł opisuje różne porady (olejki eteryczne, urządzenia), ale nie przedstawia solidnych badań potwierdzających jedną skuteczną metodę.",
+		"W związku z tym tytuł jest przesadny — sugeruje pewność, której treść w pełni nie potwierdza."
+	],
+	"signals": {
+		"title_hits": ["curiosity_gap: 'Wystarczy jeden trik'","imperative/command tone"],
+		"content_hits": ["alarm: 'koszty naprawy kilku tysięcy'","practical_advice: 'olejki eteryczne','wacik'=suggestion"],
+		"title_semantic_hits": [],
+		"content_semantic_hits": [],
+		"credibility_hits": [],
+		"monetization_hits": [],
+		"geography_hits": { "title_countries": ["Polska (assumed)"], "content_countries": [] },
+		"mismatch": { "alignment_score": 0.42, "exaggeration_gap": true, "paywall_or_short": false, "country_mismatch": false, "time_omission": false, "date_omission": false, "detected_time_windows": [], "detected_dates": [] }
+	},
+	"suggestions": { "rewrite_title_neutral": "Jak zmniejszyć ryzyko uszkodzeń auta przez kuny: praktyczne metody", "notes_to_editor": "Tytuł sugeruje jedną, prostą metodę; rozważ precyzyjniejsze sformułowanie lub dodanie zastrzeżeń." },
+	"diagnostics": { "tokens_title": 7, "tokens_content": 410, "processing_time_ms": 48, "windows_scanned": [{"index":0,"start":"0","length_chars":600,"evidence_hits":["content: 'kable pogryzione','koszty naprawy'"]},{"index":1,"start":"25%","length_chars":600,"evidence_hits":["content: 'odstraszanie zapachami','olejki'"]},{"index":2,"start":"50%","length_chars":600,"evidence_hits":["content: 'mięta pieprzowa','eukaliptus'"]},{"index":3,"start":"75%","length_chars":600,"evidence_hits":["content: 'wacik','regularnie odnawiać'"]},{"index":4,"start":"end","length_chars":600,"evidence_hits":["content: 'inne szkody kuny robią w domu'"]}] }
+}

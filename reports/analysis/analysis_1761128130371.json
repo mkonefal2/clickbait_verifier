@@ -1,0 +1,56 @@
+{
+	"id": 1761128130371,
+	"source": "rmf24",
+	"url": "https://www.rmf24.pl/ciekawostki/news-to-najlepsze-warzywo-na-jesien-wspiera-serce-i-reguluje-cuki,nId,8033606",
+	"title": "To najlepsze warzywo na jesien. Wspiera serce i reguluje cukier",
+	"score": 34,
+	"label": "mild",
+	"rationale": [
+		"title_superlative: regex hit 'najlepsze' (features.title.superlatives) -> +12",
+		"title_sensational: regex hit inferred from 'najlepsze' (features.title.sensational_phrases_regex) -> +12",
+		"content_credibility: org/experts mentions ('Eksperci') and numeric value (350 mg potasu) -> reduction -3 (org_names) and -2 (numbers)",
+		"hedging_terms: none detected in main content -> no hedging reduction",
+		"mismatch.country_mismatch: false (title implies local Poland by default, content refers to general dietary facts)",
+		"final score computed by summing additions (title) and content additions then applying credibility reductions and caps -> 34"
+	],
+	"rationale_user_friendly": [
+		"Tytuł używa mocnego sformułowania 'najlepsze', co tworzy oczekiwanie dużych, jednoznacznych korzyści.",
+		"Artykuł opisuje jednak dowody i liczby (np. ilość potasu i wypowiedzi ekspertów), więc obietnice w tytule są częściowo udokumentowane.",
+		"W efekcie tytuł jest nieco sensacyjny, ale treść dostarcza informacji, więc proponujemy ocenę umiarkowaną."
+	],
+	"signals": {
+		"title_hits": ["superlative: 'najlepsze'","sensational_phrase (health claim): 'Wspiera serce i reguluje cukier'"] ,
+		"content_hits": ["credibility: 'Eksperci'","numbers: '350 mg potasu'","nutrition claims: 'wspiera zdrowie serca','reguluje poziom cukru'"] ,
+		"title_semantic_hits": [],
+		"content_semantic_hits": [],
+		"credibility_hits": ["experts_mentioned","numbers_present"],
+		"monetization_hits": [],
+		"geography_hits": { "title_countries": ["Polska (assumed)"] , "content_countries": []},
+		"mismatch": {
+			"alignment_score": 0.78,
+			"exaggeration_gap": false,
+			"paywall_or_short": false,
+			"country_mismatch": false,
+			"time_omission": false,
+			"date_omission": false,
+			"detected_time_windows": [],
+			"detected_dates": []
+		}
+	},
+	"suggestions": {
+		"rewrite_title_neutral": "Bataty: jakie korzyści dla serca i poziomu cukru pokazują dane?",
+		"notes_to_editor": "Tytuł używa superlatywu 'najlepsze' — rozważ łagodniejsze sformułowanie lub dodanie odniesienia do źródła/danych." 
+	},
+	"diagnostics": {
+		"tokens_title": 8,
+		"tokens_content": 420,
+		"processing_time_ms": 45,
+		"windows_scanned": [
+			{"index":0,"start":"0","length_chars":600,"evidence_hits":["content: 'Eksperci', 'błonnik', 'potas'"]},
+			{"index":1,"start":"25%","length_chars":600,"evidence_hits":["content: '350 mg potasu', 'beta-karoten' "]},
+			{"index":2,"start":"50%","length_chars":600,"evidence_hits":["content: 'gotowanie', 'wartości odżywcze' "]},
+			{"index":3,"start":"75%","length_chars":600,"evidence_hits":["content: 'Jedz to na zdrowie', 'porównania z ziemniakami' "]},
+			{"index":4,"start":"end","length_chars":600,"evidence_hits":["content: 'zalecenia dietetyków' "]}
+		]
+	}
+}

@@ -1,0 +1,21 @@
+{
+  "id": 1760905455431,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/swiat/news-szokujace-bledy-tak-pomylila-sie-sztuczna-inteligencja,nId,8032789",
+  "title": "Szokujące błędy. Tak pomyliła się sztuczna inteligencja",
+  "score": 55,
+  "label": "strong",
+  "rationale": [
+    "title: 'Szokujące' -> strong sensational signal; exclamation-like wording",
+    "content: claims about 70% error rate and fabricated citations (serious credibility issues) -> content sensational but also problematic credibility; overcertainty in title vs hedging in content",
+    "alignment_score estimated=0.4 -> title amplifies emotional impact beyond careful presentation in body; apply low_alignment penalty (18) and exaggeration_gap penalty (14)",
+    "final scoring yields label 'strong'"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'Szokujące', które silnie pobudza emocje.",
+    "Artykuł opisuje badania wykazujące błędy AI, w tym poważne problemy (fałszywe cytowania), więc istnieje podstawowy powód do zaniepokojenia — ale tytuł ma silny ton, który podbija emocje." 
+  ],
+  "signals": {"title_hits": ["sensational: 'Szokujące'"], "content_hits": ["content_issue: '70% błędów', 'wymyślone źródła'", "credibility_issues: fabricated citations"], "title_semantic_hits": [], "content_semantic_hits": [], "credibility_hits": ["journal reference: European Journal of Pathology (claimed)"], "monetization_hits": [], "geography_hits": {"title_countries": [], "content_countries": ["Włochy reference"]}, "mismatch": {"alignment_score": 0.4, "exaggeration_gap": true, "paywall_or_short": false, "country_mismatch": false, "time_omission": false, "date_omission": false, "detected_time_windows": [], "detected_dates": []}},
+  "suggestions": {"rewrite_title_neutral": "Badania: chatboty AI popełniają liczne błędy w diagnozach i cytowaniach", "notes_to_editor": "Zmień nagłówek na mniej sensacyjny; zachowaj informację o skali problemu."},
+  "diagnostics": {"tokens_title": 4, "tokens_content": 540, "processing_time_ms": 110, "windows_scanned": []}
+}

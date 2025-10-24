@@ -1,0 +1,29 @@
+{
+	"id": 1761128137710,
+	"source": "rmf24",
+	"url": "https://www.rmf24.pl/kultura/news-publicznosc-go-pokochala-to-on-wedlug-nich-zostal-zwyciezca-,nId,8033603",
+	"title": "Publiczność go pokochała. To on według nich został zwycięzcą Konkursu Chopinowskiego",
+	"score": 18,
+	"label": "not_clickbait",
+	"rationale": [
+		"title_curiosity: 'Publiczność go pokochała' implies popular opinion but not sensational -> small addition +4",
+		"content_support: detailed contest results and official winners listed -> credibility reductions -3 (org_names) and high alignment",
+		"final score low due to informational content and lack of sensational promises -> 18"
+	],
+	"rationale_user_friendly": [
+		"Tytuł wskazuje na opinię publiczności, a artykuł przedstawia faktyczne wyniki plebiscytu i oficjalne ogłoszenia.",
+		"To bardziej reportaż z wydarzenia niż clickbait." 
+	],
+	"signals": {
+		"title_hits": ["curiosity/affective: 'Publiczność go pokochała'"],
+		"content_hits": ["event_report: 'wyniki konkursu','nagrody'","org_names: 'Teatr Wielki-Opera Narodowa'"],
+		"title_semantic_hits": [],
+		"content_semantic_hits": [],
+		"credibility_hits": ["event_results","org_names"],
+		"monetization_hits": [],
+		"geography_hits": { "title_countries": [], "content_countries": ["Polska"] },
+		"mismatch": { "alignment_score": 0.92, "exaggeration_gap": false, "paywall_or_short": false, "country_mismatch": false, "time_omission": false, "date_omission": false, "detected_time_windows": [], "detected_dates": [] }
+	},
+	"suggestions": { "rewrite_title_neutral": "Wyniki plebiscytu publiczności Konkursu Chopinowskiego", "notes_to_editor": "Tytuł jest opisowy i można go pozostawić." },
+	"diagnostics": { "tokens_title": 12, "tokens_content": 220, "processing_time_ms": 34, "windows_scanned": [{"index":0,"start":"0","length_chars":600,"evidence_hits":["content: 'wyniki plebiscytu','19 961 głosów'" ]},{"index":1,"start":"25%","length_chars":600,"evidence_hits":["content: 'I nagroda Eric Lu'" ]},{"index":2,"start":"50%","length_chars":600,"evidence_hits":["content: 'wręczenie przez prezydenta'" ]},{"index":3,"start":"75%","length_chars":600,"evidence_hits":[]},{"index":4,"start":"end","length_chars":600,"evidence_hits":[]}] }
+}

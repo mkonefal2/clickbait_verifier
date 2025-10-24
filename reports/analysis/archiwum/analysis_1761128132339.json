@@ -1,0 +1,31 @@
+{
+	"id": 1761128132339,
+	"source": "rmf24",
+	"url": "https://www.rmf24.pl/ekonomia/news-prezydent-uratuje-polskie-futra-bedzie-apel-o-weto,nId,8033594",
+	"title": "Prezydent uratuje polskie futra? Będzie apel o weto",
+	"score": 36,
+	"label": "mild",
+	"rationale": [
+		"title_curiosity/alarm: '?' combined with 'uratować' adds sensational tone -> +10",
+		"content_support: article quotes politician statements and factual legislative details (Sejm, terminy) -> credibility reduction -3 (org_names) and +0 for alignment",
+		"geography: local Polish context (title implies Poland, content is about Polish law) -> no mismatch",
+		"final score after applying caps and reductions -> 36"
+	],
+	"rationale_user_friendly": [
+		"Tytuł sugeruje, że prezydent może 'uratuje' branżę futrzarską — to mocne słowo, które budzi emocje.",
+		"Artykuł jednak cytuje konkretne informacje o ustawie i wypowiedzi osób, więc obietnica w tytule ma częściowe oparcie, ale jest zaakcentowana emocjonalnie.",
+		"Proponujemy złagodzenie tytułu lub dodanie odniesienia do konkretnej wypowiedzi." 
+	],
+	"signals": {
+		"title_hits": ["alarming_frame: 'uratować'","question_mark_signal"],
+		"content_hits": ["org_names: 'Sejm','NSZZ Solidarność'","numbers/dates: '2033', '8-letni okres'"],
+		"title_semantic_hits": [],
+		"content_semantic_hits": [],
+		"credibility_hits": ["org_names","numbers"],
+		"monetization_hits": [],
+		"geography_hits": { "title_countries": ["Polska"], "content_countries": ["Polska"] },
+		"mismatch": { "alignment_score": 0.67, "exaggeration_gap": false, "paywall_or_short": false, "country_mismatch": false, "time_omission": false, "date_omission": false, "detected_time_windows": [], "detected_dates": ["2033"] }
+	},
+	"suggestions": { "rewrite_title_neutral": "Prezydent proszony o weto wobec zakazu hodowli zwierząt na futra", "notes_to_editor": "Rozważ użycie mniej alarmującego czasownika 'apelować' lub jasne wskazanie statusu decyzji." },
+	"diagnostics": { "tokens_title": 7, "tokens_content": 390, "processing_time_ms": 46, "windows_scanned": [{"index":0,"start":"0","length_chars":600,"evidence_hits":["content: 'Sejm przegłosował zakaz','okres przejściowy'" ]},{"index":1,"start":"25%","length_chars":600,"evidence_hits":["content: 'weto','Tomasz Obszański'" ]},{"index":2,"start":"50%","length_chars":600,"evidence_hits":["content: 'liczby ferm, eksport'" ]},{"index":3,"start":"75%","length_chars":600,"evidence_hits":["content: 'odszkodowania','2033'" ]},{"index":4,"start":"end","length_chars":600,"evidence_hits":["content: 'reakcje branży'" ]}] }
+}

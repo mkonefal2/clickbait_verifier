@@ -1,0 +1,20 @@
+{
+  "id": 1760905452632,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/swiat/news-nagranie-z-napadu-stulecia-w-luwrze-watpliwosci-wokol-zachow,nId,8032790",
+  "title": "Nagranie z \"napadu stulecia\" w Luwrze. Wątpliwości wokół zachowania strażników",
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "title: sensational phrase 'napadu stulecia' -> high sensational addition",
+    "content: detailed factual reporting (9 items stolen, evidence, investigators) -> credibility reductions but still sensational framing in title",
+    "alignment_score estimated=0.6 -> title's dramatic framing partially supported by content but title amplifies drama"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa określenia 'napad stulecia', co podbija dramatyzm.",
+    "Artykuł opisuje rzeczywiste i poważne zdarzenie z konkretami, więc tytuł jest częściowo uzasadniony, ale ma wydźwięk sensacyjny." 
+  ],
+  "signals": {"title_hits": ["sensational: 'napadu stulecia'"], "content_hits": ["numbers: 9 items, evidence from BFMTV, police involvement"], "title_semantic_hits": [], "content_semantic_hits": [], "credibility_hits": ["official statements, number of investigators"], "monetization_hits": [], "geography_hits": {"title_countries": [], "content_countries": ["Francja"]}, "mismatch": {"alignment_score": 0.6, "exaggeration_gap": true, "paywall_or_short": false, "country_mismatch": false, "time_omission": false, "date_omission": false, "detected_time_windows": [], "detected_dates": []}},
+  "suggestions": {"rewrite_title_neutral": "Nagranie z kradzieży w Luwrze – śledztwo i wątpliwości wobec reakcji strażników", "notes_to_editor": "Złagodź superlatywy w tytule, pozostawiając fakty."},
+  "diagnostics": {"tokens_title": 9, "tokens_content": 600, "processing_time_ms": 95, "windows_scanned": []}
+}
