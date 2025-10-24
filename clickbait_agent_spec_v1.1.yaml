@@ -1,0 +1,369 @@
+meta:
+  name: "clickbait_assessment_spec"
+  version: "1.2.2"
+  language: "pl"
+  last_updated: "2025-10-20"
+  author: "Agent Spec Generator"
+  description: >
+    Dodano wymaganie podwójnego uzasadnienia: techniczne 'rationale' dla audytu
+    oraz przyjazne dla użytkownika 'rationale_user_friendly' bez żargonu technicznego.
+
+preprocessing:
+  expected_language: ["pl", "pl-PL"]
+  allow_other_languages: false
+  min_content_chars: 500
+  steps:
+    - strip_html: true
+    - remove_inline_ads: true
+    - unescape_entities: true
+    - normalize_whitespace: true
+    - collapse_newlines: true
+    - decode_urls: true
+    - lowercase_for_regex: true
+    - preserve_original: true
+    - strip_diacritics_option: false
+  content_cleanup:
+    drop_sections_beginning_with:
+      - "czytaj też"
+      - "zobacz także"
+      - "powiązane:"
+    drop_trailing_gallery_prompts:
+      - "zobacz zdjęcia"
+      - "galeria"
+      - "kliknij w strzałki"
+  fields_mapping:
+    id: "id"
+    title: "title"
+    content: "content"
+    source: "source"
+    url: "url"
+    published: "published"
+
+document_sampling:
+  normalize_before_sampling: true
+  windows:
+    - { start_chars: 0, length_chars: 600 }
+    - { start_percent: 25, length_chars: 600 }
+    - { start_percent: 50, length_chars: 600 }
+    - { start_percent: 75, length_chars: 600 }
+    - { end: "last", length_chars: 600 }
+  overlap_chars: 50
+  rule: "scan_all_windows_then_union_hits"
+  window_support:
+    content_additions_min_distinct_windows: 2
+    content_reductions_min_distinct_windows: 1
+    monetization_min_distinct_windows: 1
+
+counting_policy:
+  regex_source_of_truth: "PREFER_REGEX_WITH_SEMANTIC"  # zmienione z ONLY_REGEX_COUNT na hybrydę: preferujemy regex, ale dopuszczamy semantyczne trafienia
+  allow_semantic_hits: true
+  semantic_confidence_threshold: 0.85  # minimalna pewność LLM aby zgłosić trafienie semantyczne
+  semantic_weight_multiplier: 0.5     # trafienia semantyczne liczone są z mniejszą wagą niż regex
+  unique_non_overlapping: true
+  case_insensitive: true
+  mutual_exclusion_rules:
+    - conflict: ["hedging", "overcertainty"]
+      prefer: "hedging"   # 'może', 'wydaje się' NIGDY nie liczy się jako overcertainty
+  label_normalization_map:
+    none: "not_clickbait"
+    weak: "mild"
+    moderate: "mild"
+
+features:
+  title_features:
+    sensational_phrases_regex:
+      - "\\b(kuriozaln\\w*|absurd\\w*)\\b"
+      - "\\b(wywraca nauk\\w* do g\\u00f3ry nogami)\\b"
+      - "\\b(odmien(i|ia)a|zmienia ca(\\u0142|l)\\u0105 histori\\w*)\\b"
+      - "\\b(szok\\w*|wstrząs\\w*|poraż\\w*|niewiarygodn\\w*|niebywał\\w*|niesłych\\w*|niesamowit\\w*|zaskakuj\\w*|afera|skandal\\w*|dramat|horror|tragedi\\w*|masakr\\w*|bomba|hit|viral|game changer|to koniec|koniec świata|ujawnion\\w*|zdemaskow\\w*|tajemnic\\w*|sekret\\w*|wyciek\\w*)\\b"
+    absolutes_regex:
+      - "\\b(zawsze|nigdy|wsz(y|y)sc(y|i)|wszystko|każd\\w+|na pewno|z pewnośc\\w+|bez wątpieni\\w+|bezsprzeczn\\w+|bez dwóch zdań|koniec kropka|koniec dyskusji|sto procent|100%|gwarantowan\\w+)\\b"
+    alarming_frames_regex:
+      - "\\b(wybuch\\w*|eskalacj\\w*|katastrof\\w*|kataklizm\\w*|armagedon\\w*|apokalips\\w*|kryzys\\w*|chaos\\b|załaman\\w*|krach\\b|bessa\\b|zapaść\\b|blackout\\b|awari\\w*|paraliż\\w*|na skraju|na krawędzi|tuż przed|grozi\\w*|zagrożeni\\w*|ostrzeżeni\\w*|alert( rcb)?\\b|stan wyjątkow\\w*|stan klęsk\\w*|ewakuacj\\w*|lockdown\\b|epidemi\\w*|pandemi\\w*)"
+    curiosity_gap_regex:
+      - "\\b(ten (jeden )?trik|sztuczk\\w*|lifehack|hack|sprawdź( jak| co)?|zobacz( jak| co się stało)?|nie uwierzysz|nie zgadniesz|oto dlaczego|oto jak|oto co się stanie|poznaj prawd\\w*|poznaj sekret|to musisz zobaczyć|sekret\\w*|tajemnic\\w*)\\b"
+    listicle_regex:
+      - "\\b(top\\b|ranking\\b|lista\\b|\\d+\\s+(powod\\w*|rzecz\\w*|fakt\\w*|sekret\\w*|sposob\\w*|błęd\\w*|porad\\w*|krok\\w*|przepis\\w*|przykład\\w*|funkcj\\w*|zmian\\w*|mit\\w*|trik\\w*))\\b"
+    sports_rumor_regex:
+      - "\\b(oficjalnie|potwierdzone|transfer\\w*|hit transferow\\w*|bomba transferow\\w*|dopięt\\w*|dogadan\\w*|podpisz\\w*|kontrakt\\w*|odchodz\\w*|rozstaj\\w*|wylatuj\\w*|zwolnion\\w*|dymisj\\w*|ultimatum|sensacja okienka|plotk\\w*|kulisy|zakulisow\\w*)\\b"
+    punctuation_signals:
+      exclamations_count: true
+      question_mark_at_end: true
+      ellipsis_count: true
+      all_caps_token_ratio: true
+      emoji_present: true
+
+  content_features:
+    # UJEDNOLICONO: treść używa TEGO SAMEGO zbioru fraz sensacyjnych co tytuł + "alarming"
+    sensational_phrases_regex:
+      - "\\b(kuriozaln\\w*|absurd\\w*)\\b"
+      - "\\b(wywraca nauk\\w* do g\\u00f3ry nogami)\\b"
+      - "\\b(odmien(i|ia)a|zmienia ca(\\u0142|l)\\u0105 histori\\w*)\\b"
+      - "\\b(szok\\w*|wstrz\u0105s\\w*|pora\u017c\\w*|niewiarygodn\\w*|niebywa\u0142\\w*|nies\u0142ych\\w*|niesamowit\\w*|zaskakuj\\w*|afera|skandal\\w*|dramat|horror|tragedi\\w*|masakr\\w*|bomba|hit|viral|game changer|to koniec|koniec świata|ujawnion\\w*|zdemaskow\\w*|tajemnic\\w*|sekret\\w*|wyciek\\w*)\\b"
+    credibility_signals:
+      org_names_regex:
+        - "\\b(nature|science|cell|pnas|arxiv|doi|esrf|diamond light source|uniwersytet|uw|agh|instytut|journal|imgw|gus|bia\\u0142y dom|rmf24)\\b"
+      numbers_dates_units: true
+      quoted_speakers: true
+      methods_terms_regex:
+        - "\\b(skan(y|owanie)?|synchrotron|rentgen|analiz\\w* morfolog\\w*|metod\\w*|badani\\w*|metaanaliza|ankieta reprezentatywna)\\b"
+    hedging_vs_certainty:
+      hedging_regex:
+        - "\\b(mo\\u017ce|prawdopodobnie|sugeruje|wskazuje|wydaje si\\u0119|mo\\u017cliwe)\\b"
+      overcertainty_regex:
+        - "\\b(na pewno|bezsprzecznie|niezbicie dowodzi|koniec dyskusji)\\b"
+    monetization_signals:
+      affiliate_regex:
+        - "\\b(affiliate|partner link|kup teraz|tylko dzi\\u015b)\\b"
+      coupon_cta_regex:
+        - "\\b(rabat|kupon|promocja)\\b"
+  geography:
+    description: "Geographical mentions and country consistency checks. Wykrywaj wzmianki o krajach w tytule i treści, oraz przypadki, gdy tytuł sugeruje lokalne zdarzenie (np. 'w Polsce', 'u nas') a treść mówi o innym kraju (np. 'we Francji'). Jeżeli tytuł nie podaje kraju, bywa to mylące dla czytelników lokalnych — opcjonalnie można przyjąć kraj domyślny (np. Polska) aby interpretacje były jednoznaczne."
+    title_country_regex:
+      - "\\b(w\\s+Polsce|Polsk(a|i|e|\\u0119)|Polska)\\b"
+      - "\\b(w\\s+Francji|Francja|we\\s+Francji)\\b"
+      - "\\b(Niemcy|w\\s+Niemczech)\\b"
+      - "\\b(Wielkiej\\s+Brytanii|UK|Anglia)\\b"
+    content_country_regex:
+      - "\\b(w\\s+Polsce|Polsk(a|i|e|\\u0119)|Polska)\\b"
+      - "\\b(w\\s+Francji|Francja|we\\s+Francji)\\b"
+      - "\\b(Niemcy|w\\s+Niemczech)\\b"
+      - "\\b(Wielkiej\\s+Brytanii|UK|Anglia)\\b"
+    local_implied_patterns:
+      - "\\b(u nas|w naszym kraju|w Polsce)\\b"
+    cross_country_mismatch_support_min_windows: 1
+    assume_title_local_if_missing: true
+    default_assumed_country: "Polska"
+
+consistency_checks:
+  claim_alignment_score: true
+  title_promises_supported_ratio: true
+  exaggeration_gap: true
+  paywall_or_short_content: true
+  country_consistency: true
+
+scoring:
+  weights:
+    title_clickbait_weight: 0.40
+    content_clickbait_weight: 0.15
+    mismatch_weight: 0.40
+    monetization_weight: 0.05
+  additions:
+    title:
+      superlatives: { per_hit: 6, cap: 18 }
+      absolutes:    { per_hit: 8, cap: 24 }
+      sensational:  { per_hit: 12, cap: 36 }
+      alarming:     { per_hit: 10, cap: 20 }  # NOWE: osobna kategoria
+      curiosity_gap:{ per_hit: 6, cap: 18 }
+      listicle:     { per_hit: 6, cap: 12 }
+      sports_rumor: { per_hit: 10, cap: 20 }
+      punctuation:
+        exclamations: { per_hit: 3, cap: 9 }
+        question_end: { value: 4 }
+        ellipsis:     { per_hit: 2, cap: 6 }
+        all_caps_ratio_high: { value: 6 }
+        emoji_present: { value: 4 }
+    content:
+      overcertainty: { per_hit: 6, cap: 18 }
+      sensational_phrases: { per_hit: 8, cap: 24 }
+    monetization:
+      affiliate: { per_hit: 4, cap: 12 }
+      coupon_cta: { per_hit: 3, cap: 9 }
+  reductions:
+    credibility:
+      org_names:      { per_hit: 3, cap: 12 }
+      numbers_dates:  { per_hit: 2, cap: 10 }
+      quoted_speakers:{ per_hit: 2, cap: 8 }
+      methods_terms:  { per_hit: 2, cap: 8 }
+    hedging:
+      hedging_terms:  { per_hit: 2, cap: 10 }
+  mismatch_rules:
+    low_alignment: { threshold: 0.45, penalty: 18 }
+    medium_alignment: { threshold: 0.65, penalty: 8 }
+    exaggeration_gap_high: { penalty: 14 }
+    paywall_or_too_short: { penalty: 22 }
+    country_mismatch: { penalty: 18 }
+    time_omission: { description: "Penalty when content contains explicit time windows but title omits them", penalty: 12 }
+    date_omission: { description: "Penalty when content contains explicit dates but title omits them", penalty: 8 }
+    auto_apply_time_omission: true
+    time_omission_conditions:
+      require_detected_time_in_content: true
+      title_lacks_time_regex: true
+      # DODATKOWO: nie nakładaj kary gdy tytuł jest neutralny — stosuj karę tylko jeśli tytuł zawiera sygnały sensacyjne/alarmujące
+      apply_only_if_title_sensational_or_alarming: true
+  caps:
+    per_channel:
+      title: 60
+      content: 35
+      mismatch: 30
+      monetization: 10
+    overall: 100
+  label_thresholds:
+    not_clickbait: { max: 24 }
+    mild:          { min: 25, max: 49 }
+    strong:        { min: 50, max: 74 }
+    extreme:       { min: 75, max: 100 }
+ 
+
+actions:
+  decision_logic:
+    - if_label: "extreme"
+      action: "flag_and_queue"
+      notes: "Wysoki priorytet do rewizji redakcyjnej i automatycznej rekomendacji tytułu."
+    - if_label: "strong"
+      action: "notify_and_suggest"
+      notes: "Pokaż rekomendowany tytuł i listę sygnałów."
+    - if_label: "mild"
+      action: "suggest_only"
+      notes: "Wyświetl sugestie neutralnego tytułu."
+    - if_label: "not_clickbait"
+      action: "no_action"
+      notes: "Brak działań."
+
+output_schema:
+  type: object
+  required: [id, source, url, score, label, rationale, rationale_user_friendly, signals, suggestions]
+  properties:
+    id: { type: [integer, string] }
+    source: { type: string }
+    url: { type: string }
+    title: { type: string }
+    score: { type: number, minimum: 0, maximum: 100 }
+    label: { type: string, enum: ["not_clickbait", "mild", "strong", "extreme", "insufficient_content"] }
+    
+    rationale: 
+      type: array
+      items: { type: string }
+      description: "Techniczne uzasadnienie analizy z referencjami do regex, scoring rules, feature hits itp."
+    rationale_user_friendly:
+      type: array
+      items: { type: string }
+      description: "Przyjazne dla użytkownika uzasadnienie analizy, napisane w zrozumiały sposób bez technicznego żargonu. Wyjaśnia DLACZEGO tytuł/treść jest clickbaitem używając prostego języka i konkretnych przykładów z tekstu."
+    signals:
+      type: object
+      properties:
+        title_hits: { type: array, items: { type: string } }
+        content_hits: { type: array, items: { type: string } }
+        title_semantic_hits: { type: array, items: { type: object } }  # {"text":..., "confidence":0.92}
+        content_semantic_hits: { type: array, items: { type: object } }
+        credibility_hits: { type: array, items: { type: string } }
+        monetization_hits: { type: array, items: { type: string } }
+        geography_hits:
+          type: object
+          properties:
+            title_countries: { type: array, items: { type: string } }
+            content_countries: { type: array, items: { type: string } }
+        mismatch:
+          type: object
+          properties:
+            alignment_score: { type: number }
+            exaggeration_gap: { type: boolean }
+            paywall_or_short: { type: boolean }
+            country_mismatch: { type: boolean }
+            time_omission: { type: boolean }
+            date_omission: { type: boolean }
+            detected_time_windows:
+              type: array
+              items: { type: string }
+            detected_dates:
+              type: array
+              items: { type: string }
+    suggestions:
+      type: object
+      properties:
+        rewrite_title_neutral: { type: string }
+        notes_to_editor: { type: string }
+    diagnostics:
+      type: object
+      properties:
+        tokens_title: { type: integer }
+        tokens_content: { type: integer }
+        processing_time_ms: { type: integer }
+        windows_scanned:
+          type: array
+          items:
+            type: object
+            properties:
+              index: { type: integer }
+              start: { type: string }
+              length_chars: { type: integer }
+              evidence_hits: { type: array, items: { type: string } }
+
+llm_prompts:
+  judgment_prompt: |
+    Zastosuj ściśle REGEX z sekcji 'features' i zasady w 'counting_policy'.
+    Domyślnie TRAFIENIA regex mają pierwszeństwo. Jeżeli brak trafień regex dla danej kategorii (np. tytuł), LLM może zgłosić "trafienia semantyczne" tylko jeśli jest pewne powyżej progu z 'counting_policy.semantic_confidence_threshold'.
+
+    Zasady dla trafień semantycznych (hybryda):
+    - Oznacz każde trafienie semantyczne jawnie jako "semantic:<opis>" oraz podaj pole confidence (liczba 0..1) wewnątrz sygnału jeśli to możliwe.
+    - Trafienia semantyczne są ważone mnożnikiem 'semantic_weight_multiplier' przy liczeniu punktów.
+    - Nie zgłaszaj semantic hits, jeśli istnieją równoważne trafienia regex (regex wins).
+
+    0) Fail-fast: paywall/za krótka treść → 'insufficient_content'.
+    1) Sampling: 5 okien (0, 25%, 50%, 75%, koniec; po 600 znaków; overlap=50). Zeskanuj wszystkie, połącz unią.
+    2) Tytuł: policz superlatives, absolutes, sensational, alarming, curiosity_gap, listicle, sports_rumor, punctuation (capsy). Najpierw użyj regex. Jeżeli brak regex trafień, możesz zgłosić semantic hits (oznaczone jako 'semantic').
+    3) Treść: użyj 'content_features.sensational_phrases_regex' (to samo co tytuł + alarming). Zastosuj MIN_SUPPORT. Dopuszczalne są semantic hits analogicznie do tytułu.
+    4) Redukcje: credibility, hedging. Gdy hedging i overcertainty kolidują → zastosuj regułę preferencji: HEDGING WYGRYWA.
+    4.5) Jeżeli tytuł NIE zawiera wzmianki o kraju i ustawienie 'features.geography.assume_title_local_if_missing' jest true oraz 'features.geography.default_assumed_country' ustawione jest na 'Polska', traktuj tytuł jako implikujący 'w Polsce' dla potrzeb wykrywania rozbieżności geograficznych (country_mismatch).
+    5) Geography: wykryj wzmianki o kraju w tytule i treści używając sekcji 'features.geography'. Jeżeli tytuł implikuje zdarzenie lokalne (np. 'w Polsce', 'u nas' lub domyślnie przyjęte 'Polska') a treść jasno odnosi się do innego kraju (np. 'We Francji') → ustaw signals.mismatch.country_mismatch = true i zastosuj karę zgodnie z scoring.mismatch_rules.country_mismatch.
+    6) Mismatch: policz 'title_promises_supported_ratio' i 'alignment_score' (równe). Jeśli 'sensational' lub 'alarming' w tytule i są redukcje wiarygodności/hedging → 'exaggeration_gap=true'.
+    7) Wagi, capy, penalty_relaxation (per domena), zaokrąglenie do najbliższej 5. Trafienia semantyczne są mnożone przez 'semantic_weight_multiplier' przed sumowaniem.
+    8) Normalizuj etykietę wg 'counting_policy.label_normalization_map' (np. 'weak'→'mild', 'none'→'not_clickbait').
+    9) Generowanie uzasadnień:
+       a) 'rationale': Techniczne uzasadnienie z referencjami do konkretnych regex, feature hits, scoring rules, threshold values. To dla developerów i audytu.
+       b) 'rationale_user_friendly': Uzasadnienie dla zwykłych użytkowników/czytelników napisane prostym językiem. Bez żargonu technicznego (bez słów jak "regex", "scoring", "feature"). Wyjaśnij DLACZEGO tytuł/treść jest clickbaitem używając konkretnych przykładów z tekstu. Np.:
+          - "Tytuł zawiera sensacyjne sformułowania jak 'szok', 'niewiarygodne', które pobudzają emocje"
+          - "Treść nie dostarcza dowodów na obietnice z tytułu"
+          - "Tytuł sugeruje wydarzenie w Polsce, ale artykuł dotyczy Francji"
+          - "Użycie słów 'zawsze', 'nigdy' tworzy fałszywe poczucie pewności"
+          Każdy punkt powinien być konkretny, zrozumiały i odnosić się do faktycznego tekstu.
+   10) Zwróć WYŁĄCZNIE JSON zgodny z 'output_schema'. Jeżeli uwzględniasz trafienia semantyczne, w 'signals' dodaj pola 'title_semantic_hits' i 'content_semantic_hits' wraz z confidence.
+
+    Uwaga: semantyczne trafienia mają niższą wiarygodność niż regexy i podlegają dodatkowej kontroli (threshold + jasne oznaczenie).
+
+source_overrides:
+  defaults:
+    base_reputation: "unknown"
+    penalty_relaxation: 0
+  rmf24:
+    match_domains: ["rmf24.pl", "www.rmf24.pl"]
+    base_reputation: "medium"
+    penalty_relaxation: 1
+  focuspl:
+    match_domains: ["focus.pl", "www.focus.pl"]
+    base_reputation: "medium"
+    penalty_relaxation: 2
+  gov_pl:
+    match_domains: [".gov.pl"]
+    base_reputation: "high"
+    penalty_relaxation: 4
+
+calibration:
+  target_distribution: { not_clickbait: 0.45, mild: 0.30, strong: 0.20, extreme: 0.05 }
+  posthoc_shift_allowed: false
+
+evaluation:
+  acceptance_criteria:
+    precision_strong_extreme_min: 0.80
+    recall_strong_extreme_min: 0.70
+
+implementation_notes:
+  deterministic_mode: true
+  seed: 42
+  max_tokens_analysis: 4000
+  performance:
+    target_latency_ms: 500
+    cache_regex_results: true
+  semantic_deterministic_requirements: "Gdy używane są trafienia semantyczne, LLM musi outputować confidence i krótką racjonalizację by zachować odtwarzalność w połączeniu z seedem."
+  telemetry_fields:
+    - "score"
+    - "label"
+    - "signals.mismatch.alignment_score"
+    - "source"
+  ethics_safety:
+    - "Unikaj uprzedzeń politycznych/ideologicznych."
+    - "Nie klasyfikuj treści po temacie, tylko po formie i tonie."
+    - "Jeżeli brak treści (np. paywall), zwróć 'insufficient_content'."
+  failure_modes:
+    insufficient_content_label: "insufficient_content"
+    min_content_chars: 500
