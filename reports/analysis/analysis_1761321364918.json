@@ -1,0 +1,29 @@
+{
+  "id": 1761321364918,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/warszawa/news-przeprawa-ktora-laczy-nie-tylko-brzegi-otwarto-most-za-100-m,nId,8034523",
+  "title": "Przeprawa, która łączy nie tylko brzegi. Otwarto most za 100 mln złotych",
+  "score": 8.0,
+  "label": "not_clickbait",
+  "rationale": [
+    "Title is a positive/PR-style construction about infrastructure investment; no sensational regex matched.",
+    "Content provides factual details (cost, participants, dimensions) — credibility reduces clickbait risk substantially.",
+    "Alignment high (0.94)."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł promocyjny, ale artykuł opisuje faktyczną inwestycję i jej parametry.",
+    "Sugestia: dla większej precyzji dodać lokalizację (Granne, woj. podlaskie)."
+  ],
+  "signals": {
+    "title_hits": [],
+    "content_hits": ["numbers_dates: cost 100 mln zł","credibility: government officials present"],
+    "title_semantic_hits": [],
+    "content_semantic_hits": [],
+    "credibility_hits": ["org_names: Ministerstwo Infrastruktury"],
+    "monetization_hits": [],
+    "geography_hits": {"title_countries": [], "content_countries": ["Polska"]},
+    "mismatch": {"alignment_score": 0.94, "exaggeration_gap": false, "paywall_or_short": false, "country_mismatch": false, "time_omission": false, "date_omission": false, "detected_time_windows": [], "detected_dates": []}
+  },
+  "suggestions": {"rewrite_title_neutral": "Otwarto nowy most na rzece Bug. Inwestycja za 100 mln zł","notes_to_editor": "Tytuł jest dopuszczalny; rozważ bardziej bezpośrednią konstrukcję dla czytelników poszukujących informacji."},
+  "diagnostics": {"tokens_title": 11, "tokens_content": 420, "processing_time_ms": 85, "windows_scanned": [{"index":0,"start":"0","length_chars":600,"evidence_hits":["title: 'Otwarto most za 100 mln zł'","content: '100 mln zł', 'Granne'"]}]}
+}

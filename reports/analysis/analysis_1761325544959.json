@@ -1,0 +1,41 @@
+{
+  "id": 1761325544959,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/trump-nadepnal-rosjanom-na-odcisk-ale-ropa-wciaz-plynie-luki-w-sankcjach-usa/xe93bzn",
+  "title": "Trump nadepnął Rosjanom na odcisk, ale ropa wciąż płynie. Luki w sankcjach USA",
+  "published": "2025-10-24T17:55:17+02:00",
+  "fetched_at": "2025-10-24T19:05:44.959097",
+  "score": 32.0,
+  "label": "mild",
+  "rationale": [
+    "Title uses figurative/sensational phrasing ('nadepnął...na odcisk') and creates a small curiosity gap ('ale ropa wciąż płynie'), which add clickbait signals under the spec.",
+    "The article is an explicit analysis and the content provides named sources and policy context (Rosnieft, Łukoil, India/China reactions), which aligns with the headline and reduces mismatch penalties.",
+    "No monetization signals found. Net score places the article in the 'mild' clickbait range."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jest barwny i metaforyczny ('nadepnął na odcisk'), co przyciąga uwagę czytelnika.",
+    "Artykuł to jednak analiza z nazwanymi źródłami i kontekstem gospodarczym, więc treść wspiera tytuł — to obniża ryzyko wprowadzenia w błąd.",
+    "Oceniam to jako umiarkowane ryzyko clickbaitu; proponuję złagodzenie metafory w tytule, aby zachować bardziej informacyjny ton."
+  ],
+  "signals": {
+    "title_hits": ["figurative_language", "curiosity_gap"],
+    "content_hits": ["analysis_section", "named_entities", "policy_discussion"],
+    "credibility_hits": ["named_sources"],
+    "monetization_hits": [],
+    "geography_hits": {
+      "title_countries": [],
+      "content_countries": ["Russia", "USA", "India", "China"]
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Trump wprowadził nowe sankcje, ale ropa wciąż płynie. Luki w sankcjach USA",
+    "notes_to_editor": "Rozważ zastąpienie metaforycznego sformułowania neutralnym opisem sankcji; jeżeli zostawić metaforę, dodaj podtytuł z krótkim streszczeniem użytych źródeł."
+  },
+  "diagnostics": {
+    "content_char_count": 876,
+    "sampling_windows": 5,
+    "notes": "No detected title/content mismatch; analysis tag present which reduces clickbait risk per spec."
+  },
+  "created_by": "agent_manual_analysis_v1",
+  "created_at": "2025-10-24T20:00:00+02:00"
+}

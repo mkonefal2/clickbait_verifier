@@ -1,0 +1,29 @@
+{
+  "id": 1761325513821,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/polski-rzad-ma-plan-na-czarny-scenariusz-to-oni-opuszcza-domy-jako-pierwsi/yczdhjq",
+  "title": "W przypadku wojny to oni wyjadą jako pierwsi. Rząd ma plan na czarną godzinę",
+  "score": 28.0,
+  "label": "mild",
+  "rationale": [
+    "Title uses urgency and evacuation framing ('wyjadą jako pierwsi', 'czarna godzina') — matched curiosity/alarming tokens per title_features.",
+    "Content provides official plan details and lists vulnerable groups — credibility signals (government regulation) reduce net score.",
+    "Alignment high (0.90); no mismatch penalty."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł ma alarmujący ton (mówi o ewakuacji i 'czarnej godzinie'), co może niepotrzebnie wzbudzać obawy.",
+    "Artykuł jednak przedstawia konkretne przepisy i grupy prioritetowe, więc treść uzasadnia informację — rekomendujemy dodanie słowa 'według rozporządzenia' w tytule dla jasności."
+  ],
+  "signals": {
+    "title_hits": ["alarming: 'czarna godzina'","curiosity: 'to oni wyjadą jako pierwsi'"],
+    "content_hits": ["credibility: government regulation, specifics of ewakuation","numbers_dates: lists of groups"],
+    "title_semantic_hits": [],
+    "content_semantic_hits": [],
+    "credibility_hits": ["official_source: rozporządzenie"],
+    "monetization_hits": [],
+    "geography_hits": {"title_countries": [], "content_countries": ["Polska"]},
+    "mismatch": {"alignment_score": 0.90, "exaggeration_gap": false, "paywall_or_short": false, "country_mismatch": false, "time_omission": false, "date_omission": false, "detected_time_windows": [], "detected_dates": []}
+  },
+  "suggestions": {"rewrite_title_neutral": "Rząd przyjął plan ewakuacji — kto zostanie ewakuowany w pierwszej kolejności","notes_to_editor": "Tytuł można złagodzić dodając odniesienie do dokumentu (np. 'według rozporządzenia'), aby zmniejszyć alarmujący wydźwięk."},
+  "diagnostics": {"tokens_title": 13, "tokens_content": 120, "processing_time_ms": 75, "windows_scanned": [{"index":0,"start":"0","length_chars":600,"evidence_hits":["title: 'wyjadą jako pierwsi'","content: 'w pierwszej kolejności ewakuowane będą dzieci, kobiety w ciąży, osoby starsze'"]}]}
+}

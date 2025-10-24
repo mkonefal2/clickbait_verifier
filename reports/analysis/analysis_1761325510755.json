@@ -1,0 +1,29 @@
+{
+  "id": 1761325510755,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/maciej-adamkiewicz-nie-zyje-miliarder-i-wspolwlasciciel-firmy-adamed-mial-59-lat/k5q7t61",
+  "title": "Maciej Adamkiewicz nie żyje. Miliarder i współwłaściciel firmy Adamed miał 59 lat",
+  "score": 6.0,
+  "label": "not_clickbait",
+  "rationale": [
+    "Straightforward death notice frame; title matches factual announcement patterns rather than sensational regex.",
+    "Content supplies official statement and biographical info — strong credibility signals and high alignment (0.97).",
+    "No semantic hits."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł informuje o śmierci osoby i artykuł dostarcza potwierdzenia — to nagłówek informacyjny.",
+    "Sugestia: jeśli celem jest zwięzłość, tytuł można skrócić do 'Zmarł Maciej Adamkiewicz, współwłaściciel Adamed'."
+  ],
+  "signals": {
+    "title_hits": ["announcement: 'nie żyje'"],
+    "content_hits": ["credibility: company statement, Forbes reference"],
+    "title_semantic_hits": [],
+    "content_semantic_hits": [],
+    "credibility_hits": ["org_names: Adamed, Forbes"],
+    "monetization_hits": [],
+    "geography_hits": {"title_countries": [], "content_countries": ["Polska"]},
+    "mismatch": {"alignment_score": 0.97, "exaggeration_gap": false, "paywall_or_short": false, "country_mismatch": false, "time_omission": false, "date_omission": false, "detected_time_windows": [], "detected_dates": ["2025-10-23"]}
+  },
+  "suggestions": {"rewrite_title_neutral": "Zmarł Maciej Adamkiewicz, współwłaściciel Adamed","notes_to_editor": "Tytuł jest informacyjny i poprawny; można rozważyć krótszą formę."},
+  "diagnostics": {"tokens_title": 14, "tokens_content": 100, "processing_time_ms": 60, "windows_scanned": [{"index":0,"start":"0","length_chars":400,"evidence_hits":["title: 'nie żyje'","content: 'spółka poinformowała'"]}]}
+}

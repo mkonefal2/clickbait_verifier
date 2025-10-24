@@ -1,0 +1,29 @@
+{
+  "id": 1761325511463,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/napasc-na-centrum-postoj-we-wroclawiu-atakuja-nas-za-nazywanie-hamasu-faszystami/jm751wq",
+  "title": "Atak na centrum \"Postój\" we Wrocławiu. W ruch poszły kamienie, butelki i gaz pieprzowy",
+  "score": 18.0,
+  "label": "not_clickbait",
+  "rationale": [
+    "Title reports a violent incident with factual phrasing; it contains vivid elements but content corroborates events (police investigation).",
+    "Credibility signals (police, eyewitnesses) reduce clickbait score and alignment is high (0.92).",
+    "No semantic hits required."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł opisuje zdarzenie i podaje informacje o użytych przedmiotach, a artykuł potwierdza to relacją policji i organizatorów.",
+    "Sugestia: tytuł jest dopuszczalny; w leadzie doprecyzować okoliczności i brak ofiar, jeśli to ważne dla czytelników." 
+  ],
+  "signals": {
+    "title_hits": ["vivid_description: 'kamienie, butelki i gaz pieprzowy'"],
+    "content_hits": ["credibility: police investigation, eyewitness statements","geography: Wrocław"],
+    "title_semantic_hits": [],
+    "content_semantic_hits": [],
+    "credibility_hits": ["org_names: policja"],
+    "monetization_hits": [],
+    "geography_hits": {"title_countries": [], "content_countries": ["Polska"]},
+    "mismatch": {"alignment_score": 0.92, "exaggeration_gap": false, "paywall_or_short": false, "country_mismatch": false, "time_omission": false, "date_omission": false, "detected_time_windows": [], "detected_dates": []}
+  },
+  "suggestions": {"rewrite_title_neutral": "Atak na centrum 'Postój' we Wrocławiu. Zgłoszono rzucanie kamieni i użycie gazu pieprzowego","notes_to_editor": "Tytuł jest adekwatny; doprecyzować w leadzie, czy są poszkodowani."},
+  "diagnostics": {"tokens_title": 16, "tokens_content": 120, "processing_time_ms": 65, "windows_scanned": [{"index":0,"start":"0","length_chars":400,"evidence_hits":["title: 'kamienie, butelki i gaz pieprzowy'","content: 'Policja zbada sprawę'"]}]}
+}

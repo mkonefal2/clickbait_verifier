@@ -1,0 +1,29 @@
+{
+  "id": 1761321362275,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/krakow/news-nietypowe-odkrycie-w-krakowie-jadowite-pajaki-w-koszu-na-smi,nId,8034514",
+  "title": "Nietypowe odkrycie w Krakowie. Jadowite pająki w koszu na śmieci",
+  "score": 20.0,
+  "label": "not_clickbait",
+  "rationale": [
+    "Title uses 'Nietypowe odkrycie' and mentions jadowite pająki — attention-grabbing but factual; matches content which reports authorities' response.",
+    "Content includes official response and containment (weterynarz, straż miejska) — credibility reduces clickbait risk.",
+    "Alignment high (0.9); no semantic hits used."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł przyciąga uwagę nietypowym znaleziskiem, ale artykuł zawiera potwierdzenie i działania służb.",
+    "Sugestia: tytuł ok, ewentualnie dodać lokalizację (ul. Pilotów) jeśli potrzebna większa precyzja."
+  ],
+  "signals": {
+    "title_hits": ["curiosity: 'Nietypowe odkrycie'","sensational_token: 'jadowite pająki'"] ,
+    "content_hits": ["credibility: intervention by services, vet","geography: Kraków, ul. Pilotów"],
+    "title_semantic_hits": [],
+    "content_semantic_hits": [],
+    "credibility_hits": ["org_names: Straż Miejska, MPO Kraków"],
+    "monetization_hits": [],
+    "geography_hits": {"title_countries": [], "content_countries": ["Polska"]},
+    "mismatch": {"alignment_score": 0.90, "exaggeration_gap": false, "paywall_or_short": false, "country_mismatch": false, "time_omission": false, "date_omission": false, "detected_time_windows": [], "detected_dates": []}
+  },
+  "suggestions": {"rewrite_title_neutral": "Jadowite pająki znalezione w koszu na śmieci w Krakowie","notes_to_editor": "Tytuł jest sugestywny, ale artykuł potwierdza fakt. Jeśli celem jest neutralność, użyj bezokolicznikowej formy 'znalezione'."},
+  "diagnostics": {"tokens_title": 8, "tokens_content": 200, "processing_time_ms": 85, "windows_scanned": [{"index":0,"start":"0","length_chars":600,"evidence_hits":["title: 'jadowite pająki'","content: 'weterynarz'","content: 'MPO Kraków'"]},{"index":1,"start":"25%","length_chars":600,"evidence_hits":[]}]}
+}

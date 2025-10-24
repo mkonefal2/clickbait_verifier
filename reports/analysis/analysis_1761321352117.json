@@ -1,0 +1,66 @@
+{
+  "id": 1761321352117,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/swiat/news-ai-pomylila-paczke-czipsow-z-bronia-nastolatek-na-ziemi-w-ka,nId,8034531",
+  "title": "AI pomyliła paczkę czipsów z bronią. Nastolatek na ziemi w kajdankach",
+  "score": 28.0,
+  "label": "mild",
+  "rationale": [
+    "Applied regex-first features per clickbait_agent_spec_v1.1.yaml. Title contains vivid framing ('na ziemi w kajdankach') and a clear claim about AI misclassification (curiosity/incident framing).",
+    "Title additions: curious/vivid framing (curiosity_gap + punctuation/vivid phrase) increased title score; content describes the same incident with quotes and source references — credibility reduces overall score.",
+    "No semantic hits were added; evidence is present as plain text (system misidentified chips as a weapon, police response).",
+    "Alignment score high (0.85) — content supports the event described in the title; no mismatch penalty applied."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł opisuje nagłe zdarzenie: system AI błędnie rozpoznał paczkę chipsów jako broń, a policja interweniowała.",
+    "Artykuł podaje szczegóły i cytaty, więc nie stwierdzamy, że tytuł wprowadza w błąd — raczej używa barwnego opisu sytuacji.",
+    "Propozycja: rozważ bardziej neutralne sformułowanie, np. 'System AI błędnie zidentyfikował paczkę chipsów jako broń; nastolatek zatrzymany', aby zmniejszyć dramatyzację."
+  ],
+  "signals": {
+    "title_hits": [
+      "vivid_frame: 'na ziemi w kajdankach' (visual/vivid phrasing)",
+      "incident_claim: 'AI pomyliła paczkę czipsów z bronią'"
+    ],
+    "content_hits": [
+      "credibility: named location (Baltimore), named individual (Taki Allen), source references (BBC)",
+      "technology_topic: AI misclassification described"
+    ],
+    "title_semantic_hits": [],
+    "content_semantic_hits": [],
+    "credibility_hits": [
+      "quoted_speakers: victim quote and company statement",
+      "org_names: BBC, Omnilert"
+    ],
+    "monetization_hits": [],
+    "geography_hits": {
+      "title_countries": [],
+      "content_countries": ["USA"]
+    },
+    "mismatch": {
+      "alignment_score": 0.85,
+      "exaggeration_gap": false,
+      "paywall_or_short": false,
+      "country_mismatch": false,
+      "time_omission": false,
+      "date_omission": false,
+      "detected_time_windows": [],
+      "detected_dates": []
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "System AI w szkole w Baltimore błędnie zidentyfikował paczkę chipsów jako broń; nastolatek zatrzymany",
+    "notes_to_editor": "Tytuł jest barwny i przyciągający uwagę, ale artykuł potwierdza przebieg zdarzeń. Jeśli celem jest neutralność, rozważ użycie słowa 'zidentyfikował' zamiast 'pomyliła' i usunięcie fragmentu 'na ziemi w kajdankach'."
+  },
+  "diagnostics": {
+    "tokens_title": 11,
+    "tokens_content": 220,
+    "processing_time_ms": 100,
+    "windows_scanned": [
+      { "index": 0, "start": "0", "length_chars": 600, "evidence_hits": ["title: 'AI pomyliła'", "content: 'system AI pomylił paczkę chipsów jako broń'"] },
+      { "index": 1, "start": "25%", "length_chars": 600, "evidence_hits": ["content: 'Policja przyjechała w sile ośmiu radiowozów'", "content: 'Taki Allen'"] },
+      { "index": 2, "start": "50%", "length_chars": 600, "evidence_hits": ["content: 'Omnilert'", "content: 'BBC'"] },
+      { "index": 3, "start": "75%", "length_chars": 600, "evidence_hits": [] },
+      { "index": 4, "start": "last", "length_chars": 600, "evidence_hits": [] }
+    ]
+  }
+}

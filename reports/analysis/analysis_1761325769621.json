@@ -1,0 +1,49 @@
+{
+  "id": 1761325769621,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/kolejny-kraj-dolacza-do-koalicji-chetnych-musimy-zwiekszyc-presje/zmvvtxk",
+  "title": "Kolejny kraj dołącza do koalicji chętnych. \"Musimy zadbać o gwarancje\"",
+  "published": "2025-10-24T19:00:09+02:00",
+  "fetched_at": "2025-10-24T19:09:29.621775",
+  "score": 6.0,
+  "label": "not_clickbait",
+  "rationale": [
+    "Headline is informational and names participating countries; no sensational or curiosity-gap signals detected.",
+    "Content summarizes a diplomatic meeting and quotes officials; alignment is high and credibility markers present, so low clickbait score."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł informuje o dołączeniu kraju do koalicji i cytuje wypowiedź o potrzebie gwarancji — to neutralny komunikat.",
+    "Artykuł opiera się na oficjalnych źródłach i relacjach z konferencji, więc tytuł nie wprowadza w błąd."
+  ],
+  "signals": {
+    "title_hits": [],
+    "content_hits": ["diplomatic_meeting", "official_quotes"],
+    "credibility_hits": ["named_sources"],
+    "monetization_hits": [],
+    "geography_hits": {
+      "title_countries": ["Japan","UK"],
+      "content_countries": ["UK","Japan","Ukraine"]
+    },
+    "mismatch": {
+      "alignment_score": 0.96,
+      "exaggeration_gap": false,
+      "paywall_or_short": false,
+      "country_mismatch": false,
+      "time_omission": false,
+      "date_omission": false,
+      "detected_time_windows": [],
+      "detected_dates": ["2025-10-24"]
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Japonia dołącza do koalicji chętnych na rzecz Ukrainy — podkreślono potrzebę gwarancji",
+    "notes_to_editor": "Brak pilnej potrzeby zmian; tytuł jest właściwie informacyjny."
+  },
+  "diagnostics": {
+    "content_char_count": 280,
+    "sampling_windows": 5,
+    "notes": "Short diplomatic report; low clickbait indicators."
+  },
+  "created_by": "agent_manual_analysis_v1",
+  "created_at": "2025-10-24T20:14:30+02:00"
+}

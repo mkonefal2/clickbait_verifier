@@ -1,0 +1,29 @@
+{
+  "id": 1761325537704,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/niepokojace-doniesienia-rosjanie-szpieguja-nato-z-wraku-promu-estonia/d8kx29s",
+  "title": "Prom Estonia zatonął ponad 30 lat temu. Może służyć Rosji",
+  "published": "2025-10-24T16:45:34+02:00",
+  "fetched_at": "2025-10-24T19:05:37.704849",
+  "score": 30.0,
+  "label": "mild",
+  "rationale": [
+    "Tytuł formułuje przypuszczenie (\"Może służyć Rosji\") co tworzy curiosity_gap i lekki sensational efekt.",
+    "Artykuł opiera się na doniesieniach zewnętrznych (Süddeutsche) — brak twardych dowodów w treści, co uzasadnia umiarkowaną ocenę clickbaitowości."
+  ],
+  "rationale_user_friendly": [
+    "Nagłówek sugeruje możliwe wykorzystanie wraku do działań wywiadowczych — to przyciąga uwagę przez niepewność.",
+    "Sugeruję dodać w tytule źródło lub sformułować to jako doniesienie (np. \"Według doniesień:...\")." 
+  ],
+  "signals": {
+    "title_hits": ["curiosity_gap", "speculative_phrase"],
+    "content_hits": ["external_source_reference", "historical_context"],
+    "credibility_hits": ["external_newspaper"],
+    "monetization_hits": [],
+    "geography_hits": { "title_countries": ["Estonia", "Russia"], "content_countries": ["Estonia", "Russia"] }
+  },
+  "suggestions": { "rewrite_title_neutral": "Doniesienia: wrak promu Estonia mógł zostać wykorzystany do monitoringu — cytuje Süddeutsche", "notes_to_editor": "Dodać odniesienie do źródła i upewnić się, czy są potwierdzenia." },
+  "diagnostics": { "content_char_count": 540, "sampling_windows": 5, "notes": "Speculative headline based on secondary reporting." },
+  "created_by": "agent_manual_analysis_v1",
+  "created_at": "2025-10-24T20:30:00+02:00"
+}

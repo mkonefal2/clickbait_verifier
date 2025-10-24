@@ -1,0 +1,29 @@
+{
+  "id": 1761325512235,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/nowy-sondaz-zaskakuje-partia-brauna-o-krok-od-przelamania-kolejnej-bariery/hkntqyg",
+  "title": "Partia Grzegorza Brauna rośnie w siłę. Sensacyjny sondaż",
+  "score": 34.0,
+  "label": "mild",
+  "rationale": [
+    "Title includes 'Sensacyjny sondaż' — a curiosity/sensational token that increases title score.",
+    "Content reports poll numbers and context — credibility signals (CBOS, numbers) reduce net score but framing remains attention-grabbing.",
+    "Alignment score 0.80 — content supports claim though framing is sensational."
+  ],
+  "rationale_user_friendly": [
+    "Słowo 'Sensacyjny' w tytule ma na celu wyróżnienie treści i wzbudzenie emocji.",
+    "Artykuł przedstawia dane z sondażu, więc tytuł jest oparty na faktach, ale proponujemy mniej emocjonalny ton, np. 'Sondaż: partia Brauna notuje wzrost poparcia'."
+  ],
+  "signals": {
+    "title_hits": ["curiosity_gap: 'Sensacyjny sondaż'"],
+    "content_hits": ["numbers_dates: poll results","credibility: CBOS reference"],
+    "title_semantic_hits": [],
+    "content_semantic_hits": [],
+    "credibility_hits": ["org_names: CBOS"],
+    "monetization_hits": [],
+    "geography_hits": {"title_countries": [], "content_countries": ["Polska"]},
+    "mismatch": {"alignment_score": 0.80, "exaggeration_gap": false, "paywall_or_short": false, "country_mismatch": false, "time_omission": false, "date_omission": false, "detected_time_windows": [], "detected_dates": []}
+  },
+  "suggestions": {"rewrite_title_neutral": "Sondaż: partia Grzegorza Brauna notuje wzrost poparcia","notes_to_editor": "Usuń słowo 'Sensacyjny' jeśli chcesz zmniejszyć efekt clickbaitowy; artykuł zawiera dane wystarczające do informacji."},
+  "diagnostics": {"tokens_title": 8, "tokens_content": 140, "processing_time_ms": 70, "windows_scanned": [{"index":0,"start":"0","length_chars":400,"evidence_hits":["title: 'Sensacyjny sondaż'","content: 'CBOS'"]}]}
+}

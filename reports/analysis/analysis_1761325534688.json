@@ -1,0 +1,29 @@
+{
+  "id": 1761325534688,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/drony-pod-moskwa-doszlo-do-eksplozji-w-bloku-mieszkalnym/b59snrh",
+  "title": "Nocny atak na Rosję. Wysłano ponad 100 dronów",
+  "published": "2025-10-24T10:57:56+02:00",
+  "fetched_at": "2025-10-24T19:05:34.688310",
+  "score": 42.0,
+  "label": "mild",
+  "rationale": [
+    "Tytuł używa alarmującego tonu (\"Nocny atak\") i podaje dużą liczbę (\"ponad 100 dronów\") — silny curiosity_gap i sensational hits.",
+    "Treść raportuje ranni i konkretną lokalizację, co obniża ogólną clickbaitowość; jednak nagłówek pozostaje przyciągający uwagę."
+  ],
+  "rationale_user_friendly": [
+    "Nagłówek jest alarmujący i podaje dużą liczbę — przyciąga uwagę.",
+    "Artykuł zawiera konkretne informacje (ranni, miejsce), więc lepszy byłby tytuł z kontekstem i źródłem." 
+  ],
+  "signals": {
+    "title_hits": ["alarming_language", "numeric_magnitude"],
+    "content_hits": ["reported_casualties", "location_specific"],
+    "credibility_hits": [],
+    "monetization_hits": [],
+    "geography_hits": { "title_countries": ["Russia"], "content_countries": ["Russia"] }
+  },
+  "suggestions": { "rewrite_title_neutral": "Atak dronów pod Moskwą: pięć osób rannych, władze mówią o ponad 100 maszynach", "notes_to_editor": "Dodać odniesienie do oficjalnych komunikatów i zmniejszyć sensacyjność tytułu." },
+  "diagnostics": { "content_char_count": 830, "sampling_windows": 5, "notes": "News piece with numeric claim in title; title weight applied." },
+  "created_by": "agent_manual_analysis_v1",
+  "created_at": "2025-10-24T20:30:00+02:00"
+}

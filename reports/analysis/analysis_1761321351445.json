@@ -1,0 +1,68 @@
+{
+  "id": 1761321351445,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/polska/news-ukrainscy-sabotazysci-skazani-kulisy-podpalen-w-warszawie-i-,nId,8034540",
+  "title": "Ukraińscy sabotażyści skazani. Kulisy podpaleń w Warszawie i Wilnie",
+  "score": 30.0,
+  "label": "mild",
+  "rationale": [
+    "Applied regex-first rules from clickbait_agent_spec_v1.1.yaml. Title matched curiosity_gap (word 'Kulisy') and sensational framing via term 'sabotażyści' (counts as sensational/alarming token).",
+    "Title additions: curiosity_gap (6 pts) + sensational (12 pts) -> contributed to title score within caps.",
+    "Content: contains factual court verdicts, named defendants and locations; credibility signals (court, sentences, named individuals) reduce net score.",
+    "Mismatch/alignment: alignment_score computed at 0.88 — content supports the claims in the title (convictions), so no mismatch penalty applied.",
+    "No semantic hits added because regex/keyword evidence was sufficient.",
+    "Label chosen according to scoring.caps and label_thresholds (raw weighted score rounded to 30 -> 'mild')."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł brzmi mocno ('Ukraińscy sabotażyści') — używa oskarżającego słowa 'sabotażyści', które przyciąga uwagę.",
+    "Artykuł jednak opisuje wyroki sądowe i podaje konkretne fakty, więc treść potwierdza to, co pisze tytuł.",
+    "Propozycja: zastanówcie się nad złagodzeniem sformułowania dotyczącego narodowości w tytule (np. 'Osoby skazane za podpalenia' + doprecyzowanie w leadzie), by uniknąć niepotrzebnej stygmatyzacji."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational: 'sabotażyści' (alarming/sensational frame)",
+      "curiosity_gap: 'Kulisy'"
+    ],
+    "content_hits": [
+      "credibility: court verdicts and named defendants",
+      "geography: mentions of Warszawa, Wilno, Polska, Litwa, Łotwa"
+    ],
+    "title_semantic_hits": [],
+    "content_semantic_hits": [],
+    "credibility_hits": [
+      "court_decision: Sąd Okręgowy Warszawa-Praga",
+      "named_individuals: Serhii R., Pavlo T., Vladyslav Y."
+    ],
+    "monetization_hits": [],
+    "geography_hits": {
+      "title_countries": [],
+      "content_countries": ["Polska","Litwa","Łotwa"]
+    },
+    "mismatch": {
+      "alignment_score": 0.88,
+      "exaggeration_gap": false,
+      "paywall_or_short": false,
+      "country_mismatch": false,
+      "time_omission": false,
+      "date_omission": false,
+      "detected_time_windows": [],
+      "detected_dates": []
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Skazano osoby za podpalenia w Polsce i na Litwie. Sąd ujawnił szczegóły",
+    "notes_to_editor": "Tytuł jest sensacyjny z powodu słowa 'sabotażyści' oraz słowa 'Ukraińscy' na jego początku — rozważ przesunięcie akcentu na fakt (wyrok) i doprecyzowanie w leadzie, aby uniknąć stygmatyzacji narodowości."
+  },
+  "diagnostics": {
+    "tokens_title": 7,
+    "tokens_content": 230,
+    "processing_time_ms": 110,
+    "windows_scanned": [
+      { "index": 0, "start": "0", "length_chars": 600, "evidence_hits": ["title: 'Ukraińscy sabotażyści'", "content: 'skazani za udział'"] },
+      { "index": 1, "start": "25%", "length_chars": 600, "evidence_hits": ["content: 'podpalenia sklepu IKEA'", "content: 'Marywilska 44'"] },
+      { "index": 2, "start": "50%", "length_chars": 600, "evidence_hits": ["content: 'zorganizowana grupa przestępcza'"] },
+      { "index": 3, "start": "75%", "length_chars": 600, "evidence_hits": [] },
+      { "index": 4, "start": "last", "length_chars": 600, "evidence_hits": [] }
+    ]
+  }
+}

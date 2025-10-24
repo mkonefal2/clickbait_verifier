@@ -1,0 +1,29 @@
+{
+  "id": 1761321361616,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/raporty/raport-wojna-z-rosja/news-nowa-strategia-rosjan-na-front-wysylaja-kobiety,nId,8034503",
+  "title": "Nowa strategia Rosjan. Na front wysyłają kobiety",
+  "score": 32.0,
+  "label": "mild",
+  "rationale": [
+    "Title uses framing that highlights a strategic change and mentions 'kobiety' — this matches curiosity/alarming tokens (curiosity_gap + alarming).",
+    "Content reports alleged operational changes with sources (Atesz, reports) — credibility present but the framing increases title score.",
+    "Alignment high (0.86) — content supports the claim; no mismatch penalty."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł podkreśla zmianę taktyczną i używa emocjonalnego akcentu (kobiety na froncie), co może wzbudzać zainteresowanie czytelnika.",
+    "Artykuł podaje kontekst i źródła, więc nie stwierdzamy, że tytuł wprowadza w błąd, ale ton jest mocny — rozważ złagodzenie formy, np. 'Rosja formuje oddziały z udziałem kobiet'."
+  ],
+  "signals": {
+    "title_hits": ["curiosity_gap: 'Nowa strategia'","alarming: 'wysylaja kobiety'"],
+    "content_hits": ["credibility: named groups (Atesz), locations (Pokrowsk)","numbers_dates: reference to 2023+ reports"],
+    "title_semantic_hits": [],
+    "content_semantic_hits": [],
+    "credibility_hits": ["source: Atesz (resistance reports)"],
+    "monetization_hits": [],
+    "geography_hits": {"title_countries": [], "content_countries": ["Rosja","Ukraina"]},
+    "mismatch": {"alignment_score": 0.86, "exaggeration_gap": false, "paywall_or_short": false, "country_mismatch": false, "time_omission": false, "date_omission": false, "detected_time_windows": [], "detected_dates": []}
+  },
+  "suggestions": {"rewrite_title_neutral": "Rosja tworzy oddziały szturmowe z udziałem kobiet na kierunku pokrowskim","notes_to_editor": "Tytuł ma silny wydźwięk — jeśli celem jest neutralność, rozważ mniej alarmującą konstrukcję.","notes_to_editor_priority": "low"},
+  "diagnostics": {"tokens_title": 7, "tokens_content": 220, "processing_time_ms": 90, "windows_scanned": [{"index":0,"start":"0","length_chars":600,"evidence_hits":["title: 'Na front wysylaja kobiety'","content: 'utworzenie oddziałów szturmowych z kobietami'"]},{"index":1,"start":"25%","length_chars":600,"evidence_hits":["content: 'ciężkie straty'","content: '506. pułk'"]}]}
+}

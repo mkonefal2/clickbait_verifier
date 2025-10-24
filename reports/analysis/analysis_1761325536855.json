@@ -1,0 +1,29 @@
+{
+  "id": 1761325536855,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/kosztowne-rewolucje-donalda-trumpa-prezydent-usa-nie-zna-umiaru/cly98vr",
+  "title": "Kosztowne rewolucje Donalda Trumpa. Prezydent USA nie zna umiaru",
+  "published": "2025-10-24T16:39:18+02:00",
+  "fetched_at": "2025-10-24T19:05:36.855796",
+  "score": 36.0,
+  "label": "mild",
+  "rationale": [
+    "Tytuł używa oceniającego języka (\"nie zna umiaru\") i wartościujących słów — signals: sensational and opinionated.",
+    "Treść opisuje dekoracje i zachowania administracji — to bardziej komentarz/opinia niż twarde wiadomości, co obniża zaufanie do neutralności tytułu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł ma wydźwięk oceniający i może sugerować opinię zamiast faktu.",
+    "Proponuję dodać, że to opis stylu/preferencji administracji lub podpisać jako komentarz/relację." 
+  ],
+  "signals": {
+    "title_hits": ["opinionated_language", "value_judgement"],
+    "content_hits": ["decor_details", "quoted_statements"],
+    "credibility_hits": [],
+    "monetization_hits": [],
+    "geography_hits": { "title_countries": ["USA"], "content_countries": ["USA"] }
+  },
+  "suggestions": { "rewrite_title_neutral": "Zmiany dekoracji w Białym Domu opisane na tle pierwszych miesięcy prezydentury Trumpa", "notes_to_editor": "Rozważyć oznaczenie jako felieton/komentarz, jeśli materiał ma subiektywny ton." },
+  "diagnostics": { "content_char_count": 920, "sampling_windows": 5, "notes": "Opinionated feature; title additions applied." },
+  "created_by": "agent_manual_analysis_v1",
+  "created_at": "2025-10-24T20:30:00+02:00"
+}

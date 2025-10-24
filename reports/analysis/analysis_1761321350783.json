@@ -1,0 +1,66 @@
+{
+  "id": 1761321350783,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/polska/news-smutna-wiadomosc-dla-swiata-medycyny-i-biznesu-nie-zyje-dr-m,nId,8034483",
+  "title": "Smutna wiadomość dla świata medycyny i biznesu. Nie żyje dr Maciej Adamkiewicz",
+  "score": 6.0,
+  "label": "not_clickbait",
+  "rationale": [
+    "Applied title and content regex features from clickbait_agent_spec_v1.1.yaml (regex-first).",
+    "Title hits: 'Smutna wiadomość' and 'Nie żyje' are factual announcement frames not in sensational_phrases_regex; no superlatives/absolutes/curiosity-gap regex matched. Title matched neutral factual death announcement pattern -> low addition.",
+    "Content supports title: article reports the death, includes dates, affiliations and quotes from company — credibility signals (quoted_speakers, org_names) reduce clickbait score.",
+    "No semantic hits were necessary (regex matched and provided evidence).",
+    "Mismatch: alignment score high (0.95) because title promise (announcement of death) is fully supported by content; no mismatch penalties applied."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł informuje o śmierci konkretnej osoby — to ważna wiadomość, a artykuł faktycznie to potwierdza.",
+    "Nie znaleźliśmy w tytule obietnicy sensacyjnych treści ani fałszywych zapewnień — dlatego nie traktujemy go jako clickbaitu.",
+  "Sugestia: tytuł jest dopuszczalny, ale można uniknąć nadmiernego dramatu, np. \"Zmarł dr Maciej Adamkiewicz\" jako krótsza, neutralna forma."
+  ],
+  "signals": {
+    "title_hits": [
+      "announcement: 'Nie żyje' (death-notice frame)"
+    ],
+    "content_hits": [
+      "credibility: dates and affiliations present",
+      "quote: company statement from Adamed"
+    ],
+    "title_semantic_hits": [],
+    "content_semantic_hits": [],
+    "credibility_hits": [
+      "quoted_speakers: company statement",
+      "org_names: Adamed, Forbes"
+    ],
+    "monetization_hits": [],
+    "geography_hits": {
+      "title_countries": [],
+      "content_countries": ["Polska"]
+    },
+    "mismatch": {
+      "alignment_score": 0.95,
+      "exaggeration_gap": false,
+      "paywall_or_short": false,
+      "country_mismatch": false,
+      "time_omission": false,
+      "date_omission": false,
+      "detected_time_windows": ["23-10-2025"],
+      "detected_dates": ["2025-10-23"]
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Zmarł dr Maciej Adamkiewicz, współwłaściciel Adamed",
+    "notes_to_editor": "Tytuł jest informacyjny i artykuł go wspiera. Można rozważyć krótszą, neutralną formę bez frazy 'Smutna wiadomość', aby uniknąć podkreślania emocji."
+  },
+  "diagnostics": {
+    "tokens_title": 11,
+    "tokens_content": 180,
+    "processing_time_ms": 90,
+    "windows_scanned": [
+      { "index": 0, "start": "0", "length_chars": 600, "evidence_hits": ["title: 'Nie żyje'", "content: 'zmarł dr Maciej Adamkiewicz'"] },
+      { "index": 1, "start": "25%", "length_chars": 600, "evidence_hits": ["content: 'Adamed Pharma'", "content: 'Forbes'"] },
+      { "index": 2, "start": "50%", "length_chars": 600, "evidence_hits": ["content: '23 października'"] },
+      { "index": 3, "start": "75%", "length_chars": 600, "evidence_hits": [] },
+      { "index": 4, "start": "last", "length_chars": 600, "evidence_hits": [] }
+    ]
+  }
+}

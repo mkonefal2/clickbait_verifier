@@ -1,0 +1,29 @@
+{
+  "id": 1761325542815,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/smieciowa-machina-wojenna-putina-cienko-przedzie-rosje-ratuje-juz-tylko-chinska/l37676l",
+  "title": "\"Śmieciowa\" machina wojenna Putina cienko przędzie. Rosję ratuje już tylko chińska kroplówka",
+  "published": "2025-10-24T15:31:42+02:00",
+  "fetched_at": "2025-10-24T19:05:42.815189",
+  "score": 50.0,
+  "label": "strong",
+  "rationale": [
+    "Tytuł używa pogardliwego/pejoratywnego języka (\"śmieciowa\") i mocnych metafor (\"kroplówka\") — duża liczba clickbaitowych dodatków i obniżenie neutralności.",
+    "Treść zawiera silne oceny ekspertów i metaforyczne opisy, co razem z tytułem podnosi ogólną clickbaitowość do progu 'strong'."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jest silnie wartościujący i sensacyjny — może sugerować przewagę opinii nad faktami.",
+    "Zalecam złagodzenie sformułowań i podanie konkretnych danych wsparcia ról Chin w pomocach, aby uniknąć przesady." 
+  ],
+  "signals": {
+    "title_hits": ["pejorative_language", "metaphor", "sensationalism"],
+    "content_hits": ["expert_commentary", "geopolitical_claims"],
+    "credibility_hits": [],
+    "monetization_hits": [],
+    "geography_hits": { "title_countries": ["Russia", "China"], "content_countries": ["Russia", "China"] }
+  },
+  "suggestions": { "rewrite_title_neutral": "Ekspert: Rosja korzysta z chińskiego wsparcia; słabości armii Putina widoczne", "notes_to_editor": "Wyrównać opinię ekspercka z danymi lub oznaczyć jako analiza/opinia." },
+  "diagnostics": { "content_char_count": 1400, "sampling_windows": 5, "notes": "Opinionated/geopolitical analysis with strong rhetorical devices." },
+  "created_by": "agent_manual_analysis_v1",
+  "created_at": "2025-10-24T20:30:00+02:00"
+}

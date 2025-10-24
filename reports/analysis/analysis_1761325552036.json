@@ -1,0 +1,50 @@
+{
+  "id": 1761325552036,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/tylko-w-onecie/dziura-w-nfz-szpitale-przesuwaja-zabiegi-to-mozna-juz-nazwac-pozarem/dvp65yc",
+  "title": "Gigantyczne problemy w szpitalach. \"Bal się skończył. Jest tragedia\"",
+  "published": "2025-10-24T15:24:08+02:00",
+  "fetched_at": "2025-10-24T19:05:52.036934",
+  "score": 38.0,
+  "label": "mild",
+  "rationale": [
+    "Title uses hyperbolic phrasing ('Gigantyczne', 'Bal się skończył', 'Jest tragedia') matching sensational and alarming title regexes.",
+    "Content contains direct quotes from hospital directors and budget figures which provide credibility and reduce mismatch penalties, but headline remains emotive leading to net mild score.",
+    "No monetization signals detected."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych, obrazowych zwrotów, które zwiększają atrakcyjność nagłówka.",
+    "Artykuł jednak przedstawia konkretne dane i wypowiedzi służb — proponuję złagodzić metaforyczne sformułowania, by zachować informacyjny ton."
+  ],
+  "signals": {
+    "title_hits": ["sensational_phrases", "alarming_frames"],
+    "content_hits": ["quoted_officials", "budget_numbers"],
+    "credibility_hits": ["named_sources"],
+    "monetization_hits": [],
+    "geography_hits": {
+      "title_countries": ["Poland"],
+      "content_countries": ["Poland"]
+    },
+    "mismatch": {
+      "alignment_score": 0.78,
+      "exaggeration_gap": true,
+      "paywall_or_short": false,
+      "country_mismatch": false,
+      "time_omission": false,
+      "date_omission": false,
+      "detected_time_windows": [],
+      "detected_dates": ["2025-10-24"]
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Problemy w budżecie NFZ. Szpitale przesuwają zabiegi",
+    "notes_to_editor": "Zastąp hiperboliczne zwroty neutralnym opisem sytuacji; warto wskazać źródło cytatu (dyrektor szpitala)."
+  },
+  "diagnostics": {
+    "content_char_count": 560,
+    "sampling_windows": 5,
+    "notes": "Analysis piece with named sources; title flagged for sensational phrasing."
+  },
+  "created_by": "agent_manual_analysis_v1",
+  "created_at": "2025-10-24T20:09:00+02:00"
+}

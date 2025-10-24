@@ -1,0 +1,50 @@
+{
+  "id": 1761325557633,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/warszawa/sprawa-podpalenia-hali-przy-marywilskiej-sprawcy-uslyszeli-wyroki/dffveke",
+  "title": "Wyrok dla sabotażystów. W tle sprawa podpalenia hali przy Marywilskiej",
+  "published": "2025-10-24T16:02:17+02:00",
+  "fetched_at": "2025-10-24T19:05:57.633995",
+  "score": 12.0,
+  "label": "not_clickbait",
+  "rationale": [
+    "Title reports a judicial outcome and names the case context; no sensational regex matches beyond factual wording.",
+    "Content is a factual report from the prosecutor's office describing convictions and context — strong alignment, so no mismatch penalties applied.",
+    "Net score is low; treat as factual reporting rather than clickbait."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł informuje o wyroku i odnosi się do konkretnej sprawy — nie używa przesadnych sformułowań.",
+    "Artykuł przedstawia szczegóły śledztwa i wyroków, więc tytuł pasuje do treści."
+  ],
+  "signals": {
+    "title_hits": [],
+    "content_hits": ["criminal_case_report", "official_statement"],
+    "credibility_hits": ["prosecutor_statement"],
+    "monetization_hits": [],
+    "geography_hits": {
+      "title_countries": ["Poland"],
+      "content_countries": ["Poland", "Lithuania"]
+    },
+    "mismatch": {
+      "alignment_score": 0.94,
+      "exaggeration_gap": false,
+      "paywall_or_short": false,
+      "country_mismatch": false,
+      "time_omission": false,
+      "date_omission": false,
+      "detected_time_windows": [],
+      "detected_dates": ["2025-10-24"]
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Sąd wydał wyroki w sprawie sabotażu; powiązania z podpalenieniami przy Marywilskiej",
+    "notes_to_editor": "Tytuł poprawny — ewentualnie doprecyzować, że chodzi o wyroki na konkretne osoby."
+  },
+  "diagnostics": {
+    "content_char_count": 420,
+    "sampling_windows": 5,
+    "notes": "Factual prosecutor press release style article; minimal clickbait risk."
+  },
+  "created_by": "agent_manual_analysis_v1",
+  "created_at": "2025-10-24T20:14:00+02:00"
+}

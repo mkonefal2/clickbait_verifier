@@ -1,0 +1,29 @@
+{
+  "id": 1761321364247,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/trojmiasto/news-tragiczny-wypadek-na-s6-jedna-osoba-nie-zyje-druga-w-ciezkim,nId,8034519",
+  "title": "Tragiczny wypadek na S6",
+  "score": 14.0,
+  "label": "not_clickbait",
+  "rationale": [
+    "Title is concise factual reporting of an accident; no sensational regex matched beyond 'Tragiczny' which signals severity but is supported by content.",
+    "Content describes casualties, emergency response, and traffic disruption — credibility reduces clickbait risk.",
+    "Alignment score high (0.91)."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł odzwierciedla tragedię na drodze i artykuł podaje szczegóły, więc to raczej informacja niż clickbait.",
+    "Sugestia: jeśli chcesz zmniejszyć dramatyzm, użyj 'Wypadek na S6. Jedna osoba nie żyje, druga w ciężkim stanie'."
+  ],
+  "signals": {
+    "title_hits": ["neutral_warning: 'Tragiczny'"] ,
+    "content_hits": ["numbers_dates: casualty count","credibility: emergency services, LPR"],
+    "title_semantic_hits": [],
+    "content_semantic_hits": [],
+    "credibility_hits": ["org_names: LPR, policja"],
+    "monetization_hits": [],
+    "geography_hits": {"title_countries": [], "content_countries": ["Polska"]},
+    "mismatch": {"alignment_score": 0.91, "exaggeration_gap": false, "paywall_or_short": false, "country_mismatch": false, "time_omission": false, "date_omission": false, "detected_time_windows": [], "detected_dates": []}
+  },
+  "suggestions": {"rewrite_title_neutral": "Wypadek na S6. Jedna osoba nie żyje, druga w ciężkim stanie","notes_to_editor": "Tytuł jest dopuszczalny; dla neutralności można wymienić skutki zdarzenia w leadzie."},
+  "diagnostics": {"tokens_title": 4, "tokens_content": 160, "processing_time_ms": 75, "windows_scanned": [{"index":0,"start":"0","length_chars":600,"evidence_hits":["title: 'Tragiczny'","content: 'jedna osoba nie żyje'"]} ] }
+}

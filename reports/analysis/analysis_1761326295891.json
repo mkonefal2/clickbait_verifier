@@ -1,0 +1,49 @@
+{
+  "id": 1761326295891,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/polska/news-wycinka-drzew-na-wlasnej-dzialce-pomylka-moze-byc-kosztowna,nId,8034561",
+  "title": "Wycinka drzew na własnej działce. Pomyłka może być kosztowna",
+  "published": "2025-10-24T18:54:34",
+  "fetched_at": "2025-10-24T19:18:15.891851",
+  "score": 6.0,
+  "label": "not_clickbait",
+  "rationale": [
+    "Title is advisory and cautionary but contains no sensational phrases matched by title regexes.",
+    "Content provides legal details, limits and penalties which support the headline — credibility signals and numbers reduce any risk."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł ostrzega przed konsekwencjami nielegalnej wycinki drzew — to praktyczny komunikat, nie clickbait.",
+    "Artykuł zawiera szczegóły prawne i przykłady kar, więc tytuł pasuje do treści."
+  ],
+  "signals": {
+    "title_hits": [],
+    "content_hits": ["regulatory_guidance", "legal_limits", "penalty_examples"],
+    "credibility_hits": ["official_sources", "numeric_limits"],
+    "monetization_hits": [],
+    "geography_hits": {
+      "title_countries": ["Poland"],
+      "content_countries": ["Poland"]
+    },
+    "mismatch": {
+      "alignment_score": 0.97,
+      "exaggeration_gap": false,
+      "paywall_or_short": false,
+      "country_mismatch": false,
+      "time_omission": false,
+      "date_omission": false,
+      "detected_time_windows": [],
+      "detected_dates": []
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Wycinka drzew na prywatnej działce: kiedy jest legalna i jakie grożą kary",
+    "notes_to_editor": "Tytuł może pozostać; ewentualnie doprecyzować, że mowa o limitach obwodu pnia."
+  },
+  "diagnostics": {
+    "content_char_count": 1420,
+    "sampling_windows": 5,
+    "notes": "Praktyczny poradnik/regulatory piece; minimal clickbait potential."
+  },
+  "created_by": "agent_manual_analysis_v1",
+  "created_at": "2025-10-24T20:15:00+02:00"
+}

@@ -1,0 +1,50 @@
+{
+  "id": 1761325549358,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/trojmiasto/pogloski-o-politycznej-smierci-ko-sa-przedwczesne-koalicja-ma-juz-innego-przeciwnika/rst7qxf",
+  "title": "Pogłoski o politycznej śmierci KO są przedwczesne? Wskazuje na \"dwugłowego przeciwnika\" Tuska",
+  "published": "2025-10-24T16:02:27+02:00",
+  "fetched_at": "2025-10-24T19:05:49.358101",
+  "score": 34.0,
+  "label": "mild",
+  "rationale": [
+    "Title uses provocative phrasing ('polityczna śmierć', 'dwugłowego przeciwnika') and a question mark — triggers curiosity_gap and sensational regexes.",
+    "Content contains expert commentary and contextual analysis that tempers the headline's dramatic tone (reductions: quoted experts), but the title's dramatic metaphor remains, producing a mild clickbait score.",
+    "No monetization signals detected."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa metafory 'polityczna śmierć' i pyta, czy to prawda — to budzi ciekawość czytelnika.",
+    "W artykule znajdują się głosy ekspertów, które łagodzą te twierdzenia, więc sugeruję zmniejszyć metaforyczny język w tytule."
+  ],
+  "signals": {
+    "title_hits": ["curiosity_gap", "sensational_phrases"],
+    "content_hits": ["expert_commentary", "political_analysis"],
+    "credibility_hits": ["quoted_speakers"],
+    "monetization_hits": [],
+    "geography_hits": {
+      "title_countries": ["Poland"],
+      "content_countries": ["Poland"]
+    },
+    "mismatch": {
+      "alignment_score": 0.72,
+      "exaggeration_gap": true,
+      "paywall_or_short": false,
+      "country_mismatch": false,
+      "time_omission": false,
+      "date_omission": false,
+      "detected_time_windows": [],
+      "detected_dates": ["2025-10-24"]
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Ekspert: pogłoski o politycznym upadku KO są przedwczesne",
+    "notes_to_editor": "Rozważ zastąpienie metafory 'polityczna śmierć' mniej dramatycznym sformułowaniem, odwołując się bezpośrednio do opinii cytowanych ekspertów."
+  },
+  "diagnostics": {
+    "content_char_count": 512,
+    "sampling_windows": 5,
+    "notes": "Opinion/analysis piece — expert quotes reduce risk but headline retains dramatic framing."
+  },
+  "created_by": "agent_manual_analysis_v1",
+  "created_at": "2025-10-24T20:06:30+02:00"
+}

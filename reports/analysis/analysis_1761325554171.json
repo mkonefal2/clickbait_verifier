@@ -1,0 +1,49 @@
+{
+  "id": 1761325554171,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/tylko-w-onecie/sankcje-powoli-dobijaja-rosje-dziennikarze-o-oslabieniu-moskwy/wee5g54",
+  "title": "Rosja coraz słabsza? Dziennikarze komentują nieznane skutki sankcji",
+  "published": "2025-10-24T12:53:34+02:00",
+  "fetched_at": "2025-10-24T19:05:54.171734",
+  "score": 22.0,
+  "label": "not_clickbait",
+  "rationale": [
+    "Title uses a question and slightly provocative phrasing but mainly frames a commentary/discussion rather than making an unsubstantiated claim.",
+    "Content is an opinion/commentary piece with named hosts and analysis; alignment is sufficient and reductions apply (quoted commentary). Net score low."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zadaje pytanie o kondycję Rosji i zapowiada komentarz dziennikarzy — to format zachęcający do dyskusji, ale niekoniecznie clickbaitowy.",
+    "Artykuł jest analizą z opiniami ekspertów i dziennikarzy, więc tytuł pasuje do treści."
+  ],
+  "signals": {
+    "title_hits": ["question_format", "mildly_provocative"],
+    "content_hits": ["opinion_piece", "expert_commentary"],
+    "credibility_hits": ["named_hosts"],
+    "monetization_hits": [],
+    "geography_hits": {
+      "title_countries": ["Russia"],
+      "content_countries": ["Russia"]
+    },
+    "mismatch": {
+      "alignment_score": 0.81,
+      "exaggeration_gap": false,
+      "paywall_or_short": false,
+      "country_mismatch": false,
+      "time_omission": false,
+      "date_omission": false,
+      "detected_time_windows": [],
+      "detected_dates": ["2025-10-24"]
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Dziennikarze o skutkach sankcji dla Rosji",
+    "notes_to_editor": "Tytuł w porządku; jeśli celem jest neutralność, usuń znak zapytania i użyj opisu."
+  },
+  "diagnostics": {
+    "content_char_count": 420,
+    "sampling_windows": 5,
+    "notes": "Opinion/commentary format; minimal clickbait signals."
+  },
+  "created_by": "agent_manual_analysis_v1",
+  "created_at": "2025-10-24T20:10:30+02:00"
+}

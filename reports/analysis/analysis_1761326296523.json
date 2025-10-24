@@ -1,0 +1,50 @@
+{
+  "id": 1761326296523,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/swiat/news-hegseth-potraktujemy-cie-jak-al-kaide-dopadniemy-zabijemy,nId,8034556",
+  "title": "Hegseth: Potraktujemy cię jak Al-Kaidę, dopadniemy, zabijemy",
+  "published": "2025-10-24T19:05:00",
+  "fetched_at": "2025-10-24T19:18:16.523862",
+  "score": 50.0,
+  "label": "strong",
+  "rationale": [
+    "Title contains explicit violent language and threats (matches sensational and alarming title regexes), which strongly increases the title additions.",
+    "However, the content quotes a named official (Pete Hegseth) and describes a confirmed military action, which provides credibility reductions but does not fully remove the strong signal — resulting in a 'strong' score.",
+    "No monetization signals detected."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł cytuje groźne słowa oficjela, co ma silny, prowokacyjny wydźwięk.",
+    "Artykuł przytacza oficjalne wypowiedzi i opisuje operacje militarne, ale dramatyczny charakter cytatu sprawia, że warto rozważyć złagodzenie języka w nagłówku lub wyraźne zaznaczenie, że jest to cytat."
+  ],
+  "signals": {
+    "title_hits": ["alarming_frames", "sensational_phrases", "violent_threats"],
+    "content_hits": ["official_statement", "military_action"],
+    "credibility_hits": ["quoted_speakers", "named_sources"],
+    "monetization_hits": [],
+    "geography_hits": {
+      "title_countries": ["USA"],
+      "content_countries": ["USA","Venezuela","Colombia"]
+    },
+    "mismatch": {
+      "alignment_score": 0.68,
+      "exaggeration_gap": true,
+      "paywall_or_short": false,
+      "country_mismatch": false,
+      "time_omission": false,
+      "date_omission": false,
+      "detected_time_windows": [],
+      "detected_dates": []
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Pete Hegseth o działaniach przeciwko przemytnikom: 'Zmapujemy was, dopadniemy was'",
+    "notes_to_editor": "Jeżeli cytat ma pozostać, ująć go w kontekście (np. 'według Pete'a Hegsetha') i rozważyć łagodniejszą formę nagłówka."
+  },
+  "diagnostics": {
+    "content_char_count": 1240,
+    "sampling_windows": 5,
+    "notes": "Direct quote with violent language; credibility reductions apply but strong signal remains."
+  },
+  "created_by": "agent_manual_analysis_v1",
+  "created_at": "2025-10-24T20:15:30+02:00"
+}

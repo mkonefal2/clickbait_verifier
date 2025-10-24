@@ -1,0 +1,50 @@
+{
+  "id": 1761325553465,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/tylko-w-onecie/oni-dzialali-jak-stasi-w-nrd-minister-zurek-reaguje-na-sprawe-kasi-tusk/wbh0l8x",
+  "title": "Minister Żurek reaguje na sprawę córki Donalda Tuska. Mówi o \"osaczeniu\"",
+  "published": "2025-10-24T16:20:03+02:00",
+  "fetched_at": "2025-10-24T19:05:53.465768",
+  "score": 30.0,
+  "label": "mild",
+  "rationale": [
+    "Title uses charged phrasing ('osaczeniu', 'działali jak STASI' in body) that triggers sensational/title alerts.",
+    "Content is political commentary and includes quotes from an official, which provides context and reduces mismatch, but emotive framing in the title keeps score in mild range.",
+    "No monetization signals detected."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł cytuje ministra używając słowa 'osaczeniu', co nadaje mu emocjonalny wydźwięk.",
+    "Artykuł zawiera kontekst i cytaty, które częściowo uzasadniają ten język, ale warto rozważyć łagodniejszą wersję tytułu."
+  ],
+  "signals": {
+    "title_hits": ["sensational_phrases", "quoted_emotive_term"],
+    "content_hits": ["political_quotes", "historical_comparison"],
+    "credibility_hits": ["quoted_speakers"],
+    "monetization_hits": [],
+    "geography_hits": {
+      "title_countries": ["Poland"],
+      "content_countries": ["Poland"]
+    },
+    "mismatch": {
+      "alignment_score": 0.74,
+      "exaggeration_gap": false,
+      "paywall_or_short": false,
+      "country_mismatch": false,
+      "time_omission": false,
+      "date_omission": false,
+      "detected_time_windows": [],
+      "detected_dates": ["2025-10-24"]
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Minister Żurek o śledztwie dotyczącym Pegasusa: mówi o 'osaczeniu'",
+    "notes_to_editor": "Jeżeli to cytat, rozważ podkreślenie, że jest to opinia cytowanego ministra (np. cudzysłów w tytule)."
+  },
+  "diagnostics": {
+    "content_char_count": 480,
+    "sampling_windows": 5,
+    "notes": "Political quote-driven article; title uses emotive language."
+  },
+  "created_by": "agent_manual_analysis_v1",
+  "created_at": "2025-10-24T20:10:00+02:00"
+}

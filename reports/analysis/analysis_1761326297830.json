@@ -1,0 +1,50 @@
+{
+  "id": 1761326297830,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/nauka/news-naukowcy-odkrywaja-prawdziwych-zabojcow-wielkiej-armii-napol,nId,8034559",
+  "title": "Naukowcy odkrywają prawdziwych \"zabójców\" Wielkiej Armii Napoleona",
+  "published": "2025-10-24T18:52:00",
+  "fetched_at": "2025-10-24T19:18:17.830953",
+  "score": 28.0,
+  "label": "mild",
+  "rationale": [
+    "Title uses a dramatic noun 'zabójców' in quotes which registers as sensational phrasing but is framed as a scientific discovery (quotation marks reduce direct sensationalism).",
+    "Content presents scientific methodology (DNA analysis) and named institutions (Institut Pasteur) which provide strong credibility reductions and alignment with the headline.",
+    "Net score: mild — headline is attention-grabbing but supported by robust evidence in the article."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa silnego słowa 'zabójcy', ale stawia je w cudzysłowie i opisuje odkrycie naukowe — to przyciąga uwagę, ale artykuł dostarcza dowodów.",
+    "Zalecenie: jeśli chcecie zmniejszyć emocjonalny wydźwięk, zastąpcie 'zabójców' słowem 'patogeny' lub 'przyczyny zakażeń'."
+  ],
+  "signals": {
+    "title_hits": ["sensational_phrases", "quotation_mark_usage"],
+    "content_hits": ["scientific_findings", "ancient_dna_analysis"],
+    "credibility_hits": ["org_names: Institut Pasteur", "methods_terms"],
+    "monetization_hits": [],
+    "geography_hits": {
+      "title_countries": [],
+      "content_countries": ["France","Russia","Lithuania"]
+    },
+    "mismatch": {
+      "alignment_score": 0.85,
+      "exaggeration_gap": false,
+      "paywall_or_short": false,
+      "country_mismatch": false,
+      "time_omission": false,
+      "date_omission": false,
+      "detected_time_windows": [],
+      "detected_dates": []
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Badania DNA wskazują inne przyczyny zgonów Wielkiej Armii Napoleona",
+    "notes_to_editor": "Tytuł może pozostać, ale warto rozważyć mniej metaforyczne sformułowanie."
+  },
+  "diagnostics": {
+    "content_char_count": 3200,
+    "sampling_windows": 5,
+    "notes": "Long-form science reporting; strong methodological detail reduces clickbait risk."
+  },
+  "created_by": "agent_manual_analysis_v1",
+  "created_at": "2025-10-24T20:18:00+02:00"
+}

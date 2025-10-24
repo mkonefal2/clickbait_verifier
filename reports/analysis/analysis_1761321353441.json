@@ -1,0 +1,32 @@
+{
+  "id": 1761321353441,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/swiat/news-pocwiartowal-ciala-ukryl-je-w-walizkach-i-porzucil-przy-mosc,nId,8034541",
+  "title": "Poćwiartował ciała, ukrył je w walizkach i porzucił przy moście. Zapadł wyrok",
+  "score": 52.0,
+  "label": "strong",
+  "rationale": [
+    "Title contains highly sensational language: 'Poćwiartował ciała' (sensational_phrases_regex) and vivid violent detail — counts as multiple sensational hits for title additions.",
+    "Content is factual court reporting with graphic details; credibility signals present (court decision, named individuals) but sensational wording remains in title, producing a high score.",
+    "Alignment score is high (0.85) because article documents the convictions and provides evidence; however, the graphic wording in the title increases perceived sensationalism.",
+    "No semantic hits used; regex evidence sufficed. Label chosen per scoring thresholds (score rounded to 52 → 'strong')."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa bardzo drastycznego opisu zdarzenia (słowo 'Poćwiartował'), co przyciąga uwagę i może szokować czytelników.",
+    "Artykuł jednak opisuje faktyczny wyrok i szczegóły procesu, więc treść potwierdza powagę sprawy. Mimo to zalecamy złagodzenie języka w tytule, by uniknąć sensacyjnego tonu.",
+    "Propozycja: 'Skazano mężczyznę za zabójstwo i ukrycie ciał w walizkach' — mniej grafiki, zachowana informacyjność."
+  ],
+  "signals": {
+    "title_hits": ["sensational: 'Poćwiartował'","vivid_violence: 'ukrył je w walizkach'"],
+    "content_hits": ["credibility: court verdict, named victims and perpetrator","graphic_details: method of killing and disposal"],
+    "title_semantic_hits": [],
+    "content_semantic_hits": [],
+    "credibility_hits": ["court: Sąd wymierzył dożywocie","named_individuals: Albert Alfonso, Paul Longworth, Yostin Andres Mosquera"],
+    "monetization_hits": [],
+    "geography_hits": {"title_countries": [], "content_countries": ["Wielka Brytania"]},
+    "mismatch": {"alignment_score": 0.85, "exaggeration_gap": false, "paywall_or_short": false, "country_mismatch": false, "time_omission": false, "date_omission": false, "detected_time_windows": [], "detected_dates": []}
+  },
+  "suggestions": {"rewrite_title_neutral": "Skazano mężczyznę za zabójstwo i ukrycie ciał w walizkach","notes_to_editor": "Tytuł jest bardzo drastyczny; rozważ użycie mniej graficznego języka, który nadal informuje o wyroku, ale nie szokuje."
+  },
+  "diagnostics": {"tokens_title": 11, "tokens_content": 600, "processing_time_ms": 130, "windows_scanned": [{"index":0,"start":"0","length_chars":600,"evidence_hits":["title: 'Poćwiartował'","content: 'poćwiartował ciała'"]},{"index":1,"start":"25%","length_chars":600,"evidence_hits":["content: 'Clifton Suspension Bridge'","content: 'dożywotnie więzienie'"]},{"index":2,"start":"50%","length_chars":600,"evidence_hits":["content: 'zabrany na walizki'","content: 'zamroził część szczątków'"]},{"index":3,"start":"75%","length_chars":600,"evidence_hits":[]},{"index":4,"start":"last","length_chars":600,"evidence_hits":[]} ] }
+}

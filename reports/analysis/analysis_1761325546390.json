@@ -1,0 +1,50 @@
+{
+  "id": 1761325546390,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/wyslannik-wladimira-putina-w-waszyngtonie-spotka-sie-ze-steveem-witkoffem/eb84vg7",
+  "title": "Wysłannik Władimira Putina w Waszyngtonie. Spotka się z nim Steve Witkoff",
+  "published": "2025-10-24T16:31:13+02:00",
+  "fetched_at": "2025-10-24T19:05:46.390760",
+  "score": 8.0,
+  "label": "not_clickbait",
+  "rationale": [
+    "Title is informational and names participants; no sensational or curiosity-gap phrases matched by title regex patterns.",
+    "Content is a straightforward report (AFP/CNN sources referenced) that supports the headline — alignment score high, so no mismatch penalties applied.",
+    "No monetization or hedging concerns detected. Overall low clickbait risk."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł podaje konkretne osoby i spotkanie, jest informacyjny, bez sensacyjnego języka.",
+    "Treść artykułu opisuje fakty i źródła, więc tytuł nie wprowadza w błąd."
+  ],
+  "signals": {
+    "title_hits": [],
+    "content_hits": ["named_entities", "news_agency_report"],
+    "credibility_hits": ["named_sources"],
+    "monetization_hits": [],
+    "geography_hits": {
+      "title_countries": ["USA", "Russia"],
+      "content_countries": ["USA", "Russia"]
+    },
+    "mismatch": {
+      "alignment_score": 0.95,
+      "exaggeration_gap": false,
+      "paywall_or_short": false,
+      "country_mismatch": false,
+      "time_omission": false,
+      "date_omission": false,
+      "detected_time_windows": [],
+      "detected_dates": ["2025-10-24"]
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Wysłannik Putina odwiedził Waszyngton; spotkanie z Steve'em Witkoffiem",
+    "notes_to_editor": "Brak pilnych zmian; tytuł jest informacyjny. Można dodać kontekst źródła (np. 'wg Axios/CNN'), jeśli to ważne."
+  },
+  "diagnostics": {
+    "content_char_count": 342,
+    "sampling_windows": 5,
+    "notes": "Short, agency-style report; meets min_content_chars but concise."
+  },
+  "created_by": "agent_manual_analysis_v1",
+  "created_at": "2025-10-24T20:05:00+02:00"
+}

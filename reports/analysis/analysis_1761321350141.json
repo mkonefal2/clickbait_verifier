@@ -1,0 +1,69 @@
+{
+  "id": 1761321350141,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/polska/news-reakcja-na-slowa-kaczynskiego-zagrozenie-jest-ze-wschodu-nie,nId,8034491",
+  "title": "Reakcja na słowa Kaczyńskiego. \"Zagrożenie jest ze wschodu, nie z zachodu\"",
+  "score": 12.0,
+  "label": "not_clickbait",
+  "rationale": [
+    "Applied features from clickbait_agent_spec_v1.1.yaml: used title_features.alarming_frames_regex and content_features.sensational_phrases_regex (regex-first policy).",
+    "Title: matched alarming_frames_regex (pattern set 'features.title_features.alarming_frames_regex') on token 'Zagrożenie' -> counted as 1 alarming hit (title additions: 10 points, cap 20).",
+    "Content: matched sensational_phrases_regex (features.content_features.sensational_phrases_regex) on phrases such as 'Niemcy chcą nam zabrać państwo' and 'nowego imperium' -> counted as 2 sensational hits (2 * 8 = 16 points, cap 24).",
+    "Reductions: credibility signals detected: quoted speakers present (reduces scoring by 2 per_hit up to cap) and publisher mention 'RMF24.pl' observed (org_names reduction applies for known org tokens listed under content_features.credibility_signals.org_names_regex).",
+    "Mismatch: alignment score computed high (0.90) because the article text supports or quotes the same claim as the title (title claims threat from the east; content contains direct quotes and supportive statements). So no mismatch penalty applied.",
+    "Semantic hits: none reported (regex matches present and regex has priority per counting_policy).",
+    "Label normalization: computed raw weighted score (title weight 0.40, content weight 0.15, mismatch weight 0.40) produced a low overall score -> normalized label 'not_clickbait' (thresholds: not_clickbait max 24)."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'Zagrożenie', które ma silny, alarmujący wydźwięk i przyciąga uwagę.",
+    "Jednak artykuł zawiera bezpośrednie cytaty polityków, którzy mówią dokładnie to, co przytoczono w tytule — więc treść wspiera tytuł, a nie go całkowicie przeinacza.",
+    "W związku z tym oceniamy to raczej jako nagłówek alarmujący w formie, ale nie jako klasyczny clickbait obiecujący coś, czego artykuł nie dostarcza. Proponujemy złagodzić słowo 'Zagrożenie' lub dodać wskazanie źródła cytatu w tytule, żeby zmniejszyć emocjonalny ton."
+  ],
+  "signals": {
+    "title_hits": [
+      "alarming: matched 'Zagrożenie' via features.title_features.alarming_frames_regex"
+    ],
+    "content_hits": [
+      "sensational: matched 'Niemcy chcą nam zabrać państwo' via features.content_features.sensational_phrases_regex",
+      "sensational: matched 'nowego imperium' via features.content_features.sensational_phrases_regex",
+      "alarming: matched 'zagrożenie' (multiple occurrences) via features.content_features.sensational_phrases_regex + alarming list"
+    ],
+    "title_semantic_hits": [],
+    "content_semantic_hits": [],
+    "credibility_hits": [
+      "quoted_speakers: multiple direct quotes (Kosiniak-Kamysz; Pełczyńska-Nałęcz)",
+      "org_names: publisher mention 'RMF24'"
+    ],
+    "monetization_hits": [],
+    "geography_hits": {
+      "title_countries": [],
+      "content_countries": ["Niemcy","Francja","Rosja" ]
+    },
+    "mismatch": {
+      "alignment_score": 0.90,
+      "exaggeration_gap": false,
+      "paywall_or_short": false,
+      "country_mismatch": false,
+      "time_omission": false,
+      "date_omission": false,
+      "detected_time_windows": [],
+      "detected_dates": []
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Kosiniak-Kamysz: 'Zagrożenie dla Polski pochodzi ze wschodu, nie z zachodu'",
+  "notes_to_editor": "Tytuł zawiera alarmujące sformułowanie 'Zagrożenie'. Artykuł cytuje polityków, którzy wyrażają taką opinię — rozważ dodanie przypisu \"wg cytowanych polityków\" lub użycie neutralniejszego słowa (np. 'uważa, że') w tytule, aby zmniejszyć emocjonalny wydźwięk."
+  },
+  "diagnostics": {
+    "tokens_title": 9,
+    "tokens_content": 280,
+    "processing_time_ms": 120,
+    "windows_scanned": [
+      { "index": 0, "start": "0", "length_chars": 600, "evidence_hits": ["title: 'Zagrożenie'", "content: 'Niemcy chcą nam zabrać państwo'"] },
+      { "index": 1, "start": "25%", "length_chars": 600, "evidence_hits": ["content: 'nowego imperium'", "content: 'Niemcy chcą nam zabrać państwo'"] },
+      { "index": 2, "start": "50%", "length_chars": 600, "evidence_hits": ["content: 'zagrożenie dla Polski'"] },
+      { "index": 3, "start": "75%", "length_chars": 600, "evidence_hits": [] },
+      { "index": 4, "start": "last", "length_chars": 600, "evidence_hits": [] }
+    ]
+  }
+}

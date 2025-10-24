@@ -1,0 +1,29 @@
+{
+  "id": 1761325514518,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/szykuje-sie-nowy-raport-z-rozliczen-pis-dziennikarze-onetu-tez-byli-celem/dp1fkdb",
+  "title": "Za dwa lata nadejdzie zemsta PiS? Znana prawniczka sugeruje przygotowania",
+  "score": 38.0,
+  "label": "mild",
+  "rationale": [
+    "Title uses speculative/framing language ('Za dwa lata nadejdzie zemsta', 'sugeruje przygotowania') — matches curiosity and sensational political rumor patterns.",
+    "Content quotes an expert and discusses reports — credibility present but speculative tone in title increases score.",
+    "Alignment moderate-high (0.82); no blatant mismatch but speculative phrasing raises clickbaitiness."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł brzmi spekulacyjnie i sugeruje zemstę, co może być nadinterpretacją wypowiedzi prawniczki.",
+    "Artykuł cytuje ekspertkę i wyjaśnia kontekst raportu — proponujemy złagodzenie tytułu na mniej sugestywny, np. 'Znana prawniczka komentuje możliwe reperkusje polityczne'."
+  ],
+  "signals": {
+    "title_hits": ["political_rumor: 'zemsta'","curiosity: 'Za dwa lata'"] ,
+    "content_hits": ["credibility: expert quote, commission report"],
+    "title_semantic_hits": [],
+    "content_semantic_hits": [],
+    "credibility_hits": ["named_expert: Sylwia Gregorczyk-Abram"],
+    "monetization_hits": [],
+    "geography_hits": {"title_countries": [], "content_countries": ["Polska"]},
+    "mismatch": {"alignment_score": 0.82, "exaggeration_gap": true, "paywall_or_short": false, "country_mismatch": false, "time_omission": false, "date_omission": false, "detected_time_windows": [], "detected_dates": []}
+  },
+  "suggestions": {"rewrite_title_neutral": "Znana prawniczka o możliwych reperkusjach politycznych w przyszłości","notes_to_editor": "Tytuł sugeruje pewność tam, gdzie jest ocena i przypuszczenie; rozważ bardziej neutralne sformułowanie."},
+  "diagnostics": {"tokens_title": 13, "tokens_content": 160, "processing_time_ms": 85, "windows_scanned": [{"index":0,"start":"0","length_chars":600,"evidence_hits":["title: 'Za dwa lata nadejdzie zemsta'","content: 'mec. Sylwia Gregorczyk-Abram mówi'"]}]}
+}

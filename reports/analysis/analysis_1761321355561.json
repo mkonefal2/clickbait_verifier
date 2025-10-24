@@ -1,0 +1,29 @@
+{
+  "id": 1761321355561,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/swiat/news-ten-kraj-przywraca-obowiazkowa-sluzbe-wojskowa-parlament-zde,nId,8034513",
+  "title": "Ten kraj przywraca obowiązkową służbę wojskową",
+  "score": 10.0,
+  "label": "not_clickbait",
+  "rationale": [
+    "Title is an informative, factual statement (no sensational regex hits).",
+    "Content supports title with legislative details (votes, training length, fines) — strong credibility signals (official sources) reduce clickbait risk.",
+    "No semantic hits needed; regex-first policy used. Alignment score high (0.93)."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł informuje o decyzji parlamentu w jednym zdaniu i artykuł podaje szczegóły — to nagłówek informacyjny, nie typowy clickbait.",
+    "Sugestia: tytuł jest poprawny, ewentualnie można dodać kraj w tytule ('Chorwacja przywraca...') dla jasności."
+  ],
+  "signals": {
+    "title_hits": [],
+    "content_hits": ["numbers_dates: votes and training length","org_names: Sabor/HRT"],
+    "title_semantic_hits": [],
+    "content_semantic_hits": [],
+    "credibility_hits": ["official_source: ministry/parliament statements","numbers_dates: fines, ages"],
+    "monetization_hits": [],
+    "geography_hits": {"title_countries": [], "content_countries": ["Chorwacja"]},
+    "mismatch": {"alignment_score": 0.93, "exaggeration_gap": false, "paywall_or_short": false, "country_mismatch": false, "time_omission": false, "date_omission": false, "detected_time_windows": [], "detected_dates": []}
+  },
+  "suggestions": {"rewrite_title_neutral": "Chorwacja przywraca obowiązkową służbę wojskową","notes_to_editor": "Tytuł jest informacyjny; rozważ doprecyzowanie kraju w tytule dla czytelników skanujących nagłówki."},
+  "diagnostics": {"tokens_title": 6, "tokens_content": 260, "processing_time_ms": 80, "windows_scanned": [{"index":0,"start":"0","length_chars":600,"evidence_hits":["title: 'przywraca obowiązkową służbę'","content: 'przegłosował parlament'"]},{"index":1,"start":"25%","length_chars":600,"evidence_hits":["content: 'wpisywanie do rejestru'","content: 'dwa miesiące'"]},{"index":2,"start":"50%","length_chars":600,"evidence_hits":[]}]}
+}

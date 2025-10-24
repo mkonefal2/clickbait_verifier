@@ -1,0 +1,50 @@
+{
+  "id": 1761326301907,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/raporty/raport-wojna-z-rosja/news-pokrowsk-rosjanie-sa-w-miescie-obrona-lezy-sytuacja-jest-kry,nId,8034544",
+  "title": "Rosjanie w Pokrowsku",
+  "published": "2025-10-24T18:19:10",
+  "fetched_at": "2025-10-24T19:18:21.907583",
+  "score": 54.0,
+  "label": "strong",
+  "rationale": [
+    "Title is terse but the content describes intense combat and critical situation; multiple alarming/content signals in body increase mismatch/exaggeration risk when title is brief and dramatic.",
+    "Content reports heavy fighting, incursions, drone control and logistics issues — these details support the headline but the overall tone is alarmist, producing a strong score.",
+    "Credibility reductions apply (named local sources, reports), but not enough to lower the headline's dramatic impact."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jest bardzo krótki i może brzmieć sensacyjnie, szczególnie w kontekście opisu dramatycznych walk w tekście.",
+    "Artykuł zawiera szczegóły i relacje, które potwierdzają powagę sytuacji — rozważ doprecyzowanie tytułu, np. 'Rosjanie ponownie weszli do Pokrowska; trwają ciężkie walki'."
+  ],
+  "signals": {
+    "title_hits": ["short_drama_title"],
+    "content_hits": ["urban_combat", "drone_usage", "critical_defense"],
+    "credibility_hits": ["local_officer_reports"],
+    "monetization_hits": [],
+    "geography_hits": {
+      "title_countries": ["Ukraine","Russia"],
+      "content_countries": ["Ukraine","Russia"]
+    },
+    "mismatch": {
+      "alignment_score": 0.62,
+      "exaggeration_gap": true,
+      "paywall_or_short": false,
+      "country_mismatch": false,
+      "time_omission": false,
+      "date_omission": false,
+      "detected_time_windows": [],
+      "detected_dates": []
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Ciężkie walki w Pokrowsku — Rosjanie weszli do miasta, obrona osłabiona",
+    "notes_to_editor": "Dłuższy tytuł z konkretnymi dodatkami zmniejszy sensacyjny efekt, zachowując wagę informacji."
+  },
+  "diagnostics": {
+    "content_char_count": 980,
+    "sampling_windows": 5,
+    "notes": "Breaking war report; high emotional impact."
+  },
+  "created_by": "agent_manual_analysis_v1",
+  "created_at": "2025-10-24T20:19:00+02:00"
+}

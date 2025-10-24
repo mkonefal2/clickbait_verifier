@@ -1,0 +1,29 @@
+{
+  "id": 1761325539164,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/nowy-amerykanski-plan-dla-gazy-ma-zastapic-kontrowersyjna-inicjatywe/84qrqf3",
+  "title": "Nowy amerykański plan dla Gazy? Ma zastąpić kontrowersyjną inicjatywę",
+  "published": "2025-10-24T17:30:25+02:00",
+  "fetched_at": "2025-10-24T19:05:39.164147",
+  "score": 22.0,
+  "label": "not_clickbait",
+  "rationale": [
+    "Tytuł przybiera formę pytania, ale odnosi się do konkretnych doniesień agencji Reuters, co zmniejsza clickbaitowość.",
+    "Artykuł opiera się na źródle agencyjnym i opisuje plan — niewiele elementów sensationalistycznych." 
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zadaje pytanie, ale to odniesienie do agencji informacyjnej — niski potencjał clickbaitowy.",
+    "Można zostawić tytuł lub zmienić na wersję stwierdzającą, jeśli organizacja chce bardziej stanowczy nagłówek." 
+  ],
+  "signals": {
+    "title_hits": ["question_format"],
+    "content_hits": ["agency_reference", "policy_proposal"],
+    "credibility_hits": ["reuters"],
+    "monetization_hits": [],
+    "geography_hits": { "title_countries": ["USA", "Gaza"], "content_countries": ["USA", "Gaza"] }
+  },
+  "suggestions": { "rewrite_title_neutral": "Reuter: Stany Zjednoczone rozważają nowy plan pomocy dla Gazy", "notes_to_editor": "Tytuł neutralny lub zostawić pytanie jako zachowanie redakcyjne." },
+  "diagnostics": { "content_char_count": 610, "sampling_windows": 5, "notes": "Agency piece — low clickbait." },
+  "created_by": "agent_manual_analysis_v1",
+  "created_at": "2025-10-24T20:30:00+02:00"
+}

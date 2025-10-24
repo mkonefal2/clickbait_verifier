@@ -1,0 +1,50 @@
+{
+  "id": 1761325548676,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/trojmiasto/karambol-na-pomorzu-zderzyly-sie-ciezarowki-jest-ofiara-smiertelna/btjjbph",
+  "title": "Tragedia na Trasie Kaszubskiej. Nie żyje jedna osoba, lądował śmigłowiec LPR",
+  "published": "2025-10-24T16:54:21+02:00",
+  "fetched_at": "2025-10-24T19:05:48.676217",
+  "score": 20.0,
+  "label": "not_clickbait",
+  "rationale": [
+    "Title contains the word 'Tragedia' which is in alarming_frames_regex and contributes some title points.",
+    "Content is an immediate factual report about a road accident with casualties; the title accurately reflects content (high alignment score), so mismatch penalties are not applied.",
+    "Given factual support, the net score remains low and falls into 'not_clickbait'."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jest alarmujący słowem 'Tragedia', ale artykuł opisuje potwierdzony wypadek i działania ratunkowe, więc tytuł nie wprowadza w błąd.",
+    "Można jednak rozważyć mniej emocjonalne sformułowanie dla delikatności wobec ofiar."
+  ],
+  "signals": {
+    "title_hits": ["alarming_frames: 'Tragedia'"],
+    "content_hits": ["accident_report", "emergency_response"],
+    "credibility_hits": ["police_statements"],
+    "monetization_hits": [],
+    "geography_hits": {
+      "title_countries": ["Poland"],
+      "content_countries": ["Poland"]
+    },
+    "mismatch": {
+      "alignment_score": 0.92,
+      "exaggeration_gap": false,
+      "paywall_or_short": false,
+      "country_mismatch": false,
+      "time_omission": false,
+      "date_omission": false,
+      "detected_time_windows": [],
+      "detected_dates": ["2025-10-24"]
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Wypadek na Trasie Kaszubskiej: jedna osoba nie żyje, lądował śmigłowiec LPR",
+    "notes_to_editor": "Tytuł odzwierciedla fakty; jeśli priorytetem jest neutralność, zastąp 'Tragedia' innym słowem."
+  },
+  "diagnostics": {
+    "content_char_count": 245,
+    "sampling_windows": 5,
+    "notes": "Immediate breaking news item; factual support lowers clickbait risk."
+  },
+  "created_by": "agent_manual_analysis_v1",
+  "created_at": "2025-10-24T20:06:00+02:00"
+}

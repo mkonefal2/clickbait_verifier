@@ -1,0 +1,49 @@
+{
+  "id": 1761325556776,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/warszawa/dzgnela-matke-nozem-przed-sklepem-w-kampinosie-sad-podjal-decyzje/6veqpxm",
+  "title": "Dźgnęła matkę nożem przed sklepem. Sąd podjął decyzję",
+  "published": "2025-10-24T16:11:50+02:00",
+  "fetched_at": "2025-10-24T19:05:56.776068",
+  "score": 18.0,
+  "label": "not_clickbait",
+  "rationale": [
+    "Title is a direct description of a criminal case; it contains graphic action but is factually supported by the content and judicial decision, reducing clickbait risk.",
+    "Content reports judicial outcome and prosecution quotes; no sensational embellishment beyond necessary factual wording."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł opisuje brutalne zdarzenie, ale artykuł podaje informacje o postępowaniu sądowym, więc tytuł nie wprowadza w błąd.",
+    "Jeżeli redakcja chce mniej drastyczny język, można użyć mniej opisowego wyrażenia, np. 'Podejrzana aresztowana; sąd wydał decyzję'."
+  ],
+  "signals": {
+    "title_hits": ["graphic_action"],
+    "content_hits": ["criminal_case_report", "judicial_decision"],
+    "credibility_hits": ["prosecutor_quote", "tv_station_reference"],
+    "monetization_hits": [],
+    "geography_hits": {
+      "title_countries": ["Poland"],
+      "content_countries": ["Poland"]
+    },
+    "mismatch": {
+      "alignment_score": 0.93,
+      "exaggeration_gap": false,
+      "paywall_or_short": false,
+      "country_mismatch": false,
+      "time_omission": false,
+      "date_omission": false,
+      "detected_time_windows": [],
+      "detected_dates": ["2025-10-24"]
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Podejrzana o atak nożem na matkę trafia pod prokuratorskie zarzuty; sąd podjął decyzję",
+    "notes_to_editor": "Tytuł zgodny z treścią; rozważ neutralizację języka, jeśli to standard redakcyjny."
+  },
+  "diagnostics": {
+    "content_char_count": 380,
+    "sampling_windows": 5,
+    "notes": "Crime report; factual and supported."
+  },
+  "created_by": "agent_manual_analysis_v1",
+  "created_at": "2025-10-24T20:11:00+02:00"
+}

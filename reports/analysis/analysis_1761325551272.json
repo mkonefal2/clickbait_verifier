@@ -1,0 +1,50 @@
+{
+  "id": 1761325551272,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/tylko-w-onecie/donald-tusk-zwleka-ze-zmianami-w-rzadzie-w-grze-sensacyjny-wariant/27w38c5",
+  "title": "Donald Tusk zwleka ze zmianami w rządzie. W grze sensacyjny wariant",
+  "published": "2025-10-24T04:58:00+02:00",
+  "fetched_at": "2025-10-24T19:05:51.272083",
+  "score": 34.0,
+  "label": "mild",
+  "rationale": [
+    "Title contains the adjective 'sensacyjny' which matches the sensational_phrases_regex and creates a curiosity/sensational signal.",
+    "Content is reporting on internal political discussions and includes named actors and context which reduces mismatch; still the headline's 'sensacyjny wariant' wording increases clickbait score.",
+    "Recommendation: soften sensational adjective to reduce perceived clickbaity tone."
+  ],
+  "rationale_user_friendly": [
+    "Słowo 'sensacyjny' w tytule sugeruje sensację i może zachęcać do kliknięcia.",
+    "Artykuł opisuje wewnętrzne rozważania polityczne z konkretnymi źródłami — proponuję zastąpić 'sensacyjny wariant' neutralnym opisem faktycznym."
+  ],
+  "signals": {
+    "title_hits": ["sensational_phrases: 'sensacyjny'", "curiosity_gap"],
+    "content_hits": ["political_reporting", "named_actors"],
+    "credibility_hits": ["named_sources"],
+    "monetization_hits": [],
+    "geography_hits": {
+      "title_countries": ["Poland"],
+      "content_countries": ["Poland"]
+    },
+    "mismatch": {
+      "alignment_score": 0.70,
+      "exaggeration_gap": true,
+      "paywall_or_short": false,
+      "country_mismatch": false,
+      "time_omission": false,
+      "date_omission": false,
+      "detected_time_windows": [],
+      "detected_dates": ["2025-10-24"]
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Donald Tusk zwleka ze zmianami w rządzie — rozważany wariant",
+    "notes_to_editor": "Zastąp 'sensacyjny' neutralnym określeniem; dodaj krótkie wyjaśnienie, kto jest źródłem informacji."
+  },
+  "diagnostics": {
+    "content_char_count": 428,
+    "sampling_windows": 5,
+    "notes": "Political reporting with some speculation — headline flagged for sensational adjective."
+  },
+  "created_by": "agent_manual_analysis_v1",
+  "created_at": "2025-10-24T20:07:00+02:00"
+}

@@ -1,0 +1,30 @@
+{
+  "id": 1761321354832,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/swiat/news-spotkanie-w-cieniu-sankcji-wyslannik-putina-w-waszyngtonie,nId,8034527",
+  "title": "Spotkanie w cieniu sankcji. Wysłannik Putina w Waszyngtonie",
+  "score": 12.0,
+  "label": "not_clickbait",
+  "rationale": [
+    "Title uses diplomatic framing ('w cieniu sankcji') but is a neutral report-style headline; matches mild framing tokens but not sensational regex.",
+    "Content reports meeting details and sanctions context — credibility signals and named sources reduce clickbait risk.",
+    "Alignment score high (0.90) — content supports headline; no mismatch penalties."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł sugeruje kontekst polityczny, ale opisuje realne spotkanie i jego tło (sankcje).",
+    "Artykuł dostarcza konkretnych informacji, więc tytuł nie wprowadza w błąd — to standardowy nagłówek informacyjny.",
+    "Propozycja: Tytuł ok, można ewentualnie doprecyzować nazwisko wysłannika w leadzie."
+  ],
+  "signals": {
+    "title_hits": ["neutral_frame: 'w cieniu sankcji'"],
+    "content_hits": ["credibility: named officials, sanctions context","org_names: Rosnieft, Łukoil"],
+    "title_semantic_hits": [],
+    "content_semantic_hits": [],
+    "credibility_hits": ["named_individuals: Kiriłł Dmitrijew, Steve Witkoff"],
+    "monetization_hits": [],
+    "geography_hits": {"title_countries": [], "content_countries": ["USA","Rosja"]},
+    "mismatch": {"alignment_score": 0.90, "exaggeration_gap": false, "paywall_or_short": false, "country_mismatch": false, "time_omission": false, "date_omission": false, "detected_time_windows": [], "detected_dates": []}
+  },
+  "suggestions": {"rewrite_title_neutral": "Wysłannik Putina przyleciał do Waszyngtonu. Spotkanie na tle nowych sankcji","notes_to_editor": "Nagłówek jest informacyjny; doprecyzuj w leadzie szczegóły sankcji i cel wizyty."},
+  "diagnostics": {"tokens_title": 8, "tokens_content": 260, "processing_time_ms": 95, "windows_scanned": [{"index":0,"start":"0","length_chars":600,"evidence_hits":["title: 'w cieniu sankcji'","content: 'nowe sankcje na Rosnieft i Łukoil'"]},{"index":1,"start":"25%","length_chars":600,"evidence_hits":["content: 'Kiriłł Dmitrijew'","content: 'Steve Witkoff'"]},{"index":2,"start":"50%","length_chars":600,"evidence_hits":[]},{"index":3,"start":"75%","length_chars":600,"evidence_hits":[]},{"index":4,"start":"last","length_chars":600,"evidence_hits":[]} ] }
+}

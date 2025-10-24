@@ -1,0 +1,29 @@
+{
+  "id": 1761325508299,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/afera-funduszu-sprawiedliwosci-michal-wos-uderza-w-donalda-tuska-wygramy/2w015yy",
+  "title": "Michał Woś odpiera zarzuty i atakuje Donalda Tuska. \"Chodzi o upokorzenie\"",
+  "score": 26.0,
+  "label": "mild",
+  "rationale": [
+    "Title uses confrontational framing ('odpiera', 'atakuje') which matches sports_rumor/political rumor patterns and curiosity/sensational tokens.",
+    "Content covers legal/ political developments with quotes; credibility signals exist, but the aggressive framing increases the title score.",
+    "Alignment score high (0.88); no mismatch penalty."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł ma agresywny ton i używa słowa 'atakuje', co może wyglądać sensacyjnie.",
+    "Artykuł zawiera cytaty i fakt prawny (środki zapobiegawcze), więc treść potwierdza tytuł, ale rekomendujemy neutralniejszy ton (np. 'Michał Woś komentuje zarzuty')."
+  ],
+  "signals": {
+    "title_hits": ["political_rumor: 'atakuje'","quote_fragment: 'Chodzi o upokorzenie'"] ,
+    "content_hits": ["credibility: prosecutor decision, quotes","org_names: PAP"],
+    "title_semantic_hits": [],
+    "content_semantic_hits": [],
+    "credibility_hits": ["official_action: postanowienie prokuratury"],
+    "monetization_hits": [],
+    "geography_hits": {"title_countries": [], "content_countries": ["Polska"]},
+    "mismatch": {"alignment_score": 0.88, "exaggeration_gap": false, "paywall_or_short": false, "country_mismatch": false, "time_omission": false, "date_omission": false, "detected_time_windows": [], "detected_dates": []}
+  },
+  "suggestions": {"rewrite_title_neutral": "Michał Woś komentuje zarzuty ws. Funduszu Sprawiedliwości","notes_to_editor": "Tytuł można złagodzić — artykuł zawiera cytaty i fakty, więc wystarczy neutralne sformułowanie."},
+  "diagnostics": {"tokens_title": 11, "tokens_content": 140, "processing_time_ms": 70, "windows_scanned": [{"index":0,"start":"0","length_chars":400,"evidence_hits":["title: 'atakuje Donalda Tuska'","content: 'postanowienie o zastosowaniu środków zapobiegawczych'"]}]}
+}

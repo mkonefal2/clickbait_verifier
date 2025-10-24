@@ -1,0 +1,50 @@
+{
+  "id": 1761325547756,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/szczecin/dwie-osoby-nie-zyja-tragedia-na-jeziorze-rzeczyca/tc8nhjy",
+  "title": "Koszmar nad jeziorem. Wyłowili dwa ciała",
+  "published": "2025-10-24T15:55:54+02:00",
+  "fetched_at": "2025-10-24T19:05:47.756247",
+  "score": 36.0,
+  "label": "mild",
+  "rationale": [
+    "Title uses a sensational adjective 'Koszmar' which matches sensational_phrases_regex for titles and contributes to title additions.",
+    "Content reports a confirmed tragic event (two deceased), which supports the headline and reduces mismatch penalties.",
+    "No monetization signals; credibility is supported by local reporting and police statements. Net effect: mild clickbait due to emotive title word."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'Koszmar', które ma silny, emocjonalny wydźwięk i może przyciągać kliknięcia.",
+    "Artykuł jednak opisuje potwierdzony wypadek z dwiema ofiarami, więc treść potwierdza informację — proponujemy zastąpić słowo 'Koszmar' neutralnym."
+  ],
+  "signals": {
+    "title_hits": ["sensational_phrases: 'Koszmar'", "curiosity_gap"],
+    "content_hits": ["fatal_incident_report", "emergency_services"],
+    "credibility_hits": ["local_official_statements"],
+    "monetization_hits": [],
+    "geography_hits": {
+      "title_countries": ["Poland"],
+      "content_countries": ["Poland"]
+    },
+    "mismatch": {
+      "alignment_score": 0.88,
+      "exaggeration_gap": false,
+      "paywall_or_short": false,
+      "country_mismatch": false,
+      "time_omission": false,
+      "date_omission": false,
+      "detected_time_windows": [],
+      "detected_dates": ["2025-10-24"]
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Tragedia nad jeziorem Rzeczyca. Odnaleziono ciała dwóch mężczyzn",
+    "notes_to_editor": "Rozważ użycie neutralnego słowa ('Tragedia') zamiast 'Koszmar' lub doprecyzowanie, kto potwierdził informacje (służby)."
+  },
+  "diagnostics": {
+    "content_char_count": 210,
+    "sampling_windows": 5,
+    "notes": "Short local report; emotive headline flagged."
+  },
+  "created_by": "agent_manual_analysis_v1",
+  "created_at": "2025-10-24T20:05:30+02:00"
+}

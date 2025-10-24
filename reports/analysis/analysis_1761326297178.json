@@ -1,0 +1,49 @@
+{
+  "id": 1761326297178,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/swiat/news-kulisy-gigantycznego-oszustwa-pokerowego-gwiazdy-nba-w-centr,nId,8034512",
+  "title": "Kulisy gigantycznego oszustwa pokerowego. Gwiazdy NBA w centrum afery",
+  "published": "2025-10-24T18:02:02",
+  "fetched_at": "2025-10-24T19:18:17.178708",
+  "score": 40.0,
+  "label": "mild",
+  "rationale": [
+    "Title uses strong adjectives ('gigantycznego') and celebrity hooks which match sensational title regexes and listicle/sensational patterns.",
+    "Content substantiates claims with details of arrests, technology used, and named figures which reduces mismatch, but headline still leverages sensational framing — net mild score."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł eksponuje dramatyczny wymiar afery i zaangażowanie celebrytów — to przyciąga uwagę czytelników.",
+    "Artykuł przedstawia szczegóły śledztwa, więc zamiast 'gigantycznego' można użyć 'rozległego' lub 'spektakularnego', jeśli chcecie złagodzić ton."
+  ],
+  "signals": {
+    "title_hits": ["sensational_phrases", "celebrity_hook"],
+    "content_hits": ["investigative_report", "criminal_organization"],
+    "credibility_hits": ["official_statements", "arrest_records"],
+    "monetization_hits": [],
+    "geography_hits": {
+      "title_countries": ["USA"],
+      "content_countries": ["USA"]
+    },
+    "mismatch": {
+      "alignment_score": 0.75,
+      "exaggeration_gap": true,
+      "paywall_or_short": false,
+      "country_mismatch": false,
+      "time_omission": false,
+      "date_omission": false,
+      "detected_time_windows": [],
+      "detected_dates": []
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Śledztwo ujawnia oszustwa pokerowe z udziałem znanych osób",
+    "notes_to_editor": "Tytuł można uczynić mniej sensacyjnym, ale artykuł zawiera wystarczające dowody i nazwiska, by uzasadnić zainteresowanie."
+  },
+  "diagnostics": {
+    "content_char_count": 1580,
+    "sampling_windows": 5,
+    "notes": "Investigative piece with strong evidence; headline frames story for maximum engagement."
+  },
+  "created_by": "agent_manual_analysis_v1",
+  "created_at": "2025-10-24T20:16:00+02:00"
+}
