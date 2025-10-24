@@ -340,12 +340,12 @@ source_overrides:
 
 calibration:
   target_distribution: { not_clickbait: 0.45, mild: 0.30, strong: 0.20, extreme: 0.05 }
-  posthoc_shift_allowed: false
+  posthoc_shift_allowed: false 
 
 evaluation:
   acceptance_criteria:
     precision_strong_extreme_min: 0.80
-    recall_strong_extreme_min: 0.70
+    recall_strong_extreme_min: 0.70 
 
 implementation_notes:
   deterministic_mode: true

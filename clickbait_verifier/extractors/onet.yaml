@@ -1,0 +1,3 @@
+name: onet
+content_css: 'div.article__content, div.article-content, div.article-body, article, .article-text, .tx-article-body'
+title_css: 'h1, header h1, .article-title, .title'

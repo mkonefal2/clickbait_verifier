@@ -1,0 +1,3 @@
+name: naukawpolsce
+content_css: 'div.article__content, div.article-body, article, div#content'
+title_css: 'h1, header h1, .article-title'

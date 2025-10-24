@@ -1,4 +1,4 @@
-"""Export scraped articles to JSON for an external agent (e.g. GitHub Copilot agent) to evaluate clickbaitiness.
+"""Export scraped articles to JSON (scraping-only simplified exporter).
 Exports fields: id, source, title, content, url, published, fetched_at
 """
 
@@ -17,7 +17,7 @@ rows = fetch_all_articles()
 entries = []
 for r in rows:
     # tuple order: id, source, title, url, published, fetched_at, content, score, label, reasons, similarity, analyzed_at
-    id_, source, title, url, published, fetched_at, content, score, label, reasons, similarity, analyzed_at = r
+    id_, source, title, url, published, fetched_at, content, *_ = r
     entries.append({
         'id': id_,
         'source': source,

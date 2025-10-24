@@ -1,6 +1,84 @@
+# Specification document
+clickbait_verifier_full_system_specification.md
+
+# Local database used for quick testing/debug (if present)
 data/db.duckdb
+
+# Logs and runtime output
 logs/
+*.log
+
+# Generated reports (keep README if present)
 reports/
-*.pyc
+!reports/README.md
+
+# Byte-compiled / cache
 __pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
+eggs/
+pip-wheel-metadata/
+
+# Test / static analysis
+.pytest_cache/
+.mypy_cache/
+.coverage
+coverage/
+htmlcov/
+
+# Streamlit
+.streamlit/
+streamlit-settings.toml
+
+# Playwright / browser artifacts
+.playwright/
+
+# Secrets / environment
+sa-key.json
 .env
+.env.*
+secrets.json
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Misc
+*.tmp
+*.swp
+*~
+*.pyc
+*.pyo
+*.pyd
+__pypackages__/
+
+# Node (if used later)
+node_modules/
+
+# Optional: keep local-only scratch files out
+*.local
+
+# End of file

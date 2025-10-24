@@ -2,10 +2,31 @@ sources:
   - name: Example
     rss: https://example.com/rss
     enabled: false
+    fetch_method: auto
+
   - name: FocusPL
     url: https://www.focus.pl/artykul/skamienialosc-gad-sprzed-242-milionow-lat
     enabled: true
-  - name: VerkSklep
-    url: https://verk.sklep.pl/product-pol-3087-Lampka-nocna-dla-dzieci-led-kaczka-rgb-pilot-usb.html
+    fetch_method: auto
+
+  - name: rmf24
+    url: https://www.rmf24.pl/fakty,nPack,1
     enabled: true
+    fetch_method: auto
+    scrape_listing: true
+    only_today: true
+    # Only consider links that look like article pages (e.g. contain 'news-' and ',nId,<digits>').
+    # This prevents picking up pagination/listing links such as ',nPack,5'.
+    article_url_pattern: 'news-.*,nId,[0-9]+'
+
+  - name: naukawpolsce
+    url: https://naukawpolsce.pl/aktualnosci/news%2C107913%2Cnaukowcy-wolnosc-akademicka-wymaga-ochrony-i-czujnosci.html
+    enabled: true
+    fetch_method: auto
+
+  - name: onet
+    url: https://www.onet.pl/styl-zycia/onetkobieta/kuriozalny-przepis-wchodzi-od-pazdziernika-za-koszenie-trawy-bedzie-mandat/kc1qcfw,2b83378a
+    enabled: true
+    fetch_method: auto
+
 rate_limit_per_sec: 1

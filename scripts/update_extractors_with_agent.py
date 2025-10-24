@@ -1,9 +1,9 @@
-# Placeholder script that would call a Copilot-like model to update YAML extractors
-import json
+"""Placeholder removed: extractor-updating agent is out of scope for scraping-only mode."""
 
 
 def main():
-    print('This would analyze logs and update extractors')
+    print('update_extractors_with_agent.py is disabled in scraping-only mode')
+
 
 if __name__ == '__main__':
     main()

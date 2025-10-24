@@ -1,0 +1,42 @@
+{
+  "id": "",
+  "source": "",
+  "url": "",
+  "title": "",
+  "score": null,
+  "label": "",
+  "rationale": [],
+  "rationale_user_friendly": [],
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "title_semantic_hits": [],
+    "content_semantic_hits": [],
+    "credibility_hits": [],
+    "monetization_hits": [],
+    "geography_hits": {
+      "title_countries": [],
+      "content_countries": []
+    },
+    "mismatch": {
+      "alignment_score": null,
+      "exaggeration_gap": false,
+      "paywall_or_short": false,
+      "country_mismatch": false,
+      "time_omission": false,
+      "date_omission": false,
+      "detected_time_windows": [],
+      "detected_dates": []
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "",
+    "notes_to_editor": ""
+  },
+  "diagnostics": {
+    "tokens_title": null,
+    "tokens_content": null,
+    "processing_time_ms": null,
+    "windows_scanned": []
+  }
+}
