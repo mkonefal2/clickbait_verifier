@@ -1,0 +1,60 @@
+.github/workflows/export_request_copilot.yml
+.github/workflows/import_analyzed_artifact.yml
+.gitignore
+AGENT_INSTRUCTIONS.md
+README.md
+badges/Brak Kontekstu.png
+badges/Clickbait Alert.png
+"badges/Dobrze Sfowmu\305\202owany.png"
+"badges/Neutralny J\304\231zyk.png"
+badges/Rzetelny Ton.png
+"badges/Strasz\304\205cy Ton.png"
+badges/Sugeruje Opinie.png
+"badges/Zgodny z Tre\305\233ci\304\205.png"
+clickbait_agent_spec_v1.1.yaml
+clickbait_verifier/analytics_view.py
+clickbait_verifier/analyzer.py
+clickbait_verifier/core/storage.py
+clickbait_verifier/extractors/naukawpolsce.yaml
+clickbait_verifier/extractors/onet.yaml
+clickbait_verifier/main.py
+clickbait_verifier/reporter.py
+clickbait_verifier/scraper.py
+clickbait_verifier/streamlit_app.py
+clickbait_verifier/streamlit_app_old.py
+clickbait_verifier/streamlit_feed_app.py
+clickbait_verifier/ui/__init__.py
+clickbait_verifier/ui/analysis_view.py
+clickbait_verifier/ui/components.py
+clickbait_verifier/ui/dashboard_view.py
+clickbait_verifier/ui/feed_view.py
+clickbait_verifier/ui/insights.py
+clickbait_verifier/ui/scraper_view.py
+clickbait_verifier/ui/sidebar.py
+clickbait_verifier/ui/sidebar_scrapers.py
+clickbait_verifier/ui/styling.py
+clickbait_verifier/utils/README.md
+clickbait_verifier/utils/__init__.py
+clickbait_verifier/utils/file_loader.py
+clickbait_verifier/utils/helpers.py
+config.yaml
+lexicons/clickbait_pl.json
+requirements.txt
+run.ps1
+run_app.py
+schemas/README.md
+schemas/output_schema.json
+schemas/output_template.json
+scripts/analyze_batch_job.py
+scripts/analyze_batch_job_auto.py
+scripts/check_sidebar_dom.py
+scripts/check_sidebar_playwright.py
+scripts/clean_scraped_boilerplate.py
+scripts/debug_encoding_for_url.py
+scripts/export_for_agent.py
+scripts/import_agent_results.py
+scripts/run_spec_analysis.py
+scripts/update_extractors_with_agent.py
+tools/enforce_output_schema.py
+tools/fix_empty_analysis.py
+tools/validate_output.py

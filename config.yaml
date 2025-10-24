@@ -25,8 +25,16 @@ sources:
     fetch_method: auto
 
   - name: onet
-    url: https://www.onet.pl/styl-zycia/onetkobieta/kuriozalny-przepis-wchodzi-od-pazdziernika-za-koszenie-trawy-bedzie-mandat/kc1qcfw,2b83378a
+    url: https://wiadomosci.onet.pl/
     enabled: true
     fetch_method: auto
+    scrape_listing: true
+    only_today: true
+    # Onet article URLs typically have the form: /<section>/<slug>/<id>
+    # e.g. https://wiadomosci.onet.pl/kraj/some-slug/61jnnym
+    # Require two path segments before the short trailing id to avoid matching
+    # single-segment pages like /autorzy or /kielce (section/author pages).
+    # Match: '/<segment>/<slug>/<6-8 char id>'
+    article_url_pattern: '/[a-z0-9-]+/[a-z0-9-]+/[0-9a-z]{6,8}(/|$)'
 
 rate_limit_per_sec: 1

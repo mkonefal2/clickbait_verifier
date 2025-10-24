@@ -1,0 +1,3 @@
+lexicons/clickbait_pl.json
+schemas/output_schema.json
+schemas/output_template.json

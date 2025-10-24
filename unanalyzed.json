@@ -1,0 +1,285 @@
+{
+  "unanalyzed": [
+    {
+      "file": "reports\\scraped\\scraped_1761321350141.json",
+      "id": "1761321350141",
+      "url": "https://www.rmf24.pl/fakty/polska/news-reakcja-na-slowa-kaczynskiego-zagrozenie-jest-ze-wschodu-nie,nId,8034491"
+    },
+    {
+      "file": "reports\\scraped\\scraped_1761321350783.json",
+      "id": "1761321350783",
+      "url": "https://www.rmf24.pl/fakty/polska/news-smutna-wiadomosc-dla-swiata-medycyny-i-biznesu-nie-zyje-dr-m,nId,8034483"
+    },
+    {
+      "file": "reports\\scraped\\scraped_1761321351445.json",
+      "id": "1761321351445",
+      "url": "https://www.rmf24.pl/fakty/polska/news-ukrainscy-sabotazysci-skazani-kulisy-podpalen-w-warszawie-i-,nId,8034540"
+    },
+    {
+      "file": "reports\\scraped\\scraped_1761321352117.json",
+      "id": "1761321352117",
+      "url": "https://www.rmf24.pl/fakty/swiat/news-ai-pomylila-paczke-czipsow-z-bronia-nastolatek-na-ziemi-w-ka,nId,8034531"
+    },
+    {
+      "file": "reports\\scraped\\scraped_1761321352770.json",
+      "id": "1761321352770",
+      "url": "https://www.rmf24.pl/fakty/swiat/news-odra-na-pokladzie-samolotu-do-krakowa-sluzby-apeluja-o-spraw,nId,8034492"
+    },
+    {
+      "file": "reports\\scraped\\scraped_1761321353441.json",
+      "id": "1761321353441",
+      "url": "https://www.rmf24.pl/fakty/swiat/news-pocwiartowal-ciala-ukryl-je-w-walizkach-i-porzucil-przy-mosc,nId,8034541"
+    },
+    {
+      "file": "reports\\scraped\\scraped_1761321354115.json",
+      "id": "1761321354115",
+      "url": "https://www.rmf24.pl/fakty/swiat/news-skonczylo-sie-operacja-nie-uwierzysz-co-nastolatek-mial-w-je,nId,8034505"
+    },
+    {
+      "file": "reports\\scraped\\scraped_1761321354832.json",
+      "id": "1761321354832",
+      "url": "https://www.rmf24.pl/fakty/swiat/news-spotkanie-w-cieniu-sankcji-wyslannik-putina-w-waszyngtonie,nId,8034527"
+    },
+    {
+      "file": "reports\\scraped\\scraped_1761321355561.json",
+      "id": "1761321355561",
+      "url": "https://www.rmf24.pl/fakty/swiat/news-ten-kraj-przywraca-obowiazkowa-sluzbe-wojskowa-parlament-zde,nId,8034513"
+    },
+    {
+      "file": "reports\\scraped\\scraped_1761321361616.json",
+      "id": "1761321361616",
+      "url": "https://www.rmf24.pl/raporty/raport-wojna-z-rosja/news-nowa-strategia-rosjan-na-front-wysylaja-kobiety,nId,8034503"
+    },
+    {
+      "file": "reports\\scraped\\scraped_1761321362275.json",
+      "id": "1761321362275",
+      "url": "https://www.rmf24.pl/regiony/krakow/news-nietypowe-odkrycie-w-krakowie-jadowite-pajaki-w-koszu-na-smi,nId,8034514"
+    },
+    {
+      "file": "reports\\scraped\\scraped_1761321364247.json",
+      "id": "1761321364247",
+      "url": "https://www.rmf24.pl/regiony/trojmiasto/news-tragiczny-wypadek-na-s6-jedna-osoba-nie-zyje-druga-w-ciezkim,nId,8034519"
+    },
+    {
+      "file": "reports\\scraped\\scraped_1761321364918.json",
+      "id": "1761321364918",
+      "url": "https://www.rmf24.pl/regiony/warszawa/news-przeprawa-ktora-laczy-nie-tylko-brzegi-otwarto-most-za-100-m,nId,8034523"
+    },
+    {
+      "file": "reports\\scraped\\scraped_1761325508299.json",
+      "id": "1761325508299",
+      "url": "https://wiadomosci.onet.pl/kraj/afera-funduszu-sprawiedliwosci-michal-wos-uderza-w-donalda-tuska-wygramy/2w015yy"
+    },
+    {
+      "file": "reports\\scraped\\scraped_1761325510755.json",
+      "id": "1761325510755",
+      "url": "https://wiadomosci.onet.pl/kraj/maciej-adamkiewicz-nie-zyje-miliarder-i-wspolwlasciciel-firmy-adamed-mial-59-lat/k5q7t61"
+    },
+    {
+      "file": "reports\\scraped\\scraped_1761325511463.json",
+      "id": "1761325511463",
+      "url": "https://wiadomosci.onet.pl/kraj/napasc-na-centrum-postoj-we-wroclawiu-atakuja-nas-za-nazywanie-hamasu-faszystami/jm751wq"
+    },
+    {
+      "file": "reports\\scraped\\scraped_1761325512235.json",
+      "id": "1761325512235",
+      "url": "https://wiadomosci.onet.pl/kraj/nowy-sondaz-zaskakuje-partia-brauna-o-krok-od-przelamania-kolejnej-bariery/hkntqyg"
+    },
+    {
+      "file": "reports\\scraped\\scraped_1761325513063.json",
+      "id": "1761325513063",
+      "url": "https://wiadomosci.onet.pl/kraj/ostrzezenie-gis-wykryto-bakterie-w-miesie-popularnej-firmy/rnryjrh"
+    },
+    {
+      "file": "reports\\scraped\\scraped_1761325513821.json",
+      "id": "1761325513821",
+      "url": "https://wiadomosci.onet.pl/kraj/polski-rzad-ma-plan-na-czarny-scenariusz-to-oni-opuszcza-domy-jako-pierwsi/yczdhjq"
+    },
+    {
+      "file": "reports\\scraped\\scraped_1761325514518.json",
+      "id": "1761325514518",
+      "url": "https://wiadomosci.onet.pl/kraj/szykuje-sie-nowy-raport-z-rozliczen-pis-dziennikarze-onetu-tez-byli-celem/dp1fkdb"
+    },
+    {
+      "file": "reports\\scraped\\scraped_1761325516346.json",
+      "id": "1761325516346",
+      "url": "https://wiadomosci.onet.pl/krakow/akcja-cba-w-nowym-saczu-prezydent-i-jego-zastepca-wypuszczeni-do-domu/vtfqzz7"
+    },
+    {
+      "file": "reports\\scraped\\scraped_1761325517080.json",
+      "id": "1761325517080",
+      "url": "https://wiadomosci.onet.pl/krakow/dwa-incydenty-na-lotnisku-w-krakowie-66-latka-i-33-latek-surowo-ukarani/tkykf1n"
+    },
+    {
+      "file": "reports\\scraped\\scraped_1761325517786.json",
+      "id": "1761325517786",
+      "url": "https://wiadomosci.onet.pl/krakow/jadowite-pajaki-w-koszu-na-smieci-nietypowa-interwencja-strazy-miejskiej/hr8j59r"
+    },
+    {
+      "file": "reports\\scraped\\scraped_1761325518615.json",
+      "id": "1761325518615",
+      "url": "https://wiadomosci.onet.pl/krakow/prokuratura-uwaza-ze-biskup-tuszowal-pedofilie-sprawa-utknela-w-sadzie/mvfn0j1"
+    },
+    {
+      "file": "reports\\scraped\\scraped_1761325528420.json",
+      "id": "1761325528420",
+      "url": "https://wiadomosci.onet.pl/poznan/wstrzasajace-sceny-w-pile-podpalil-garaz-w-ktorym-chowal-sie-sasiad/wg7c2t7"
+    },
+    {
+      "file": "reports\\scraped\\scraped_1761325531141.json",
+      "id": "1761325531141",
+      "url": "https://wiadomosci.onet.pl/swiat/atak-niedzwiedzia-w-japonii-jedna-osoba-nie-zyje-trzy-sa-ranne/ybjecpp"
+    },
+    {
+      "file": "reports\\scraped\\scraped_1761325531903.json",
+      "id": "1761325531903",
+      "url": "https://wiadomosci.onet.pl/swiat/donald-trump-ma-plan-by-rzadzic-trzecia-kadencje-jego-byly-doradca-zabral-glos/lcmz9k8"
+    },
+    {
+      "file": "reports\\scraped\\scraped_1761325534688.json",
+      "id": "1761325534688",
+      "url": "https://wiadomosci.onet.pl/swiat/drony-pod-moskwa-doszlo-do-eksplozji-w-bloku-mieszkalnym/b59snrh"
+    },
+    {
+      "file": "reports\\scraped\\scraped_1761325536178.json",
+      "id": "1761325536178",
+      "url": "https://wiadomosci.onet.pl/swiat/koalicja-chetnych-spotkala-sie-w-londynie-czas-na-wywieranie-presji/v3dxx17"
+    },
+    {
+      "file": "reports\\scraped\\scraped_1761325536855.json",
+      "id": "1761325536855",
+      "url": "https://wiadomosci.onet.pl/swiat/kosztowne-rewolucje-donalda-trumpa-prezydent-usa-nie-zna-umiaru/cly98vr"
+    },
+    {
+      "file": "reports\\scraped\\scraped_1761325537704.json",
+      "id": "1761325537704",
+      "url": "https://wiadomosci.onet.pl/swiat/niepokojace-doniesienia-rosjanie-szpieguja-nato-z-wraku-promu-estonia/d8kx29s"
+    },
+    {
+      "file": "reports\\scraped\\scraped_1761325538432.json",
+      "id": "1761325538432",
+      "url": "https://wiadomosci.onet.pl/swiat/nocny-atak-usa-na-statek-traktujemy-ich-jak-al-kaide/0rgqnhs"
+    },
+    {
+      "file": "reports\\scraped\\scraped_1761325539164.json",
+      "id": "1761325539164",
+      "url": "https://wiadomosci.onet.pl/swiat/nowy-amerykanski-plan-dla-gazy-ma-zastapic-kontrowersyjna-inicjatywe/84qrqf3"
+    },
+    {
+      "file": "reports\\scraped\\scraped_1761325540589.json",
+      "id": "1761325540589",
+      "url": "https://wiadomosci.onet.pl/swiat/rosja-szykuje-nowe-oddzialy-szturmowe-beda-zlozone-z-kobiet/hkgg8q1"
+    },
+    {
+      "file": "reports\\scraped\\scraped_1761325542815.json",
+      "id": "1761325542815",
+      "url": "https://wiadomosci.onet.pl/swiat/smieciowa-machina-wojenna-putina-cienko-przedzie-rosje-ratuje-juz-tylko-chinska/l37676l"
+    },
+    {
+      "file": "reports\\scraped\\scraped_1761325543492.json",
+      "id": "1761325543492",
+      "url": "https://wiadomosci.onet.pl/swiat/specjalny-posilek-z-kim-dzong-unem-20-zolnierzy-w-szpitalu/61jnnym"
+    },
+    {
+      "file": "reports\\scraped\\scraped_1761325544959.json",
+      "id": "1761325544959",
+      "url": "https://wiadomosci.onet.pl/swiat/trump-nadepnal-rosjanom-na-odcisk-ale-ropa-wciaz-plynie-luki-w-sankcjach-usa/xe93bzn"
+    },
+    {
+      "file": "reports\\scraped\\scraped_1761325546390.json",
+      "id": "1761325546390",
+      "url": "https://wiadomosci.onet.pl/swiat/wyslannik-wladimira-putina-w-waszyngtonie-spotka-sie-ze-steveem-witkoffem/eb84vg7"
+    },
+    {
+      "file": "reports\\scraped\\scraped_1761325547756.json",
+      "id": "1761325547756",
+      "url": "https://wiadomosci.onet.pl/szczecin/dwie-osoby-nie-zyja-tragedia-na-jeziorze-rzeczyca/tc8nhjy"
+    },
+    {
+      "file": "reports\\scraped\\scraped_1761325548676.json",
+      "id": "1761325548676",
+      "url": "https://wiadomosci.onet.pl/trojmiasto/karambol-na-pomorzu-zderzyly-sie-ciezarowki-jest-ofiara-smiertelna/btjjbph"
+    },
+    {
+      "file": "reports\\scraped\\scraped_1761325549358.json",
+      "id": "1761325549358",
+      "url": "https://wiadomosci.onet.pl/trojmiasto/pogloski-o-politycznej-smierci-ko-sa-przedwczesne-koalicja-ma-juz-innego-przeciwnika/rst7qxf"
+    },
+    {
+      "file": "reports\\scraped\\scraped_1761325551272.json",
+      "id": "1761325551272",
+      "url": "https://wiadomosci.onet.pl/tylko-w-onecie/donald-tusk-zwleka-ze-zmianami-w-rzadzie-w-grze-sensacyjny-wariant/27w38c5"
+    },
+    {
+      "file": "reports\\scraped\\scraped_1761325552036.json",
+      "id": "1761325552036",
+      "url": "https://wiadomosci.onet.pl/tylko-w-onecie/dziura-w-nfz-szpitale-przesuwaja-zabiegi-to-mozna-juz-nazwac-pozarem/dvp65yc"
+    },
+    {
+      "file": "reports\\scraped\\scraped_1761325552752.json",
+      "id": "1761325552752",
+      "url": "https://wiadomosci.onet.pl/tylko-w-onecie/gaza-zagrozona-smiertelnymi-chorobami-ten-wirus-rozprzestrzenia-sie-jak-ogien/mxx1v3w"
+    },
+    {
+      "file": "reports\\scraped\\scraped_1761325553465.json",
+      "id": "1761325553465",
+      "url": "https://wiadomosci.onet.pl/tylko-w-onecie/oni-dzialali-jak-stasi-w-nrd-minister-zurek-reaguje-na-sprawe-kasi-tusk/wbh0l8x"
+    },
+    {
+      "file": "reports\\scraped\\scraped_1761325554171.json",
+      "id": "1761325554171",
+      "url": "https://wiadomosci.onet.pl/tylko-w-onecie/sankcje-powoli-dobijaja-rosje-dziennikarze-o-oslabieniu-moskwy/wee5g54"
+    },
+    {
+      "file": "reports\\scraped\\scraped_1761325556776.json",
+      "id": "1761325556776",
+      "url": "https://wiadomosci.onet.pl/warszawa/dzgnela-matke-nozem-przed-sklepem-w-kampinosie-sad-podjal-decyzje/6veqpxm"
+    },
+    {
+      "file": "reports\\scraped\\scraped_1761325557633.json",
+      "id": "1761325557633",
+      "url": "https://wiadomosci.onet.pl/warszawa/sprawa-podpalenia-hali-przy-marywilskiej-sprawcy-uslyszeli-wyroki/dffveke"
+    },
+    {
+      "file": "reports\\scraped\\scraped_1761325769621.json",
+      "id": "1761325769621",
+      "url": "https://wiadomosci.onet.pl/swiat/kolejny-kraj-dolacza-do-koalicji-chetnych-musimy-zwiekszyc-presje/zmvvtxk"
+    },
+    {
+      "file": "reports\\scraped\\scraped_1761326295891.json",
+      "id": "1761326295891",
+      "url": "https://www.rmf24.pl/fakty/polska/news-wycinka-drzew-na-wlasnej-dzialce-pomylka-moze-byc-kosztowna,nId,8034561"
+    },
+    {
+      "file": "reports\\scraped\\scraped_1761326296523.json",
+      "id": "1761326296523",
+      "url": "https://www.rmf24.pl/fakty/swiat/news-hegseth-potraktujemy-cie-jak-al-kaide-dopadniemy-zabijemy,nId,8034556"
+    },
+    {
+      "file": "reports\\scraped\\scraped_1761326297178.json",
+      "id": "1761326297178",
+      "url": "https://www.rmf24.pl/fakty/swiat/news-kulisy-gigantycznego-oszustwa-pokerowego-gwiazdy-nba-w-centr,nId,8034512"
+    },
+    {
+      "file": "reports\\scraped\\scraped_1761326297830.json",
+      "id": "1761326297830",
+      "url": "https://www.rmf24.pl/nauka/news-naukowcy-odkrywaja-prawdziwych-zabojcow-wielkiej-armii-napol,nId,8034559"
+    },
+    {
+      "file": "reports\\scraped\\scraped_1761326301221.json",
+      "id": "1761326301221",
+      "url": "https://www.rmf24.pl/radio/news-piotr-polk-cieszylem-sie-z-siwych-wlosow-i-pierwszych-zmarsz,nId,8034504"
+    },
+    {
+      "file": "reports\\scraped\\scraped_1761326301907.json",
+      "id": "1761326301907",
+      "url": "https://www.rmf24.pl/raporty/raport-wojna-z-rosja/news-pokrowsk-rosjanie-sa-w-miescie-obrona-lezy-sytuacja-jest-kry,nId,8034544"
+    },
+    {
+      "file": "reports\\scraped\\scraped_1761326303860.json",
+      "id": "1761326303860",
+      "url": "https://www.rmf24.pl/regiony/zakopane/news-tatry-w-bialej-odslonie-tyle-sniegu-spadlo-pierwszy-raz-w-ty,nId,8034532"
+    }
+  ],
+  "partial": []
+}

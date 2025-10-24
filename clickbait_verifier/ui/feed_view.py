@@ -39,7 +39,8 @@ def render_feed(candidates: List[Tuple[float, str]], max_items: int = 10):
 
     # Controls row
     with st.container():
-        col1, col2, col3 = st.columns([1, 2, 1])
+        # layout: left = page size, middle = pagination (prev / page / next) on one line, right = jump-to-page
+        col1, col2, col3 = st.columns([1, 3, 1])
         with col1:
             # page size selector
             sel = st.selectbox('Ilość na stronę', page_size_options, index=page_size_options.index(st.session_state['feed_page_size']))
@@ -55,15 +56,18 @@ def render_feed(candidates: List[Tuple[float, str]], max_items: int = 10):
             if st.session_state['feed_page'] > total_pages:
                 st.session_state['feed_page'] = total_pages
 
-            # navigation buttons
+            # navigation: previous + page indicator + next on a single line
             nav_cols = st.columns([1, 2, 1])
             if nav_cols[0].button('◀ Poprzednia'):
                 st.session_state['feed_page'] = max(1, st.session_state['feed_page'] - 1)
-            nav_cols[1].markdown(f"**Strona {st.session_state['feed_page']} / {total_pages} — {total} artykułów**")
+            nav_cols[1].markdown(
+                f"<div style='text-align:center;font-weight:600;'>Strona {st.session_state['feed_page']} / {total_pages} — {total} artykułów</div>",
+                unsafe_allow_html=True,
+            )
             if nav_cols[2].button('Następna ▶'):
                 st.session_state['feed_page'] = min(total_pages, st.session_state['feed_page'] + 1)
         with col3:
-            # quick jump to page
+            # quick jump to page (right column)
             if page_size is not None and total_pages > 1:
                 p = st.number_input('Przejdź do strony', min_value=1, max_value=total_pages, value=st.session_state['feed_page'], step=1)
                 if p != st.session_state['feed_page']:
@@ -207,40 +211,60 @@ def render_feed(candidates: List[Tuple[float, str]], max_items: int = 10):
         # Build image block (compact version for feed)
         image_block = render_image_block_compact(image_url_local, url)
 
-        # Render in CSS Grid layout: 3fr (left) + minmax(280px, 1fr) (right)
-        st.markdown("""
-        <style>
-        .feed-grid {
-            display: grid;
-            grid-template-columns: 3fr minmax(280px, 1fr);
-            gap: 24px;
-        }
-        @media (max-width: 768px) {
-            .feed-grid {
-                grid-template-columns: 1fr;
-            }
-            .feed-grid > :nth-child(2) {
-                order: -1;
-            }
-        }
-        </style>
-        """, unsafe_allow_html=True)
-        
-        col1, col2 = st.columns([3, 1])
-        
-        with col1:
-            # Render header card with suggested title
-            header_card = render_simple_header_card_with_suggestion(title, src, suggested, image_block, url)
-            st.markdown(header_card, unsafe_allow_html=True)
-        
-        with col2:
-            # Render score card with rationale
-            score_card = render_score_card_with_rationale(score, label, rationale)
-            st.markdown(score_card, unsafe_allow_html=True)
+        # Build header and score card HTML for this article
+        header_card = render_simple_header_card_with_suggestion(title, src, suggested, image_block, url)
+        score_card = render_score_card_with_rationale(score, label, rationale)
 
-            # Badges display removed per user request
-        
-        # Add spacing between articles
-        st.markdown("<div style='margin-bottom:24px;'></div>", unsafe_allow_html=True)
+        # Each article card will internally be a two-column layout (article | score+rationale).
+        # We'll place article cards in a two-column feed (two article cards per row) to "upchać" more items.
+        article_card = f"""
+<div style='padding:8px;'>
+  <div style='display:grid;grid-template-columns:3fr minmax(220px,1fr);gap:12px;'>
+    {header_card}
+    {score_card}
+  </div>
+</div>
+"""
+
+        # Buffer rows of two cards so we can render them side-by-side
+        if '__feed_row_buffer' not in st.session_state:
+            st.session_state['__feed_row_buffer'] = []
+
+        # If date changed and buffer not empty, flush it first so date separators remain correct
+        if st.session_state['__feed_row_buffer'] and current_date != last_date:
+            buf = st.session_state['__feed_row_buffer']
+            for i in range(0, len(buf), 2):
+                row = buf[i:i+2]
+                cols = st.columns(len(row))
+                for j, card_html in enumerate(row):
+                    with cols[j]:
+                        st.markdown(card_html, unsafe_allow_html=True)
+                st.markdown("<div style='margin-bottom:18px;'></div>", unsafe_allow_html=True)
+            st.session_state['__feed_row_buffer'] = []
+
+        st.session_state['__feed_row_buffer'].append(article_card)
+
+        # Flush row buffer when we have two cards
+        if len(st.session_state['__feed_row_buffer']) >= 2:
+            buf = st.session_state['__feed_row_buffer']
+            row = buf[:2]
+            cols = st.columns(2)
+            for j, card_html in enumerate(row):
+                with cols[j]:
+                    st.markdown(card_html, unsafe_allow_html=True)
+            st.markdown("<div style='margin-bottom:18px;'></div>", unsafe_allow_html=True)
+            st.session_state['__feed_row_buffer'] = buf[2:]
 
         shown += 1
+
+    # After iterating, flush any remaining buffered cards (if odd number of items)
+    if '__feed_row_buffer' in st.session_state and st.session_state['__feed_row_buffer']:
+        buf = st.session_state['__feed_row_buffer']
+        for i in range(0, len(buf), 2):
+            row = buf[i:i+2]
+            cols = st.columns(len(row))
+            for j, card_html in enumerate(row):
+                with cols[j]:
+                    st.markdown(card_html, unsafe_allow_html=True)
+            st.markdown("<div style='margin-bottom:18px;'></div>", unsafe_allow_html=True)
+        st.session_state['__feed_row_buffer'] = []
