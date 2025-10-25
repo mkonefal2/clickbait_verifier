@@ -144,5 +144,93 @@ def get_custom_css() -> str:
         white-space: nowrap !important;
     }
 
+/* === Responsive / Mobile / narrow-tablet tweaks === */
+/* Raise breakpoint to 900px so responsive rules apply in device emulators
+    and narrow/tablet viewports (e.g., 818px preview). */
+@media (max-width: 900px) {
+    /* Tighten page padding for small screens */
+    .block-container {
+        padding: 0.5rem !important;
+        max-width: 100% !important;
+        margin: 0 auto !important;
+    }
+
+    /* Scale down large headings and body copy for readability on mobile */
+    h1, h2, h3 {
+        font-size: 1.2rem !important;
+        line-height: 1.3rem !important;
+        margin-top: 0.4rem !important;
+        margin-bottom: 0.6rem !important;
+    }
+    p, span, div, label {
+        font-size: 0.95rem !important;
+    }
+
+    /* Columns should stack vertically on small screens. Force a single
+       column layout for article cards by making each column/container
+       full-width and block-level. We target several Streamlit-generated
+       wrappers to be defensive across Streamlit versions. */
+    div[data-testid="column"],
+    div[data-testid="stColumns"],
+    div[data-testid="stColumns"] > div,
+    div[data-testid="column"] > div,
+    div[data-testid="stVerticalBlock"] > div,
+    .css-1l02zno > div,
+    .css-1v3fvcr > div {
+        display: block !important;
+        flex-direction: column !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        min-width: 0 !important;
+        box-sizing: border-box !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        margin-bottom: 1rem !important;
+    }
+
+    /* Score/metric value: larger and centered */
+    div[data-testid="stMetricValue"], .stMetricValue {
+        font-size: 1.5rem !important;
+        text-align: center !important;
+    }
+
+    /* Make controls full-width for easier tapping */
+    button, select, input, .stButton button, .stSelectbox select, .stTextInput input {
+        width: 100% !important;
+        font-size: 1rem !important;
+    }
+
+    /* Pagination and horizontal groups should wrap */
+    div[data-testid="stHorizontalBlock"], div[data-testid="stColumns"] {
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+        gap: 0.5rem !important;
+    }
+
+    /* Hide streamlit sidebar and page header to maximize content area on mobile */
+    [data-testid="stSidebar"], header, div[data-testid="stSidebarNav"] {
+        display: none !important;
+    }
+
+    /* Ensure images scale down inside cards */
+    img, figure img {
+        max-width: 100% !important;
+        height: auto !important;
+    }
+
+    /* Slightly reduce margins on lists/rationale to fit mobile */
+    .rationale-item {
+        font-size: 0.95rem !important;
+        margin-bottom: 0.6rem !important;
+    }
+
+    /* Fallback safe adjustments for Streamlit's generated wrappers */
+    main, .main, .block-container, .css-1d391kg, .css-18e3th9 {
+        max-width: 100% !important;
+        padding-left: 0.5rem !important;
+        padding-right: 0.5rem !important;
+    }
+}
+
 </style>
 """
