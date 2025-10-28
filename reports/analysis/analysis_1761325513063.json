@@ -15,15 +15,56 @@
     "Propozycja: tytuł jest adekwatny, ale warto dodać nazwę produktu (tatar wołowy) w leadzie dla jasności."
   ],
   "signals": {
-    "title_hits": ["alarming: 'Wykryto bakterie'","org_alert: 'GIS ostrzega'"],
-    "content_hits": ["credibility: GIS notice, product recall","numbers_dates: distribution info"],
+    "title_hits": [
+      "alarming: 'Wykryto bakterie'",
+      "org_alert: 'GIS ostrzega'"
+    ],
+    "content_hits": [
+      "credibility: GIS notice, product recall",
+      "numbers_dates: distribution info"
+    ],
     "title_semantic_hits": [],
     "content_semantic_hits": [],
-    "credibility_hits": ["org_names: GIS, Sokołów S.A."],
+    "credibility_hits": [
+      "org_names: GIS, Sokołów S.A."
+    ],
     "monetization_hits": [],
-    "geography_hits": {"title_countries": [], "content_countries": ["Polska"]},
-    "mismatch": {"alignment_score": 0.93, "exaggeration_gap": false, "paywall_or_short": false, "country_mismatch": false, "time_omission": false, "date_omission": false, "detected_time_windows": [], "detected_dates": []}
+    "geography_hits": {
+      "title_countries": [],
+      "content_countries": [
+        "Polska"
+      ]
+    },
+    "mismatch": {
+      "alignment_score": 0.93,
+      "exaggeration_gap": false,
+      "paywall_or_short": false,
+      "country_mismatch": false,
+      "time_omission": false,
+      "date_omission": false,
+      "detected_time_windows": [],
+      "detected_dates": []
+    }
   },
-  "suggestions": {"rewrite_title_neutral": "GIS: Wykryto bakterie w partii tataru wołowego — produkt wycofywany","notes_to_editor": "Tytuł jest informacyjny i ważny dla bezpieczeństwa konsumentów; upewnij się, że lead zawiera szczegóły dotyczące partii i wycofania."},
-  "diagnostics": {"tokens_title": 8, "tokens_content": 120, "processing_time_ms": 70, "windows_scanned": [{"index":0,"start":"0","length_chars":400,"evidence_hits":["title: 'Wykryto bakterie'","content: 'GIS poinformował'"]}]}
+  "suggestions": {
+    "rewrite_title_neutral": "GIS: Wykryto bakterie w partii tataru wołowego — produkt wycofywany",
+    "notes_to_editor": "Tytuł jest informacyjny i ważny dla bezpieczeństwa konsumentów; upewnij się, że lead zawiera szczegóły dotyczące partii i wycofania."
+  },
+  "diagnostics": {
+    "tokens_title": 8,
+    "tokens_content": 120,
+    "processing_time_ms": 70,
+    "windows_scanned": [
+      {
+        "index": 0,
+        "start": "0",
+        "length_chars": 400,
+        "evidence_hits": [
+          "title: 'Wykryto bakterie'",
+          "content: 'GIS poinformował'"
+        ]
+      }
+    ]
+  },
+  "summary": "Ostrzeżenie GIS."
 }

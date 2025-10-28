@@ -17,13 +17,26 @@
     "Zalecenie: jeśli chcecie zmniejszyć emocjonalny wydźwięk, zastąpcie 'zabójców' słowem 'patogeny' lub 'przyczyny zakażeń'."
   ],
   "signals": {
-    "title_hits": ["sensational_phrases", "quotation_mark_usage"],
-    "content_hits": ["scientific_findings", "ancient_dna_analysis"],
-    "credibility_hits": ["org_names: Institut Pasteur", "methods_terms"],
+    "title_hits": [
+      "sensational_phrases",
+      "quotation_mark_usage"
+    ],
+    "content_hits": [
+      "scientific_findings",
+      "ancient_dna_analysis"
+    ],
+    "credibility_hits": [
+      "org_names: Institut Pasteur",
+      "methods_terms"
+    ],
     "monetization_hits": [],
     "geography_hits": {
       "title_countries": [],
-      "content_countries": ["France","Russia","Lithuania"]
+      "content_countries": [
+        "France",
+        "Russia",
+        "Lithuania"
+      ]
     },
     "mismatch": {
       "alignment_score": 0.85,
@@ -46,5 +59,6 @@
     "notes": "Long-form science reporting; strong methodological detail reduces clickbait risk."
   },
   "created_by": "agent_manual_analysis_v1",
-  "created_at": "2025-10-24T20:18:00+02:00"
+  "created_at": "2025-10-24T20:18:00+02:00",
+  "summary": "Nowe światło na jedną z największych zagadek historii Europy rzucili badacze z Instytutu Pasteura. Dzięki nowoczesnym technologiom analizy DNA, naukowcy przeprowadzili szczegółowe badania szczątków żołnierzy armii Napoleona Bonaparte, którzy zginęli podczas tragicznego odwrotu z Rosji w 1812 roku."
 }

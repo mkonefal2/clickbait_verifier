@@ -1,3 +1,15 @@
+# Ignore local documentation and editor/temp files
+/docs/PROJECT_DESCRIPTION_PL.md
+
+# Python and virtual env
+venv/
+env/
+__pycache__/
+.pytest_cache/
+
+# Logs and reports
+logs/
+reports/
 # Specification document
 clickbait_verifier_full_system_specification.md
 

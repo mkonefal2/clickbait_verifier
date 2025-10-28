@@ -17,17 +17,37 @@
     "Artykuł opisuje jednak potwierdzony przypadek kryminalny i działania policji — sugerujemy użycie mniej opisowego sformułowania w tytule."
   ],
   "signals": {
-    "title_hits": ["sensational_phrases", "graphic_action"],
-    "content_hits": ["crime_report", "police_response"],
-    "credibility_hits": ["official_statements"],
+    "title_hits": [
+      "sensational_phrases",
+      "graphic_action"
+    ],
+    "content_hits": [
+      "crime_report",
+      "police_response"
+    ],
+    "credibility_hits": [
+      "official_statements"
+    ],
     "monetization_hits": [],
-    "geography_hits": { "title_countries": ["Poland"], "content_countries": ["Poland"] }
+    "geography_hits": {
+      "title_countries": [
+        "Poland"
+      ],
+      "content_countries": [
+        "Poland"
+      ]
+    }
   },
   "suggestions": {
     "rewrite_title_neutral": "Podejrzany podpalił garaż, w którym ukrywał się sąsiad — usiłowanie zabójstwa",
     "notes_to_editor": "Zastąp opisowe, szokujące sformułowania neutralnym opisem czynu i statusu prawnego."
   },
-  "diagnostics": { "content_char_count": 220, "sampling_windows": 5, "notes": "Local crime report; emotive headline flagged." },
+  "diagnostics": {
+    "content_char_count": 220,
+    "sampling_windows": 5,
+    "notes": "Local crime report; emotive headline flagged."
+  },
   "created_by": "agent_manual_analysis_v1",
-  "created_at": "2025-10-24T20:22:00+02:00"
+  "created_at": "2025-10-24T20:22:00+02:00",
+  "summary": "Wstrząsające sceny w Pile. Podpalił garaż, w którym chował się sąsiad\nDziennikarze Onet Wiadomości\n24 października 2025, 15:18\nSkróć artykuł\nUdostępnij przez\nFacebook\nX\nE-mail\nKopiuj link\nLink skopiowany\nW Pile (woj."
 }

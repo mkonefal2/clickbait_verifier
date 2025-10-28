@@ -15,7 +15,7 @@
   "rationale_user_friendly": [
     "Tytuł informuje o śmierci konkretnej osoby — to ważna wiadomość, a artykuł faktycznie to potwierdza.",
     "Nie znaleźliśmy w tytule obietnicy sensacyjnych treści ani fałszywych zapewnień — dlatego nie traktujemy go jako clickbaitu.",
-  "Sugestia: tytuł jest dopuszczalny, ale można uniknąć nadmiernego dramatu, np. \"Zmarł dr Maciej Adamkiewicz\" jako krótsza, neutralna forma."
+    "Sugestia: tytuł jest dopuszczalny, ale można uniknąć nadmiernego dramatu, np. \"Zmarł dr Maciej Adamkiewicz\" jako krótsza, neutralna forma."
   ],
   "signals": {
     "title_hits": [
@@ -34,7 +34,9 @@
     "monetization_hits": [],
     "geography_hits": {
       "title_countries": [],
-      "content_countries": ["Polska"]
+      "content_countries": [
+        "Polska"
+      ]
     },
     "mismatch": {
       "alignment_score": 0.95,
@@ -43,8 +45,12 @@
       "country_mismatch": false,
       "time_omission": false,
       "date_omission": false,
-      "detected_time_windows": ["23-10-2025"],
-      "detected_dates": ["2025-10-23"]
+      "detected_time_windows": [
+        "23-10-2025"
+      ],
+      "detected_dates": [
+        "2025-10-23"
+      ]
     }
   },
   "suggestions": {
@@ -56,11 +62,46 @@
     "tokens_content": 180,
     "processing_time_ms": 90,
     "windows_scanned": [
-      { "index": 0, "start": "0", "length_chars": 600, "evidence_hits": ["title: 'Nie żyje'", "content: 'zmarł dr Maciej Adamkiewicz'"] },
-      { "index": 1, "start": "25%", "length_chars": 600, "evidence_hits": ["content: 'Adamed Pharma'", "content: 'Forbes'"] },
-      { "index": 2, "start": "50%", "length_chars": 600, "evidence_hits": ["content: '23 października'"] },
-      { "index": 3, "start": "75%", "length_chars": 600, "evidence_hits": [] },
-      { "index": 4, "start": "last", "length_chars": 600, "evidence_hits": [] }
+      {
+        "index": 0,
+        "start": "0",
+        "length_chars": 600,
+        "evidence_hits": [
+          "title: 'Nie żyje'",
+          "content: 'zmarł dr Maciej Adamkiewicz'"
+        ]
+      },
+      {
+        "index": 1,
+        "start": "25%",
+        "length_chars": 600,
+        "evidence_hits": [
+          "content: 'Adamed Pharma'",
+          "content: 'Forbes'"
+        ]
+      },
+      {
+        "index": 2,
+        "start": "50%",
+        "length_chars": 600,
+        "evidence_hits": [
+          "content: '23 października'"
+        ]
+      },
+      {
+        "index": 3,
+        "start": "75%",
+        "length_chars": 600,
+        "evidence_hits": []
+      },
+      {
+        "index": 4,
+        "start": "last",
+        "length_chars": 600,
+        "evidence_hits": []
+      }
     ]
-  }
+  },
+  "summary": "Dr Maciej Adamkiewicz, chirurg i współwłaściciel Adamed Pharma, zmarł 23 października w wieku 59 lat. Spółka potwierdziła śmierć w komunikacie; artykuł przypomina jego działalność zawodową i rolę w firmie.",
+  "_summary_generated_by": "manual_batch_update_2"
 }

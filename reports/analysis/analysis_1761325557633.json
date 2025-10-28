@@ -18,12 +18,22 @@
   ],
   "signals": {
     "title_hits": [],
-    "content_hits": ["criminal_case_report", "official_statement"],
-    "credibility_hits": ["prosecutor_statement"],
+    "content_hits": [
+      "criminal_case_report",
+      "official_statement"
+    ],
+    "credibility_hits": [
+      "prosecutor_statement"
+    ],
     "monetization_hits": [],
     "geography_hits": {
-      "title_countries": ["Poland"],
-      "content_countries": ["Poland", "Lithuania"]
+      "title_countries": [
+        "Poland"
+      ],
+      "content_countries": [
+        "Poland",
+        "Lithuania"
+      ]
     },
     "mismatch": {
       "alignment_score": 0.94,
@@ -33,7 +43,9 @@
       "time_omission": false,
       "date_omission": false,
       "detected_time_windows": [],
-      "detected_dates": ["2025-10-24"]
+      "detected_dates": [
+        "2025-10-24"
+      ]
     }
   },
   "suggestions": {
@@ -46,5 +58,6 @@
     "notes": "Factual prosecutor press release style article; minimal clickbait risk."
   },
   "created_by": "agent_manual_analysis_v1",
-  "created_at": "2025-10-24T20:14:00+02:00"
+  "created_at": "2025-10-24T20:14:00+02:00",
+  "summary": "Wyrok dla sabotażystów."
 }

@@ -17,13 +17,25 @@
     "W artykule znajdują się głosy ekspertów, które łagodzą te twierdzenia, więc sugeruję zmniejszyć metaforyczny język w tytule."
   ],
   "signals": {
-    "title_hits": ["curiosity_gap", "sensational_phrases"],
-    "content_hits": ["expert_commentary", "political_analysis"],
-    "credibility_hits": ["quoted_speakers"],
+    "title_hits": [
+      "curiosity_gap",
+      "sensational_phrases"
+    ],
+    "content_hits": [
+      "expert_commentary",
+      "political_analysis"
+    ],
+    "credibility_hits": [
+      "quoted_speakers"
+    ],
     "monetization_hits": [],
     "geography_hits": {
-      "title_countries": ["Poland"],
-      "content_countries": ["Poland"]
+      "title_countries": [
+        "Poland"
+      ],
+      "content_countries": [
+        "Poland"
+      ]
     },
     "mismatch": {
       "alignment_score": 0.72,
@@ -33,7 +45,9 @@
       "time_omission": false,
       "date_omission": false,
       "detected_time_windows": [],
-      "detected_dates": ["2025-10-24"]
+      "detected_dates": [
+        "2025-10-24"
+      ]
     }
   },
   "suggestions": {
@@ -46,5 +60,6 @@
     "notes": "Opinion/analysis piece — expert quotes reduce risk but headline retains dramatic framing."
   },
   "created_by": "agent_manual_analysis_v1",
-  "created_at": "2025-10-24T20:06:30+02:00"
+  "created_at": "2025-10-24T20:06:30+02:00",
+  "summary": "Pogłoski o politycznej śmierci KO są przedwczesne."
 }

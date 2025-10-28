@@ -17,13 +17,25 @@
     "Artykuł jednak przedstawia konkretne dane i wypowiedzi służb — proponuję złagodzić metaforyczne sformułowania, by zachować informacyjny ton."
   ],
   "signals": {
-    "title_hits": ["sensational_phrases", "alarming_frames"],
-    "content_hits": ["quoted_officials", "budget_numbers"],
-    "credibility_hits": ["named_sources"],
+    "title_hits": [
+      "sensational_phrases",
+      "alarming_frames"
+    ],
+    "content_hits": [
+      "quoted_officials",
+      "budget_numbers"
+    ],
+    "credibility_hits": [
+      "named_sources"
+    ],
     "monetization_hits": [],
     "geography_hits": {
-      "title_countries": ["Poland"],
-      "content_countries": ["Poland"]
+      "title_countries": [
+        "Poland"
+      ],
+      "content_countries": [
+        "Poland"
+      ]
     },
     "mismatch": {
       "alignment_score": 0.78,
@@ -33,7 +45,9 @@
       "time_omission": false,
       "date_omission": false,
       "detected_time_windows": [],
-      "detected_dates": ["2025-10-24"]
+      "detected_dates": [
+        "2025-10-24"
+      ]
     }
   },
   "suggestions": {
@@ -46,5 +60,6 @@
     "notes": "Analysis piece with named sources; title flagged for sensational phrasing."
   },
   "created_by": "agent_manual_analysis_v1",
-  "created_at": "2025-10-24T20:09:00+02:00"
+  "created_at": "2025-10-24T20:09:00+02:00",
+  "summary": "Dziura w budżecie NFZ, szpitale przesuwają zabiegi. \"To można już nazwać pożarem\"\nMarcin Terlik\n24 października 2025, 15:24\nSkróć artykuł\nUdostępnij\nUdostępnij przez\nFacebook\nX\nE-mail\nKopiuj link\nLink skopiowany\n— Przekładane są wszystkie zabiegi, które nie są pilne."
 }

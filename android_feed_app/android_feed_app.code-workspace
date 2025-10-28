@@ -1,0 +1,24 @@
+{
+  "folders": [
+    {
+      "name": "Android Feed App",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/.gradle": true,
+      "**/.idea": true,
+      "**/build": true,
+      "**/*.iml": true
+    },
+    "search.exclude": {
+      "**/build": true,
+      "**/.gradle": true
+    },
+    "java.project.sourcePaths": [
+      "app/src/main/java"
+    ],
+    "java.configuration.updateBuildConfiguration": "automatic"
+  }
+}

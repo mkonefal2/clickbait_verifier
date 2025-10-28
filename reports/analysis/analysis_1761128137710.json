@@ -26,4 +26,7 @@
 	},
 	"suggestions": { "rewrite_title_neutral": "Wyniki plebiscytu publiczności Konkursu Chopinowskiego", "notes_to_editor": "Tytuł jest opisowy i można go pozostawić." },
 	"diagnostics": { "tokens_title": 12, "tokens_content": 220, "processing_time_ms": 34, "windows_scanned": [{"index":0,"start":"0","length_chars":600,"evidence_hits":["content: 'wyniki plebiscytu','19 961 głosów'" ]},{"index":1,"start":"25%","length_chars":600,"evidence_hits":["content: 'I nagroda Eric Lu'" ]},{"index":2,"start":"50%","length_chars":600,"evidence_hits":["content: 'wręczenie przez prezydenta'" ]},{"index":3,"start":"75%","length_chars":600,"evidence_hits":[]},{"index":4,"start":"end","length_chars":600,"evidence_hits":[]}] }
+	,
+	"summary": "Relacja z Konkursu Chopinowskiego: artykuł opisuje wyniki plebiscytu publiczności, podając liczby głosów i wskazując zwycięzcę oraz nagrody. Zawiera informacje o ceremonii wręczenia i uczestnikach konkursu.",
+	"_summary_generated_by": "manual_batch_update_1"
 }

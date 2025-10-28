@@ -13,17 +13,38 @@
   ],
   "rationale_user_friendly": [
     "Tytuł ma wydźwięk oceniający i może sugerować opinię zamiast faktu.",
-    "Proponuję dodać, że to opis stylu/preferencji administracji lub podpisać jako komentarz/relację." 
+    "Proponuję dodać, że to opis stylu/preferencji administracji lub podpisać jako komentarz/relację."
   ],
   "signals": {
-    "title_hits": ["opinionated_language", "value_judgement"],
-    "content_hits": ["decor_details", "quoted_statements"],
+    "title_hits": [
+      "opinionated_language",
+      "value_judgement"
+    ],
+    "content_hits": [
+      "decor_details",
+      "quoted_statements"
+    ],
     "credibility_hits": [],
     "monetization_hits": [],
-    "geography_hits": { "title_countries": ["USA"], "content_countries": ["USA"] }
+    "geography_hits": {
+      "title_countries": [
+        "USA"
+      ],
+      "content_countries": [
+        "USA"
+      ]
+    }
   },
-  "suggestions": { "rewrite_title_neutral": "Zmiany dekoracji w Białym Domu opisane na tle pierwszych miesięcy prezydentury Trumpa", "notes_to_editor": "Rozważyć oznaczenie jako felieton/komentarz, jeśli materiał ma subiektywny ton." },
-  "diagnostics": { "content_char_count": 920, "sampling_windows": 5, "notes": "Opinionated feature; title additions applied." },
+  "suggestions": {
+    "rewrite_title_neutral": "Zmiany dekoracji w Białym Domu opisane na tle pierwszych miesięcy prezydentury Trumpa",
+    "notes_to_editor": "Rozważyć oznaczenie jako felieton/komentarz, jeśli materiał ma subiektywny ton."
+  },
+  "diagnostics": {
+    "content_char_count": 920,
+    "sampling_windows": 5,
+    "notes": "Opinionated feature; title additions applied."
+  },
   "created_by": "agent_manual_analysis_v1",
-  "created_at": "2025-10-24T20:30:00+02:00"
+  "created_at": "2025-10-24T20:30:00+02:00",
+  "summary": "Kosztowne rewolucje Donalda Trumpa. Prezydent USA nie zna umiaru\nDzienikarze serwisu Blick.ch\n24 października 2025, 16:39\nSkróć artykuł\nUdostępnij\nUdostępnij przez\nFacebook\nX\nE-mail\nKopiuj link\nLink skopiowany\nW Białym Domu wszystko lśni i błyszczy."
 }

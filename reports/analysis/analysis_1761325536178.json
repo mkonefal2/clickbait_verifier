@@ -13,17 +13,38 @@
   ],
   "rationale_user_friendly": [
     "To standardowy tytuł informacyjny o spotkaniu przywódców — nie ma tu typowych chwytów clickbaitowych.",
-    "Brak sugestii do zmiany poza ewentualnym doprecyzowaniem uczestników w leadzie." 
+    "Brak sugestii do zmiany poza ewentualnym doprecyzowaniem uczestników w leadzie."
   ],
   "signals": {
     "title_hits": [],
-    "content_hits": ["official_sources", "diplomatic_meeting"],
-    "credibility_hits": ["agency_reporting"],
+    "content_hits": [
+      "official_sources",
+      "diplomatic_meeting"
+    ],
+    "credibility_hits": [
+      "agency_reporting"
+    ],
     "monetization_hits": [],
-    "geography_hits": { "title_countries": ["UK"], "content_countries": ["Ukraine", "UK"] }
+    "geography_hits": {
+      "title_countries": [
+        "UK"
+      ],
+      "content_countries": [
+        "Ukraine",
+        "UK"
+      ]
+    }
   },
-  "suggestions": { "rewrite_title_neutral": null, "notes_to_editor": "Tytuł OK; można dodać listę kluczowych decyzji, jeśli dostępne." },
-  "diagnostics": { "content_char_count": 640, "sampling_windows": 5, "notes": "Agency dispatch — low clickbait signals." },
+  "suggestions": {
+    "rewrite_title_neutral": null,
+    "notes_to_editor": "Tytuł OK; można dodać listę kluczowych decyzji, jeśli dostępne."
+  },
+  "diagnostics": {
+    "content_char_count": 640,
+    "sampling_windows": 5,
+    "notes": "Agency dispatch — low clickbait signals."
+  },
   "created_by": "agent_manual_analysis_v1",
-  "created_at": "2025-10-24T20:30:00+02:00"
+  "created_at": "2025-10-24T20:30:00+02:00",
+  "summary": "Kolejne spotkanie koalicji chętnych. \"Czas na wywieranie presji\"\nPolska Agencja Prasowa\n24 października 2025, 18:05\nSkróć artykuł\nUdostępnij\nUdostępnij przez\nFacebook\nX\nE-mail\nKopiuj link\nLink skopiowany\nSpotkanie przywódców tzw. koalicji chętnych na rzecz Ukrainy rozpoczęło się w piątek w Londynie."
 }

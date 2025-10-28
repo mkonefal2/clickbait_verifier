@@ -36,7 +36,11 @@
     "monetization_hits": [],
     "geography_hits": {
       "title_countries": [],
-      "content_countries": ["Polska","Litwa","Łotwa"]
+      "content_countries": [
+        "Polska",
+        "Litwa",
+        "Łotwa"
+      ]
     },
     "mismatch": {
       "alignment_score": 0.88,
@@ -58,11 +62,46 @@
     "tokens_content": 230,
     "processing_time_ms": 110,
     "windows_scanned": [
-      { "index": 0, "start": "0", "length_chars": 600, "evidence_hits": ["title: 'Ukraińscy sabotażyści'", "content: 'skazani za udział'"] },
-      { "index": 1, "start": "25%", "length_chars": 600, "evidence_hits": ["content: 'podpalenia sklepu IKEA'", "content: 'Marywilska 44'"] },
-      { "index": 2, "start": "50%", "length_chars": 600, "evidence_hits": ["content: 'zorganizowana grupa przestępcza'"] },
-      { "index": 3, "start": "75%", "length_chars": 600, "evidence_hits": [] },
-      { "index": 4, "start": "last", "length_chars": 600, "evidence_hits": [] }
+      {
+        "index": 0,
+        "start": "0",
+        "length_chars": 600,
+        "evidence_hits": [
+          "title: 'Ukraińscy sabotażyści'",
+          "content: 'skazani za udział'"
+        ]
+      },
+      {
+        "index": 1,
+        "start": "25%",
+        "length_chars": 600,
+        "evidence_hits": [
+          "content: 'podpalenia sklepu IKEA'",
+          "content: 'Marywilska 44'"
+        ]
+      },
+      {
+        "index": 2,
+        "start": "50%",
+        "length_chars": 600,
+        "evidence_hits": [
+          "content: 'zorganizowana grupa przestępcza'"
+        ]
+      },
+      {
+        "index": 3,
+        "start": "75%",
+        "length_chars": 600,
+        "evidence_hits": []
+      },
+      {
+        "index": 4,
+        "start": "last",
+        "length_chars": 600,
+        "evidence_hits": []
+      }
     ]
-  }
+  },
+  "summary": "Trzech osób zostało skazanych za udział w zorganizowanej grupie odpowiedzialnej za podpalenia sklepów i innych obiektów w Polsce i na Litwie. Artykuł opisuje przebieg procesu i wymierzone kary oraz podaje miejsce i daty zdarzeń.",
+  "_summary_generated_by": "manual_batch_update_2"
 }

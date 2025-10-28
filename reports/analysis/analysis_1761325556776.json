@@ -16,13 +16,25 @@
     "Jeżeli redakcja chce mniej drastyczny język, można użyć mniej opisowego wyrażenia, np. 'Podejrzana aresztowana; sąd wydał decyzję'."
   ],
   "signals": {
-    "title_hits": ["graphic_action"],
-    "content_hits": ["criminal_case_report", "judicial_decision"],
-    "credibility_hits": ["prosecutor_quote", "tv_station_reference"],
+    "title_hits": [
+      "graphic_action"
+    ],
+    "content_hits": [
+      "criminal_case_report",
+      "judicial_decision"
+    ],
+    "credibility_hits": [
+      "prosecutor_quote",
+      "tv_station_reference"
+    ],
     "monetization_hits": [],
     "geography_hits": {
-      "title_countries": ["Poland"],
-      "content_countries": ["Poland"]
+      "title_countries": [
+        "Poland"
+      ],
+      "content_countries": [
+        "Poland"
+      ]
     },
     "mismatch": {
       "alignment_score": 0.93,
@@ -32,7 +44,9 @@
       "time_omission": false,
       "date_omission": false,
       "detected_time_windows": [],
-      "detected_dates": ["2025-10-24"]
+      "detected_dates": [
+        "2025-10-24"
+      ]
     }
   },
   "suggestions": {
@@ -45,5 +59,6 @@
     "notes": "Crime report; factual and supported."
   },
   "created_by": "agent_manual_analysis_v1",
-  "created_at": "2025-10-24T20:11:00+02:00"
+  "created_at": "2025-10-24T20:11:00+02:00",
+  "summary": "Dźgnęła matkę nożem przed sklepem w Kampinosie."
 }

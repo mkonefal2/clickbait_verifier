@@ -17,13 +17,27 @@
     "Artykuł zawiera szczegóły i relacje, które potwierdzają powagę sytuacji — rozważ doprecyzowanie tytułu, np. 'Rosjanie ponownie weszli do Pokrowska; trwają ciężkie walki'."
   ],
   "signals": {
-    "title_hits": ["short_drama_title"],
-    "content_hits": ["urban_combat", "drone_usage", "critical_defense"],
-    "credibility_hits": ["local_officer_reports"],
+    "title_hits": [
+      "short_drama_title"
+    ],
+    "content_hits": [
+      "urban_combat",
+      "drone_usage",
+      "critical_defense"
+    ],
+    "credibility_hits": [
+      "local_officer_reports"
+    ],
     "monetization_hits": [],
     "geography_hits": {
-      "title_countries": ["Ukraine","Russia"],
-      "content_countries": ["Ukraine","Russia"]
+      "title_countries": [
+        "Ukraine",
+        "Russia"
+      ],
+      "content_countries": [
+        "Ukraine",
+        "Russia"
+      ]
     },
     "mismatch": {
       "alignment_score": 0.62,
@@ -46,5 +60,6 @@
     "notes": "Breaking war report; high emotional impact."
   },
   "created_by": "agent_manual_analysis_v1",
-  "created_at": "2025-10-24T20:19:00+02:00"
+  "created_at": "2025-10-24T20:19:00+02:00",
+  "summary": "Dramatyczna sytuacja w Pokrowsku. Ukraińskie media donoszą, że miasto, które od miesięcy broni się przed rosyjskim wojskiem, znajduje się na skraju upadku. Do środka przedostali się żołnierze okupanta, a na pozycjach ukraińskich panuje chaos."
 }

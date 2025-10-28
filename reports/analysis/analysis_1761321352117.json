@@ -34,7 +34,9 @@
     "monetization_hits": [],
     "geography_hits": {
       "title_countries": [],
-      "content_countries": ["USA"]
+      "content_countries": [
+        "USA"
+      ]
     },
     "mismatch": {
       "alignment_score": 0.85,
@@ -56,11 +58,47 @@
     "tokens_content": 220,
     "processing_time_ms": 100,
     "windows_scanned": [
-      { "index": 0, "start": "0", "length_chars": 600, "evidence_hits": ["title: 'AI pomyliła'", "content: 'system AI pomylił paczkę chipsów jako broń'"] },
-      { "index": 1, "start": "25%", "length_chars": 600, "evidence_hits": ["content: 'Policja przyjechała w sile ośmiu radiowozów'", "content: 'Taki Allen'"] },
-      { "index": 2, "start": "50%", "length_chars": 600, "evidence_hits": ["content: 'Omnilert'", "content: 'BBC'"] },
-      { "index": 3, "start": "75%", "length_chars": 600, "evidence_hits": [] },
-      { "index": 4, "start": "last", "length_chars": 600, "evidence_hits": [] }
+      {
+        "index": 0,
+        "start": "0",
+        "length_chars": 600,
+        "evidence_hits": [
+          "title: 'AI pomyliła'",
+          "content: 'system AI pomylił paczkę chipsów jako broń'"
+        ]
+      },
+      {
+        "index": 1,
+        "start": "25%",
+        "length_chars": 600,
+        "evidence_hits": [
+          "content: 'Policja przyjechała w sile ośmiu radiowozów'",
+          "content: 'Taki Allen'"
+        ]
+      },
+      {
+        "index": 2,
+        "start": "50%",
+        "length_chars": 600,
+        "evidence_hits": [
+          "content: 'Omnilert'",
+          "content: 'BBC'"
+        ]
+      },
+      {
+        "index": 3,
+        "start": "75%",
+        "length_chars": 600,
+        "evidence_hits": []
+      },
+      {
+        "index": 4,
+        "start": "last",
+        "length_chars": 600,
+        "evidence_hits": []
+      }
     ]
-  }
+  },
+  "summary": "Szesnastolatek z Baltimore (USA) został zakuty w kajdanki przez policję po tym, jak system sztucznej inteligencji błędnie rozpoznał paczkę chipsów jako broń. Incydent wywołał debatę na temat bezpieczeństwa i skuteczności technologii AI w amerykańskich szkołach.",
+  "_summary_generated_by": "manual_batch_update_2"
 }

@@ -16,14 +16,53 @@
   ],
   "signals": {
     "title_hits": [],
-    "content_hits": ["numbers_dates: cost 100 mln zł","credibility: government officials present"],
+    "content_hits": [
+      "numbers_dates: cost 100 mln zł",
+      "credibility: government officials present"
+    ],
     "title_semantic_hits": [],
     "content_semantic_hits": [],
-    "credibility_hits": ["org_names: Ministerstwo Infrastruktury"],
+    "credibility_hits": [
+      "org_names: Ministerstwo Infrastruktury"
+    ],
     "monetization_hits": [],
-    "geography_hits": {"title_countries": [], "content_countries": ["Polska"]},
-    "mismatch": {"alignment_score": 0.94, "exaggeration_gap": false, "paywall_or_short": false, "country_mismatch": false, "time_omission": false, "date_omission": false, "detected_time_windows": [], "detected_dates": []}
+    "geography_hits": {
+      "title_countries": [],
+      "content_countries": [
+        "Polska"
+      ]
+    },
+    "mismatch": {
+      "alignment_score": 0.94,
+      "exaggeration_gap": false,
+      "paywall_or_short": false,
+      "country_mismatch": false,
+      "time_omission": false,
+      "date_omission": false,
+      "detected_time_windows": [],
+      "detected_dates": []
+    }
   },
-  "suggestions": {"rewrite_title_neutral": "Otwarto nowy most na rzece Bug. Inwestycja za 100 mln zł","notes_to_editor": "Tytuł jest dopuszczalny; rozważ bardziej bezpośrednią konstrukcję dla czytelników poszukujących informacji."},
-  "diagnostics": {"tokens_title": 11, "tokens_content": 420, "processing_time_ms": 85, "windows_scanned": [{"index":0,"start":"0","length_chars":600,"evidence_hits":["title: 'Otwarto most za 100 mln zł'","content: '100 mln zł', 'Granne'"]}]}
+  "suggestions": {
+    "rewrite_title_neutral": "Otwarto nowy most na rzece Bug. Inwestycja za 100 mln zł",
+    "notes_to_editor": "Tytuł jest dopuszczalny; rozważ bardziej bezpośrednią konstrukcję dla czytelników poszukujących informacji."
+  },
+  "diagnostics": {
+    "tokens_title": 11,
+    "tokens_content": 420,
+    "processing_time_ms": 85,
+    "windows_scanned": [
+      {
+        "index": 0,
+        "start": "0",
+        "length_chars": 600,
+        "evidence_hits": [
+          "title: 'Otwarto most za 100 mln zł'",
+          "content: '100 mln zł', 'Granne'"
+        ]
+      }
+    ]
+  },
+  "summary": "Otwarto nowy most w miejscowości Granne (woj. podlaskie); inwestycja kosztowała około 100 mln zł i ma poprawić połączenia między regionami. Artykuł opisuje parametry techniczne, uczestników uroczystości i spodziewane korzyści dla lokalnej komunikacji.",
+  "_summary_generated_by": "manual_batch_update_2"
 }

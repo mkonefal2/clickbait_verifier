@@ -15,15 +15,56 @@
     "Sugestia: jeśli chcesz zmniejszyć dramatyzm, użyj 'Wypadek na S6. Jedna osoba nie żyje, druga w ciężkim stanie'."
   ],
   "signals": {
-    "title_hits": ["neutral_warning: 'Tragiczny'"] ,
-    "content_hits": ["numbers_dates: casualty count","credibility: emergency services, LPR"],
+    "title_hits": [
+      "neutral_warning: 'Tragiczny'"
+    ],
+    "content_hits": [
+      "numbers_dates: casualty count",
+      "credibility: emergency services, LPR"
+    ],
     "title_semantic_hits": [],
     "content_semantic_hits": [],
-    "credibility_hits": ["org_names: LPR, policja"],
+    "credibility_hits": [
+      "org_names: LPR, policja"
+    ],
     "monetization_hits": [],
-    "geography_hits": {"title_countries": [], "content_countries": ["Polska"]},
-    "mismatch": {"alignment_score": 0.91, "exaggeration_gap": false, "paywall_or_short": false, "country_mismatch": false, "time_omission": false, "date_omission": false, "detected_time_windows": [], "detected_dates": []}
+    "geography_hits": {
+      "title_countries": [],
+      "content_countries": [
+        "Polska"
+      ]
+    },
+    "mismatch": {
+      "alignment_score": 0.91,
+      "exaggeration_gap": false,
+      "paywall_or_short": false,
+      "country_mismatch": false,
+      "time_omission": false,
+      "date_omission": false,
+      "detected_time_windows": [],
+      "detected_dates": []
+    }
   },
-  "suggestions": {"rewrite_title_neutral": "Wypadek na S6. Jedna osoba nie żyje, druga w ciężkim stanie","notes_to_editor": "Tytuł jest dopuszczalny; dla neutralności można wymienić skutki zdarzenia w leadzie."},
-  "diagnostics": {"tokens_title": 4, "tokens_content": 160, "processing_time_ms": 75, "windows_scanned": [{"index":0,"start":"0","length_chars":600,"evidence_hits":["title: 'Tragiczny'","content: 'jedna osoba nie żyje'"]} ] }
+  "suggestions": {
+    "rewrite_title_neutral": "Wypadek na S6. Jedna osoba nie żyje, druga w ciężkim stanie",
+    "notes_to_editor": "Tytuł jest dopuszczalny; dla neutralności można wymienić skutki zdarzenia w leadzie."
+  },
+  "diagnostics": {
+    "tokens_title": 4,
+    "tokens_content": 160,
+    "processing_time_ms": 75,
+    "windows_scanned": [
+      {
+        "index": 0,
+        "start": "0",
+        "length_chars": 600,
+        "evidence_hits": [
+          "title: 'Tragiczny'",
+          "content: 'jedna osoba nie żyje'"
+        ]
+      }
+    ]
+  },
+  "summary": "Jedna osoba nie żyje, a druga w ciężkim stanie trafiła do szpitala po zderzeniu trzech samochodów ciężarowych i jednego osobowego na drodze S6 w rejonie Bożepole Wielkie. Służby ratunkowe zabezpieczyły miejsce zdarzenia i kierują ruchem, a artykuł opisuje przebieg akcji ratunkowej.",
+  "_summary_generated_by": "manual_batch_update_2"
 }

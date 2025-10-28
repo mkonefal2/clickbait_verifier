@@ -16,14 +16,37 @@
     "Sugeruję doprecyzować, że to opinia cytowanego doradcy lub dodać kontekst prawny."
   ],
   "signals": {
-    "title_hits": ["curiosity_gap", "provocative_question"],
-    "content_hits": ["political_opinion", "quoted_source"],
-    "credibility_hits": ["quoted_speakers"],
+    "title_hits": [
+      "curiosity_gap",
+      "provocative_question"
+    ],
+    "content_hits": [
+      "political_opinion",
+      "quoted_source"
+    ],
+    "credibility_hits": [
+      "quoted_speakers"
+    ],
     "monetization_hits": [],
-    "geography_hits": { "title_countries": ["USA"], "content_countries": ["USA"] }
+    "geography_hits": {
+      "title_countries": [
+        "USA"
+      ],
+      "content_countries": [
+        "USA"
+      ]
+    }
   },
-  "suggestions": { "rewrite_title_neutral": "Były doradca: możliwy plan na kontynuację władzy po 2028 r.", "notes_to_editor": "Warto zaznaczyć, że to opinia cytowanego doradcy; rozważ dodać krótki kontekst prawny." },
-  "diagnostics": { "content_char_count": 200, "sampling_windows": 5, "notes": "Opinion/quote-driven political piece; curiosity signal present." },
+  "suggestions": {
+    "rewrite_title_neutral": "Były doradca: możliwy plan na kontynuację władzy po 2028 r.",
+    "notes_to_editor": "Warto zaznaczyć, że to opinia cytowanego doradcy; rozważ dodać krótki kontekst prawny."
+  },
+  "diagnostics": {
+    "content_char_count": 200,
+    "sampling_windows": 5,
+    "notes": "Opinion/quote-driven political piece; curiosity signal present."
+  },
   "created_by": "agent_manual_analysis_v1",
-  "created_at": "2025-10-24T20:23:00+02:00"
+  "created_at": "2025-10-24T20:23:00+02:00",
+  "summary": "Donald Trump ma plan, by rządzić trzecią kadencję. Jego były doradca zabrał głos\nDziennikarze Onet Wiadomości\n24 października 2025, 15:45\nSkróć artykuł\nUdostępnij przez\nFacebook\nX\nE-mail\nKopiuj link\nLink skopiowany\nSteve Bannon twierdzi, że Donald Trump po 2028 r."
 }

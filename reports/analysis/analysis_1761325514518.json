@@ -15,15 +15,55 @@
     "Artykuł cytuje ekspertkę i wyjaśnia kontekst raportu — proponujemy złagodzenie tytułu na mniej sugestywny, np. 'Znana prawniczka komentuje możliwe reperkusje polityczne'."
   ],
   "signals": {
-    "title_hits": ["political_rumor: 'zemsta'","curiosity: 'Za dwa lata'"] ,
-    "content_hits": ["credibility: expert quote, commission report"],
+    "title_hits": [
+      "political_rumor: 'zemsta'",
+      "curiosity: 'Za dwa lata'"
+    ],
+    "content_hits": [
+      "credibility: expert quote, commission report"
+    ],
     "title_semantic_hits": [],
     "content_semantic_hits": [],
-    "credibility_hits": ["named_expert: Sylwia Gregorczyk-Abram"],
+    "credibility_hits": [
+      "named_expert: Sylwia Gregorczyk-Abram"
+    ],
     "monetization_hits": [],
-    "geography_hits": {"title_countries": [], "content_countries": ["Polska"]},
-    "mismatch": {"alignment_score": 0.82, "exaggeration_gap": true, "paywall_or_short": false, "country_mismatch": false, "time_omission": false, "date_omission": false, "detected_time_windows": [], "detected_dates": []}
+    "geography_hits": {
+      "title_countries": [],
+      "content_countries": [
+        "Polska"
+      ]
+    },
+    "mismatch": {
+      "alignment_score": 0.82,
+      "exaggeration_gap": true,
+      "paywall_or_short": false,
+      "country_mismatch": false,
+      "time_omission": false,
+      "date_omission": false,
+      "detected_time_windows": [],
+      "detected_dates": []
+    }
   },
-  "suggestions": {"rewrite_title_neutral": "Znana prawniczka o możliwych reperkusjach politycznych w przyszłości","notes_to_editor": "Tytuł sugeruje pewność tam, gdzie jest ocena i przypuszczenie; rozważ bardziej neutralne sformułowanie."},
-  "diagnostics": {"tokens_title": 13, "tokens_content": 160, "processing_time_ms": 85, "windows_scanned": [{"index":0,"start":"0","length_chars":600,"evidence_hits":["title: 'Za dwa lata nadejdzie zemsta'","content: 'mec. Sylwia Gregorczyk-Abram mówi'"]}]}
+  "suggestions": {
+    "rewrite_title_neutral": "Znana prawniczka o możliwych reperkusjach politycznych w przyszłości",
+    "notes_to_editor": "Tytuł sugeruje pewność tam, gdzie jest ocena i przypuszczenie; rozważ bardziej neutralne sformułowanie."
+  },
+  "diagnostics": {
+    "tokens_title": 13,
+    "tokens_content": 160,
+    "processing_time_ms": 85,
+    "windows_scanned": [
+      {
+        "index": 0,
+        "start": "0",
+        "length_chars": 600,
+        "evidence_hits": [
+          "title: 'Za dwa lata nadejdzie zemsta'",
+          "content: 'mec. Sylwia Gregorczyk-Abram mówi'"
+        ]
+      }
+    ]
+  },
+  "summary": "Szykuje się nowy raport z rozliczeń PiS. \"Dziennikarze Onetu też byli celem\"\nMagdalena Gałczyńska\n24 października 2025, 16:08\nSkróć artykuł\nUdostępnij\nUdostępnij przez\nFacebook\nX\nE-mail\nKopiuj link\nLink skopiowany\n— Nie możemy wykluczyć, że pan Ziobro za Pegasusa może odpowiadać karnie."
 }

@@ -156,12 +156,20 @@ def get_custom_css() -> str:
     }
 
     /* Scale down large headings and body copy for readability on mobile */
-    h1, h2, h3 {
+    h1 {
+        font-size: 1.5rem !important;
+        line-height: 1.3 !important;
+        margin-top: 0.5rem !important;
+        margin-bottom: 0.8rem !important;
+    }
+    
+    h2, h3 {
         font-size: 1.2rem !important;
         line-height: 1.3rem !important;
         margin-top: 0.4rem !important;
         margin-bottom: 0.6rem !important;
     }
+    
     p, span, div, label {
         font-size: 0.95rem !important;
     }
@@ -198,6 +206,8 @@ def get_custom_css() -> str:
     button, select, input, .stButton button, .stSelectbox select, .stTextInput input {
         width: 100% !important;
         font-size: 1rem !important;
+        min-height: 44px !important; /* iOS recommended tap target */
+        padding: 10px !important;
     }
 
     /* Pagination and horizontal groups should wrap */
@@ -207,8 +217,8 @@ def get_custom_css() -> str:
         gap: 0.5rem !important;
     }
 
-    /* Hide streamlit sidebar and page header to maximize content area on mobile */
-    [data-testid="stSidebar"], header, div[data-testid="stSidebarNav"] {
+    /* Hide streamlit sidebar on mobile to maximize content area */
+    [data-testid="stSidebar"], div[data-testid="stSidebarNav"] {
         display: none !important;
     }
 
@@ -216,6 +226,7 @@ def get_custom_css() -> str:
     img, figure img {
         max-width: 100% !important;
         height: auto !important;
+        object-fit: cover !important;
     }
 
     /* Slightly reduce margins on lists/rationale to fit mobile */
@@ -223,12 +234,78 @@ def get_custom_css() -> str:
         font-size: 0.95rem !important;
         margin-bottom: 0.6rem !important;
     }
+    
+    /* Article title in cards - smaller on mobile */
+    .article-title {
+        font-size: 1.1rem !important;
+        line-height: 1.4 !important;
+    }
+    
+    /* Suggested title - smaller on mobile */
+    .suggested-title {
+        font-size: 0.95rem !important;
+        line-height: 1.5 !important;
+    }
+    
+    /* Score display - adjust for mobile */
+    .score-value {
+        font-size: 2.5rem !important;
+    }
+    
+    .score-label {
+        font-size: 1rem !important;
+    }
+    
+    .score-label-text {
+        font-size: 0.9rem !important;
+    }
 
     /* Fallback safe adjustments for Streamlit's generated wrappers */
     main, .main, .block-container, .css-1d391kg, .css-18e3th9 {
         max-width: 100% !important;
         padding-left: 0.5rem !important;
         padding-right: 0.5rem !important;
+    }
+    
+    /* Statistics cards - stack vertically on mobile */
+    [data-testid="stHorizontalBlock"] > div {
+        margin-bottom: 0.5rem !important;
+    }
+}
+
+/* Extra small devices (phones in portrait, less than 600px) */
+@media (max-width: 600px) {
+    /* Even tighter spacing */
+    .block-container {
+        padding: 0.25rem !important;
+    }
+    
+    h1 {
+        font-size: 1.25rem !important;
+    }
+    
+    h2, h3 {
+        font-size: 1rem !important;
+    }
+    
+    /* Score display - smaller for very small screens */
+    .score-value {
+        font-size: 2rem !important;
+    }
+    
+    /* Hide date separators decorative elements on very small screens */
+    .article-title {
+        font-size: 1rem !important;
+    }
+    
+    /* Images - reduce height on very small screens */
+    img {
+        max-height: 200px !important;
+    }
+    
+    /* Compact layout for filter controls */
+    .stSelectbox, .stMultiSelect, .stNumberInput {
+        margin-bottom: 0.5rem !important;
     }
 }
 

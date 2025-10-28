@@ -15,15 +15,54 @@
     "Sugestia: tytuł jest akceptowalny; można doprecyzować, że informacje są nieoficjalne (jeśli takie były)."
   ],
   "signals": {
-    "title_hits": ["neutral_report: 'Akcja CBA', 'wypuścili'"] ,
-    "content_hits": ["credibility: CBA, Prokuratura Europejska, named officials"],
+    "title_hits": [
+      "neutral_report: 'Akcja CBA', 'wypuścili'"
+    ],
+    "content_hits": [
+      "credibility: CBA, Prokuratura Europejska, named officials"
+    ],
     "title_semantic_hits": [],
     "content_semantic_hits": [],
-    "credibility_hits": ["org_names: CBA, Prokuratura Europejska"],
+    "credibility_hits": [
+      "org_names: CBA, Prokuratura Europejska"
+    ],
     "monetization_hits": [],
-    "geography_hits": {"title_countries": [], "content_countries": ["Polska"]},
-    "mismatch": {"alignment_score": 0.92, "exaggeration_gap": false, "paywall_or_short": false, "country_mismatch": false, "time_omission": false, "date_omission": false, "detected_time_windows": [], "detected_dates": []}
+    "geography_hits": {
+      "title_countries": [],
+      "content_countries": [
+        "Polska"
+      ]
+    },
+    "mismatch": {
+      "alignment_score": 0.92,
+      "exaggeration_gap": false,
+      "paywall_or_short": false,
+      "country_mismatch": false,
+      "time_omission": false,
+      "date_omission": false,
+      "detected_time_windows": [],
+      "detected_dates": []
+    }
   },
-  "suggestions": {"rewrite_title_neutral": "CBA zatrzymało prezydenta i wiceprezydenta Nowego Sącza — obaj zwolnieni do domu","notes_to_editor": "Tytuł jest informacyjny; jeśli informacje były nieoficjalne, doprecyzuj źródło."},
-  "diagnostics": {"tokens_title": 10, "tokens_content": 120, "processing_time_ms": 70, "windows_scanned": [{"index":0,"start":"0","length_chars":600,"evidence_hits":["title: 'Akcja CBA'","content: 'wypuszczeni i są w drodze do domu'"]}]}
+  "suggestions": {
+    "rewrite_title_neutral": "CBA zatrzymało prezydenta i wiceprezydenta Nowego Sącza — obaj zwolnieni do domu",
+    "notes_to_editor": "Tytuł jest informacyjny; jeśli informacje były nieoficjalne, doprecyzuj źródło."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 120,
+    "processing_time_ms": 70,
+    "windows_scanned": [
+      {
+        "index": 0,
+        "start": "0",
+        "length_chars": 600,
+        "evidence_hits": [
+          "title: 'Akcja CBA'",
+          "content: 'wypuszczeni i są w drodze do domu'"
+        ]
+      }
+    ]
+  },
+  "summary": "Prezydent Nowego Sącza i jego zastępca zatrzymani przez CBA."
 }

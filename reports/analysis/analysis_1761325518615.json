@@ -15,15 +15,55 @@
     "Sugestia: rozważ neutralniejszy tytuł: 'Prokuratura oskarżyła biskupa. Proces utknął w sądzie'."
   ],
   "signals": {
-    "title_hits": ["sensational_adjective: 'Bezprecedensowy'","legal_frame: 'Prokuratura oskarżyła'"],
-    "content_hits": ["credibility: prosecutorial charge, court proceedings"],
+    "title_hits": [
+      "sensational_adjective: 'Bezprecedensowy'",
+      "legal_frame: 'Prokuratura oskarżyła'"
+    ],
+    "content_hits": [
+      "credibility: prosecutorial charge, court proceedings"
+    ],
     "title_semantic_hits": [],
     "content_semantic_hits": [],
-    "credibility_hits": ["org_names: Prokuratura"],
+    "credibility_hits": [
+      "org_names: Prokuratura"
+    ],
     "monetization_hits": [],
-    "geography_hits": {"title_countries": [], "content_countries": ["Polska"]},
-    "mismatch": {"alignment_score": 0.90, "exaggeration_gap": true, "paywall_or_short": false, "country_mismatch": false, "time_omission": false, "date_omission": false, "detected_time_windows": [], "detected_dates": []}
+    "geography_hits": {
+      "title_countries": [],
+      "content_countries": [
+        "Polska"
+      ]
+    },
+    "mismatch": {
+      "alignment_score": 0.9,
+      "exaggeration_gap": true,
+      "paywall_or_short": false,
+      "country_mismatch": false,
+      "time_omission": false,
+      "date_omission": false,
+      "detected_time_windows": [],
+      "detected_dates": []
+    }
   },
-  "suggestions": {"rewrite_title_neutral": "Prokuratura oskarża biskupa. Proces utknął w sądzie","notes_to_editor": "Usuń lub uzasadnij określenie 'bezprecedensowy' w tytule; artykuł powinien zawierać podstawy takiego stwierdzenia."},
-  "diagnostics": {"tokens_title": 9, "tokens_content": 140, "processing_time_ms": 70, "windows_scanned": [{"index":0,"start":"0","length_chars":400,"evidence_hits":["title: 'Prokuratura oskarżyła'","content: 'proces karny biskupa tarnowskiego'"]}]}
+  "suggestions": {
+    "rewrite_title_neutral": "Prokuratura oskarża biskupa. Proces utknął w sądzie",
+    "notes_to_editor": "Usuń lub uzasadnij określenie 'bezprecedensowy' w tytule; artykuł powinien zawierać podstawy takiego stwierdzenia."
+  },
+  "diagnostics": {
+    "tokens_title": 9,
+    "tokens_content": 140,
+    "processing_time_ms": 70,
+    "windows_scanned": [
+      {
+        "index": 0,
+        "start": "0",
+        "length_chars": 400,
+        "evidence_hits": [
+          "title: 'Prokuratura oskarżyła'",
+          "content: 'proces karny biskupa tarnowskiego'"
+        ]
+      }
+    ]
+  },
+  "summary": "Prokuratura uważa, że biskup tuszował pedofilię."
 }

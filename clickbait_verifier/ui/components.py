@@ -17,6 +17,29 @@ LABEL_COLORS = {
     'insufficient_content': '#666'
 }
 
+# Polish display names for labels
+LABEL_NAMES_PL = {
+    'not_clickbait': 'Godny Naśladowania',
+    'mild': 'Łagodny Clickbait',
+    'strong': 'Silny Clickbait',
+    'extreme': 'Ekstremalny Clickbait',
+    'insufficient_content': 'Niewystarczająca treść'
+}
+
+
+def get_label_display_name(label_val: Optional[str]) -> str:
+    """Get Polish display name for label.
+    
+    Args:
+        label_val: Label string (e.g., 'not_clickbait').
+        
+    Returns:
+        Polish display name.
+    """
+    if not label_val:
+        return "-"
+    return LABEL_NAMES_PL.get(label_val.lower(), label_val)
+
 
 def get_score_color(score_val: Optional[float], label_val: Optional[str]) -> str:
     """Determine color for score display based on value and label.
@@ -123,19 +146,19 @@ def render_image_block_compact(image_url: Optional[str], orig_url: Optional[str]
     try:
         if orig_url:
             raw = f'''
-    <div style="margin-top:8px;margin-bottom:0px">
-        <div style="width:100%;max-height:350px;border-radius:8px;overflow:hidden;box-shadow:0 4px 12px rgba(0,0,0,0.08);">
+    <div style="margin-top:12px;margin-bottom:0px">
+        <div style="width:100%;max-height:280px;border-radius:10px;overflow:hidden;box-shadow:0 4px 12px rgba(0,0,0,0.1);">
             <a href="{orig_url}" target="_blank" rel="noopener noreferrer" style="display:block;text-decoration:none;">
-                <img src="{image_url}" alt="miniatura artykułu" style="display:block;width:100%;height:350px;object-fit:cover;transition:transform 0.2s;" onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'" />
+                <img src="{image_url}" alt="miniatura artykułu" style="display:block;width:100%;height:280px;object-fit:cover;transition:transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'" />
             </a>
         </div>
     </div>
 '''
         else:
             raw = f'''
-    <div style="margin-top:8px;margin-bottom:0px">
-        <div style="width:100%;max-height:350px;border-radius:8px;overflow:hidden;box-shadow:0 4px 12px rgba(0,0,0,0.08);">
-            <img src="{image_url}" alt="miniatura artykułu" style="display:block;width:100%;height:350px;object-fit:cover;" />
+    <div style="margin-top:12px;margin-bottom:0px">
+        <div style="width:100%;max-height:280px;border-radius:10px;overflow:hidden;box-shadow:0 4px 12px rgba(0,0,0,0.1);">
+            <img src="{image_url}" alt="miniatura artykułu" style="display:block;width:100%;height:280px;object-fit:cover;" />
         </div>
     </div>
 '''
@@ -180,7 +203,7 @@ def render_score_card(score_val: Optional[float], label_val: Optional[str]) -> s
     """
     score_display = format_score_display(score_val)
     score_color = get_score_color(score_val, label_val)
-    label_text = label_val or "-"
+    label_text = get_label_display_name(label_val)
     
     score_card = f"""
 <div style='border:2px solid #ddd;border-radius:8px;padding:14px;background:#fff;margin-bottom:12px;text-align:center;'>
@@ -318,28 +341,84 @@ def render_score_card_with_rationale(score_val: Optional[float], label_val: Opti
     """
     score_display = format_score_display(score_val)
     score_color = get_score_color(score_val, label_val)
-    label_text = label_val or "-"
+    label_text = get_label_display_name(label_val)
+    
+    # Badge image based on label
+    badge_map = {
+        'not_clickbait': 'badges/not_clickbait.png',
+        'mild': 'badges/mild.png',
+        'strong': 'badges/strong.png',
+        'extreme': 'badges/extreme.png'
+    }
+    
+    badge_path = badge_map.get(label_val.lower() if label_val else '', None)
+    
+    # Get badge image as data URI
+    badge_html = ''
+    if badge_path:
+        badge_uri = _get_badge_image_data_uri(badge_path)
+        if badge_uri:
+            badge_html = f'<img src="{badge_uri}" alt="{label_text}" style="width:48px;height:48px;margin-bottom:8px;" />'
+    
+    # Fallback to text if no badge
+    if not badge_html:
+        badge_html = '<div style="font-size:36px;margin-bottom:8px;">📊</div>'
     
     if rationale:
         items_html = "\n".join(
-            f"<div style='margin-bottom:10px;font-size:18px;line-height:1.7;border-left:3px solid #e5e7eb;padding-left:14px;padding-top:6px;padding-bottom:6px;font-weight:500;'>{i}. {html.escape(str(r))}</div>" 
+            f"<div class='rationale-item-mobile' style='margin-bottom:12px;font-size:15px;line-height:1.7;border-left:3px solid {score_color};padding-left:16px;padding-top:8px;padding-bottom:8px;font-weight:500;background:#fafafa;border-radius:4px;'>{i}. {html.escape(str(r))}</div>" 
             for i, r in enumerate(rationale, 1)
         )
     else:
-        items_html = "<div style='font-size:18px;color:#9ca3af;'>- brak uzasadnienia -</div>"
+        items_html = "<div style='font-size:15px;color:#9ca3af;text-align:center;padding:20px;'>- brak uzasadnienia -</div>"
     
     score_card = f"""
-<div style='border:1px solid #ddd;border-radius:8px;padding:16px;background:#fff;margin-bottom:12px;height:100%;display:flex;flex-direction:column;'>
-  <div style='text-align:center;margin-bottom:24px;'>
-    <div class="score-label" style='font-size:24px;font-weight:600;color:#111827;'>Wynik (score)</div>
-    <div class="score-value" style='font-size:48px;font-weight:700;color:{score_color};line-height:1;'>{score_display}</div>
-    <div class="score-label-text" style='font-size:18px;font-weight:600;color:{score_color};margin-top:8px;'>Etykieta: <strong style='color:{score_color}'>{html.escape(label_text)}</strong></div>
+<div style='border:1px solid #e5e7eb;border-radius:12px;padding:20px;background:#fff;margin-bottom:12px;height:100%;display:flex;flex-direction:column;box-shadow:0 1px 3px rgba(0,0,0,0.08);transition:all 0.3s ease;' class="score-card-mobile" onmouseover='this.style.boxShadow="0 8px 24px rgba(0,0,0,0.12)";this.style.transform="translateY(-2px)"' onmouseout='this.style.boxShadow="0 1px 3px rgba(0,0,0,0.08)";this.style.transform="translateY(0)"'>
+  <div style='text-align:center;margin-bottom:24px;padding:16px;background:linear-gradient(135deg, #f9fafb 0%, #f3f4f6 100%);border-radius:8px;'>
+    <div class="score-label score-label-mobile" style='font-size:14px;font-weight:700;color:#6b7280;text-transform:uppercase;letter-spacing:1px;margin-bottom:12px;'>Wynik</div>
+    <div style='margin-bottom:12px;'>{badge_html}</div>
+    <div class="score-value score-value-mobile" style='font-size:56px;font-weight:800;color:{score_color};line-height:1;text-shadow:0 2px 4px rgba(0,0,0,0.1);'>{score_display}</div>
+    <div class="score-label-text score-label-text-mobile" style='font-size:16px;font-weight:700;color:{score_color};margin-top:12px;padding:8px 16px;background:#fff;border-radius:20px;display:inline-block;box-shadow:0 2px 4px rgba(0,0,0,0.08);'>{html.escape(label_text)}</div>
   </div>
-  <div style='flex-grow:1;border-top:1px solid #e5e7eb;padding-top:12px;'>
-    <div class="helper-text" style='font-size:11px;margin-bottom:8px;color:#9ca3af;'>Uzasadnienie</div>
+  <div style='flex-grow:1;border-top:2px solid #f3f4f6;padding-top:16px;'>
+    <div class="helper-text" style='font-size:12px;margin-bottom:12px;color:#6b7280;text-transform:uppercase;letter-spacing:0.5px;font-weight:700;'>💡 Uzasadnienie</div>
     {items_html}
   </div>
 </div>
+<style>
+@media (max-width: 900px) {{
+    .score-card-mobile {{
+        padding: 14px !important;
+        margin-bottom: 8px !important;
+    }}
+    .score-value-mobile {{
+        font-size: 42px !important;
+    }}
+    .score-label-mobile {{
+        font-size: 12px !important;
+    }}
+    .score-label-text-mobile {{
+        font-size: 14px !important;
+        padding: 6px 12px !important;
+    }}
+    .rationale-item-mobile {{
+        font-size: 13px !important;
+        margin-bottom: 8px !important;
+        padding-left: 12px !important;
+    }}
+}}
+@media (max-width: 600px) {{
+    .score-value-mobile {{
+        font-size: 36px !important;
+    }}
+    .score-label-text-mobile {{
+        font-size: 12px !important;
+    }}
+    .rationale-item-mobile {{
+        font-size: 12px !important;
+    }}
+}}
+</style>
 """
     return textwrap.dedent(score_card)
 
@@ -430,24 +509,54 @@ def render_simple_header_card_with_suggestion(title: str, source: str, suggested
     
     # Create clickable title if URL is provided with hover effect
     if url:
-        title_html = f'<a href="{html.escape(url)}" target="_blank" rel="noopener noreferrer" style="text-decoration:none;color:#111827;transition:all 0.2s;" onmouseover="this.style.color=\'#2563eb\';this.style.textDecoration=\'underline\'" onmouseout="this.style.color=\'#111827\';this.style.textDecoration=\'none\'"><div style="cursor:pointer;font-size:18px;line-height:1.4;font-weight:500;">{html.escape(str(title))}</div></a>'
+        title_html = f'<a href="{html.escape(url)}" target="_blank" rel="noopener noreferrer" style="text-decoration:none;color:#111827;transition:all 0.2s;" onmouseover="this.style.color=\'#2563eb\';this.style.textDecoration=\'underline\'" onmouseout="this.style.color=\'#111827\';this.style.textDecoration=\'none\'"><div class="original-title-mobile" style="cursor:pointer;font-size:16px;line-height:1.5;font-weight:500;">{html.escape(str(title))}</div></a>'
     else:
-        title_html = f'<div style="font-size:18px;line-height:1.4;color:#111827;font-weight:500;">{html.escape(str(title))}</div>'
+        title_html = f'<div class="original-title-mobile" style="font-size:16px;line-height:1.5;color:#111827;font-weight:500;">{html.escape(str(title))}</div>'
     
     header_card = f"""
-<div style='border:1px solid #ddd;border-radius:8px;padding:16px;background:#fff;margin-bottom:10px;display:flex;flex-direction:column;height:100%;'>
-  <div style='margin-bottom:24px;'>
-    <div class="helper-text" style='font-size:11px;margin-bottom:8px;color:#9ca3af;'>Sugerowany tytuł</div>
-    <div style='font-size:36px;line-height:1.4;color:#111827;font-weight:600;'>{html.escape(suggested_text)}</div>
+<div style='border:1px solid #e5e7eb;border-radius:12px;padding:20px;background:#fff;margin-bottom:10px;display:flex;flex-direction:column;height:100%;box-shadow:0 1px 3px rgba(0,0,0,0.08);transition:all 0.3s ease;' class="article-card-mobile" onmouseover='this.style.boxShadow="0 8px 24px rgba(0,0,0,0.12)";this.style.transform="translateY(-2px)"' onmouseout='this.style.boxShadow="0 1px 3px rgba(0,0,0,0.08)";this.style.transform="translateY(0)"'>
+  <div style='margin-bottom:20px;'>
+    <div class="helper-text suggested-label-mobile" style='font-size:12px;margin-bottom:10px;color:#6b7280;text-transform:uppercase;letter-spacing:0.5px;font-weight:600;'>✨ Sugerowany tytuł</div>
+    <div class="suggested-title-mobile" style='font-size:22px;line-height:1.35;color:#111827;font-weight:700;'>{html.escape(suggested_text)}</div>
   </div>
-  <div class="helper-text" style='font-size:15px;color:#9ca3af;margin-bottom:24px;'>{html.escape(str(source or ''))}</div>
-  <div style='margin-bottom:24px;padding-top:16px;padding-bottom:16px;border-top:1px solid #e5e7eb;border-bottom:1px solid #e5e7eb;'>
-    <div class="helper-text" style='font-size:11px;margin-bottom:8px;color:#9ca3af;'>Oryginalny tytuł</div>
+  <div class="helper-text source-mobile" style='font-size:14px;color:#6b7280;margin-bottom:16px;font-weight:500;'>📰 {html.escape(str(source or ''))}</div>
+  <div style='margin-bottom:20px;padding-top:14px;padding-bottom:14px;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;background:#fafafa;padding-left:12px;padding-right:12px;border-radius:6px;'>
+    <div class="helper-text" style='font-size:11px;margin-bottom:8px;color:#9ca3af;text-transform:uppercase;letter-spacing:0.5px;font-weight:600;'>Oryginalny tytuł</div>
     {title_html}
   </div>
   <div style='flex-grow:0;'>
     {image_block_html}
   </div>
 </div>
+<style>
+@media (max-width: 900px) {{
+    .article-card-mobile {{
+        padding: 14px !important;
+        margin-bottom: 8px !important;
+    }}
+    .suggested-title-mobile {{
+        font-size: 18px !important;
+        line-height: 1.4 !important;
+    }}
+    .original-title-mobile {{
+        font-size: 14px !important;
+    }}
+    .source-mobile {{
+        font-size: 12px !important;
+        margin-bottom: 12px !important;
+    }}
+    .suggested-label-mobile {{
+        font-size: 10px !important;
+    }}
+}}
+@media (max-width: 600px) {{
+    .suggested-title-mobile {{
+        font-size: 16px !important;
+    }}
+    .original-title-mobile {{
+        font-size: 13px !important;
+    }}
+}}
+</style>
 """
     return textwrap.dedent(header_card)

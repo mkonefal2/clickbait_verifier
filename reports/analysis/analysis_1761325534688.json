@@ -13,17 +13,38 @@
   ],
   "rationale_user_friendly": [
     "Nagłówek jest alarmujący i podaje dużą liczbę — przyciąga uwagę.",
-    "Artykuł zawiera konkretne informacje (ranni, miejsce), więc lepszy byłby tytuł z kontekstem i źródłem." 
+    "Artykuł zawiera konkretne informacje (ranni, miejsce), więc lepszy byłby tytuł z kontekstem i źródłem."
   ],
   "signals": {
-    "title_hits": ["alarming_language", "numeric_magnitude"],
-    "content_hits": ["reported_casualties", "location_specific"],
+    "title_hits": [
+      "alarming_language",
+      "numeric_magnitude"
+    ],
+    "content_hits": [
+      "reported_casualties",
+      "location_specific"
+    ],
     "credibility_hits": [],
     "monetization_hits": [],
-    "geography_hits": { "title_countries": ["Russia"], "content_countries": ["Russia"] }
+    "geography_hits": {
+      "title_countries": [
+        "Russia"
+      ],
+      "content_countries": [
+        "Russia"
+      ]
+    }
   },
-  "suggestions": { "rewrite_title_neutral": "Atak dronów pod Moskwą: pięć osób rannych, władze mówią o ponad 100 maszynach", "notes_to_editor": "Dodać odniesienie do oficjalnych komunikatów i zmniejszyć sensacyjność tytułu." },
-  "diagnostics": { "content_char_count": 830, "sampling_windows": 5, "notes": "News piece with numeric claim in title; title weight applied." },
+  "suggestions": {
+    "rewrite_title_neutral": "Atak dronów pod Moskwą: pięć osób rannych, władze mówią o ponad 100 maszynach",
+    "notes_to_editor": "Dodać odniesienie do oficjalnych komunikatów i zmniejszyć sensacyjność tytułu."
+  },
+  "diagnostics": {
+    "content_char_count": 830,
+    "sampling_windows": 5,
+    "notes": "News piece with numeric claim in title; title weight applied."
+  },
   "created_by": "agent_manual_analysis_v1",
-  "created_at": "2025-10-24T20:30:00+02:00"
+  "created_at": "2025-10-24T20:30:00+02:00",
+  "summary": "Zmasowany atak dronów na Moskwę. Są ranni\nDziennikarze Onet Wiadomości\n24 października 2025, 10:57\nSkróć artykuł\nUdostępnij\nUdostępnij przez\nFacebook\nX\nE-mail\nKopiuj link\nLink skopiowany\nWładze rosyjskie poinformowały o ataku dronów na Moskwę i obwód moskiewski."
 }

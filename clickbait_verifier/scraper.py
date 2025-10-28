@@ -201,6 +201,16 @@ def extract_content_and_title(html, extractor_config=None):
     if not title and soup.title:
         title = soup.title.string.strip()
 
+    # image extraction: og:image, twitter:image
+    image_url = None
+    og_img = soup.find('meta', property='og:image')
+    if og_img and og_img.get('content'):
+        image_url = og_img.get('content')
+    if not image_url:
+        tw_img = soup.find('meta', attrs={'name': 'twitter:image'})
+        if tw_img and tw_img.get('content'):
+            image_url = tw_img.get('content')
+
     content = None
     # support extractor-provided selector(s) (str or list)
     selectors = []
@@ -414,7 +424,7 @@ def extract_content_and_title(html, extractor_config=None):
                 txt = possible.get_text(' ', strip=True)
                 published = _parse_polish_published(txt)
 
-    return content, title, published
+    return content, title, published, image_url
 
 
 def _format_datetime_for_json(val):
@@ -498,7 +508,8 @@ def save_article_file(rec):
         'published': _format_datetime_for_json(rec.get('published')),
         'fetched_at': _format_datetime_for_json(now),
         'content': rec.get('content') or '',
-        'content_preview': (rec.get('content') or '')[:300]
+        'content_preview': (rec.get('content') or '')[:300],
+        'image_url': rec.get('image_url')
     }
     path = write_summary_json(article_dict)
     return new_id, path
@@ -528,7 +539,8 @@ def write_summary_json(article_dict):
          'published': article_dict.get('published'),
          'fetched_at': article_dict.get('fetched_at'),
          'content': article_dict.get('content') or '',
-         'content_preview': (article_dict.get('content') or '')[:300]
+         'content_preview': (article_dict.get('content') or '')[:300],
+         'image_url': article_dict.get('image_url')
      }
     # Use only the id in the filename (avoid timestamp). If file exists, add numeric suffix to avoid overwriting.
     filename = f"scraped_{id_}.json"
@@ -593,13 +605,14 @@ def run_scraper():
                         print(f'Pomijam — URL już zapisany w plikach: {url} (id={eid}, file={existing_path})')
                         continue
                     html = fetch_html_with_method(url, fetch_method)
-                    content, title, published = extract_content_and_title(html, extractor)
+                    content, title, published, image_url = extract_content_and_title(html, extractor)
                     new_id, path = save_article_file({
                         "source": s["name"],
                         "title": title,
                         "url": url,
                         "content": content,
-                        "published": published or datetime.now()
+                        "published": published or datetime.now(),
+                        "image_url": image_url
                     })
                     print(f"Zescrapowano: {url} -> zapisano plik {path}")
                 except Exception as e:
@@ -660,7 +673,7 @@ def run_scraper():
                             print(f'Pomijam — URL już zapisany: {url}')
                             continue
                         article_html = fetch_html_with_method(url, fetch_method)
-                        content, title, published = extract_content_and_title(article_html, extractor)
+                        content, title, published, image_url = extract_content_and_title(article_html, extractor)
                         # if configured, only keep articles published today
                         if s.get("only_today", False) and isinstance(published, datetime):
                             if published.date() != datetime.now().date():
@@ -671,7 +684,8 @@ def run_scraper():
                             "title": title,
                             "url": url,
                             "content": content,
-                            "published": published or datetime.now()
+                            "published": published or datetime.now(),
+                            "image_url": image_url
                         })
                         print(f"Zescrapowano: {url} -> zapisano plik {path}")
                     except Exception as e:
@@ -691,13 +705,14 @@ def run_scraper():
                         print(f'Pomijam — URL już zapisany w plikach: {url} (id={eid}, file={existing_path})')
                         continue
                     html = fetch_html_with_method(url, fetch_method)
-                    content, title, published = extract_content_and_title(html, extractor)
+                    content, title, published, image_url = extract_content_and_title(html, extractor)
                     new_id, path = save_article_file({
                         "source": s["name"],
                         "title": item.get("title") or title,
                         "url": url,
                         "content": content,
-                        "published": published or item.get("published")
+                        "published": published or item.get("published"),
+                        "image_url": image_url
                     })
                     print(f"Zescrapowano: {url} -> zapisano plik {path}")
                 except Exception as e:
@@ -714,13 +729,14 @@ def run_scraper():
                     print(f'Pomijam — URL już zapisany w plikach: {url} (id={eid}, file={existing_path})')
                     continue
                 html = fetch_html_with_method(url, fetch_method)
-                content, title, published = extract_content_and_title(html, extractor)
+                content, title, published, image_url = extract_content_and_title(html, extractor)
                 new_id, path = save_article_file({
                     "source": s["name"],
                     "title": title,
                     "url": url,
                     "content": content,
-                    "published": published or datetime.now()
+                    "published": published or datetime.now(),
+                    "image_url": image_url
                 })
                 print(f"Zescrapowano: {url} -> zapisano plik {path}")
             except Exception as e:
@@ -793,7 +809,7 @@ def fetch_and_save_url(url, source_name='CLI', fetch_method='auto'):
                 if save_source.startswith('www.'):
                     save_source = save_source[4:]
 
-        content, title, published = extract_content_and_title(html, extractor)
+        content, title, published, image_url = extract_content_and_title(html, extractor)
         # Use save_source if we have it, else fall back to provided source_name
         final_source = save_source or source_name
 
@@ -802,7 +818,8 @@ def fetch_and_save_url(url, source_name='CLI', fetch_method='auto'):
             "title": title,
             "url": url,
             "content": content,
-            "published": published or datetime.now()
+            "published": published or datetime.now(),
+            "image_url": image_url
         })
         print(f"Zescrapowano: {url} -> zapisano plik {path}")
         return {"id": int(new_id), "existed": False, "path": path}
@@ -888,7 +905,7 @@ def scrape_listing_for_source(source_name):
                 results.append(rec)
                 continue
             article_html = fetch_html_with_method(url, fetch_method)
-            content, title, published = extract_content_and_title(article_html, load_extractor_for_source(source_name))
+            content, title, published, image_url = extract_content_and_title(article_html, load_extractor_for_source(source_name))
             # if configured, only keep articles published today
             if target.get('only_today', False) and isinstance(published, datetime):
                 if published.date() != datetime.now().date():
@@ -901,7 +918,8 @@ def scrape_listing_for_source(source_name):
                 'title': title,
                 'url': url,
                 'content': content,
-                'published': published or datetime.now()
+                'published': published or datetime.now(),
+                'image_url': image_url
             })
             rec['id'] = int(new_id)
             rec['path'] = path

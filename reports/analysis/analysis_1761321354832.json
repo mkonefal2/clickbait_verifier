@@ -16,15 +16,84 @@
     "Propozycja: Tytuł ok, można ewentualnie doprecyzować nazwisko wysłannika w leadzie."
   ],
   "signals": {
-    "title_hits": ["neutral_frame: 'w cieniu sankcji'"],
-    "content_hits": ["credibility: named officials, sanctions context","org_names: Rosnieft, Łukoil"],
+    "title_hits": [
+      "neutral_frame: 'w cieniu sankcji'"
+    ],
+    "content_hits": [
+      "credibility: named officials, sanctions context",
+      "org_names: Rosnieft, Łukoil"
+    ],
     "title_semantic_hits": [],
     "content_semantic_hits": [],
-    "credibility_hits": ["named_individuals: Kiriłł Dmitrijew, Steve Witkoff"],
+    "credibility_hits": [
+      "named_individuals: Kiriłł Dmitrijew, Steve Witkoff"
+    ],
     "monetization_hits": [],
-    "geography_hits": {"title_countries": [], "content_countries": ["USA","Rosja"]},
-    "mismatch": {"alignment_score": 0.90, "exaggeration_gap": false, "paywall_or_short": false, "country_mismatch": false, "time_omission": false, "date_omission": false, "detected_time_windows": [], "detected_dates": []}
+    "geography_hits": {
+      "title_countries": [],
+      "content_countries": [
+        "USA",
+        "Rosja"
+      ]
+    },
+    "mismatch": {
+      "alignment_score": 0.9,
+      "exaggeration_gap": false,
+      "paywall_or_short": false,
+      "country_mismatch": false,
+      "time_omission": false,
+      "date_omission": false,
+      "detected_time_windows": [],
+      "detected_dates": []
+    }
   },
-  "suggestions": {"rewrite_title_neutral": "Wysłannik Putina przyleciał do Waszyngtonu. Spotkanie na tle nowych sankcji","notes_to_editor": "Nagłówek jest informacyjny; doprecyzuj w leadzie szczegóły sankcji i cel wizyty."},
-  "diagnostics": {"tokens_title": 8, "tokens_content": 260, "processing_time_ms": 95, "windows_scanned": [{"index":0,"start":"0","length_chars":600,"evidence_hits":["title: 'w cieniu sankcji'","content: 'nowe sankcje na Rosnieft i Łukoil'"]},{"index":1,"start":"25%","length_chars":600,"evidence_hits":["content: 'Kiriłł Dmitrijew'","content: 'Steve Witkoff'"]},{"index":2,"start":"50%","length_chars":600,"evidence_hits":[]},{"index":3,"start":"75%","length_chars":600,"evidence_hits":[]},{"index":4,"start":"last","length_chars":600,"evidence_hits":[]} ] }
+  "suggestions": {
+    "rewrite_title_neutral": "Wysłannik Putina przyleciał do Waszyngtonu. Spotkanie na tle nowych sankcji",
+    "notes_to_editor": "Nagłówek jest informacyjny; doprecyzuj w leadzie szczegóły sankcji i cel wizyty."
+  },
+  "diagnostics": {
+    "tokens_title": 8,
+    "tokens_content": 260,
+    "processing_time_ms": 95,
+    "windows_scanned": [
+      {
+        "index": 0,
+        "start": "0",
+        "length_chars": 600,
+        "evidence_hits": [
+          "title: 'w cieniu sankcji'",
+          "content: 'nowe sankcje na Rosnieft i Łukoil'"
+        ]
+      },
+      {
+        "index": 1,
+        "start": "25%",
+        "length_chars": 600,
+        "evidence_hits": [
+          "content: 'Kiriłł Dmitrijew'",
+          "content: 'Steve Witkoff'"
+        ]
+      },
+      {
+        "index": 2,
+        "start": "50%",
+        "length_chars": 600,
+        "evidence_hits": []
+      },
+      {
+        "index": 3,
+        "start": "75%",
+        "length_chars": 600,
+        "evidence_hits": []
+      },
+      {
+        "index": 4,
+        "start": "last",
+        "length_chars": 600,
+        "evidence_hits": []
+      }
+    ]
+  },
+  "summary": "W Waszyngtonie odbyło się spotkanie wysłannika rosyjskiego z przedstawicielami amerykańskimi na tle międzynarodowych sankcji wobec Rosji. Artykuł opisuje cele rozmów, osoby zaangażowane oraz kontekst gospodarczy i polityczny dyskusji.",
+  "_summary_generated_by": "manual_batch_update_2"
 }

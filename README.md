@@ -146,3 +146,35 @@ streamlit run clickbait_verifier/streamlit_feed_app.py
 Demo limitations:
 - The demo does not perform real fetching or live analysis — it uses prepared files.
 - For full, up-to-date analysis (live pages) run the developer version with the appropriate fetch_method.
+
+---
+
+## 📱 Android Mobile App
+
+Nowoczesna aplikacja mobilna Android do przeglądania feedu artykułów z analizą clickbait.
+
+### Cechy aplikacji:
+- **Modern UI**: Jetpack Compose + Material Design 3
+- **Elegant Cards**: Czytelne karty w stylu aplikacji Squid
+- **Clickbait Analysis**: Kolorowe wskaźniki poziomu clickbait
+- **Multiple Sources**: Filtrowanie artykułów po źródłach
+- **Offline Support**: Przykładowe dane do testowania bez backendu
+
+### Szybki start:
+
+```powershell
+# Otwórz w Android Studio
+cd android_feed_app
+# File → Open → wybierz folder android_feed_app
+# Kliknij przycisk Run (▶️)
+```
+
+**Dokumentacja:**
+- 🚀 [`android_feed_app/START.md`](android_feed_app/START.md) - Szybki start
+- 📖 [`android_feed_app/README.md`](android_feed_app/README.md) - Pełna dokumentacja
+- 💻 [`android_feed_app/QUICKSTART_VSCODE.md`](android_feed_app/QUICKSTART_VSCODE.md) - Development w VS Code
+- 🔗 [`android_feed_app/BACKEND_INTEGRATION.md`](android_feed_app/BACKEND_INTEGRATION.md) - Integracja z API
+
+**Technologie**: Kotlin • Jetpack Compose • Material 3 • Retrofit • Coil • MVVM
+
+Aplikacja jest w pełni samodzielna i może być przeniesiona do osobnego repozytorium!

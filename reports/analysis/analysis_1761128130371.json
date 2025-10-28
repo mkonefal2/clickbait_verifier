@@ -53,4 +53,7 @@
 			{"index":4,"start":"end","length_chars":600,"evidence_hits":["content: 'zalecenia dietetyków' "]}
 		]
 	}
+	,
+	"summary": "Artykuł opisuje właściwości odżywcze jesiennego warzywa (m.in. zawartość potasu i błonnika). Przytacza wypowiedzi ekspertów i dane (np. 350 mg potasu) oraz omawia wpływ na zdrowie serca i kontrolę poziomu cukru. Zawiera praktyczne porady dietetyczne i sugestie dotyczące przygotowania.",
+	"_summary_generated_by": "manual_batch_update_1"
 }

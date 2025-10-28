@@ -15,15 +15,68 @@
     "Artykuł podaje kontekst i źródła, więc nie stwierdzamy, że tytuł wprowadza w błąd, ale ton jest mocny — rozważ złagodzenie formy, np. 'Rosja formuje oddziały z udziałem kobiet'."
   ],
   "signals": {
-    "title_hits": ["curiosity_gap: 'Nowa strategia'","alarming: 'wysylaja kobiety'"],
-    "content_hits": ["credibility: named groups (Atesz), locations (Pokrowsk)","numbers_dates: reference to 2023+ reports"],
+    "title_hits": [
+      "curiosity_gap: 'Nowa strategia'",
+      "alarming: 'wysylaja kobiety'"
+    ],
+    "content_hits": [
+      "credibility: named groups (Atesz), locations (Pokrowsk)",
+      "numbers_dates: reference to 2023+ reports"
+    ],
     "title_semantic_hits": [],
     "content_semantic_hits": [],
-    "credibility_hits": ["source: Atesz (resistance reports)"],
+    "credibility_hits": [
+      "source: Atesz (resistance reports)"
+    ],
     "monetization_hits": [],
-    "geography_hits": {"title_countries": [], "content_countries": ["Rosja","Ukraina"]},
-    "mismatch": {"alignment_score": 0.86, "exaggeration_gap": false, "paywall_or_short": false, "country_mismatch": false, "time_omission": false, "date_omission": false, "detected_time_windows": [], "detected_dates": []}
+    "geography_hits": {
+      "title_countries": [],
+      "content_countries": [
+        "Rosja",
+        "Ukraina"
+      ]
+    },
+    "mismatch": {
+      "alignment_score": 0.86,
+      "exaggeration_gap": false,
+      "paywall_or_short": false,
+      "country_mismatch": false,
+      "time_omission": false,
+      "date_omission": false,
+      "detected_time_windows": [],
+      "detected_dates": []
+    }
   },
-  "suggestions": {"rewrite_title_neutral": "Rosja tworzy oddziały szturmowe z udziałem kobiet na kierunku pokrowskim","notes_to_editor": "Tytuł ma silny wydźwięk — jeśli celem jest neutralność, rozważ mniej alarmującą konstrukcję.","notes_to_editor_priority": "low"},
-  "diagnostics": {"tokens_title": 7, "tokens_content": 220, "processing_time_ms": 90, "windows_scanned": [{"index":0,"start":"0","length_chars":600,"evidence_hits":["title: 'Na front wysylaja kobiety'","content: 'utworzenie oddziałów szturmowych z kobietami'"]},{"index":1,"start":"25%","length_chars":600,"evidence_hits":["content: 'ciężkie straty'","content: '506. pułk'"]}]}
+  "suggestions": {
+    "rewrite_title_neutral": "Rosja tworzy oddziały szturmowe z udziałem kobiet na kierunku pokrowskim",
+    "notes_to_editor": "Tytuł ma silny wydźwięk — jeśli celem jest neutralność, rozważ mniej alarmującą konstrukcję.",
+    "notes_to_editor_priority": "low"
+  },
+  "diagnostics": {
+    "tokens_title": 7,
+    "tokens_content": 220,
+    "processing_time_ms": 90,
+    "windows_scanned": [
+      {
+        "index": 0,
+        "start": "0",
+        "length_chars": 600,
+        "evidence_hits": [
+          "title: 'Na front wysylaja kobiety'",
+          "content: 'utworzenie oddziałów szturmowych z kobietami'"
+        ]
+      },
+      {
+        "index": 1,
+        "start": "25%",
+        "length_chars": 600,
+        "evidence_hits": [
+          "content: 'ciężkie straty'",
+          "content: '506. pułk'"
+        ]
+      }
+    ]
+  },
+  "summary": "Rosyjska armia wprowadza kobiety do pododdziałów szturmowych na kierunku pokrowskim w obwodzie donieckim, co ma być odpowiedzią na wysokie straty wśród żołnierzy. Artykuł cytuje lokalne raporty opisujące formowanie nowych oddziałów oraz możliwe konsekwencje operacyjne.",
+  "_summary_generated_by": "manual_batch_update_2"
 }

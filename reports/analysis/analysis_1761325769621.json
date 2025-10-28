@@ -17,12 +17,24 @@
   ],
   "signals": {
     "title_hits": [],
-    "content_hits": ["diplomatic_meeting", "official_quotes"],
-    "credibility_hits": ["named_sources"],
+    "content_hits": [
+      "diplomatic_meeting",
+      "official_quotes"
+    ],
+    "credibility_hits": [
+      "named_sources"
+    ],
     "monetization_hits": [],
     "geography_hits": {
-      "title_countries": ["Japan","UK"],
-      "content_countries": ["UK","Japan","Ukraine"]
+      "title_countries": [
+        "Japan",
+        "UK"
+      ],
+      "content_countries": [
+        "UK",
+        "Japan",
+        "Ukraine"
+      ]
     },
     "mismatch": {
       "alignment_score": 0.96,
@@ -32,7 +44,9 @@
       "time_omission": false,
       "date_omission": false,
       "detected_time_windows": [],
-      "detected_dates": ["2025-10-24"]
+      "detected_dates": [
+        "2025-10-24"
+      ]
     }
   },
   "suggestions": {
@@ -45,5 +59,6 @@
     "notes": "Short diplomatic report; low clickbait indicators."
   },
   "created_by": "agent_manual_analysis_v1",
-  "created_at": "2025-10-24T20:14:30+02:00"
+  "created_at": "2025-10-24T20:14:30+02:00",
+  "summary": "Azjatyckie państwo dołączyło do koalicji chętnych dla Ukrainy. \"Musimy zadbać o gwarancje\"\nDziennikarze Onet Wiadomości\n24 października 2025, 19:00\nSkróć artykuł\nUdostępnij\nUdostępnij przez\nFacebook\nX\nE-mail\nKopiuj link\nLink skopiowany\nW Londynie zakończyło się spotkanie przywódców tzw."
 }

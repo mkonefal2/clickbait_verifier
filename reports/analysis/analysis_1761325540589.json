@@ -9,21 +9,41 @@
   "label": "not_clickbait",
   "rationale": [
     "Tytuł przedstawia doniesienie militarny/operacyjny wprost i bez przesadnych dodatków.",
-    "Treść opiera się na przekazach z Telegrama/partyzanckich kanałów, co wymaga ostrożności, ale nie czyni nagłówka clickbaitowym." 
+    "Treść opiera się na przekazach z Telegrama/partyzanckich kanałów, co wymaga ostrożności, ale nie czyni nagłówka clickbaitowym."
   ],
   "rationale_user_friendly": [
     "Nagłówek informuje o zmianach w strukturach militarnych — bez emocjonalnego języka.",
-    "Zalecam dodać wskazanie źródła (kanał Telegram) jeśli nie ma oficjalnego potwierdzenia." 
+    "Zalecam dodać wskazanie źródła (kanał Telegram) jeśli nie ma oficjalnego potwierdzenia."
   ],
   "signals": {
     "title_hits": [],
-    "content_hits": ["telegram_source", "military_restructuring"],
-    "credibility_hits": ["unverified_channel"],
+    "content_hits": [
+      "telegram_source",
+      "military_restructuring"
+    ],
+    "credibility_hits": [
+      "unverified_channel"
+    ],
     "monetization_hits": [],
-    "geography_hits": { "title_countries": ["Russia"], "content_countries": ["Russia"] }
+    "geography_hits": {
+      "title_countries": [
+        "Russia"
+      ],
+      "content_countries": [
+        "Russia"
+      ]
+    }
   },
-  "suggestions": { "rewrite_title_neutral": "Doniesienia: nowe oddziały szturmowe w Rosji mają być złożone z kobiet (źródło: Telegram)", "notes_to_editor": "Uwaga: materiał oparty na nieoficjalnych źródłach — dodać zastrzeżenie." },
-  "diagnostics": { "content_char_count": 480, "sampling_windows": 5, "notes": "Unverified channel cited — credibility reduction advised." },
+  "suggestions": {
+    "rewrite_title_neutral": "Doniesienia: nowe oddziały szturmowe w Rosji mają być złożone z kobiet (źródło: Telegram)",
+    "notes_to_editor": "Uwaga: materiał oparty na nieoficjalnych źródłach — dodać zastrzeżenie."
+  },
+  "diagnostics": {
+    "content_char_count": 480,
+    "sampling_windows": 5,
+    "notes": "Unverified channel cited — credibility reduction advised."
+  },
   "created_by": "agent_manual_analysis_v1",
-  "created_at": "2025-10-24T20:30:00+02:00"
+  "created_at": "2025-10-24T20:30:00+02:00",
+  "summary": "Rosja szykuje nowe oddziały szturmowe. Będą złożone z kobiet\nPolska Agencja Prasowa\n24 października 2025, 15:56\nSkróć artykuł\nUdostępnij\nUdostępnij przez\nFacebook\nX\nE-mail\nKopiuj link\nLink skopiowany\nRosjanie tworzą nowe oddziały szturmowe na kierunku pokrowskim w obwodzie donieckim."
 }

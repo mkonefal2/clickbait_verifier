@@ -29,4 +29,7 @@
 	},
 	"suggestions": { "rewrite_title_neutral": "Jak zmniejszyć ryzyko uszkodzeń auta przez kuny: praktyczne metody", "notes_to_editor": "Tytuł sugeruje jedną, prostą metodę; rozważ precyzyjniejsze sformułowanie lub dodanie zastrzeżeń." },
 	"diagnostics": { "tokens_title": 7, "tokens_content": 410, "processing_time_ms": 48, "windows_scanned": [{"index":0,"start":"0","length_chars":600,"evidence_hits":["content: 'kable pogryzione','koszty naprawy'"]},{"index":1,"start":"25%","length_chars":600,"evidence_hits":["content: 'odstraszanie zapachami','olejki'"]},{"index":2,"start":"50%","length_chars":600,"evidence_hits":["content: 'mięta pieprzowa','eukaliptus'"]},{"index":3,"start":"75%","length_chars":600,"evidence_hits":["content: 'wacik','regularnie odnawiać'"]},{"index":4,"start":"end","length_chars":600,"evidence_hits":["content: 'inne szkody kuny robią w domu'"]}] }
+	,
+	"summary": "Artykuł przedstawia praktyczne metody odstraszania kun od samochodów, m.in. stosowanie olejków eterycznych (mięta, eukaliptus) i umieszczanie nasączonych wacików. Opisuje też skalę szkód (pogryzione kable, koszty napraw) oraz ograniczenia proponowanych rozwiązań.",
+	"_summary_generated_by": "manual_batch_update_1"
 }

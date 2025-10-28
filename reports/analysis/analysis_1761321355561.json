@@ -16,14 +16,69 @@
   ],
   "signals": {
     "title_hits": [],
-    "content_hits": ["numbers_dates: votes and training length","org_names: Sabor/HRT"],
+    "content_hits": [
+      "numbers_dates: votes and training length",
+      "org_names: Sabor/HRT"
+    ],
     "title_semantic_hits": [],
     "content_semantic_hits": [],
-    "credibility_hits": ["official_source: ministry/parliament statements","numbers_dates: fines, ages"],
+    "credibility_hits": [
+      "official_source: ministry/parliament statements",
+      "numbers_dates: fines, ages"
+    ],
     "monetization_hits": [],
-    "geography_hits": {"title_countries": [], "content_countries": ["Chorwacja"]},
-    "mismatch": {"alignment_score": 0.93, "exaggeration_gap": false, "paywall_or_short": false, "country_mismatch": false, "time_omission": false, "date_omission": false, "detected_time_windows": [], "detected_dates": []}
+    "geography_hits": {
+      "title_countries": [],
+      "content_countries": [
+        "Chorwacja"
+      ]
+    },
+    "mismatch": {
+      "alignment_score": 0.93,
+      "exaggeration_gap": false,
+      "paywall_or_short": false,
+      "country_mismatch": false,
+      "time_omission": false,
+      "date_omission": false,
+      "detected_time_windows": [],
+      "detected_dates": []
+    }
   },
-  "suggestions": {"rewrite_title_neutral": "Chorwacja przywraca obowiązkową służbę wojskową","notes_to_editor": "Tytuł jest informacyjny; rozważ doprecyzowanie kraju w tytule dla czytelników skanujących nagłówki."},
-  "diagnostics": {"tokens_title": 6, "tokens_content": 260, "processing_time_ms": 80, "windows_scanned": [{"index":0,"start":"0","length_chars":600,"evidence_hits":["title: 'przywraca obowiązkową służbę'","content: 'przegłosował parlament'"]},{"index":1,"start":"25%","length_chars":600,"evidence_hits":["content: 'wpisywanie do rejestru'","content: 'dwa miesiące'"]},{"index":2,"start":"50%","length_chars":600,"evidence_hits":[]}]}
+  "suggestions": {
+    "rewrite_title_neutral": "Chorwacja przywraca obowiązkową służbę wojskową",
+    "notes_to_editor": "Tytuł jest informacyjny; rozważ doprecyzowanie kraju w tytule dla czytelników skanujących nagłówki."
+  },
+  "diagnostics": {
+    "tokens_title": 6,
+    "tokens_content": 260,
+    "processing_time_ms": 80,
+    "windows_scanned": [
+      {
+        "index": 0,
+        "start": "0",
+        "length_chars": 600,
+        "evidence_hits": [
+          "title: 'przywraca obowiązkową służbę'",
+          "content: 'przegłosował parlament'"
+        ]
+      },
+      {
+        "index": 1,
+        "start": "25%",
+        "length_chars": 600,
+        "evidence_hits": [
+          "content: 'wpisywanie do rejestru'",
+          "content: 'dwa miesiące'"
+        ]
+      },
+      {
+        "index": 2,
+        "start": "50%",
+        "length_chars": 600,
+        "evidence_hits": []
+      }
+    ]
+  },
+  "summary": "Parlament w Chorwacji przegłosował nowelizację ustawy o obronności, przywracając obowiązkową służbę wojskową. Zmiana przewiduje obowiązek dla osób po ukończeniu 18. roku życia oraz szczegóły dotyczące długości szkolenia i wyjątków.",
+  "_summary_generated_by": "manual_batch_update_2"
 }

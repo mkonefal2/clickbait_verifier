@@ -15,15 +15,55 @@
     "Sugestia: tytuł jest właściwy; ewentualnie dodać lokalizację w tytule, jeśli zależy nam na precyzji."
   ],
   "signals": {
-    "title_hits": ["curiosity: 'Nietypowa interwencja'","sensational_token: 'jadowite pająki'"],
-    "content_hits": ["credibility: straż miejska, weterynarz"],
+    "title_hits": [
+      "curiosity: 'Nietypowa interwencja'",
+      "sensational_token: 'jadowite pająki'"
+    ],
+    "content_hits": [
+      "credibility: straż miejska, weterynarz"
+    ],
     "title_semantic_hits": [],
     "content_semantic_hits": [],
-    "credibility_hits": ["org_names: Straż Miejska, MPO Kraków"],
+    "credibility_hits": [
+      "org_names: Straż Miejska, MPO Kraków"
+    ],
     "monetization_hits": [],
-    "geography_hits": {"title_countries": [], "content_countries": ["Polska"]},
-    "mismatch": {"alignment_score": 0.90, "exaggeration_gap": false, "paywall_or_short": false, "country_mismatch": false, "time_omission": false, "date_omission": false, "detected_time_windows": [], "detected_dates": []}
+    "geography_hits": {
+      "title_countries": [],
+      "content_countries": [
+        "Polska"
+      ]
+    },
+    "mismatch": {
+      "alignment_score": 0.9,
+      "exaggeration_gap": false,
+      "paywall_or_short": false,
+      "country_mismatch": false,
+      "time_omission": false,
+      "date_omission": false,
+      "detected_time_windows": [],
+      "detected_dates": []
+    }
   },
-  "suggestions": {"rewrite_title_neutral": "Jadowite pająki znalezione w koszu na śmieci w Krakowie","notes_to_editor": "Tytuł jest informacyjny; doprecyzuj lokalizację, jeśli chcesz zwiększyć precyzję."},
-  "diagnostics": {"tokens_title": 9, "tokens_content": 80, "processing_time_ms": 60, "windows_scanned": [{"index":0,"start":"0","length_chars":400,"evidence_hits":["title: 'jadowite pająki'","content: 'wezwano weterynarza'"]}]}
+  "suggestions": {
+    "rewrite_title_neutral": "Jadowite pająki znalezione w koszu na śmieci w Krakowie",
+    "notes_to_editor": "Tytuł jest informacyjny; doprecyzuj lokalizację, jeśli chcesz zwiększyć precyzję."
+  },
+  "diagnostics": {
+    "tokens_title": 9,
+    "tokens_content": 80,
+    "processing_time_ms": 60,
+    "windows_scanned": [
+      {
+        "index": 0,
+        "start": "0",
+        "length_chars": 400,
+        "evidence_hits": [
+          "title: 'jadowite pająki'",
+          "content: 'wezwano weterynarza'"
+        ]
+      }
+    ]
+  },
+  "summary": "Jadowite pająki w koszu na śmieci."
 }

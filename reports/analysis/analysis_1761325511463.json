@@ -12,18 +12,58 @@
   ],
   "rationale_user_friendly": [
     "Tytuł opisuje zdarzenie i podaje informacje o użytych przedmiotach, a artykuł potwierdza to relacją policji i organizatorów.",
-    "Sugestia: tytuł jest dopuszczalny; w leadzie doprecyzować okoliczności i brak ofiar, jeśli to ważne dla czytelników." 
+    "Sugestia: tytuł jest dopuszczalny; w leadzie doprecyzować okoliczności i brak ofiar, jeśli to ważne dla czytelników."
   ],
   "signals": {
-    "title_hits": ["vivid_description: 'kamienie, butelki i gaz pieprzowy'"],
-    "content_hits": ["credibility: police investigation, eyewitness statements","geography: Wrocław"],
+    "title_hits": [
+      "vivid_description: 'kamienie, butelki i gaz pieprzowy'"
+    ],
+    "content_hits": [
+      "credibility: police investigation, eyewitness statements",
+      "geography: Wrocław"
+    ],
     "title_semantic_hits": [],
     "content_semantic_hits": [],
-    "credibility_hits": ["org_names: policja"],
+    "credibility_hits": [
+      "org_names: policja"
+    ],
     "monetization_hits": [],
-    "geography_hits": {"title_countries": [], "content_countries": ["Polska"]},
-    "mismatch": {"alignment_score": 0.92, "exaggeration_gap": false, "paywall_or_short": false, "country_mismatch": false, "time_omission": false, "date_omission": false, "detected_time_windows": [], "detected_dates": []}
+    "geography_hits": {
+      "title_countries": [],
+      "content_countries": [
+        "Polska"
+      ]
+    },
+    "mismatch": {
+      "alignment_score": 0.92,
+      "exaggeration_gap": false,
+      "paywall_or_short": false,
+      "country_mismatch": false,
+      "time_omission": false,
+      "date_omission": false,
+      "detected_time_windows": [],
+      "detected_dates": []
+    }
   },
-  "suggestions": {"rewrite_title_neutral": "Atak na centrum 'Postój' we Wrocławiu. Zgłoszono rzucanie kamieni i użycie gazu pieprzowego","notes_to_editor": "Tytuł jest adekwatny; doprecyzować w leadzie, czy są poszkodowani."},
-  "diagnostics": {"tokens_title": 16, "tokens_content": 120, "processing_time_ms": 65, "windows_scanned": [{"index":0,"start":"0","length_chars":400,"evidence_hits":["title: 'kamienie, butelki i gaz pieprzowy'","content: 'Policja zbada sprawę'"]}]}
+  "suggestions": {
+    "rewrite_title_neutral": "Atak na centrum 'Postój' we Wrocławiu. Zgłoszono rzucanie kamieni i użycie gazu pieprzowego",
+    "notes_to_editor": "Tytuł jest adekwatny; doprecyzować w leadzie, czy są poszkodowani."
+  },
+  "diagnostics": {
+    "tokens_title": 16,
+    "tokens_content": 120,
+    "processing_time_ms": 65,
+    "windows_scanned": [
+      {
+        "index": 0,
+        "start": "0",
+        "length_chars": 400,
+        "evidence_hits": [
+          "title: 'kamienie, butelki i gaz pieprzowy'",
+          "content: 'Policja zbada sprawę'"
+        ]
+      }
+    ]
+  },
+  "summary": "Atak na centrum \"Postój\" we Wrocławiu."
 }

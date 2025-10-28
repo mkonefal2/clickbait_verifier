@@ -15,15 +15,54 @@
     "Sugestia: doprecyzować wiek drugiej osoby (37 vs 33 — sprawdź korektę) — unikaj sprzecznych informacji w tytule."
   ],
   "signals": {
-    "title_hits": ["neutral_event: 'Incydenty', 'Ukarani'"],
-    "content_hits": ["credibility: Straż Graniczna statement, official penalties"],
+    "title_hits": [
+      "neutral_event: 'Incydenty', 'Ukarani'"
+    ],
+    "content_hits": [
+      "credibility: Straż Graniczna statement, official penalties"
+    ],
     "title_semantic_hits": [],
     "content_semantic_hits": [],
-  "credibility_hits": ["org_names: Straż Graniczna, MSWiA"],
+    "credibility_hits": [
+      "org_names: Straż Graniczna, MSWiA"
+    ],
     "monetization_hits": [],
-    "geography_hits": {"title_countries": [], "content_countries": ["Polska"]},
-    "mismatch": {"alignment_score": 0.95, "exaggeration_gap": false, "paywall_or_short": false, "country_mismatch": false, "time_omission": false, "date_omission": false, "detected_time_windows": [], "detected_dates": []}
+    "geography_hits": {
+      "title_countries": [],
+      "content_countries": [
+        "Polska"
+      ]
+    },
+    "mismatch": {
+      "alignment_score": 0.95,
+      "exaggeration_gap": false,
+      "paywall_or_short": false,
+      "country_mismatch": false,
+      "time_omission": false,
+      "date_omission": false,
+      "detected_time_windows": [],
+      "detected_dates": []
+    }
   },
-  "suggestions": {"rewrite_title_neutral": "Incydenty na lotnisku w Krakowie — nałożono kary na dwie osoby","notes_to_editor": "Sprawdź poprawne wieki oraz doprecyzuj charakter kar w leadzie."},
-  "diagnostics": {"tokens_title": 11, "tokens_content": 100, "processing_time_ms": 60, "windows_scanned": [{"index":0,"start":"0","length_chars":400,"evidence_hits":["title: 'Incydenty na lotnisku'","content: 'interweniowała Straż Graniczna'"]}]}
+  "suggestions": {
+    "rewrite_title_neutral": "Incydenty na lotnisku w Krakowie — nałożono kary na dwie osoby",
+    "notes_to_editor": "Sprawdź poprawne wieki oraz doprecyzuj charakter kar w leadzie."
+  },
+  "diagnostics": {
+    "tokens_title": 11,
+    "tokens_content": 100,
+    "processing_time_ms": 60,
+    "windows_scanned": [
+      {
+        "index": 0,
+        "start": "0",
+        "length_chars": 400,
+        "evidence_hits": [
+          "title: 'Incydenty na lotnisku'",
+          "content: 'interweniowała Straż Graniczna'"
+        ]
+      }
+    ]
+  },
+  "summary": "Incydenty na lotnisku w Krakowie. Interweniowały służby, skończyło się surowymi karami\nDziennikarze Onet Wiadomości\n24 października 2025, 18:17\nSkróć artykuł\nUdostępnij\nUdostępnij przez\nFacebook\nX\nE-mail\nKopiuj link\nLink skopiowany\nNa krakowskim lotnisku doszło do dwóch incydentów."
 }

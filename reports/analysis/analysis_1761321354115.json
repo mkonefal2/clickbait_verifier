@@ -17,15 +17,85 @@
     "Propozycja: '13-latek połknął magnesy neodymowe — konieczna była operacja' — bez frazy 'Nie uwierzysz', bardziej neutralnie."
   ],
   "signals": {
-    "title_hits": ["curiosity_gap: 'Nie uwierzysz'","vivid: 'Skończyło się operacją'"],
-    "content_hits": ["credibility: medical details, hospital treatment","numbers_dates: ~80-100 magnesów"],
+    "title_hits": [
+      "curiosity_gap: 'Nie uwierzysz'",
+      "vivid: 'Skończyło się operacją'"
+    ],
+    "content_hits": [
+      "credibility: medical details, hospital treatment",
+      "numbers_dates: ~80-100 magnesów"
+    ],
     "title_semantic_hits": [],
     "content_semantic_hits": [],
-    "credibility_hits": ["hospital: Tauranga hospital","medical_experts quoted"],
+    "credibility_hits": [
+      "hospital: Tauranga hospital",
+      "medical_experts quoted"
+    ],
     "monetization_hits": [],
-    "geography_hits": {"title_countries": [], "content_countries": ["Nowa Zelandia"]},
-    "mismatch": {"alignment_score": 0.88, "exaggeration_gap": false, "paywall_or_short": false, "country_mismatch": false, "time_omission": false, "date_omission": false, "detected_time_windows": [], "detected_dates": []}
+    "geography_hits": {
+      "title_countries": [],
+      "content_countries": [
+        "Nowa Zelandia"
+      ]
+    },
+    "mismatch": {
+      "alignment_score": 0.88,
+      "exaggeration_gap": false,
+      "paywall_or_short": false,
+      "country_mismatch": false,
+      "time_omission": false,
+      "date_omission": false,
+      "detected_time_windows": [],
+      "detected_dates": []
+    }
   },
-  "suggestions": {"rewrite_title_neutral": "13-latek połknął magnesy neodymowe — konieczna była operacja","notes_to_editor": "Usuń frazę 'Nie uwierzysz' i zachowaj opis medyczny; artykuł już przekazuje wystarczające informacje."},
-  "diagnostics": {"tokens_title": 11, "tokens_content": 360, "processing_time_ms": 105, "windows_scanned": [{"index":0,"start":"0","length_chars":600,"evidence_hits":["title: 'Nie uwierzysz'","content: 'połknął 80-100 magnesów'"]},{"index":1,"start":"25%","length_chars":600,"evidence_hits":["content: 'Tauranga'","content: 'chirurgiczne usunięcie'"]},{"index":2,"start":"50%","length_chars":600,"evidence_hits":[]},{"index":3,"start":"75%","length_chars":600,"evidence_hits":[]},{"index":4,"start":"last","length_chars":600,"evidence_hits":[]}]}
+  "suggestions": {
+    "rewrite_title_neutral": "13-latek połknął magnesy neodymowe — konieczna była operacja",
+    "notes_to_editor": "Usuń frazę 'Nie uwierzysz' i zachowaj opis medyczny; artykuł już przekazuje wystarczające informacje."
+  },
+  "diagnostics": {
+    "tokens_title": 11,
+    "tokens_content": 360,
+    "processing_time_ms": 105,
+    "windows_scanned": [
+      {
+        "index": 0,
+        "start": "0",
+        "length_chars": 600,
+        "evidence_hits": [
+          "title: 'Nie uwierzysz'",
+          "content: 'połknął 80-100 magnesów'"
+        ]
+      },
+      {
+        "index": 1,
+        "start": "25%",
+        "length_chars": 600,
+        "evidence_hits": [
+          "content: 'Tauranga'",
+          "content: 'chirurgiczne usunięcie'"
+        ]
+      },
+      {
+        "index": 2,
+        "start": "50%",
+        "length_chars": 600,
+        "evidence_hits": []
+      },
+      {
+        "index": 3,
+        "start": "75%",
+        "length_chars": 600,
+        "evidence_hits": []
+      },
+      {
+        "index": 4,
+        "start": "last",
+        "length_chars": 600,
+        "evidence_hits": []
+      }
+    ]
+  },
+  "summary": "W Nowej Zelandii 13‑latek połknął dużą liczbę magnesów neodymowych (około 80–100), co wymagało interwencji chirurgicznej. Chłopiec zamówił magnesy przez platformę internetową; artykuł opisuje przebieg leczenia i ostrzega przed zagrożeniami związanymi z takimi produktami.",
+  "_summary_generated_by": "manual_batch_update_1"
 }

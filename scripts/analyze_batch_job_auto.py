@@ -48,7 +48,7 @@ ANALYSIS_DIR.mkdir(parents=True, exist_ok=True)
 def safe_write(path: Path, data: dict):
     """Write JSON to path; if exists, add numeric suffix before extension."""
     if not path.exists():
-        path.write_text(json.dumps(data, ensure_ascii=False, indent=2))
+        path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding='utf-8')
         return path
     # add suffixes
     stem = path.stem
@@ -57,7 +57,7 @@ def safe_write(path: Path, data: dict):
     while True:
         candidate = parent / f"{stem}_{i}.json"
         if not candidate.exists():
-            candidate.write_text(json.dumps(data, ensure_ascii=False, indent=2))
+            candidate.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding='utf-8')
             return candidate
         i += 1
 
@@ -229,7 +229,14 @@ def analyze_article(article: dict, spec_defaults: dict = None):
             "rewrite_title_neutral": "",
             "notes_to_editor": ""
         },
-        "diagnostics": diagnostics
+        "diagnostics": diagnostics,
+        # Nowe pola dla aplikacji mobilnej:
+        "sensationalism": _determine_sensationalism(title, content),
+        "emotionalTone": _determine_emotional_tone(title, content, hedges),
+        "manipulationTechniques": _determine_manipulation_techniques(
+            title, content, country_mismatch, exaggeration_gap, hedges
+        ),
+        "summary": _generate_summary(title, content, score)
     }
 
     # suggestions (simple)
@@ -241,6 +248,119 @@ def analyze_article(article: dict, spec_defaults: dict = None):
         output["suggestions"]["notes_to_editor"] = "Zastąp słowo sensacyjne neutralniejszym odpowiednikiem."
 
     return output
+
+
+def _determine_sensationalism(title: str, content: str) -> str:
+    """Określa poziom sensacjonalizmu artykułu."""
+    title_sensational = TITLE_SENSATIONAL_RE.search(title)
+    content_sensational = CONTENT_SENSATIONAL_RE.search(content)
+    
+    if title_sensational and content_sensational:
+        return "Wysoki - tytuł i treść zawierają sensacyjne słowa"
+    elif title_sensational:
+        return "Średni - tylko tytuł jest sensacyjny"
+    elif content_sensational:
+        return "Niski - tylko treść zawiera elementy sensacyjne"
+    else:
+        return "Brak - neutralny sposób prezentacji"
+
+
+def _determine_emotional_tone(title: str, content: str, hedges: list) -> str:
+    """Określa ton emocjonalny artykułu."""
+    has_sensational = TITLE_SENSATIONAL_RE.search(title) or CONTENT_SENSATIONAL_RE.search(content)
+    has_absolutes = TITLE_ABSOLUTES_RE.search(title)
+    
+    if has_absolutes:
+        return "Bardzo emocjonalny - używa słów absolutnych i pewności"
+    elif has_sensational and not hedges:
+        return "Emocjonalny - sensacyjny język bez hedgingu"
+    elif has_sensational and hedges:
+        return "Umiarkowany - sensacyjny tytuł, ale ostrożna treść"
+    elif hedges:
+        return "Neutralny - dominuje ostrożny język"
+    else:
+        return "Neutralny - bez wyraźnych emocji"
+
+
+def _determine_manipulation_techniques(
+    title: str, 
+    content: str, 
+    country_mismatch: bool,
+    exaggeration_gap: bool,
+    hedges: list
+) -> list:
+    """Identyfikuje zastosowane techniki manipulacji."""
+    techniques = []
+    
+    if country_mismatch:
+        techniques.append("Ukrywanie kontekstu geograficznego")
+    
+    if exaggeration_gap:
+        techniques.append("Przesadny tytuł vs. ostrożna treść")
+    
+    if TITLE_ABSOLUTES_RE.search(title):
+        techniques.append("Słowa absolutne (zawsze/nigdy)")
+    
+    if TITLE_SENSATIONAL_RE.search(title):
+        techniques.append("Sensacyjne słowa w tytule")
+    
+    if NUMBERS_RE.search(content) and not NUMBERS_RE.search(title):
+        techniques.append("Ukrywanie liczb w tytule")
+    
+    if TIME_WINDOW_RE.search(content) and len(hedges) > 3:
+        techniques.append("Nadmierne hedging i niepewność")
+    
+    if not techniques:
+        techniques.append("Brak wykrytych technik manipulacji")
+    
+    return techniques
+
+
+def _generate_summary(title: str, content: str, score: int) -> str:
+    """
+    Generuje zwięzłe streszczenie TREŚCI artykułu (nie analizy clickbaitowości).
+    Zgodne z wymaganiami z clickbait_agent_spec_v1.1.yaml:
+    - 2-4 zdania, max 400 znaków
+    - Opisuje O CZYM jest artykuł
+    - Obiektywne, neutralne, informacyjne
+    """
+    # Usuń HTML tagi jeśli są
+    clean_content = re.sub(r'<[^>]+>', '', content)
+    
+    # Podziel na zdania
+    sentences = re.split(r'[.!?]+\s+', clean_content.strip())
+    
+    # Weź pierwsze 2-4 zdania (max 400 znaków)
+    summary_sentences = []
+    total_length = 0
+    
+    for sentence in sentences[:6]:  # Max 6 zdań do rozważenia
+        sentence = sentence.strip()
+        if not sentence or len(sentence) < 20:  # Pomiń zbyt krótkie
+            continue
+        
+        # Pomiń elementy UI/nawigacji
+        if any(skip in sentence.lower() for skip in ['udostępnij', 'facebook', 'kopiuj link', 'skróć artykuł', 'zobacz także']):
+            continue
+            
+        if total_length + len(sentence) > 400:
+            break
+            
+        summary_sentences.append(sentence)
+        total_length += len(sentence)
+        
+        if len(summary_sentences) >= 4:  # Max 4 zdania
+            break
+    
+    # Jeśli nie udało się zebrać zdań, użyj tytułu jako fallback
+    if not summary_sentences:
+        return f"Artykuł dotyczy: {title[:350]}"
+    
+    summary = '. '.join(summary_sentences)
+    if summary and not summary.endswith('.'):
+        summary += '.'
+    
+    return summary
 
 
 def main(file_list):

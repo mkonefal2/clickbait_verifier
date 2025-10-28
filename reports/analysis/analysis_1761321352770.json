@@ -17,15 +17,91 @@
     "Sugestia: jeśli celem jest zmniejszenie paniki, użyj neutralniejszego tytułu: 'Pasażer zakażony odrą na locie Tel Awiw–Kraków. Służby apelują o sprawdzenie szczepień'."
   ],
   "signals": {
-    "title_hits": ["alarming: 'Odra' + 'na pokładzie'"],
-    "content_hits": ["alarming: official health ministry communication","numbers_dates: dates and flight numbers","geography: Tel Awiw, Kraków"],
+    "title_hits": [
+      "alarming: 'Odra' + 'na pokładzie'"
+    ],
+    "content_hits": [
+      "alarming: official health ministry communication",
+      "numbers_dates: dates and flight numbers",
+      "geography: Tel Awiw, Kraków"
+    ],
     "title_semantic_hits": [],
     "content_semantic_hits": [],
-    "credibility_hits": ["org_names: Israeli Ministry of Health","numbers_dates: flight W6 2098/W6 2097"],
+    "credibility_hits": [
+      "org_names: Israeli Ministry of Health",
+      "numbers_dates: flight W6 2098/W6 2097"
+    ],
     "monetization_hits": [],
-    "geography_hits": {"title_countries": [], "content_countries": ["Izrael","Polska"]},
-    "mismatch": {"alignment_score": 0.92, "exaggeration_gap": false, "paywall_or_short": false, "country_mismatch": false, "time_omission": false, "date_omission": false, "detected_time_windows": [], "detected_dates": ["2025-10-19","2025-10-21"]}
+    "geography_hits": {
+      "title_countries": [],
+      "content_countries": [
+        "Izrael",
+        "Polska"
+      ]
+    },
+    "mismatch": {
+      "alignment_score": 0.92,
+      "exaggeration_gap": false,
+      "paywall_or_short": false,
+      "country_mismatch": false,
+      "time_omission": false,
+      "date_omission": false,
+      "detected_time_windows": [],
+      "detected_dates": [
+        "2025-10-19",
+        "2025-10-21"
+      ]
+    }
   },
-  "suggestions": {"rewrite_title_neutral": "Pasażer zakażony odrą na locie Tel Awiw–Kraków. Służby apelują o sprawdzenie szczepień","notes_to_editor": "Tytuł ma alarmujący wydźwięk, ale artykuł zawiera oficjalne źródło. Aby ograniczyć panikę, dodaj precyzyjny kontekst (lot/termin) w tytule."},
-  "diagnostics": {"tokens_title": 10, "tokens_content": 410, "processing_time_ms": 110, "windows_scanned": [{"index":0,"start":"0","length_chars":600,"evidence_hits":["title: 'Odra'","content: 'zakażony odrą pasażer'"]},{"index":1,"start":"25%","length_chars":600,"evidence_hits":["content: 'lot W6 2098'","content: '19 października'"]},{"index":2,"start":"50%","length_chars":600,"evidence_hits":["content: 'pięć zmarłych dzieci'"]},{"index":3,"start":"75%","length_chars":600,"evidence_hits":[]},{"index":4,"start":"last","length_chars":600,"evidence_hits":[]} ] }
+  "suggestions": {
+    "rewrite_title_neutral": "Pasażer zakażony odrą na locie Tel Awiw–Kraków. Służby apelują o sprawdzenie szczepień",
+    "notes_to_editor": "Tytuł ma alarmujący wydźwięk, ale artykuł zawiera oficjalne źródło. Aby ograniczyć panikę, dodaj precyzyjny kontekst (lot/termin) w tytule."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 410,
+    "processing_time_ms": 110,
+    "windows_scanned": [
+      {
+        "index": 0,
+        "start": "0",
+        "length_chars": 600,
+        "evidence_hits": [
+          "title: 'Odra'",
+          "content: 'zakażony odrą pasażer'"
+        ]
+      },
+      {
+        "index": 1,
+        "start": "25%",
+        "length_chars": 600,
+        "evidence_hits": [
+          "content: 'lot W6 2098'",
+          "content: '19 października'"
+        ]
+      },
+      {
+        "index": 2,
+        "start": "50%",
+        "length_chars": 600,
+        "evidence_hits": [
+          "content: 'pięć zmarłych dzieci'"
+        ]
+      },
+      {
+        "index": 3,
+        "start": "75%",
+        "length_chars": 600,
+        "evidence_hits": []
+      },
+      {
+        "index": 4,
+        "start": "last",
+        "length_chars": 600,
+        "evidence_hits": []
+      }
+    ]
+  },
+  "summary": "Izraelskie ministerstwo zdrowia wydało pilny komunikat dotyczący potencjalnego zagrożenia epidemiologicznego po tym, jak wykryto pasażera zakażonego odrą na locie Tel Awiw–Kraków. Służby apelują do pasażerów o sprawdzenie statusu szczepień i kontakt z sanepidem, jeśli wystąpiły objawy.",
+  "_summary_generated_by": "manual_batch_update_2"
 }

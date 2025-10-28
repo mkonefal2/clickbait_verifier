@@ -13,17 +13,42 @@
   ],
   "rationale_user_friendly": [
     "Nagłówek sugeruje możliwe wykorzystanie wraku do działań wywiadowczych — to przyciąga uwagę przez niepewność.",
-    "Sugeruję dodać w tytule źródło lub sformułować to jako doniesienie (np. \"Według doniesień:...\")." 
+    "Sugeruję dodać w tytule źródło lub sformułować to jako doniesienie (np. \"Według doniesień:...\")."
   ],
   "signals": {
-    "title_hits": ["curiosity_gap", "speculative_phrase"],
-    "content_hits": ["external_source_reference", "historical_context"],
-    "credibility_hits": ["external_newspaper"],
+    "title_hits": [
+      "curiosity_gap",
+      "speculative_phrase"
+    ],
+    "content_hits": [
+      "external_source_reference",
+      "historical_context"
+    ],
+    "credibility_hits": [
+      "external_newspaper"
+    ],
     "monetization_hits": [],
-    "geography_hits": { "title_countries": ["Estonia", "Russia"], "content_countries": ["Estonia", "Russia"] }
+    "geography_hits": {
+      "title_countries": [
+        "Estonia",
+        "Russia"
+      ],
+      "content_countries": [
+        "Estonia",
+        "Russia"
+      ]
+    }
   },
-  "suggestions": { "rewrite_title_neutral": "Doniesienia: wrak promu Estonia mógł zostać wykorzystany do monitoringu — cytuje Süddeutsche", "notes_to_editor": "Dodać odniesienie do źródła i upewnić się, czy są potwierdzenia." },
-  "diagnostics": { "content_char_count": 540, "sampling_windows": 5, "notes": "Speculative headline based on secondary reporting." },
+  "suggestions": {
+    "rewrite_title_neutral": "Doniesienia: wrak promu Estonia mógł zostać wykorzystany do monitoringu — cytuje Süddeutsche",
+    "notes_to_editor": "Dodać odniesienie do źródła i upewnić się, czy są potwierdzenia."
+  },
+  "diagnostics": {
+    "content_char_count": 540,
+    "sampling_windows": 5,
+    "notes": "Speculative headline based on secondary reporting."
+  },
   "created_by": "agent_manual_analysis_v1",
-  "created_at": "2025-10-24T20:30:00+02:00"
+  "created_at": "2025-10-24T20:30:00+02:00",
+  "summary": "Niepokojące doniesienia. Rosjanie szpiegują z wraku promu Estonia\nDziennikarze Onet Wiadomości\n24 października 2025, 16:45\nSkróć artykuł\nUdostępnij przez\nFacebook\nX\nE-mail\nKopiuj link\nLink skopiowany\nRosja może wykorzystywać wrak promu Estonia, który zatonął w 1994 r."
 }

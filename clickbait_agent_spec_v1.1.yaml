@@ -1,11 +1,12 @@
 meta:
   name: "clickbait_assessment_spec"
-  version: "1.2.2"
+  version: "1.2.3"
   language: "pl"
-  last_updated: "2025-10-20"
+  last_updated: "2025-10-28"
   author: "Agent Spec Generator"
   description: >
-    Dodano wymaganie podwójnego uzasadnienia: techniczne 'rationale' dla audytu
+    Dodano wymaganie generowania pola 'summary' z obiektywnym streszczeniem treści artykułu.
+    Wersja 1.2.2: Dodano wymaganie podwójnego uzasadnienia: techniczne 'rationale' dla audytu
     oraz przyjazne dla użytkownika 'rationale_user_friendly' bez żargonu technicznego.
 
 preprocessing:
@@ -222,7 +223,7 @@ actions:
 
 output_schema:
   type: object
-  required: [id, source, url, score, label, rationale, rationale_user_friendly, signals, suggestions]
+  required: [id, source, url, score, label, rationale, rationale_user_friendly, signals, suggestions, summary]
   properties:
     id: { type: [integer, string] }
     source: { type: string }
@@ -230,6 +231,9 @@ output_schema:
     title: { type: string }
     score: { type: number, minimum: 0, maximum: 100 }
     label: { type: string, enum: ["not_clickbait", "mild", "strong", "extreme", "insufficient_content"] }
+    summary:
+      type: string
+      description: "Zwięzłe streszczenie treści artykułu (2-4 zdania, max 400 znaków). Opisuje O CZYM jest artykuł i jaki jest jego główny przekaz/temat. NIE opisuje analizy clickbaitowości - tylko merytoryczną treść artykułu. Streszczenie powinno być obiektywne, neutralne i informacyjne."
     
     rationale: 
       type: array
@@ -317,7 +321,17 @@ llm_prompts:
           - "Tytuł sugeruje wydarzenie w Polsce, ale artykuł dotyczy Francji"
           - "Użycie słów 'zawsze', 'nigdy' tworzy fałszywe poczucie pewności"
           Każdy punkt powinien być konkretny, zrozumiały i odnosić się do faktycznego tekstu.
-   10) Zwróć WYŁĄCZNIE JSON zgodny z 'output_schema'. Jeżeli uwzględniasz trafienia semantyczne, w 'signals' dodaj pola 'title_semantic_hits' i 'content_semantic_hits' wraz z confidence.
+   10) STRESZCZENIE ARTYKUŁU:
+       Wygeneruj pole 'summary' zawierające zwięzłe streszczenie TREŚCI artykułu (nie analizy clickbaitowości).
+       Wymagania:
+       - Długość: 2-4 zdania, maksymalnie 400 znaków
+       - Treść: Opisz O CZYM jest artykuł - główny temat, kluczowe fakty, przekaz
+       - Styl: Obiektywny, neutralny, informacyjny - jak w kronice prasowej
+       - NIE używaj: słów oceniających clickbait, nie komentuj tytułu ani jego sensacyjności
+       - Przykład dobrego streszczenia: "Naukowcy z Uniwersytetu Warszawskiego odkryli nowy gatunek żaby w Amazonii. Zwierzę wyróżnia się niebieskim ubarwieniem i wydaje nietypowe dźwięki. Odkrycie zostało opublikowane w czasopiśmie Nature."
+       - Przykład złego streszczenia: "Artykuł z clickbaitowym tytułem opisuje odkrycie żaby." (to opisuje analizę, nie treść!)
+       Streszczenie powinno pozwolić czytelnikowi zrozumieć istotę artykułu bez jego czytania.
+   11) Zwróć WYŁĄCZNIE JSON zgodny z 'output_schema'. Jeżeli uwzględniasz trafienia semantyczne, w 'signals' dodaj pola 'title_semantic_hits' i 'content_semantic_hits' wraz z confidence.
 
     Uwaga: semantyczne trafienia mają niższą wiarygodność niż regexy i podlegają dodatkowej kontroli (threshold + jasne oznaczenie).
 

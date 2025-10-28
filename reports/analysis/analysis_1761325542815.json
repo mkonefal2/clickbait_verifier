@@ -13,17 +13,41 @@
   ],
   "rationale_user_friendly": [
     "Tytuł jest silnie wartościujący i sensacyjny — może sugerować przewagę opinii nad faktami.",
-    "Zalecam złagodzenie sformułowań i podanie konkretnych danych wsparcia ról Chin w pomocach, aby uniknąć przesady." 
+    "Zalecam złagodzenie sformułowań i podanie konkretnych danych wsparcia ról Chin w pomocach, aby uniknąć przesady."
   ],
   "signals": {
-    "title_hits": ["pejorative_language", "metaphor", "sensationalism"],
-    "content_hits": ["expert_commentary", "geopolitical_claims"],
+    "title_hits": [
+      "pejorative_language",
+      "metaphor",
+      "sensationalism"
+    ],
+    "content_hits": [
+      "expert_commentary",
+      "geopolitical_claims"
+    ],
     "credibility_hits": [],
     "monetization_hits": [],
-    "geography_hits": { "title_countries": ["Russia", "China"], "content_countries": ["Russia", "China"] }
+    "geography_hits": {
+      "title_countries": [
+        "Russia",
+        "China"
+      ],
+      "content_countries": [
+        "Russia",
+        "China"
+      ]
+    }
   },
-  "suggestions": { "rewrite_title_neutral": "Ekspert: Rosja korzysta z chińskiego wsparcia; słabości armii Putina widoczne", "notes_to_editor": "Wyrównać opinię ekspercka z danymi lub oznaczyć jako analiza/opinia." },
-  "diagnostics": { "content_char_count": 1400, "sampling_windows": 5, "notes": "Opinionated/geopolitical analysis with strong rhetorical devices." },
+  "suggestions": {
+    "rewrite_title_neutral": "Ekspert: Rosja korzysta z chińskiego wsparcia; słabości armii Putina widoczne",
+    "notes_to_editor": "Wyrównać opinię ekspercka z danymi lub oznaczyć jako analiza/opinia."
+  },
+  "diagnostics": {
+    "content_char_count": 1400,
+    "sampling_windows": 5,
+    "notes": "Opinionated/geopolitical analysis with strong rhetorical devices."
+  },
   "created_by": "agent_manual_analysis_v1",
-  "created_at": "2025-10-24T20:30:00+02:00"
+  "created_at": "2025-10-24T20:30:00+02:00",
+  "summary": "Putin jak dziecko we mgle. Rosję ratuje już tylko chińska kroplówka. Ekspertka kpi: \"śmieciowa\" machina wojenna cienko przędzie\nAlex Raufoglu\n24 października 2025, 15:31\nSkróć artykuł\nUdostępnij przez\nFacebook\nX\nE-mail\nKopiuj link\nLink skopiowany\nChiny, Rosja, Iran i Korea Północna (tzw."
 }

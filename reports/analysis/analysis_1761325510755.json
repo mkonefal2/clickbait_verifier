@@ -15,15 +15,56 @@
     "Sugestia: jeśli celem jest zwięzłość, tytuł można skrócić do 'Zmarł Maciej Adamkiewicz, współwłaściciel Adamed'."
   ],
   "signals": {
-    "title_hits": ["announcement: 'nie żyje'"],
-    "content_hits": ["credibility: company statement, Forbes reference"],
+    "title_hits": [
+      "announcement: 'nie żyje'"
+    ],
+    "content_hits": [
+      "credibility: company statement, Forbes reference"
+    ],
     "title_semantic_hits": [],
     "content_semantic_hits": [],
-    "credibility_hits": ["org_names: Adamed, Forbes"],
+    "credibility_hits": [
+      "org_names: Adamed, Forbes"
+    ],
     "monetization_hits": [],
-    "geography_hits": {"title_countries": [], "content_countries": ["Polska"]},
-    "mismatch": {"alignment_score": 0.97, "exaggeration_gap": false, "paywall_or_short": false, "country_mismatch": false, "time_omission": false, "date_omission": false, "detected_time_windows": [], "detected_dates": ["2025-10-23"]}
+    "geography_hits": {
+      "title_countries": [],
+      "content_countries": [
+        "Polska"
+      ]
+    },
+    "mismatch": {
+      "alignment_score": 0.97,
+      "exaggeration_gap": false,
+      "paywall_or_short": false,
+      "country_mismatch": false,
+      "time_omission": false,
+      "date_omission": false,
+      "detected_time_windows": [],
+      "detected_dates": [
+        "2025-10-23"
+      ]
+    }
   },
-  "suggestions": {"rewrite_title_neutral": "Zmarł Maciej Adamkiewicz, współwłaściciel Adamed","notes_to_editor": "Tytuł jest informacyjny i poprawny; można rozważyć krótszą formę."},
-  "diagnostics": {"tokens_title": 14, "tokens_content": 100, "processing_time_ms": 60, "windows_scanned": [{"index":0,"start":"0","length_chars":400,"evidence_hits":["title: 'nie żyje'","content: 'spółka poinformowała'"]}]}
+  "suggestions": {
+    "rewrite_title_neutral": "Zmarł Maciej Adamkiewicz, współwłaściciel Adamed",
+    "notes_to_editor": "Tytuł jest informacyjny i poprawny; można rozważyć krótszą formę."
+  },
+  "diagnostics": {
+    "tokens_title": 14,
+    "tokens_content": 100,
+    "processing_time_ms": 60,
+    "windows_scanned": [
+      {
+        "index": 0,
+        "start": "0",
+        "length_chars": 400,
+        "evidence_hits": [
+          "title: 'nie żyje'",
+          "content: 'spółka poinformowała'"
+        ]
+      }
+    ]
+  },
+  "summary": "Maciej Adamkiewicz nie żyje."
 }

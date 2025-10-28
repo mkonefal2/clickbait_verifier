@@ -37,10 +37,14 @@
     "monetization_hits": [],
     "geography_hits": {
       "title_countries": [],
-      "content_countries": ["Niemcy","Francja","Rosja" ]
+      "content_countries": [
+        "Niemcy",
+        "Francja",
+        "Rosja"
+      ]
     },
     "mismatch": {
-      "alignment_score": 0.90,
+      "alignment_score": 0.9,
       "exaggeration_gap": false,
       "paywall_or_short": false,
       "country_mismatch": false,
@@ -52,18 +56,53 @@
   },
   "suggestions": {
     "rewrite_title_neutral": "Kosiniak-Kamysz: 'Zagrożenie dla Polski pochodzi ze wschodu, nie z zachodu'",
-  "notes_to_editor": "Tytuł zawiera alarmujące sformułowanie 'Zagrożenie'. Artykuł cytuje polityków, którzy wyrażają taką opinię — rozważ dodanie przypisu \"wg cytowanych polityków\" lub użycie neutralniejszego słowa (np. 'uważa, że') w tytule, aby zmniejszyć emocjonalny wydźwięk."
+    "notes_to_editor": "Tytuł zawiera alarmujące sformułowanie 'Zagrożenie'. Artykuł cytuje polityków, którzy wyrażają taką opinię — rozważ dodanie przypisu \"wg cytowanych polityków\" lub użycie neutralniejszego słowa (np. 'uważa, że') w tytule, aby zmniejszyć emocjonalny wydźwięk."
   },
   "diagnostics": {
     "tokens_title": 9,
     "tokens_content": 280,
     "processing_time_ms": 120,
     "windows_scanned": [
-      { "index": 0, "start": "0", "length_chars": 600, "evidence_hits": ["title: 'Zagrożenie'", "content: 'Niemcy chcą nam zabrać państwo'"] },
-      { "index": 1, "start": "25%", "length_chars": 600, "evidence_hits": ["content: 'nowego imperium'", "content: 'Niemcy chcą nam zabrać państwo'"] },
-      { "index": 2, "start": "50%", "length_chars": 600, "evidence_hits": ["content: 'zagrożenie dla Polski'"] },
-      { "index": 3, "start": "75%", "length_chars": 600, "evidence_hits": [] },
-      { "index": 4, "start": "last", "length_chars": 600, "evidence_hits": [] }
+      {
+        "index": 0,
+        "start": "0",
+        "length_chars": 600,
+        "evidence_hits": [
+          "title: 'Zagrożenie'",
+          "content: 'Niemcy chcą nam zabrać państwo'"
+        ]
+      },
+      {
+        "index": 1,
+        "start": "25%",
+        "length_chars": 600,
+        "evidence_hits": [
+          "content: 'nowego imperium'",
+          "content: 'Niemcy chcą nam zabrać państwo'"
+        ]
+      },
+      {
+        "index": 2,
+        "start": "50%",
+        "length_chars": 600,
+        "evidence_hits": [
+          "content: 'zagrożenie dla Polski'"
+        ]
+      },
+      {
+        "index": 3,
+        "start": "75%",
+        "length_chars": 600,
+        "evidence_hits": []
+      },
+      {
+        "index": 4,
+        "start": "last",
+        "length_chars": 600,
+        "evidence_hits": []
+      }
     ]
-  }
+  },
+  "summary": "Wicepremier Władysław Kosiniak-Kamysz i minister Katarzyna Pełczyńska-Nałęcz skrytykowali wypowiedzi Jarosława Kaczyńskiego, podkreślając, że realne zagrożenie dla Polski pochodzi ze wschodu, a nie z zachodu. Artykuł przytacza cytaty polityków i analizuje kontekst retoryki względem relacji z partnerami zagranicznymi.",
+  "_summary_generated_by": "manual_batch_update_2"
 }
