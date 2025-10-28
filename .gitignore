@@ -90,6 +90,9 @@ __pypackages__/
 # Node (if used later)
 node_modules/
 
+# Android app workspace (do not track generated Android project files)
+android_feed_app/
+
 # Optional: keep local-only scratch files out
 *.local
 
