@@ -1,0 +1,50 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_sensational: regex hit 'zatrzymany' (+12), suggesting a shocking event",
+    "content_sensational: phrase 'próbie kradzieży' detected (+8), adds sensational tone",
+    "content_credibility: organization names mentioned (-3), reduces credibility",
+    "alignment_score: calculated as 0.55, resulting in a penalty of +8 for medium alignment"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'zatrzymany', co sugeruje szokujące wydarzenie.",
+    "Artykuł zawiera informacje o kradzieży, co dodaje sensacyjnego tonu.",
+    "W treści pojawiają się nazwy organizacji, co zmniejsza wiarygodność.",
+    "Treść w pewnym stopniu wspiera tytuł, ale nie w pełni."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Poseł Berkowicz zatrzymany w sklepie Ikea za nieopłacone towary",
+    "notes_to_editor": "Rozważyć użycie bardziej neutralnego języka w tytule, aby uniknąć sensacyjności."
+  },
+  "diagnostics": {
+    "tokens_title": 5,
+    "tokens_content": 295,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-29 12:15:12"
+  },
+  "summary": "Poseł Konfederacji Konrad Berkowicz został zatrzymany w sklepie Ikea w Krakowie za nieopłacenie towarów o wartości 400 zł. Policja nałożyła na niego mandat w wysokości 500 zł. Po zapłaceniu mandatu został zwolniony, nie ujawniając swojego statusu jako posła.",
+  "id": 1761737515595,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/polska/news-posel-konfederacji-konrad-berkowicz-zatrzymany-w-sklepie-int,nId,8035160",
+  "title": "Poseł Berkowicz zatrzymany w sklepie"
+}

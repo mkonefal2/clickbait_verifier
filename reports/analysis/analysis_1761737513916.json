@@ -1,0 +1,47 @@
+{
+  "score": 68,
+  "label": "strong",
+  "rationale": [
+    "title_superlative: regex hit 'najbardziej' (+6), title_sensational: regex hit 'mroczne' (+12), title_curiosity_gap: regex hit 'poznaj' (+6), content_sensational: phrases like 'mroczna historia' (+8), content_sensational: phrases like 'tajemnicze zgony' (+8), alignment_score: 0.55 (medium alignment, penalty +8)"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'najbardziej', co sugeruje przesadną ocenę miejsca, oraz 'mroczne', co przyciąga uwagę.",
+    "W treści pojawiają się sensacyjne sformułowania, które mogą wzbudzać emocje.",
+    "Treść nie w pełni odpowiada obietnicom tytułu, co skutkuje dodatkową karą."
+  ],
+  "signals": {
+    "title_hits": [
+      "najbardziej",
+      "mroczne",
+      "poznaj"
+    ],
+    "content_hits": [
+      "mroczna historia",
+      "tajemnicze zgony"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Ruiny Minster Lovell Hall i ich historia",
+    "notes_to_editor": "Zaleca się unikanie superlatyw i sensacyjnych sformułowań w tytule."
+  },
+  "diagnostics": {
+    "tokens_title": 15,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-29 12:14:47"
+  },
+  "summary": "Minster Lovell Hall w Wielkiej Brytanii to miejsce z bogatą historią i legendami o duchach. Odkryto tam szczątki mężczyzny i jego psa, a także mroczne opowieści o zaginionej pannie młodej. Ruiny przyciągają turystów zainteresowanych historią i zjawiskami paranormalnymi.",
+  "id": 1761737513916,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/ciekawostki/news-przeklete-ruiny-zaginiona-panna-mloda-poznaj-mroczne-sekrety,nId,8035644",
+  "title": "Przeklęte ruiny, zaginiona panna młoda. Poznaj mroczne sekrety \"najbardziej nawiedzonej wioski\""
+}

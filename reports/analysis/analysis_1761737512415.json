@@ -1,0 +1,50 @@
+{
+  "score": 55,
+  "label": "strong",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'w które wszyscy wierzą' (+6), title_sensational: regex hit 'obalają mity' (+12), title_questions: regex hit '?' (+4)",
+    "content_sensational: phrases like 'marketingowy chwyt' (+8), content_overcertainty: use of 'wszyscy' (+6), content_hedging: phrases like 'może' (-2)",
+    "alignment_score: 0.55 → medium alignment penalty +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera pytanie, które wzbudza ciekawość, oraz sugeruje, że naukowcy obalają powszechnie akceptowane mity, co może być uznane za sensacyjne.",
+    "W treści pojawiają się mocne stwierdzenia oraz niepewność, co wpływa na postrzeganą wiarygodność artykułu.",
+    "Treść dobrze odpowiada na obietnice zawarte w tytule, ale niektóre stwierdzenia są przesadzone."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap",
+      "sensational",
+      "questions"
+    ],
+    "content_hits": [
+      "sensational",
+      "overcertainty",
+      "hedging"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Naukowcy analizują popularne mity dotyczące zdrowia i ich naukowe podstawy",
+    "notes_to_editor": "Zaleca się unikanie użycia sensacyjnych zwrotów w tytule, aby zwiększyć wiarygodność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 15,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-29 12:14:37"
+  },
+  "summary": "Artykuł bada popularne mity dotyczące zdrowia, takie jak konieczność robienia 10 000 kroków dziennie, picie 2 litrów wody i jedzenie śniadania. Naukowcy wskazują, że wiele z tych zasad nie ma solidnych podstaw naukowych, a niektóre z nich mogą być oparte na marketingu. Zamiast tego, sugerują bardziej elastyczne podejście do zdrowego stylu życia.",
+  "id": 1761737512415,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/ciekawostki/news-10-000-krokow-2-litry-wody-sniadanie-naukowcy-obalaja-mity-w,nId,8035042",
+  "title": "10 000 kroków, 2 litry wody, śniadanie? Naukowcy obalają mity, w które wszyscy wierzą"
+}

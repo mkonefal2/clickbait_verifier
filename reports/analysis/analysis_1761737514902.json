@@ -1,0 +1,49 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_superlative: regex hit 'gigantyczne' (+6), content_sensational: phrase 'znaczący wzrost' (+8), content_credibility: org names detected (-3), content_credibility: numbers detected (-2), content_credibility: statistics detected (-2)",
+    "alignment_score: 0.65, no penalty applied, overall score adjusted for mild issues"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnego słowa 'gigantyczne', co może wprowadzać w błąd co do rzeczywistej skali wydatków.",
+    "Artykuł zawiera konkretne dane i statystyki, co zwiększa jego wiarygodność.",
+    "Treść w dużej mierze wspiera obietnice tytułu, ale niektóre sformułowania są nieco przesadzone."
+  ],
+  "signals": {
+    "title_hits": [
+      "superlative"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names",
+      "numbers",
+      "statistics"
+    ],
+    "mismatch": {
+      "alignment_score": 0.65,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Wydatki ZUS w 2026 roku: prognozy dotyczące emerytur i rent",
+    "notes_to_editor": "Zaleca się unikanie mocnych słów w tytule, aby nie wprowadzać w błąd."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-29 12:15:02"
+  },
+  "summary": "W 2026 roku polski system emerytalny ma przejść istotne zmiany, z prognozowanym wzrostem liczby emerytów i rencistów o 123 tysiące. Wydatki na emerytury mają przekroczyć 500 miliardów złotych, a przeciętne świadczenie emerytalne wzrośnie do 4320 złotych. Plan przewiduje także nowe zadania, w tym podwyższenie zasiłku pogrzebowego.",
+  "id": 1761737514902,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/ekonomia/news-gigantyczne-wydatki-zus-w-2026-roku-coraz-wiecej-emerytow-i-,nId,8035600",
+  "title": "Gigantyczne wydatki ZUS w 2026 roku. Coraz więcej emerytów i rencistów"
+}

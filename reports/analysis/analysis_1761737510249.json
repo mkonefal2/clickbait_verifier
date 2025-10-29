@@ -1,0 +1,52 @@
+{
+  "score": 55,
+  "label": "strong",
+  "rationale": [
+    "title_superlative: regex hit 'rewolucja' (+6), title_sensational: regex hit 'zmienia' (+12), title_curiosity_gap: regex hit 'zmienia całą historię' (+6)",
+    "content_sensational: regex hit 'rewizji całej historii' (+8), content_overcertainty: regex hit 'na pewno' (+6), content_credibility: org names detected (-3), content_credibility: scientific/method terms detected (-2)",
+    "alignment_score: 0.55 (medium alignment) → penalty +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnego słowa 'rewolucja', co tworzy przesadne oczekiwania.",
+    "Artykuł zawiera stwierdzenia, które mogą sugerować pewność, ale są oparte na badaniach.",
+    "Tytuł sugeruje, że odkrycie zmienia historię gadów, co może być przesadzone w kontekście treści."
+  ],
+  "signals": {
+    "title_hits": [
+      "rewolucja",
+      "zmienia",
+      "zmienia całą historię"
+    ],
+    "content_hits": [
+      "rewizji całej historii",
+      "na pewno"
+    ],
+    "credibility_hits": [
+      "organizacje",
+      "terminy naukowe"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Nowe odkrycie w paleontologii: czaszka z Devon zmienia nasze rozumienie ewolucji gadów",
+    "notes_to_editor": "Zaleca się unikanie przesadnych sformułowań w tytule, aby lepiej odzwierciedlić treść artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 69,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-29 12:14:26"
+  },
+  "summary": "Odkrycie małej skamieniałości w Devon, datowanej na 245-241 milionów lat temu, może zmienić nasze rozumienie ewolucji gadów. Czaszka Agriodontosaurus helsbypetrae, najstarszego znanego przedstawiciela Lepidosauria, ujawnia nietypowe cechy, które sugerują nową strategię łowiecką. Badania wykorzystujące nowoczesne technologie obrazowania pozwoliły na dokładną analizę skamieniałości.",
+  "id": 1761737510249,
+  "source": "FocusPL",
+  "url": "https://www.focus.pl/artykul/skamienialosc-gad-sprzed-242-milionow-lat",
+  "title": "Rewolucja w paleontologii dzięki małej czaszce z Devon. Ten triasowy drapieżnik zmienia całą historię gadów"
+}
