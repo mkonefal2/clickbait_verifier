@@ -1,0 +1,11 @@
+{
+  "id": 1761761416599,
+  "source": "rmf24",
+  "title": "Awaria Microsoftu",
+  "url": "https://www.rmf24.pl/fakty/swiat/news-awaria-microsoftu-problemy-z-dostepem-do-wielu-uslug,nId,8035789",
+  "published": "2025-10-29T18:57:34",
+  "fetched_at": "2025-10-29T18:10:16.599145",
+  "content": "Użytkownicy usług Microsoft od godzin popołudniowych 29 października 2025 roku zmagają się z poważnymi problemami z dostępem do kluczowych usług firmy. Od godziny 17:00 czasu polskiego pojawiły się trudności z logowaniem do platformy w chmurze Azure, gry Minecraft oraz popularnego pakietu biurowego Microsoft 365. Problemy objęły również usługę OneDrive, a nawet stronę główną Microsoftu, która przez pewien czas była niedostępna.\nWięcej informacji na rmf24.pl. Wejdź i bądź na bieżąco.\nMicrosoft potwierdził awarię krótko po jej wystąpieniu.\nJak poinformowano w oficjalnym komunikacie, przyczyną były kłopoty z systemem DNS, które wpłynęły na dostępność usług.\nJak informuje purepc.pl, w szczytowym momencie liczba zgłoszeń przekroczyła 20 tysięcy, a\nużytkownicy na całym świecie zgłaszali trudności z korzystaniem z podstawowych narzędzi pracy i rozrywki.\nMicrosoft szybko rozpoczął działania naprawcze. O 16:57 UTC (17:57 czasu polskiego) firma poinformowała, że\nźródłem problemów była awaria usługi Azure Front Door (AFD), odpowiedzialnej za zarządzanie ruchem internetowym i dostępnością usług.\nAby ograniczyć skutki awarii, Microsoft zdecydował się zablokować wszystkie zmiany w usługach AFD. Firma zapewnia, że monitoruje sytuację na bieżąco i zapowiada kolejne aktualizacje statusu.",
+  "content_preview": "Użytkownicy usług Microsoft od godzin popołudniowych 29 października 2025 roku zmagają się z poważnymi problemami z dostępem do kluczowych usług firmy. Od godziny 17:00 czasu polskiego pojawiły się trudności z logowaniem do platformy w chmurze Azure, gry Minecraft oraz popularnego pakietu biurowego ",
+  "image_url": "https://i.iplsc.com/-/000LUP8O81G5FRI9-C316.jpg"
+}
