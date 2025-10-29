@@ -39,7 +39,7 @@ jobs:
       
       - name: Run analysis
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_MODELS_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.CLICKBAIT_VERIFIER_SECRET }}
         run: |
           if [ -n "${{ github.event.inputs.limit }}" ]; then
             python scripts/analyze_with_github_models.py --limit ${{ github.event.inputs.limit }} --delay 6
