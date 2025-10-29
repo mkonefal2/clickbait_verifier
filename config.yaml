@@ -14,7 +14,7 @@ sources:
     enabled: true
     fetch_method: auto
     scrape_listing: true
-    only_today: true
+    only_today: false
     # Only consider links that look like article pages (e.g. contain 'news-' and ',nId,<digits>').
     # This prevents picking up pagination/listing links such as ',nPack,5'.
     article_url_pattern: 'news-.*,nId,[0-9]+'
@@ -29,7 +29,7 @@ sources:
     enabled: true
     fetch_method: auto
     scrape_listing: true
-    only_today: true
+    only_today: false
     # Onet article URLs typically have the form: /<section>/<slug>/<id>
     # e.g. https://wiadomosci.onet.pl/kraj/some-slug/61jnnym
     # Require two path segments before the short trailing id to avoid matching
