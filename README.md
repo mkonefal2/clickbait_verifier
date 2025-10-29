@@ -98,7 +98,7 @@ After running:
 
 ```powershell
 pip install streamlit
-streamlit run clickbait_verifier/streamlit_app.py
+streamlit run clickbait_verifier/streamlit_feed_app.py
 ```
 
 7) Project structure — brief overview of important directories:

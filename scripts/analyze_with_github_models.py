@@ -327,6 +327,13 @@ def analyze_article(client: OpenAI, spec: dict, scraped_data: dict, model: str =
         print(f"Raw response: {response_text[:200]}...")
         return None
     except Exception as e:
+        error_str = str(e)
+        # Check if it's Azure content filter error
+        if 'content_filter' in error_str or 'ResponsibleAIPolicyViolation' in error_str:
+            print(f"[SKIP] Content filtered by Azure policy (sensitive content)")
+            print(f"       This article will be skipped due to content policy restrictions")
+            # Return a special marker to indicate this should be skipped, not retried
+            return {'_skipped': True, 'reason': 'content_filter'}
         print(f"[ERROR] API error: {e}")
         return None
 
@@ -398,6 +405,7 @@ def main():
     
     success_count = 0
     error_count = 0
+    skipped_count = 0
     
     for idx, scraped_file in enumerate(to_process, 1):
         file_id = scraped_file.stem.replace("scraped_", "")
@@ -413,13 +421,18 @@ def main():
             analysis = analyze_article(client, spec, scraped_data, model=args.model)
             
             if analysis:
-                # Save
-                output_path = save_analysis(analysis, file_id)
-                score = analysis.get('score', 'N/A')
-                label = analysis.get('label', 'N/A')
-                print(f"[OK] Saved to {output_path.name}")
-                print(f"     Score: {score}, Label: {label}")
-                success_count += 1
+                # Check if this was skipped due to content filter
+                if analysis.get('_skipped'):
+                    print(f"[SKIP] Skipped due to: {analysis.get('reason', 'unknown')}")
+                    skipped_count += 1
+                else:
+                    # Save
+                    output_path = save_analysis(analysis, file_id)
+                    score = analysis.get('score', 'N/A')
+                    label = analysis.get('label', 'N/A')
+                    print(f"[OK] Saved to {output_path.name}")
+                    print(f"     Score: {score}, Label: {label}")
+                    success_count += 1
             else:
                 print(f"[ERROR] Analysis failed")
                 error_count += 1
@@ -438,6 +451,8 @@ def main():
     print("Analysis Complete!")
     print("=" * 60)
     print(f"[OK] Successful: {success_count}")
+    if skipped_count > 0:
+        print(f"[SKIP] Skipped (content filter): {skipped_count}")
     print(f"[ERROR] Errors: {error_count}")
     print(f"Results saved to: {ANALYSIS_DIR}")
     

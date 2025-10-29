@@ -1,0 +1,46 @@
+{
+  "score": 24,
+  "label": "not_clickbait",
+  "rationale": [
+    "title_superlative: no hits detected (0), title_absolutes: no hits detected (0), title_sensational: no hits detected (0), title_alarming: no hits detected (0), title_curiosity_gap: no hits detected (0), title_listicle: no hits detected (0), title_punctuation: no hits detected (0)",
+    "content_overcertainty: no hits detected (0), content_sensational: no hits detected (0), credibility_reductions: org names detected (-3), numbers/dates/statistics detected (-2), quoted speakers detected (-2), scientific/method terms detected (-2), content_hedging: no hits detected (0)",
+    "mismatch_penalties: alignment_score (0.8) indicates high alignment, no exaggeration gap, no country mismatch, no time omission penalties."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł nie zawiera przesadnych słów ani alarmujących stwierdzeń, co czyni go neutralnym.",
+    "Artykuł podaje konkretne informacje o działaniach banku oraz zwrocie skradzionych pieniędzy, co zwiększa jego wiarygodność.",
+    "Treść jest zgodna z tytułem, a wszystkie podane informacje są rzetelne i oparte na faktach."
+  ],
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "organization_names",
+      "numbers/dates/statistics",
+      "quoted_speakers"
+    ],
+    "mismatch": {
+      "alignment_score": 0.8,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Bank Santander informuje o zwrocie skradzionych pieniędzy",
+    "notes_to_editor": "Zaleca się unikanie przesadnych sformułowań w tytule, aby zachować neutralność."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-29 10:35:16"
+  },
+  "summary": "Bank Santander ogłosił, że wykrył przestępcze transakcje przy użyciu kart płatniczych klientów. Zapewnił, że skradzione pieniądze zostaną zwrócone. Monitoring zgłoszeń prowadzony jest przez Komendę Główną Policji na terenie całego kraju.",
+  "id": 1761516140565,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/bank-santander-wydal-oswiadczenie-wiemy-co-ze-skradzionymi-pieniedzmi/n8j57by",
+  "title": "Bank Santander wydał oświadczenie. Wiemy, co ze skradzionymi pieniędzmi"
+}

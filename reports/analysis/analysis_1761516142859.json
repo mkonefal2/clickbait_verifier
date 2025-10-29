@@ -1,0 +1,52 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_question: regex hit 'rozpadnie się?' (+4), title_curiosity_gap: regex hit 'koalicja?' (+6)",
+    "content_sensational: phrase 'koalicja rządząca dotrwa do końca sejmowej kadencji' (+8)",
+    "content_credibility: organization names detected (-3), statistics detected (-2)",
+    "mismatch_alignment: alignment_score 0.55, penalty +8 for medium alignment"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zadaje pytanie, co może budzić ciekawość czytelników.",
+    "W treści pojawiają się stwierdzenia dotyczące przyszłości koalicji, co może być postrzegane jako sensacyjne.",
+    "Artykuł zawiera dane z sondażu, co zwiększa jego wiarygodność.",
+    "Tytuł sugeruje, że koalicja może się rozpaść, ale treść jest bardziej stonowana."
+  ],
+  "signals": {
+    "title_hits": [
+      "title_question",
+      "title_curiosity_gap"
+    ],
+    "content_hits": [
+      "content_sensational"
+    ],
+    "credibility_hits": [
+      "organization names",
+      "statistics"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Czy koalicja rządząca przetrwa do końca kadencji?",
+    "notes_to_editor": "Rozważ zmianę tytułu na bardziej neutralny, aby uniknąć wrażenia sensacyjności."
+  },
+  "diagnostics": {
+    "tokens_title": 36,
+    "tokens_content": 300,
+    "processing_time_ms": 120,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-29 10:35:43"
+  },
+  "summary": "Artykuł omawia wyniki sondażu dotyczącego przyszłości koalicji rządzącej w Polsce. Blisko 50% ankietowanych uważa, że koalicja dotrwa do końca kadencji. W artykule przedstawiono również opinie wyborców na temat stabilności rządu.",
+  "id": 1761516142859,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/koalicja-ko-lewicy-psl-polski-2050-rozpadnie-sie-przed-2027-r-sondaz/4fx3mqg",
+  "title": "Koalicja rozpadnie się przed końcem kadencji? [SONDAŻ]"
+}

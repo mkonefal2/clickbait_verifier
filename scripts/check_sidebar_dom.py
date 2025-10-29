@@ -16,7 +16,7 @@ import sys
 import os
 from bs4 import BeautifulSoup
 
-STREAMLIT_CMD = [sys.executable, '-m', 'streamlit', 'run', 'clickbait_verifier/streamlit_app.py']
+STREAMLIT_CMD = [sys.executable, '-m', 'streamlit', 'run', 'clickbait_verifier/streamlit_feed_app.py']
 LOCAL_URL = 'http://localhost:8501'
 
 # Start Streamlit as a background process

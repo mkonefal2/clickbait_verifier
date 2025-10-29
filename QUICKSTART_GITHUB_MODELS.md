@@ -137,5 +137,5 @@ Results saved to: D:\clickbait\reports\analysis
 
 3. **Zobacz w UI**:
    ```powershell
-   .\.venv\Scripts\streamlit.exe run clickbait_verifier\streamlit_app.py
+   .\.venv\Scripts\streamlit.exe run clickbait_verifier\streamlit_feed_app.py
    ```

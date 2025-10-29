@@ -1,0 +1,47 @@
+{
+  "score": 25,
+  "label": "mild",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'mądrych osób' (+6), suggesting a curiosity gap about who these wise people are.",
+    "content_sensational: phrase 'wreszcie chcieli posłuchać mądrych osób' (+8) adds a sensational tone.",
+    "alignment_score: calculated at 0.55, resulting in a penalty of +8 due to medium alignment.",
+    "no significant credibility reductions detected."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł sugeruje, że politycy PiS chcieli posłuchać mądrych osób, co wzbudza ciekawość.",
+    "W treści użyto wyrażenia, które nadaje sensacyjny ton, ale nie ma przesadnych stwierdzeń.",
+    "Artykuł dobrze odnosi się do tytułu, ale niektóre elementy mogą być nieco przesadzone."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Politycy PiS próbowali wejść na konwencję KO.",
+    "notes_to_editor": "Rozważ usunięcie elementów, które mogą wprowadzać w błąd lub wzbudzać niepotrzebne emocje."
+  },
+  "diagnostics": {
+    "tokens_title": 56,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-29 10:36:02"
+  },
+  "summary": "Artykuł opisuje próbę trzech posłów PiS, którzy chcieli uczestniczyć w konwencji KO w Warszawie. Przynieśli ze sobą listę obietnic Donalda Tuska. Ich próba wejścia na wydarzenie zakończyła się niepowodzeniem, co skomentował przedstawiciel KO.",
+  "id": 1761516143635,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/politycy-pis-probowali-wejsc-na-konwencje-ko-chcieli-posluchac-madrych-osob/02z45eq",
+  "title": "Próba wejścia polityków PiS na konwencję KO. \"Chcieli posłuchać mądrych osób\""
+}

@@ -1,0 +1,50 @@
+{
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "title_sensational: regex hit 'zrobiła syf' (+12), title_hits cap reached.",
+    "content_sensational: phrase 'fala hejtu' detected (+8), content_hits cap reached.",
+    "content_credibility: organization names mentioned (-3), credibility_hits cap reached.",
+    "alignment_score: calculated at 0.55, leading to penalty of +8."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnego wyrażenia 'zrobiła syf', co może budzić kontrowersje.",
+    "W treści pojawia się fraza 'fala hejtu', co dodaje dramatyzmu.",
+    "Artykuł odnosi się do wypowiedzi minister edukacji, co zwiększa jego wiarygodność.",
+    "Tytuł i treść są zgodne, ale nieco przesadzone w tonie."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Barbara Nowacka krytykuje prawicę za działania w edukacji",
+    "notes_to_editor": "Rozważyć użycie bardziej neutralnego języka w tytule, aby uniknąć wrażenia sensacji."
+  },
+  "diagnostics": {
+    "tokens_title": 30,
+    "tokens_content": 297,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-29 10:35:30"
+  },
+  "summary": "Barbara Nowacka, minister edukacji, podczas Igrzysk Wolności w Łodzi podkreśliła potrzebę wzrostu wynagrodzeń nauczycieli. Krytycznie oceniła działania prawicy w kontekście edukacji zdrowotnej, wskazując na negatywne reakcje, które nie przyniosły oczekiwanych rezultatów.",
+  "id": 1761516141249,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/barbara-nowacka-prawica-zrobila-syf/jwmnkb0",
+  "title": "Barbara Nowacka: prawica zrobiła syf"
+}

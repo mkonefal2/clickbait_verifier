@@ -46,8 +46,8 @@ try:
 except Exception:
     pass
 
-# Import and run the main app
-from clickbait_verifier.streamlit_app import main
+# Import and run the main app (Feed-only view)
+from clickbait_verifier.streamlit_feed_app import main
 
 if __name__ == '__main__':
     main()

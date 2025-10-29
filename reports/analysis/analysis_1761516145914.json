@@ -1,0 +1,46 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_superlative: regex hit 'nieudany' (+6), indicating a negative assessment.",
+    "content_sensational: phrase 'kompletnie nic nie wydarzyło' (+8) suggests a strong disappointment.",
+    "alignment_score: calculated at 0.55, indicating medium alignment with penalties for exaggeration gap (+14)."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'nieudany', co sugeruje negatywną ocenę wydarzenia.",
+    "W treści pojawia się stwierdzenie, że 'kompletnie nic nie wydarzyło', co podkreśla rozczarowanie.",
+    "Tytuł sugeruje silne emocje, ale treść zawiera elementy wiarygodności, co prowadzi do rozbieżności."
+  ],
+  "signals": {
+    "title_hits": [
+      "superlative"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": true,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Ekspert ocenia polityczny weekend i jego przekaz",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia sensacyjności."
+  },
+  "diagnostics": {
+    "tokens_title": 39,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-29 10:06:27"
+  },
+  "summary": "Prof. Waldemar Wojtasik ocenia polityczny weekend, wskazując na nieudany przekaz PiS podczas konwencji w Katowicach. Ekspert zauważa, że mimo dużej oprawy wydarzenia, nie przyniosło ono oczekiwanych efektów. W artykule omawiane są również ostatnie sondaże i potencjalni nowi wyborcy.",
+  "id": 1761516145914,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/sondaze-partyjne-i-konwencje-programowe-profwaldemar-wojtasik-komentuje/vzkq1cz",
+  "title": "Ekspert ocenia polityczny weekend. \"Kompletnie nieudany przekaz\""
+}

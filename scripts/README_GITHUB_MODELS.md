@@ -218,7 +218,7 @@ Po analizie możesz:
 
 3. **Uruchom Streamlit UI:**
    ```powershell
-   .\.venv\Scripts\streamlit.exe run clickbait_verifier\streamlit_app.py
+   .\.venv\Scripts\streamlit.exe run clickbait_verifier\streamlit_feed_app.py
    ```
 
 ---

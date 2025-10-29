@@ -1,0 +1,48 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'nowy pomysł' (+6), content_sensational: phrase 'jeśli proponowane przez ludowców zniesienie' (+8), content_credibility: org names detected (-3), content_credibility: quoted speakers detected (-2)",
+    "alignment_score: 0.6, penalty for medium alignment (+8)"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera zwrot 'nowy pomysł', co może wzbudzać ciekawość czytelników.",
+    "W treści pojawiają się cytaty i odniesienia do organizacji, co zwiększa jej wiarygodność.",
+    "Treść artykułu dobrze odnosi się do tytułu, ale niektóre stwierdzenia są nieco przesadzone."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names",
+      "quoted speakers"
+    ],
+    "mismatch": {
+      "alignment_score": 0.6,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Propozycja zmiany kadencyjności w samorządach przez PSL",
+    "notes_to_editor": "Zaleca się unikanie zwrotów, które mogą budzić nadmierne emocje lub ciekawość."
+  },
+  "diagnostics": {
+    "tokens_title": 38,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-29 10:06:18"
+  },
+  "summary": "Prezes PSL Władysław Kosiniak-Kamysz zaproponował zniesienie dwukadencyjności w samorządach. Jeśli ta propozycja nie zostanie przyjęta, planuje wspierać zmianę konstytucji, aby ograniczyć kadencje parlamentarzystów. Premier Tusk również apeluje o zmianę w tym zakresie.",
+  "id": 1761516145129,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/psl-chce-rezygnacji-z-dwukadencyjnosci-w-samorzadach-padl-warunek/v3nvlyq",
+  "title": "Posłowie tylko na dwie kadencje? Nowy pomysł szefa PSL"
+}

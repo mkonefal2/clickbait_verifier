@@ -1,0 +1,48 @@
+{
+  "score": 55,
+  "label": "strong",
+  "rationale": [
+    "title_sensational: regex hit 'poszybowały w kosmos' (+12), title_curiosity_gap: regex hit 'w pułapce' (+6)",
+    "content_sensational: phrase 'ceny tego wszystkiego poszybowały w kosmos' (+8)",
+    "alignment_score: 0.5, penalty +8 for medium alignment",
+    "exaggeration_gap: true, title is sensational but content has credible elements"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnego sformułowania 'poszybowały w kosmos', co może wprowadzać w błąd.",
+    "Artykuł zawiera konkretne przykłady kosztów wychowania dzieci, co zwiększa jego wiarygodność.",
+    "Tytuł sugeruje dramatyczną sytuację, ale treść jest bardziej stonowana i oparta na faktach."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational",
+      "curiosity gap"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.5,
+      "exaggeration_gap": true,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Młodzi Polacy zmagają się z rosnącymi kosztami wychowania dzieci",
+    "notes_to_editor": "Zaleca się unikanie przesadnych sformułowań w tytule, aby lepiej odzwierciedlić treść artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 42,
+    "tokens_content": 299,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-29 10:07:34"
+  },
+  "summary": "Artykuł porusza problem rosnących kosztów wychowania dzieci w Polsce, które sprawiają, że młode pary rezygnują z planów powiększenia rodziny. Przykłady wydatków, takich jak pieluchy i żłobki, ilustrują trudności, z jakimi borykają się młodzi rodzice. Wypowiedzi ekspertów podkreślają zmieniające się priorytety młodych ludzi.",
+  "id": 1761516147515,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/tysiace-mlodych-polakow-w-pulapce-ceny-poszybowaly-w-kosmos/q9nw3pd",
+  "title": "Tysiące młodych Polaków w pułapce. \"Ceny poszybowały w kosmos\""
+}
