@@ -1,9 +1,9 @@
 name: Daily Clickbait Analysis
 
 on:
-  # TEST: Uruchom o 10:00 UTC (za ~10 minut) - zmień potem z powrotem na '0 6 * * *'
+  # Run daily at 19:00 UTC (after scraper at 18:00 UTC)
   schedule:
-    - cron: '0 10 * * *'
+    - cron: '0 19 * * *'
   
   # Możliwość ręcznego uruchomienia
   workflow_dispatch:

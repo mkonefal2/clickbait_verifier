@@ -1,9 +1,9 @@
 name: Daily Scraper
 
 on:
-  # Run daily at 5:00 UTC (before analysis at 6:00 UTC)
+  # Run daily at 18:00 UTC (19:00/20:00 PL - evening, more articles available)
   schedule:
-    - cron: '0 5 * * *'
+    - cron: '0 18 * * *'
   
   # Allow manual trigger
   workflow_dispatch:
