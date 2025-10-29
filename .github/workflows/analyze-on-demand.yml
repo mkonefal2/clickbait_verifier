@@ -26,6 +26,9 @@ on:
           - '7'
           - '10'
 
+permissions:
+  contents: write
+
 jobs:
   analyze:
     runs-on: ubuntu-latest
