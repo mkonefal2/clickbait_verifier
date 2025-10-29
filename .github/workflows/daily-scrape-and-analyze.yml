@@ -83,6 +83,7 @@ jobs:
       
       # ==================== ANALYSIS ====================
       - name: Run analysis
+        continue-on-error: true
         env:
           GITHUB_TOKEN: ${{ secrets.CLICKBAIT_VERIFIER_SECRET }}
         run: |
