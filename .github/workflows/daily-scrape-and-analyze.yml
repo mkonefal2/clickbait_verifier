@@ -90,7 +90,7 @@ jobs:
           echo "=========================================="
           echo "STEP 2: ANALYSIS"
           echo "=========================================="
-          python scripts/analyze_with_github_models.py --delay 5
+          python scripts/analyze_with_github_models.py --limit 150 --delay 5
       
       - name: Count analyzed files
         id: count_analyzed

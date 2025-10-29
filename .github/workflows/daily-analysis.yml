@@ -44,7 +44,8 @@ jobs:
           if [ -n "${{ github.event.inputs.limit }}" ]; then
             python scripts/analyze_with_github_models.py --limit ${{ github.event.inputs.limit }} --delay 6
           else
-            python scripts/analyze_with_github_models.py --delay 6
+            # Default limit to avoid exceeding API quota
+            python scripts/analyze_with_github_models.py --limit 150 --delay 6
           fi
       
       - name: Check for new analyses

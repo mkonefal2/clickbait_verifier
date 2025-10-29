@@ -59,12 +59,11 @@ def _get_label_badge_html(label: Optional[str], size: int = 48) -> str:
     return f'<div style="font-size:{int(size*0.75)}px;">{emoji}</div>'
 
 
-def _render_pagination_controls(filtered_total: int, key_suffix: str = ''):
-    """Render pagination controls.
+def _render_pagination_controls(filtered_total: int):
+    """Render pagination controls at bottom of feed.
     
     Args:
         filtered_total: Total number of filtered articles.
-        key_suffix: Suffix for button keys to make them unique.
     """
     page_size_options = ['10', '25', '50', 'All']
     
@@ -77,25 +76,22 @@ def _render_pagination_controls(filtered_total: int, key_suffix: str = ''):
     if st.session_state['feed_page'] > total_pages:
         st.session_state['feed_page'] = total_pages
     
+    current_page = st.session_state['feed_page']
+    
     # Render controls in a clean layout
     with st.container():
         # Main navigation row
         col1, col2, col3 = st.columns([1.5, 3, 1.5])
         
         with col1:
-            # Only render selectbox in top controls to avoid conflicts
-            if key_suffix == 'top':
-                sel = st.selectbox('Ilość na stronę', page_size_options, 
-                                 index=page_size_options.index(st.session_state['feed_page_size']),
-                                 key=f'page_size_select_{key_suffix}',
-                                 label_visibility='visible')
-                if sel != st.session_state['feed_page_size']:
-                    st.session_state['feed_page_size'] = sel
-                    st.session_state['feed_page'] = 1  # Reset to first page on page size change
-                    st.rerun()
-            else:
-                # Show current setting as text in bottom controls
-                st.markdown(f"**Ilość na stronę:** {st.session_state['feed_page_size']}")
+            sel = st.selectbox('Ilość na stronę', page_size_options, 
+                             index=page_size_options.index(st.session_state['feed_page_size']),
+                             key='page_size_select',
+                             label_visibility='visible')
+            if sel != st.session_state['feed_page_size']:
+                st.session_state['feed_page_size'] = sel
+                st.session_state['feed_page'] = 1  # Reset to first page on page size change
+                st.rerun()
         
         with col2:
             # Navigation buttons and page indicator in sub-columns
@@ -104,11 +100,15 @@ def _render_pagination_controls(filtered_total: int, key_suffix: str = ''):
             with nav_col1:
                 # Add spacing div to push button down
                 st.markdown("<div style='height:31px;'></div>", unsafe_allow_html=True)
-                prev_clicked = st.button('◀ Poprzednia', use_container_width=True, key=f'prev_btn_{key_suffix}', 
-                            disabled=(st.session_state['feed_page'] <= 1))
-                if prev_clicked:
-                    st.session_state['feed_page'] = st.session_state['feed_page'] - 1
-                    st.rerun()
+                # Use link_button for navigation with query params
+                if current_page > 1:
+                    prev_page = current_page - 1
+                    if st.button('◀ Poprzednia', use_container_width=True, key='prev_btn'):
+                        st.session_state['feed_page'] = prev_page
+                        st.query_params['page'] = str(prev_page)
+                        st.rerun()
+                else:
+                    st.button('◀ Poprzednia', use_container_width=True, key='prev_btn', disabled=True)
             
             with nav_col2:
                 # Add spacing div to push indicator down
@@ -117,7 +117,7 @@ def _render_pagination_controls(filtered_total: int, key_suffix: str = ''):
                     f"""<div style='text-align:center;font-weight:700;font-size:16px;padding:10px;
                     background:linear-gradient(135deg, #667eea 0%, #764ba2 100%);
                     color:white;border-radius:8px;box-shadow:0 2px 8px rgba(102,126,234,0.3);'>
-                    Strona {st.session_state['feed_page']} / {total_pages}
+                    Strona {current_page} / {total_pages}
                     </div>""",
                     unsafe_allow_html=True,
                 )
@@ -125,29 +125,29 @@ def _render_pagination_controls(filtered_total: int, key_suffix: str = ''):
             with nav_col3:
                 # Add spacing div to push button down
                 st.markdown("<div style='height:31px;'></div>", unsafe_allow_html=True)
-                next_clicked = st.button('Następna ▶', use_container_width=True, key=f'next_btn_{key_suffix}',
-                            disabled=(st.session_state['feed_page'] >= total_pages))
-                if next_clicked:
-                    st.session_state['feed_page'] = st.session_state['feed_page'] + 1
-                    st.rerun()
-        
-        with col3:
-            # Jump to page input - only in top controls to avoid conflicts
-            if key_suffix == 'top':
-                if page_size is not None and total_pages > 1:
-                    p = st.number_input('Przejdź do strony', min_value=1, max_value=total_pages, 
-                                      value=st.session_state['feed_page'], step=1,
-                                      key=f'page_jump_{key_suffix}',
-                                      label_visibility='visible')
-                    if p != st.session_state['feed_page']:
-                        st.session_state['feed_page'] = int(p)
+                # Use link_button for navigation with query params
+                if current_page < total_pages:
+                    next_page = current_page + 1
+                    if st.button('Następna ▶', use_container_width=True, key='next_btn'):
+                        st.session_state['feed_page'] = next_page
+                        st.query_params['page'] = str(next_page)
                         st.rerun()
                 else:
-                    # Empty placeholder to maintain layout
-                    st.markdown("<div style='height:74px;'></div>", unsafe_allow_html=True)
+                    st.button('Następna ▶', use_container_width=True, key='next_btn', disabled=True)
+        
+        with col3:
+            # Jump to page input
+            if page_size is not None and total_pages > 1:
+                p = st.number_input('Przejdź do strony', min_value=1, max_value=total_pages, 
+                                  value=current_page, step=1,
+                                  key='page_jump',
+                                  label_visibility='visible')
+                if p != current_page:
+                    st.session_state['feed_page'] = int(p)
+                    st.rerun()
             else:
-                # Show current page in bottom controls
-                st.markdown(f"<div style='text-align:center;padding-top:20px;'><strong>Strona {st.session_state['feed_page']} z {total_pages}</strong></div>", unsafe_allow_html=True)
+                # Empty placeholder to maintain layout
+                st.markdown("<div style='height:74px;'></div>", unsafe_allow_html=True)
 
 
 def render_feed(candidates: List[Tuple[float, str]], max_items: int = 10):
@@ -157,6 +157,22 @@ def render_feed(candidates: List[Tuple[float, str]], max_items: int = 10):
         candidates: List of (mtime, path) tuples sorted by mtime descending.
         max_items: (deprecated) kept for compatibility but feed now uses pagination controls.
     """
+    # --- Initialize session state FIRST (before any callbacks can be triggered) ---
+    if 'feed_page' not in st.session_state:
+        st.session_state['feed_page'] = 1
+    if 'feed_page_size' not in st.session_state:
+        st.session_state['feed_page_size'] = '10'
+    
+    # Check for query params to update page
+    query_params = st.query_params
+    if 'page' in query_params:
+        try:
+            page_from_url = int(query_params['page'])
+            if page_from_url > 0:
+                st.session_state['feed_page'] = page_from_url
+        except (ValueError, TypeError):
+            pass
+    
     # --- Load all data first for filtering and stats ---
     all_articles = []
     for _, p in candidates:
@@ -340,13 +356,7 @@ def render_feed(candidates: List[Tuple[float, str]], max_items: int = 10):
     # --- Results Section ---
     st.markdown("### Wyniki")
     
-    # --- Pagination controls (top) ---
-    if 'feed_page' not in st.session_state:
-        st.session_state['feed_page'] = 1
-    if 'feed_page_size' not in st.session_state:
-        st.session_state['feed_page_size'] = '10'
-
-    _render_pagination_controls(filtered_total, key_suffix='top')
+    # --- Pagination controls removed from top, only at bottom now ---
 
     # Determine slice of candidates to show based on pagination
     if st.session_state['feed_page_size'] == 'All':
@@ -501,4 +511,4 @@ def render_feed(candidates: List[Tuple[float, str]], max_items: int = 10):
     
     # --- Pagination controls (bottom) ---
     st.markdown("<hr style='margin:32px 0;border:none;border-top:2px solid #e5e7eb;'>", unsafe_allow_html=True)
-    _render_pagination_controls(filtered_total, key_suffix='bottom')
+    _render_pagination_controls(filtered_total)
