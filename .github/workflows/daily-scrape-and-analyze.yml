@@ -12,8 +12,10 @@ permissions:
   contents: write
 
 jobs:
-  scrape-and-analyze:
+  scrape:
     runs-on: ubuntu-latest
+    outputs:
+      new_count: ${{ steps.count_scraped.outputs.new_count }}
     
     steps:
       - name: Checkout repository
@@ -57,10 +59,30 @@ jobs:
           git add reports/scraped/*.json
           git commit -m "🔍 Scraped ${{ steps.count_scraped.outputs.new_count }} new articles"
           git push
+  
+  analyze:
+    needs: scrape
+    runs-on: ubuntu-latest
+    if: needs.scrape.outputs.new_count > 0
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: master  # Pull latest including scraped files
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install openai pyyaml
       
       # ==================== ANALYSIS ====================
       - name: Run analysis
-        if: steps.count_scraped.outputs.new_count > 0
         env:
           GITHUB_TOKEN: ${{ secrets.CLICKBAIT_VERIFIER_SECRET }}
         run: |
@@ -70,7 +92,6 @@ jobs:
           python scripts/analyze_with_github_models.py --delay 5
       
       - name: Count analyzed files
-        if: steps.count_scraped.outputs.new_count > 0
         id: count_analyzed
         run: |
           ANALYZED_COUNT=$(git status --porcelain reports/analysis/*.json 2>/dev/null | wc -l)
@@ -89,12 +110,8 @@ jobs:
       # ==================== SUMMARY ====================
       - name: Summary
         run: |
-          echo "### Daily Scrape & Analyze Complete" >> $GITHUB_STEP_SUMMARY
+          echo "### Analysis Complete" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
-          echo "- **Scraped:** ${{ steps.count_scraped.outputs.new_count }} articles" >> $GITHUB_STEP_SUMMARY
-          echo "- **Analyzed:** ${{ steps.count_analyzed.outputs.analyzed_count || 0 }} articles" >> $GITHUB_STEP_SUMMARY
+          echo "- **New articles scraped:** ${{ needs.scrape.outputs.new_count }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Articles analyzed:** ${{ steps.count_analyzed.outputs.analyzed_count || 0 }}" >> $GITHUB_STEP_SUMMARY
           echo "- **Time:** $(date -u)" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
-          if [ "${{ steps.count_scraped.outputs.new_count }}" -eq "0" ]; then
-            echo "ℹ️ No new articles found to scrape." >> $GITHUB_STEP_SUMMARY
-          fi
