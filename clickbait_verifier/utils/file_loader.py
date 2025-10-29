@@ -175,47 +175,19 @@ def load_analysis_data(sel_info: dict, scraped_dir: str) -> Tuple[Optional[dict]
 def get_candidates_for_feed(analysis_files: List[str], scraped_files: List[str]) -> List[Tuple[float, str]]:
     """Get list of candidates for feed view sorted by modification time.
     
+    Shows ONLY analyzed articles (analysis files).
+    
     Args:
         analysis_files: List of analysis file paths.
-        scraped_files: List of scraped file paths.
+        scraped_files: List of scraped file paths (ignored - kept for compatibility).
         
     Returns:
         List of (mtime, path) tuples sorted by mtime descending.
     """
-    # Avoid showing duplicate items in the feed when an analysis exists for the
-    # same scraped article. Prefer analysis files over scraped files.
     candidates: List[Tuple[float, str]] = []
 
-    # Build a set of IDs present in analysis files
-    analysis_ids = set()
+    # Collect only analysis files (skip scraped-only items)
     for p in analysis_files:
-        try:
-            a = load_json_if_exists(p) or {}
-            if a.get('id') is not None:
-                analysis_ids.add(a.get('id'))
-        except Exception:
-            # ignore malformed analysis files
-            pass
-
-    # Collect analysis files first
-    for p in analysis_files:
-        try:
-            m = os.path.getmtime(p)
-        except Exception:
-            m = 0
-        candidates.append((m, p))
-
-    # Add scraped files only when there is no corresponding analysis for the same id
-    for p in scraped_files:
-        try:
-            s = load_json_if_exists(p) or {}
-            if s.get('id') in analysis_ids:
-                # skip scraped item because an analysis exists
-                continue
-        except Exception:
-            # if we can't read scraped file, still include by fallback
-            pass
-
         try:
             m = os.path.getmtime(p)
         except Exception:
