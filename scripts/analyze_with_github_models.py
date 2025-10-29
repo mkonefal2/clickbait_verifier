@@ -198,17 +198,32 @@ def get_github_models_client(token: Optional[str] = None) -> OpenAI:
 
 
 def find_unanalyzed_files() -> List[Path]:
-    """Find all scraped JSON files that don't have corresponding analysis files."""
-    scraped_files = list(SCRAPED_DIR.glob("scraped_*.json"))
-    unanalyzed = []
+    """Find all scraped JSON files that don't have corresponding analysis files.
     
-    for scraped_file in scraped_files:
-        # Extract ID from filename: scraped_1234567890.json -> 1234567890
+    Optimized version: builds a set of existing analysis IDs first for O(1) lookup.
+    """
+    # Get all scraped files
+    scraped_files = list(SCRAPED_DIR.glob("scraped_*.json"))
+    
+    # Build set of existing analysis IDs for fast lookup
+    existing_analysis_ids = set()
+    for analysis_file in ANALYSIS_DIR.glob("analysis_*.json"):
         try:
+            # Extract ID: analysis_1234567890.json -> 1234567890
+            file_id = analysis_file.stem.replace("analysis_", "")
+            existing_analysis_ids.add(file_id)
+        except Exception:
+            continue
+    
+    # Find unanalyzed files
+    unanalyzed = []
+    for scraped_file in scraped_files:
+        try:
+            # Extract ID: scraped_1234567890.json -> 1234567890
             file_id = scraped_file.stem.replace("scraped_", "")
-            analysis_file = ANALYSIS_DIR / f"analysis_{file_id}.json"
             
-            if not analysis_file.exists():
+            # Fast O(1) set lookup instead of file existence check
+            if file_id not in existing_analysis_ids:
                 unanalyzed.append(scraped_file)
         except Exception as e:
             print(f"[WARNING] Error processing {scraped_file.name}: {e}")
