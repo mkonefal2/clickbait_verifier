@@ -33,12 +33,21 @@ jobs:
       
       - name: Run scraper
         run: |
+          echo "=== Before scraping ==="
+          ls -la reports/scraped/ || echo "reports/scraped/ does not exist yet"
+          echo "=== Running scraper ==="
           python scripts/run_scraper.py
+          echo "=== After scraping ==="
+          ls -la reports/scraped/ | head -20
       
       - name: Count new files
         id: count
         run: |
-          NEW_COUNT=$(git status --porcelain reports/scraped/*.json | wc -l)
+          echo "=== Git status ==="
+          git status reports/scraped/
+          echo "=== Untracked files ==="
+          git ls-files --others --exclude-standard reports/scraped/*.json | wc -l
+          NEW_COUNT=$(git status --porcelain reports/scraped/*.json 2>/dev/null | wc -l)
           echo "new_count=$NEW_COUNT" >> $GITHUB_OUTPUT
           echo "Found $NEW_COUNT new scraped articles"
       
