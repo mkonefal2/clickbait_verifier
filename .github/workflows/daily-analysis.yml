@@ -1,0 +1,80 @@
+name: Daily Clickbait Analysis
+
+on:
+  # TEST: Uruchom o 10:00 UTC (za ~10 minut) - zmień potem z powrotem na '0 6 * * *'
+  schedule:
+    - cron: '0 10 * * *'
+  
+  # Możliwość ręcznego uruchomienia
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: 'Max number of articles to analyze (empty = all)'
+        required: false
+        default: ''
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install openai pyyaml
+      
+      - name: Run analysis
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ -n "${{ github.event.inputs.limit }}" ]; then
+            python scripts/analyze_with_github_models.py --limit ${{ github.event.inputs.limit }} --delay 6
+          else
+            python scripts/analyze_with_github_models.py --delay 6
+          fi
+      
+      - name: Check for new analyses
+        id: check_changes
+        run: |
+          git diff --quiet reports/analysis/ || echo "has_changes=true" >> $GITHUB_OUTPUT
+      
+      - name: Commit and push results
+        if: steps.check_changes.outputs.has_changes == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add reports/analysis/*.json
+          
+          # Count new files
+          NEW_COUNT=$(git diff --cached --numstat | wc -l)
+          
+          git commit -m "🤖 Automatic daily analysis: ${NEW_COUNT} new articles analyzed"
+          git push
+      
+      - name: Summary
+        if: always()
+        run: |
+          echo "## Analysis Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          
+          if [ "${{ steps.check_changes.outputs.has_changes }}" == "true" ]; then
+            NEW_COUNT=$(git diff HEAD~1 --numstat reports/analysis/ | wc -l)
+            echo "✅ **${NEW_COUNT} new analyses** created and committed" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "ℹ️ No new articles to analyze" >> $GITHUB_STEP_SUMMARY
+          fi
+          
+          TOTAL=$(ls -1 reports/analysis/analysis_*.json 2>/dev/null | wc -l)
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "📊 **Total analyses:** ${TOTAL}" >> $GITHUB_STEP_SUMMARY
