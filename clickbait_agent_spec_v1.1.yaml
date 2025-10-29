@@ -155,7 +155,7 @@ scoring:
       absolutes:    { per_hit: 8, cap: 24 }
       sensational:  { per_hit: 12, cap: 36 }
       alarming:     { per_hit: 10, cap: 20 }  # NOWE: osobna kategoria
-      curiosity_gap:{ per_hit: 6, cap: 18 }
+      curiosity_gap: { per_hit: 6, cap: 18 }
       listicle:     { per_hit: 6, cap: 12 }
       sports_rumor: { per_hit: 10, cap: 20 }
       punctuation:

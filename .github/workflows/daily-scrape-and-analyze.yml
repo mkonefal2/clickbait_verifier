@@ -1,0 +1,100 @@
+name: Daily Scrape & Analyze
+
+on:
+  # Run daily at 14:00 UTC (15:00/16:00 PL depending on DST)
+  schedule:
+    - cron: '0 14 * * *'
+  
+  # Allow manual trigger
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scrape-and-analyze:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+      
+      - name: Install Playwright browsers
+        run: |
+          playwright install chromium
+          playwright install-deps
+      
+      # ==================== SCRAPING ====================
+      - name: Run scraper
+        run: |
+          echo "=========================================="
+          echo "STEP 1: SCRAPING"
+          echo "=========================================="
+          python scripts/run_scraper.py
+      
+      - name: Count scraped files
+        id: count_scraped
+        run: |
+          NEW_COUNT=$(git status --porcelain reports/scraped/*.json 2>/dev/null | wc -l)
+          echo "new_count=$NEW_COUNT" >> $GITHUB_OUTPUT
+          echo "Found $NEW_COUNT newly scraped articles"
+      
+      - name: Commit scraped articles
+        if: steps.count_scraped.outputs.new_count > 0
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add reports/scraped/*.json
+          git commit -m "🔍 Scraped ${{ steps.count_scraped.outputs.new_count }} new articles"
+          git push
+      
+      # ==================== ANALYSIS ====================
+      - name: Run analysis
+        if: steps.count_scraped.outputs.new_count > 0
+        env:
+          GITHUB_TOKEN: ${{ secrets.CLICKBAIT_VERIFIER_SECRET }}
+        run: |
+          echo "=========================================="
+          echo "STEP 2: ANALYSIS"
+          echo "=========================================="
+          python scripts/analyze_with_github_models.py --delay 5
+      
+      - name: Count analyzed files
+        if: steps.count_scraped.outputs.new_count > 0
+        id: count_analyzed
+        run: |
+          ANALYZED_COUNT=$(git status --porcelain reports/analysis/*.json 2>/dev/null | wc -l)
+          echo "analyzed_count=$ANALYZED_COUNT" >> $GITHUB_OUTPUT
+          echo "Generated $ANALYZED_COUNT new analyses"
+      
+      - name: Commit analysis results
+        if: steps.count_analyzed.outputs.analyzed_count > 0
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add reports/analysis/*.json
+          git commit -m "🤖 Analyzed ${{ steps.count_analyzed.outputs.analyzed_count }} articles"
+          git push
+      
+      # ==================== SUMMARY ====================
+      - name: Summary
+        run: |
+          echo "### Daily Scrape & Analyze Complete" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "- **Scraped:** ${{ steps.count_scraped.outputs.new_count }} articles" >> $GITHUB_STEP_SUMMARY
+          echo "- **Analyzed:** ${{ steps.count_analyzed.outputs.analyzed_count || 0 }} articles" >> $GITHUB_STEP_SUMMARY
+          echo "- **Time:** $(date -u)" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          if [ "${{ steps.count_scraped.outputs.new_count }}" -eq "0" ]; then
+            echo "ℹ️ No new articles found to scrape." >> $GITHUB_STEP_SUMMARY
+          fi
