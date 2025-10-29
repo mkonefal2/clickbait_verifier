@@ -51,7 +51,7 @@ jobs:
       - name: Analyze new articles
         if: steps.detect.outputs.new_count > 0
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_MODELS_TOKEN }}
         run: |
           # Analizuj tylko nowe (niezanalizowane)
           python scripts/analyze_with_github_models.py --limit ${{ steps.detect.outputs.new_count }} --delay 5
