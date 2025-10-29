@@ -10,6 +10,8 @@ __pycache__/
 # Logs and reports
 logs/
 reports/
+!reports/scraped/
+!reports/analysis/
 # Specification document
 clickbait_verifier_full_system_specification.md
 
@@ -20,9 +22,11 @@ data/db.duckdb
 logs/
 *.log
 
-# Generated reports (keep README if present)
+# Generated reports (keep README if present, allow scraped/analysis dirs)
 reports/
 !reports/README.md
+!reports/scraped/*.json
+!reports/analysis/*.json
 
 # Byte-compiled / cache
 __pycache__/
