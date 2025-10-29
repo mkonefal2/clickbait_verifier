@@ -15,8 +15,8 @@ from utils.file_loader import get_analysis_files, get_scraped_files, get_candida
 def main():
     """Render the standalone Feed view application."""
     initialize_app(
-        "Clickbait Verifier — przegląd feedu",
-        page_title="Clickbait Verifier — Feed View",
+        "Clickbait Feed",
+        page_title="Clickbait Feed",
     )
 
     config = get_file_config()
