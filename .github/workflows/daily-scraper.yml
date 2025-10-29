@@ -1,0 +1,65 @@
+name: Daily Scraper
+
+on:
+  # Run daily at 5:00 UTC (before analysis at 6:00 UTC)
+  schedule:
+    - cron: '0 5 * * *'
+  
+  # Allow manual trigger
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+      
+      - name: Install Playwright browsers
+        run: |
+          playwright install chromium
+          playwright install-deps
+      
+      - name: Run scraper
+        run: |
+          python scripts/run_scraper.py
+      
+      - name: Count new files
+        id: count
+        run: |
+          NEW_COUNT=$(git status --porcelain reports/scraped/*.json | wc -l)
+          echo "new_count=$NEW_COUNT" >> $GITHUB_OUTPUT
+          echo "Found $NEW_COUNT new scraped articles"
+      
+      - name: Commit and push new scraped articles
+        if: steps.count.outputs.new_count > 0
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add reports/scraped/*.json
+          git commit -m "Scrape: ${{ steps.count.outputs.new_count }} new articles scraped"
+          git push
+      
+      - name: Summary
+        run: |
+          echo "### Scraping Complete" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "- **New articles scraped:** ${{ steps.count.outputs.new_count }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Time:** $(date -u)" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          if [ "${{ steps.count.outputs.new_count }}" -gt 0 ]; then
+            echo "These articles will be automatically analyzed by the auto-analyze workflow." >> $GITHUB_STEP_SUMMARY
+          else
+            echo "No new articles found to scrape." >> $GITHUB_STEP_SUMMARY
+          fi
