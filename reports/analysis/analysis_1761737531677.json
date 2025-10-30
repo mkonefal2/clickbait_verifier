@@ -1,0 +1,59 @@
+{
+  "score": 24,
+  "label": "not_clickbait",
+  "rationale": [
+    "title_superlative: no hits, (+0)",
+    "title_absolutes: no hits, (+0)",
+    "title_sensational: no hits, (+0)",
+    "title_alarming: no hits, (+0)",
+    "title_curiosity_gap: no hits, (+0)",
+    "title_listicle: no hits, (+0)",
+    "title_punctuation: no hits, (+0)",
+    "content_overcertainty: no hits, (+0)",
+    "content_sensational: no hits, (+0)",
+    "credibility_reduction: org names detected (-3)",
+    "credibility_reduction: no numbers/dates/statistics detected (-0)",
+    "credibility_reduction: no quoted speakers detected (-0)",
+    "credibility_reduction: no scientific/method terms detected (-0)",
+    "hedging_reduction: no hits, (+0)",
+    "alignment_score: 0.9, no penalty",
+    "exaggeration_gap: false, no penalty",
+    "country_mismatch: false, no penalty",
+    "time_omission: false, no penalty"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł nie zawiera przesadnych słów ani mocnych zwrotów, co czyni go neutralnym.",
+    "Artykuł odnosi się do konkretnego wydarzenia i zawiera informacje o zatrzymaniu byłego wiceministra.",
+    "Treść jest zgodna z tytułem, a artykuł nie zawiera żadnych nieścisłości dotyczących lokalizacji czy czasu."
+  ],
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "org names detected"
+    ],
+    "mismatch": {
+      "alignment_score": 0.9,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Były wiceminister zatrzymany przez CBA",
+    "notes_to_editor": "Zaleca się unikanie sensacyjnych sformułowań w tytule, aby zachować neutralność."
+  },
+  "diagnostics": {
+    "tokens_title": 7,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:50:13"
+  },
+  "summary": "Były wiceminister cyfryzacji, Paweł M., został zatrzymany przez CBA. Zatrzymanie związane jest z zarzutem powoływania się na wpływy w kancelarii premiera. Informację przekazał rzecznik koordynatora do spraw służb specjalnych.",
+  "id": 1761737531677,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/akcja-sluzb-byly-wiceminister-zatrzymany-przez-cba/55nve96",
+  "title": "Akcja służb. Były wiceminister zatrzymany przez CBA"
+}

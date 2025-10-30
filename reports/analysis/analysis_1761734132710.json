@@ -1,0 +1,50 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_sensational: regex hit 'skierowany' (+12), indicating a sensational tone.",
+    "content_sensational: phrase 'małego okrętu rakietowego' detected (+8), which adds a slight sensational aspect.",
+    "credibility_reduction: organization names mentioned (-3), reducing credibility.",
+    "alignment_score: calculated as 0.55, indicating medium alignment with a penalty of +8."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'skierowany', co może budzić emocje i zainteresowanie.",
+    "W treści pojawia się informacja o małym okręcie rakietowym, co dodaje nieco sensacyjności.",
+    "W artykule wymieniane są źródła, co zmniejsza jego wiarygodność.",
+    "Treść artykułu w dużej mierze odpowiada temu, co sugeruje tytuł."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Rosyjski okręt rakietowy Amur wyrusza na Morze Bałtyckie",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć sensacyjności."
+  },
+  "diagnostics": {
+    "tokens_title": 38,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:40:34"
+  },
+  "summary": "Artykuł informuje o decyzji skierowania rosyjskiego okrętu rakietowego Amur na Morze Bałtyckie. Okręt wcześniej należał do Floty Czarnomorskiej i jest wyposażony w pociski manewrujące Kalibr. Informacje pochodzą z ukraińskiego portalu Militarnyj.",
+  "id": 1761734132710,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/rosyjski-okret-rakietowy-skierowany-na-morze-baltyckie/55hz1e1",
+  "title": "Rosyjski okręt rakietowy skierowany na Morze Bałtyckie"
+}

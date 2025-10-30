@@ -1,0 +1,48 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_sensational: regex hit 'tragedia' (+10), title_hits capped at 20.",
+    "content_sensational: phrase 'jedna osoba nie żyje' detected (+8), content_hits capped at 24.",
+    "alignment_score: calculated as 0.55, resulting in a penalty of +8.",
+    "no country mismatch detected.",
+    "no time omission detected."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'tragedia', co może wzbudzać emocje i zainteresowanie.",
+    "W treści pojawia się informacja o zgonie, co również jest dramatyczne.",
+    "Artykuł dobrze odzwierciedla to, co obiecuje tytuł, ale nieco przesadza w emocjach."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Strzelanina na uniwersytecie w Pensylwanii: jedna osoba zmarła, sześć jest rannych",
+    "notes_to_editor": "Zaleca się unikanie dramatycznych słów w tytule, aby zachować neutralność."
+  },
+  "diagnostics": {
+    "tokens_title": 54,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:20:10"
+  },
+  "summary": "Na Uniwersytecie Lincolna w Pensylwanii doszło do strzelaniny podczas imprezy powitalnej. W wyniku incydentu jedna osoba zginęła, a sześć zostało rannych. Prokurator poinformował o zatrzymaniu jednego podejrzanego, ale nie wyklucza, że może być więcej sprawców.",
+  "id": 1761516171355,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/strzelanina-na-uniwersytecie-lincolna-w-pensylwanii-jedna-osoba-nie-zyje-szesc/5jyx6t4",
+  "title": "Strzelanina na uniwersytecie. Jedna osoba nie żyje, sześć jest rannych"
+}

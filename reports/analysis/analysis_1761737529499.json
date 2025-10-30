@@ -1,0 +1,50 @@
+{
+  "score": 40,
+  "label": "mild",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'tylko jeden się stawił' (+6), suggesting a curiosity gap.",
+    "content_sensational: phrases like 'głośnym sporze' and 'szantażu' detected (+8).",
+    "content_credibility: organization names mentioned (-3), reducing credibility.",
+    "alignment_score: calculated at 0.55, resulting in a penalty of +8."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł sugeruje, że tylko jedna osoba stawiła się w sądzie, co wzbudza ciekawość.",
+    "W treści pojawiają się sensacyjne sformułowania dotyczące sporu i szantażu.",
+    "Artykuł wspomina o instytucjach, co zmniejsza jego wiarygodność.",
+    "Treść w pewnym stopniu wspiera tytuł, ale nie w pełni."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Lewandowski i Kucharski w sądzie: relacja z rozprawy",
+    "notes_to_editor": "Rozważ użycie bardziej neutralnego tytułu, aby uniknąć wrażenia sensacyjności."
+  },
+  "diagnostics": {
+    "tokens_title": 36,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:49:14"
+  },
+  "summary": "Artykuł opisuje trwający spór pomiędzy Robertem Lewandowskim a jego byłym menedżerem Cezarym Kucharskim, który odbył się w Sądzie Rejonowym w Warszawie. Kucharski stawił się osobiście, podczas gdy Lewandowskiego reprezentowali prawnicy. Sprawa dotyczy oskarżeń o szantaż i groźby ze strony Kucharskiego wobec Lewandowskiego.",
+  "id": 1761737529499,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/sport/pilka-nozna/news-lewandowski-kontra-kucharski-tylko-jeden-sie-stawil-w-sadzie,nId,8035589",
+  "title": "Lewandowski kontra Kucharski. Tylko jeden się stawił w sądzie"
+}

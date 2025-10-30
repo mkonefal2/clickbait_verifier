@@ -1,0 +1,49 @@
+{
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "title_question: regex hit 'Czy wojna handlowa zbliża się do końca?' (+4), title_curiosity_gap: regex hit 'bardzo produktywne spotkanie' (+6)",
+    "content_sensational: phrase 'bardzo produktywne spotkanie' detected (+8)",
+    "content_hedging: phrase 'wydaje się' detected (-2)",
+    "alignment_score: 0.55 → medium alignment penalty +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera pytanie, co może wzbudzać ciekawość czytelników.",
+    "W treści artykułu pojawia się stwierdzenie o 'bardzo produktywnym spotkaniu', co dodaje dramatyzmu.",
+    "Artykuł zawiera stwierdzenie, które sugeruje niepewność, co zmniejsza jego wiarygodność.",
+    "Treść w pewnym stopniu wspiera tytuł, ale nie w pełni."
+  ],
+  "signals": {
+    "title_hits": [
+      "question",
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Spotkanie Trumpa i Xi Jinpinga w sprawie wojny handlowej",
+    "notes_to_editor": "Rozważ użycie bardziej neutralnego tytułu, aby uniknąć wrażenia sensacyjności."
+  },
+  "diagnostics": {
+    "tokens_title": 11,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:14:29"
+  },
+  "summary": "Donald Trump odbywa podróż po krajach azjatyckich, w tym spotkanie z Xi Jinpingiem. Rozmowy handlowe między USA a Chinami są w toku, a obie strony wydają się zadowolone z postępów. Spotkanie ma na celu omówienie rozbieżności i przygotowanie podwalin pod dalsze negocjacje.",
+  "id": 1761516151943,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/politico/czy-wojna-handlowa-zbliza-sie-do-konca-trump-i-xi-odbeda-bardzo-produktywne-spotkanie/rr7wrh1",
+  "title": "Czy wojna handlowa zbliża się do końca? Trump i Xi odbędą \"bardzo produktywne spotkanie\""
+}

@@ -1,0 +1,46 @@
+{
+  "score": 72,
+  "label": "strong",
+  "rationale": [
+    "title_superlative: regex hit 'stulecia' (+6), title_superlative: regex hit 'najpotężniejszych' (+6), title_alarming: regex hit 'katastrofa' (+10), content_sensational: 'najpotężniejszych huraganów w historii Atlantyku' (+8), content_sensational: 'najgorszy możliwy scenariusz' (+8), content_sensational: 'burza stulecia' (+8)",
+    "alignment_score: 0.6 (medium alignment), penalty +8 for medium alignment, no country mismatch, no time omission"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów, takich jak 'najpotężniejszych' i 'stulecia', co tworzy przesadne oczekiwania.",
+    "Artykuł zawiera dramatyczne opisy sytuacji na Jamajce, co zwiększa wrażenie sensacyjności.",
+    "Tytuł i treść są zgodne, ale niektóre sformułowania mogą wprowadzać w błąd co do skali zagrożenia."
+  ],
+  "signals": {
+    "title_hits": [
+      "superlative",
+      "alarming"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.6,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Huragan Melissa uderza w Jamajkę",
+    "notes_to_editor": "Rozważyć złagodzenie języka w tytule, aby uniknąć przesadnych oczekiwań."
+  },
+  "diagnostics": {
+    "tokens_title": 16,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:43:34"
+  },
+  "summary": "Huragan Melissa uderzył w Jamajkę, osiągając prędkość wiatru przekraczającą 250 km/h. Eksperci oceniają go jako jeden z najsilniejszych huraganów w historii Atlantyku. Na wyspie ogłoszono stan wyjątkowy, a mieszkańcy przygotowują się na poważne zagrożenia związane z burzą.",
+  "id": 1761737517142,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/swiat/news-huragan-stulecia-melissa-uderzyla-w-jamajke-dramatyczne-rela,nId,8035453",
+  "title": "\"Huragan stulecia\""
+}

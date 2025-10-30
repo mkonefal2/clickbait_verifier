@@ -1,0 +1,48 @@
+{
+  "score": 55,
+  "label": "strong",
+  "rationale": [
+    "title_superlative: regex hit 'najsilniejsza' (+6), title_sensational: regex hit 'szok' (+12), title_alarming: regex hit 'zagrożenie' (+10), content_sensational: phrases indicating severe damage (+8), content_overcertainty: use of absolutes in content (+6)",
+    "alignment_score: 0.5 (medium alignment) → penalty +8, no country mismatch, no time omission"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnego słowa 'najsilniejsza', co tworzy przesadne oczekiwania.",
+    "Artykuł zawiera dramatyczne opisy skutków huraganu, co zwiększa jego emocjonalny ładunek.",
+    "Treść artykułu jest zgodna z tytułem, ale niektóre sformułowania mogą wprowadzać w błąd."
+  ],
+  "signals": {
+    "title_hits": [
+      "najsilniejsza",
+      "szok",
+      "zagrożenie"
+    ],
+    "content_hits": [
+      "ogromne zniszczenia",
+      "brak prądu"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.5,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Huragan Melissa uderza w Jamajkę i Kubę, powodując zniszczenia",
+    "notes_to_editor": "Zaleca się unikanie superlatyw i dramatycznych sformułowań w tytule, aby zwiększyć obiektywność."
+  },
+  "diagnostics": {
+    "tokens_title": 15,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:39:59"
+  },
+  "summary": "Huragan Melissa uderzył w Jamajkę, osiągając najwyższą kategorię zagrożenia. Wiatr w regionie przekraczał 300 km/h, powodując poważne zniszczenia i brak prądu w wielu miejscach. Obecnie huragan zbliża się do Kuby, gdzie również odczuwane są jego skutki.",
+  "id": 1761734131246,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/najsilniejsza-burza-na-swiecie-zbliza-sie-do-jamajki-huragan-melissa-nabiera-na-sile/tyev4j2",
+  "title": "Zachodnia Jamajka odcięta od reszty kraju. Huragan uderzył w Kubę [RELACJA NA ŻYWO]"
+}

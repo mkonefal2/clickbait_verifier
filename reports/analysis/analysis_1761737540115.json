@@ -1,0 +1,47 @@
+{
+  "score": 70,
+  "label": "strong",
+  "rationale": [
+    "title_sensational: regex hit 'skończony' (+12), title_sensational: regex hit 'gigant' (+12), title_alarm: regex hit 'tarapatach' (+10)",
+    "content_sensational: phrase 'potężny cios' detected (+8), content_sensational: phrase 'straci krocie' detected (+8)",
+    "alignment_score: 0.55, penalty for medium alignment (+8), no country mismatch detected, no time omission detected"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów jak 'skończony' i 'gigant', co tworzy przesadne oczekiwania.",
+    "Artykuł opisuje poważne problemy rosyjskiego giganta naftowego Łukoil w związku z sankcjami, co jest dramatyczne.",
+    "Treść wspiera tytuł, ale nieco mniej niż oczekiwano, co wpływa na ocenę."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational",
+      "alarm"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Problemy rosyjskiego giganta naftowego Łukoil w wyniku sankcji",
+    "notes_to_editor": "Zaleca się unikanie przesadnych sformułowań w tytule, aby zwiększyć wiarygodność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 36,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:58:13"
+  },
+  "summary": "Artykuł opisuje skutki sankcji nałożonych na Rosję przez USA, które zmusiły Łukoil do wstrzymania eksportu do Europy. Firma musi sprzedać część swoich aktywów, w tym rafinerie i stacje benzynowe, co może prowadzić do znacznych strat finansowych. To działanie ma również wpływ na finansowanie wojny w Ukrainie.",
+  "id": 1761737540115,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/politico/usa-uderzyly-w-rosyjskiego-giganta-naftowego-lukoil-jest-skonczony/q52956w",
+  "title": "Rosyjski gigant naftowy w tarapatach. \"Łukoil jest skończony\""
+}

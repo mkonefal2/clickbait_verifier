@@ -1,0 +1,51 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_superlative: regex hit 'największy' (+6), title_sensational: regex hit 'sytuacja bez precedensu' (+12), title_curiosity_gap: regex hit 'to musisz zobaczyć' (+6)",
+    "content_sensational: phrase 'sytuacja bez precedensu' detected (+8), content_credibility: organization names detected (-3), content_credibility: quoted speakers detected (-2)",
+    "alignment_score: 0.55, applying medium alignment penalty (+8), no country mismatch or time omission detected"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera mocne sformułowanie 'sytuacja bez precedensu', co może budzić emocje.",
+    "W treści artykułu pojawiają się cytaty i odniesienia do organizacji, co zwiększa wiarygodność.",
+    "Tytuł i treść są zgodne, ale użycie mocnych słów w tytule może wprowadzać w błąd."
+  ],
+  "signals": {
+    "title_hits": [
+      "superlative",
+      "sensational",
+      "curiosity gap"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names",
+      "quoted speakers"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Minister Żurek komentuje wniosek prokuratury dotyczący Zbigniewa Ziobry",
+    "notes_to_editor": "Zaleca się unikanie przesadnych sformułowań w tytule, aby zachować neutralność."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:54:48"
+  },
+  "summary": "Minister sprawiedliwości Waldemar Żurek komentuje wniosek prokuratury o uchwałę immunitetu Zbigniewa Ziobry, wskazując na poważne zarzuty dotyczące kierowania zorganizowaną grupą przestępczą. Wniosek prokuratury liczy 150 stron i jest uznawany za bezprecedensowy w skali europejskiej.",
+  "id": 1761737537299,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/zbigniew-ziobro-na-celowniku-prokuratury-minister-zurek-o-sytuacji-bez-precedensu/7z5qkmp",
+  "title": "Kłopoty Zbigniewa Ziobry. Minister Żurek reaguje na ruch prokuratury"
+}

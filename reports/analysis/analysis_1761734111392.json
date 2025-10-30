@@ -1,0 +1,52 @@
+{
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'to są te różnice' (+6)",
+    "content_sensational: phrase 'ukrywała sprawę' detected (+8)",
+    "content_credibility: org names detected (-3)",
+    "content_credibility: quoted speakers detected (-2)",
+    "alignment_score: calculated at 0.55, resulting in penalty of +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera zwrot 'to są te różnice', który wzbudza ciekawość.",
+    "W treści użyto sformułowania 'ukrywała sprawę', co nadaje jej sensacyjny charakter.",
+    "Artykuł odnosi się do wypowiedzi polityków, co może wpływać na jego wiarygodność.",
+    "Treść wspiera tytuł, ale nieco odbiega od jego obietnic, co skutkuje dodatkową karą."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "org names",
+      "quoted speakers"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Były minister komentuje sprawę działki pod CPK.",
+    "notes_to_editor": "Rozważ usunięcie zwrotów wzbudzających ciekawość, aby tytuł był bardziej neutralny."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 294,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:33:57"
+  },
+  "summary": "Były minister obrony narodowej Mariusz Błaszczak skrytykował rząd za opóźnienia w sprawie działki pod Centralny Port Komunikacyjny (CPK). W artykule omówiono kontrowersje związane z opóźnieniem w powiadomieniu prokuratury o sprzedaży działki oraz działania rządu Tuska w tej sprawie.",
+  "id": 1761734111392,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/byly-minister-uderza-w-rzad-w-sprawie-dzialki-pod-cpk-to-sa-te-roznice/x7q0f8d",
+  "title": "Były minister uderza w rząd w sprawie działki pod CPK. \"To są te różnice\""
+}

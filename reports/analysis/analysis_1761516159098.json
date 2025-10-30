@@ -1,0 +1,51 @@
+{
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'czy pionek Putina?' (+6), title_question: regex hit '?' (+4)",
+    "content_sensational: phrase 'potraktowany brutalnie' detected (+8)",
+    "content_credibility: org names detected (-3), quoted speakers detected (-2)",
+    "alignment_score: 0.55 → medium alignment, penalty +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera pytanie, co może wzbudzać ciekawość czytelników.",
+    "W treści użyto mocnego sformułowania 'potraktowany brutalnie', co dodaje dramatyzmu.",
+    "Artykuł zawiera cytaty ekspertów, co zwiększa jego wiarygodność."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap",
+      "question"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "org names",
+      "quoted speakers"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Analiza relacji Viktora Orbana z Rosją według eksperta",
+    "notes_to_editor": "Rozważyć użycie mniej dramatycznych sformułowań w tytule."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:16:14"
+  },
+  "summary": "Artykuł omawia relacje Viktora Orbana z Rosją, wskazując na jego trudną pozycję w negocjacjach z Rosjanami. Ekspert Andrzej Sadecki podkreśla, że Orban nie jest równorzędnym partnerem w tych relacjach, mimo że inwestuje w nie znaczną część swojego kapitału politycznego. Wskazuje również na korzyści, jakie jego zaplecze biznesowe czerpie z tych relacji.",
+  "id": 1761516159098,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/bliski-sojusznik-czy-pionek-putina-ekspert-viktor-orban-potraktowany-brutalnie/dn8c807",
+  "title": "Bliski sojusznik czy pionek Putina? Ekspert: Viktor Orban potraktowany brutalnie"
+}

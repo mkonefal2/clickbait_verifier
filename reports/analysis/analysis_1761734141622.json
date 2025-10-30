@@ -1,0 +1,51 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'chciałby się ukryć' (+6)",
+    "content_sensational: phrase 'bardzo duża konsekwencja' detected (+8)",
+    "content_credibility: org names detected (-3)",
+    "content_credibility: quoted speakers detected (-2)",
+    "alignment_score: 0.55, applying penalty +8 for medium alignment"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera element ciekawości, sugerując, że ksiądz chciałby się ukryć.",
+    "W treści użyto sformułowania, które może budzić emocje, jak 'bardzo duża konsekwencja'.",
+    "Artykuł przytacza wypowiedzi prawników, co zwiększa jego wiarygodność."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "org names",
+      "quoted speakers"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Ks. Olszewski stanie przed sądem, adwokat komentuje sytuację",
+    "notes_to_editor": "Zaleca się unikanie sformułowań, które mogą budzić niepotrzebne emocje."
+  },
+  "diagnostics": {
+    "tokens_title": 42,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:42:26"
+  },
+  "summary": "Ks. Michał Olszewski stanie przed sądem w związku z zarzutami o niewłaściwe wykorzystanie środków z Funduszu Sprawiedliwości. Jego adwokat ujawnia, że duchowny chciałby się ukryć i unikać kontaktu z innymi. Artykuł przedstawia również reakcje osób na widok księdza w Warszawie.",
+  "id": 1761734141622,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/warszawa/ks-olszewski-stanie-przed-sadem-adwokat-zdradza-co-sie-z-nim-teraz-dzieje/nmgfpv2",
+  "title": "Ks. Olszewski stanie przed sądem. Adwokat: chciałby się ukryć"
+}

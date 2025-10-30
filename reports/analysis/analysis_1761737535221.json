@@ -1,0 +1,49 @@
+{
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "title_superlative: regex hit 'umacnia' (+6), content_sensational: phrase 'poważne problemy' (+8), content_credibility: org names detected (-3), content_credibility: statistics mentioned (-2)",
+    "alignment_score: 0.55, resulting in penalty of +8 for medium alignment"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'umacnia', co sugeruje pozytywny rozwój, ale nie jest to mocne superlatyw.",
+    "W treści pojawia się stwierdzenie o 'poważnych problemach', co może budzić emocje.",
+    "Artykuł zawiera dane statystyczne, co zwiększa jego wiarygodność."
+  ],
+  "signals": {
+    "title_hits": [
+      "superlative"
+    ],
+    "content_hits": [
+      "sensational phrases",
+      "statistics"
+    ],
+    "credibility_hits": [
+      "organization names",
+      "statistics"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Nowy sondaż partyjny pokazuje wzrost poparcia dla KO",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia sensacji."
+  },
+  "diagnostics": {
+    "tokens_title": 14,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:52:48"
+  },
+  "summary": "Nowy sondaż partyjny wskazuje na wzrost poparcia dla Koalicji Obywatelskiej (KO) w porównaniu do Prawa i Sprawiedliwości. Badanie przeprowadzone przez IBRiS dla 'Rzeczpospolitej' sugeruje, że pięć ugrupowań mogłoby wejść do Sejmu, jednak większość koalicjantów KO ma trudności z przekroczeniem progu wyborczego.",
+  "id": 1761737535221,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/nowy-sondaz-partyjny-ko-umacnia-sie-na-prowadzeniu-duze-problemy-koalicjantow/9bmrh7e",
+  "title": "Nowy sondaż partyjny. KO umacnia się na prowadzeniu, duże problemy koalicjantów"
+}

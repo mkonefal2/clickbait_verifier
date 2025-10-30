@@ -1,0 +1,56 @@
+{
+  "score": 24,
+  "label": "not_clickbait",
+  "rationale": [
+    "title_superlative: no hits, score remains 0",
+    "title_absolutes: no hits, score remains 0",
+    "title_sensational: no hits, score remains 0",
+    "title_alarming: no hits, score remains 0",
+    "title_curiosity_gap: no hits, score remains 0",
+    "title_listicle: no hits, score remains 0",
+    "title_punctuation: no hits, score remains 0",
+    "content_overcertainty: no hits, score remains 0",
+    "content_sensational: no hits, score remains 0",
+    "credibility_reductions: organization names detected (-3), score now 21",
+    "hedging_reductions: no hits, score remains 21",
+    "alignment_score: 1.0, no penalty",
+    "exaggeration_gap: false, no penalty",
+    "country_mismatch: false, no penalty",
+    "time_omission: false, no penalty"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jest neutralny i informacyjny, nie zawiera przesadnych słów ani obietnic.",
+    "Artykuł przedstawia konkretne informacje o poszukiwaniach mężczyzny, co zwiększa jego wiarygodność.",
+    "Nie ma niezgodności między tytułem a treścią, co potwierdza wysoki poziom zgodności."
+  ],
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "organization names detected"
+    ],
+    "mismatch": {
+      "alignment_score": 1.0,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Policja z Limanowej poszukuje podejrzewanego o gwałt",
+    "notes_to_editor": "Zaleca się unikanie dramatyzacji w tytule, aby zachować neutralność."
+  },
+  "diagnostics": {
+    "tokens_title": 43,
+    "tokens_content": 300,
+    "processing_time_ms": 120,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:49:00"
+  },
+  "summary": "Policja w Limanowej wydała list gończy za 40-letnim Krzysztofem Lachem, podejrzewanym o gwałt i inne przestępstwa. Prokuratura apeluje do osób, które mogą mieć informacje o jego miejscu pobytu, o kontakt. Gwarantowana jest anonimowość dla informatorów.",
+  "id": 1761737528811,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/zakopane/news-list-gonczy-za-podejrzewanym-o-gwalt-policja-z-limanowej-ape,nId,8035622",
+  "title": "List gończy za podejrzewanym o gwałt. Policja z Limanowej apeluje"
+}

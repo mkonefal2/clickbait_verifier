@@ -1,0 +1,49 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_superlative: regex hit 'kolejną' (+6), indicating a sequence but not a superlative; title does not contain strong sensational language.",
+    "content_sensational: phrase 'seria trwa' suggests ongoing drama (+8); however, the content is straightforward and factual.",
+    "credibility_reduction: organization names mentioned (-3); no significant hedging detected.",
+    "alignment_score: calculated at 0.55, indicating medium alignment with a penalty of +8 due to some mismatch between title and content."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł sugeruje, że sytuacja jest dramatyczna, ale nie używa mocnych słów.",
+    "Artykuł informuje o zawieszeniu członka PiS, co jest faktami, a nie sensacją.",
+    "Tytuł i treść są w miarę zgodne, ale niektóre elementy mogą wprowadzać w błąd."
+  ],
+  "signals": {
+    "title_hits": [
+      "kolejną"
+    ],
+    "content_hits": [
+      "seria trwa"
+    ],
+    "credibility_hits": [
+      "Polska Agencja Prasowa"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Jarosław Kaczyński zawiesza kolejną osobę w PiS w związku z kontrowersjami",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia sensacji."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:53:55"
+  },
+  "summary": "Artykuł informuje o zawieszeniu Jerzego Wala, byłego zastępcy dyrektora Krajowego Ośrodka Wsparcia Rolnictwa, w związku z kontrowersjami dotyczącymi sprzedaży działki pod Centralny Port Komunikacyjny. To już czwarta osoba zawieszona w Prawie i Sprawiedliwości w tej sprawie.",
+  "id": 1761737536452,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/seria-trwa-jaroslaw-kaczynski-zawiesza-kolejna-osobe-w-pis/2nvyg8g",
+  "title": "Seria trwa. Jarosław Kaczyński zawiesza kolejną osobę w PiS"
+}

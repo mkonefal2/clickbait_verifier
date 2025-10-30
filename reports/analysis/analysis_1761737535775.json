@@ -1,0 +1,52 @@
+{
+  "score": 40,
+  "label": "mild",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'Gdzie jest afera?' (+6)",
+    "content_sensational: phrase 'zaskakuje' detected (+8)",
+    "content_credibility: org names detected (-3)",
+    "content_credibility: quoted speakers detected (-2)",
+    "alignment_score: calculated at 0.55, resulting in penalty of +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera pytanie 'Gdzie jest afera?', co wzbudza ciekawość czytelników.",
+    "W treści użyto słowa 'zaskakuje', co nadaje jej sensacyjny ton.",
+    "Artykuł odnosi się do wypowiedzi polityków, co może wpływać na jego wiarygodność.",
+    "Treść wspiera tytuł, ale nie w pełni, co skutkuje niewielką karą."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "org names",
+      "quoted speakers"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Przemysław Czarnek komentuje sprawę działki pod CPK.",
+    "notes_to_editor": "Rozważ użycie bardziej neutralnego tytułu, aby uniknąć wrażenia sensacyjności."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:53:27"
+  },
+  "summary": "Artykuł omawia kontrowersje związane z działką pod Centralny Port Komunikacyjny (CPK) w Polsce. Przemysław Czarnek, były minister edukacji, komentuje sytuację, wskazując na możliwość odkupu działki po tej samej cenie. W artykule pojawiają się również pytania dotyczące ewentualnych nieprawidłowości w tej sprawie.",
+  "id": 1761737535775,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/przemyslaw-czarnek-zaskakuje-w-sprawie-dzialki-pod-cpk-gdzie-jest-afera/wsbs1py",
+  "title": "Przemysław Czarnek zaskakuje w sprawie działki pod CPK. \"Gdzie jest afera?\""
+}

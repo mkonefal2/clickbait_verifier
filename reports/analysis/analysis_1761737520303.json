@@ -1,0 +1,50 @@
+{
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'wszystko zależy od społeczeństwa' (+6)",
+    "content_sensational: phrase 'zbrodniarze staną przed trybunałem' (+8)",
+    "content_sensational: phrase 'Donald Trump chce zniszczyć' (+8)",
+    "content_hedging: 'może' detected (-2)",
+    "alignment_score: 0.55, resulting in penalty +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera element ciekawości, sugerując, że przyszłość zbrodniarzy zależy od społeczeństwa.",
+    "W treści użyto mocnych sformułowań, które mogą wywoływać emocje.",
+    "Artykuł zawiera pewne niepewności, co zmniejsza jego wiarygodność."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "hedging"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Czy zbrodniarze staną przed trybunałem w Hadze?",
+    "notes_to_editor": "Rozważyć użycie bardziej neutralnego języka w tytule, aby uniknąć wrażenia sensacyjności."
+  },
+  "diagnostics": {
+    "tokens_title": 45,
+    "tokens_content": 2956,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:45:05"
+  },
+  "summary": "Artykuł omawia szanse na postawienie zbrodniarzy wojennych przed Międzynarodowym Trybunałem Karnym w Hadze, koncentrując się na roli społeczeństwa rosyjskiego w tym procesie. Steve Crawshaw, autor książki o zbrodniach wojennych, podkreśla, że przyszłość Rosji zależy od tego, jak obywatele postrzegają swoich przywódców. Porusza także kwestie polityczne związane z Donaldem Trumpem i jego stosunkiem do trybunału.",
+  "id": 1761737520303,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/swiat/news-zbrodniarze-stana-przed-trybunalem-w-hadze-wszystko-zalezy-o,nId,8035443",
+  "title": "Zbrodniarze staną przed trybunałem w Hadze? \"Wszystko zależy od społeczeństwa\""
+}

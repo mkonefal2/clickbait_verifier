@@ -1,0 +1,49 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_superlative: regex hit 'wielki' (+6), content_sensational: phrase 'wielki dzień' detected (+8), content_credibility: org names detected (-3), content_credibility: quoted speakers detected (-2), content_credibility: numbers detected (-2)",
+    "alignment_score: 0.6 (medium alignment), penalty for medium alignment (+8), no country mismatch or time omission detected"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'wielki', co może budzić przesadne oczekiwania.",
+    "Artykuł zawiera cytaty ekspertów i dane liczbowe, co zwiększa wiarygodność.",
+    "Treść jest zgodna z tytułem, ale nie zawiera przesadnych stwierdzeń."
+  ],
+  "signals": {
+    "title_hits": [
+      "superlative"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names",
+      "quoted speakers",
+      "numbers"
+    ],
+    "mismatch": {
+      "alignment_score": 0.6,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Rozpoczęto budowę fabryki amunicji w Kraśniku",
+    "notes_to_editor": "Zaleca się unikanie superlatyw w tytule, aby zwiększyć neutralność."
+  },
+  "diagnostics": {
+    "tokens_title": 41,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:46:35"
+  },
+  "summary": "W Kraśniku zainaugurowano budowę fabryki amunicji 155 mm, co ma znaczenie dla rozwoju przemysłu obronnego w Polsce. Uroczystość odbyła się z udziałem ministra obrony narodowej, który podkreślił znaczenie tego projektu dla bezpieczeństwa kraju. Polska otrzyma 1/3 środków z unijnego programu SAFE, co wspiera rozwój krajowego przemysłu zbrojeniowego.",
+  "id": 1761737524550,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/lublin/news-wielki-dzien-dla-polski-ruszyla-budowa-fabryki-amunicji,nId,8035623",
+  "title": "\"Wielki dzień dla Polski\". Ruszyła budowa fabryki amunicji"
+}

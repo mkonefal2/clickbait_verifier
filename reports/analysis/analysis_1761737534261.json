@@ -1,0 +1,50 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'mielibyśmy problem' (+6), indicating a curiosity gap.",
+    "content_sensational: phrase 'duży problem' detected (+8), which adds a sensational tone.",
+    "content_credibility: organization names mentioned (-3), reducing credibility.",
+    "alignment_score: calculated at 0.55, resulting in a penalty of +8 for medium alignment."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł sugeruje, że Polska ma poważny problem z embargiem, co wzbudza ciekawość.",
+    "W treści użyto sformułowania 'duży problem', co dodaje dramatyzmu.",
+    "Artykuł odnosi się do informacji z organizacji, co wpływa na jego wiarygodność.",
+    "Treść w miarę odpowiada tytułowi, ale nie w pełni go wspiera."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Polska planuje utrzymać embargo na ukraińskie zboże.",
+    "notes_to_editor": "Rozważyć użycie bardziej neutralnego tytułu, aby uniknąć wrażenia sensacji."
+  },
+  "diagnostics": {
+    "tokens_title": 54,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:52:02"
+  },
+  "summary": "Polska planuje utrzymać embargo na ukraińskie zboże, mimo nowej umowy handlowej Unii Europejskiej z Ukrainą. Rządowe źródła wskazują, że zniesienie embarga mogłoby prowadzić do poważnych problemów. Artykuł przedstawia kontekst sytuacji handlowej między Polską a Ukrainą.",
+  "id": 1761737534261,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/nieoficjalnie-polska-utrzyma-embargo-na-ukrainskie-zboze-mielibysmy-problem/rn7t5qt",
+  "title": "Nieoficjalnie: Polska utrzyma embargo na ukraińskie zboże. \"Mielibyśmy problem\""
+}

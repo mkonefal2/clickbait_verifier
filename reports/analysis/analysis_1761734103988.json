@@ -1,0 +1,62 @@
+{
+  "score": 20,
+  "label": "not_clickbait",
+  "rationale": [
+    "title_superlative: no hits, (+0)",
+    "title_absolutes: no hits, (+0)",
+    "title_sensational: no hits, (+0)",
+    "title_alarming: no hits, (+0)",
+    "title_curiosity_gap: no hits, (+0)",
+    "title_listicle: no hits, (+0)",
+    "title_punctuation: no hits, (+0)",
+    "content_overcertainty: no hits, (+0)",
+    "content_sensational: no hits, (+0)",
+    "credibility_reduction: org names detected (-3)",
+    "credibility_reduction: numbers/dates/statistics detected (-2)",
+    "credibility_reduction: quoted speakers detected (-2)",
+    "credibility_reduction: scientific/method terms detected (-2)",
+    "hedging_reduction: 'prawdopodobnie' detected (-2)",
+    "alignment_score: 0.75, no penalty",
+    "exaggeration_gap: false",
+    "country_mismatch: false",
+    "time_omission: false"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł nie zawiera mocnych słów ani przesadnych stwierdzeń.",
+    "Artykuł zawiera dane liczbowe i cytaty, co zwiększa jego wiarygodność.",
+    "Treść jest zgodna z tytułem i nie wprowadza w błąd."
+  ],
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "organization names",
+      "numbers/dates/statistics",
+      "quoted speakers",
+      "scientific/method terms"
+    ],
+    "mismatch": {
+      "alignment_score": 0.75,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Kraków wprowadza nowe narzędzia do konsultacji społecznych",
+    "notes_to_editor": "Zaleca się unikanie przesadnych sformułowań w tytule."
+  },
+  "diagnostics": {
+    "tokens_title": 46,
+    "tokens_content": 689,
+    "processing_time_ms": 123,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:31:50"
+  },
+  "summary": "Władze Krakowa wprowadziły projekt uchwały mający na celu poprawę konsultacji społecznych w mieście. Nowe narzędzia, takie jak małe konsultacje i referenda dzielnicowe, mają na celu zwiększenie udziału mieszkańców w podejmowaniu decyzji lokalnych. Projekt został skonsultowany z odpowiednimi organami i wkrótce rozpocznie się jego dalsza analiza.",
+  "id": 1761734103988,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/krakow/news-krakow-proponuje-nowe-narzedzia-dialogu-z-mieszkancami,nId,8035566",
+  "title": "Kraków proponuje nowe narzędzia dialogu z mieszkańcami"
+}

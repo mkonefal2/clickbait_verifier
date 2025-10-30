@@ -1,0 +1,52 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'Mniej żołnierzy USA w Europie?' (+6)",
+    "content_sensational: phrase 'fatalne wieści' detected (+8)",
+    "content_credibility: org names mentioned (-3)",
+    "content_credibility: quoted speakers detected (-2)",
+    "alignment_score: 0.55, resulting in a penalty of +8 due to medium alignment"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera pytanie, które wzbudza ciekawość, co może przyciągać czytelników.",
+    "W treści pojawia się sformułowanie 'fatalne wieści', co dodaje dramatyzmu.",
+    "Artykuł cytuje przedstawicieli MON, co zwiększa jego wiarygodność.",
+    "Treść artykułu jest zgodna z tytułem, ale nieco mniej niż oczekiwano."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names",
+      "quoted speakers"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Reakcja MON na doniesienia o redukcji żołnierzy USA w Europie",
+    "notes_to_editor": "Zaleca się unikanie pytań w tytułach, które mogą być postrzegane jako clickbait."
+  },
+  "diagnostics": {
+    "tokens_title": 36,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:28:10"
+  },
+  "summary": "Ministerstwo Obrony Narodowej zapewnia, że nie ma informacji o redukcji amerykańskich wojsk w Polsce, mimo doniesień o planach zmniejszenia liczebności żołnierzy USA na wschodniej flance NATO. Wicepremier Władysław Kosiniak-Kamysz podkreślił, że Polska jest silnym sojusznikiem USA i nie otrzymała żadnych oficjalnych informacji w tej sprawie.",
+  "id": 1761734094049,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/polska/news-mniej-zolnierzy-usa-w-europie-jest-reakcja-mon,nId,8035575",
+  "title": "Mniej żołnierzy USA w Europie? Jest reakcja MON"
+}

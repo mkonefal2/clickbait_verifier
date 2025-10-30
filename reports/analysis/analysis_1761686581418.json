@@ -1,0 +1,48 @@
+{
+  "score": 75,
+  "label": "extreme",
+  "rationale": [
+    "title_superlative: regex hit 'stulecia' (+6), title_sensational: regex hit 'huragan stulecia' (+12), title_alarm: regex hit 'katastrofa' (+10), content_sensational: phrases like 'najpotężniejszy huragan' (+8), content_alarm: phrases like 'katastrofalną' (+10), alignment_score: 0.4 (penalty +18 for low alignment), exaggeration_gap: true (penalty +14)"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnego słowa 'stulecia', co tworzy przesadne oczekiwania.",
+    "Artykuł opisuje huragan jako 'najpotężniejszy', co jest przesadą.",
+    "Treść zawiera alarmujące opisy sytuacji, co zwiększa dramatyzm.",
+    "Tytuł sugeruje, że wydarzenie jest wyjątkowe, ale nie wszystkie informacje są potwierdzone."
+  ],
+  "signals": {
+    "title_hits": [
+      "superlative",
+      "sensational",
+      "alarm"
+    ],
+    "content_hits": [
+      "sensational",
+      "alarm"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.4,
+      "exaggeration_gap": true,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Huragan Melissa uderza w Jamajkę",
+    "notes_to_editor": "Rozważyć złagodzenie tytułu, aby uniknąć przesadnych oczekiwań."
+  },
+  "diagnostics": {
+    "tokens_title": 18,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:25:08"
+  },
+  "summary": "Huragan Melissa uderzył w Jamajkę, osiągając prędkość wiatru przekraczającą 250 km/h. Mieszkańcy i turyści przygotowują się na najgorsze, a ewakuacje ogłoszono również na Haiti i Kubie. Eksperci określają Melissę jako jeden z najsilniejszych huraganów w historii Atlantyku.",
+  "id": 1761686581418,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/swiat/news-huragan-stulecia-melissa-uderzyla-w-jamajke-dramatyczne-rela,nId,8035453",
+  "title": "\"Huragan stulecia\""
+}

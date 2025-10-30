@@ -1,0 +1,46 @@
+{
+  "score": 24,
+  "label": "not_clickbait",
+  "rationale": [
+    "title_superlative: no hits detected (0), title_absolutes: no hits detected (0), title_sensational: no hits detected (0), title_alarming: no hits detected (0), title_curiosity_gap: no hits detected (0), title_listicle: no hits detected (0), title_punctuation: no hits detected (0)",
+    "content_overcertainty: no hits detected (0), content_sensational: no hits detected (0), credibility_org_names: RMF24 detected (-3), credibility_numbers: statistics detected (-2), credibility_quoted_speakers: quotes from experts detected (-4), credibility_scientific_terms: no hits detected (0), content_hedging: no hits detected (0)",
+    "alignment_score: 0.75 (high alignment), no penalties applied, total score calculated as 24"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jest informacyjny i nie zawiera przesadnych słów ani obietnic.",
+    "Artykuł zawiera dane liczbowe i cytaty ekspertów, co zwiększa jego wiarygodność.",
+    "Treść jest zgodna z tytułem i dostarcza praktycznych informacji na temat higieny jamy ustnej."
+  ],
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "RMF24",
+      "statistics",
+      "expert quotes"
+    ],
+    "mismatch": {
+      "alignment_score": 0.75,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Jak dbać o zdrowie zębów? Porady stomatologa",
+    "notes_to_editor": "Zaleca się unikanie przesadnych sformułowań w tytule, aby lepiej odzwierciedlić treść artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 36,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:25:35"
+  },
+  "summary": "Artykuł omawia znaczenie higieny jamy ustnej i profilaktyki próchnicy, podkreślając, że problem ten dotyczy zarówno dzieci, jak i dorosłych. Eksperci przedstawiają skuteczne metody dbania o zdrowie zębów, w tym regularne wizyty u dentysty oraz unikanie cukrów prostych. Podano również statystyki dotyczące występowania próchnicy w Polsce.",
+  "id": 1761686582760,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/nauka/news-jak-chronic-zeby-przed-prochnica-stomatolog-podpowiada,nId,8035416",
+  "title": "​Jak chronić zęby przed próchnicą? Stomatolog podpowiada"
+}

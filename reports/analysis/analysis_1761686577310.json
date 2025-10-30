@@ -1,0 +1,49 @@
+{
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "title_superlative: regex hit 'największy' (+6), title_curiosity: regex hit 'najnowsze' (+6)",
+    "content_sensational: phrase 'coraz więcej' detected (+8), content_credibility: org names detected (-3)",
+    "alignment_score: 0.6, resulting in medium alignment penalty (+8)"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'najnowsze', co może budzić ciekawość czytelników.",
+    "W treści pojawia się stwierdzenie 'coraz więcej', co nadaje jej sensacyjny ton.",
+    "Artykuł zawiera dane z badania, co zwiększa jego wiarygodność."
+  ],
+  "signals": {
+    "title_hits": [
+      "największy",
+      "najnowsze"
+    ],
+    "content_hits": [
+      "coraz więcej"
+    ],
+    "credibility_hits": [
+      "CBOS"
+    ],
+    "mismatch": {
+      "alignment_score": 0.6,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Młodzi Polacy coraz częściej mieszkają z rodzicami, wynika z badania CBOS",
+    "notes_to_editor": "Rozważyć użycie bardziej neutralnego tytułu, aby uniknąć wrażenia sensacyjności."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:23:45"
+  },
+  "summary": "Badanie CBOS pokazuje, że coraz więcej młodych Polaków w wieku 25-34 lat mieszka z rodzicami. Odsetek tzw. 'gniazdowników' wzrósł z 29% w 2005 roku do 39% obecnie. Główne powody to czynniki ekonomiczne oraz dobre warunki mieszkaniowe.",
+  "id": 1761686577310,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/polska/news-mlodzi-polacy-nie-chca-sie-wyprowadzac-od-rodzicow-najnowsze,nId,8035449",
+  "title": "Młodzi Polacy nie chcą się wyprowadzać od rodziców. Najnowsze badanie CBOS"
+}

@@ -1,0 +1,46 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_superlative: no hits, content_credibility: org names detected (-3), content_credibility: quoted speakers detected (-2), content_sensational: minor sensational phrases detected (+8), alignment_score: 0.55 (medium alignment) → penalty +8",
+    "Total title score: 0, total content score: 5, total mismatch penalty: 8. Final score: (0.4 * 0) + (0.15 * 5) + (0.4 * 8) = 3.5 + 3.2 = 6.7 rounded to 30."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł nie zawiera mocnych słów ani przesady, ale artykuł zawiera cytaty i nazwy organizacji, co wpływa na jego wiarygodność.",
+    "W treści pojawiają się nieco sensacyjne sformułowania, co może budzić zainteresowanie czytelników.",
+    "Artykuł dobrze odzwierciedla temat poruszany w tytule, ale niektóre szczegóły są pominięte."
+  ],
+  "signals": {
+    "title_hits": [],
+    "content_hits": [
+      "sensational phrases detected"
+    ],
+    "credibility_hits": [
+      "organization names detected",
+      "quoted speakers detected"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Forum biznesowe Rosji i Wenezueli w Caracas",
+    "notes_to_editor": "Zaleca się unikanie sensacyjnych sformułowań w tytule, aby lepiej odzwierciedlić treść artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 27,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:25:20"
+  },
+  "summary": "W Caracas odbywa się forum biznesowe z udziałem ponad 500 przedsiębiorców z Rosji i Wenezueli, mające na celu zacieśnienie współpracy gospodarczej i technologicznej. Wiceprezydent Wenezueli oraz ambasador Rosji podkreślili znaczenie relacji między krajami w obliczu presji ze strony USA. Forum prezentuje rosyjskie technologie i produkty, a także omawia strategiczne partnerstwo między państwami.",
+  "id": 1761686582076,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/swiat/news-wielka-rosyjska-impreza-w-caracas-to-dlatego-amerykanie-plyn,nId,8035479",
+  "title": "Wielka rosyjska impreza w Caracas"
+}

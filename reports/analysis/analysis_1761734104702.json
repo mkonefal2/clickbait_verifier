@@ -1,0 +1,48 @@
+{
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "title_sensational: regex hit 'tragedia' (+10), title_curiosity_gap: regex hit 'zobacz co się stało' (+6)",
+    "content_sensational: phrase 'poważnymi obrażeniami' detected (+8), content_overcertainty: 'grozi mu do 8 lat' (+6)",
+    "alignment_score: calculated alignment score is 0.55, resulting in a penalty of +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera słowo 'tragedia', co może budzić emocje i tworzyć przesadne oczekiwania.",
+    "W treści pojawiają się sformułowania sugerujące poważne obrażenia, co również zwiększa dramatyzm.",
+    "Treść artykułu jest zgodna z tytułem, ale nieco przesadza w opisie sytuacji."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational",
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational",
+      "overcertainty"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "17-letni kierowca BMW zatrzymany po potrąceniu pieszego",
+    "notes_to_editor": "Rozważ usunięcie emocjonalnych słów w tytule, aby zwiększyć neutralność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:32:14"
+  },
+  "summary": "17-letni kierowca BMW potrącił 58-letniego pieszego w Posadzie Górnej i uciekł z miejsca wypadku. Mężczyzna trafił do szpitala z poważnymi obrażeniami. Policja zatrzymała kierowcę dzięki zeznaniom świadków i nagraniom z monitoringu. Grozi mu do 8 lat więzienia za spowodowanie wypadku i ucieczkę.",
+  "id": 1761734104702,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/rzeszow/news-rozpedzone-bmw-uderzylo-w-pieszego-nastoletni-kierowca-zatrz,nId,8035568",
+  "title": "Rozpędzone bmw uderzyło w pieszego. Nastoletni kierowca zatrzymany po ucieczce"
+}

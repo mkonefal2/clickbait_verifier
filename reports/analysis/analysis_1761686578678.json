@@ -1,0 +1,52 @@
+{
+  "score": 25,
+  "label": "mild",
+  "rationale": [
+    "title_superlative: regex hit 'największy' (+6), title_curiosity_gap: regex hit 'to on' (+6), title_punctuation: multiple exclamation marks (+3)",
+    "content_sensational: phrase 'wdrożenie sztucznej inteligencji' (+8), content_credibility: org names detected (-3), content_credibility: numbers/dates/statistics detected (-2)",
+    "alignment_score: 0.6, medium alignment penalty (+8)"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'to on', co może wzbudzać ciekawość czytelników.",
+    "W artykule pojawiają się informacje o wdrożeniu sztucznej inteligencji, co jest interesującym tematem.",
+    "Artykuł zawiera konkretne dane i nazwy instytucji, co zwiększa jego wiarygodność."
+  ],
+  "signals": {
+    "title_hits": [
+      "największy",
+      "to on",
+      "!!!"
+    ],
+    "content_hits": [
+      "wdrożenie sztucznej inteligencji"
+    ],
+    "credibility_hits": [
+      "IPN",
+      "Sejm",
+      "Karol Polejowski"
+    ],
+    "mismatch": {
+      "alignment_score": 0.6,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Karol Polejowski rekomendowany na prezesa IPN z planami na sztuczną inteligencję",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:24:00"
+  },
+  "summary": "Dr hab. Karol Polejowski został rekomendowany na stanowisko prezesa Instytutu Pamięci Narodowej. Podczas przesłuchania zapowiedział utrzymanie pionu śledczego oraz wdrożenie sztucznej inteligencji w archiwum. Sejm podejmie ostateczną decyzję w tej sprawie.",
+  "id": 1761686578678,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/polska/news-to-on-ma-zastapic-karola-nawrockiego-stawia-na-sztuczna-inte,nId,8035483",
+  "title": "To on ma zastąpić Karola Nawrockiego. Stawia na sztuczną inteligencję"
+}

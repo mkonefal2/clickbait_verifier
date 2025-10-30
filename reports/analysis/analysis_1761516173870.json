@@ -1,0 +1,49 @@
+{
+  "score": 75,
+  "label": "extreme",
+  "rationale": [
+    "title_sensational: regex hit 'zdesperowany' (+12), 'mści się' (+12)",
+    "title_curiosity_gap: regex hit 'mogą stracić' (+6)",
+    "content_sensational: phrase 'Kreml coraz mocniej zaciska pętlę' (+8)",
+    "alignment_score: 0.4, penalty applied (+18)",
+    "exaggeration_gap: true, penalty applied (+14)"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów 'zdesperowany' i 'mści się', co tworzy przesadne oczekiwania.",
+    "Treść zawiera dramatyczne sformułowania, które mogą wprowadzać w błąd.",
+    "Tytuł sugeruje, że Rosjanki mogą stracić prawa do własnych ciał, ale artykuł nie dostarcza wystarczających dowodów na to."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational",
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.4,
+      "exaggeration_gap": true,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Putin wprowadza rejestr kobiet w ciąży w Rosji",
+    "notes_to_editor": "Zaleca się unikanie przesadnych sformułowań w tytule, aby zwiększyć wiarygodność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 30,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:20:58"
+  },
+  "summary": "Artykuł opisuje wprowadzenie przez Władimira Putina rejestru kobiet w ciąży, który ma gromadzić dane na temat przyszłych matek i noworodków. Decyzja ta jest interpretowana jako sposób na kontrolowanie społeczeństwa. Autorzy zwracają uwagę na potencjalne zagrożenia dla praw kobiet w Rosji.",
+  "id": 1761516173870,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/zdesperowany-putin-msci-sie-na-rosjankach-moga-stracic-prawa-do-wlasnych-cial/xbn0e5z",
+  "title": "Putin jest zdesperowany. Mści się na Rosjankach"
+}

@@ -1,0 +1,51 @@
+{
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "title_sensational: regex hit 'szokujace' (+12), title_hits cap reached.",
+    "content_sensational: regex hit 'szokujace' (+8), content_hits cap reached.",
+    "content_overcertainty: absolute terms detected (-6), content credibility reduced.",
+    "alignment_score: 0.55, medium alignment penalty applied (+8)."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnego słowa 'szokujace', co tworzy przesadne oczekiwania.",
+    "Artykuł zawiera informacje o nowym systemie rakietowym, ale nie ma w nim mocnych dowodów na jego nieprzechwytność.",
+    "Treść jest zgodna z tytułem, ale nie wprowadza w błąd."
+  ],
+  "signals": {
+    "title_hits": [
+      "szokujace"
+    ],
+    "content_hits": [
+      "szokujace"
+    ],
+    "credibility_hits": [
+      "organization names",
+      "dates",
+      "quoted speakers"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Nowy rosyjski system rakietowy Oriesznik ma być rozmieszczony przy granicy z Polską",
+    "notes_to_editor": "Zaleca się unikanie użycia przesadnych słów w tytule, aby nie wprowadzać w błąd czytelników."
+  },
+  "diagnostics": {
+    "tokens_title": 27,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:26:08"
+  },
+  "summary": "Białoruś planuje rozmieszczenie rosyjskiego systemu hipersonicznych rakiet Oriesznik w grudniu, co jest odpowiedzią na działania państw zachodnich. Rakieta została użyta po raz pierwszy przeciwko Ukrainie w listopadzie 2024 roku. Eksperci podkreślają, że nie ma dowodów na jej nieprzechwytność, a użycie Oriesznika ma głównie wymiar polityczny.",
+  "id": 1761686586041,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/raporty/raport-wojna-z-rosja/news-rosyjska-superbron-tuz-przy-granicy-polski-szokujace-doniesi,nId,8035457",
+  "title": "Oriesznik przy polskiej granicy"
+}

@@ -1,0 +1,48 @@
+{
+  "score": 62,
+  "label": "strong",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'Kto nadal handluje z Putinem?' (+6), title_sensational: regex hit 'Europejczycy mają swoje za uszami' (+12)",
+    "content_sensational: phrase 'machina wojenna Moskwy wciąż pracuje' detected (+8), content_hedging: 'może' detected (-2)",
+    "alignment_score: calculated as 0.55, resulting in penalty +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera pytanie, które wzbudza ciekawość, oraz mocne sformułowanie sugerujące, że Europejczycy mają coś na sumieniu.",
+    "W treści użyto dramatycznych zwrotów, co podnosi emocjonalny ładunek artykułu.",
+    "Treść częściowo wspiera tytuł, ale niektóre sformułowania są niepewne."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap",
+      "sensational"
+    ],
+    "content_hits": [
+      "sensational",
+      "hedging"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Analiza handlu z Rosją po inwazji na Ukrainę",
+    "notes_to_editor": "Rozważ użycie bardziej neutralnego tytułu, który nie wzbudza niepotrzebnych emocji."
+  },
+  "diagnostics": {
+    "tokens_title": 61,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:17:20"
+  },
+  "summary": "Artykuł analizuje, jak po inwazji Rosji na Ukrainę nadal trwa handel z Rosją, w tym z europejskimi partnerami. Podkreśla, że mimo sankcji gospodarka Rosji wciąż funkcjonuje, a niektóre kraje europejskie kontynuują współpracę handlową z Moskwą. Zawiera dane handlowe i odniesienia do politycznych reakcji na sytuację.",
+  "id": 1761516162678,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/kto-nadal-handluje-z-putinem-te-dane-pokazuja-ze-europejczycy-maja-swoje-za-uszami/n3932jf",
+  "title": "Kto nadal handluje z Putinem? Te dane pokazują, że Europejczycy mają swoje za uszami"
+}

@@ -1,0 +1,49 @@
+{
+  "score": 25,
+  "label": "mild",
+  "rationale": [
+    "title_sensational: regex hit 'obywatelskie zatrzymanie' (+12), title_hits: 'zablokowały drogę' (+6)",
+    "content_sensational: phrase 'pijanemu kierowcy' detected (+8)",
+    "alignment_score: 0.6 indicates medium alignment, resulting in a penalty of +8",
+    "no country mismatch or time omission detected"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera wyrażenie 'obywatelskie zatrzymanie', które może budzić sensację.",
+    "W treści pojawia się informacja o pijanemu kierowcy, co zwiększa dramatyzm sytuacji.",
+    "Artykuł dobrze opisuje zdarzenie, ale nieco przesadza z dramatyzmem w tytule."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational",
+      "zablokowały drogę",
+      "obywatelskie zatrzymanie"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.6,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Kierowca pod wpływem alkoholu zatrzymany przez nocne autobusy",
+    "notes_to_editor": "Zaleca się unikanie dramatyzacji w tytule, aby lepiej odzwierciedlić treść artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:52:32"
+  },
+  "summary": "W Gdańsku kierowcy nocnych autobusów zablokowali drogę, aby zatrzymać pijanego kierowcę, który miał ponad 2 promile alkoholu we krwi. Zdarzenie miało miejsce na ulicy Hallera. Obywatelskie zatrzymanie miało na celu zapobieżenie dalszym niebezpiecznym sytuacjom na drodze.",
+  "id": 1761737534943,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/nocne-autobusy-zablokowaly-droge-pijanemu-kierowcy-obywatelskie-zatrzymanie/lblgfrd",
+  "title": "Nocne autobusy zablokowały drogę pijanemu kierowcy. \"Obywatelskie zatrzymanie\""
+}

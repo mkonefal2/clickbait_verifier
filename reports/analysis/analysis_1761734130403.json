@@ -1,0 +1,49 @@
+{
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "title_superlative: regex hit 'świat jest przeciwko tobie' (+6), title_sensational: regex hit 'testuje' (+12), title_curiosity_gap: regex hit 'Bibi' (+6)",
+    "content_sensational: phrase 'nową presję na porozumienie' detected (+8), content_hedging: 'może' detected (-2)",
+    "alignment_score: 0.55 → medium alignment penalty +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów, które mogą budzić emocje i zainteresowanie.",
+    "Artykuł zawiera sformułowania, które mogą wydawać się przesadne, ale także używa słów ostrożnych, co wpływa na jego wiarygodność.",
+    "Treść jest zgodna z tytułem, ale niektóre elementy mogą wprowadzać w błąd."
+  ],
+  "signals": {
+    "title_hits": [
+      "superlative",
+      "sensational",
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational",
+      "hedging"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Izrael kontynuuje naloty na Gazę, wywołując międzynarodowe obawy",
+    "notes_to_editor": "Zaleca się unikanie emocjonalnie nacechowanych sformułowań w tytule, aby zwiększyć obiektywność."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:39:44"
+  },
+  "summary": "Artykuł opisuje sytuację w Strefie Gazy, gdzie Izrael prowadzi naloty, co budzi obawy międzynarodowe. Premier Izraela, Binjamin Netanjahu, zwiększa presję na porozumienie o zawieszeniu broni z Hamasem. Donald Trump wyraża zaniepokojenie, sugerując, że jego cierpliwość wobec Izraela może się skończyć.",
+  "id": 1761734130403,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/izrael-testuje-cierpliwosc-donalda-trumpa-bibi-swiat-jest-przeciwko-tobie/ed05mgk",
+  "title": "Izrael testuje zawieszenie broni w Gazie. \"Bibi, świat jest przeciwko tobie\""
+}

@@ -1,0 +1,48 @@
+{
+  "score": 65,
+  "label": "strong",
+  "rationale": [
+    "title_sensational: regex hit 'chwali się' (+12), title_curiosity_gap: regex hit 'jasny sygnał' (+6)",
+    "content_sensational: phrase 'zastraszania Zachodu' detected (+8), content_overcertainty: phrase 'ogłosiła, że osiągnęła' detected (+6)",
+    "alignment_score: 0.5, penalty for medium alignment (+8)"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnego sformułowania 'chwali się', co może budzić przesadne oczekiwania.",
+    "W treści pojawia się stwierdzenie o zastraszaniu Zachodu, co nadaje sensacyjny ton.",
+    "Tytuł sugeruje, że wydarzenie ma duże znaczenie, ale treść nie dostarcza wystarczających dowodów."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational",
+      "curiosity gap"
+    ],
+    "content_hits": [
+      "sensational",
+      "overcertainty"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.5,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Putin ogłasza udany test nowej broni",
+    "notes_to_editor": "Rozważyć użycie bardziej neutralnego języka w tytule, aby uniknąć wrażenia sensacyjności."
+  },
+  "diagnostics": {
+    "tokens_title": 42,
+    "tokens_content": 295,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:19:26"
+  },
+  "summary": "Rosja ogłosiła zakończenie ważnej fazy testów pocisku manewrującego Buriewiestnik, który może przenosić głowice nuklearne. Władimir Putin podkreślił, że broń ta jest zdolna do omijania systemów obrony. Artykuł przedstawia kontekst militarno-polityczny związany z tym wydarzeniem.",
+  "id": 1761516168716,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/putin-chwali-sie-udanym-testem-buriewiestnika-to-bron-do-zastraszania-zachodu/lt0g2hv",
+  "title": "Putin chwali się nową bronią. To jasny sygnał z Moskwy"
+}

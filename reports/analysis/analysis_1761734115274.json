@@ -1,0 +1,51 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'Nieoficjalnie' (+6)",
+    "content_sensational: phrase 'natychmiastowego zwrotu' detected (+8)",
+    "content_credibility: org names detected (-3)",
+    "alignment_score: 0.6 (medium alignment), penalty +8",
+    "final_score: (title 6*0.4 + content 8*0.15 - mismatch 8) = 30"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera słowo 'Nieoficjalnie', co budzi ciekawość czytelników.",
+    "W treści użyto sformułowania 'natychmiastowego zwrotu', co może być postrzegane jako sensacyjne.",
+    "Artykuł odnosi się do organizacji, co zmniejsza jego wiarygodność.",
+    "Treść dobrze wspiera tytuł, ale nieco przesadza z dramatyzmem."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.6,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "KOWR żąda zwrotu działki pod CPK",
+    "notes_to_editor": "Rozważ użycie bardziej neutralnego tytułu, aby uniknąć wrażenia sensacyjności."
+  },
+  "diagnostics": {
+    "tokens_title": 36,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:35:14"
+  },
+  "summary": "Artykuł informuje o planowanym żądaniu Krajowego Ośrodka Wsparcia Rolnictwa dotyczącego zwrotu działki w Zabłotni. Wiceprezes spółki Dawtona, Piotr Wielgomas, ma otrzymać oficjalne pismo w tej sprawie. Informacje pochodzą z doniesień Polsat News.",
+  "id": 1761734115274,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/nieoficjalnie-ruch-kowr-w-sprawie-dzialki-pod-cpk/2jbw5s5",
+  "title": "Nieoficjalnie: ruch KOWR w sprawie działki pod CPK"
+}

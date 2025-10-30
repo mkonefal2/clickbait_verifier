@@ -1,0 +1,49 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_superlative: regex hit 'gigantyczny' (+6), title_hits: 'największy' not found, title_hits: 'najlepszy' not found, title_hits: 'niewiarygodny' not found",
+    "content_sensational: phrase 'imponującego projektu' detected (+8), content_credibility: org names detected (-3), content_credibility: numbers detected (-2)",
+    "alignment_score: 0.55, penalty for medium alignment (+8)"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'gigantyczny', co może sugerować przesadę.",
+    "W treści pojawia się sformułowanie 'imponującego projektu', co dodaje dramatyzmu.",
+    "Artykuł zawiera informacje o organizacjach i liczbach, co zwiększa jego wiarygodność."
+  ],
+  "signals": {
+    "title_hits": [
+      "superlative"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names",
+      "numbers"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Nowy kompleks handlowy powstanie pod Warszawą na terenie dawnego lotniska",
+    "notes_to_editor": "Rozważyć użycie mniej dramatycznych sformułowań w tytule."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:46:57"
+  },
+  "summary": "Na wschodnich obrzeżach Warszawy planowany jest nowy kompleks handlowy na terenie dawnego lotniska w Góraszce. Projekt obejmuje sklepy, restauracje, kino oraz aquapark. Budowa ma rozpocząć się w 2026 roku, a inwestycja ma na celu stworzenie miejsca spotkań i rozrywki dla mieszkańców Warszawy i okolic.",
+  "id": 1761737525933,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/warszawa/news-gigantyczny-kompleks-handlowy-pod-warszawa-stanie-w-miejscu-,nId,8035643",
+  "title": "Gigantyczny kompleks handlowy pod Warszawą. Stanie w miejscu lotniska"
+}

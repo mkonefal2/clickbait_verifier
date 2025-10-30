@@ -1,0 +1,48 @@
+{
+  "score": 25,
+  "label": "mild",
+  "rationale": [
+    "title_sensational: regex hit 'obywatelskie zatrzymanie' (+12), title_hits: 'pijanemu kierowcy' implies sensationalism (+6)",
+    "content_sensational: phrase 'pijanemu kierowcy' detected (+8)",
+    "alignment_score: calculated as 0.55, resulting in a penalty of +8",
+    "no country mismatch detected",
+    "no time omission detected"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera słowo 'obywatelskie zatrzymanie', co może budzić sensację.",
+    "Artykuł opisuje sytuację z pijanego kierowcy, co również jest dość dramatyczne.",
+    "Treść artykułu w dużej mierze odpowiada temu, co obiecuje tytuł."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Kierowcy nocnych autobusów zablokowali drogę pijanemu kierowcy",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć sensacyjności."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:35:29"
+  },
+  "summary": "W Gdańsku kierowcy nocnych autobusów zablokowali drogę pijanemu kierowcy, który miał ponad 2 promile alkoholu we krwi. Obywatelskie zatrzymanie miało na celu zapobieżenie dalszej jeździe nietrzeźwego mężczyzny. Interwencja miała miejsce na ulicy Hallera.",
+  "id": 1761734116018,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/nocne-autobusy-zablokowaly-droge-pijanemu-kierowcy-obywatelskie-zatrzymanie/lblgfrd",
+  "title": "Nocne autobusy zablokowały drogę pijanemu kierowcy. \"Obywatelskie zatrzymanie\""
+}

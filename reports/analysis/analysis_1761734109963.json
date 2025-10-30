@@ -1,0 +1,51 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'nie zostanie wyjaśniona?' (+4), title_alarming: regex hit 'zwlekali' (+10)",
+    "content_sensational: phrase 'utracone mogły zostać informacje kluczowe' detected (+8)",
+    "content_credibility: org names detected (-3), numbers/dates/statistics detected (-2)",
+    "alignment_score: calculated at 0.55, resulting in a penalty of +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera pytanie, które wzbudza ciekawość, co może przyciągać czytelników.",
+    "W treści pojawiają się sformułowania sugerujące poważne konsekwencje, co zwiększa dramatyzm.",
+    "Artykuł odnosi się do opóźnień w działaniach władz, co może budzić wątpliwości co do ich efektywności."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap",
+      "alarming"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names",
+      "numbers/dates/statistics"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Opóźnienia w wyjaśnieniu sprawy działki pod CPK",
+    "notes_to_editor": "Zaleca się unikanie pytań w tytule, aby zwiększyć neutralność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 12,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:33:32"
+  },
+  "summary": "Artykuł opisuje opóźnienia w wyjaśnieniu sprawy dotyczącej sprzedaży działki pod Centralny Port Komunikacyjny. Władze zwlekały z powiadomieniem prokuratury przez ponad półtora roku, co mogło prowadzić do utraty kluczowych informacji. Prokuratura również opóźniła wszczęcie śledztwa, co budzi wątpliwości co do efektywności działań.",
+  "id": 1761734109963,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/afera-z-dzialka-pod-cpk-nie-zostanie-wyjasniona-zwlekali-niemal-600-dni/61k03xb",
+  "title": "Afera z działką pod CPK nie zostanie wyjaśniona? \"Zwlekali niemal 600 dni\""
+}

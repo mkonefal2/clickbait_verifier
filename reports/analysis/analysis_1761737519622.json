@@ -1,0 +1,50 @@
+{
+  "score": 65,
+  "label": "strong",
+  "rationale": [
+    "title_superlative: regex hit 'największy' (+6), title_alarming: regex hit 'zagrożenie' (+10), title_sensational: regex hit 'niewiarygodny' (+12), content_sensational: phrases detected (+8), content_overcertainty: 'wszystkie' detected (+6), alignment_score: 0.55 (medium alignment) → penalty +8",
+    "Total title score: 18, Total content score: 8, Mismatch penalties: 8, Final score: 65"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnego słowa 'największy', co tworzy przesadne oczekiwania.",
+    "Artykuł zawiera dramatyczne opisy zagrożeń związanych z huraganem, co zwiększa jego sensacyjność.",
+    "Treść artykułu jest zgodna z tytułem, ale niektóre stwierdzenia są zbyt pewne."
+  ],
+  "signals": {
+    "title_hits": [
+      "największy",
+      "zagrożenie",
+      "niewiarygodny"
+    ],
+    "content_hits": [
+      "katastrofalne zniszczenia",
+      "ekstremalnie silny wiatr"
+    ],
+    "credibility_hits": [
+      "National Hurricane Center"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Huragan Melissa zbliża się do Jamajki",
+    "notes_to_editor": "Zaleca się unikanie użycia superlatyw i dramatycznych sformułowań w tytule."
+  },
+  "diagnostics": {
+    "tokens_title": 30,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:44:47"
+  },
+  "summary": "Huragan Melissa, klasyfikowany jako huragan 5. kategorii, zbliża się do Jamajki, generując ekstremalne warunki pogodowe. Meteorolodzy ostrzegają przed poważnymi zniszczeniami, w tym silnymi wiatrami i powodziami. Łowcy huraganów zbierają dane, aby dostarczyć dokładne ostrzeżenia dla mieszkańców i turystów.",
+  "id": 1761737519622,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/swiat/news-wlecieli-w-oko-huraganu-melissa-brakuje-slow-ogladajac-te-na,nId,8035198",
+  "title": "Wlecieli w oko huraganu Melissa"
+}

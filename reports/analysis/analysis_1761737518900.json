@@ -1,0 +1,52 @@
+{
+  "score": 65,
+  "label": "strong",
+  "rationale": [
+    "title_alarm: regex hit 'katastrofa' (+10), title_sensational: regex hit 'potworny' (+12), title_superlative: regex hit 'najsilniejszym' (+6)",
+    "content_sensational: phrases like 'katastrofalne zniszczenia' (+8), 'najpotężniejszym cyklonem' (+8), content_hedging: 'może' (-2)",
+    "alignment_score: 0.55 (medium alignment), penalty +8 for medium alignment"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnego słowa 'potworny', co sugeruje przesadne zagrożenie.",
+    "W treści pojawiają się dramatyczne opisy skutków huraganu, co potęguje wrażenie niebezpieczeństwa.",
+    "Artykuł zawiera dane i cytaty ekspertów, co zwiększa jego wiarygodność."
+  ],
+  "signals": {
+    "title_hits": [
+      "alarm",
+      "sensational",
+      "superlative"
+    ],
+    "content_hits": [
+      "sensational",
+      "hedging"
+    ],
+    "credibility_hits": [
+      "organization names",
+      "quoted speakers"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Huragan Melissa zbliża się do Jamajki, polskie służby monitorują sytuację",
+    "notes_to_editor": "Rozważyć złagodzenie języka w tytule, aby uniknąć wrażenia paniki."
+  },
+  "diagnostics": {
+    "tokens_title": 36,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:44:30"
+  },
+  "summary": "Artykuł informuje o nadciągającym huraganie Melissa, który zagraża Jamajce. Polskie służby dyplomatyczne monitorują sytuację polskich turystów na wyspie. Meteorolodzy ostrzegają przed katastrofalnymi zniszczeniami, a premier Jamajki wzywa do ewakuacji z zagrożonych obszarów.",
+  "id": 1761737518900,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/swiat/news-nowe-informacje-ws-polakow-na-jamajce-wyspe-czeka-horror,nId,8035314",
+  "title": "Potworny huragan zbliża się do Jamajki"
+}

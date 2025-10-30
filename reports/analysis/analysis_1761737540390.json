@@ -1,0 +1,49 @@
+{
+  "score": 65,
+  "label": "strong",
+  "rationale": [
+    "title_sensational: regex hit 'marionetką' (+12), title_curiosity_gap: regex hit 'chce namieszać' (+6)",
+    "content_sensational: phrase 'wzmocnić swoją pozycję' detected (+8), content_hedging: 'wydaje się' detected (-2)",
+    "alignment_score: 0.55, resulting in penalty +8 for medium alignment",
+    "no country mismatch detected, as both title and content refer to Poland and Hungary"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'marionetką', co sugeruje sensację i manipulację.",
+    "W artykule pojawia się zwrot 'wzmocnić swoją pozycję', co dodaje dramatyzmu.",
+    "Tytuł i treść są zgodne, co zmniejsza wrażenie clickbaitu."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational",
+      "curiosity gap"
+    ],
+    "content_hits": [
+      "sensational",
+      "hedging"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Orban planuje nową grupę Wyszehradzką bez Polski",
+    "notes_to_editor": "Rozważ użycie bardziej neutralnego tytułu, aby uniknąć wrażenia sensacji."
+  },
+  "diagnostics": {
+    "tokens_title": 37,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:58:32"
+  },
+  "summary": "Viktor Orban planuje utworzenie nowej Grupy Wyszehradzkiej, w której uczestniczyć mają Węgry, Słowacja i Czechy, z pominięciem Polski. Zmiany w polskim rządzie, w tym zastąpienie Mateusza Morawieckiego przez Donalda Tuska, wpływają na relacje z Węgrami. Artykuł omawia strategię Orbana w kontekście polityki unijnej.",
+  "id": 1761737540390,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/politico/viktor-orban-chce-stworzyc-nowa-grupe-wyszehradzka-bez-polski-przebudowa-trwa/02qt832",
+  "title": "Orban chce namieszać w UE, wykorzystując swoją nową \"marionetkę\""
+}

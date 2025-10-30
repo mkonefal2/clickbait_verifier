@@ -1,0 +1,47 @@
+{
+  "score": 65,
+  "label": "strong",
+  "rationale": [
+    "title_sensational: regex hit 'obawy' (+12), 'boi się' (+12)",
+    "content_sensational: phrases like 'gwałtowny wzrost' (+8)",
+    "alignment_score: calculated as 0.55, resulting in a penalty of +8",
+    "exaggeration_gap: title suggests extreme fear while content provides some credible context, resulting in a penalty of +14"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słów 'obawy' i 'boi się', co może wywoływać niepokój.",
+    "W treści pojawiają się mocne sformułowania, które podkreślają sytuację w Rosji.",
+    "Treść jest zgodna z tytułem, ale niektóre informacje są bardziej stonowane, co wprowadza pewne rozczarowanie."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": true,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Putin wyraża obawy dotyczące sytuacji w Rosji",
+    "notes_to_editor": "Zaleca się unikanie emocjonalnego języka w tytule, aby lepiej odzwierciedlić treść artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 9,
+    "tokens_content": 299,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:17:48"
+  },
+  "summary": "Artykuł omawia rosnące obawy Władimira Putina związane z kryzysem w Rosji, w tym wzrost deficytu budżetowego i cen. Wskazuje na strach przed zamachem stanu oraz inne niepokoje, które mogą wpływać na stabilność kraju. Zawiera analizy brytyjskiego dziennika 'Telegraph' na temat sytuacji w Rosji.",
+  "id": 1761516165004,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/narastaja-obawy-putina-rosja-pierwszy-raz-odczuwa-skutki-kryzysu/b4tf01m",
+  "title": "Narastają obawy Putina. Boi się zamachu stanu i nie tylko"
+}

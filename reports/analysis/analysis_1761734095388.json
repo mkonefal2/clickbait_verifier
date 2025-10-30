@@ -1,0 +1,50 @@
+{
+  "score": 65,
+  "label": "strong",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'Są zarażone śmiertelnymi wirusami?' (+6)",
+    "title_alarming: regex hit 'zagrożone' (+10)",
+    "content_sensational: phrase 'realne zagrożenie dla zdrowia ludzi' (+8)",
+    "content_hedging: phrase 'może być niebezpieczne' (-2)",
+    "alignment_score: 0.5 → medium alignment penalty +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera pytanie, które wzbudza ciekawość, sugerując, że małpy mogą być niebezpieczne.",
+    "W treści pojawia się informacja o zagrożeniu dla zdrowia ludzi, co zwiększa dramatyzm.",
+    "Artykuł zawiera również niepewne stwierdzenia, co obniża jego wiarygodność."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap",
+      "alarming"
+    ],
+    "content_hits": [
+      "sensational",
+      "hedging"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.5,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Małpy uciekły z rozbitej ciężarówki w Mississippi, władze ostrzegają przed kontaktem.",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia sensacji."
+  },
+  "diagnostics": {
+    "tokens_title": 65,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:28:27"
+  },
+  "summary": "W Mississippi doszło do wypadku ciężarówki przewożącej makaki, które uciekły z miejsca zdarzenia. Władze ostrzegają przed ich potencjalnym zagrożeniem dla ludzi, ponieważ mogą być zakażone wirusami. Uniwersytet Tulane zaprzecza, że małpy są zakażone, a poszukiwania zbiegłych zwierząt wciąż trwają.",
+  "id": 1761734095388,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/swiat/news-agresywne-malpy-uciekly-z-rozbitej-ciezarowki-sa-zarazone-sm,nId,8035586",
+  "title": "Agresywne małpy uciekły z rozbitej ciężarówki. Są zarażone śmiertelnymi wirusami?"
+}

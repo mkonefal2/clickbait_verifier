@@ -1,0 +1,51 @@
+{
+  "score": 68,
+  "label": "strong",
+  "rationale": [
+    "title_alarm: regex hit 'zagrożenie' (+10), title_sensational: regex hit 'potwór' (+12), title_curiosity: regex hit 'to państwo czeka' (+6)",
+    "content_sensational: phrase 'potężnym cyklonem' detected (+8), content_credibility: organization names mentioned (-3), content_credibility: quoted speakers detected (-2)",
+    "alignment_score: 0.55 (medium alignment), penalty applied (+8), no country mismatch detected, time omission not present"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnego słowa 'potwór' oraz alarmującego 'zagrożenie', co tworzy przesadne oczekiwania.",
+    "Artykuł zawiera cytaty ekspertów i odniesienia do organizacji, co zmniejsza jego wiarygodność.",
+    "Treść artykułu dobrze odpowiada na tytuł, ale niektóre sformułowania mogą być uznane za przesadne."
+  ],
+  "signals": {
+    "title_hits": [
+      "zagrożenie",
+      "potwór",
+      "to państwo czeka"
+    ],
+    "content_hits": [
+      "potężnym cyklonem"
+    ],
+    "credibility_hits": [
+      "organization names",
+      "quoted speakers"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Huragan Melissa zagraża kolejnym wyspom na Karaibach",
+    "notes_to_editor": "Rozważyć użycie mniej alarmujących sformułowań w tytule, aby zwiększyć wiarygodność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 14,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:56:23"
+  },
+  "summary": "Huragan Melissa, cyklon trzeciej kategorii, zagraża Kubie oraz innym wyspom na Karaibach. Po przejściu przez Jamajkę, meteorolodzy ostrzegają przed jego siłą, mimo że huragan nieco osłabł. Eksperci podkreślają, że zagrożenie dla regionu nadal jest poważne.",
+  "id": 1761737539098,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/pogoda/to-potwor-huragan-melissa-stanowi-zagrozenie-dla-kolejnego-panstwa/gth3pc8",
+  "title": "\"Ten huragan to potwór\". Melissa atakuje po raz drugi. To państwo czeka na uderzenie"
+}

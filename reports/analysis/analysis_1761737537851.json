@@ -1,0 +1,48 @@
+{
+  "score": 50,
+  "label": "strong",
+  "rationale": [
+    "title_sensational: regex hit 'zużyty zderzak' (+12), title_curiosity_gap: regex hit 'czemu ta afera wychodzi dopiero teraz?' (+6)",
+    "content_sensational: phrase 'afera z działką pod CPK' detected (+8)",
+    "alignment_score: 0.55 (medium alignment) → penalty +8",
+    "no country mismatch detected, no time omission detected"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnego sformułowania 'zużyty zderzak', co może budzić sensację.",
+    "Artykuł zawiera stwierdzenie o aferze, co również podnosi dramatyzm.",
+    "Treść w pewnym stopniu wspiera tytuł, ale nie w pełni, co prowadzi do średniego dopasowania."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational",
+      "curiosity gap"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Reakcja wsi Telusa na aferę z CPK.",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia sensacji."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:55:19"
+  },
+  "summary": "Artykuł opisuje reakcję mieszkańców wsi Roberta Telusa na kontrowersje związane z CPK. Wiele osób broni Telusa, podkreślając jego wiarę i uczciwość. Pojawiają się pytania o czas ujawnienia afery oraz o decyzję Jarosława Kaczyńskiego w sprawie zawieszenia Telusa w prawach członka partii.",
+  "id": 1761737537851,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/lodz/wies-telusa-reaguje-na-afere-z-cpk-kaczynski-zostawi-roberta-jak-zuzyty-zderzak/5fel9c0",
+  "title": "Wieś Telusa reaguje na aferę z CPK. \"Kaczyński zostawi Roberta jak zużyty zderzak\""
+}

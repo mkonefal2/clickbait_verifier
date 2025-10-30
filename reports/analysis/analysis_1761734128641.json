@@ -1,0 +1,49 @@
+{
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "title_sensational: regex hit 'zmowa milczenia' (+12), title_alarming: regex hit 'tragedia' (+10), title_question: regex hit '?' (+4)",
+    "content_sensational: phrase 'zmowa milczenia' detected (+8), content_hedging: 'może' detected (-2)",
+    "alignment_score: 0.55 → medium alignment penalty +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słów sugerujących dramatyczną sytuację, co może wzbudzać emocje.",
+    "W treści pojawia się niepewność, co zmniejsza jej wiarygodność.",
+    "Treść artykułu w pewnym stopniu wspiera tytuł, ale nie w pełni."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational",
+      "alarming",
+      "question"
+    ],
+    "content_hits": [
+      "sensational",
+      "hedging"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Śmierć młodego pilota w Straży Granicznej - szczegóły sprawy",
+    "notes_to_editor": "Zaleca się unikanie dramatycznych sformułowań w tytule, aby zwiększyć obiektywność."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:39:13"
+  },
+  "summary": "Artykuł opisuje okoliczności śmierci 29-letniego pilota Straży Granicznej, który zmarł po ważnym egzaminie. Wspomniano o odejściu dyrektora Biura Lotnictwa Straży Granicznej oraz o braku wyjaśnień ze strony służb. Temat budzi kontrowersje i pytania wśród funkcjonariuszy.",
+  "id": 1761734128641,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/rzeszow/smierc-mlodego-pilota-w-strazy-granicznej-funkcjonariusze-stawiaja-pytania/4m6fxc0",
+  "title": "Śmierć młodego pilota w Straży Granicznej. Funkcjonariusze stawiają pytania"
+}

@@ -1,0 +1,52 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'protest będzie' (+6)",
+    "content_sensational: phrase 'światełko w tunelu' detected (+8)",
+    "content_credibility: organization names detected (-3)",
+    "content_credibility: quoted speakers detected (-2)",
+    "mismatch_alignment_score: calculated alignment score is 0.5, resulting in a penalty of +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera zwrot, który wzbudza ciekawość, sugerując, że protest jest pewny.",
+    "W treści pojawia się wyrażenie 'światełko w tunelu', co może być uznane za sensacyjne.",
+    "Artykuł odnosi się do organizacji i cytatów, co zwiększa jego wiarygodność.",
+    "Tytuł i treść są zgodne, ale nieco przesadzone w obietnicach."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names",
+      "quoted speakers"
+    ],
+    "mismatch": {
+      "alignment_score": 0.5,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Rozmowy górników z ministrami zakończone bez konkretnych ustaleń.",
+    "notes_to_editor": "Rozważ użycie bardziej neutralnego tytułu, aby uniknąć wrażenia sensacji."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 298,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:23:17"
+  },
+  "summary": "Artykuł opisuje spotkanie górników z ministrami, które zakończyło się bez konkretnych ustaleń dotyczących protestu zaplanowanego na 4 listopada. Związki zawodowe podkreślają, że rządowe deklaracje są niewystarczające, aby odwołać demonstracje. Projekt ustawy górniczej przewiduje osłony socjalne dla pracowników, ale wymaga dalszych prac legislacyjnych.",
+  "id": 1761686575472,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/polska/news-bez-konkretow-po-rozmowach-gornikow-z-ministrami-protest-bed,nId,8035480",
+  "title": "Bez konkretów po rozmowach górników z ministrami. Protest będzie "
+}

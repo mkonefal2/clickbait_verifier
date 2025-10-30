@@ -1,0 +1,51 @@
+{
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "title_sensational: regex hit 'czarnym charakterem' (+12), title_curiosity_gap: regex hit 'obawiają się' (+6)",
+    "content_sensational: phrase 'pracownicy obawiają się zwolnień' (+8)",
+    "content_credibility: organization names detected (-3), quoted speakers detected (-2)",
+    "alignment_score: 0.55 → MEDIUM alignment → penalty +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnego wyrażenia 'czarnym charakterem', co może budzić sensację.",
+    "Artykuł zawiera obawy pracowników o zwolnienia, co dodaje dramatyzmu.",
+    "W treści wspomniane są konkretne organizacje, co zwiększa wiarygodność."
+  ],
+  "signals": {
+    "title_hits": [
+      "czarnym charakterem",
+      "obawiają się"
+    ],
+    "content_hits": [
+      "pracownicy obawiają się zwolnień"
+    ],
+    "credibility_hits": [
+      "organization names detected",
+      "quoted speakers detected"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Polski komisarz w UE budzi obawy wśród pracowników",
+    "notes_to_editor": "Rozważyć użycie bardziej neutralnego języka w tytule, aby uniknąć wrażenia sensacji."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:56:54"
+  },
+  "summary": "Artykuł omawia sytuację Piotra Serafina, polskiego komisarza do spraw budżetu w Komisji Europejskiej, który ma ocenić działanie unijnej administracji. Pracownicy obawiają się możliwych zwolnień w wyniku planowanej restrukturyzacji. W artykule podkreślono ich niechęć do ujawniania swoich obaw.",
+  "id": 1761737539830,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/politico/polski-komisarz-czarnym-charakterem-w-ue-pracownicy-obawiaja-sie-zwolnien/ms0zph6",
+  "title": "Polski komisarz czarnym charakterem w UE. Pracownicy obawiają się zwolnień"
+}

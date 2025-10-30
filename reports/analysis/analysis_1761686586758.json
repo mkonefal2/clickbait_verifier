@@ -1,0 +1,50 @@
+{
+  "score": 40,
+  "label": "mild",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'Procedury ważniejsze niż dobro małych pacjentów?' (+6), title_sensational: regex hit 'tracą kontrakty' (+12)",
+    "content_sensational: phrase 'przerwanie terapii jest szkodliwe dla pacjentów' (+8), content_credibility: org names detected (-3), content_credibility: quoted speakers detected (-4)",
+    "alignment_score: 0.55 (medium alignment), penalty applied (+8)"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera pytanie, które wzbudza ciekawość, oraz używa mocnego sformułowania o traceniu kontraktów.",
+    "W treści artykułu pojawiają się stwierdzenia o szkodliwości przerwania terapii, co dodaje dramatyzmu.",
+    "Artykuł zawiera cytaty ekspertów, co zwiększa jego wiarygodność."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap",
+      "sensational"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names",
+      "quoted speakers"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Centra zdrowia psychicznego dla dzieci mogą stracić kontrakty z NFZ",
+    "notes_to_editor": "Zaleca się unikanie pytań w tytule oraz dramatyzujących sformułowań, aby zwiększyć obiektywność."
+  },
+  "diagnostics": {
+    "tokens_title": 51,
+    "tokens_content": 1231,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:26:26"
+  },
+  "summary": "Artykuł opisuje sytuację, w której centra zdrowia psychicznego dla dzieci w Dąbrowie Górniczej i Bielsku-Białej mogą stracić kontrakty z NFZ z powodu drobnych błędów w ofertach. Specjaliści podkreślają, że przerwanie terapii jest szkodliwe dla pacjentów, a Narodowy Fundusz Zdrowia odrzuca protesty placówek, powołując się na przepisy.",
+  "id": 1761686586758,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/slaskie/news-procedury-wazniejsze-niz-dobro-malych-pacjentow-centra-zdrow,nId,8035469",
+  "title": "Procedury ważniejsze niż dobro małych pacjentów? Centra zdrowia psychicznego tracą kontrakty"
+}

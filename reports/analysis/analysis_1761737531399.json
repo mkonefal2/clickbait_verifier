@@ -1,0 +1,51 @@
+{
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "title_sensational: regex hit 'śmierdzi' (+12), title_curiosity_gap: regex hit 'sprawa' (+6)",
+    "content_sensational: phrase 'sprawa co najmniej dwuznaczna' (+8)",
+    "content_credibility: organization names detected (-3), quoted speakers detected (-2)",
+    "alignment_score: calculated as 0.55, resulting in a penalty of +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnego słowa 'śmierdzi', co może budzić sensację.",
+    "Artykuł zawiera opinie polityków, co może wpływać na jego wiarygodność.",
+    "Treść artykułu jest zgodna z tytułem, ale nieco przesadza w opisie sytuacji."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational",
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names",
+      "quoted speakers"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Rzecznik rządu komentuje sprawę CPK i odpowiedź polityka PiS",
+    "notes_to_editor": "Rozważyć użycie bardziej neutralnego języka w tytule, aby uniknąć wrażenia sensacji."
+  },
+  "diagnostics": {
+    "tokens_title": 14,
+    "tokens_content": 300,
+    "processing_time_ms": 120,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:49:51"
+  },
+  "summary": "Rzecznik rządu Adam Szłapka odniósł się do kontrowersji związanej ze sprzedażą działki w kontekście Centralnego Portu Komunikacyjnego (CPK). W odpowiedzi na wypowiedzi polityka PiS Marcina Horały, Szłapka podkreślił, że sprawa jest co najmniej dwuznaczna i wymaga dalszej analizy.",
+  "id": 1761737531399,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/adam-szlapka-odpowiada-politykowi-pis-w-sprawie-cpk-sprawa-smierdzi-na-kilometr/0h97h1s",
+  "title": "Rzecznik rządu odpowiada politykowi PiS w sprawie CPK. \"Sprawa śmierdzi na kilometr\""
+}

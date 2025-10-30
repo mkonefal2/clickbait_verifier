@@ -1,0 +1,47 @@
+{
+  "score": 65,
+  "label": "strong",
+  "rationale": [
+    "title_sensational: regex hit 'trzęsienie ziemi' (+12), title_sensational: regex hit 'wzywa do dymisji' (+12)",
+    "content_sensational: phrase 'powinien podać się do dymisji' (+8), content_sensational: phrase 'ujawniliśmy' (+8)",
+    "alignment_score: calculated alignment score is 0.5, resulting in a penalty of +8",
+    "exaggeration_gap: title is sensational but content maintains credibility, resulting in a penalty of +14"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów 'trzęsienie ziemi' i 'wzywa do dymisji', co tworzy przesadne oczekiwania.",
+    "W treści pojawiają się sensacyjne zwroty, które mogą wzbudzać emocje czytelników.",
+    "Treść artykułu jest zgodna z tytułem, ale niektóre sformułowania w tytule są przesadzone."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.5,
+      "exaggeration_gap": true,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Poseł PiS wzywa do dymisji starosty Andrzeja Szarlipa",
+    "notes_to_editor": "Rozważyć użycie mniej emocjonalnego języka w tytule, aby zwiększyć wiarygodność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:55:50"
+  },
+  "summary": "Poseł PiS Janusz Kowalski wezwał do dymisji starosty Andrzeja Szarlipa w związku z kontrowersjami dotyczącymi przetargu na wynajem gokartów na nowym torze wyścigowym. Opozycja złożyła wniosek o jego odwołanie, wskazując na potencjalny konflikt interesów związany z osobą żony radnego PiS, która wygrała przetarg.",
+  "id": 1761737538459,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/lublin/opozycja-chce-odwolania-starosty-andrzeja-szarlipa-janusz-kowalski-wzywa-go-do/9k6lstf",
+  "title": "Trzęsienie ziemi po tekście Onetu. Poseł PiS wzywa do dymisji"
+}

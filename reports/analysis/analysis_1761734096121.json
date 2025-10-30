@@ -1,0 +1,53 @@
+{
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "title_sensational: regex hit 'niespodziewany' (+12), title_hits: 'Nie podpływać. Nie karmić!' contains alarming language (+10)",
+    "content_sensational: phrase 'martwią się o bezpieczeństwo' detected (+8), content_hits: mentions of potential danger (+10)",
+    "credibility_reduction: organization names mentioned (-3), quoted speakers detected (-2)",
+    "alignment_score: calculated alignment score is 0.55, resulting in a penalty of +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'niespodziewany', co może budzić sensację.",
+    "W artykule pojawiają się informacje o niebezpieczeństwie dla delfina, co zwiększa dramatyzm.",
+    "Artykuł zawiera cytaty i odniesienia do organizacji, co podnosi jego wiarygodność.",
+    "Treść jest zgodna z tytułem, ale nieco przesadzona w tonie."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational",
+      "alarming"
+    ],
+    "content_hits": [
+      "sensational phrases",
+      "potential danger"
+    ],
+    "credibility_hits": [
+      "organization names",
+      "quoted speakers"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Delfin w weneckiej lagunie przyciąga uwagę turystów",
+    "notes_to_editor": "Zaleca się unikanie dramatyzmu w tytule i skupienie się na faktach."
+  },
+  "diagnostics": {
+    "tokens_title": 12,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:28:42"
+  },
+  "summary": "W weneckiej lagunie osiedlił się delfin, który wzbudza zainteresowanie turystów. Naukowcy i mieszkańcy obawiają się o jego bezpieczeństwo, ponieważ może być narażony na niebezpieczeństwo ze strony łodzi. Delfin, znany jako Mimmo, stał się lokalną atrakcją, a jego skoki są często filmowane przez przechodniów.",
+  "id": 1761734096121,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/swiat/news-niespodziewany-gosc-w-weneckich-wodach-nie-podplywac-nie-kar,nId,8035580",
+  "title": "​Niespodziewany gość w weneckich wodach. \"Nie podpływać. Nie karmić!\""
+}

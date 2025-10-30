@@ -1,0 +1,51 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_alarm: regex hit 'tragedia' (+10), title_sensational: regex hit 'tragiczne' (+12)",
+    "content_sensational: phrase 'tragiczne odkrycie' detected (+8)",
+    "credibility_reduction: organization names mentioned (-3)",
+    "alignment_score: calculated at 0.55, resulting in a penalty of +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'tragedia', co może wywoływać silne emocje.",
+    "W treści pojawia się sformułowanie 'tragiczne odkrycie', co również buduje dramatyzm.",
+    "Artykuł zawiera odniesienia do mediów, co może wpływać na jego wiarygodność.",
+    "Treść dobrze odpowiada tytułowi, ale nieco przesadza w dramatyzacji."
+  ],
+  "signals": {
+    "title_hits": [
+      "title_alarm",
+      "title_sensational"
+    ],
+    "content_hits": [
+      "content_sensational"
+    ],
+    "credibility_hits": [
+      "organization_names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Odkrycie ciała mężczyzny na polu namiotowym w Małopolsce",
+    "notes_to_editor": "Zaleca się unikanie emocjonalnych sformułowań w tytule, aby zwiększyć obiektywność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:13:29"
+  },
+  "summary": "W Małopolsce, w pobliżu Przełomu Białki, odkryto ciało około 30-letniego mężczyzny na polu namiotowym. Mężczyzna biwakował tam ze znajomymi dzień wcześniej. Informacje na ten temat przekazały lokalne media.",
+  "id": 1761516148265,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/krakow/tragiczne-odkrycie-w-malopolsce-cialo-mezczyzny-na-polu-namiotowym/d07xhbp",
+  "title": "Tragiczne odkrycie w Małopolsce. Ciało mężczyzny na polu namiotowym"
+}

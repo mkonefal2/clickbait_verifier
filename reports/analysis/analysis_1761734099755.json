@@ -1,0 +1,51 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_superlative: regex hit 'największy' (+6), title_sensational: regex hit 'niewiarygodny' (+12), title_curiosity_gap: regex hit 'zobacz co się stało' (+6)",
+    "content_sensational: phrase 'niewiarygodny' detected (+8), content_credibility: organization names mentioned (-3), content_credibility: quoted speakers detected (-2)",
+    "alignment_score: 0.68, no penalty applied, no country mismatch, no time omission"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnego słowa 'największy', co może tworzyć przesadne oczekiwania.",
+    "Artykuł zawiera cytaty i odniesienia do organizacji, co zwiększa jego wiarygodność.",
+    "Treść dobrze wspiera obietnice tytułu, co wskazuje na wysoką zgodność."
+  ],
+  "signals": {
+    "title_hits": [
+      "największy",
+      "niewiarygodny",
+      "zobacz co się stało"
+    ],
+    "content_hits": [
+      "niewiarygodny"
+    ],
+    "credibility_hits": [
+      "organization names",
+      "quoted speakers"
+    ],
+    "mismatch": {
+      "alignment_score": 0.68,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Michelle Fairley, gwiazda 'Gry o Tron', przyjeżdża do Polski na SerialCon",
+    "notes_to_editor": "Rozważ usunięcie przesadnych słów w tytule, aby zwiększyć jego neutralność."
+  },
+  "diagnostics": {
+    "tokens_title": 14,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:29:26"
+  },
+  "summary": "Michelle Fairley, znana z roli Catelyn Stark w 'Grze o Tron', przyjeżdża do Warszawy, aby odebrać nagrodę CUTTING EDGE AWARD podczas BNP Paribas Warsaw SerialCon. Wydarzenie odbędzie się od 26 do 30 listopada i jest pierwszym w Polsce poświęconym serialom. Fairley jest uznawana za wizjonerkę w redefiniowaniu kobiecych ról w sztuce serialowej.",
+  "id": 1761734099755,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/kultura/news-gwiazda-gry-o-tron-przyjezdza-do-polski-michelle-fairley-na-,nId,8035538",
+  "title": "Gwiazda \"Gry o Tron\" przyjeżdża do Polski. Michelle Fairley na BNP Paribas Warsaw SerialCon"
+}

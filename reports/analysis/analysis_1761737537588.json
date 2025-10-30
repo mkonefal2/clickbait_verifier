@@ -1,0 +1,49 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'Dotyczą kobiet' (+6)",
+    "content_sensational: phrase 'zmiany w regulaminie' suggests significant changes (+8)",
+    "alignment_score: 0.55, resulting in a penalty of +8 due to medium alignment",
+    "content_credibility: organization names mentioned (-3)"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera sformułowanie 'Dotyczą kobiet', co może budzić ciekawość.",
+    "Treść artykułu opisuje zmiany w regulaminie wojska, co sugeruje istotne zmiany.",
+    "Treść jest zgodna z tytułem, ale nie w pełni spełnia jego obietnice."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Nowe zasady dotyczące fryzur kobiet w polskim wojsku",
+    "notes_to_editor": "Zaleca się unikanie sformułowań, które mogą budzić nadmierne zainteresowanie."
+  },
+  "diagnostics": {
+    "tokens_title": 43,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:55:04"
+  },
+  "summary": "Ministerstwo Obrony Narodowej ogłosiło zmiany w regulaminie polskiego wojska, które dotyczą wyglądu kobiet w służbie. Nowe zasady pozwalają żołnierkom na posiadanie włosów sięgających do połowy pleców. Zmiany te mają na celu dostosowanie regulaminu do współczesnych standardów.",
+  "id": 1761737537588,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/zmiany-w-regulaminie-polskiego-wojska-dotycza-kobiet/c0jb349",
+  "title": "Zmiany w regulaminie polskiego wojska. Dotyczą kobiet"
+}

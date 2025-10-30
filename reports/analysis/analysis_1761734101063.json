@@ -1,0 +1,52 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'Kolejne ustępstwa?' (+6)",
+    "content_sensational: phrases indicating urgency and negotiation (+8)",
+    "content_credibility: organization names detected (-3)",
+    "content_credibility: quoted speakers detected (-2)",
+    "mismatch_alignment_score: calculated alignment score of 0.5, resulting in a penalty of +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera pytanie, które wzbudza ciekawość czytelników.",
+    "W treści pojawiają się sformułowania sugerujące pilność i negocjacje.",
+    "Artykuł zawiera nazwy organizacji i cytaty, co zwiększa jego wiarygodność.",
+    "Treść artykułu jest zgodna z tytułem, ale nieco mniej szczegółowa."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names",
+      "quoted speakers"
+    ],
+    "mismatch": {
+      "alignment_score": 0.5,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Kompromis w ustawie o statusie osoby najbliższej",
+    "notes_to_editor": "Rozważ usunięcie pytania z tytułu, aby uczynić go bardziej neutralnym."
+  },
+  "diagnostics": {
+    "tokens_title": 46,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:30:50"
+  },
+  "summary": "Artykuł omawia negocjacje dotyczące ustawy o statusie osoby najbliższej w Polsce. Autorzy projektu są gotowi na kompromis, aby uzyskać podpis prezydenta. Wicepremier podkreśla potrzebę konkretnych zapisów prawnych, a projekt ustawy wciąż nie został przedstawiony publicznie.",
+  "id": 1761734101063,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/polityka/news-kompromis-goni-kompromis-kolejne-ustepstwa-w-ustawie-o-statu,nId,8035574",
+  "title": "Kompromis goni kompromis. Kolejne ustępstwa w ustawie o statusie osoby najbliższej?"
+}

@@ -1,0 +1,51 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_sensational: regex hit 'przekręt' (+12), title_curiosity_gap: regex hit 'co się stało' (+6)",
+    "content_sensational: phrase 'jakiś przekręt' detected (+8)",
+    "content_credibility: organization names mentioned (-3), quoted speakers detected (-2)",
+    "alignment_score: calculated at 0.55, resulting in a penalty of +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera słowo 'przekręt', co sugeruje coś sensacyjnego.",
+    "Artykuł odnosi się do sytuacji politycznej, co może budzić emocje.",
+    "Treść wspomina o PiS i cytuje wiceministra, co zwiększa wiarygodność."
+  ],
+  "signals": {
+    "title_hits": [
+      "przekręt",
+      "co się stało"
+    ],
+    "content_hits": [
+      "jakiś przekręt"
+    ],
+    "credibility_hits": [
+      "organization names",
+      "quoted speakers"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Wiceminister komentuje sprawę działki pod CPK",
+    "notes_to_editor": "Rozważyć użycie bardziej neutralnego języka w tytule."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:34:39"
+  },
+  "summary": "W artykule wiceminister Michał Gramatyka omawia kontrowersje związane z działką pod Centralnym Portem Komunikacyjnym (CPK). Zwraca uwagę na to, że nawet członkowie PiS dostrzegają nieprawidłowości w tej sprawie, co sugeruje wewnętrzne napięcia w partii. Gramatyka odnosi się również do przepisów uchwalonych przez PiS, które dotyczą tej sytuacji.",
+  "id": 1761734113834,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/michal-gramatyka-o-aferze-wokol-dzialki-pod-cpk-sam-pis-widzi-ze-jest-przekret/4z5r12r",
+  "title": "Wiceminister o aferze wokół działki pod CPK. \"Sam PiS widzi, że jest jakiś przekręt\""
+}

@@ -1,0 +1,51 @@
+{
+  "score": 65,
+  "label": "strong",
+  "rationale": [
+    "title_sensational: regex hit 'zamach' (+12), 'reżim' (+12), 'nie będzie miał czasu' (+6)",
+    "content_sensational: phrase 'zamach stanu' (+8), 'w odpowiednim czasie' (+8)",
+    "alignment_score: 0.55 → medium alignment penalty +8",
+    "credibility_reduction: org names detected (-3), quoted speakers detected (-2)"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów jak 'zamach' i 'reżim', co tworzy przesadne oczekiwania.",
+    "Artykuł zawiera informacje o białoruskiej grupie antyrządowej planującej działania przeciwko Łukaszence.",
+    "Tytuł sugeruje dramatyczne wydarzenia, ale treść nie zawiera wystarczających dowodów na te twierdzenia."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational",
+      "alarming"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names",
+      "quoted speakers"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": true,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Białoruska grupa antyrządowa planuje działania przeciwko reżimowi Łukaszenki.",
+    "notes_to_editor": "Zaleca się unikanie przesadnych sformułowań w tytule, aby zwiększyć wiarygodność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 14,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:56:37"
+  },
+  "summary": "Białoruska organizacja antyrządowa BYPOL planuje zamach stanu przeciwko reżimowi Aleksandra Łukaszenki. Przywódca grupy, Aleksander Azarow, twierdzi, że plan zostanie zrealizowany 'w odpowiednim czasie'. Artykuł przedstawia kontekst polityczny i działania grupy w Polsce.",
+  "id": 1761737539473,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/politico/bialoruska-grupa-antyrzadowa-planuje-zamach-na-rezim-aleksandra-lukaszenki/3lf5415",
+  "title": "Mieszkają w Polsce i planują zamach na reżim Aleksandra Łukaszenki. \"Wtedy Putin nie będzie miał czasu dla Białorusi\""
+}

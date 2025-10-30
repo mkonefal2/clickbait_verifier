@@ -1,0 +1,51 @@
+{
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "title_superlative: regex hit 'największe' (+6), title_curiosity_gap: regex hit 'przedsiębiorcy zapłacą więcej' (+6), content_sensational: phrase 'gigantyczne wydatki' (+8), content_overcertainty: phrase 'w praktyce' (+6)",
+    "content_credibility: organization names detected (-3), content_credibility: numbers detected (-2), content_credibility: statistics detected (-2)"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnego słowa 'największe', co może tworzyć przesadne oczekiwania.",
+    "Artykuł zawiera informacje o nowych przepisach dotyczących samochodów spalinowych, co może budzić zainteresowanie.",
+    "W treści pojawiają się konkretne liczby i dane, co zwiększa wiarygodność informacji."
+  ],
+  "signals": {
+    "title_hits": [
+      "największe",
+      "przedsiębiorcy zapłacą więcej"
+    ],
+    "content_hits": [
+      "gigantyczne wydatki",
+      "w praktyce"
+    ],
+    "credibility_hits": [
+      "organization names",
+      "numbers",
+      "statistics"
+    ],
+    "mismatch": {
+      "alignment_score": 0.6,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Nowe przepisy dotyczące kosztów użytkowania samochodów firmowych",
+    "notes_to_editor": "Rozważyć użycie mniej emocjonalnego języka w tytule, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:27:52"
+  },
+  "summary": "Od 1 stycznia 2026 roku w Polsce wejdą w życie nowe przepisy dotyczące rozliczania kosztów zakupu i użytkowania samochodów firmowych. Właściciele aut spalinowych będą musieli zmierzyć się z wyższymi kosztami podatkowymi, a nowe limity odliczeń będą uzależnione od poziomu emisji CO2. Przedsiębiorcy mogą uniknąć strat, dokonując zakupu przed końcem 2025 roku.",
+  "id": 1761734093329,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/ekonomia/news-nowe-przepisy-uderza-we-wlascicieli-aut-spalinowych-przedsie,nId,8035591",
+  "title": "Nowe przepisy uderzą we właścicieli aut spalinowych. Przedsiębiorcy zapłacą więcej"
+}

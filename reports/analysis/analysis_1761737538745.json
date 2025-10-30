@@ -1,0 +1,52 @@
+{
+  "score": 60,
+  "label": "strong",
+  "rationale": [
+    "title_superlative: regex hit 'potężna' (+6), title_alarm: regex hit 'zagrozi' (+10), title_alarm: regex hit 'wiatr przekroczy' (+10), title_curiosity: regex hit 'niebawem' (+6)",
+    "content_sensational: regex hit 'potężna wichura' (+8), content_sensational: regex hit 'najsilniejszą' (+8), content_overcertainty: regex hit 'może' (-2), content_credibility: org names detected (-3), content_credibility: numbers detected (-2)",
+    "alignment_score: 0.65, no penalty, high alignment"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów jak 'potężna' i 'zagrozi', co może budzić niepokój.",
+    "Artykuł zawiera informacje o nadchodzącej wichurze, ale także używa emocjonalnych zwrotów.",
+    "Tytuł i treść są zgodne, co zwiększa wiarygodność informacji."
+  ],
+  "signals": {
+    "title_hits": [
+      "superlative",
+      "alarm",
+      "curiosity"
+    ],
+    "content_hits": [
+      "sensational",
+      "overcertainty"
+    ],
+    "credibility_hits": [
+      "organization names",
+      "numbers"
+    ],
+    "mismatch": {
+      "alignment_score": 0.65,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Wichura z wiatrem przekraczającym 100 km/h nad częścią Polski",
+    "notes_to_editor": "Zaleca się unikanie emocjonalnych zwrotów w tytule, aby zwiększyć neutralność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 14,
+    "tokens_content": 290,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:56:07"
+  },
+  "summary": "W artykule opisano nadchodzącą wichurę, która ma uderzyć w północną Polskę. Oczekiwane są porywy wiatru przekraczające 100 km/h, a na otwartym morzu może wystąpić sztorm o sile 12 w skali Beauforta. Ostrzeżenia dotyczą również górskich obszarów.",
+  "id": 1761737538745,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/pogoda/potezna-wichura-zagrozi-czesci-polski-powieje-ponad-100-km-na-godz/r22s6ck",
+  "title": "W tę część Polski niebawem uderzy potężna wichura. Wiatr przekroczy 100 km na godz."
+}

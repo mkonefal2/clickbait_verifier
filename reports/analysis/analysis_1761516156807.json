@@ -1,0 +1,51 @@
+{
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "title_sensational: regex hit 'pilny apel' (+12), title_alarming: regex hit 'zagrożenie' (+10)",
+    "content_sensational: phrase 'nieuprawnionych wypłat' detected (+8)",
+    "content_credibility: org names detected (-3), numbers detected (-2)",
+    "mismatch_alignment_score: calculated alignment score is 0.6, resulting in a penalty of +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słów 'pilny apel', co sugeruje nagłość sytuacji.",
+    "Artykuł zawiera informacje o nieuprawnionych wypłatach, co może budzić niepokój.",
+    "Tytuł i treść są zgodne, ale niektóre szczegóły mogłyby być bardziej precyzyjne."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational",
+      "alarming"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names",
+      "numbers"
+    ],
+    "mismatch": {
+      "alignment_score": 0.6,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Policja ostrzega przed nieuprawnionymi wypłatami z kont bankowych",
+    "notes_to_editor": "Zaleca się unikanie alarmujących sformułowań w tytule, aby zwiększyć neutralność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 11,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:15:12"
+  },
+  "summary": "Policja w kujawsko-pomorskim otrzymała wiele zgłoszeń od klientów banku Santander dotyczących nieuprawnionych wypłat z ich kont. W sumie zarejestrowano ponad 50 zgłoszeń w tym regionie oraz dodatkowe w innych miastach, takich jak Kraków i Warszawa. Bank Santander wydał oświadczenie w tej sprawie.",
+  "id": 1761516156807,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/poznan/pieniadze-znikaja-z-kont-klientow-jednego-z-bankow-pilny-apel-policji/gn7lekv",
+  "title": "Pieniądze znikają z kont klientów jednego z banków. Pilny apel policji"
+}

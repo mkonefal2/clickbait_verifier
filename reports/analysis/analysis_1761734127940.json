@@ -1,0 +1,49 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_sensational: regex hit 'myślał, że mu się upiekło' (+12), title_curiosity_gap: regex hit 'co się stało' (+6)",
+    "content_sensational: phrase 'ciągłej ucieczki przed wymiarem sprawiedliwości' (+8)",
+    "alignment_score: 0.6, thus no penalty for alignment",
+    "no country mismatch detected",
+    "no time omission detected"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera zdanie, które wzbudza ciekawość, sugerując, że mężczyzna myślał, że uniknie kary.",
+    "Artykuł opisuje długą ucieczkę przed wymiarem sprawiedliwości, co dodaje dramatyzmu.",
+    "Treść jest zgodna z tytułem, co zwiększa wiarygodność informacji."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational",
+      "curiosity gap"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.6,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "40-latek zatrzymany po 16 latach ucieczki przed Interpolem",
+    "notes_to_editor": "Rozważ użycie bardziej neutralnego tytułu, aby uniknąć wrażenia sensacji."
+  },
+  "diagnostics": {
+    "tokens_title": 14,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:38:57"
+  },
+  "summary": "40-letni mężczyzna, ścigany przez Interpol za rozboje, został zatrzymany przez policję w Rzeszowie po 16 latach ucieczki. Przez ten czas ukrywał się w różnych krajach, w tym w Grecji i Wielkiej Brytanii. Po powrocie do rodzinnych stron uznał, że jego sprawa mogła się przedawnić.",
+  "id": 1761734127940,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/rzeszow/podkarpacie-scigany-przez-interpol-40-latek-zatrzymany-po-16-latach/lqr7rs4",
+  "title": "16 lat uciekał przed Interpolem. Policja z Rzeszowa zatrzymała go w rodzinnych stronach"
+}

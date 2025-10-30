@@ -1,0 +1,56 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_superlative: no hits",
+    "title_absolute: no hits",
+    "title_sensational: no hits",
+    "title_alarming: no hits",
+    "title_curiosity_gap: no hits",
+    "title_listicle: no hits",
+    "title_punctuation: no hits",
+    "content_overcertainty: no hits",
+    "content_sensational: no hits",
+    "credibility_reductions: org names detected (-3)",
+    "hedging_reductions: no hits",
+    "alignment_score: 0.75 (high alignment, no penalty)",
+    "exaggeration_gap: false",
+    "country_mismatch: false",
+    "time_omission: false"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł nie zawiera przesadnych słów ani alarmujących stwierdzeń.",
+    "Artykuł informuje o decyzji Donalda Trumpa dotyczącej ceł, co jest zgodne z tytułem.",
+    "Treść zawiera informacje z wiarygodnego źródła, co zwiększa jej rzetelność."
+  ],
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "organization names detected"
+    ],
+    "mismatch": {
+      "alignment_score": 0.75,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Donald Trump ogłosił nowe cła na import z Kanady",
+    "notes_to_editor": "Zaleca się unikanie sensacyjnych sformułowań w tytule, aby zwiększyć rzetelność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 11,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:15:56"
+  },
+  "summary": "Donald Trump ogłosił podniesienie ceł na import z Kanady o dodatkowe 10 procent. Decyzja ta została podjęta w odpowiedzi na emisje kanadyjskiej reklamy, która wykorzystała archiwalne wypowiedzi Ronalda Reagana. Artykuł informuje o skutkach tej decyzji dla relacji handlowych między USA a Kanadą.",
+  "id": 1761516158267,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/beda-wyzsze-cla-dla-kanady-donald-trump-oglosil-nowa-decyzje/fc61vpf",
+  "title": "Będą wyższe cła dla Kanady. Donald Trump ogłosił nową decyzję"
+}

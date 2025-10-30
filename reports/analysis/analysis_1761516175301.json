@@ -1,0 +1,49 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_sensational: regex hit 'akt wandalizmu' (+12), title_alarming: regex hit 'zniszczonych' (+10)",
+    "content_sensational: phrase 'dotkliwego dla wielu mieszkańców' (+8)",
+    "alignment_score: 0.55 (medium alignment) → penalty +8",
+    "no country mismatch detected",
+    "no time omission detected"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słów 'akt wandalizmu', co może budzić niepokój.",
+    "W treści pojawia się stwierdzenie o dotkliwości zdarzenia dla mieszkańców, co dodaje dramatyzmu.",
+    "Artykuł dobrze odzwierciedla temat tytułu, ale nieco przesadza z dramatyzmem."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational",
+      "alarming"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Wrocław: Zniszczono blisko 100 samochodów",
+    "notes_to_editor": "Zaleca się unikać dramatyzmu w tytule, aby lepiej odzwierciedlić treść artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 6,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:22:27"
+  },
+  "summary": "W nocy na osiedlu Klecin we Wrocławiu zniszczono blisko 100 samochodów poprzez przebicie opon. Policja prowadzi śledztwo w tej sprawie, a mieszkańcy są zaniepokojeni tym aktem wandalizmu. Zdarzenie zostało zgłoszone do odpowiednich służb.",
+  "id": 1761516175301,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/wroclaw/nocny-akt-wandalizmu-blisko-100-aut-zniszczonych-we-wroclawiu/zyq0ddk",
+  "title": "Nocny akt wandalizmu. Blisko 100 aut zniszczonych"
+}

@@ -1,0 +1,49 @@
+{
+  "score": 55,
+  "label": "strong",
+  "rationale": [
+    "title_alarm: regex hit 'zagrozi' (+10), 'potężna' (+6), 'przekroczy' (+6)",
+    "content_sensational: phrase 'potężna wichura' detected (+8)",
+    "content_hedging: 'możliwy' detected (-2)",
+    "alignment_score: calculated as 0.6, resulting in medium alignment penalty (+8)"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słów alarmujących, takich jak 'zagrozi' i 'potężna', co może budzić niepokój.",
+    "W treści pojawia się sformułowanie 'potężna wichura', co również podkreśla dramatyzm sytuacji.",
+    "Artykuł zawiera pewne wyrażenia sugerujące niepewność, co zmniejsza jego wiarygodność.",
+    "Treść artykułu jest zgodna z tytułem, ale nieco przesadzona."
+  ],
+  "signals": {
+    "title_hits": [
+      "alarm",
+      "superlative"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.6,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Wichura z wiatrem powyżej 100 km/h nad częścią Polski",
+    "notes_to_editor": "Zaleca się unikanie alarmujących sformułowań w tytule, aby zwiększyć obiektywność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 15,
+    "tokens_content": 300,
+    "processing_time_ms": 120,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:37:26"
+  },
+  "summary": "W artykule opisano nadchodzącą wichurę, która ma uderzyć w północną Polskę. Przewiduje się, że wiatr osiągnie prędkość powyżej 100 km/h, co może prowadzić do niebezpiecznych warunków, zwłaszcza na otwartym morzu i w górach. Wskazano również na możliwość sztormu o maksymalnej sile w skali Beauforta.",
+  "id": 1761734123540,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/pogoda/potezna-wichura-zagrozi-czesci-polski-powieje-ponad-100-km-na-godz/r22s6ck",
+  "title": "W tę część Polski niebawem uderzy potężna wichura. Wiatr przekroczy 100 km na godz."
+}

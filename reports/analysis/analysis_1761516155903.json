@@ -1,0 +1,49 @@
+{
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "title_sensational: regex hit 'nagle' (+12), title_alarming: regex hit 'atak' (+10)",
+    "content_sensational: phrase 'atak nożem' detected (+8), content_credibility: organization names mentioned (-3)",
+    "alignment_score: calculated at 0.55, resulting in a penalty of +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'atak', co może budzić niepokój, a także 'nagle', co dodaje dramatyzmu.",
+    "Artykuł zawiera informacje o ataku, ale także wspomina o mężu ofiary, co zwiększa kontekst.",
+    "Tytuł sugeruje nagły incydent, a treść wyjaśnia sytuację, co tworzy pewną niezgodność."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational",
+      "alarming"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Mąż ugodził nożem swoją żonę, taksówkarkę w Lesznie",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć dramatyzacji sytuacji."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:14:56"
+  },
+  "summary": "W Lesznie doszło do ataku nożem na taksówkarkę, która stała na postoju. Sprawcą był jej mąż, z którym była w separacji. Kobieta została przewieziona do szpitala, a mężczyzna ma wkrótce usłyszeć zarzuty.",
+  "id": 1761516155903,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/poznan/atak-nozem-na-taksowkarke-w-lesznie-sprawca-byl-jej-maz/7ytv6gz",
+  "title": "Kobieta stała na postoju dla taksówek. Nagle mąż ugodził ją nożem"
+}

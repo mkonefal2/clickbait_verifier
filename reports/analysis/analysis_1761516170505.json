@@ -1,0 +1,52 @@
+{
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "title_superlative: regex hit 'największy' (+6), title_curiosity_gap: regex hit 'jak' (+6), title_hits_total: 12",
+    "content_sensational: phrase 'natychmiast odczuje ból' (+8), content_hits_total: 8",
+    "credibility_reduction: organization names detected (-3), numbers detected (-2), quoted speakers detected (-2), credibility_hits_total: -7",
+    "alignment_score: 0.5, penalty applied (+8)"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera pytanie, co może budzić ciekawość czytelników, ale nie ma w nim mocnych słów przesadnych.",
+    "Artykuł zawiera cytaty i dane, co zwiększa jego wiarygodność, ale używa także nieco dramatycznego języka.",
+    "Treść jest zgodna z tytułem, ale nie wprowadza w błąd."
+  ],
+  "signals": {
+    "title_hits": [
+      "superlative",
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names",
+      "numbers",
+      "quoted speakers"
+    ],
+    "mismatch": {
+      "alignment_score": 0.5,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Wpływ sankcji na rosyjskie przychody z ropy",
+    "notes_to_editor": "Rozważ użycie bardziej neutralnego tytułu, aby uniknąć wrażenia sensacyjności."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:19:54"
+  },
+  "summary": "Sekretarz skarbu USA, Scott Bessent, ocenił, że sankcje nałożone na rosyjskie koncerny naftowe mogą zmniejszyć przychody Rosji z eksportu ropy naftowej o 20-30 proc. W artykule poruszono również kwestie dotyczące współpracy z Chinami oraz wycofania groźby nałożenia wysokich ceł.",
+  "id": 1761516170505,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/sekretarz-skarbu-usa-odpowiada-kremlowi-rosja-natychmiast-odczuje-bol/sb526lj",
+  "title": "Jak sankcje wpłyną na Rosję? \"Obniżą przychody z ropy o 30 proc.\""
+}

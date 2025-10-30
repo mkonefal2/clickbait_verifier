@@ -1,0 +1,50 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_sensational: regex hit 'ponownie' (+12), implying repeated alarming events",
+    "content_sensational: phrase 'wtargnęło do jej przestrzeni powietrznej' (+8) suggests urgency",
+    "content_credibility: org names detected (-3) for National Crisis Management Center",
+    "mismatch_alignment_score: 0.65, indicating medium alignment",
+    "mismatch_exaggeration_gap: true, as title suggests sensationalism but content is factual"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł sugeruje, że sytuacja jest alarmująca, używając słowa 'ponownie', co może budzić niepokój.",
+    "Artykuł zawiera informacje o zamknięciu lotniska, co jest istotnym wydarzeniem, ale nie ma przesadnych twierdzeń.",
+    "Tytuł i treść są zgodne, ale tytuł może wprowadzać w błąd co do skali zagrożenia."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.65,
+      "exaggeration_gap": true,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Balony z Białorusi nad Litwą. Lotnisko w Wilnie zamknięte",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia sensacji."
+  },
+  "diagnostics": {
+    "tokens_title": 56,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:15:33"
+  },
+  "summary": "Litwa zamknęła lotnisko w Wilnie po tym, jak kilka balonów z Białorusi naruszyło jej przestrzeń powietrzną. To już czwarty taki incydent w tym tygodniu, co skłoniło władze do podjęcia działań w celu zapewnienia bezpieczeństwa. Informacje te pochodzą z Narodowego Centrum Zarządzania Kryzysowego.",
+  "id": 1761516157502,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/balony-z-bialorusi-ponownie-nad-litwa-wladze-zamknely-lotnisko-w-wilnie/jtd2rq3",
+  "title": "Balony z Białorusi ponownie nad Litwą. Władze zamknęły lotnisko w Wilnie"
+}

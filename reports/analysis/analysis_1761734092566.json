@@ -1,0 +1,50 @@
+{
+  "score": 55,
+  "label": "strong",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'Nie dla wszystkich' (+6), indicating a curiosity gap.",
+    "content_sensational: phrase 'skandal' detected (+8), which adds a sensational tone.",
+    "alignment_score: calculated at 0.55, indicating medium alignment with a penalty of +8.",
+    "exaggeration_gap: title suggests exclusivity but content provides credible data, leading to a penalty of +14."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł sugeruje, że nie wszyscy skorzystają z KPO, co budzi ciekawość.",
+    "W artykule pojawia się słowo 'skandal', co nadaje mu sensacyjny charakter.",
+    "Treść artykułu dostarcza wiarygodnych danych, ale tytuł może wprowadzać w błąd."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names",
+      "statistics"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": true,
+      "country_mismatch": false,
+      "time_omission": true
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Zainteresowanie Krajowym Planem Odbudowy przewyższa dostępne środki",
+    "notes_to_editor": "Rozważyć zmianę tytułu na bardziej neutralny, aby uniknąć wrażenia sensacyjności."
+  },
+  "diagnostics": {
+    "tokens_title": 8,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:27:32"
+  },
+  "summary": "Artykuł omawia zainteresowanie środkami z Krajowego Planu Odbudowy (KPO) na transformację energetyczną, które znacznie przewyższa dostępny budżet. Złożono wnioski o wartości około 150 miliardów złotych, podczas gdy podpisano umowy na prawie 82 miliardy złotych. Wskazano na kluczowe obszary wsparcia, takie jak zielona transformacja miast i rozwój energetyki odnawialnej.",
+  "id": 1761734092566,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/ekonomia/news-kto-skorzystal-z-kpo-nie-dla-wszystkich-starczylo-pieniedzy,nId,8035563",
+  "title": "Kto skorzystał z KPO? Nie dla wszystkich starczyło pieniędzy"
+}

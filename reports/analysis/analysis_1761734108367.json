@@ -1,0 +1,49 @@
+{
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "title_sensational: regex hit 'śmierdzi' (+12), title_curiosity_gap: regex hit 'sprawa' (+6)",
+    "content_sensational: phrase 'sprawa co najmniej dwuznaczna, a tak naprawdę śmierdzącą na kilometr' (+8)",
+    "credibility_reduction: organization names detected (-3), quoted speakers detected (-2)"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnego słowa 'śmierdzi', co może budzić emocje.",
+    "W artykule pojawiają się cytaty, co zwiększa jego wiarygodność.",
+    "Treść zawiera stwierdzenia, które mogą być uznane za sensacyjne."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names",
+      "quoted speakers"
+    ],
+    "mismatch": {
+      "alignment_score": 0.6,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Rzecznik rządu komentuje sprawę CPK.",
+    "notes_to_editor": "Rozważyć użycie bardziej neutralnego języka w tytule, aby uniknąć wrażenia sensacyjności."
+  },
+  "diagnostics": {
+    "tokens_title": 15,
+    "tokens_content": 287,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:33:17"
+  },
+  "summary": "Artykuł opisuje odpowiedź rzecznika rządu Adama Szłapki na komentarze byłego pełnomocnika rządu dotyczące sprawy CPK. Szłapka podkreśla, że sytuacja jest niejednoznaczna i budzi wątpliwości, co może sugerować problemy z przejrzystością procesu sprzedaży działki.",
+  "id": 1761734108367,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/adam-szlapka-odpowiada-politykowi-pis-w-sprawie-cpk-sprawa-smierdzi-na-kilometr/0h97h1s",
+  "title": "Rzecznik rządu odpowiada politykowi PiS w sprawie CPK. \"Sprawa śmierdzi na kilometr\""
+}

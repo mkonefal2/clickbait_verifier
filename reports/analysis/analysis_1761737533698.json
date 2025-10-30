@@ -1,0 +1,58 @@
+{
+  "score": 24,
+  "label": "not_clickbait",
+  "rationale": [
+    "title_superlative: no hits, (+0)",
+    "title_absolute: no hits, (+0)",
+    "title_sensational: no hits, (+0)",
+    "title_alarming: no hits, (+0)",
+    "title_curiosity_gap: no hits, (+0)",
+    "title_listicle: no hits, (+0)",
+    "title_punctuation: no hits, (+0)",
+    "content_overcertainty: no hits, (+0)",
+    "content_sensational: no hits, (+0)",
+    "content_credibility: org names detected (-3), numbers/dates/statistics detected (-2), quoted speakers detected (-2)",
+    "content_hedging: no hits, (+0)",
+    "alignment_score: 0.85, no penalty",
+    "exaggeration_gap: false",
+    "country_mismatch: false",
+    "time_omission: false"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł nie zawiera przesadnych lub sensacyjnych słów, co czyni go informacyjnym.",
+    "Artykuł opiera się na faktach i cytatach, co zwiększa jego wiarygodność.",
+    "Treść jest zgodna z tytułem, a informacje są jasne i konkretne."
+  ],
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "organization names",
+      "numbers/dates/statistics",
+      "quoted speakers"
+    ],
+    "mismatch": {
+      "alignment_score": 0.85,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "MON komentuje doniesienia o obecności wojsk USA w Europie Wschodniej",
+    "notes_to_editor": "Zaleca się unikanie sensacyjnych tytułów, aby zachować neutralność i informacyjny charakter artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 62,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:51:45"
+  },
+  "summary": "Ministerstwo Obrony Narodowej (MON) odnosi się do doniesień o możliwej redukcji amerykańskich wojsk w Europie Wschodniej. Rzecznik MON, Janusz Sejmej, potwierdził, że Polska nie otrzymała informacji o zmniejszeniu obecności wojsk USA. Władysław Kosiniak-Kamysz podkreślił, że Polska i USA są silnymi sojusznikami.",
+  "id": 1761737533698,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/mon-reaguje-na-doniesienia-o-redukcji-wojsk-usa-w-europie-wschodniej/nllym5b",
+  "title": "MON reaguje na doniesienia o redukcji wojsk USA w Europie Wschodniej"
+}

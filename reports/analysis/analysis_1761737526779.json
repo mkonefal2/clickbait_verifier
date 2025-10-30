@@ -1,0 +1,47 @@
+{
+  "score": 20,
+  "label": "not_clickbait",
+  "rationale": [
+    "title_hits: no superlatives, absolutes, sensational language, or curiosity gaps detected (0 points).",
+    "content_hits: no sensational phrases detected (0 points).",
+    "credibility_hits: organization names mentioned (-3), numbers/dates/statistics mentioned (-2), quoted speakers (-2) resulting in a total of -7 points.",
+    "mismatch: alignment_score calculated as 0.85, indicating high alignment with no penalties."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jest neutralny i nie zawiera przesadnych słów ani obietnic.",
+    "Artykuł zawiera konkretne informacje o incydencie, co zwiększa jego wiarygodność.",
+    "Nie ma rozbieżności między tytułem a treścią, ponieważ obie dotyczą wydarzenia w Warszawie."
+  ],
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "organization names",
+      "numbers/dates/statistics",
+      "quoted speakers"
+    ],
+    "mismatch": {
+      "alignment_score": 0.85,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Policja poszukuje podejrzanych o brutalne pobicie w Warszawie",
+    "notes_to_editor": "Zaleca się unikanie dramatyzacji w tytule, aby lepiej odzwierciedlić treść artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 43,
+    "tokens_content": 299,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:48:12"
+  },
+  "summary": "Policja w Warszawie prowadzi poszukiwania trzech młodych mężczyzn podejrzewanych o brutalne pobicie. Incydent miał miejsce na ul. Marszałkowskiej, gdzie ofiara doznała poważnych obrażeń. Policja apeluje do mieszkańców o pomoc w identyfikacji sprawców.",
+  "id": 1761737526779,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/warszawa/news-pilny-apel-policja-poszukuje-podejrzanych-o-brutalne-pobicie,nId,8035613",
+  "title": "Pilny apel. Policja poszukuje podejrzanych o brutalne pobicie"
+}

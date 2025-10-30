@@ -1,0 +1,50 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_sensational: regex hit 'ma dość' (+12), implying strong emotion.",
+    "content_sensational: phrase 'trwałe zamknięcie granicy' detected (+8).",
+    "content_credibility: organization names mentioned (-3).",
+    "alignment_score: calculated as 0.55, resulting in a penalty of +8."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł sugeruje silne emocje, co może przyciągać uwagę.",
+    "W treści użyto mocnych sformułowań, co zwiększa dramatyzm.",
+    "Artykuł odnosi się do konkretnej organizacji, co może wpływać na wiarygodność.",
+    "Treść dobrze wspiera tytuł, ale nieco przesadza w emocjach."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Prezydent Litwy proponuje reakcje wobec Białorusi i Kaliningradu",
+    "notes_to_editor": "Rozważyć złagodzenie emocjonalnego tonu tytułu, aby lepiej odzwierciedlał treść artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:18:42"
+  },
+  "summary": "Prezydent Litwy Gitanas Nauseda zaproponował ograniczenie tranzytu do Kaliningradu oraz zamknięcie granicy z Białorusią w odpowiedzi na incydenty z balonami. W związku z tym, lotnisko w Wilnie zostało ponownie zamknięte. Propozycje mają na celu zwiększenie bezpieczeństwa kraju.",
+  "id": 1761516167230,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/prezydent-litwy-ma-dosc-proponuje-reakcje-wymierzone-w-bialorus-i-kaliningrad/581h29z",
+  "title": "Prezydent Litwy ma dość. Proponuje ostrą reakcję wobec Białorusi"
+}

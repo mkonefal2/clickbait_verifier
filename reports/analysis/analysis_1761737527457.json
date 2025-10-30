@@ -1,0 +1,57 @@
+{
+  "score": 24,
+  "label": "not_clickbait",
+  "rationale": [
+    "title_superlative: no hits detected (0)",
+    "title_absolute: no hits detected (0)",
+    "title_sensational: no hits detected (0)",
+    "title_alarming: no hits detected (0)",
+    "title_curiosity_gap: no hits detected (0)",
+    "title_listicle: no hits detected (0)",
+    "title_punctuation: no hits detected (0)",
+    "content_overcertainty: no hits detected (0)",
+    "content_sensational: no hits detected (0)",
+    "credibility_reductions: organization names/sources mentioned (-3), numbers/dates/statistics (-2)",
+    "hedging_reductions: no hits detected (0)",
+    "alignment_score: 1.0 (high alignment, no penalty)",
+    "exaggeration_gap: false",
+    "country_mismatch: false",
+    "time_omission: false"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł nie zawiera przesadnych słów ani alarmujących stwierdzeń.",
+    "Artykuł dostarcza konkretnych informacji o zmianach w organizacji ruchu we Wrocławiu.",
+    "Zawiera szczegóły dotyczące dat i lokalizacji, co zwiększa jego wiarygodność."
+  ],
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "organization names/sources mentioned",
+      "numbers/dates/statistics"
+    ],
+    "mismatch": {
+      "alignment_score": 1.0,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Zmiany w organizacji ruchu wokół cmentarzy we Wrocławiu",
+    "notes_to_editor": "Tytuł jest neutralny i informacyjny, co dobrze odzwierciedla treść artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 63,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:48:27"
+  },
+  "summary": "Wrocław wprowadza zmiany w organizacji ruchu wokół 14 miejskich cmentarzy z okazji Wszystkich Świętych. Ulice zostaną zamknięte, a miasto uruchomi dodatkowe linie komunikacji miejskiej, aby ułatwić dojazd do nekropolii. Kierowcy muszą liczyć się z utrudnieniami w rejonie cmentarzy.",
+  "id": 1761737527457,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/wroclaw/news-zmiany-w-organizacji-ruchu-wokol-cmentarzy-tego-moga-spodzie,nId,8035633",
+  "title": "Zmiany w organizacji ruchu wokół cmentarzy. Tego mogą spodziewać się wrocławianie"
+}

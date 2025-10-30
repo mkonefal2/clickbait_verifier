@@ -1,0 +1,49 @@
+{
+  "score": 55,
+  "label": "strong",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'Bez tego nie pokona' (+6), title_sensational: regex hit 'pragnie' (+12)",
+    "content_sensational: phrase 'korespondent drży z zimna' (+8), content_credibility: org names detected (-3)",
+    "alignment_score: 0.5, penalty for medium alignment (+8)"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera intrygujące stwierdzenie, które wzbudza ciekawość, sugerując, że Trump pragnie czegoś od Finlandii.",
+    "W treści pojawiają się emocjonalne opisy, co może budzić wrażenie sensacji.",
+    "Artykuł zawiera informacje o inżynierach i lodołamaczach, co zwiększa jego wiarygodność."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap",
+      "sensational"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.5,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Finlandia ma coś, co może pomóc Trumpowi w relacjach z Putinem i Xi",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia sensacji."
+  },
+  "diagnostics": {
+    "tokens_title": 66,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:17:00"
+  },
+  "summary": "Artykuł opisuje fińskich inżynierów testujących lodołamacze w Helsinkach. Zawiera informacje na temat znaczenia technologii lodołamaczy w kontekście relacji międzynarodowych, w tym z Rosją i Chinami. Podkreśla, że Finlandia posiada unikalne zasoby, które mogą być istotne dla Stanów Zjednoczonych.",
+  "id": 1761516161977,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/finlandia-ma-cos-czego-trump-pragnie-bez-tego-nie-pokona-putina-ani-xi/88cdy06",
+  "title": "Finlandia ma coś, czego Trump bardzo pragnie. Bez tego nie pokona Putina ani Xi"
+}

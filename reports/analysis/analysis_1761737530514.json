@@ -1,0 +1,50 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'wymaga ochrony i czujności' (+6), suggesting a need for attention.",
+    "content_sensational: phrases like 'wolność akademicka nie jest jakimś dodatkowym przywilejem' (+8) indicate a strong stance.",
+    "content_credibility: organization names detected (-3), contributing to credibility.",
+    "alignment_score: calculated at 0.55, indicating medium alignment with a penalty of +8."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł sugeruje, że temat wymaga szczególnej uwagi, co może wzbudzać ciekawość.",
+    "Artykuł zawiera mocne stwierdzenia na temat wolności akademickiej, co nadaje mu dramatyzmu.",
+    "W treści pojawiają się nazwy organizacji, co zwiększa wiarygodność informacji.",
+    "Treść w pewnym stopniu wspiera obietnice tytułu, ale nie w pełni."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Naukowcy podkreślają znaczenie ochrony wolności akademickiej",
+    "notes_to_editor": "Zaleca się unikanie sformułowań, które mogą wywoływać nadmierne emocje lub ciekawość."
+  },
+  "diagnostics": {
+    "tokens_title": 43,
+    "tokens_content": 2992,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:49:38"
+  },
+  "summary": "Artykuł omawia znaczenie wolności akademickiej oraz potrzebę jej ochrony przed politycznymi i finansowymi naciskami. Naukowcy z Akademii Młodych Uczonych PAN i Szwedzkiej Młodej Akademii podkreślają, że wolność ta jest kluczowa dla niezależnych badań i nauczania. Wspominają również o Sztokholmskiej Karcie Wolności Akademickiej jako dokumencie wzywającym do jej ochrony.",
+  "id": 1761737530514,
+  "source": "naukawpolsce",
+  "url": "https://naukawpolsce.pl/aktualnosci/news%2C107913%2Cnaukowcy-wolnosc-akademicka-wymaga-ochrony-i-czujnosci.html",
+  "title": "Naukowcy: wolność akademicka wymaga ochrony i czujności"
+}

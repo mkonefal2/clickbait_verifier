@@ -1,0 +1,50 @@
+{
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "title_superlative: regex hit 'rzadka' (+6), title_curiosity_gap: regex hit 'zobacz' (+6), content_sensational: phrase 'prawdziwy skarb historii' (+8), content_sensational: phrase 'archeologiczna sensacja' (+8), content_credibility: organization names detected (-3), content_credibility: numbers/dates/statistics detected (-4)",
+    "alignment_score: 0.6, penalty for medium alignment (+8), no country mismatch, no time omission"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'rzadka', co może sugerować coś wyjątkowego, oraz zachęca do obejrzenia treści.",
+    "W artykule pojawiają się mocne sformułowania, takie jak 'prawdziwy skarb historii', co może budzić emocje.",
+    "Artykuł zawiera dane liczbowe i nazwy organizacji, co zwiększa jego wiarygodność."
+  ],
+  "signals": {
+    "title_hits": [
+      "rzadka",
+      "zobacz"
+    ],
+    "content_hits": [
+      "prawdziwy skarb historii",
+      "archeologiczna sensacja"
+    ],
+    "credibility_hits": [
+      "Muzeum Króla Świętego Stefana",
+      "670-690"
+    ],
+    "mismatch": {
+      "alignment_score": 0.6,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Odkrycie 1300-letniego grobu awarskiego wojownika na Węgrzech",
+    "notes_to_editor": "Zaleca się unikanie użycia słów, które mogą wprowadzać w błąd lub budzić przesadne oczekiwania."
+  },
+  "diagnostics": {
+    "tokens_title": 15,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:45:26"
+  },
+  "summary": "Archeolodzy na Węgrzech odkryli grób awarskiego wojownika sprzed 1300 lat, w którym znaleziono rzadką szablę oraz bogate dary grobowe. Odkrycie rzuca nowe światło na kulturę Awarów, którzy przez 200 lat rządzili dużą częścią Europy. W artykule opisano również trudności związane z wydobyciem artefaktów.",
+  "id": 1761737520980,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/nauka/news-1300-letni-grob-awarskiego-wojownika-z-rzadka-szabla-zobacz-,nId,8035620",
+  "title": "1300-letni grób awarskiego wojownika z rzadką szablą. Zobacz, co znaleźli archeolodzy na Węgrzech"
+}

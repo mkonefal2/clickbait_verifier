@@ -1,0 +1,48 @@
+{
+  "score": 60,
+  "label": "strong",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'jak zużyty zderzak' (+6), title_sensational: regex hit 'afera' (+12), title_sensational: regex hit 'Kaczyński' (+12)",
+    "content_sensational: phrase 'afera z działką pod CPK' (+8), content_hedging: phrase 'może' detected (-2)",
+    "alignment_score: 0.55, penalty for medium alignment (+8)"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera intrygujące sformułowanie 'jak zużyty zderzak', co wzbudza ciekawość czytelników.",
+    "Artykuł używa słowa 'afera', co nadaje mu sensacyjny charakter.",
+    "Treść nieco odbiega od obietnic tytułu, co wpływa na wiarygodność."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap",
+      "sensational"
+    ],
+    "content_hits": [
+      "sensational",
+      "hedging"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Wieś Telusa komentuje sytuację z CPK i reakcje Kaczyńskiego",
+    "notes_to_editor": "Zaleca się unikanie sensacyjnych sformułowań w tytule, aby zwiększyć wiarygodność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 64,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:36:53"
+  },
+  "summary": "Artykuł omawia reakcje mieszkańców wsi Roberta Telusa na kontrowersje związane z Centralnym Portem Komunikacyjnym (CPK). Wiele osób broni Telusa, wskazując na jego wiarę i uczciwość, mimo że pojawiły się wątpliwości dotyczące jego zawieszenia w prawach członka partii przez Jarosława Kaczyńskiego.",
+  "id": 1761734121400,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/lodz/wies-telusa-reaguje-na-afere-z-cpk-kaczynski-zostawi-roberta-jak-zuzyty-zderzak/5fel9c0",
+  "title": "Wieś Telusa reaguje na aferę z CPK. \"Kaczyński zostawi Roberta jak zużyty zderzak\""
+}

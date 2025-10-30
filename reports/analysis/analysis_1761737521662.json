@@ -1,0 +1,51 @@
+{
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "title_sensational: regex hit 'Niezwykłe' (+12), title_curiosity_gap: regex hit 'uchwycone' (+6)",
+    "content_sensational: phrase 'nawet mała kolonia szczurów może zabić do 7 proc. populacji nietoperzy' (+8)",
+    "content_credibility: organization names detected (-3), numbers detected (-2)",
+    "alignment_score: 0.55 (medium alignment), penalty +8 for medium alignment"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera słowo 'Niezwykłe', co nadaje mu sensacyjny charakter.",
+    "W treści pojawia się informacja o zagrożeniu dla nietoperzy, co może budzić niepokój.",
+    "Artykuł zawiera konkretne liczby i dane, co zwiększa jego wiarygodność."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational",
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names",
+      "numbers"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": true,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Szczury polują na nietoperze: nowe odkrycia naukowców",
+    "notes_to_editor": "Zaleca się unikanie sensacyjnych sformułowań w tytule, aby zwiększyć wiarygodność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 292,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:45:45"
+  },
+  "summary": "Naukowcy po raz pierwszy zaobserwowali szczury polujące na nietoperze w miejskich miejscach ich hibernacji. Badania wykazały, że nawet niewielka kolonia szczurów może zagrażać lokalnym populacjom nietoperzy, co może mieć poważne konsekwencje dla tych ssaków. Ochrona nietoperzy jest kluczowa dla ekosystemów, w których pełnią ważne funkcje.",
+  "id": 1761737521662,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/nauka/news-szczury-atakuja-nietoperze-w-locie-niezwykle-polowanie-uchwy,nId,8035621",
+  "title": "Szczury atakują nietoperze w locie. Niezwykłe polowanie uchwycone na kamerze"
+}

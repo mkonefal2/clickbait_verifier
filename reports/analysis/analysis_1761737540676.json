@@ -1,0 +1,47 @@
+{
+  "score": 65,
+  "label": "strong",
+  "rationale": [
+    "title_sensational: regex hit 'fatwa' (+12), title_sensational: regex hit 'radykał' (+12), title_curiosity_gap: regex hit 'idzie po władzę' (+6)",
+    "content_sensational: phrase 'atakujący pijanych Polaków' (+8), content_sensational: phrase 'totalny eksperyment' (+8)",
+    "alignment_score: 0.5, penalty for medium alignment (+8)"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów jak 'fatwa' i 'radykał', co wzbudza emocje i zainteresowanie.",
+    "Artykuł opisuje kontrowersyjnego polityka, co również przyciąga uwagę.",
+    "Tytuł sugeruje silny związek z wydarzeniami w Holandii, ale treść nieco odbiega od tego."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational",
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.5,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Geert Wilders pod stałą ochroną z powodu fatwy i dąży do władzy w Holandii.",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć przesadnych emocji."
+  },
+  "diagnostics": {
+    "tokens_title": 16,
+    "tokens_content": 297,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:58:50"
+  },
+  "summary": "Geert Wilders, lider Partii Wolności w Holandii, żyje pod stałą ochroną policji z powodu wydanej na niego fatwy. Jego kontrowersyjne poglądy i działania przyciągają uwagę zarówno w kraju, jak i za granicą. W nadchodzących wyborach jego partia ma szansę na znaczący wpływ na politykę holenderską.",
+  "id": 1761737540676,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/ciazy-na-nim-fatwa-wiec-nie-rusza-sie-bez-obstawy-nawet-do-toalety-radykal-idzie-po/qwvnek3",
+  "title": "Ciąży na nim fatwa, więc nie rusza się bez obstawy nawet do toalety. Radykał idzie po władzę w Holandii"
+}

@@ -1,0 +1,50 @@
+{
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'Co stało się z 25-latkami' (+6)",
+    "content_sensational: phrase 'zniknięcie było świadomym wyborem' (+8)",
+    "content_credibility: organization names detected (-3)",
+    "alignment_score: 0.6 (medium alignment) → penalty +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera pytanie, które wzbudza ciekawość czytelnika.",
+    "W treści użyto sformułowania, które może wydawać się sensacyjne.",
+    "Artykuł odnosi się do działań policji, co zwiększa jego wiarygodność.",
+    "Treść dobrze odpowiada na pytanie postawione w tytule."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.6,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Zaginione małżeństwo z Sopotu odnalezione po poszukiwaniach",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia sensacji."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:41:56"
+  },
+  "summary": "Zaginione małżeństwo z Sopotu, Tomasz i Karolina W., zostało odnalezione po intensywnych poszukiwaniach. Policja potwierdziła, że ich zniknięcie było świadomym wyborem, a para postanowiła rozpocząć nowe życie w anonimowości. Artykuł informuje o zakończeniu sprawy przez sopocką policję.",
+  "id": 1761734137978,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/trojmiasto/zaginione-malzenstwo-z-sopotu-odnalezione-postanowili-rozpoczac-nowe-zycie/5mdgx10",
+  "title": "Rodzina zgłosiła zaginięcie, policja zakończyła sprawę. Co stało się z 25-latkami"
+}

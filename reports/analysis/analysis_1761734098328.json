@@ -1,0 +1,49 @@
+{
+  "score": 55,
+  "label": "strong",
+  "rationale": [
+    "title_superlative: regex hit 'największy' (+6), title_curiosity_gap: regex hit 'oto co' (+6), title_punctuation: regex hit '?' (+4)",
+    "content_sensational: phrase 'najwyższe odznaczenie' detected (+8), content_hedging: 'może' detected (-2)",
+    "alignment_score: 0.5, resulting in penalty +8 for medium alignment"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'największy', co może wprowadzać w błąd co do jego znaczenia.",
+    "W treści pojawiają się emocjonalne sformułowania, co zwiększa wrażenie sensacyjności.",
+    "Artykuł zawiera pewne niepewności, co wpływa na jego wiarygodność."
+  ],
+  "signals": {
+    "title_hits": [
+      "największy",
+      "oto co",
+      "?"
+    ],
+    "content_hits": [
+      "najwyższe odznaczenie",
+      "może"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.5,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Donald Trump otrzymał replikę korony w Korei Południowej",
+    "notes_to_editor": "Rozważ użycie bardziej neutralnego tytułu, aby uniknąć wrażenia sensacyjności."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 298,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:29:13"
+  },
+  "summary": "Donald Trump został uroczyście powitany w Korei Południowej, gdzie otrzymał replikę korony dynastii Silla oraz najwyższe odznaczenie państwowe Korei. Jego wizyta związana jest z szczytem APEC, na którym omawiane będą kwestie współpracy gospodarczej oraz umowy handlowej z Koreą Południową. W artykule poruszono również zaplanowane spotkanie Trumpa z Xi Jinpingiem.",
+  "id": 1761734098328,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/swiat/news-trump-powitany-po-krolewsku-oto-co-dostal-w-korei-poludniowe,nId,8035548",
+  "title": "Trump powitany po królewsku. Oto co dostał w Korei Południowej"
+}

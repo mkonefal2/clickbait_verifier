@@ -1,0 +1,57 @@
+{
+  "score": 24,
+  "label": "not_clickbait",
+  "rationale": [
+    "title_superlative: no hits detected (0)",
+    "title_absolutes: no hits detected (0)",
+    "title_sensational: no hits detected (0)",
+    "title_alarming: no hits detected (0)",
+    "title_curiosity_gap: no hits detected (0)",
+    "title_listicle: no hits detected (0)",
+    "title_punctuation: no hits detected (0)",
+    "content_overcertainty: no hits detected (0)",
+    "content_sensational: no hits detected (0)",
+    "content_credibility: org names detected (-3), numbers detected (-2)",
+    "content_hedging: no hits detected (0)",
+    "alignment_score: 0.85 (high alignment, no penalty)",
+    "exaggeration_gap: false",
+    "country_mismatch: false",
+    "time_omission: false"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł nie zawiera przesadnych słów ani wyrażeń, co czyni go neutralnym.",
+    "Artykuł dostarcza konkretne informacje o zdarzeniu, co zwiększa jego wiarygodność.",
+    "Nie ma żadnych niezgodności geograficznych ani czasowych w treści."
+  ],
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "Organization names detected",
+      "Numbers detected"
+    ],
+    "mismatch": {
+      "alignment_score": 0.85,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Działania kierowców komunikacji miejskiej doprowadziły do zatrzymania pijanego kierowcy",
+    "notes_to_editor": "Zaleca się unikanie emocjonalnych lub przesadnych sformułowań w tytule."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:46:47"
+  },
+  "summary": "Dwóch kierowców gdańskiej komunikacji miejskiej zatrzymało pijanego kierowcę, który miał ponad 2 promile alkoholu w organizmie. Mężczyzna próbował uciec, a następnie zderzył się z autobusem. Policja przeprowadziła dochodzenie, a zatrzymany 48-latek zostanie przesłuchany po wytrzeźwieniu.",
+  "id": 1761737525245,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/trojmiasto/news-dostrzegli-i-zatrzymali-sprawna-akcja-dwoch-kierowcow-komuni,nId,8035615",
+  "title": "Dostrzegli i zatrzymali. Sprawna akcja dwóch kierowców komunikacji miejskiej"
+}

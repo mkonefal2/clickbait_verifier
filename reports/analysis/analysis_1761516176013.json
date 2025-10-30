@@ -1,0 +1,50 @@
+{
+  "score": 25,
+  "label": "mild",
+  "rationale": [
+    "title_sensational: regex hit 'zaskoczyła' (+12), title_curiosity_gap: regex hit 'zaskoczyła' (+6)",
+    "content_sensational: phrase 'droga była całkowicie nieprzejezdna' (+8)",
+    "credibility_reduction: organization names detected (-3)",
+    "alignment_score: 0.5, penalty for medium alignment (+8)"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'zaskoczyła', co może budzić zainteresowanie czytelników.",
+    "Artykuł zawiera informacje o nieprzejezdnej drodze, co dodaje dramatyzmu.",
+    "W artykule wspomniana jest policja, co może zwiększać wiarygodność, ale nie ma cytatów ekspertów."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational",
+      "curiosity gap"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.5,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Spadł śnieg przy granicy z Czechami, co zaskoczyło kierowców",
+    "notes_to_editor": "Rozważyć użycie bardziej neutralnego języka w tytule, aby uniknąć wrażenia sensacyjności."
+  },
+  "diagnostics": {
+    "tokens_title": 11,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:22:50"
+  },
+  "summary": "W Jakuszycach, przy granicy z Czechami, spadł śnieg, co zaskoczyło mieszkańców i kierowców. Droga stała się całkowicie nieprzejezdna, co spowodowało problemy z transportem. Policja w Jeleniej Górze informuje o trudnych warunkach na drogach w regionie.",
+  "id": 1761516176013,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/wroclaw/spadl-snieg-przy-granicy-z-czechami/33y9xmh",
+  "title": "Pogoda zaskoczyła kierowców przy granicy z Czechami. Spadł śnieg"
+}

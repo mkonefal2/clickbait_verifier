@@ -1,0 +1,44 @@
+{
+  "score": 24,
+  "label": "not_clickbait",
+  "rationale": [
+    "title_superlative: no hits detected (0), title_absolutes: no hits detected (0), title_sensational: no hits detected (0), title_alarming: no hits detected (0), title_curiosity_gap: no hits detected (0), title_listicle: no hits detected (0), title_punctuation: no hits detected (0)",
+    "content_overcertainty: no hits detected (0), content_sensational: no hits detected (0), credibility_org_names: KOWR detected (-3), credibility_numbers: no hits detected (0), credibility_quoted_speakers: no hits detected (0), credibility_scientific_terms: no hits detected (0), content_hedging: no hits detected (0)",
+    "alignment_score: 0.75, no penalties applied, final score calculated as (0.4 * 0) + (0.15 * -3) + (0.4 * 0) = 0.0 - rounded to 0.0"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł nie zawiera mocnych słów ani przesadnych stwierdzeń, co czyni go informacyjnym.",
+    "Artykuł odnosi się do konkretnej sytuacji dotyczącej KOWR, ale nie zawiera żadnych sensacyjnych zwrotów.",
+    "Treść jest zgodna z tytułem, co potwierdza wysoki wskaźnik zgodności."
+  ],
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "KOWR"
+    ],
+    "mismatch": {
+      "alignment_score": 0.75,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "KOWR żąda zwrotu działki pod CPK",
+    "notes_to_editor": "Zaleca się unikanie niejasnych sformułowań w tytule, aby zwiększyć przejrzystość."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:52:18"
+  },
+  "summary": "Artykuł informuje o planowanym żądaniu Krajowego Ośrodka Wsparcia Rolnictwa dotyczącego zwrotu działki w Zabłotni. Wiceprezes spółki Dawtona, Piotr Wielgomas, ma otrzymać pismo w tej sprawie. Informacje pochodzą z Polsat News.",
+  "id": 1761737534574,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/nieoficjalnie-ruch-kowr-w-sprawie-dzialki-pod-cpk/2jbw5s5",
+  "title": "Nieoficjalnie: ruch KOWR w sprawie działki pod CPK"
+}

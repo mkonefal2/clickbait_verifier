@@ -1,0 +1,49 @@
+{
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "title_superlative: regex hit 'największy' (+6), title_sensational: regex hit 'szok' (+12), content_sensational: phrase 'niewiarygodny' detected (+8), content_credibility: org names detected (-3), content_credibility: numbers/dates detected (-2), mismatch_alignment: alignment score 0.4 (+18 penalty)",
+    "The title includes a superlative and sensational language, while the content has some sensational phrases but also credible elements. The alignment score indicates a low match between title and content, leading to a penalty."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnego słowa 'największy', co tworzy przesadne oczekiwania, a także zawiera słowo 'szok', które jest sensacyjne.",
+    "W treści występują sensacyjne zwroty, ale są też elementy zwiększające wiarygodność, jak daty i liczby.",
+    "Tytuł sugeruje, że wydarzenie miało miejsce w Polsce, ale treść dotyczy Stanów Zjednoczonych."
+  ],
+  "signals": {
+    "title_hits": [
+      "największy",
+      "szok"
+    ],
+    "content_hits": [
+      "niewiarygodny"
+    ],
+    "credibility_hits": [
+      "organization names",
+      "numbers/dates"
+    ],
+    "mismatch": {
+      "alignment_score": 0.4,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Zamach na prezydenta Williama McKinleya: historia Leona Czołgosza",
+    "notes_to_editor": "Rozważ użycie bardziej neutralnego tytułu, aby uniknąć wrażenia sensacyjności."
+  },
+  "diagnostics": {
+    "tokens_title": 12,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:33:02"
+  },
+  "summary": "Artykuł opisuje zamach na prezydenta Williama McKinleya, dokonany przez Leona Czołgosza, syna polskich imigrantów. Proces Czołgosza trwał tylko jeden dzień, a on sam został skazany na karę śmierci. W artykule przedstawiono również szczegóły dotyczące egzekucji i kontekstu historycznego tego wydarzenia.",
+  "id": 1761734107618,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/ciekawostki/leon-czolgosz-zastrzelil-prezydenta-william-mckinley-byl-wrogiem-ludzi/3rtlpjj",
+  "title": "William McKinley zginął z rąk syna polskich imigrantów. Proces trwał dzień"
+}

@@ -1,0 +1,48 @@
+{
+  "score": 50,
+  "label": "strong",
+  "rationale": [
+    "title_sensational: regex hit 'burza w sieci' (+12), 'zdjęcie z psem' (+0), 'w tle mapa frontu' (+0)",
+    "content_sensational: phrase 'rażąco naruszył bezpieczeństwo' (+8)",
+    "alignment_score: 0.5 (medium alignment) → penalty +8",
+    "exaggeration_gap: title is sensational but content has credibility → penalty +14"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnego sformułowania 'burza w sieci', co sugeruje duże emocje.",
+    "W artykule pojawia się stwierdzenie o naruszeniu bezpieczeństwa, co zwiększa dramatyzm.",
+    "Treść artykułu częściowo wspiera tytuł, ale nie w pełni, co prowadzi do dodatkowych punktów za niezgodność."
+  ],
+  "signals": {
+    "title_hits": [
+      "burza w sieci",
+      "zdjęcie z psem"
+    ],
+    "content_hits": [
+      "rażąco naruszył bezpieczeństwo"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.5,
+      "exaggeration_gap": true,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Ukraiński oficer opublikował zdjęcie z psem i mapami frontu",
+    "notes_to_editor": "Zaleca się unikanie przesadnych sformułowań w tytule, aby zwiększyć wiarygodność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:40:50"
+  },
+  "summary": "Ukraiński pułkownik Wałentyn Manko opublikował zdjęcia ze swoim psem, na których w tle widoczne są mapy frontu. W związku z tym pojawiły się obawy o bezpieczeństwo, ponieważ zdjęcia mogą ujawniać wrażliwe informacje. Oficer określił sytuację jako prowokację.",
+  "id": 1761734133509,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/ukrainski-oficer-wywolal-burze-w-sieci-pokazal-zdjecie-z-psem-i-mapami/5mfme1b",
+  "title": "Ukraiński oficer wywołał burzę w sieci. Pokazał zdjęcie z psem. W tle mapa frontu"
+}

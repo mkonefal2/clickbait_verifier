@@ -1,0 +1,61 @@
+{
+  "score": 24,
+  "label": "not_clickbait",
+  "rationale": [
+    "title_superlative: no hits detected (+0)",
+    "title_absolute: no hits detected (+0)",
+    "title_sensational: no hits detected (+0)",
+    "title_alarming: no hits detected (+0)",
+    "title_curiosity_gap: no hits detected (+0)",
+    "title_listicle: no hits detected (+0)",
+    "title_punctuation: one question mark detected (+4)",
+    "content_overcertainty: no hits detected (+0)",
+    "content_sensational: no hits detected (+0)",
+    "credibility_org_names: organization names detected (-3)",
+    "credibility_numbers: no numbers detected (-0)",
+    "credibility_quoted_speakers: no quotes detected (-0)",
+    "credibility_scientific_terms: no scientific terms detected (-0)",
+    "credibility_hedging: no hedging detected (-0)",
+    "alignment_score: 0.85, no penalty applied",
+    "exaggeration_gap: false, no penalty applied",
+    "country_mismatch: false, no penalty applied",
+    "time_omission: false, no penalty applied"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł nie zawiera mocnych słów ani przesadnych stwierdzeń.",
+    "Artykuł przedstawia konkretne informacje na temat dodatków dla seniorów.",
+    "Nie ma w nim przesadnych oczekiwań ani sensacyjnych zwrotów."
+  ],
+  "signals": {
+    "title_hits": [
+      "punctuation_questions"
+    ],
+    "content_hits": [],
+    "credibility_hits": [
+      "org_names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.85,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Dodatki dla seniorów po 65. roku życia: dostępne świadczenia",
+    "notes_to_editor": "Zaleca się unikanie pytań w tytule, aby zwiększyć neutralność."
+  },
+  "diagnostics": {
+    "tokens_title": 66,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:50:52"
+  },
+  "summary": "Artykuł omawia różne dodatki, które przysługują osobom po 65. roku życia, w tym emerytom i rencistom. Zawiera informacje na temat warunków, jakie należy spełnić, aby ubiegać się o te świadczenia. Wskazano, że niektóre dodatki są dostępne dla wszystkich seniorów, podczas gdy inne wymagają spełnienia określonych kryteriów.",
+  "id": 1761737532459,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/dodatki-dla-seniora-po-65-roku-zycia-o-jakie-swiadczenia-mozna-sie-ubiegac/bl0rc8l",
+  "title": "Dodatki dla seniora po 65. roku życia. O jakie świadczenia można się ubiegać?"
+}

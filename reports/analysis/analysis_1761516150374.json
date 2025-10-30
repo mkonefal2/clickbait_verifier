@@ -1,0 +1,48 @@
+{
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "title_sensational: regex hit 'zła wiadomość' (+12), title_alarm: regex hit 'pożar' (+10)",
+    "content_sensational: phrase 'ogromnym pożarem' detected (+8), content_hedging: 'pewnie' detected (-2)",
+    "alignment_score: calculated alignment score is 0.55, resulting in a penalty of +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słów 'zła wiadomość', co może budzić niepokój.",
+    "W treści pojawia się informacja o 'ogromnym pożarze', co zwiększa dramatyzm.",
+    "Artykuł zawiera pewne niepewności, co zmniejsza jego wiarygodność."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational",
+      "alarm"
+    ],
+    "content_hits": [
+      "sensational",
+      "hedging"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Pożar sortowni odpadów w Elblągu - informacje od prezydenta",
+    "notes_to_editor": "Zaleca się unikanie dramatycznych sformułowań w tytule, aby zwiększyć obiektywność."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:14:12"
+  },
+  "summary": "W Elblągu doszło do dużego pożaru sortowni odpadów, co spowodowało znaczne zadymienie. Prezydent miasta, Michał Missan, poinformował, że sortownię będzie trzeba odbudować, a zakład musi się przystosować do nowej sytuacji związanej z odpadami w mieście.",
+  "id": 1761516150374,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/olsztyn/duzy-pozar-sortowni-odpadow-w-elblagu-prezydent-miasta-ma-zla-wiadomosc/tcr42m3",
+  "title": "Duży pożar sortowni odpadów w Elblągu. Prezydent ma złą wiadomość"
+}

@@ -1,0 +1,51 @@
+{
+  "score": 25,
+  "label": "mild",
+  "rationale": [
+    "title_superlative: regex hit 'ogromna' (+6), title_curiosity_gap: regex hit 'kim jest' (+6)",
+    "content_sensational: phrase 'anonimowo przekazał gigantyczną darowiznę' (+8)",
+    "credibility_reduction: organization names detected (-3), numbers detected (-2)",
+    "alignment_score: calculated at 0.6, resulting in a penalty of +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'ogromna', co może sugerować przesadne oczekiwania.",
+    "Artykuł zawiera informacje o darowiznie, co zwiększa wiarygodność.",
+    "Tytuł sugeruje, że darczyńca jest tajemniczy, ale treść ujawnia jego tożsamość."
+  ],
+  "signals": {
+    "title_hits": [
+      "superlative",
+      "curiosity gap"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names",
+      "numbers"
+    ],
+    "mismatch": {
+      "alignment_score": 0.6,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Darczyńca przekazał 130 mln dol. dla żołnierzy USA",
+    "notes_to_editor": "Rozważyć użycie bardziej neutralnego tytułu, aby uniknąć wrażenia sensacji."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:19:02"
+  },
+  "summary": "Artykuł informuje o anonimowym darczyńcy, który przekazał 130 milionów dolarów dla żołnierzy w USA w czasie shutdownu. Dziennikarze ujawnili, że darowiznę przekazał miliarder Timothy Mellon. Opisano również kontekst finansowy i znaczenie tej darowizny dla armii.",
+  "id": 1761516167947,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/przekazal-ogromna-darowizne-dla-zolnierzy-usa-darczynca-to-timothy-mellon/cbmtfs8",
+  "title": "Tajemniczy darczyńca Trumpa. Wiadomo już, kim jest"
+}

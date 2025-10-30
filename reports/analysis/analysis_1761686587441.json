@@ -1,0 +1,58 @@
+{
+  "score": 24,
+  "label": "not_clickbait",
+  "rationale": [
+    "title_superlative: no hits, (+0)",
+    "title_absolutes: no hits, (+0)",
+    "title_sensational: no hits, (+0)",
+    "title_alarming: no hits, (+0)",
+    "title_curiosity_gap: no hits, (+0)",
+    "title_listicle: no hits, (+0)",
+    "title_punctuation: no hits, (+0)",
+    "content_overcertainty: no hits, (+0)",
+    "content_sensational: no hits, (+0)",
+    "credibility_reductions: organization names detected (-3), numbers/dates/statistics detected (-2), quoted speakers detected (-2)",
+    "content_hedging: no hits, (+0)",
+    "alignment_score: 0.9, no penalty",
+    "exaggeration_gap: false",
+    "country_mismatch: false",
+    "time_omission: false"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jest informacyjny i nie zawiera przesadnych słów ani emocjonalnych wyrażeń.",
+    "Artykuł zawiera konkretne dane i cytaty, co zwiększa jego wiarygodność.",
+    "Treść artykułu dokładnie odzwierciedla temat poruszany w tytule."
+  ],
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "organization names",
+      "numbers/dates/statistics",
+      "quoted speakers"
+    ],
+    "mismatch": {
+      "alignment_score": 0.9,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Bumar-Łabędy rozpoczyna produkcję czołgów K2 dla Wojska Polskiego",
+    "notes_to_editor": "Zaleca się unikanie używania emocjonalnych lub przesadnych sformułowań w tytule."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:26:42"
+  },
+  "summary": "Zakłady Bumar-Łabędy oraz Hyundai Rotem podpisały umowę na produkcję czołgów K2 w Polsce. Umowa przewiduje transfer technologii oraz produkcję 180 czołgów, z czego 61 będzie wytwarzanych w Gliwicach. Inwestycja ma na celu odbudowę polskiego przemysłu zbrojeniowego i zwiększenie bezpieczeństwa kraju.",
+  "id": 1761686587441,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/slaskie/news-umowa-podpisana-zaklady-bumar-labedy-wyprodukuja-czolgi-dla-,nId,8035467",
+  "title": "Umowa podpisana. Zakłady Bumar-Łabędy wyprodukują czołgi dla Wojska Polskiego"
+}

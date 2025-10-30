@@ -1,0 +1,49 @@
+{
+  "score": 62,
+  "label": "strong",
+  "rationale": [
+    "title_sensational: regex hit 'ryzykowną grę' (+12), 'Znów chce się bić' (+12)",
+    "content_sensational: phrase 'wzruszyliśmy się' (+8), 'informacje o mojej śmierci były przesadzone' (+8)",
+    "content_overcertainty: phrase 'Platforma już nigdy nie będzie' (+6)",
+    "alignment_score: 0.55 → penalty +8 for medium alignment"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów 'ryzykowną grę' i 'Znów chce się bić', co może wprowadzać w błąd.",
+    "Treść zawiera emocjonalne sformułowania, które podkreślają dramatyzm sytuacji politycznej.",
+    "Artykuł sugeruje, że Platforma Obywatelska znika, co jest przesadzone."
+  ],
+  "signals": {
+    "title_hits": [
+      "ryzykowną grę",
+      "Znów chce się bić"
+    ],
+    "content_hits": [
+      "wzruszyliśmy się",
+      "informacje o mojej śmierci były przesadzone"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Tusk ogłasza zmiany w Platformie Obywatelskiej po konwencji KO",
+    "notes_to_editor": "Zaleca się unikanie emocjonalnych i dramatycznych sformułowań w tytule, aby zwiększyć obiektywność."
+  },
+  "diagnostics": {
+    "tokens_title": 11,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:22:13"
+  },
+  "summary": "Artykuł omawia konwencję Koalicji Obywatelskiej, na której Donald Tusk ogłosił zmiany w Platformie Obywatelskiej. Podkreśla, że partia ma zamiar zjednoczyć się z innymi ugrupowaniami, a Tusk chce przypomnieć wyborcom o swojej roli w polityce. Wskazuje również na rywalizację z PiS i ambicje liderów partii.",
+  "id": 1761516174598,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/tylko-w-onecie/kulisy-konwencji-ko-tusk-podejmuje-ryzykowna-gre-znow-chce-sie-bic/p6xtn9s",
+  "title": "Kulisy konwencji KO. Tusk podejmuje ryzykowną grę. \"Znów chce się bić\""
+}

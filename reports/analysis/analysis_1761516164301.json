@@ -1,0 +1,49 @@
+{
+  "score": 25,
+  "label": "mild",
+  "rationale": [
+    "title_sensational: regex hit 'masowe protesty' (+12), title_curiosity_gap: regex hit 'domagają się' (+6)",
+    "content_sensational: phrase 'tragicznych powodzi' detected (+8), content_credibility: organization names detected (-3)",
+    "alignment_score: calculated at 0.6, resulting in a penalty of +8 for medium alignment"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'masowe', co może sugerować większą skalę wydarzenia niż w rzeczywistości.",
+    "Artykuł zawiera informacje o tragicznych powodzi, co dodaje dramatyzmu do treści.",
+    "Tytuł sugeruje, że protesty są bardzo istotne, ale treść nie zawiera wystarczających szczegółów."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational",
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.6,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Protesty w Walencji przeciwko szefowi regionalnych władz",
+    "notes_to_editor": "Zaleca się unikanie używania słów, które mogą wprowadzać w błąd co do skali wydarzenia."
+  },
+  "diagnostics": {
+    "tokens_title": 9,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:17:35"
+  },
+  "summary": "W Walencji odbyły się masowe protesty, w których uczestniczyło kilkadziesiąt tysięcy osób. Demonstranci domagali się dymisji szefa regionalnych władz, Carlosa Mazon. Protesty miały miejsce na kilka dni przed rocznicą tragicznych powodzi, które spowodowały śmierć 229 osób.",
+  "id": 1761516164301,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/masowe-protesty-w-walencji-demonstranci-domagaja-sie-dymisji-polityka/5kf0zvt",
+  "title": "Masowe protesty w Walencji. Demonstranci domagają się dymisji polityka"
+}

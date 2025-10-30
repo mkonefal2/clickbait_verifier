@@ -1,0 +1,51 @@
+{
+  "score": 70,
+  "label": "strong",
+  "rationale": [
+    "title_superlative: regex hit 'największa' (+6), title_sensational: regex hit 'krwawa jatka' (+12), title_alarm: regex hit 'tragedia' (+10), content_sensational: phrase 'dramatic information' (+8), content_sensational: phrase 'largest operation in history' (+8), alignment_score: 0.6 (medium alignment) → penalty +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów 'krwawa jatka' i 'największa', co może tworzyć przesadne oczekiwania.",
+    "W treści pojawiają się dramatyczne opisy wydarzeń oraz liczby, co zwiększa wrażenie sensacyjności.",
+    "Artykuł zawiera dane liczbowe i informacje o operacji, co podnosi jego wiarygodność."
+  ],
+  "signals": {
+    "title_hits": [
+      "największa",
+      "krwawa jatka",
+      "tragedia"
+    ],
+    "content_hits": [
+      "dramatic information",
+      "largest operation in history"
+    ],
+    "credibility_hits": [
+      "organization names",
+      "numbers",
+      "quoted speakers"
+    ],
+    "mismatch": {
+      "alignment_score": 0.6,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Operacja przeciw przestępczości zorganizowanej w Rio de Janeiro zakończona tragedią.",
+    "notes_to_editor": "Zaleca się unikanie sensacyjnych sformułowań w tytule, aby zwiększyć obiektywność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:24:33"
+  },
+  "summary": "W Rio de Janeiro podczas operacji przeciw przestępczości zorganizowanej zginęło co najmniej 60 osób, w tym czterech policjantów. Operacja, w której uczestniczyło 2500 policjantów, była największa w historii stanu. Władze podają, że zneutralizowano 18 przestępców i dokonano 56 zatrzymań.",
+  "id": 1761686580025,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/swiat/news-akcja-sluzb-zamienila-sie-w-krwawa-jatke-zginelo-kilkadziesi,nId,8035477",
+  "title": "Akcja służb zamieniła się w krwawą jatkę. Zginęło kilkadziesiąt osób"
+}

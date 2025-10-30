@@ -1,0 +1,46 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_superlative: no hits, score 0",
+    "title_curiosity_gap: 'Kto zyska' (+6), score 6",
+    "content_sensational: no hits, score 0",
+    "content_overcertainty: no hits, score 0",
+    "mismatch_penalty: alignment_score 0.75, no penalty",
+    "total_score: (0.4 * 6 + 0.15 * 0 + 0.4 * 0) = 2.4, rounded to 30"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera pytanie, które może wzbudzać ciekawość czytelników.",
+    "Artykuł dostarcza konkretne informacje o podwyżkach wynagrodzeń, co zwiększa jego wiarygodność."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap"
+    ],
+    "content_hits": [],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.75,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Wzrost minimalnego wynagrodzenia w 2026 roku",
+    "notes_to_editor": "Rozważyć użycie bardziej neutralnego tytułu, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:54:13"
+  },
+  "summary": "Od 1 stycznia 2026 roku wzrośnie minimalne wynagrodzenie oraz stawka godzinowa w Polsce. Płaca minimalna wzrośnie o 140 zł brutto, a stawka godzinowa o 90 gr brutto. Zmiany te dotyczą pracowników etatowych i sezonowych.",
+  "id": 1761737536730,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/wynagrodzenie-minimalne-w-2026-r-rosnie-pensja-i-stawka-godzinowa/ry90d1w",
+  "title": "Minimalne wynagrodzenie od nowego roku w górę. Kto zyska od stycznia?"
+}

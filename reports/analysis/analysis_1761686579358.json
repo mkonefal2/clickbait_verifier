@@ -1,0 +1,50 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'Dałem słowo' (+6)",
+    "content_sensational: phrase 'dotkliwym ciosem' detected (+8)",
+    "content_credibility: organization names detected (-3)",
+    "mismatch_alignment_score: calculated alignment score is 0.6, resulting in a penalty of +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera zwrot 'Dałem słowo', co budzi ciekawość czytelników.",
+    "W treści użyto wyrażenia 'dotkliwym ciosem', co nadaje jej dramatyzmu.",
+    "Artykuł odnosi się do organizacji nauczycielskich, co może wpływać na jego wiarygodność.",
+    "Treść dobrze odpowiada na tytuł, ale nieco odstaje od obietnicy."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.6,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Tusk reaguje na problemy związane z wynagrodzeniem nauczycieli.",
+    "notes_to_editor": "Rozważ użycie bardziej neutralnego tytułu, aby uniknąć wrażenia sensacyjności."
+  },
+  "diagnostics": {
+    "tokens_title": 40,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:24:16"
+  },
+  "summary": "Premier Donald Tusk zapowiedział działania mające na celu rozwiązanie problemów związanych z wynagrodzeniem nauczycieli w kontekście nowelizacji Karty nauczyciela. Nauczyciele nie otrzymują wynagrodzenia za gotowość do pracy, gdy nie mogą prowadzić zajęć z przyczyn niezależnych. Tusk obiecał szybkie przygotowanie poprawek, aby poprawić sytuację w oświacie.",
+  "id": 1761686579358,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/polska/news-tusk-reaguje-na-zamieszanie-z-wycieczkami-szkolnymi-dalem-sl,nId,8035478",
+  "title": "Tusk reaguje na zamieszanie z wycieczkami szkolnymi. \"Dałem słowo\""
+}

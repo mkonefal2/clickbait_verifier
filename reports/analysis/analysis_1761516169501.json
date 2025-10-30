@@ -1,0 +1,47 @@
+{
+  "score": 72,
+  "label": "strong",
+  "rationale": [
+    "title_sensational: regex hit 'szok' (+12), title_curiosity_gap: regex hit 'nie uwierzysz' (+6), title_sensational: regex hit 'absurdalny' (+12)",
+    "content_sensational: phrase 'bolesny powrót do lat 90' (+8), content_sensational: phrase 'jakość pozostawia wiele do życzenia' (+8)",
+    "alignment_score: 0.55, penalty for medium alignment (+8), no country mismatch, no time omission"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów, takich jak 'szok' i 'absurdalny', co tworzy przesadne oczekiwania.",
+    "Artykuł opisuje trudności Rosjan w zakupie samochodów po inwazji na Ukrainę, co jest emocjonalne i dramatyczne.",
+    "Tytuł sugeruje silne emocje, a treść potwierdza te emocje, ale niektóre stwierdzenia są przesadzone."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational",
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Rosjanin opisuje trudności w zakupie samochodu po inwazji na Ukrainę.",
+    "notes_to_editor": "Zaleca się unikanie przesadnych sformułowań w tytule, aby zwiększyć wiarygodność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 16,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:19:40"
+  },
+  "summary": "Artykuł opisuje sytuację Rosjan po inwazji na Ukrainę, którzy borykają się z wysokimi cenami samochodów. Wiele znanych marek opuściło rynek, a dostępne pojazdy z Chin są niskiej jakości. Rosjanie muszą szukać oszczędności, co stwarza ryzyko oszustw.",
+  "id": 1761516169501,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/rosjanin-plakal-jak-kupowal-samochod-putin-zafundowal-rodakom-powrot-do-lat-90/wyr4dq4",
+  "title": "Rosjanin płakał, jak kupował. \"Nie chcę płacić milionów za chiński samochód\". Putin zafundował rodakom bolesny powrót do lat 90."
+}

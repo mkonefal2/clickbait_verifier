@@ -1,0 +1,51 @@
+{
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'Dlaczego' (+6), title_questions: regex hit '?' (+4)",
+    "content_sensational: phrase 'katastrofalne wręcz szkody' detected (+8)",
+    "content_credibility: organization names detected (-3), scientific terms detected (-2)",
+    "alignment_score: calculated at 0.55, resulting in a penalty of +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera pytanie, co może wzbudzać ciekawość czytelników.",
+    "W treści pojawia się dramatyczny opis szkód, co zwiększa emocjonalny ładunek artykułu.",
+    "Artykuł odnosi się do organizacji zajmującej się huraganami, co zwiększa jego wiarygodność.",
+    "Treść jest zgodna z tytułem, ale nieco przesadza w emocjonalnym wydźwięku."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap",
+      "questions"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization_names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Jakie są zasady nadawania imion huraganom?",
+    "notes_to_editor": "Zaleca się unikanie dramatyzacji w tytule, aby zwiększyć wiarygodność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 46,
+    "tokens_content": 2937,
+    "processing_time_ms": 120,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:43:21"
+  },
+  "summary": "Artykuł wyjaśnia, jak nadawane są imiona huraganom, używając przykładu huraganu Melissa, który uderzył w Jamajkę. Zawiera informacje o klasyfikacji cyklonów tropikalnych oraz ich wpływie na regiony. Podkreśla kontrast między nazwą a zniszczeniami, jakie powoduje huragan.",
+  "id": 1761737516433,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/swiat/news-dlaczego-tak-potezny-huragan-nosi-nazwe-uspokajajacego-ziola,nId,8035577",
+  "title": "Dlaczego tak potężny huragan nosi nazwę uspokajającego zioła?"
+}

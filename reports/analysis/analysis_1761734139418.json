@@ -1,0 +1,48 @@
+{
+  "score": 65,
+  "label": "strong",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'ujawniamy' (+6), title_sensational: regex hit 'szok' (+12), title_sensational: regex hit 'niewiarygodny' (+12), title_sensational: regex hit 'absurdalny' (+12)",
+    "content_sensational: phrase 'może mieć poważne konsekwencje' (+8), content_hedging: phrase 'może' (-2)",
+    "alignment_score: 0.55, resulting in a penalty of +8 for medium alignment"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera słowo 'ujawniamy', co budzi ciekawość czytelników.",
+    "W artykule pojawiają się mocne sformułowania, które mogą wzbudzać emocje.",
+    "Treść artykułu nie w pełni wspiera obietnice tytułu, co wpływa na jego wiarygodność."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap",
+      "sensational"
+    ],
+    "content_hits": [
+      "sensational",
+      "hedging"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Spotkanie agentów służb specjalnych z biznesmenami podczas kongresu PiS",
+    "notes_to_editor": "Zaleca się unikanie przesadnych sformułowań w tytule, aby zwiększyć wiarygodność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 16,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:42:10"
+  },
+  "summary": "Artykuł opisuje wydarzenie zorganizowane podczas kongresu PiS, które miało charakter nieformalnego spotkania agentów służb specjalnych oraz biznesmenów. Wskazuje na kontrowersje związane z tym wydarzeniem oraz potencjalne konsekwencje. Publikacja zdjęć z imprezy wywołała wiele komentarzy w mediach.",
+  "id": 1761734139418,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/tylko-w-onecie/jak-agenci-sluzb-specjalnych-z-czasow-pis-pili-ze-swoimi-figurantami-ujawniamy-kulisy/r1dmq1g",
+  "title": "\"Patriotyczna domówka\", czyli jak agenci specsłużb z czasów PiS pili ze swoimi figurantami. Ujawniamy kulisy"
+}

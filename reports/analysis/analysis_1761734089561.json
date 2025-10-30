@@ -1,0 +1,53 @@
+{
+  "score": 55,
+  "label": "strong",
+  "rationale": [
+    "title_superlative: regex hit 'rewolucja' (+6), title_sensational: regex hit 'zmienia' (+12), title_curiosity_gap: regex hit 'ten triasowy drapieżnik' (+6)",
+    "content_sensational: phrase 'rewizji całej historii ewolucji gadów' (+8), content_overcertainty: phrase 'może doprowadzić do zmiany' (+6)",
+    "alignment_score: 0.55 → penalty +8 for medium alignment"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnego słowa 'rewolucja', co sugeruje ogromne zmiany w nauce.",
+    "Artykuł zawiera informacje o odkryciu, które może zmienić nasze rozumienie ewolucji gadów.",
+    "Tytuł sugeruje, że odkrycie jest przełomowe, ale treść nieco łagodzi te twierdzenia."
+  ],
+  "signals": {
+    "title_hits": [
+      "rewolucja",
+      "zmienia",
+      "ten triasowy drapieżnik"
+    ],
+    "content_hits": [
+      "rewizji całej historii ewolucji gadów",
+      "może doprowadzić do zmiany"
+    ],
+    "credibility_hits": [
+      "naukowcy",
+      "badania",
+      "technologia synchrotronowa"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Nowe odkrycie w paleontologii: czaszka triasowego drapieżnika z Devon",
+    "notes_to_editor": "Rozważyć użycie bardziej neutralnego języka w tytule, aby uniknąć wrażenia przesady."
+  },
+  "diagnostics": {
+    "tokens_title": 16,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:27:07"
+  },
+  "summary": "Artykuł opisuje odkrycie skamieniałości triasowego drapieżnika, Agriodontosaurus helsbypetrae, które może zmienić nasze rozumienie ewolucji gadów. Znaleziony okaz z Devon przesuwa datę pochodzenia grupy Lepidosauria na 245-241 milionów lat temu. Badania wykazały nietypową budowę czaszki, co sugeruje nowe strategie łowieckie.",
+  "id": 1761734089561,
+  "source": "FocusPL",
+  "url": "https://www.focus.pl/artykul/skamienialosc-gad-sprzed-242-milionow-lat",
+  "title": "Rewolucja w paleontologii dzięki małej czaszce z Devon. Ten triasowy drapieżnik zmienia całą historię gadów"
+}

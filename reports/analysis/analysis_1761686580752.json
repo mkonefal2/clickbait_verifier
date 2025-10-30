@@ -1,0 +1,48 @@
+{
+  "score": 55,
+  "label": "strong",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'chcieli' (+6), title_sensational: regex hit 'kulisy' (+12)",
+    "content_sensational: phrase 'krwawa jatka' detected (+8), content_overcertainty: phrase 'na pewno' detected (+6)",
+    "mismatch alignment_score: 0.45, penalty applied (+8)"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera słowo 'kulisy', które wzbudza ciekawość czytelników.",
+    "W treści pojawiają się dramatyczne sformułowania, co zwiększa emocjonalny ładunek artykułu.",
+    "Tytuł sugeruje, że Amerykanie mieli konkretny plan, ale treść nie dostarcza wystarczających szczegółów, co obniża zgodność."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap",
+      "sensational"
+    ],
+    "content_hits": [
+      "sensational",
+      "overcertainty"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.45,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Amerykańskie służby próbowały obalić Maduro - szczegóły operacji",
+    "notes_to_editor": "Zaleca się unikanie słów wzbudzających sensację oraz bardziej neutralne podejście do tytułów."
+  },
+  "diagnostics": {
+    "tokens_title": 47,
+    "tokens_content": 2986,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:24:51"
+  },
+  "summary": "Artykuł opisuje nieudane próby amerykańskich służb do obalenia Nicolasa Maduro, w tym rekrutację jego pilota. Po niepowodzeniu planu, działania te doprowadziły do tragicznych wydarzeń. Zawiera szczegóły dotyczące spotkań agentów z pilotem oraz ich rozmowy na temat potencjalnych korzyści z współpracy.",
+  "id": 1761686580752,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/swiat/news-amerykanie-chcieli-sposobem-obalic-maduro-kulisy-operacji,nId,8035482",
+  "title": "Amerykanie chcieli \"sposobem\" obalić Maduro? Kulisy operacji"
+}

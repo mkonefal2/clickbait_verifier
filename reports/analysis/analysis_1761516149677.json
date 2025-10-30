@@ -1,0 +1,51 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_sensational: regex hit 'wypadek' (+12), title_alarm: regex hit 'zagrożenie' (+10)",
+    "content_sensational: phrase 'narażenia na bezpośrednie niebezpieczeństwo' (+8)",
+    "content_credibility: organization names detected (-3), quoted speakers detected (-2)",
+    "alignment_score: 0.6, medium alignment → penalty +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera słowo 'wypadek', co może budzić emocje i zainteresowanie.",
+    "Artykuł opisuje sytuację, w której dziewczynka doznała kontuzji, co zwiększa dramatyzm.",
+    "W treści pojawiają się cytaty ekspertów, co może wpływać na wiarygodność, ale także na postrzeganą sensacyjność."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational",
+      "alarm"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names",
+      "quoted speakers"
+    ],
+    "mismatch": {
+      "alignment_score": 0.6,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Wypadek w sali zabaw: dziewczynka upadła na twarde podłoże",
+    "notes_to_editor": "Rozważyć użycie bardziej neutralnego języka w tytule, aby uniknąć wrażenia sensacyjności."
+  },
+  "diagnostics": {
+    "tokens_title": 41,
+    "tokens_content": 292,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:14:00"
+  },
+  "summary": "W artykule opisano wypadek, który miał miejsce w sali zabaw w Lublinie, gdzie 11-letnia dziewczynka skoczyła na poduszkę, która nie była nadmuchana. W wyniku upadku na twarde podłoże doznała kontuzji. Policja prowadzi dochodzenie w tej sprawie, badając narażenie na niebezpieczeństwo.",
+  "id": 1761516149677,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/lublin/lublin-11-latka-skoczyla-z-dwoch-metrow-na-poduszke-ktora-nie-byla-nadmuchana/hwgrycw",
+  "title": "Wypadek w sali zabaw. \"Dziewczynka upadła na twarde podłoże\""
+}

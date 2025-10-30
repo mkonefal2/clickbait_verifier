@@ -1,0 +1,51 @@
+{
+  "score": 40,
+  "label": "mild",
+  "rationale": [
+    "title_sensational: regex hit 'Ogromny' (+12), title_alarm: regex hit 'karalne' (+10)",
+    "content_sensational: phrase 'wrażliwe dane osobowe' (+8)",
+    "content_credibility: organization names detected (-3), numbers detected (-2)",
+    "alignment_score: calculated as 0.6, resulting in a medium alignment penalty (+8)"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów 'Ogromny' i 'karalne', co może budzić emocje.",
+    "W treści pojawiają się wrażliwe dane, co zwiększa dramatyzm sytuacji.",
+    "Artykuł zawiera konkretne liczby, co podnosi jego wiarygodność."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational",
+      "alarm"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names",
+      "numbers"
+    ],
+    "mismatch": {
+      "alignment_score": 0.6,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Wyciek danych osobowych w gminie Wisznia Mała",
+    "notes_to_editor": "Rozważyć użycie bardziej neutralnego tytułu, aby uniknąć wrażenia sensacji."
+  },
+  "diagnostics": {
+    "tokens_title": 8,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:42:56"
+  },
+  "summary": "W artykule opisano wyciek danych osobowych ponad 5 tys. mieszkańców gminy Wisznia Mała. Mieszkańcy wyrażają oburzenie i domagają się odpowiedzialności za incydent. Informacje pochodzą z radia Eska.",
+  "id": 1761734143108,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/wroclaw/ogromny-wyciek-danych-na-dolnym-slasku-to-jest-karalne/skrcv33",
+  "title": "Ogromny wyciek danych na Dolnym Śląsku. \"To jest karalne!\""
+}

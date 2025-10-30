@@ -1,0 +1,43 @@
+{
+  "score": 20,
+  "label": "not_clickbait",
+  "rationale": [
+    "title_hits: no superlatives, absolutes, sensational language, alarming terms, curiosity gaps, listicles, or excessive punctuation detected.",
+    "content_hits: no sensational phrases found, and credible sources are mentioned.",
+    "mismatch: alignment_score is 0.85, indicating high alignment between title and content, with no penalties applied."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł nie zawiera przesadnych słów ani alarmujących stwierdzeń, co czyni go informacyjnym.",
+    "Treść artykułu jest zgodna z tytułem i zawiera wiarygodne źródła."
+  ],
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "Organization names/sources mentioned"
+    ],
+    "mismatch": {
+      "alignment_score": 0.85,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "W poniedziałek rano w Niepołomicach zabrzmią syreny alarmowe.",
+    "notes_to_editor": "Rozważ użycie bardziej neutralnego tytułu, aby uniknąć potencjalnych nieporozumień."
+  },
+  "diagnostics": {
+    "tokens_title": 36,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:13:41"
+  },
+  "summary": "Rządowe Centrum Bezpieczeństwa ogłosiło, że w poniedziałek rano w Niepołomicach oraz w pobliskich miejscowościach zabrzmią syreny alarmowe. Akcja ma na celu przeprowadzenie ćwiczeń systemu alarmowania. Informacja została podana przez Polską Agencję Prasową.",
+  "id": 1761516148983,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/krakow/tutaj-nad-ranem-zawyja-syreny-alarmowe-alert-rcb/fyjzh5m",
+  "title": "Tutaj nad ranem zawyją syreny alarmowe. Alert RCB"
+}

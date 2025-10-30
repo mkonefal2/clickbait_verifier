@@ -1,0 +1,49 @@
+{
+  "score": 40,
+  "label": "mild",
+  "rationale": [
+    "title_sensational: regex hit 'fałszywy gołąbek pokoju' (+12), 'chciwy handlarz iluzji' (+12)",
+    "content_sensational: phrases like 'symbol milczącej kapitulacji' (+8), 'propaganda Kremla' (+8)",
+    "content_credibility: organization names mentioned (-3)",
+    "alignment_score: 0.55 → medium alignment, penalty +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych sformułowań, co może budzić emocje.",
+    "W treści pojawiają się dramatyczne opisy sytuacji Węgier pod rządami Orbana.",
+    "Artykuł odnosi się do historii Węgier i aktualnej sytuacji politycznej, co zwiększa jego wiarygodność."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Viktor Orban wybrał stronę w konflikcie między Wschodem a Zachodem",
+    "notes_to_editor": "Rozważyć użycie mniej dramatycznych sformułowań w tytule, aby zwiększyć obiektywność."
+  },
+  "diagnostics": {
+    "tokens_title": 13,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:20:39"
+  },
+  "summary": "Artykuł analizuje politykę Viktora Orbana i jego wpływ na Węgry w kontekście konfliktu z Ukrainą. Autor krytykuje działania Orbana, porównując je do historycznych wydarzeń z 1956 roku. Podkreśla potrzebę wsparcia Ukrainy przez Europę w obliczu obecnych zagrożeń.",
+  "id": 1761516173135,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/viktor-orban-nie-balansuje-miedzy-wschodem-a-zachodem-juz-wybral-jedna-ze-stron/myvdplz",
+  "title": "Viktor Orban nie balansuje między Wschodem a Zachodem. Już wybrał jedną ze stron"
+}

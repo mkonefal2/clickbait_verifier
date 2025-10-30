@@ -1,0 +1,51 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_sensational: regex hit 'nagły' (+12), title_hits: ['nagły']",
+    "content_sensational: phrase 'zagrożenie dla rosyjskich jednostek' (+8)",
+    "content_credibility: org names detected (-3), numbers detected (-2)",
+    "alignment_score: 0.55 → penalty +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'nagły', co może sugerować dramatyczny zwrot akcji.",
+    "W treści pojawia się informacja o zagrożeniu dla rosyjskich jednostek, co zwiększa emocjonalny ładunek tekstu.",
+    "Artykuł zawiera nazwy organizacji i dane liczbowe, co wpływa na jego wiarygodność.",
+    "Treść w pewnym stopniu wspiera obietnice tytułu, ale są pewne nieścisłości."
+  ],
+  "signals": {
+    "title_hits": [
+      "nagły"
+    ],
+    "content_hits": [
+      "zagrożenie dla rosyjskich jednostek"
+    ],
+    "credibility_hits": [
+      "organizacje",
+      "liczby"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Rosyjski okręt rakietowy Amur przetransportowany na Morze Bałtyckie",
+    "notes_to_editor": "Rozważyć użycie bardziej neutralnego języka w tytule, aby uniknąć wrażenia sensacyjności."
+  },
+  "diagnostics": {
+    "tokens_title": 34,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:31:08"
+  },
+  "summary": "Rosyjski okręt rakietowy Amur został przetransportowany z Morza Czarnego na Bałtyk w związku z zagrożeniem ze strony ukraińskich ataków. Okręt, uzbrojony w pociski manewrujące Kalibr, ma za zadanie wspierać działania Floty Bałtyckiej. Przemieszczenie odbyło się przez rosyjskie rzeki i kanały, co pozwala na uniknięcie otwartego morza.",
+  "id": 1761734101748,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/raporty/raport-wojna-z-rosja/news-nagly-ruch-kremla-rosyjski-amur-na-morzu-baltyckim,nId,8035583",
+  "title": "Nagły ruch Kremla. Rosyjski Amur na Morzu Bałtyckim"
+}

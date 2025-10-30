@@ -1,0 +1,49 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_sensational: regex hit 'cyberatak' (+12), title_sensational: regex hit 'zażądali okupu' (+12)",
+    "content_sensational: phrase 'padł ofiarą cyberataku' (+8)",
+    "content_credibility: org names detected (-3), content_credibility: org names detected (-3)",
+    "alignment_score: calculated as 0.55, resulting in penalty +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów 'cyberatak' i 'zażądali okupu', co może budzić emocje.",
+    "Artykuł zawiera konkretne informacje o ataku, ale także odnosi się do organizacji, co zwiększa wiarygodność.",
+    "Treść artykułu dobrze koresponduje z tytułem, ale niektóre sformułowania mogą być uznane za przesadne."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Cyberatak na szwedzkiego dostawcę energii przez hakerów z Rosji",
+    "notes_to_editor": "Rozważyć użycie mniej emocjonalnego języka w tytule, aby zwiększyć neutralność."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:16:45"
+  },
+  "summary": "Szwedzki operator sieci elektroenergetycznych, Svenska Kraftnaet, ogłosił, że padł ofiarą cyberataku. Hakerzy powiązani z Rosją przejęli dane i zażądali okupu. Artykuł przedstawia szczegóły incydentu oraz jego potencjalne konsekwencje.",
+  "id": 1761516160529,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/cyberatak-rosjan-na-szwedzkiego-dostawce-energii-zazadali-okupu/xrpftjn",
+  "title": "Cyberatak Rosjan na szwedzkiego dostawcę energii. Zażądali okupu"
+}

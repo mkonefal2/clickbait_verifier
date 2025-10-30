@@ -1,0 +1,47 @@
+{
+  "score": 20,
+  "label": "not_clickbait",
+  "rationale": [
+    "title_superlative: no hits detected (0), title_absolutes: no hits detected (0), title_sensational: no hits detected (0), title_alarming: no hits detected (0), title_curiosity_gap: no hits detected (0), title_listicle: no hits detected (0), title_punctuation: no hits detected (0)",
+    "content_overcertainty: no hits detected (0), content_sensational: no hits detected (0), content_credibility: org names detected (-3), content_credibility: quoted speakers detected (-2), content_credibility: scientific terms detected (-2), content_credibility: numbers detected (-2)",
+    "mismatch_alignment_score: 0.75, no penalties applied, no exaggeration gap, no country mismatch, no time omission"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł nie zawiera przesadnych słów ani alarmujących stwierdzeń.",
+    "Artykuł opiera się na wypowiedziach ekspertów i zawiera odniesienia do dokumentów naukowych, co zwiększa jego wiarygodność.",
+    "Treść jest zgodna z tytułem i nie wprowadza w błąd."
+  ],
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "organization names",
+      "quoted speakers",
+      "scientific terms",
+      "numbers"
+    ],
+    "mismatch": {
+      "alignment_score": 0.75,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Naukowcy podkreślają znaczenie ochrony wolności akademickiej",
+    "notes_to_editor": "Zaleca się unikanie przesadnych sformułowań w tytule, aby lepiej odzwierciedlał treść artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 45,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:32:49"
+  },
+  "summary": "Artykuł omawia znaczenie wolności akademickiej i potrzebę jej ochrony, podkreślając wypowiedzi przedstawicieli Akademii Młodych Uczonych PAN oraz Szwedzkiej Młodej Akademii. Zawiera odniesienia do Sztokholmskiej Karty Wolności Akademickiej oraz wskazuje na zagrożenia związane z naciskami politycznymi na badania naukowe.",
+  "id": 1761734106103,
+  "source": "naukawpolsce",
+  "url": "https://naukawpolsce.pl/aktualnosci/news%2C107913%2Cnaukowcy-wolnosc-akademicka-wymaga-ochrony-i-czujnosci.html",
+  "title": "Naukowcy: wolność akademicka wymaga ochrony i czujności"
+}

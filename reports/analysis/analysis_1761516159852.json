@@ -1,0 +1,50 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'zaskakujące' (+6)",
+    "content_sensational: phrase 'nie wszyscy chcą, żeby ten szczyt się odbył' (+8)",
+    "content_credibility: org names detected (-3)",
+    "alignment_score: calculated at 0.55, resulting in a penalty of +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'zaskakujące', co może budzić ciekawość czytelników.",
+    "W treści pojawiają się stwierdzenia, które mogą być uznane za sensacyjne.",
+    "Artykuł odnosi się do wypowiedzi rzecznika Kremla, co zwiększa wiarygodność.",
+    "Treść w pewnym stopniu wspiera obietnice tytułu, ale nie w pełni."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Rozmowy USA i Rosji: aktualny stan i opinie rzecznika Kremla",
+    "notes_to_editor": "Zaleca się unikanie słów wywołujących ciekawość w tytule, aby zwiększyć neutralność."
+  },
+  "diagnostics": {
+    "tokens_title": 41,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:16:30"
+  },
+  "summary": "Rzecznik prasowy Kremla, Dmitrij Pieskow, odniósł się do planowanego szczytu w Budapeszcie, twierdząc, że nie został on odwołany, ponieważ nie ustalono konkretnego terminu. Podkreślił również, że nie wszyscy są zainteresowani jego odbyciem. Artykuł przedstawia aktualną sytuację w rozmowach między USA a Rosją.",
+  "id": 1761516159852,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/co-z-rozmowami-usa-i-rosji-zaskakujace-slowa-rzecznika-kremla/bm6x7rd",
+  "title": "Co z rozmowami USA i Rosji? Zaskakujące słowa rzecznika Kremla"
+}

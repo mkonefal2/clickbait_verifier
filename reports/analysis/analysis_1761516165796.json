@@ -1,0 +1,53 @@
+{
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "title_superlative: regex hit 'najbogatszym' (+6), 'najdroższych' (+6), 'nowa' (+6); total = 18",
+    "title_curiosity_gap: regex hit 'oto' (+6); total = 6",
+    "content_sensational: phrase 'luksus przestaje być luksusem' (+8); total = 8",
+    "content_hedging: phrase 'coraz więcej osób może sobie pozwolić' (-2); total = -2",
+    "alignment_score: calculated as 0.6, resulting in no penalty",
+    "no country mismatch detected",
+    "no time omission detected"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów, takich jak 'najbogatszym' i 'najdroższych', co tworzy przesadne oczekiwania.",
+    "Artykuł zawiera stwierdzenia, które mogą być uznane za sensacyjne, ale także zawiera elementy, które zwiększają wiarygodność.",
+    "Treść artykułu jest zgodna z tytułem, co sugeruje umiarkowane wprowadzenie do tematu."
+  ],
+  "signals": {
+    "title_hits": [
+      "najbogatszym",
+      "najdroższych",
+      "nowa",
+      "oto"
+    ],
+    "content_hits": [
+      "luksus przestaje być luksusem"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.6,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Milionerzy zmieniają podejście do luksusu i inwestują w nowe doświadczenia",
+    "notes_to_editor": "Zaleca się unikanie superlatyw i sensacyjnych sformułowań w tytule, aby zwiększyć neutralność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 18,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:18:05"
+  },
+  "summary": "Artykuł omawia zmiany w podejściu najbogatszych do luksusu, wskazując na spadek cen tradycyjnych dóbr luksusowych, takich jak wina i zegarki. Zamiast tego, milionerzy zaczynają inwestować w unikalne doświadczenia, które są trudne do zdobycia. Wzrost liczby milionerów na świecie wpływa na postrzeganie luksusu jako czegoś bardziej dostępnego.",
+  "id": 1761516165796,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/nowa-definicja-luksusu-czyli-w-co-inwestuja-najbogatsi/l2ec8r8",
+  "title": "Nawet najbogatszym znudziły się drogie wina i zegarki. Milionerzy wolą coś innego. Oto nowa definicja luksusu"
+}

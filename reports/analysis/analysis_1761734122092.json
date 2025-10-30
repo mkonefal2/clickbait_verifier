@@ -1,0 +1,49 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_alarm: regex hit 'tragedia' (+10), title_sensational: regex hit 'szok' (+12)",
+    "content_sensational: phrase 'dramatic accident' detected (+8), content_credibility: organization names detected (-3)",
+    "alignment_score: 0.5, penalty for medium alignment (+8)"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera słowo 'tragedia', co może budzić emocje.",
+    "W artykule opisano dramatyczny wypadek, co zwiększa jego sensacyjność.",
+    "Tytuł sugeruje, że wydarzenie miało miejsce w Polsce, a treść artykułu to potwierdza."
+  ],
+  "signals": {
+    "title_hits": [
+      "alarm",
+      "sensational"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.5,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Właściciele sali zabaw w Lublinie komentują wypadek 11-latki",
+    "notes_to_editor": "Zaleca się unikanie emocjonalnych słów w tytule, aby zwiększyć neutralność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 15,
+    "tokens_content": 300,
+    "processing_time_ms": 120,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:37:07"
+  },
+  "summary": "W Lublinie doszło do poważnego wypadku, w którym 11-latka złamała kręgosłup w sali zabaw. Właściciele obiektu wydali oświadczenie, zapewniając o bezpieczeństwie miejsca oraz współpracy z rodziną poszkodowanej. Centrum Rozrywki podkreśliło, że obiekt przeszedł kontrole i jest otwarty dla dzieci.",
+  "id": 1761734122092,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/lublin/11-latka-zlamala-kregoslup-w-sali-zabaw-jest-oswiadczenie-wlasciciela-obiektu/wmq77q0",
+  "title": "11-latka złamała kręgosłup w sali zabaw. Jest oświadczenie właściciela obiektu"
+}

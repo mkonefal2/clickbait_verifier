@@ -1,0 +1,49 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_alarm: regex hit 'niebezpieczne' (+10), title_sensational: regex hit 'wypadek' (+12)",
+    "content_sensational: phrase 'niebezpieczne zdarzenie' detected (+8), content_credibility: org names detected (-3)",
+    "alignment_score: calculated at 0.55, resulting in a penalty of +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera słowo 'niebezpieczne', co wzbudza niepokój.",
+    "W treści artykułu pojawia się określenie 'wypadek', co dodaje dramatyzmu.",
+    "Artykuł podaje informacje o zdarzeniu, ale nie zawiera szczegółowych danych, co wpływa na jego wiarygodność."
+  ],
+  "signals": {
+    "title_hits": [
+      "alarming",
+      "sensational"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Wypadek samochodowy w Jeleniej Górze",
+    "notes_to_editor": "Rozważyć użycie bardziej neutralnego tytułu, aby uniknąć dramatyzmu."
+  },
+  "diagnostics": {
+    "tokens_title": 7,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:23:00"
+  },
+  "summary": "W Jeleniej Górze doszło do wypadku, w którym 18-letnia kierująca straciła panowanie nad pojazdem i spadła z wiaduktu nad torami. Na szczęście w momencie zdarzenia w pobliżu nie przejeżdżał żaden pociąg. Policja prowadzi dochodzenie w tej sprawie.",
+  "id": 1761516176843,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/wroclaw/wypadek-w-jeleniej-gorze-18-letnia-kierujaca-spadla-z-wiaduktu-nad-torami/rbjqt46",
+  "title": "18-latka spadła z wiaduktu nad torami"
+}

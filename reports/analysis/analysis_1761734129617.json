@@ -1,0 +1,48 @@
+{
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "title_alarm: regex hit 'zagrożenie' (+10), title_sensational: regex hit 'trudna noc' (+12), title_hits total = 22",
+    "content_sensational: phrase 'bardzo trudna noc' detected (+8), content_hits total = 8",
+    "alignment_score: 0.55, penalty for medium alignment +8",
+    "no country mismatch detected, no time omission detected"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera słowo 'zagrożenie', co budzi niepokój.",
+    "W artykule pojawia się stwierdzenie o 'bardzo trudnej nocy', co dodaje dramatyzmu.",
+    "Treść artykułu dobrze odnosi się do tytułu, ale nie jest przesadnie sensacyjna."
+  ],
+  "signals": {
+    "title_hits": [
+      "alarm",
+      "sensational"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Huragan Melissa uderza w Kubę, władze ogłaszają ewakuację",
+    "notes_to_editor": "Zaleca się unikanie dramatyzmu w tytule, aby lepiej odzwierciedlić treść artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 271,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:39:26"
+  },
+  "summary": "Huragan Melissa uderza w Kubę, co zmusza władze do ewakuacji ponad 735 tys. mieszkańców. Prezydent Miguel Díaz-Canel ostrzega, że nadchodząca noc będzie bardzo trudna. Artykuł opisuje sytuację kryzysową i przygotowania do huraganu.",
+  "id": 1761734129617,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/huragan-melissa-zagraza-kubie-prezydent-kraju-ostrzega-przed-trudna-noca/e1841ys",
+  "title": "Huragan Melissa uderza w Kubę, władze zarządziły ewakuację. \"Trudna noc\""
+}

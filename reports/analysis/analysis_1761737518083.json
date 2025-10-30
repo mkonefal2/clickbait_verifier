@@ -1,0 +1,48 @@
+{
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "title_sensational: regex hit 'niespodziewany' (+12), title_curiosity_gap: regex hit 'nie podpływać. Nie karmić!' (+6)",
+    "content_sensational: phrase 'martwią się o bezpieczeństwo' (+8), content_hedging: 'może zostać uderzony' (-2)",
+    "alignment_score: 0.55 → medium alignment penalty +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera słowo 'niespodziewany', co budzi ciekawość i może sugerować sensację.",
+    "W treści pojawia się zdanie o bezpieczeństwie delfina, co dodaje dramatyzmu, ale także użyto słowa 'może', co osłabia pewność.",
+    "Treść dobrze odnosi się do tytułu, ale niektóre elementy mogą być nieco przesadzone."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational",
+      "curiosity gap"
+    ],
+    "content_hits": [
+      "sensational",
+      "hedging"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Delfin w weneckich wodach budzi zainteresowanie turystów",
+    "notes_to_editor": "Rozważyć neutralniejsze sformułowanie tytułu, aby uniknąć wrażenia sensacji."
+  },
+  "diagnostics": {
+    "tokens_title": 43,
+    "tokens_content": 299,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:43:50"
+  },
+  "summary": "W weneckiej lagunie pojawił się delfin, który przyciąga uwagę turystów. Naukowcy wyrażają obawy o jego bezpieczeństwo, ponieważ może zostać uderzony przez łódź. Delfin, znany jako Mimmo, nie opuszcza rejonu placu Świętego Marka, mimo intensywnego ruchu wodnego.",
+  "id": 1761737518083,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/swiat/news-niespodziewany-gosc-w-weneckich-wodach-nie-podplywac-nie-kar,nId,8035580",
+  "title": "​Niespodziewany gość w weneckich wodach. \"Nie podpływać. Nie karmić!\""
+}

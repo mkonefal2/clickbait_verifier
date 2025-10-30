@@ -1,0 +1,51 @@
+{
+  "score": 65,
+  "label": "strong",
+  "rationale": [
+    "title_superlative: regex hit 'nawet do 30 lat więzienia' (+6), indicating a sensational claim about potential prison time.",
+    "title_sensational: regex hit 'zarzuty' (+12), suggesting a shocking development.",
+    "content_sensational: phrase 'nawet 30 lat więzienia' (+8) is repeated in the content, enhancing sensationalism.",
+    "content_credibility: org names detected (-3) as the article mentions Iustitia.",
+    "alignment_score: calculated as 0.55, indicating medium alignment with a penalty of +8."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera mocne sformułowanie o możliwym wyroku do 30 lat więzienia, co może budzić sensację.",
+    "W treści artykułu pojawia się informacja o zarzutach, co potwierdza dramatyczny charakter sytuacji.",
+    "Artykuł odnosi się do organizacji Iustitia, co wpływa na jego wiarygodność."
+  ],
+  "signals": {
+    "title_hits": [
+      "superlative",
+      "sensational"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Zarzuty dla Zbigniewa Ziobry dotyczące kierowania zorganizowaną grupą przestępczą",
+    "notes_to_editor": "Rozważyć złagodzenie tytułu, aby uniknąć przesadnych oczekiwań."
+  },
+  "diagnostics": {
+    "tokens_title": 11,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:54:30"
+  },
+  "summary": "Zbigniew Ziobro stoi w obliczu zarzutów kierowania zorganizowaną grupą przestępczą oraz przestępstw przeciwko mieniu. Prokuratura wnioskuje o uchwałę immunitetu, a prezes Iustitii wskazuje, że w przypadku prawomocnego wyroku, kara może wynieść nawet do 30 lat więzienia.",
+  "id": 1761737537009,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/zarzuty-dla-ziobry-prezes-iustitii-nie-ma-watpliwosci-nawet-do-30-lat-wiezienia/rdcplz0",
+  "title": "Zarzuty dla Ziobry. Prezes Iustitii nie ma wątpliwości. \"Nawet do 30 lat więzienia\""
+}

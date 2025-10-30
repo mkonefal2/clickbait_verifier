@@ -1,0 +1,52 @@
+{
+  "score": 40,
+  "label": "mild",
+  "rationale": [
+    "title_question: regex hit 'Czy' (+4), curiosity gap detected (+6)",
+    "content_sensational: phrases indicating skepticism and uncertainty (+8)",
+    "content_credibility: organization names detected (-3), statistics detected (-2)",
+    "alignment_score: 0.55, resulting in penalty of +8 for medium alignment"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera pytanie, co może wzbudzać ciekawość czytelników.",
+    "W treści pojawiają się sformułowania wskazujące na sceptycyzm, co dodaje dramatyzmu.",
+    "Artykuł zawiera dane statystyczne, co zwiększa jego wiarygodność.",
+    "Tytuł sugeruje pewność, ale treść jest bardziej złożona i niejednoznaczna."
+  ],
+  "signals": {
+    "title_hits": [
+      "title_question",
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "content_sensational"
+    ],
+    "credibility_hits": [
+      "organization names",
+      "statistics"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Stabilność koalicji rządzącej według najnowszego sondażu",
+    "notes_to_editor": "Rozważ zmianę tytułu na bardziej neutralny, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 30,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:46:04"
+  },
+  "summary": "Najnowszy sondaż United Surveys pokazuje, że 46% Polaków wierzy, iż obecna koalicja rządząca przetrwa do końca kadencji Sejmu. Wśród wyborców koalicji, 74% wyraża wiarę w jej trwałość, podczas gdy 39,5% ogółu ankietowanych jest sceptycznych co do jej przyszłości. Sondaż przeprowadzono na próbie 1000 osób w dniach 10-13 października 2025 roku.",
+  "id": 1761737522870,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/polityka/news-czy-koalicja-przetrwa-do-wyborow-najnowszy-sondaz,nId,8034713",
+  "title": "Czy koalicja przetrwa do wyborów? Najnowszy sondaż"
+}

@@ -1,0 +1,47 @@
+{
+  "score": 65,
+  "label": "strong",
+  "rationale": [
+    "title_sensational: regex hit 'przestępczej szajki' (+12), title_sensational: regex hit 'determinacja' (+12), title_curiosity_gap: regex hit 'odpowiada na zarzuty' (+6)",
+    "content_sensational: phrase 'karkołomnymi' detected (+8), content_sensational: phrase 'przestępczej szajki' detected (+8)",
+    "alignment_score: calculated as 0.55, resulting in a penalty of +8 for medium alignment"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera emocjonalne sformułowanie 'przestępczej szajki', co może budzić sensację.",
+    "W treści pojawiają się mocne słowa, takie jak 'karkołomne', co podkreśla dramatyzm sytuacji.",
+    "Tytuł sugeruje, że Ziobro odpowiada na poważne zarzuty, a treść częściowo to potwierdza, ale nie w pełni."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational",
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Ziobro odpowiada na zarzuty dotyczące Funduszu Sprawiedliwości",
+    "notes_to_editor": "Zaleca się unikanie emocjonalnych sformułowań w tytule, aby zwiększyć obiektywność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 40,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-30 14:25:51"
+  },
+  "summary": "Artykuł opisuje zarzuty wobec byłego ministra sprawiedliwości Zbigniewa Ziobry, który jest oskarżany o kierowanie zorganizowaną grupą przestępczą i przywłaszczenie ponad 150 milionów złotych z Funduszu Sprawiedliwości. Ziobro stanowczo odpiera te zarzuty, nazywając je bezpodstawnymi i mającymi charakter polityczny.",
+  "id": 1761686584724,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/polityka/news-ziobro-odpowiada-na-zarzuty-determinacja-przestepczej-szajki,nId,8035458",
+  "title": "Ziobro odpowiada na zarzuty: Determinacja przestępczej szajki"
+}
