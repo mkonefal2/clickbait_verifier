@@ -1,0 +1,47 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_superlative: no hits (+0), title_absolutes: no hits (+0), title_sensational: no hits (+0), title_alarming: no hits (+0), title_curiosity_gap: no hits (+0), title_listicle: no hits (+0), title_punctuation: no hits (+0)",
+    "content_overcertainty: no hits (+0), content_sensational: no hits (+0), content_credibility: org names detected (-3), content_credibility: numbers detected (-2), content_credibility: quoted speakers detected (-2), content_credibility: scientific terms detected (-2), content_hedging: no hits (+0)",
+    "alignment_score: 0.75, no penalty, no exaggeration gap, no country mismatch, no time omission"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł nie zawiera mocnych słów ani przesadnych stwierdzeń, co sprawia, że jest umiarkowanie sensacyjny.",
+    "Artykuł zawiera dane liczbowe i odniesienia do badań naukowych, co zwiększa jego wiarygodność.",
+    "Treść jest zgodna z tytułem, a temat dotyczy zdrowotnych korzyści płynących z flawonoli obecnych w kakao."
+  ],
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "organization names detected",
+      "numbers detected",
+      "quoted speakers detected",
+      "scientific terms detected"
+    ],
+    "mismatch": {
+      "alignment_score": 0.75,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Korzyści zdrowotne kakao przy długim siedzeniu",
+    "notes_to_editor": "Zaleca się unikać używania tytułów, które mogą być postrzegane jako sensacyjne lub wprowadzające w błąd."
+  },
+  "diagnostics": {
+    "tokens_title": 36,
+    "tokens_content": 2999,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:31:26"
+  },
+  "summary": "Najnowsze badania z Uniwersytetu w Birmingham wskazują, że flawonole obecne w kakao, herbacie i owocach jagodowych mogą chronić naczynia krwionośne przed negatywnymi skutkami długotrwałego siedzenia. Regularne spożywanie tych produktów może zmniejszyć ryzyko chorób serca i poprawić funkcje naczyniowe.",
+  "id": 1761747023416,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/nauka/news-jesli-na-siedzaco-to-z-kakao-w-reku,nId,8035725",
+  "title": "​Jeśli na siedząco, to z kakao w ręku"
+}

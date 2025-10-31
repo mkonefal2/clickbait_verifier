@@ -1,0 +1,49 @@
+{
+  "score": 50,
+  "label": "strong",
+  "rationale": [
+    "title_sensational: regex hit 'potężne' (+12), title_alarm: regex hit 'bombardowanie' (+10)",
+    "content_sensational: phrase 'potężne ataki' detected (+8), content_credibility: org names detected (-3)",
+    "alignment_score: 0.55, penalty for medium alignment (+8)"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnego słowa 'potężne', co może budzić emocje i tworzyć przesadne oczekiwania.",
+    "Artykuł zawiera informacje o atakach, ale także odnosi się do źródeł, co zwiększa jego wiarygodność.",
+    "Tytuł sugeruje dramatyczne wydarzenie, a treść również opisuje poważne sytuacje."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational",
+      "alarm"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Izrael wznawia bombardowania w Strefie Gazy",
+    "notes_to_editor": "Rozważyć użycie mniej emocjonalnego języka w tytule, aby zwiększyć neutralność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 42,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:37:43"
+  },
+  "summary": "Izrael wznowił bombardowania Strefy Gazy na rozkaz premiera Binjamina Netanjahu. Ataki miały miejsce w kilku lokalizacjach, w tym w pobliżu kompleksu medycznego Al-Szifa. W wyniku bombardowań są ofiary śmiertelne.",
+  "id": 1761747038722,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/izrael-wznawia-ataki-na-strefe-gazy-rozkaz-binjamina-netanjahu/cej67g6",
+  "title": "Wrze na Bliskim Wschodzie. Izrael wznawia bombardowanie Strefy Gazy"
+}

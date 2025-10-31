@@ -1,0 +1,45 @@
+{
+  "score": 20,
+  "label": "not_clickbait",
+  "rationale": [
+    "title_superlative: no hits detected (0), title_absolutes: no hits detected (0), title_sensational: no hits detected (0), title_alarming: no hits detected (0), title_curiosity_gap: no hits detected (0), title_listicle: no hits detected (0), title_punctuation: no hits detected (0)",
+    "content_overcertainty: no hits detected (0), content_sensational: no hits detected (0), content_credibility: org names detected (-3), content_numbers: numbers detected (-2), content_quoted: no hits detected (0), content_scientific: no hits detected (0), content_hedging: no hits detected (0)",
+    "alignment_score: 1.0 (high alignment), no penalties applied, no exaggeration gap, no country mismatch, no time omission penalties"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jest neutralny i nie używa przesadnych słów ani zwrotów.",
+    "Artykuł zawiera konkretne informacje o redukcji wojsk, co zwiększa jego wiarygodność.",
+    "Treść artykułu jest zgodna z tytułem, a oba odnoszą się do wydarzeń w Europie Wschodniej."
+  ],
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "organization names detected",
+      "numbers detected"
+    ],
+    "mismatch": {
+      "alignment_score": 1.0,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "USA ogłaszają redukcję liczebności wojsk we wschodniej Europie",
+    "notes_to_editor": "Zaleca się użycie bardziej neutralnego tytułu, aby uniknąć potencjalnych skojarzeń z clickbait."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:26:24"
+  },
+  "summary": "Stany Zjednoczone ogłosiły redukcję liczebności swoich wojsk we wschodniej Europie, informując Rumunię i inne państwa NATO. W Rumunii pozostanie około 1000 amerykańskich żołnierzy. Polska Agencja Prasowa przekazała, że Polska nie otrzymała informacji o podobnych zmianach w swoim kraju.",
+  "id": 1761740523624,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/usa-redukuja-liczebnosc-wojsk-we-wschodniej-europie/3rqk87v",
+  "title": "USA redukują liczebność wojsk we wschodniej Europie"
+}

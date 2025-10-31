@@ -1,0 +1,53 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_superlative: regex hit 'najbardziej' (+6), title_superlative: regex hit 'najczęściej' (+6), title_exclamation: multiple exclamation marks (+3)",
+    "content_credibility: org names detected (-3), content_credibility: numbers detected (-2), content_credibility: quoted speakers detected (-2)",
+    "alignment_score: 0.65 (high alignment), no penalty applied"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'najbardziej', co może sugerować przesadne oczekiwania.",
+    "Artykuł zawiera dane liczbowe i cytaty ekspertów, co zwiększa jego wiarygodność.",
+    "Treść artykułu dobrze odpowiada obietnicy tytułu, co wskazuje na wysoką zgodność."
+  ],
+  "signals": {
+    "title_hits": [
+      "najbardziej",
+      "najczęściej",
+      "!!!"
+    ],
+    "content_hits": [
+      "cytowania",
+      "raport",
+      "informacje"
+    ],
+    "credibility_hits": [
+      "Instytut Monitorowania Mediów",
+      "Michał Rodak"
+    ],
+    "mismatch": {
+      "alignment_score": 0.65,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "RMF FM liderem wśród stacji radiowych w Polsce",
+    "notes_to_editor": "Rozważyć użycie mniej przesadnych sformułowań w tytule, aby zwiększyć neutralność."
+  },
+  "diagnostics": {
+    "tokens_title": 53,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:39:52"
+  },
+  "summary": "RMF FM ponownie zdobyło tytuł najbardziej opiniotwórczej stacji radiowej w Polsce, według raportu Instytutu Monitorowania Mediów. W wrześniu stacja była cytowana niemal 2,8 tys. razy, co przewyższa wyniki konkurencji. Raport analizuje liczbę cytatów w mediach i podkreśla znaczenie RMF FM jako źródła informacji dla innych redakcji.",
+  "id": 1761761418983,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/news-rmf-fm-ponownie-najbardziej-opiniotworcza-stacja-radiowa-w-p,nId,8035755",
+  "title": "RMF FM ponownie najbardziej opiniotwórczą stacją radiową w Polsce!"
+}

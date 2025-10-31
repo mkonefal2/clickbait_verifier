@@ -1,0 +1,48 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_sensational: regex hit 'otworzyły ogień' (+12), which implies a dramatic action.",
+    "content_sensational: phrase 'dwa drony przeleciały' suggests a notable event (+8).",
+    "alignment_score: calculated alignment score is 0.55, resulting in a penalty of +8 due to medium alignment.",
+    "no country mismatch detected.",
+    "no time omission detected."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł sugeruje dramatyczne wydarzenie, co może przyciągać uwagę.",
+    "Treść informuje o incydencie z dronami, co jest istotne, ale nie przesadzone.",
+    "Artykuł nie zawiera przesadnych stwierdzeń ani niejasności."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Incydent z dronami nad bazą NATO w Estonii",
+    "notes_to_editor": "Rozważyć użycie bardziej neutralnego języka w tytule, aby uniknąć wrażenia sensacji."
+  },
+  "diagnostics": {
+    "tokens_title": 36,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:37:34"
+  },
+  "summary": "Dwa drony przeleciały nad estońskim obiektem wojskowym blisko granicy z Rosją. Siły NATO zareagowały, zestrzeliwując jedną z maszyn. Artykuł przedstawia szczegóły incydentu oraz działania podjęte przez NATO.",
+  "id": 1761747038399,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/incydent-nad-baza-w-estonii-sily-nato-otworzyly-ogien/hywpx6q",
+  "title": "Incydent nad bazą w Estonii. Siły NATO otworzyły ogień"
+}

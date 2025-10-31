@@ -1,0 +1,47 @@
+{
+  "score": 24,
+  "label": "not_clickbait",
+  "rationale": [
+    "title_hits: no superlatives, absolutes, sensational language, or curiosity gaps detected (0 points)",
+    "content_hits: no sensational phrases detected (0 points)",
+    "credibility_hits: organization names mentioned (-3), numbers/dates/statistics mentioned (-2)",
+    "alignment_score: content aligns well with the title, no penalties applied (0 points)",
+    "no exaggeration gap detected (0 points)"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł nie zawiera przesadnych słów ani obietnic, co czyni go neutralnym.",
+    "Artykuł dostarcza konkretne informacje na temat zmian w zasiłku pogrzebowym.",
+    "W treści artykułu znajdują się dane liczbowe i odniesienia do instytucji, co zwiększa jego wiarygodność."
+  ],
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": {
+      "organization_names": -3,
+      "numbers_dates_statistics": -2
+    },
+    "mismatch": {
+      "alignment_score": 0.85,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Nowe zasady składania wniosków o zasiłek pogrzebowy w Polsce",
+    "notes_to_editor": "Zaleca się unikanie użycia języka, który może być interpretowany jako sensacyjny."
+  },
+  "diagnostics": {
+    "tokens_title": 66,
+    "tokens_content": 2963,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:52:15"
+  },
+  "summary": "Ministerstwo Rodziny, Pracy i Polityki Społecznej planuje uprościć proces składania wniosków o zasiłek pogrzebowy, wprowadzając możliwość składania ich elektronicznie od 1 stycznia 2026 roku. Nowe przepisy mają na celu ograniczenie formalności oraz zwiększenie kwoty zasiłku z 4 tys. zł do 7 tys. zł.",
+  "id": 1761833547351,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/polska/news-skladanie-wniosku-o-zasilek-pogrzebowy-bedzie-latwiejsze-jes,nId,8036043",
+  "title": "Składanie wniosku o zasiłek pogrzebowy będzie łatwiejsze? Jest projekt"
+}

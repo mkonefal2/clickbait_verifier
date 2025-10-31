@@ -1,0 +1,63 @@
+{
+  "score": 24,
+  "label": "not_clickbait",
+  "rationale": [
+    "title_superlative: no hits, (+0)",
+    "title_absolute: no hits, (+0)",
+    "title_sensational: no hits, (+0)",
+    "title_alarming: no hits, (+0)",
+    "title_curiosity_gap: no hits, (+0)",
+    "title_listicle: no hits, (+0)",
+    "title_punctuation: one question mark (+4)",
+    "content_overcertainty: no hits, (+0)",
+    "content_sensational: no hits, (+0)",
+    "credibility_reduction: organization names detected (-3)",
+    "credibility_reduction: numbers/dates/statistics detected (-2)",
+    "credibility_reduction: quoted speakers detected (-2)",
+    "credibility_reduction: scientific/method terms detected (-2)",
+    "hedging_reduction: no hits, (+0)",
+    "alignment_score: 0.75, no penalty",
+    "exaggeration_gap: false",
+    "country_mismatch: false",
+    "time_omission: false"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł nie zawiera przesadnych słów ani sensacyjnych zwrotów.",
+    "Artykuł przedstawia konkretne informacje o nowych przepisach dotyczących czujników dymu i czadu.",
+    "W treści użyto nazw organizacji oraz dat, co zwiększa wiarygodność informacji."
+  ],
+  "signals": {
+    "title_hits": [
+      "punctuation_question"
+    ],
+    "content_hits": [],
+    "credibility_hits": [
+      "organization_names",
+      "numbers_dates_statistics",
+      "quoted_speakers"
+    ],
+    "mismatch": {
+      "alignment_score": 0.75,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Nowe przepisy dotyczące montażu czujników dymu i czadu dla właścicieli nieruchomości",
+    "notes_to_editor": "Zaleca się unikanie pytań w tytule, aby zwiększyć neutralność."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:23:10"
+  },
+  "summary": "Od 1 stycznia 2026 roku w Polsce wejdą w życie nowe przepisy dotyczące montażu czujników dymu i tlenku węgla w różnych typach budynków. Obowiązek ten obejmie nowe domy, budynki handlowe, a także lokale hotelarskie. Do 2030 roku czujniki będą musiały być zainstalowane w istniejących lokalach mieszkalnych.",
+  "id": 1761740513173,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/polska/news-nowy-obowiazek-dla-wlascicieli-nieruchomosci-kogo-obejma-now,nId,8035651",
+  "title": "Nowy obowiązek dla właścicieli nieruchomości. Kogo obejmą nowe przepisy?"
+}

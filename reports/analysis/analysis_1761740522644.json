@@ -1,0 +1,50 @@
+{
+  "score": 50,
+  "label": "strong",
+  "rationale": [
+    "title_superlative: regex hit 'potężny' (+6), 'najpotężnych' (+6), 'niszczycielska moc' (+6), total 18",
+    "title_curiosity_gap: regex hit 'co musie się wydarzyć' (+6), total 6",
+    "content_sensational: phrase 'potwór jak Melissa' (+8), total 8",
+    "content_overcertainty: phrase 'musi się na siebie nałożyć wiele czynników' (+6), total 6",
+    "alignment_score: calculated as 0.5, penalty +8 for medium alignment"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów 'potężny' i 'najpotężnych', co tworzy przesadne oczekiwania.",
+    "Tytuł zawiera pytanie, które wzbudza ciekawość czytelników.",
+    "Artykuł opisuje mechanizm powstawania huraganów, ale używa także dramatycznych zwrotów."
+  ],
+  "signals": {
+    "title_hits": [
+      "superlative",
+      "curiosity gap"
+    ],
+    "content_hits": [
+      "sensational phrases",
+      "overcertainty"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.5,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Jak powstają huragany i co wpływa na ich siłę?",
+    "notes_to_editor": "Zaleca się unikanie przesadnych sformułowań w tytule oraz bardziej neutralne podejście do tematu."
+  },
+  "diagnostics": {
+    "tokens_title": 17,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:25:57"
+  },
+  "summary": "Artykuł wyjaśnia, jak powstają potężne huragany, na przykład huragan Melissa. Opisuje, że ocean jest głównym źródłem energii dla cyklonów oraz że wiele czynników musi się na siebie nałożyć, aby doszło do powstania tak silnego żywiołu. Autor przedstawia mechanizmy, które prowadzą do powstawania huraganów.",
+  "id": 1761740522644,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/pogoda/jak-powstaja-potezne-huragany-to-stad-biora-swoja-niszczycielska-sile/51d49nn",
+  "title": "To stąd huragany czerpią niszczycielską moc. Co musie się wydarzyć, żeby powstał taki potwór jak Melissa?"
+}

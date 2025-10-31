@@ -1,0 +1,49 @@
+{
+  "score": 40,
+  "label": "mild",
+  "rationale": [
+    "title_sensational: regex hit 'przestępcza szajka' (+12), title_curiosity_gap: regex hit 'odpowiada' (+6)",
+    "content_sensational: phrase 'przestępcza szajka' detected (+8), content_credibility: org names mentioned (-3)",
+    "alignment_score: 0.5, penalty for medium alignment (+8)"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera mocne sformułowanie 'przestępcza szajka', co może budzić emocje.",
+    "W artykule pojawia się odniesienie do prokuratury, co dodaje kontekstu, ale zmniejsza wiarygodność.",
+    "Treść artykułu odpowiada na wniosek prokuratury, ale nie wyjaśnia dokładnie sytuacji."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational",
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.5,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Zbigniew Ziobro odpowiada na wniosek prokuratury",
+    "notes_to_editor": "Rozważyć użycie bardziej neutralnego języka w tytule, aby uniknąć wrażenia sensacji."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:45:53"
+  },
+  "summary": "Zbigniew Ziobro odniósł się do wniosku prokuratury o uchwałę immunitetu i tymczasowe aresztowanie. W swoim wystąpieniu nazwał rządzącą władzę 'przestępczą szajką', co podkreśla jego stanowisko wobec zarzutów. Artykuł przedstawia jego reakcję na sytuację prawną.",
+  "id": 1761761429034,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/zbigniew-ziobro-grzmi-i-odpowiada-prokuraturze-wymyslone-zarzuty/gv395hv",
+  "title": "Zbigniew Ziobro zamieścił nagranie. Odpowiada na wniosek prokuratury"
+}

@@ -1,0 +1,49 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_sensational: regex hit 'domagają się dymisji' (+12), title_curiosity_gap: regex hit 'grzmią' (+6)",
+    "content_sensational: phrase 'kłamał i oszukiwał' detected (+8), content_credibility: org names detected (-3)",
+    "alignment_score: 0.6, resulting in medium alignment penalty (+8)"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera mocne sformułowanie 'domagają się dymisji', co może budzić emocje.",
+    "W treści pojawia się stwierdzenie o kłamstwie, co również zwiększa dramatyzm.",
+    "Artykuł dobrze odnosi się do tytułu, ale niektóre sformułowania mogą być przesadzone."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational",
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.6,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Posłowie PiS rozpoczynają kontrolę w sprawie działki pod CPK",
+    "notes_to_editor": "Zaleca się unikanie emocjonalnych sformułowań w tytule, aby zwiększyć neutralność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:25:10"
+  },
+  "summary": "Posłowie PiS rozpoczęli kontrolę w Krajowym Ośrodku Wsparcia Rolnictwa w związku z działką pod budowę Centralnego Portu Komunikacyjnego. Domagają się wglądu w dokumenty dotyczące sprzedaży oraz dymisji obecnego szefa KOWR, oskarżając go o kłamstwo i oszustwo wobec instytucji publicznych.",
+  "id": 1761740521407,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/poslowie-pis-grzmia-w-sprawie-dzialki-pod-cpk-domagaja-sie-dymisji/bd5z0k1",
+  "title": "Posłowie PiS grzmią w sprawie działki pod CPK. Domagają się dymisji"
+}

@@ -1,0 +1,49 @@
+{
+  "score": 60,
+  "label": "strong",
+  "rationale": [
+    "title_superlative: regex hit 'mroczną tajemnicę' (+6), title_curiosity_gap: regex hit 'poznaj' (+6), title_sensational: regex hit 'włoskie Salem' (+12)",
+    "content_sensational: phrases like 'czarne chmury' (+8), content_overcertainty: 'władze świeckie stanęły w obronie kobiet' (+6)",
+    "alignment_score: 0.55 → penalty +8 for medium alignment, no country mismatch, no time omission"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów, takich jak 'mroczna tajemnica', co może budzić sensację.",
+    "Artykuł opisuje dramatyczne wydarzenia związane z procesami czarownic, co dodaje emocji do treści.",
+    "Treść w dużej mierze odpowiada obietnicom tytułu, ale niektóre aspekty są nieco przesadzone."
+  ],
+  "signals": {
+    "title_hits": [
+      "mroczną tajemnicę",
+      "poznaj",
+      "włoskie Salem"
+    ],
+    "content_hits": [
+      "czarne chmury",
+      "władze świeckie stanęły w obronie kobiet"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Historia włoskiego miasteczka Triora i procesów czarownic",
+    "notes_to_editor": "Zaleca się unikanie przesadnych sformułowań w tytule, aby lepiej odzwierciedlić treść artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 68,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:51:55"
+  },
+  "summary": "Artykuł opisuje miasteczko Triora w Ligurii, znane z dramatycznych procesów czarownic, które miały miejsce w XVI wieku. Mieszkańcy oskarżali kobiety o czary, co prowadziło do brutalnych tortur i egzekucji. Dziś Triora przyciąga turystów swoją mroczną historią i średniowiecznym klimatem.",
+  "id": 1761833545274,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/ciekawostki/news-to-wloskie-miasteczko-skrywa-mroczna-tajemnice-poznaj-wloski,nId,8036062",
+  "title": "To włoskie miasteczko skrywa mroczną tajemnicę. Poznaj \"włoskie Salem\", gdzie polowano na czarownice"
+}

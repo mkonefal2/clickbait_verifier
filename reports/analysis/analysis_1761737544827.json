@@ -1,0 +1,50 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_superlative: regex hit 'największy' (+6), title_sensational: regex hit 'niewiarygodny' (+12), title_curiosity_gap: regex hit 'zobacz co się stało' (+6)",
+    "content_sensational: phrase 'bardziej niż kiedykolwiek wcześniej' (+8), content_credibility: org names detected (-3), content_credibility: quoted speakers detected (-2)",
+    "alignment_score: 0.55 → medium alignment penalty +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów, które mogą budzić przesadne oczekiwania.",
+    "Artykuł zawiera stwierdzenia dotyczące determinacji Putina, co może być uznane za sensacyjne.",
+    "Tytuł sugeruje, że artykuł dostarczy niespodziewanych informacji, ale treść jest bardziej stonowana."
+  ],
+  "signals": {
+    "title_hits": [
+      "największy",
+      "niewiarygodny",
+      "zobacz co się stało"
+    ],
+    "content_hits": [
+      "bardziej niż kiedykolwiek wcześniej"
+    ],
+    "credibility_hits": [
+      "Polska Agencja Prasowa"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Analiza planów Władimira Putina według amerykańskiego wywiadu",
+    "notes_to_editor": "Zaleca się unikanie mocnych słów i stwierdzeń, które mogą wprowadzać w błąd czytelników."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:20:56"
+  },
+  "summary": "Artykuł omawia ocenę amerykańskiego wywiadu na temat determinacji Władimira Putina w kontynuowaniu wojny w Ukrainie. Zawiera informacje o strategiach prezydenta Rosji oraz jego dążeniu do uzyskania przewagi na polu bitwy. Wskazano na źródła NBC News jako podstawę tych informacji.",
+  "id": 1761737544827,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/wywiad-usa-przeswietlil-plany-putina-taka-taktyke-obral-prezydent-rosji/cqqcvxz",
+  "title": "Wywiad USA prześwietlił plany Władimira Putina. Taką ma taktykę"
+}

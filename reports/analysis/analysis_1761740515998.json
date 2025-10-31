@@ -1,0 +1,49 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'Kiedy' (+6), title_question: regex hit '?' (+4)",
+    "content_sensational: phrase 'grozi nawet 25 lat więzienia' (+8)",
+    "content_hedging: phrase 'może się odbyć' (-2)",
+    "alignment_score: 0.60 → medium alignment penalty +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera pytanie, co może budzić ciekawość czytelników.",
+    "W treści użyto mocnego sformułowania o groźbie 25 lat więzienia, co dodaje dramatyzmu.",
+    "Artykuł zawiera niepewność co do daty głosowania, co zmniejsza jego wiarygodność."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap",
+      "question"
+    ],
+    "content_hits": [
+      "sensational",
+      "hedging"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.6,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Głosowanie nad uchwałą o uchyleniu immunitetu Zbigniewa Ziobry planowane na grudzień",
+    "notes_to_editor": "Zaleca się unikanie pytań w tytule, aby zwiększyć neutralność."
+  },
+  "diagnostics": {
+    "tokens_title": 6,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:23:44"
+  },
+  "summary": "Artykuł informuje o planowanym głosowaniu w Sejmie nad uchwałą o uchyleniu immunitetu Zbigniewa Ziobro, które może odbyć się w grudniu. Prokuratura złożyła wniosek o aresztowanie Ziobry, podejrzewając go o 26 przestępstw związanych z Funduszem Sprawiedliwości. W artykule przedstawiono szczegóły dotyczące procedury głosowania oraz związane z nią trudności.",
+  "id": 1761740515998,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/polityka/news-immunitet-ziobry-kiedy-glosowanie-nad-uchyleniem-informacje-,nId,8035630",
+  "title": "Immunitet Ziobry: Kiedy głosowanie nad uchyleniem?"
+}

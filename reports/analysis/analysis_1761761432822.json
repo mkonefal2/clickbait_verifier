@@ -1,0 +1,49 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_superlative: regex hit 'największy' (+6), title_sensational: regex hit 'awaria' (+12)",
+    "content_sensational: phrase 'poważna awaria' detected (+8), content_credibility: org names detected (-3)",
+    "alignment_score: calculated at 0.55, resulting in a penalty of +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera słowo 'awaria', które może budzić niepokój, ale nie jest przesadzone.",
+    "Artykuł informuje o problemach z usługami Microsoftu, co jest zgodne z tytułem.",
+    "Zawiera dane o zgłoszeniach z całego świata, co zwiększa wiarygodność."
+  ],
+  "signals": {
+    "title_hits": [
+      "superlative",
+      "sensational"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Problemy z usługami Microsoftu zgłaszane na całym świecie",
+    "notes_to_editor": "Rozważyć użycie bardziej neutralnego języka w tytule, aby uniknąć wrażenia sensacji."
+  },
+  "diagnostics": {
+    "tokens_title": 8,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:48:23"
+  },
+  "summary": "W artykule opisano poważną awarię usług Microsoftu, która dotknęła użytkowników na całym świecie. Zgłoszenia dotyczą problemów z popularnymi aplikacjami, w tym Microsoft 365. Dodatkowo pojawiły się informacje o awarii Amazon Web Services.",
+  "id": 1761761432822,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/kolejna-awaria-sieci-aws-nie-dziala-wiele-stron-internetowych/cm1ckts",
+  "title": "Awaria usług Microsoftu. Tysiące zgłoszeń z całego świata"
+}

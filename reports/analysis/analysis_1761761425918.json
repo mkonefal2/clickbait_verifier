@@ -1,0 +1,49 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'co?' (+6), content_sensational: phrase 'nietypowe wideo' (+8)",
+    "content_credibility: org names detected (-3), content_credibility: quoted speakers detected (-2)",
+    "alignment_score: 0.55 (medium alignment), penalty +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera pytanie, co może wzbudzać ciekawość czytelników.",
+    "Artykuł zawiera humorystyczne odniesienia, co może być postrzegane jako nieco sensacyjne.",
+    "Treść artykułu jest zgodna z tytułem, ale nie zawiera mocnych dowodów ani cytatów ekspertów."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names",
+      "quoted speakers"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Donald Tusk komentuje działania ministra Żurka",
+    "notes_to_editor": "Rozważ zmianę tytułu na bardziej neutralny, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:43:47"
+  },
+  "summary": "Premier Donald Tusk opublikował humorystyczne wideo, w którym je zupę i komentuje działania ministra sprawiedliwości Waldemara Żurka. W nagraniu Tusk nawiązuje do planów rządu, sugerując, że będą kolejne kroki w tej sprawie. Wideo ma na celu zwrócenie uwagi na sytuację polityczną w Polsce.",
+  "id": 1761761425918,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/donald-tusk-sugeruje-kolejne-dzialania-niezly-ten-zurek-co/q2chew1",
+  "title": "Donald Tusk sugeruje kolejne działania. \"Niezły ten Żurek, co?\""
+}

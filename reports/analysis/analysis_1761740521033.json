@@ -1,0 +1,49 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'kim jest' (+6)",
+    "content_sensational: phrase 'zatrzymany przez CBA' (+8)",
+    "credibility_reduction: org names detected (-3)",
+    "alignment_score: 0.6, medium alignment → penalty +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera pytanie 'kim jest', co wzbudza ciekawość czytelników.",
+    "W artykule użyto sformułowania 'zatrzymany przez CBA', co nadaje mu sensacyjny charakter.",
+    "Artykuł odnosi się do konkretnej osoby, co zmniejsza jego wiarygodność."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.6,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Były wiceminister Paweł M. zatrzymany przez CBA w sprawie korupcji",
+    "notes_to_editor": "Rozważ użycie bardziej neutralnego tytułu, aby uniknąć wrażenia sensacyjności."
+  },
+  "diagnostics": {
+    "tokens_title": 47,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:24:59"
+  },
+  "summary": "Były wiceminister Paweł M. został zatrzymany przez Centralne Biuro Antykorupcyjne w związku z podejrzeniami o korupcję. Jego działalność związana była z Rządową Agencją Rezerw Strategicznych oraz Orlen Upstream. Artykuł przedstawia kontekst zatrzymania oraz dotychczasową karierę polityka.",
+  "id": 1761740521033,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/byly-wiceminister-z-czasow-pis-z-zarzutami-korupcji-kim-jest-pawel-m/4chsbs9",
+  "title": "Były wiceminister z czasów PiS z zarzutami korupcji. Kim jest Paweł M."
+}

@@ -1,0 +1,52 @@
+{
+  "score": 75,
+  "label": "extreme",
+  "rationale": [
+    "title_superlative: regex hit 'największa' (+6), title_alarm: regex hit 'tragedia' (+10), title_curiosity_gap: regex hit 'zobacz co się stało' (+6)",
+    "content_sensational: phrases like 'krwawa jatka' (+8), content_overcertainty: mentions of 'na pewno' (+6)",
+    "alignment_score: 0.4 (low alignment) → penalty +18, country_mismatch: false, time_omission: false"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera mocne słowo 'największa', co może tworzyć przesadne oczekiwania.",
+    "Artykuł opisuje brutalną operację policyjną, używając dramatycznych sformułowań, co zwiększa wrażenie sensacji.",
+    "Tytuł sugeruje, że wydarzenie miało miejsce w Polsce, ale dotyczy Brazylii."
+  ],
+  "signals": {
+    "title_hits": [
+      "największa",
+      "tragedia",
+      "zobacz co się stało"
+    ],
+    "content_hits": [
+      "krwawa jatka",
+      "na pewno"
+    ],
+    "credibility_hits": [
+      "organizacja przestępcza",
+      "liczby ofiar"
+    ],
+    "mismatch": {
+      "alignment_score": 0.4,
+      "exaggeration_gap": true,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Operacja policyjna w Rio de Janeiro zakończona tragedią",
+    "notes_to_editor": "Zaleca się unikanie przesadnych sformułowań w tytule, aby zwiększyć wiarygodność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 22,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:39:27"
+  },
+  "summary": "W Rio de Janeiro miała miejsce brutalna operacja policyjna wymierzona w gang Comando Vermelho. W wyniku starć zginęło co najmniej 132 osoby, w tym czterech policjantów. Operacja wywołała krytykę ze strony organizacji praw człowieka oraz ONZ.",
+  "id": 1761761417439,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/swiat/news-ponad-70-cial-na-ulicy-masakra-w-fawelach-rio-de-janeiro,nId,8035736",
+  "title": "Ponad 70 ciał na ulicy"
+}

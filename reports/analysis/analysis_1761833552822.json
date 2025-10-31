@@ -1,0 +1,49 @@
+{
+  "score": 50,
+  "label": "strong",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'zauważono psy z niebieską sierścią' (+6), indicating a curiosity gap.",
+    "content_sensational: phrase 'intensywnie niebieska sierść' detected (+8), which adds sensationalism.",
+    "content_hedging: phrases 'prawdopodobnie' and 'wydaje się' detected (-2 each, total -4), indicating uncertainty.",
+    "alignment_score: calculated as 0.55, indicating medium alignment, resulting in a penalty of +8."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł wzbudza ciekawość, sugerując, że zauważono coś niezwykłego.",
+    "W treści użyto mocnych sformułowań, co dodaje dramatyzmu.",
+    "Artykuł zawiera niepewne stwierdzenia, co zmniejsza jego wiarygodność.",
+    "Treść w miarę odpowiada tytułowi, ale niektóre elementy są przesadzone."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational",
+      "hedging"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "W Czarnobylu zauważono psy o nietypowym umaszczeniu",
+    "notes_to_editor": "Rozważ użycie bardziej neutralnego tytułu, aby uniknąć przesadnych oczekiwań."
+  },
+  "diagnostics": {
+    "tokens_title": 38,
+    "tokens_content": 2998,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:53:17"
+  },
+  "summary": "W okolicach czarnobylskiej elektrowni jądrowej pojawiły się psy o intensywnie niebieskiej sierści. Organizacja Clean Futures Fund bada przyczyny tego zjawiska, podejrzewając kontakt z barwnikami lub chemikaliami. Psy wydają się zdrowe i aktywne, a ich obecność jest wynikiem ewakuacji zwierząt podczas katastrofy w 1986 roku.",
+  "id": 1761833552822,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/swiat/news-w-czarnobylu-zauwazono-psy-z-niebieska-sierscia,nId,8036035",
+  "title": "W Czarnobylu zauważono psy z niebieską sierścią"
+}

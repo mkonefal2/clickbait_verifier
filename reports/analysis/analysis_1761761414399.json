@@ -1,0 +1,62 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_superlative: no hits, (+0)",
+    "title_absolutes: no hits, (+0)",
+    "title_sensational: no hits, (+0)",
+    "title_alarming: no hits, (+0)",
+    "title_curiosity_gap: no hits, (+0)",
+    "title_listicle: no hits, (+0)",
+    "title_punctuation: no hits, (+0)",
+    "content_overcertainty: no hits, (+0)",
+    "content_sensational: no hits, (+0)",
+    "credibility_reductions: organization names detected (-3)",
+    "credibility_reductions: numbers detected (-2)",
+    "credibility_reductions: quoted speakers detected (-2)",
+    "credibility_reductions: scientific/method terms detected (-2)",
+    "content_hedging: no hits, (+0)",
+    "alignment_score: 0.6, medium alignment penalty +8",
+    "exaggeration_gap: false, no penalty",
+    "country_mismatch: false, no penalty",
+    "time_omission: false, no penalty"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł nie zawiera przesadnych słów ani alarmujących zwrotów.",
+    "Artykuł zawiera konkretne dane i cytaty, co zwiększa jego wiarygodność.",
+    "Tytuł i treść są zgodne, ale nie ma w nich mocnych elementów przyciągających uwagę."
+  ],
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "organization names detected",
+      "numbers detected",
+      "quoted speakers detected",
+      "scientific/method terms detected"
+    ],
+    "mismatch": {
+      "alignment_score": 0.6,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Zatrzymanie byłego kandydata KO na prezydenta Częstochowy przez CBA",
+    "notes_to_editor": "Zaleca się unikanie dramatyzacji w tytule, aby lepiej odzwierciedlić treść artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 61,
+    "tokens_content": 1168,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:38:35"
+  },
+  "summary": "Były kandydat Koalicji Obywatelskiej na prezydenta Częstochowy, Łukasz B., został zatrzymany przez Centralne Biuro Antykorupcyjne w związku z dochodzeniem korupcyjnym. Prokuratura prowadzi śledztwo dotyczące byłego wiceprezydenta Bartłomieja S., który również jest podejrzany o przyjmowanie korzyści majątkowych. W sprawie zarzuty usłyszało już kilkanaście osób.",
+  "id": 1761761414399,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/polska/news-byly-kandydat-ko-na-prezydenta-czestochowy-zatrzymany-przez-,nId,8035764",
+  "title": "Były kandydat KO na prezydenta Częstochowy zatrzymany przez CBA"
+}

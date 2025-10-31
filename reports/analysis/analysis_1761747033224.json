@@ -1,0 +1,49 @@
+{
+  "score": 25,
+  "label": "mild",
+  "rationale": [
+    "title_superlative: regex hit 'silne' (+6), title_sensational: regex hit 'redukcji' (+12)",
+    "content_sensational: phrase 'silna obecność' detected (+8), content_credibility: org names detected (-3)",
+    "alignment_score: 0.55, resulting in a penalty of +8 for medium alignment"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'silne', co może budzić pewne emocje, a także odnosi się do 'redukcji', co może być postrzegane jako sensacyjne.",
+    "W treści pojawia się stwierdzenie o 'silnej obecności', co również może być uznane za przesadne, ale artykuł zawiera informacje o wiarygodnych źródłach.",
+    "Tytuł i treść są do siebie w miarę zgodne, ale nieco przesadzone."
+  ],
+  "signals": {
+    "title_hits": [
+      "superlative",
+      "sensational"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Ambasador USA omawia redukcję amerykańskich żołnierzy",
+    "notes_to_editor": "Zaleca się unikanie emocjonalnych słów w tytule, aby zwiększyć neutralność."
+  },
+  "diagnostics": {
+    "tokens_title": 12,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:34:01"
+  },
+  "summary": "Ambasador USA przy NATO, Matthew Whitaker, zapewnił o trwałym zaangażowaniu USA w Europie, podkreślając silne partnerstwo z Rumunią. W kontekście redukcji amerykańskich żołnierzy w regionie, ambasador zaznaczył, że obecność USA w Europie pozostaje stabilna i niezachwiana.",
+  "id": 1761747033224,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/niezachwiane-zaangazowanie-ambasador-usa-o-redukcji-amerykanskich-zolnierzy/hzcg5bf",
+  "title": "\"Silne partnerstwo\". Ambasador USA o redukcji amerykańskich żołnierzy"
+}

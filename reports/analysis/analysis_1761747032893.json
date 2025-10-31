@@ -1,0 +1,50 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'w pobliżu' (+6), suggesting an intriguing location.",
+    "content_sensational: phrases like 'nie skorzystał' imply controversy (+8).",
+    "credibility_reduction: organization names mentioned (-3), reducing trust.",
+    "alignment_score: calculated at 0.55, resulting in a penalty of +8."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł sugeruje, że działki są w interesującym miejscu, co wzbudza ciekawość.",
+    "Artykuł zawiera kontrowersyjne stwierdzenia, co może przyciągać uwagę.",
+    "W treści wspomniano o instytucjach, co zmniejsza wiarygodność informacji.",
+    "Treść artykułu w pewnym stopniu wspiera obietnice tytułu, ale nie w pełni."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Działki Daniela Obajtka w pobliżu elektrowni atomowej: KOWR nie wykupił",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia sensacji."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:33:44"
+  },
+  "summary": "Daniel Obajtek, były prezes Orlenu, nabył działki w pobliżu planowanej elektrowni atomowej na Pomorzu i przekazał je synowi. Krajowy Ośrodek Wsparcia Rolnictwa nie skorzystał z prawa pierwokupu w 2023 roku, co budzi kontrowersje. W artykule wskazano na brak zachowania procedur w trakcie transakcji.",
+  "id": 1761747032893,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/dzialki-daniela-obajtka-w-poblizu-elektrowni-atomowej-kowr-nie-chcial-ich-wykupic/qve254h",
+  "title": "Działki Daniela Obajtka w pobliżu elektrowni atomowej. KOWR nie chciał ich wykupić"
+}

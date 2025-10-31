@@ -1,0 +1,44 @@
+{
+  "score": 20,
+  "label": "not_clickbait",
+  "rationale": [
+    "title_superlative: no hits detected (0), title_absolutes: no hits detected (0), title_sensational: no hits detected (0), title_alarming: no hits detected (0), title_curiosity_gap: no hits detected (0), title_listicle: no hits detected (0), title_punctuation: no hits detected (0)",
+    "content_overcertainty: no hits detected (0), content_sensational: no hits detected (0), content_credibility: org names detected (-3), content_credibility: no numbers/dates/statistics detected (0), content_credibility: no quoted speakers detected (0), content_credibility: no scientific/method terms detected (0), content_credibility: no hedging detected (0)",
+    "alignment_score: 0.8, no penalties applied, high alignment"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł nie zawiera przesadnych słów ani sensacyjnych zwrotów, co czyni go neutralnym.",
+    "Artykuł zawiera informacje o decyzji biskupa, co zwiększa jego wiarygodność.",
+    "Treść artykułu dobrze odpowiada tytułowi, co potwierdza wysoką zgodność."
+  ],
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": {
+      "org_names": -3
+    },
+    "mismatch": {
+      "alignment_score": 0.8,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Biskup opolski rezygnuje z wyróżnienia od miasta",
+    "notes_to_editor": "Zaleca się unikanie sensacyjnych sformułowań w tytule."
+  },
+  "diagnostics": {
+    "tokens_title": 61,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:46:59"
+  },
+  "summary": "Biskup opolski Andrzej Czaja zrezygnował z kandydatury do tytułu 'Zasłużony Obywatel Miasta Opola'. W oświadczeniu podano, że obawia się politycznego wykorzystania swojej kandydatury, co mogłoby być sprzeczne z jego misją i posługą.",
+  "id": 1761761430355,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/opole/biskup-opolski-nie-chce-wyroznienia-od-miasta-obawia-sie-kontrowersji/eyg8gpb",
+  "title": "Biskup opolski nie chce wyróżnienia od miasta. Poprosił o wycofanie kandydatury"
+}

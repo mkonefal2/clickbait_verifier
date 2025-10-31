@@ -1,0 +1,50 @@
+{
+  "score": 65,
+  "label": "strong",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'Dziś premierem byłby kto inny' (+6), title_sensational: regex hit 'zdradzić' (+12), title_sensational: regex hit 'szok' (+12)",
+    "content_sensational: phrase 'wszystko, by Władysław Kosiniak-Kamysz zdradził Donalda Tuska' (+8), content_credibility: org names detected (-3), content_credibility: quoted speakers detected (-2)",
+    "alignment_score: 0.55 (medium alignment), penalty for medium alignment (+8), no country mismatch, no time omission"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera intrygujące sformułowanie 'Dziś premierem byłby kto inny', co budzi ciekawość czytelników.",
+    "W treści pojawiają się sensacyjne stwierdzenia dotyczące zdrady Tuska, co zwiększa wrażenie dramatyzmu.",
+    "Artykuł odnosi się do wydarzeń w Polsce, co jest zgodne z tytułem."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap",
+      "sensational"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names",
+      "quoted speakers"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Kto mógł zostać premierem zamiast Tuska? Analiza wydarzeń po wyborach 2023.",
+    "notes_to_editor": "Zaleca się unikanie sensacyjnego języka w tytule, aby lepiej odzwierciedlić treść artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 14,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:30:22"
+  },
+  "summary": "Artykuł omawia kulisy polityczne związane z wyborami w 2023 roku, w których Prawo i Sprawiedliwość próbowało przekonać Władysława Kosiniaka-Kamysza do współpracy z Donaldem Tuskiem. Autor, Kamil Dziubka, ujawnia, że w działania zaangażowani byli ważni politycy i biznesmeni. Książka, z której pochodzi fragment, jest poświęcona władzy Tuska.",
+  "id": 1761741762028,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/tylko-w-onecie/to-on-mial-zdradzic-tuska-dzis-premierem-bylby-kto-inny-fragment-ksiazki/hjfzjvb",
+  "title": "To on miał zdradzić Tuska. \"Dziś premierem byłby kto inny\" [FRAGMENT KSIĄŻKI]"
+}

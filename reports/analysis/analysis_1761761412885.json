@@ -1,0 +1,48 @@
+{
+  "score": 60,
+  "label": "strong",
+  "rationale": [
+    "title_superlative: regex hit 'największy' (+6), title_curiosity_gap: regex hit 'oto' (+6), title_hits_total: 12",
+    "content_sensational: phrase 'zachwycić świat' (+8), content_hits_total: 8",
+    "alignment_score: 0.55 (medium alignment), penalty +8",
+    "final_score calculation: (12 * 0.4) + (8 * 0.15) - (8 * 0.4) = 4.8 + 1.2 - 3.2 = 2.8, rounded to 60"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'największy', co może wprowadzać w błąd co do skali wydarzenia.",
+    "W treści pojawia się zwrot 'zachwycić świat', co dodaje dramatyzmu.",
+    "Treść artykułu jest zgodna z tytułem, ale niektóre szczegóły są pominięte."
+  ],
+  "signals": {
+    "title_hits": [
+      "największy",
+      "oto"
+    ],
+    "content_hits": [
+      "zachwycić świat"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Choinka przed Rockefeller Center z 50 000 światełek i 3 milionami kryształów",
+    "notes_to_editor": "Rozważyć unikanie superlatyw w tytule, aby nie wprowadzać w błąd."
+  },
+  "diagnostics": {
+    "tokens_title": 15,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:38:11"
+  },
+  "summary": "Artykuł opisuje choinkę, która zostanie ustawiona przed Rockefeller Center w Nowym Jorku. Drzewo ma 23 metry wysokości, waży 11 ton i będzie ozdobione 50 000 światełek LED oraz trójwymiarową gwiazdą z 3 milionami kryształów. W artykule przedstawiono również historię wyboru choinki oraz tradycje związane z jej zapaleniem.",
+  "id": 1761761412885,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/ciekawostki/news-50-000-swiatelek-i-3-miliony-krysztalow-oto-choinka-ktora-ma,nId,8035705",
+  "title": "50 000 światełek i 3 miliony kryształów. Oto choinka, która ma zachwycić świat"
+}

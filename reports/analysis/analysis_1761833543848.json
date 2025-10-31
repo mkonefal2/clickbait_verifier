@@ -1,0 +1,49 @@
+{
+  "score": 40,
+  "label": "mild",
+  "rationale": [
+    "title_superlative: regex hit 'drogo' (+6), title_curiosity_gap: regex hit 'sprawdź' (+6)",
+    "content_sensational: phrase 'najlepszy wyjazd zamieni się w pasmo nieprzyjemności' (+8)",
+    "content_overcertainty: phrase 'zawsze' detected (+6)",
+    "alignment_score: 0.55 → penalty +8 for medium alignment"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'drogo', co może sugerować przesadne konsekwencje.",
+    "Artykuł zawiera stwierdzenia, które mogą być interpretowane jako pewne, co zmniejsza jego wiarygodność.",
+    "Tytuł zachęca do sprawdzenia informacji, co może budzić ciekawość."
+  ],
+  "signals": {
+    "title_hits": [
+      "superlative",
+      "curiosity gap"
+    ],
+    "content_hits": [
+      "sensational",
+      "overcertainty"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Błędy, których należy unikać podczas pobytu w hotelu",
+    "notes_to_editor": "Zaleca się unikanie przesadnych sformułowań w tytule, aby zwiększyć wiarygodność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 15,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:51:43"
+  },
+  "summary": "Artykuł omawia zachowania, które mogą prowadzić do nieprzyjemności podczas pobytu w hotelu. Zawiera wskazówki dotyczące zameldowania, wymeldowania oraz zasad korzystania z hotelowych udogodnień. Podkreśla znaczenie kultury i wzajemnego szacunku między gośćmi a personelem.",
+  "id": 1761833543848,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/ciekawostki/news-te-bledy-w-hotelu-moga-cie-drogo-kosztowac-sprawdz-czego-abs,nId,8036029",
+  "title": "Te błędy w hotelu mogą cię drogo kosztować! Sprawdź, czego absolutnie nie robić podczas pobytu"
+}

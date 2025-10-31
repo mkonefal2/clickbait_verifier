@@ -1,0 +1,51 @@
+{
+  "score": 50,
+  "label": "strong",
+  "rationale": [
+    "title_superlative: regex hit 'ogromny' (+6), title_sensational: regex hit 'karalne' (+12), title_curiosity_gap: regex hit 'to jest karalne' (+6)",
+    "content_sensational: phrase 'wrażliwe dane osobowe' detected (+8), content_credibility: org names detected (-3), content_credibility: numbers detected (-2)",
+    "alignment_score: 0.55, resulting in medium alignment penalty (+8)"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'ogromny', co może sugerować przesadę, oraz wyrazu 'karalne', co nadaje sensacyjny ton.",
+    "W treści pojawia się informacja o wrażliwych danych osobowych, co zwiększa dramatyzm sytuacji.",
+    "Artykuł zawiera konkretne liczby, co zwiększa jego wiarygodność, ale tytuł może wprowadzać w błąd."
+  ],
+  "signals": {
+    "title_hits": [
+      "superlative",
+      "sensational",
+      "curiosity gap"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names",
+      "numbers"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Wyciek danych osobowych w gminie Wisznia Mała",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia sensacji."
+  },
+  "diagnostics": {
+    "tokens_title": 36,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:22:31"
+  },
+  "summary": "W artykule opisano wyciek danych osobowych ponad 5 tys. mieszkańców gminy Wisznia Mała. Mieszkańcy wyrażają oburzenie i domagają się konsekwencji dla osób odpowiedzialnych za ten incydent. Informację przekazało radio Eska.",
+  "id": 1761737546932,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/wroclaw/ogromny-wyciek-danych-na-dolnym-slasku-to-jest-karalne/skrcv33",
+  "title": "Ogromny wyciek danych na Dolnym Śląsku. \"To jest karalne!\""
+}

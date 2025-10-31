@@ -1,0 +1,50 @@
+{
+  "score": 25,
+  "label": "mild",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'wzywa nabywcę do zwrotu' (+6), indicating a curiosity gap.",
+    "content_sensational: phrase 'pilnego zwrotu' detected (+8), which adds a sense of urgency.",
+    "content_credibility: organization names detected (-3), reducing credibility.",
+    "alignment_score: calculated alignment score is 0.55, resulting in a penalty of +8."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł sugeruje, że nabywca działki jest wzywany do zwrotu, co wzbudza ciekawość.",
+    "W treści użyto sformułowania 'pilnego zwrotu', co dodaje poczucia pilności.",
+    "W artykule wspomniano o organizacjach, co obniża jego wiarygodność.",
+    "Treść w umiarkowany sposób wspiera obietnice tytułu, co skutkuje niewielką karą."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "KOWR wzywa nabywcę do zwrotu działki przeznaczonej pod CPK",
+    "notes_to_editor": "Rozważyć użycie bardziej neutralnego tytułu, aby uniknąć wrażenia sensacji."
+  },
+  "diagnostics": {
+    "tokens_title": 39,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:27:17"
+  },
+  "summary": "Krajowy Ośrodek Wsparcia Rolnictwa wzywa nabywcę do zwrotu działki, która ma być użyta pod budowę torów do Centralnego Portu Komunikacyjnego. Działka o powierzchni 160 hektarów została sprzedana wiceprezesowi firmy Dawtona w 2023 roku. KOWR planuje odzyskanie działki na podstawie umowy sprzedaży.",
+  "id": 1761741755959,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/polska/news-kowr-wzywa-nabywce-do-zwrotu-dzialki-pod-cpk,nId,8035675",
+  "title": "KOWR wzywa nabywcę do zwrotu działki pod CPK"
+}

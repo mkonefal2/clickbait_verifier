@@ -1,0 +1,49 @@
+{
+  "score": 25,
+  "label": "mild",
+  "rationale": [
+    "title_sensational: regex hit 'pilny apel' (+12), title_alarm: regex hit 'zaginęła' (+10)",
+    "content_sensational: phrase 'zniknęła' detected (+8), content_credibility: org names detected (-3)",
+    "alignment_score: calculated at 0.5, resulting in penalty +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera słowo 'pilny apel', co nadaje mu dramatyczny ton.",
+    "Artykuł opisuje zniknięcie nastolatki, co jest poważnym tematem, ale użycie słowa 'zaginęła' może budzić emocje.",
+    "Treść jest zgodna z tytułem, ale nie zawiera wystarczających informacji, aby w pełni uzasadnić dramatyzm."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational",
+      "alarm"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.5,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Poszukiwania 15-letniej Martyny Zawady trwają",
+    "notes_to_editor": "Rozważ użycie mniej dramatycznego języka w tytule, aby lepiej odzwierciedlić treść artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 32,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:27:01"
+  },
+  "summary": "15-letnia Martyna Zawada zniknęła 28 października 2025 roku po wyjściu z ośrodka w Środzie Śląskiej. Ostatnio widziano ją we Wrocławiu. Trwają intensywne poszukiwania, a rodzina apeluje o pomoc w odnalezieniu dziewczyny.",
+  "id": 1761740524619,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/wroclaw/zaginela-15-letnia-martyna-zawada-nie-byla-sama-pilny-apel/nwjtt3t",
+  "title": "Trwają poszukiwania 15-letniej Martyny. Pilny apel"
+}

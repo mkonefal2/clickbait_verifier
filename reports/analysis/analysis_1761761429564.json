@@ -1,0 +1,48 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_sensational: regex hit 'szczególnym okrucieństwem' (+12), title_alarming: regex hit 'brutalne zabójstwo' (+10)",
+    "content_sensational: phrase 'zabójstwo ze szczególnym okrucieństwem' detected (+8)",
+    "alignment_score: calculated as 0.65, resulting in no penalty",
+    "no country mismatch or time omission detected"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów 'brutalne zabójstwo' i 'szczególnym okrucieństwem', co może budzić emocje.",
+    "Artykuł opisuje brutalne przestępstwo i wyrok, co zwiększa jego dramatyzm.",
+    "Treść jest zgodna z tytułem, co sprawia, że nie ma rozbieżności."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational",
+      "alarming"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.65,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Wyrok dla Jakuba B. za zabójstwo 21-latka w Opocznie",
+    "notes_to_editor": "Zaleca się unikanie emocjonalnych sformułowań w tytule, aby zwiększyć neutralność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:46:26"
+  },
+  "summary": "Jakub B. został skazany na 18 lat więzienia za zabójstwo 21-latka w Opocznie. Do zbrodni doszło w lipcu 2024 roku, kiedy oblał on ofiarę łatwopalną substancją i podpalił ją. Poszkodowany zmarł w szpitalu kilka dni później. Wyrok jest nieprawomocny.",
+  "id": 1761761429564,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/lodz/brutalne-zabojstwo-w-opocznie-wyrok-dla-20-letniego-jakuba-b/4e9dp9r",
+  "title": "Zabójstwo ze szczególnym okrucieństwem w Opocznie. Jakub B. skazany"
+}

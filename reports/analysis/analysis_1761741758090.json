@@ -1,0 +1,52 @@
+{
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'zaskakujące' (+6), title_question: regex hit '?' (+4)",
+    "content_sensational: phrase 'realnym wygranym może okazać się PiS' (+8)",
+    "content_credibility: organization names detected (-3), statistics detected (-2)",
+    "alignment_score: 0.55 → penalty +8 for medium alignment"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera słowo 'zaskakujące', co budzi ciekawość czytelnika.",
+    "W artykule pojawiają się stwierdzenia, które mogą być uznane za sensacyjne.",
+    "Artykuł zawiera dane statystyczne i odniesienia do organizacji, co zwiększa jego wiarygodność.",
+    "Treść artykułu w pewnym stopniu wspiera obietnice zawarte w tytule, ale nie w pełni."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap",
+      "question"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names",
+      "statistics"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "KO prowadzi w sondażu, ale może nie zdobyć większości",
+    "notes_to_editor": "Rozważyć zmianę tytułu na bardziej neutralny, aby uniknąć wrażenia sensacji."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 299,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:28:51"
+  },
+  "summary": "Koalicja Obywatelska prowadzi w najnowszym sondażu poparcia dla partii politycznych z wynikiem 39%. Mimo to, nie przekłada się to na większość mandatów w Sejmie. Prawo i Sprawiedliwość, mimo niższego poparcia, może mieć większe szanse na utworzenie rządu.",
+  "id": 1761741758090,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/polityka/news-ko-wygrywa-ale-odda-wladze-zaskakujace-wyniki-nowego-sondazu,nId,8035660",
+  "title": "KO wygrywa, ale odda władzę? Zaskakujące wyniki nowego sondażu"
+}

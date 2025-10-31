@@ -1,0 +1,49 @@
+{
+  "score": 55,
+  "label": "strong",
+  "rationale": [
+    "title_superlative: regex hit 'miliony' (+6), title_sensational: regex hit 'tropikalna' (+12), title_curiosity_gap: regex hit 'muszą' (+6)",
+    "content_sensational: phrase 'deportacja migrantów i przestępców' (+8), content_overcertainty: phrase 'ponad 350 przebywa obecnie' (+6)",
+    "alignment_score: 0.5, penalty for medium alignment (+8)"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'miliony', co może tworzyć przesadne oczekiwania.",
+    "Artykuł zawiera kontrowersyjne informacje o deportacjach, co zwiększa dramatyzm.",
+    "Treść nie w pełni wspiera obietnice tytułu, co obniża zgodność."
+  ],
+  "signals": {
+    "title_hits": [
+      "miliony",
+      "tropikalna",
+      "muszą"
+    ],
+    "content_hits": [
+      "deportacja migrantów i przestępców",
+      "ponad 350 przebywa obecnie"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.5,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Australia planuje deportację migrantów na wyspę Nauru",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia sensacji."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:17:44"
+  },
+  "summary": "Rząd Australii wprowadza nową politykę deportacji zagranicznych przestępców oraz migrantów bez prawa do azylu. Osoby te mają być przenoszone na wyspę Nauru, co budzi kontrowersje wśród obrońców praw człowieka. W artykule przedstawiono również liczby dotyczące migrantów przebywających w Australii.",
+  "id": 1761737541658,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/nowa-polityka-australii-deportowani-migranci-trafiaja-na-tropikalna-wyspe/6cphwry",
+  "title": "Tropikalna republika dostanie miliony od Australii. Muszą przyjąć migrantów"
+}

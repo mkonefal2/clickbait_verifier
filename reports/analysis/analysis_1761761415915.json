@@ -1,0 +1,50 @@
+{
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'ogłasza' (+6), suggesting a reveal or announcement.",
+    "content_sensational: phrases like 'wrze w Polsce' imply urgency or drama (+8).",
+    "content_credibility: organization names mentioned (-3), reducing credibility.",
+    "alignment_score: calculated at 0.55, resulting in a penalty of +8 for medium alignment."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł sugeruje ważne ogłoszenie, co może wzbudzać ciekawość.",
+    "W treści użyto dramatycznych sformułowań, co dodaje emocji.",
+    "Artykuł wspomina o organizacjach, co obniża jego wiarygodność.",
+    "Treść w pewnym stopniu wspiera obietnice zawarte w tytule, ale nie w pełni."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Joanna Mucha ogłasza swoją kandydaturę na przewodniczącą Polski 2050",
+    "notes_to_editor": "Rozważ użycie bardziej neutralnego tytułu, aby uniknąć wrażenia sensacji."
+  },
+  "diagnostics": {
+    "tokens_title": 31,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:39:00"
+  },
+  "summary": "Joanna Mucha ogłosiła swoją kandydaturę na przewodniczącą partii Polska 2050. W swoim wystąpieniu podkreśliła, że przygotowywała się do tego momentu przez całe życie. Zaznaczyła, że chce przywrócić partii jej miejsce na scenie politycznej i osiągnąć dobry wynik w nadchodzących wyborach.",
+  "id": 1761761415915,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/polska/news-wrze-w-polsce-2050-joanna-mucha-oglasza,nId,8035775",
+  "title": "Wrze w Polsce 2050. Joanna Mucha ogłasza"
+}

@@ -1,0 +1,50 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_alarm: regex hit 'tragedia' (+10), title_sensational: regex hit 'szok' (+12)",
+    "content_sensational: phrase 'Fala uderzeniowa uszkodziła pobliskie budynki' (+8)",
+    "content_credibility: organization names detected (-3)",
+    "alignment_score: calculated at 0.55, resulting in penalty of +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera słowo 'tragedia', co wzmacnia dramatyzm sytuacji.",
+    "Artykuł opisuje poważny atak, co może budzić emocje, ale zawiera także informacje o liczbie rannych.",
+    "Tytuł i treść są zgodne, ale niektóre sformułowania mogą być uznane za przesadzone."
+  ],
+  "signals": {
+    "title_hits": [
+      "alarm",
+      "sensational"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Rosyjskie ostrzały szpitala w Chersoniu raniły dzieci",
+    "notes_to_editor": "Zaleca się unikanie dramatycznych sformułowań w tytule, aby zachować neutralność."
+  },
+  "diagnostics": {
+    "tokens_title": 46,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:26:09"
+  },
+  "summary": "Rosyjskie siły zbrojne zaatakowały szpital dziecięcy w Chersoniu, w wyniku czego dziewięć osób zostało rannych, w tym czworo dzieci. Fala uderzeniowa spowodowała uszkodzenia pobliskich budynków. Prokuratura w Chersoniu prowadzi dochodzenie w tej sprawie.",
+  "id": 1761740522926,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/rosja-zaatakowala-szpital-w-chersoniu-wsrod-rannych-sa-dzieci/pex93n0",
+  "title": "Rosja zaatakowała szpital w Chersoniu. Wśród rannych są dzieci"
+}

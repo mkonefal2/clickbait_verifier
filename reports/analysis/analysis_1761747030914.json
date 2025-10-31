@@ -1,0 +1,46 @@
+{
+  "score": 24,
+  "label": "not_clickbait",
+  "rationale": [
+    "title_superlative: regex hit 'największy' (+6), but not present in title; no other title patterns detected.",
+    "content_credibility: organization names detected (-3), numbers detected (-2), quoted speakers detected (-2).",
+    "alignment_score: calculated as 0.9, indicating high alignment with no penalties."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł nie zawiera przesadnych słów ani mocnych wyrażeń, co sugeruje, że nie jest clickbaitowy.",
+    "Artykuł zawiera dane liczbowe i cytaty, co zwiększa jego wiarygodność.",
+    "Treść artykułu dobrze odpowiada temu, co obiecuje tytuł."
+  ],
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "organization names",
+      "numbers",
+      "quoted speakers"
+    ],
+    "mismatch": {
+      "alignment_score": 0.9,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Zakończono instalację morskich stacji elektroenergetycznych na Bałtyku",
+    "notes_to_editor": "Zaleca się unikanie superlatyw i sensacyjnych zwrotów w tytule, aby zwiększyć wiarygodność."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:33:16"
+  },
+  "summary": "Na Bałtyku zakończono instalację dwóch morskich stacji elektroenergetycznych, które są częścią polskiej farmy wiatrowej Baltic Power. Stacje mają dostarczać energię dla 1,5 miliona gospodarstw domowych. Projekt realizowany jest przez spółkę ORLEN i ma na celu zwiększenie produkcji zeroemisyjnej energii.",
+  "id": 1761747030914,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/trojmiasto/news-kolosy-wazace-2-5-tys-ton-zamontowane-na-baltyku-to-czesc-po,nId,8035707",
+  "title": "Kolosy ważące 2,5 tys. ton zamontowane na Bałtyku. To część polskiej inwestycji"
+}

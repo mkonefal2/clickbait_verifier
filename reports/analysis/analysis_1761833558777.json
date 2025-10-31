@@ -1,0 +1,50 @@
+{
+  "score": 65,
+  "label": "strong",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'Czy upadek Pokrowska i Myrnohradu jest nieunikniony?' (+4)",
+    "content_sensational: phrase 'sytuacja Sił Zbrojnych Ukrainy w rejonie jest niemal krytyczna' (+8)",
+    "content_overcertainty: phrase 'sytuacja ukraińskich obrońców staje się coraz trudniejsza' (+6)",
+    "alignment_score: calculated alignment score is 0.55, resulting in a penalty of +8",
+    "exaggeration_gap: title suggests a dramatic outcome while content provides a more nuanced view, resulting in a penalty of +14"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera pytanie, które wzbudza ciekawość czytelników.",
+    "W treści użyto mocnych sformułowań, które sugerują poważne zagrożenie.",
+    "Artykuł wskazuje na trudną sytuację obrońców Ukrainy, co może być interpretowane jako dramatyczne.",
+    "Tytuł sugeruje pewność upadku miast, podczas gdy treść przedstawia bardziej złożoną sytuację."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational",
+      "overcertainty"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": true,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Sytuacja obrońców Ukrainy w Pokrowsku i Myrnohradzie",
+    "notes_to_editor": "Zaleca się unikanie pytań w tytule, aby nie wzbudzać nieuzasadnionych oczekiwań."
+  },
+  "diagnostics": {
+    "tokens_title": 47,
+    "tokens_content": 2980,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:54:38"
+  },
+  "summary": "Artykuł opisuje sytuację obrońców Ukrainy w rejonie Pokrowska i Myrnohradu, gdzie siły rosyjskie prowadzą intensywną ofensywę. Mimo że ukraińska armia stara się odpierać ataki, sytuacja jest trudna, a utrata tych miast mogłaby mieć poważne konsekwencje dla obrony Ukrainy. W artykule przedstawiono również zmiany w taktyce rosyjskiej oraz wpływ na cywilów w regionie.",
+  "id": 1761833558777,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/raporty/raport-wojna-z-rosja/news-pokrowsk-i-myrnohrad-upadna-krytyczna-sytuacja-obroncow-ukra,nId,8036010",
+  "title": "Pokrowsk i Myrnohrad upadną? Krytyczna sytuacja obrońców Ukrainy"
+}

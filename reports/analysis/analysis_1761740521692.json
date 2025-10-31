@@ -1,0 +1,48 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'To wtedy mogą zagłosować posłowie' (+6)",
+    "content_sensational: phrase 'Dopiero w grudniu może odbyć się' (+8)",
+    "content_hedging: 'może' detected (-2)",
+    "alignment_score: 0.55, resulting in penalty +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera element ciekawości, co może przyciągać uwagę.",
+    "W treści użyto sformułowania, które sugeruje niepewność co do daty głosowania.",
+    "Artykuł informuje o możliwym terminie głosowania w Sejmie, co jest istotne dla czytelników."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational",
+      "hedging"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Możliwy termin głosowania nad immunitetem Zbigniewa Ziobry",
+    "notes_to_editor": "Zaleca się unikanie sformułowań, które mogą wzbudzać ciekawość bez dostarczenia konkretnej informacji."
+  },
+  "diagnostics": {
+    "tokens_title": 48,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:25:27"
+  },
+  "summary": "Artykuł omawia możliwy termin głosowania w Sejmie nad odebraniem immunitetu Zbigniewowi Ziobrze, który może odbyć się w grudniu. Wskazano na konieczność spełnienia formalnych wymogów przed głosowaniem. Informacje pochodzą z doniesień RMF FM.",
+  "id": 1761740521692,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/sprawa-immunitetu-zbigniewa-ziobry-to-wtedy-moga-zaglosowac-poslowie/v7myplz",
+  "title": "Sprawa immunitetu Zbigniewa Ziobry. To wtedy mogą zagłosować posłowie"
+}

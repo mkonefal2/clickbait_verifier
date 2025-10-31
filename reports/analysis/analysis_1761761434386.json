@@ -1,0 +1,47 @@
+{
+  "score": 25,
+  "label": "mild",
+  "rationale": [
+    "title_sensational: regex hit 'pijana' (+12), 'bez świateł' (+12), total hits = 24",
+    "content_sensational: phrase 'pijana na niesprawnym rowerze' (+8), total hits = 8",
+    "alignment_score: calculated as 0.7, which is high alignment, no penalty",
+    "no country mismatch detected, as both title and content refer to Poland"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera słowo 'pijana', co może budzić sensację.",
+    "Treść artykułu opisuje incydent z udziałem kobiety na rowerze, co jest zgodne z tytułem.",
+    "Nie stwierdzono niezgodności geograficznej, ponieważ zarówno tytuł, jak i treść dotyczą Polski."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.7,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Policja zatrzymała 47-latkę jeżdżącą na rowerze bez świateł",
+    "notes_to_editor": "Rozważyć użycie mniej sensacyjnych sformułowań w tytule."
+  },
+  "diagnostics": {
+    "tokens_title": 14,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:50:54"
+  },
+  "summary": "Policja w Sławnie zatrzymała 47-letnią kobietę, która jechała na rowerze po chodniku w stanie nietrzeźwym. Badanie wykazało, że miała prawie 3 promile alkoholu. Rower był niesprawny i nie miał świateł, co stanowiło zagrożenie dla innych użytkowników drogi.",
+  "id": 1761761434386,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/szczecin/jechala-rowerem-po-chodniku-bez-swiatel-policja-zatrzymala-pijana-47-latke/4fslqg3",
+  "title": "Jechała rowerem po chodniku bez świateł. Policja zatrzymała pijaną 47-latkę"
+}

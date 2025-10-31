@@ -1,0 +1,49 @@
+{
+  "score": 50,
+  "label": "strong",
+  "rationale": [
+    "title_sensational: regex hit 'szokujące' (+12), title_curiosity_gap: no hits (+0), title_punctuation: no hits (+0)",
+    "content_sensational: regex hit 'szokujące' (+8), content_credibility: org names detected (-3), content_credibility: quoted speakers detected (-2)",
+    "alignment_score: calculated as 0.55, resulting in a penalty of +8 for medium alignment"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnego słowa 'szokujące', co może budzić przesadne oczekiwania.",
+    "Artykuł zawiera informacje o kontrowersyjnych oskarżeniach, ale także cytaty przedstawicieli organizacji, co zwiększa wiarygodność.",
+    "Tytuł sugeruje dramatyczny zwrot akcji, ale treść jest bardziej stonowana."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names",
+      "quoted speakers"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Ksiądz Jacek Stryczek oskarża zarząd Szlachetnej Paczki, sprawa w sądzie",
+    "notes_to_editor": "Rozważ zmianę tytułu na bardziej neutralny, aby uniknąć wrażenia sensacji."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 295,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:34:18"
+  },
+  "summary": "Ksiądz Jacek Stryczek oskarżył zarząd Szlachetnej Paczki o przynależność do zorganizowanej grupy przestępczej, co doprowadziło do sprawy sądowej. Organizacja charytatywna podjęła kroki prawne przeciwko Stryczkowi, a obie strony zawarły ugodę na pierwszej rozprawie. Członek zarządu Stowarzyszenia Wiosna podkreślił, że ich wysiłki powinny być skierowane na pomoc potrzebującym.",
+  "id": 1761747033555,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/szokujace-slowa-ks-stryczka-o-zarzadzie-szlachetnej-paczki-sprawa-trafila-do-sadu/rnxlkfj",
+  "title": "Szokujące słowa ks. Jacka Stryczka. Sprawa trafiła do sądu"
+}

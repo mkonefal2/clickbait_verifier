@@ -1,0 +1,49 @@
+{
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "title_sensational: regex hit 'wpadli w pułapkę' (+12), title_curiosity_gap: regex hit 'jaką sami na siebie zastawili' (+6)",
+    "content_sensational: phrase 'agresji informacyjnej' detected (+8), content_credibility: org names detected (-3)",
+    "alignment_score: calculated at 0.55, resulting in penalty of +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów, co może wzbudzać emocje i ciekawość.",
+    "Artykuł zawiera odniesienia do ekspertów, co zwiększa jego wiarygodność.",
+    "Treść jest zgodna z tytułem, ale nieco przesadna w niektórych sformułowaniach."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational",
+      "curiosity gap"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Analiza strategii Kremla w kontekście inwazji na Ukrainę",
+    "notes_to_editor": "Zaleca się unikanie przesadnych sformułowań w tytule, aby zwiększyć obiektywność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 14,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:37:57"
+  },
+  "summary": "Analitycy Ośrodka Studiów Wschodnich (OSW) oceniają, że rosyjska inwazja na Ukrainę jest częścią szerszej 'wojny systemowej' przeciwko Zachodowi. Zwracają uwagę na strategię Kremla, która obejmuje agresję informacyjną i działania hybrydowe, mające na celu zastraszenie i podział wśród krajów europejskich. Ostrzegają jednocześnie, że ta strategia opiera się na fundamentalnym błędzie.",
+  "id": 1761747039027,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/rosja-walczy-z-czasem-analitycy-osw-o-strategii-kremla-wpadli-w-pulapke-jaka-sami-na/67xd3nv",
+  "title": "\"Rosja walczy z czasem\". Analitycy OSW o strategii Kremla. \"Wpadli w pułapkę, jaką sami na siebie zastawili\""
+}

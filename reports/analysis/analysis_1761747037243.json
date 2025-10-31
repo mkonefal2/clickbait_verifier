@@ -1,0 +1,50 @@
+{
+  "score": 60,
+  "label": "strong",
+  "rationale": [
+    "title_sensational: regex hit 'ostrzega' (+12), 'zdecydowany' (+6)",
+    "content_sensational: phrase 'Putin się rozochocił' (+8), 'może spełznąć na niczym' (+8)",
+    "content_credibility: organization names detected (-3)",
+    "alignment_score: calculated as 0.55, resulting in a penalty of +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'ostrzega', co sugeruje poważne zagrożenie.",
+    "Treść artykułu zawiera emocjonalne sformułowania, co zwiększa wrażenie sensacyjności.",
+    "Artykuł odnosi się do analizy wywiadu, co obniża jego wiarygodność."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational"
+    ],
+    "content_hits": [
+      "sensational",
+      "hedging"
+    ],
+    "credibility_hits": [
+      "organization names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Amerykański wywiad ocenia determinację Putina w kontynuacji wojny",
+    "notes_to_editor": "Rozważyć użycie bardziej neutralnego języka w tytule, aby uniknąć wrażenia sensacyjności."
+  },
+  "diagnostics": {
+    "tokens_title": 70,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:37:00"
+  },
+  "summary": "Artykuł omawia sytuację wojenną na Ukrainie i analizę amerykańskiego wywiadu, która wskazuje na rosnącą determinację Władimira Putina do kontynuowania działań wojennych. Zawiera również odniesienia do sankcji nałożonych na Rosję oraz wysiłków polityków zachodnich w celu zakończenia konfliktu.",
+  "id": 1761747037243,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/czy-putin-jest-gotowy-zatrzymac-wojne-alarmujace-dane-amerykanskiego-wywiadu/ht3pekl",
+  "title": "Ambicje Putina z 2022 r. się nie zmieniły. Amerykański wywiad ostrzega: jest zdecydowany"
+}

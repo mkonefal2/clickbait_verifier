@@ -1,0 +1,58 @@
+{
+  "score": 24,
+  "label": "not_clickbait",
+  "rationale": [
+    "title_superlative: no hits, (+0)",
+    "title_absolutes: no hits, (+0)",
+    "title_sensational: no hits, (+0)",
+    "title_alarming: no hits, (+0)",
+    "title_curiosity_gap: no hits, (+0)",
+    "title_listicle: no hits, (+0)",
+    "title_punctuation: no hits, (+0)",
+    "content_overcertainty: no hits, (+0)",
+    "content_sensational: no hits, (+0)",
+    "credibility_reductions: organization names (-3), numbers (-2), quoted speakers (-2), scientific terms (-2)",
+    "hedging_reductions: no hits, (+0)",
+    "alignment_score: 0.75, no penalty",
+    "exaggeration_gap: false",
+    "country_mismatch: false",
+    "time_omission: false"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł nie zawiera mocnych słów ani przesadnych stwierdzeń.",
+    "Artykuł przedstawia szczegóły procesu sądowego bez sensacyjnych zwrotów.",
+    "Treść jest zgodna z tytułem i nie wprowadza w błąd."
+  ],
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "organization names",
+      "numbers",
+      "quoted speakers"
+    ],
+    "mismatch": {
+      "alignment_score": 0.75,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Zakończenie procesu w sprawie przejechania psa przy granicy z Białorusią",
+    "notes_to_editor": "Zaleca się unikanie emocjonalnych sformułowań w tytule."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:29:05"
+  },
+  "summary": "W Sądzie Rejonowym w Sokółce zakończył się proces funkcjonariusza straży granicznej oskarżonego o umyślne przejechanie psa. Prokuratura domaga się roku więzienia w zawieszeniu oraz nawiązki na cele ochrony zwierząt. Wyrok ma zapaść w połowie listopada.",
+  "id": 1761741759317,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/bialystok/news-koniec-procesu-ws-przejechania-psa-przy-granicy-z-bialorusia,nId,8035676",
+  "title": "Koniec procesu ws. przejechania psa przy granicy z Białorusią"
+}

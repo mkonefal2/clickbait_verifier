@@ -1,0 +1,57 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_superlative: no hits, (+0)",
+    "title_absolutes: no hits, (+0)",
+    "title_sensational: no hits, (+0)",
+    "title_alarming: no hits, (+0)",
+    "title_curiosity_gap: no hits, (+0)",
+    "title_listicle: no hits, (+0)",
+    "title_punctuation: no hits, (+0)",
+    "content_overcertainty: no hits, (+0)",
+    "content_sensational: no hits, (+0)",
+    "credibility_reductions: org names detected (-3), numbers detected (-2)",
+    "hedging_reductions: no hits, (+0)",
+    "alignment_score: 0.65, no penalty",
+    "exaggeration_gap: false",
+    "country_mismatch: false",
+    "time_omission: false"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł nie zawiera mocnych słów ani przesadnych stwierdzeń.",
+    "Artykuł zawiera informacje o awarii Microsoftu i podaje konkretne dane, co zwiększa jego wiarygodność.",
+    "Nie ma rozbieżności między tytułem a treścią, a także brak jest przesadnych oczekiwań."
+  ],
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "organization names detected",
+      "numbers detected"
+    ],
+    "mismatch": {
+      "alignment_score": 0.65,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Problemy z dostępem do usług Microsoftu",
+    "notes_to_editor": "Zaleca się unikanie sensacyjnych tytułów i skupienie się na faktach."
+  },
+  "diagnostics": {
+    "tokens_title": 2,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:39:14"
+  },
+  "summary": "Użytkownicy usług Microsoft od 29 października 2025 roku doświadczają problemów z dostępem do kluczowych usług, takich jak Azure, Minecraft i Microsoft 365. Microsoft potwierdził awarię spowodowaną kłopotami z systemem DNS, a liczba zgłoszeń przekroczyła 20 tysięcy. Firma rozpoczęła działania naprawcze i monitoruje sytuację.",
+  "id": 1761761416599,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/swiat/news-awaria-microsoftu-problemy-z-dostepem-do-wielu-uslug,nId,8035789",
+  "title": "Awaria Microsoftu"
+}

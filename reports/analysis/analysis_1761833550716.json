@@ -1,0 +1,52 @@
+{
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "title_superlative: regex hit 'najgorsze' (+6), title_alarming: regex hit 'zagrożenie' (+10), title_hits_total: 16",
+    "content_sensational: phrase 'alarmująca sytuacja' detected (+8), content_hits_total: 8",
+    "credibility_reductions: organization names mentioned (-3), statistics mentioned (-2), quoted speakers (-2), credibility_hits_total: -7",
+    "alignment_score: 0.6, medium alignment penalty +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'najgorsze', co może tworzyć przesadne oczekiwania.",
+    "W artykule pojawia się stwierdzenie o 'alarmującej sytuacji', co dodaje dramatyzmu.",
+    "Artykuł zawiera dane liczbowe i cytaty ekspertów, co zwiększa jego wiarygodność."
+  ],
+  "signals": {
+    "title_hits": [
+      "najgorsze",
+      "zagrożenie"
+    ],
+    "content_hits": [
+      "alarmująca sytuacja"
+    ],
+    "credibility_hits": [
+      "organizacje",
+      "statystyki",
+      "cytaty"
+    ],
+    "mismatch": {
+      "alignment_score": 0.6,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Grecja inwestuje miliardy w walkę z deficytem wody",
+    "notes_to_editor": "Zaleca się unikanie użycia przesadnych słów w tytule, aby zwiększyć wiarygodność."
+  },
+  "diagnostics": {
+    "tokens_title": 15,
+    "tokens_content": 2998,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:52:53"
+  },
+  "summary": "Grecja stoi w obliczu poważnego kryzysu wodnego, ogłaszając plan wart 2,5 miliarda euro na zabezpieczenie dostaw wody dla mieszkańców Aten i turystycznych wysp. Rząd planuje wzmocnienie zbiorników wodnych oraz instalacje odsalania, aby sprostać rosnącemu zapotrzebowaniu. Premier Kyriakos Micotakis podkreśla konieczność zdecydowanych działań w obliczu suszy i rekordowych upałów.",
+  "id": 1761833550716,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/swiat/news-skrajny-deficyt-wody-w-grecji-panstwo-inwestuje-miliardy-aby,nId,8036046",
+  "title": "Skrajny deficyt wody w Grecji. Państwo inwestuje miliardy, aby ratować Ateny i wyspy"
+}

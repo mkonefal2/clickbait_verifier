@@ -1,0 +1,51 @@
+{
+  "score": 75,
+  "label": "strong",
+  "rationale": [
+    "title_superlative: regex hit 'największy' (+6), title_sensational: regex hit 'ogromne oburzenie' (+12), title_question: regex hit '?' (+4)",
+    "content_sensational: phrase 'zrównalibyśmy Moskwę z ziemią' (+8), content_overcertainty: phrase 'wszyscy' detected (-6), content_credibility: organization names mentioned (-3)",
+    "alignment_score: 0.5, resulting in penalty +8 for medium alignment"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera mocne sformułowanie 'ogromne oburzenie', co sugeruje dramatyczny ton.",
+    "W treści pojawia się kontrowersyjna wypowiedź ministra, co zwiększa emocjonalny ładunek artykułu.",
+    "Tytuł sugeruje, że NATO może zareagować w ekstremalny sposób, ale treść nie dostarcza wystarczających dowodów na to."
+  ],
+  "signals": {
+    "title_hits": [
+      "superlative",
+      "sensational",
+      "question"
+    ],
+    "content_hits": [
+      "sensational",
+      "overcertainty"
+    ],
+    "credibility_hits": [
+      "organization names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.5,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Reakcja NATO na zagrożenie ze strony Rosji budzi kontrowersje",
+    "notes_to_editor": "Zaleca się unikanie dramatycznych sformułowań w tytule, aby zachować neutralność."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:41:02"
+  },
+  "summary": "Minister obrony Belgii Theo Francken zapewnił o sile NATO i gotowości do odpowiedzi na ewentualny atak Rosji. W swojej wypowiedzi odniósł się do możliwości hybrydowych działań Rosji oraz podkreślił znaczenie artykułu 5. Traktatu Północnoatlantyckiego. Reakcja rosyjskiej ambasady na jego słowa była natychmiastowa i krytyczna.",
+  "id": 1761761422454,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/raporty/raport-wojna-z-rosja/news-kiedy-nato-zrowna-moskwe-z-ziemia-ogromne-oburzenie-rosyjski,nId,8035761",
+  "title": "Kiedy NATO \"zrówna Moskwę z ziemią\"? Ogromne oburzenie rosyjskich dyplomatów"
+}

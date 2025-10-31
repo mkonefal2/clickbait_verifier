@@ -1,0 +1,53 @@
+{
+  "score": 55,
+  "label": "strong",
+  "rationale": [
+    "title_superlative: regex hit 'największy' (+6), title_sensational: regex hit 'wartość' (+12)",
+    "content_sensational: phrase 'spektakularna międzynarodowa akcja policji' (+8), content_sensational: phrase 'największy sukces słowackich służb' (+8)",
+    "content_credibility: organization names detected (-3), content_credibility: numbers detected (-2)",
+    "alignment_score: 0.6 → medium alignment penalty +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnego słowa 'największy', co sugeruje przesadę.",
+    "Artykuł zawiera informacje o spektakularnej akcji policji, co zwiększa dramatyzm.",
+    "W treści pojawiają się konkretne liczby i nazwy organizacji, co podnosi wiarygodność."
+  ],
+  "signals": {
+    "title_hits": [
+      "największy",
+      "wartość"
+    ],
+    "content_hits": [
+      "spektakularna międzynarodowa akcja policji",
+      "największy sukces słowackich służb"
+    ],
+    "credibility_hits": [
+      "Krajowa Jednostka Antynarkotykowa",
+      "Europol",
+      "367 tysięcy euro"
+    ],
+    "mismatch": {
+      "alignment_score": 0.6,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Przemyt kokainy w Słowacji wart 175 milionów euro",
+    "notes_to_editor": "Rozważyć użycie mniej dramatycznego języka w tytule."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:31:14"
+  },
+  "summary": "Artykuł opisuje jedną z największych akcji antynarkotykowych w historii Słowacji, w której zabezpieczono ponad dwie tony kokainy o wartości 175 milionów euro. Akcja, przeprowadzona 21 października, zaowocowała zatrzymaniem 22 osób i ujawnieniem międzynarodowych powiązań przestępczych. Współpraca z Europolem i innymi służbami była kluczowa dla sukcesu operacji.",
+  "id": 1761747022350,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/swiat/news-najwiekszy-przemyt-w-historii-slowacji-kokaina-warta-175-mil,nId,8035706",
+  "title": "Największy przemyt w historii Słowacji. Kokaina warta 175 milionów euro"
+}

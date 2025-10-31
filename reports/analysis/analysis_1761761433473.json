@@ -1,0 +1,50 @@
+{
+  "score": 24,
+  "label": "not_clickbait",
+  "rationale": [
+    "title_alarming: regex hit 'tragedia' (+10), title does not contain superlatives or absolutes.",
+    "content_credibility: organization names detected (-3), numbers/statistics detected (-2).",
+    "alignment_score: calculated as 0.85, indicating high alignment with no penalties."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'tragedia', co podkreśla powagę sytuacji, ale nie zawiera przesadnych stwierdzeń.",
+    "Artykuł zawiera dane liczbowe oraz cytaty, co zwiększa jego wiarygodność.",
+    "Treść artykułu dokładnie odzwierciedla sytuację opisaną w tytule."
+  ],
+  "signals": {
+    "title_hits": [
+      "alarming"
+    ],
+    "content_hits": [
+      "credibility",
+      "numbers"
+    ],
+    "credibility_hits": [
+      "organization names",
+      "numbers"
+    ],
+    "mismatch": {
+      "alignment_score": 0.85,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Huragan Melissa powoduje ofiary na Haiti - zginęło co najmniej 25 osób",
+    "notes_to_editor": "Zaleca się unikanie alarmujących sformułowań w tytule, aby zachować neutralność."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:50:08"
+  },
+  "summary": "Huragan Melissa spowodował poważne zniszczenia na Haiti, prowadząc do śmierci co najmniej 25 osób. Mer miasta Petit-Goave, Jean Bertrand Subreme, wyraził swoje zaniepokojenie sytuacją i zaapelował o pomoc dla ofiar. Artykuł przedstawia tragiczne skutki huraganu, który dotknął Karaiby.",
+  "id": 1761761433473,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/rosnie-liczba-ofiar-huraganu-melissa-na-haiti-zginelo-co-najmniej-25-osob/hl8b0jh",
+  "title": "Rośnie liczba ofiar huraganu Melissa. Na Haiti zginęło co najmniej 25 osób"
+}

@@ -1,0 +1,48 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_superlative: regex hit 'największy' (+6), title_sensational: regex hit 'kulminacyjny' (+12), title_curiosity_gap: regex hit 'to może być' (+6)",
+    "content_sensational: phrase 'kulminacyjny moment' detected (+8), content_hedging: 'może' detected (-2)",
+    "alignment_score: 0.55 (medium alignment) → penalty +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnego słowa 'największy', co może tworzyć przesadne oczekiwania.",
+    "W treści pojawia się sformułowanie 'kulminacyjny moment', które jest sensacyjne.",
+    "Artykuł zawiera pewne niepewności, co obniża jego wiarygodność."
+  ],
+  "signals": {
+    "title_hits": [
+      "największy",
+      "kulminacyjny",
+      "to może być"
+    ],
+    "content_hits": [
+      "kulminacyjny moment"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Spotkanie Xi Jinpinga z Donaldem Trumpem: Kluczowe kwestie do omówienia",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć przesadnych oczekiwań."
+  },
+  "diagnostics": {
+    "tokens_title": 15,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:36:42"
+  },
+  "summary": "Artykuł omawia nadchodzące spotkanie Xi Jinpinga z Donaldem Trumpem, które może wpłynąć na układ sił między USA a Chinami. Wskazano na kluczowe tematy do dyskusji, takie jak wojna handlowa, fentanyl oraz wpływ TikToka. Autor podkreśla znaczenie tego wydarzenia w kontekście globalnej polityki.",
+  "id": 1761747036945,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/co-przyniesie-spotkanie-xi-z-trumpem-szesc-najwazniejszych-kwestii/n7h5gf9",
+  "title": "Kulminacyjny moment gry o władzę. To może być nowe rozdanie dla Chin i USA"
+}

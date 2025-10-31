@@ -1,0 +1,53 @@
+{
+  "score": 65,
+  "label": "strong",
+  "rationale": [
+    "title_sensational: regex hit 'skandal' (+12), 'ujawnił' (+12), 'tajne' (+12)",
+    "content_sensational: phrases like 'poważny skandal' (+8), 'fala krytyki' (+8)",
+    "content_overcertainty: use of absolutes like 'wrażliwe materiały' (+6)",
+    "mismatch_alignment_score: calculated alignment score is 0.55, resulting in a penalty of +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów jak 'skandal' i 'tajne', co przyciąga uwagę.",
+    "W treści pojawiają się emocjonalne sformułowania, które podkreślają powagę sytuacji.",
+    "Treść jest zgodna z tytułem, ale nieco przesadna w tonie, co wpływa na wiarygodność."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational",
+      "ujawnił",
+      "tajne",
+      "skandal"
+    ],
+    "content_hits": [
+      "poważny skandal",
+      "fala krytyki",
+      "wrażliwe materiały",
+      "zagrożenie"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Oficer ukraińskiej armii opublikował zdjęcia tajnych map na TikToku",
+    "notes_to_editor": "Rozważyć użycie bardziej neutralnego języka w tytule, aby uniknąć przesadnych emocji."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:32:05"
+  },
+  "summary": "W ukraińskiej armii doszło do skandalu, gdy oficer opublikował na TikToku zdjęcia tajnych map i dokumentów wojskowych. Materiały te zawierały szczegółowe informacje o pozycjach wojskowych, co wywołało oburzenie w mediach i wśród ekspertów. Krytyka dotyczyła naruszenia zasad bezpieczeństwa przez publikację wrażliwych danych.",
+  "id": 1761747025926,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/raporty/raport-wojna-z-rosja/news-skandal-w-ukrainskiej-armii-oficer-ujawnil-tajne-mapy-na-tik,nId,8035702",
+  "title": "​Skandal w ukraińskiej armii: Oficer ujawnił tajne mapy na TikToku"
+}

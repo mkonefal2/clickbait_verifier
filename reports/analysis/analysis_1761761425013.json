@@ -1,0 +1,51 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_superlative: regex hit 'poważne' (+6), title_sensational: regex hit 'zatrzymany' (+12), title_curiosity_gap: regex hit 'w tle' (+6)",
+    "content_sensational: phrase 'poważne zarzuty' detected (+8), credibility_org_names: organization names detected (-3), credibility_numbers: specific date detected (-2)",
+    "alignment_score: 0.55, which results in a penalty of +8 due to medium alignment"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera słowo 'poważne', co sugeruje dramatyczny kontekst, a także używa słowa 'zatrzymany', co przyciąga uwagę.",
+    "W treści pojawia się fraza 'poważne zarzuty', co podkreśla sensacyjny charakter artykułu, ale zawiera też konkretne informacje.",
+    "Tytuł i treść są w miarę zgodne, ale niektóre elementy mogą wprowadzać w błąd."
+  ],
+  "signals": {
+    "title_hits": [
+      "poważne",
+      "zatrzymany",
+      "w tle"
+    ],
+    "content_hits": [
+      "poważne zarzuty"
+    ],
+    "credibility_hits": [
+      "organization names",
+      "specific date"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Przewodniczący Rady Miasta Częstochowy zatrzymany w sprawie korupcji",
+    "notes_to_editor": "Rozważyć użycie bardziej neutralnego języka w tytule, aby uniknąć sensacyjności."
+  },
+  "diagnostics": {
+    "tokens_title": 12,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:43:01"
+  },
+  "summary": "CBA zatrzymało przewodniczącego Rady Miasta Częstochowy, Łukasza B., w związku z śledztwem dotyczącym korupcji. Głównym podejrzanym w tej sprawie jest Bartłomiej S., były wiceprezydent miasta. Artykuł opisuje szczegóły akcji służb oraz kontekst zarzutów.",
+  "id": 1761761425013,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/afera-korupcyjna-cba-zatrzymalo-przewodniczacego-rady-miasta-czestochowy/nqp8tcc",
+  "title": "Były kandydat KO na prezydenta Częstochowy zatrzymany. W tle poważne zarzuty"
+}

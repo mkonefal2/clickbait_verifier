@@ -1,0 +1,56 @@
+{
+  "score": 24,
+  "label": "not_clickbait",
+  "rationale": [
+    "title_superlative: no regex hits, score remains 0",
+    "title_absolutes: no regex hits, score remains 0",
+    "title_sensational: no regex hits, score remains 0",
+    "title_alarming: no regex hits, score remains 0",
+    "title_curiosity_gap: no regex hits, score remains 0",
+    "title_listicle: no regex hits, score remains 0",
+    "title_punctuation: no regex hits, score remains 0",
+    "content_overcertainty: no regex hits, score remains 0",
+    "content_sensational: no regex hits, score remains 0",
+    "credibility_reductions: organization names detected (-3), score becomes -3",
+    "hedging_reductions: no regex hits, score remains -3",
+    "alignment_score: calculated as 1.0, no penalty",
+    "exaggeration_gap: no, score remains -3",
+    "country_mismatch: false, score remains -3",
+    "time_omission: no, score remains -3"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jest neutralny i nie zawiera przesadnych słów ani obietnic.",
+    "Artykuł dostarcza informacji o awarii wodociągu, co zwiększa jego wiarygodność.",
+    "Nie znaleziono żadnych przesadnych stwierdzeń ani niepewności w treści."
+  ],
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "organization names detected"
+    ],
+    "mismatch": {
+      "alignment_score": 1.0,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Awaria wodociągu w Środzie Wielkopolskiej - mieszkańcy bez wody",
+    "notes_to_editor": "Zaleca się unikanie dramatyzacji w tytule, aby lepiej odzwierciedlić treść."
+  },
+  "diagnostics": {
+    "tokens_title": 50,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:47:17"
+  },
+  "summary": "W Środzie Wielkopolskiej doszło do poważnej awarii wodociągu, w wyniku której około 2/3 mieszkańców nie ma dostępu do bieżącej wody. Usterka została spowodowana przez uszkodzenie głównego wodociągu podczas prac modernizacyjnych. Przewiduje się, że naprawa zostanie zakończona w ciągu kilku godzin.",
+  "id": 1761761431255,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/poznan/awaria-wodociagu-w-srodzie-wielkopolskiej-woda-jest-wylaczona/tz6ek9h",
+  "title": "Mieszkańcy bez dostępu do wody. Duża awaria w Środzie Wielkopolskiej"
+}

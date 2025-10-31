@@ -1,0 +1,48 @@
+{
+  "score": 65,
+  "label": "strong",
+  "rationale": [
+    "title_sensational: regex hit 'odegrać się' (+12), title_curiosity_gap: regex hit 'znalazł sposób' (+6)",
+    "content_sensational: phrase 'genialny plan' detected (+8), content_hedging: 'może' detected (-2)",
+    "alignment_score: 0.55, resulting in penalty +8 for medium alignment"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnego sformułowania 'odegrać się', co może budzić emocje.",
+    "W treści pojawia się stwierdzenie o 'genialnym planie', co również jest przesadne.",
+    "Artykuł nie w pełni wspiera obietnice tytułu, co wpływa na jego wiarygodność."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational",
+      "curiosity gap"
+    ],
+    "content_hits": [
+      "sensational",
+      "hedging"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Trump w Malezji: Prezydent USA omawia relacje gospodarcze z Chinami",
+    "notes_to_editor": "Zaleca się unikanie przesadnych sformułowań w tytule, aby zwiększyć wiarygodność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:19:33"
+  },
+  "summary": "Prezydent USA Donald Trump przybył do Malezji, aby wzmocnić więzi gospodarcze w obliczu ryzyka wojny handlowej z Chinami. Mimo to, istnieją wątpliwości co do skuteczności jego planów oraz możliwości osiągnięcia zamierzonych celów. Artykuł analizuje aktualną sytuację oraz potencjalne konsekwencje działań Trumpa w regionie.",
+  "id": 1761737544144,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/wojna-handlowa-chin-i-usa-moze-sie-rozlac-wszystko-przez-strategie-trumpa/zt9jfps",
+  "title": "Trump w Malezji. Prezydent USA znalazł sposób, by odegrać się na Pekinie"
+}

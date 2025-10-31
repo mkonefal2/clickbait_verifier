@@ -1,0 +1,48 @@
+{
+  "score": 55,
+  "label": "strong",
+  "rationale": [
+    "title_sensational: regex hit 'ostre słowa' (+12), title_sensational: regex hit 'afera' (+12), title_curiosity_gap: regex hit 'poszło o' (+6)",
+    "content_sensational: phrase 'przekręt z działką' detected (+8), content_overcertainty: phrase 'na pewno' detected (+6)",
+    "alignment_score: 0.5 (medium alignment) → penalty +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera mocne sformułowanie 'ostre słowa', co sugeruje dramatyczny ton.",
+    "W treści użyto wyrażeń sensacyjnych, takich jak 'przekręt', co zwiększa napięcie.",
+    "Artykuł nieco odbiega od obietnic tytułu, co wpływa na jego wiarygodność."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational",
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational",
+      "overcertainty"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.5,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Mentzen krytykuje polityków PiS w sprawie działki pod CPK",
+    "notes_to_editor": "Rozważ usunięcie mocnych słów w tytule, aby zwiększyć neutralność."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:43:24"
+  },
+  "summary": "Sławomir Mentzen skrytykował polityków PiS w związku z kontrowersjami dotyczącymi zakupu działki pod Centralny Port Komunikacyjny. W nagraniu opublikowanym na portalu X, oskarżył ich o milczenie w sprawie domniemanego przekrętu. Artykuł przedstawia szczegóły tej afery oraz reakcje polityków.",
+  "id": 1761761425280,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/afera-z-dzialka-pod-cpk-mentzen-uderza-w-pis-pis-owcy-nic-nie-ujawnili/4bk6b93",
+  "title": "Ostre słowa Mentzena o politykach PiS. Poszło o aferę z działką pod CPK"
+}

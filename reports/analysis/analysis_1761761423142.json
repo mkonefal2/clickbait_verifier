@@ -1,0 +1,48 @@
+{
+  "score": 24,
+  "label": "not_clickbait",
+  "rationale": [
+    "title_superlative: no hits detected (0), title_absolutes: no hits detected (0), title_sensational: no hits detected (0), title_alarming: no hits detected (0), title_curiosity_gap: no hits detected (0), title_listicle: no hits detected (0), title_punctuation: no hits detected (0)",
+    "content_overcertainty: no hits detected (0), content_sensational: no hits detected (0), content_credibility: organization names detected (-3), content_credibility: numbers/dates/statistics detected (-2), content_credibility: quoted speakers detected (-2), content_credibility: scientific/method terms detected (-2), content_credibility: hedging detected (-2)",
+    "mismatch_alignment_score: 1.0 (high alignment), no penalties applied"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł nie zawiera przesadnych słów ani alarmujących stwierdzeń, co czyni go informacyjnym.",
+    "Artykuł zawiera konkretne dane i informacje o przywróceniu tramwajów, co zwiększa jego wiarygodność.",
+    "Treść artykułu dokładnie odpowiada tytułowi, co potwierdza wysoką zgodność."
+  ],
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "organization names detected (-3)",
+      "numbers/dates/statistics detected (-2)",
+      "quoted speakers detected (-2)",
+      "scientific/method terms detected (-2)",
+      "hedging detected (-2)"
+    ],
+    "mismatch": {
+      "alignment_score": 1.0,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Przywrócenie tramwajów na most Grunwaldzki w Krakowie w piątek",
+    "notes_to_editor": "Zaleca się unikanie przesadnych sformułowań w tytule, aby zachować neutralność."
+  },
+  "diagnostics": {
+    "tokens_title": 66,
+    "tokens_content": 1254,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:42:17"
+  },
+  "summary": "W artykule przedstawiono informację o przywróceniu ruchu tramwajowego na moście Grunwaldzkim w Krakowie, co ułatwi mieszkańcom dojazd do cmentarzy w okresie Wszystkich Świętych. Zmiany w funkcjonowaniu komunikacji miejskiej wejdą w życie 31 października, a szczegóły dotyczące tras tramwajów i autobusów zostały opisane w treści.",
+  "id": 1761761423142,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/krakow/news-juz-w-piatek-wielki-powrot-tramwajow-na-most-grunwaldzki-w-k,nId,8035765",
+  "title": "Już w piątek wielki powrót tramwajów na most Grunwaldzki w Krakowie "
+}

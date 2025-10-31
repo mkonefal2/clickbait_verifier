@@ -1,0 +1,48 @@
+{
+  "score": 55,
+  "label": "strong",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'nawet Rosjanie mu nie wierzą' (+6), title_sensational: regex hit 'chwali się sukcesem' (+12)",
+    "content_sensational: phrase 'minął się z prawdą' detected (+8), content_overcertainty: phrase 'wszyscy' detected (+6)",
+    "mismatch_alignment_score: 0.4 (penalty +8 due to low alignment), no country mismatch detected, no time omission detected"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera intrygujące stwierdzenie, że nawet Rosjanie nie wierzą w sukces Gierasimowa, co wzbudza ciekawość.",
+    "Artykuł używa mocnych sformułowań, co może sugerować przesadę w przedstawieniu sytuacji.",
+    "Treść nie w pełni wspiera obietnice tytułu, co obniża wiarygodność."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap",
+      "sensational"
+    ],
+    "content_hits": [
+      "sensational",
+      "overcertainty"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.4,
+      "exaggeration_gap": true,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Gierasimow przedstawia raport o sytuacji na froncie, który budzi wątpliwości.",
+    "notes_to_editor": "Zaleca się unikanie przesadnych sformułowań w tytule, aby zwiększyć wiarygodność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:37:13"
+  },
+  "summary": "Generał Walerij Gierasimow przedstawił raport prezydentowi Putinowi na temat postępów rosyjskiej armii na froncie ukraińskim. Wiele osób, w tym eksperci wojskowi i rosyjscy blogerzy, kwestionuje prawdziwość jego twierdzeń, sugerując, że jego raport jest przesadzony. Artykuł analizuje te wątpliwości oraz kontekst sytuacji na froncie.",
+  "id": 1761747037765,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/gen-gierasimow-chwali-sie-sukcesem-na-froncie-nawet-rosjanie-mu-nie-wierza/9zcxbtj",
+  "title": "Gierasimow chwali się sukcesem na froncie. Nawet Rosjanie mu nie wierzą"
+}

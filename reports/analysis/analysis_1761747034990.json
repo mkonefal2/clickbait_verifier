@@ -1,0 +1,49 @@
+{
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "title_sensational: regex hit 'użyła' (+12), 'starcia' (+12)",
+    "content_sensational: phrase 'niebezpiecznego incydentu' detected (+8)",
+    "content_credibility: organization names detected (-3)",
+    "alignment_score: 0.5 → penalty +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słów 'użyła' i 'starcia', co nadaje mu sensacyjny charakter.",
+    "W treści pojawia się zwrot 'niebezpiecznego incydentu', co również podkreśla dramatyzm sytuacji.",
+    "Artykuł odnosi się do działań policji, co może wpływać na postrzeganą wiarygodność."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.5,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Zamieszki przed derbami Krakowa: Policja interweniuje",
+    "notes_to_editor": "Zaleca się unikanie sensacyjnego języka w tytule, aby zwiększyć wiarygodność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 45,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:35:51"
+  },
+  "summary": "Przed derbowym meczem piłkarskiego Pucharu Polski w Krakowie doszło do zamieszek między kibicami a policją. Funkcjonariusze użyli gazu łzawiącego, aby opanować sytuację przed stadionem Hutnika. Incydent miał miejsce 29 października 2025 roku.",
+  "id": 1761747034990,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/zamieszki-przed-derbami-krakowa-probowano-przerwac-policyjny-kordon/zj6hl7w",
+  "title": "Policja użyła gazu łzawiącego. Starcia przed derbami Krakowa"
+}

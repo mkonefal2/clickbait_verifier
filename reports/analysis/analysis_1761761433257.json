@@ -1,0 +1,47 @@
+{
+  "score": 75,
+  "label": "extreme",
+  "rationale": [
+    "title_sensational: regex hit 'przygotowuje się do rozbiorów' (+12), title_sensational: regex hit 'popis' (+12), title_curiosity_gap: regex hit 'nie uwierzysz' (+6)",
+    "content_sensational: phrase 'teoria spiskowych' (+8), content_sensational: phrase 'niewiarygodny' (+12), content_sensational: phrase 'zdradził' (+8)",
+    "alignment_score: 0.4 (low alignment) → penalty +18, country_mismatch: false, time_omission: false"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera mocne sformułowania, takie jak 'przygotowuje się do rozbiorów', co wzbudza sensację.",
+    "W treści artykułu pojawiają się również przesadne stwierdzenia, co obniża jego wiarygodność.",
+    "Tytuł sugeruje, że artykuł dotyczy wydarzeń w Polsce, ale treść koncentruje się na Węgrzech i UE."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational",
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.4,
+      "exaggeration_gap": true,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Viktor Orban krytykuje UE za rzekome plany wobec Ukrainy",
+    "notes_to_editor": "Zaleca się unikanie przesadnych sformułowań w tytule, aby zwiększyć wiarygodność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:49:54"
+  },
+  "summary": "Viktor Orban w swoim przemówieniu oskarżył Unię Europejską o przygotowywanie się do rozbiorów Ukrainy. Jego tezy, uznawane za sensacyjne, zostały poddane analizie przez niezależny serwis śledczy. Artykuł omawia kontrowersyjne wypowiedzi premiera Węgier oraz reakcje mediów na jego słowa.",
+  "id": 1761761433257,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/popis-orbana-polaczyl-emerytury-i-podatki-z-rozbiorem-ukrainy-przez-ue/cjfpzg9",
+  "title": "Publiczny \"popis\" Viktora Orbana: UE przygotowuje się do rozbiorów Ukrainy"
+}

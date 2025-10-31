@@ -1,0 +1,49 @@
+{
+  "score": 60,
+  "label": "strong",
+  "rationale": [
+    "title_sensational: regex hit 'gwałty' (+12), 'śmierć' (+12) - total 24",
+    "title_alarm: regex hit 'tragedia' (+10) - total 10",
+    "content_sensational: phrases like 'brutalne przestępstwa seksualne' (+8) - total 8",
+    "alignment_score: 0.55 - medium alignment, penalty +8",
+    "exaggeration_gap: title is sensational but content has credible details, penalty +14"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów 'gwałty' i 'śmierć', co może wywoływać silne emocje.",
+    "Artykuł zawiera szczegóły dotyczące brutalnych przestępstw, co zwiększa jego dramatyzm.",
+    "Tytuł sugeruje bardzo dramatyczne wydarzenia, ale treść zawiera wiarygodne informacje."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational",
+      "alarm"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": true,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Hollywoodzki producent skazany na 146 lat więzienia za przestępstwa seksualne",
+    "notes_to_editor": "Rozważyć użycie mniej dramatycznego języka w tytule, aby zwiększyć neutralność."
+  },
+  "diagnostics": {
+    "tokens_title": 73,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:52:27"
+  },
+  "summary": "David Brian Pearce, hollywoodzki producent, został skazany na 146 lat więzienia za brutalne przestępstwa seksualne oraz śmierć dwóch młodych kobiet. Sąd w Los Angeles uznał go za winnego wielokrotnych gwałtów, które doprowadziły do tragicznych wydarzeń w 2021 roku. Proces opierał się na zeznaniach wielu ofiar i dowodach dotyczących podawania niebezpiecznych substancji.",
+  "id": 1761833548464,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/swiat/news-hollywoodzki-producent-skazany-na-146-lat-wiezienia-za-gwalt,nId,8036003",
+  "title": "Hollywoodzki producent skazany na 146 lat więzienia za gwałty i śmierć młodych kobiet"
+}

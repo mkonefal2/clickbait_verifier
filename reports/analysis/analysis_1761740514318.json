@@ -1,0 +1,46 @@
+{
+  "score": 24,
+  "label": "not_clickbait",
+  "rationale": [
+    "title_hits: no superlatives, absolutes, sensational language, or curiosity gaps detected (score 0)",
+    "content_hits: minimal sensational phrases, no overcertainty or hedging detected (score 0)",
+    "credibility_hits: multiple organization names and dates present, enhancing credibility (score -12)",
+    "mismatch: alignment_score 0.75 indicates high alignment, no penalties applied"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jest neutralny i nie zawiera przesadnych słów ani obietnic.",
+    "Artykuł dostarcza konkretnych informacji na temat upadłości spółki, co zwiększa jego wiarygodność.",
+    "Nie ma żadnych niezgodności geograficznych ani czasowych."
+  ],
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "organization names",
+      "dates"
+    ],
+    "mismatch": {
+      "alignment_score": 0.75,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Upadłość spółki Cinkciarz.pl: Co muszą zrobić wierzyciele?",
+    "notes_to_editor": "Zaleca się unikanie dramatyzacji w tytule, aby lepiej odzwierciedlić treść artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 41,
+    "tokens_content": 292,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:23:20"
+  },
+  "summary": "Sąd ogłosił upadłość spółki Cinkciarz.pl, co oznacza, że wierzyciele mają czas do 26 listopada 2025 roku na zgłoszenie swoich roszczeń. Zgłoszenia muszą być dokonane elektronicznie, a do nich należy dołączyć odpowiednią dokumentację potwierdzającą roszczenia. Brak zgłoszenia może skutkować utratą możliwości odzyskania pieniędzy.",
+  "id": 1761740514318,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/polska/news-upadlosc-spolki-cinkciarz-pl-co-musza-zrobic-wierzyciele,nId,8035658",
+  "title": "Upadłość spółki Cinkciarz.pl. Co muszą zrobić wierzyciele?"
+}

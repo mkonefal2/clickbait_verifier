@@ -1,0 +1,51 @@
+{
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'nieznane kulisy' (+6), title_sensational: regex hit 'bał się' (+12)",
+    "content_sensational: phrase 'bał się, że skrzywdzą jego rodzinę' detected (+8)",
+    "content_credibility: org names detected (-3), quoted speakers detected (-2)",
+    "alignment_score: 0.55, resulting in a penalty of +8 for medium alignment"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera zwrot 'nieznane kulisy', co wzbudza ciekawość czytelników.",
+    "W treści pojawia się emocjonalny opis obaw Tuska o bezpieczeństwo rodziny, co dodaje dramatyzmu.",
+    "Artykuł zawiera cytaty, co zwiększa jego wiarygodność, ale także obniża ocenę za clickbait."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap",
+      "sensational"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names",
+      "quoted speakers"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Obawy Tuska przed powrotem do polskiej polityki",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 14,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:51:04"
+  },
+  "summary": "Artykuł omawia powrót Donalda Tuska do polskiej polityki, podkreślając obawy jego rodziny o bezpieczeństwo. Dziennikarz Kamil Dziubka przedstawia, że rodzina Tuska była przeciwna jego decyzji, obawiając się, że rząd PiS może ich skrzywdzić. W artykule pojawiają się również opinie dotyczące postrzegania Tuska wśród członków Platformy Obywatelskiej.",
+  "id": 1761761434620,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/tylko-w-onecie/bal-sie-ze-skrzywdza-jego-rodzine-nieznane-kulisy-powrotu-tuska-do-polski/0yl64jd",
+  "title": "\"Bał się, że skrzywdzą jego rodzinę\". Nieznane kulisy powrotu Tuska do Polski"
+}

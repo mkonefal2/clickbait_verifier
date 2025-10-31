@@ -1,0 +1,49 @@
+{
+  "score": 50,
+  "label": "strong",
+  "rationale": [
+    "title_alarm: regex hit 'katastrofa' (+10), title_sensational: regex hit 'dramatu' (+12), title_curiosity: no hits, title_superlative: no hits, title_absolute: no hits, title_punctuation: no hits.",
+    "content_sensational: regex hit 'katastrofalna' (+8), content_overcertainty: no hits, content_credibility: org names detected (-3), content_numbers: no hits, content_quoted: no hits, content_scientific: no hits, content_hedging: no hits.",
+    "alignment_score: 0.6 → medium alignment penalty +8, no country mismatch, no time omission."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'katastrofa', co wzbudza silne emocje i sugeruje dramatyczną sytuację.",
+    "Artykuł zawiera informacje o powodzi, ale nie ma cytatów ani danych, co może zmniejszać wiarygodność.",
+    "Treść dobrze odpowiada na obietnice tytułu, ale nieco przesadza z dramatyzmem."
+  ],
+  "signals": {
+    "title_hits": [
+      "title_alarm",
+      "title_sensational"
+    ],
+    "content_hits": [
+      "content_sensational"
+    ],
+    "credibility_hits": [
+      "credibility_org_names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.6,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Powódź na Jamajce: dramatyczne nagrania z Mandeville",
+    "notes_to_editor": "Zaleca się unikanie przesadnych określeń w tytule, aby zwiększyć wiarygodność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 46,
+    "tokens_content": 295,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:44:26"
+  },
+  "summary": "Na Jamajce miała miejsce katastrofalna powódź spowodowana huraganem Melissą, który przyniósł silne wiatry i intensywne opady deszczu. W miejscowości Mandeville woda zalała drogi i samochody, co zostało uwiecznione w dramatycznych nagraniach krążących w sieci. W artykule przedstawiono również inne filmy z regionów dotkniętych tym kataklizmem.",
+  "id": 1761761427162,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/katastrofalna-powodz-na-jamajce-siec-obiegly-dramatyczne-nagrania/y50et8n",
+  "title": "Katastrofalna powódź na Jamajce. Sieć obiegły dramatyczne nagrania"
+}

@@ -1,0 +1,49 @@
+{
+  "score": 25,
+  "label": "mild",
+  "rationale": [
+    "title_sensational: regex hit 'brutalne' (+12), title_alarming: regex hit 'morderstwo' (+10)",
+    "content_sensational: phrase 'brutalne morderstwo' detected (+8), content_credibility: org names detected (-3)",
+    "alignment_score: calculated at 0.6, resulting in medium alignment penalty (+8)"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'brutalne', co wzbudza emocje i może sugerować przesadę.",
+    "Artykuł zawiera informacje o morderstwie, co jest sensacyjne, ale również podaje źródła.",
+    "Treść artykułu dobrze odpowiada na obietnice zawarte w tytule, ale nieco przesadza w dramatyzacji."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational",
+      "alarming"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.6,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Mieszko R. trafi do aresztu po morderstwie na Uniwersytecie Warszawskim",
+    "notes_to_editor": "Zaleca się unikanie emocjonalnych słów w tytule, aby zwiększyć neutralność."
+  },
+  "diagnostics": {
+    "tokens_title": 9,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:51:29"
+  },
+  "summary": "Mieszko R. został podejrzany o brutalne morderstwo kobiety na Uniwersytecie Warszawskim. Po zakończeniu obserwacji sądowo-psychiatrycznej, prokuratura ogłosiła, że mężczyzna trafi do aresztu śledczego w Radomiu. Informacje te przekazał rzecznik Prokuratury Okręgowej w Warszawie.",
+  "id": 1761761435068,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/warszawa/brutalne-morderstwo-na-uw-mieszko-r-trafi-do-aresztu/qkf8lhe",
+  "title": "Brutalne morderstwo na UW. Mieszko R. trafi do aresztu"
+}

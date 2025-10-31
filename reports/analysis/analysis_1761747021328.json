@@ -1,0 +1,50 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_question: regex hit 'Co zrobi Polska?' (+4), title_hits: 1",
+    "content_sensational: phrase 'atak hybrydowy' detected (+8), content_hits: 1",
+    "content_credibility: org names mentioned (-3), content_credibility: 1",
+    "alignment_score: 0.55, medium alignment → penalty +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera pytanie, co może budzić ciekawość czytelników.",
+    "W treści pojawia się sformułowanie 'atak hybrydowy', które jest dość dramatyczne.",
+    "Artykuł odnosi się do działań rządu litewskiego, co zwiększa jego wiarygodność.",
+    "Treść dobrze odpowiada na pytanie postawione w tytule, ale nieco przesadza z dramatyzmem."
+  ],
+  "signals": {
+    "title_hits": [
+      "question"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Litwa zamknęła granicę z Białorusią na miesiąc",
+    "notes_to_editor": "Rozważyć usunięcie pytania z tytułu, aby zwiększyć neutralność."
+  },
+  "diagnostics": {
+    "tokens_title": 34,
+    "tokens_content": 645,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:30:59"
+  },
+  "summary": "Litwa zdecydowała o miesięcznym zamknięciu granicy z Białorusią w odpowiedzi na incydenty z balonami meteorologicznymi i przemytniczymi. Ministerstwo Spraw Wewnętrznych Litwy podkreśla, że decyzja ma na celu zapewnienie bezpieczeństwa. Polska również rozważa swoje działania w związku z sytuacją na granicy.",
+  "id": 1761747021328,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/swiat/news-litwa-zamknela-granice-z-bialorusia-co-zrobi-polska,nId,8035687",
+  "title": "Litwa zamknęła granicę z Białorusią. Co zrobi Polska?"
+}

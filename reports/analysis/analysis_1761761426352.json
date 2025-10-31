@@ -1,0 +1,49 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'Co żartuję?' (+6), title_sensational: regex hit 'incydent' (+12)",
+    "content_sensational: phrase 'ostro zareagował' detected (+8), content_credibility: org names detected (-3)",
+    "alignment_score: calculated at 0.5, resulting in a penalty of +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera pytanie, które wzbudza ciekawość, co może przyciągać czytelników.",
+    "W treści użyto mocnych sformułowań, co nadaje jej sensacyjny charakter.",
+    "Artykuł zawiera informacje o organizacji, co zmniejsza jego wiarygodność."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap",
+      "sensational"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.5,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Incydent na konferencji PiS z udziałem przechodnia",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia sensacji."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:44:01"
+  },
+  "summary": "Podczas konferencji PiS, poseł Janusz Kowalski został zaczepiony przez przechodnia, który skrytykował jego wypowiedzi. W odpowiedzi Kowalski oskarżył Donalda Tuska o kradzież. Cała sytuacja została uwieczniona na nagraniu, które trafiło do sieci.",
+  "id": 1761761426352,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/incydent-na-konferencji-pis-posel-nie-wytrzymal-co-zartuje-wideo/ctkgzjd",
+  "title": "Incydent na konferencji PiS. Do posła podszedł przechodzień. \"Co żartuję?\""
+}

@@ -1,0 +1,49 @@
+{
+  "score": 40,
+  "label": "mild",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'Będzie druga prywatyzacja?' (+6), title_questions: regex hit '?' (+4)",
+    "content_sensational: phrase 'alarmują górale' detected (+8)",
+    "content_hedging: phrase 'może ponownie obudzić' detected (-2)",
+    "alignment_score: 0.55, penalty for medium alignment (+8)"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera pytanie, które wzbudza ciekawość czytelników.",
+    "W treści użyto sformułowania 'alarmują górale', co dodaje dramatyzmu.",
+    "Artykuł zawiera pewne wątpliwości, co obniża jego wiarygodność.",
+    "Treść w pewnym stopniu wspiera obietnice tytułu, ale nie w pełni."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap",
+      "questions"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Czy planowana jest druga prywatyzacja Polskich Kolei Linowych?",
+    "notes_to_editor": "Rozważyć użycie bardziej neutralnego tytułu, aby uniknąć wrażenia sensacji."
+  },
+  "diagnostics": {
+    "tokens_title": 51,
+    "tokens_content": 300,
+    "processing_time_ms": 120,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:36:16"
+  },
+  "summary": "Artykuł omawia plany rządu dotyczące potencjalnej drugiej prywatyzacji Polskich Kolei Linowych. Górale wyrażają obawy związane z tymi planami, a burmistrz Zakopanego potwierdza, że prywatyzacja może wywołać niepokój w regionie. W artykule przedstawiono różne opinie na ten temat.",
+  "id": 1761747035697,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/krakow/bedzie-druga-prywatyzacja-polskich-kolei-linowych-nowe-informacje/dfg7lk0",
+  "title": "Będzie druga prywatyzacja Polskich Kolei Linowych? Nowe informacje"
+}

@@ -1,0 +1,45 @@
+{
+  "score": 24,
+  "label": "not_clickbait",
+  "rationale": [
+    "title_superlative: no hits detected (0), title_absolutes: no hits detected (0), title_sensational: no hits detected (0), title_alarming: no hits detected (0), title_curiosity_gap: no hits detected (0), title_listicle: no hits detected (0), title_punctuation: no hits detected (0)",
+    "content_overcertainty: no hits detected (0), content_sensational: no hits detected (0), credibility_org_names: Polska Agencja Prasowa (-3), credibility_numbers: no hits detected (0), credibility_quoted_speakers: Thomas Regnier (-2), credibility_scientific_terms: no hits detected (0), content_hedging: no hits detected (0)",
+    "alignment_score: 0.75, no penalty for alignment, no exaggeration gap, no country mismatch, no time omission"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jest neutralny i nie zawiera przesadnych słów ani emocjonalnego języka.",
+    "Artykuł opiera się na wiarygodnych źródłach i nie zawiera niepewnych stwierdzeń.",
+    "Treść artykułu jest zgodna z tytułem, co zwiększa jego rzetelność."
+  ],
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "Polska Agencja Prasowa",
+      "Thomas Regnier"
+    ],
+    "mismatch": {
+      "alignment_score": 0.75,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "USA zmniejsza liczebność wojsk w Europie, Komisja Europejska komentuje",
+    "notes_to_editor": "Zaleca się unikanie emocjonalnego języka w tytule, aby zwiększyć jego neutralność."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:29:52"
+  },
+  "summary": "Artykuł informuje o decyzji USA dotyczącej zmniejszenia liczebności wojsk w Europie. Rzecznik Komisji Europejskiej, Thomas Regnier, zapewnia, że nie wpłynie to na plany obronne Unii Europejskiej. KE planuje osiągnięcie wstępnej zdolności operacyjnej Straży Wschodniej Flanki do końca 2026 roku.",
+  "id": 1761741761306,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/usa-zmniejsza-liczebnosc-wojsk-w-europie-komisja-europejska-reaguje/ystbyte",
+  "title": "USA zmniejszą liczebność wojsk w Europie. Komisja Europejska reaguje"
+}

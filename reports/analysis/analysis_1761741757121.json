@@ -1,0 +1,49 @@
+{
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "title_superlative: regex hit 'ogromne' (+6), title_sensational: regex hit 'zniszczenia' (+12)",
+    "content_sensational: phrase 'ogromne zniszczenia' detected (+8), content_credibility: org names detected (-3)",
+    "alignment_score: 0.6, medium alignment penalty +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'ogromne', co może sugerować przesadę w opisie zniszczeń.",
+    "W treści pojawiają się dramatyczne opisy sytuacji na Jamajce, co zwiększa emocjonalny ładunek artykułu.",
+    "Artykuł zawiera informacje o zniszczeniach, ale także odnosi się do działań rządu, co zwiększa jego wiarygodność."
+  ],
+  "signals": {
+    "title_hits": [
+      "superlative",
+      "sensational"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.6,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Jamajka po huraganie Melissa: zniszczenia i działania rządu",
+    "notes_to_editor": "Zaleca się unikanie emocjonalnego języka w tytule, aby zwiększyć obiektywność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 8,
+    "tokens_content": 3000,
+    "processing_time_ms": 120,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:28:38"
+  },
+  "summary": "Artykuł opisuje skutki huraganu Melissa, który uderzył w Jamajkę, powodując znaczne zniszczenia. Władze ogłosiły stan klęski żywiołowej, a pełen zakres szkód jest wciąż nieznany z powodu przerw w komunikacji. Premier Andrew Holness informuje o działaniach rządu w odpowiedzi na sytuację kryzysową.",
+  "id": 1761741757121,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/swiat/news-ogromne-zniszczenia-jamajka-lize-rany-po-huraganie-melissa,nId,8035657",
+  "title": "\"Ogromne zniszczenia\". Jamajka liże rany po huraganie Melissa"
+}

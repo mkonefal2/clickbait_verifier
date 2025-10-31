@@ -1,0 +1,48 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_superlative: regex hit 'jeszcze nie było' (+6), title_curiosity_gap: regex hit 'zaprasza' (+6)",
+    "content_sensational: phrase 'wydarzenie bez precedensu' (+8), content_overcertainty: absolute 'dotąd w Polsce nie pokazywano' (+6)",
+    "mismatch alignment_score: 0.75, no penalties applied"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnego sformułowania 'jeszcze nie było', co może budzić przesadne oczekiwania.",
+    "W artykule pojawia się stwierdzenie o 'wydarzeniu bez precedensu', co dodaje dramatyzmu.",
+    "Treść jest zgodna z tytułem, więc nie ma problemu z dopasowaniem."
+  ],
+  "signals": {
+    "title_hits": [
+      "superlative",
+      "curiosity gap"
+    ],
+    "content_hits": [
+      "sensational",
+      "overcertainty"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.75,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Wawel prezentuje dzieło Albrechta Dürera",
+    "notes_to_editor": "Rozważyć zmianę tytułu na bardziej neutralny, aby uniknąć wrażenia clickbait."
+  },
+  "diagnostics": {
+    "tokens_title": 30,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:55:02"
+  },
+  "summary": "Na Wawelu można oglądać wyjątkowe dzieło Albrechta Dürera - 'Portret Jakoba Muffela', które po raz pierwszy jest prezentowane w Polsce. Wystawie towarzyszy portret Hansa Holbeina Młodszego. Wstęp na ekspozycję jest darmowy przez cały listopad, a wystawa potrwa do 1 lutego 2026 roku.",
+  "id": 1761833561000,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/krakow/news-tego-w-polsce-jeszcze-nie-bylo-wawel-zaprasza,nId,8036048",
+  "title": "Tego w Polsce jeszcze nie było. Wawel zaprasza"
+}

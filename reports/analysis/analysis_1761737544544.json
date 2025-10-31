@@ -1,0 +1,51 @@
+{
+  "score": 65,
+  "label": "strong",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'oto scenariusz' (+6), title_sensational: regex hit 'zagłada świata' (+12), title_alarm: regex hit 'wojna nuklearna' (+10)",
+    "content_sensational: phrase 'wojna nuklearna byłaby zła' (+8), content_hedging: phrase 'prawdopodobnie' detected (-2), content_credibility: org names mentioned (-3)",
+    "alignment_score: 0.55, resulting in penalty +8 for medium alignment"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera zwrot 'oto scenariusz', co wzbudza ciekawość czytelników.",
+    "W artykule użyto mocnych słów, takich jak 'zagłada świata', co może wywołać niepokój.",
+    "Treść zawiera stwierdzenia o charakterze prawdopodobieństwa, co zmniejsza jej wiarygodność."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap",
+      "sensational",
+      "alarm"
+    ],
+    "content_hits": [
+      "sensational",
+      "hedging"
+    ],
+    "credibility_hits": [
+      "organization names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Scenariusz wojny nuklearnej: co może się wydarzyć w 72 minuty",
+    "notes_to_editor": "Zaleca się unikanie alarmujących sformułowań w tytule, aby zwiększyć obiektywność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:20:44"
+  },
+  "summary": "Artykuł omawia potencjalny scenariusz wojny nuklearnej, przedstawiając szczegółowy opis wydarzeń, które mogłyby nastąpić w ciągu 72 minut od wystrzelenia pierwszego pocisku. Autorka, Annie Jacobsen, analizuje konsekwencje globalnego konfliktu nuklearnego, podkreślając jego katastrofalne skutki dla ludzkości.",
+  "id": 1761737544544,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/wojna-nuklearna-jak-moglby-wygladac-koniec-swiata-scenariusz/lwp25ge",
+  "title": "Zagłada świata potrwa 72 minuty. Oto scenariusz wojny nuklearnej"
+}

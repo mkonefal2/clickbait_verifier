@@ -1,0 +1,52 @@
+{
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "title_superlative: regex hit 'fatalne' (+6), title_sensational: regex hit 'fatalne wieści' (+12), title_curiosity_gap: regex hit 'ustalenia' (+6)",
+    "content_sensational: phrases indicating determination and war continuation (+8), content_overcertainty: use of 'bardziej niż kiedykolwiek' (+6)",
+    "credibility_reduction: organization names mentioned (-3), quoted speakers detected (-2)"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnego słowa 'fatalne', co może tworzyć przesadne oczekiwania.",
+    "Artykuł zawiera informacje o determinacji Putina, co może być postrzegane jako sensacyjne.",
+    "W treści pojawiają się cytaty i odniesienia do wywiadu, co zwiększa wiarygodność."
+  ],
+  "signals": {
+    "title_hits": [
+      "superlative",
+      "sensational",
+      "curiosity gap"
+    ],
+    "content_hits": [
+      "sensational",
+      "overcertainty"
+    ],
+    "credibility_hits": [
+      "organization names",
+      "quoted speakers"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Nowe ustalenia wywiadu USA dotyczące planów Putina",
+    "notes_to_editor": "Zaleca się unikanie mocnych słów w tytule, aby nie wprowadzać w błąd."
+  },
+  "diagnostics": {
+    "tokens_title": 8,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:54:24"
+  },
+  "summary": "Artykuł przedstawia ustalenia amerykańskiego wywiadu dotyczące determinacji Władimira Putina w kontynuowaniu wojny w Ukrainie. Analiza wskazuje na brak gotowości Rosji do kompromisu, mimo strat wojskowych i problemów gospodarczych. W artykule omówiono również sankcje na rosyjskie koncerny naftowe oraz wypowiedzi Donalda Trumpa na temat spotkania z Putinem.",
+  "id": 1761833557812,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/raporty/raport-wojna-z-rosja/news-fatalne-wiesci-ws-planow-putina-ustalenia-wywiadu-usa,nId,8035497",
+  "title": "Fatalne wieści ws. planów Putina. Ustalenia wywiadu USA"
+}

@@ -1,0 +1,48 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_sensational: regex hit 'brutalny' (+12), title_hits total = 12",
+    "content_sensational: phrase 'brutalny gwałt' detected (+8), content_hits total = 8",
+    "alignment_score: 0.65, medium alignment, penalty +8",
+    "no country mismatch detected",
+    "no time omission detected"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'brutalny', co może budzić emocje i zainteresowanie.",
+    "W treści artykułu pojawia się również to samo słowo, co podkreśla dramatyzm sytuacji.",
+    "Artykuł jest zgodny z tytułem, ale nie zawiera przesadnych obietnic ani nie wprowadza w błąd."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.65,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Krzysztof Lach poszukiwany za gwałt",
+    "notes_to_editor": "Zaleca się unikanie emocjonalnych słów w tytule, aby zwiększyć neutralność."
+  },
+  "diagnostics": {
+    "tokens_title": 9,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:46:05"
+  },
+  "summary": "Krzysztof Lach, 40-letni mężczyzna, jest poszukiwany przez policję w Limanowej za brutalny gwałt i znęcanie się. Wydano list gończy w jego sprawie. Artykuł informuje o działaniach policji oraz okolicznościach poszukiwań.",
+  "id": 1761761429255,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/krakow/list-gonczy-za-krzysztofem-lachem-jest-poszukiwany-za-brutalny-gwalt/ehcvtlm",
+  "title": "40-latek poszukiwany listem gończym. Chodzi o brutalny gwałt"
+}

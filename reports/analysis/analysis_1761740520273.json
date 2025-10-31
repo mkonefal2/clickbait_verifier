@@ -1,0 +1,48 @@
+{
+  "score": 24,
+  "label": "not_clickbait",
+  "rationale": [
+    "title_hits: no superlatives, absolutes, sensational language, or curiosity gaps detected (0 points)",
+    "content_hits: no sensational phrases detected (0 points)",
+    "credibility_hits: organization names mentioned (-3), numbers/dates/statistics mentioned (-2), quoted speakers mentioned (-2) for a total of -7 points",
+    "alignment_score: 0.75 indicates high alignment, no penalty applied",
+    "no exaggeration gap detected, no country mismatch, no time omission"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jest informacyjny i nie zawiera przesadnych słów ani obietnic.",
+    "Artykuł dostarcza konkretne informacje o wypadku, co zwiększa jego wiarygodność.",
+    "Nie znaleziono żadnych niezgodności między tytułem a treścią."
+  ],
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "organization names detected",
+      "numbers/dates/statistics detected",
+      "quoted speakers detected"
+    ],
+    "mismatch": {
+      "alignment_score": 0.75,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Wypadek drogowy w Łódzkiem - jedna osoba zginęła",
+    "notes_to_editor": "Zaleca się unikanie dramatyzacji w tytule, aby lepiej odzwierciedlić treść artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 7,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:24:43"
+  },
+  "summary": "W wypadku drogowym w miejscowości Popień-Parcela w Łódzkiem zginęła jedna osoba, a dwie zostały ranne. Zderzyły się samochód osobowy i dostawczy. Policja bada okoliczności zdarzenia, a na miejscu lądował śmigłowiec ratunkowy.",
+  "id": 1761740520273,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/lodz/news-smiertelny-wypadek-na-drodze-w-lodzkiem,nId,8035647",
+  "title": "Śmiertelny wypadek na drodze w Łódzkiem"
+}

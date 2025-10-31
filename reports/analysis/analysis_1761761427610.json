@@ -1,0 +1,45 @@
+{
+  "score": 10,
+  "label": "not_clickbait",
+  "rationale": [
+    "title_superlative: no hits detected (0), title_absolutes: no hits detected (0), title_sensational: no hits detected (0), title_alarming: no hits detected (0), title_curiosity_gap: no hits detected (0), title_listicle: no hits detected (0), title_punctuation: no hits detected (0)",
+    "content_overcertainty: no hits detected (0), content_sensational: no hits detected (0), credibility_org_names: KOWR mentioned (-3), credibility_numbers: no hits detected (0), credibility_quoted_speakers: Henryk Smolarz mentioned (-2), credibility_scientific_terms: no hits detected (0), content_hedging: no hits detected (0)",
+    "alignment_score: 0.8, no penalties applied, final score calculated as (0.4 * 0 + 0.15 * -5 + 0.4 * 0) = 10"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł nie zawiera przesadnych słów ani wyrażeń, co sprawia, że jest neutralny.",
+    "Artykuł zawiera konkretne informacje o działaniach KOWR, co zwiększa jego wiarygodność.",
+    "Treść jest zgodna z tytułem, co wskazuje na wysoką spójność."
+  ],
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "KOWR mentioned",
+      "Henryk Smolarz mentioned"
+    ],
+    "mismatch": {
+      "alignment_score": 0.8,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "KOWR podejmuje działania w sprawie działki pod CPK",
+    "notes_to_editor": "Zaleca się unikanie sensacyjnych tytułów, aby zachować neutralność."
+  },
+  "diagnostics": {
+    "tokens_title": 8,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:45:00"
+  },
+  "summary": "Artykuł informuje o działaniach Krajowego Ośrodka Wsparcia Rolnictwa (KOWR) dotyczących odkupu działki pod Centralny Port Komunikacyjny (CPK). Dyrektor generalny KOWR, Henryk Smolarz, poinformował o skierowaniu pisma do dotychczasowego właściciela działki w celu uzyskania zgody na odkup.",
+  "id": 1761761427610,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/ruch-kowr-w-sprawie-dzialki-pod-cpk-skierowalem-pismo/dfwdbzr",
+  "title": "Ruch KOWR w sprawie działki pod CPK. \"Skierowałem pismo\""
+}

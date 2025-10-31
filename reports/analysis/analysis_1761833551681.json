@@ -1,0 +1,49 @@
+{
+  "score": 65,
+  "label": "strong",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'kim była zmarła?' (+6), title_sensational: regex hit 'makabryczne odkrycie' (+12), title_questions: regex hit '?' (+4)",
+    "content_sensational: phrase 'wstrząsające odkrycie' (+8), content_hedging: 'może' detected (-2), content_hedging: 'wydaje się' detected (-2)",
+    "alignment_score: 0.55 (medium alignment), penalty +8 for medium alignment, no country mismatch or time omission detected"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera pytanie, które wzbudza ciekawość, oraz mocne wyrażenie 'makabryczne odkrycie', co sugeruje sensacyjny charakter.",
+    "W treści użyto sformułowania 'wstrząsające odkrycie', co podkreśla dramatyzm sytuacji, a także pojawiły się niepewności dotyczące przyczyny śmierci.",
+    "Treść artykułu jest zgodna z tytułem, ale nieco przesadna w swoim tonie."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap",
+      "sensational",
+      "questions"
+    ],
+    "content_hits": [
+      "sensational",
+      "hedging"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Odkrycie szkieletu kobiety w austriackim lesie",
+    "notes_to_editor": "Zaleca się unikanie sensacyjnych sformułowań w tytule, aby zwiększyć wiarygodność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 2998,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:53:05"
+  },
+  "summary": "W austriackim lesie odkryto szkielet kobiety, co zaskoczyło spacerowiczów. Policja rozpoczęła śledztwo, jednak nie udało się ustalić tożsamości zmarłej ani przyczyny jej śmierci. Ciało znajdowało się w pozycji siedzącej, a przy nim znaleziono kilka osobistych przedmiotów, które mogą pomóc w identyfikacji.",
+  "id": 1761833551681,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/swiat/news-szkielet-kobiety-siedzial-przy-szlaku-makabryczne-odkrycie-w,nId,8035542",
+  "title": "Szkielet kobiety \"siedział\" przy szlaku. Makabryczne odkrycie w lesie"
+}

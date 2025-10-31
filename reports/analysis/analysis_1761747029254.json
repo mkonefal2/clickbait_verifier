@@ -1,0 +1,49 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_alarm: regex hit 'tragedia' (+10), content_sensational: phrase 'tragicznego zdarzenia' detected (+8), content_credibility: org names detected (-3), content_credibility: numbers detected (-2), content_credibility: quotes detected (-2)",
+    "alignment_score: 0.6, penalty for medium alignment (+8)"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'tragedia', co może wzbudzać niepokój.",
+    "W treści pojawiają się dramatyczne opisy zdarzenia, co zwiększa emocjonalny ładunek tekstu.",
+    "Artykuł zawiera dane liczbowe i informacje o służbach, co zwiększa jego wiarygodność."
+  ],
+  "signals": {
+    "title_hits": [
+      "alarming"
+    ],
+    "content_hits": [
+      "sensational phrases"
+    ],
+    "credibility_hits": [
+      "organization names",
+      "numbers",
+      "quoted speakers"
+    ],
+    "mismatch": {
+      "alignment_score": 0.6,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Rodzinny dramat na Lubelszczyźnie",
+    "notes_to_editor": "Rozważyć użycie bardziej neutralnego języka w tytule, aby uniknąć wrażenia sensacji."
+  },
+  "diagnostics": {
+    "tokens_title": 30,
+    "tokens_content": 292,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:32:51"
+  },
+  "summary": "W Lubelszczyźnie doszło do tragicznego zdarzenia, w którym zmarł 17-letni chłopak. Policja zatrzymała jego 13-letniego brata, a sąd rodzinny zadecyduje o jego dalszym losie. Rodzina nie była wcześniej notowana w policyjnych kartotekach.",
+  "id": 1761747029254,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/lublin/news-tragedia-rodzinna-na-lubelszczyznie-nie-zyje-17-latek-zatrzy,nId,8035720",
+  "title": "Tragedia rodzinna na Lubelszczyźnie"
+}

@@ -1,0 +1,49 @@
+{
+  "score": 60,
+  "label": "strong",
+  "rationale": [
+    "title_sensational: regex hit 'niepokojące' (+12), title_alarm: regex hit 'zagrożenie' (+10)",
+    "content_sensational: phrase 'przygotowywać się do wojny' (+8), content_hedging: phrase 'może' detected (-2)",
+    "alignment_score: 0.5 (medium alignment) → penalty +8",
+    "no country mismatch detected, but title implies local context while discussing NATO and Russia"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'niepokojące', co wzbudza emocje i sugeruje zagrożenie.",
+    "Artykuł zawiera stwierdzenia o możliwej wojnie, co dodaje dramatyzmu.",
+    "Tytuł sugeruje lokalny kontekst, ale treść dotyczy działań Rosji w Arktyce."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensation",
+      "alarm"
+    ],
+    "content_hits": [
+      "sensation",
+      "hedging"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.5,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Działania Rosji w Arktyce obserwowane przez NATO",
+    "notes_to_editor": "Rozważyć użycie mniej emocjonalnych słów w tytule, aby zwiększyć neutralność."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:48:36"
+  },
+  "summary": "Minister obrony Norwegii ostrzega przed działaniami Rosji w Arktyce, które mogą sugerować przygotowania do konfliktu z NATO. Władimir Putin i jego armia są monitorowani przez NATO w kontekście rozbudowy floty. Artykuł przedstawia obawy dotyczące bezpieczeństwa w regionie.",
+  "id": 1761761433041,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/niepokojace-dzialania-rosji-w-jednym-regionie-nato-obserwuje-ich-caly-czas/kkxmf7l",
+  "title": "Niepokojące działania Rosjan w nieoczywistym regionie. \"Flota jest rozbudowywana\""
+}

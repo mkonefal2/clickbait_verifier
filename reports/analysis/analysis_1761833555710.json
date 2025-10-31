@@ -1,0 +1,51 @@
+{
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "title_superlative: regex hit 'największy' (+6), title_curiosity_gap: regex hit 'zobacz co się stało' (+6), title_punctuation: multiple exclamation marks (+3)",
+    "content_sensational: phrase 'szok' detected (+8), content_credibility: org names detected (-3), content_credibility: numbers detected (-2)",
+    "alignment_score: 0.55, resulting in a penalty of +8 for medium alignment"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnego słowa 'największy', co może tworzyć przesadne oczekiwania.",
+    "Artykuł zawiera dane liczbowe, co zwiększa jego wiarygodność.",
+    "Treść jest zgodna z tytułem, ale niektóre informacje są podane w sposób sensacyjny."
+  ],
+  "signals": {
+    "title_hits": [
+      "największy",
+      "zobacz co się stało",
+      "!!!"
+    ],
+    "content_hits": [
+      "szok"
+    ],
+    "credibility_hits": [
+      "organizacje",
+      "liczby"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Młodzi Ukraińcy opuszczają kraj w dużych liczbach",
+    "notes_to_editor": "Zaleca się unikanie przesadnych sformułowań w tytule oraz bardziej neutralne podejście do przedstawiania danych."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:53:55"
+  },
+  "summary": "Od końca sierpnia 2025 roku blisko 100 tysięcy młodych Ukraińców opuściło kraj w związku ze zmianą przepisów mobilizacyjnych. Władze w Kijowie złagodziły zasady, co pozwoliło mężczyznom w wieku 18-22 lat na wyjazd mimo stanu wojennego. Zmiany te mają na celu zachęcenie młodych ludzi do powrotu i zgłoszenia się do wojska w przyszłości.",
+  "id": 1761833555710,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/raporty/raport-wojna-z-rosja/news-100-tysiecy-w-dwa-miesiace-mlodzi-ukraincy-opuszczaja-kraj,nId,8035993",
+  "title": "100 tysięcy w dwa miesiące. Młodzi Ukraińcy opuszczają kraj"
+}

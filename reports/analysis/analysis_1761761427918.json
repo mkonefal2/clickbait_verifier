@@ -1,0 +1,57 @@
+{
+  "score": 24,
+  "label": "not_clickbait",
+  "rationale": [
+    "title_superlative: no regex hits (+0)",
+    "title_absolute: no regex hits (+0)",
+    "title_sensational: no regex hits (+0)",
+    "title_alarming: no regex hits (+0)",
+    "title_curiosity_gap: no regex hits (+0)",
+    "title_listicle: no regex hits (+0)",
+    "title_punctuation: no regex hits (+0)",
+    "content_overcertainty: no regex hits (+0)",
+    "content_sensational: no regex hits (+0)",
+    "content_credibility: org names detected (-3), numbers/dates/statistics detected (-2)",
+    "content_hedging: no regex hits (+0)",
+    "alignment_score: 0.8, no penalty",
+    "exaggeration_gap: false, no penalty",
+    "country_mismatch: false, no penalty",
+    "time_omission: false, no penalty"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł nie zawiera przesadnych słów ani emocjonalnych zwrotów.",
+    "Artykuł dostarcza konkretne informacje na temat wniosku dotyczącego immunitetu Zbigniewa Ziobry.",
+    "Nie ma niezgodności między tytułem a treścią, co zwiększa wiarygodność."
+  ],
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "organization names detected",
+      "numbers/dates/statistics detected"
+    ],
+    "mismatch": {
+      "alignment_score": 0.8,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Szymon Hołownia komentuje wniosek o uchwałę immunitetu Zbigniewa Ziobry",
+    "notes_to_editor": "Zaleca się unikanie emocjonalnych zwrotów w tytule, aby zachować neutralność."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:45:13"
+  },
+  "summary": "Artykuł informuje o wniosku o uchwałę immunitetu dla Zbigniewa Ziobry, który został skierowany do kontroli formalnej. Szymon Hołownia, marszałek, podał szczegóły dotyczące dalszego postępowania w tej sprawie. W artykule nie ma emocjonalnych lub przesadnych stwierdzeń.",
+  "id": 1761761427918,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/sprawa-immunitetu-zbigniewa-ziobry-jest-reakcja-szymona-holowni/rxspz2v",
+  "title": "Wiadomo, co z wnioskiem w sprawie Zbigniewa Ziobry. Hołownia reaguje"
+}

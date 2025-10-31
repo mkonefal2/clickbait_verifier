@@ -1,0 +1,49 @@
+{
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'może zaskoczyć' (+6)",
+    "content_sensational: phrase 'niebezpieczne interakcje' detected (+8)",
+    "content_hedging: 'może' detected (-2)",
+    "alignment_score: 0.55 (medium alignment) → penalty +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera zwrot 'może zaskoczyć', co budzi ciekawość czytelników.",
+    "W treści użyto sformułowania 'niebezpieczne interakcje', co może być uznane za przesadne.",
+    "W artykule pojawia się słowo 'może', co osłabia pewność informacji.",
+    "Treść w dużej mierze odpowiada obietnicy tytułu, ale nie w pełni."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational",
+      "hedging"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Leki, których nie powinno się łączyć z kawą",
+    "notes_to_editor": "Rozważ usunięcie zwrotu 'może zaskoczyć', aby tytuł był bardziej neutralny."
+  },
+  "diagnostics": {
+    "tokens_title": 43,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:31:44"
+  },
+  "summary": "Artykuł omawia interakcje między kawą a różnymi lekami, wskazując na potencjalne zagrożenia dla zdrowia. Zawiera informacje o lekach, które mogą być mniej skuteczne lub powodować działania niepożądane, gdy są łączone z kofeiną. Podkreśla znaczenie zachowania odstępu czasowego między przyjmowaniem leków a spożywaniem kawy.",
+  "id": 1761747024262,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/nauka/news-leki-ktorych-nie-powinno-sie-laczyc-z-kawa-lista-moze-zaskoc,nId,8035699",
+  "title": "Leki, których nie powinno się łączyć z kawą. Lista może zaskoczyć"
+}

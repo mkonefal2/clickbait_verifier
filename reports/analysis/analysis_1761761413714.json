@@ -1,0 +1,52 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_absolute: regex hit 'każdego' (+8), title_sensational: regex hit 'już za rogiem' (+12), title_curiosity_gap: regex hit 'dotknie' (+6)",
+    "content_overcertainty: regex hit 'wszystkie' (+6), content_sensational: regex hit 'największa' (+8), content_credibility: org names detected (-3), content_credibility: numbers detected (-2)",
+    "alignment_score: 0.55, penalty for medium alignment (+8)"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'każdego', co może sugerować przesadne oczekiwania, oraz wyrażenia 'już za rogiem', które dodaje dramatyzmu.",
+    "W treści znajdują się dane liczbowe i odniesienia do organizacji, co zwiększa wiarygodność, ale także zmniejsza ogólną sensacyjność.",
+    "Treść jest zgodna z tytułem, ale nieco przesadna w obietnicach."
+  ],
+  "signals": {
+    "title_hits": [
+      "absolutes",
+      "sensational",
+      "curiosity gap"
+    ],
+    "content_hits": [
+      "overcertainty",
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names",
+      "numbers"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Nowy obowiązek Krajowego Systemu e-Faktur dla przedsiębiorców w Polsce",
+    "notes_to_editor": "Rozważyć użycie mniej dramatycznego języka w tytule, aby lepiej odzwierciedlić treść artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 56,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:38:24"
+  },
+  "summary": "Artykuł informuje o wprowadzeniu Krajowego Systemu e-Faktur (KSeF) w Polsce, który będzie obowiązkowy dla wszystkich przedsiębiorców. Nowe przepisy mają na celu cyfryzację procesów fakturowania i obejmą wszystkie firmy, w tym mikroprzedsiębiorców. Podano kluczowe terminy wdrożenia oraz wymagania dla przedsiębiorców.",
+  "id": 1761761413714,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/ekonomia/news-ksef-juz-za-rogiem-nowy-obowiazek-dotknie-kazdego-przedsiebi,nId,8035745",
+  "title": "KSeF już za rogiem. Nowy obowiązek dotknie każdego przedsiębiorcę"
+}

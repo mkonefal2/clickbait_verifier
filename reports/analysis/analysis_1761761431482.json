@@ -1,0 +1,57 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_superlative: no hits, (+0)",
+    "title_absolutes: no hits, (+0)",
+    "title_sensational: no hits, (+0)",
+    "title_alarming: no hits, (+0)",
+    "title_curiosity_gap: no hits, (+0)",
+    "title_listicle: no hits, (+0)",
+    "title_punctuation: no hits, (+0)",
+    "content_overcertainty: no hits, (+0)",
+    "content_sensational: no hits, (+0)",
+    "credibility_reductions: org names detected (-3), numbers/dates/statistics detected (-2)",
+    "hedging_reductions: no hits, (+0)",
+    "alignment_score: 0.75, no penalty",
+    "exaggeration_gap: false, no penalty",
+    "country_mismatch: false, no penalty",
+    "time_omission: false, no penalty"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł nie zawiera mocnych słów ani przesadnych stwierdzeń.",
+    "Artykuł przedstawia nowe przepisy dla biskupów, co jest informacyjne.",
+    "Treść jest wiarygodna, ponieważ zawiera konkretne daty i źródła."
+  ],
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "organization names",
+      "numbers/dates/statistics"
+    ],
+    "mismatch": {
+      "alignment_score": 0.75,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Nowe przepisy dla biskupów w Polsce",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia sensacji."
+  },
+  "diagnostics": {
+    "tokens_title": 39,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:47:29"
+  },
+  "summary": "Artykuł informuje o nowym statucie Konferencji Episkopatu Polski, który wejdzie w życie 30 listopada. Zawiera on zapisy dotyczące dialogu biskupów z władzami politycznymi. Wprowadzenie przepisów ma miejsce na początku adwentu.",
+  "id": 1761761431482,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/religia/aktualnosci/kep-oglosila-dokument-polscy-biskupi-musza-liczyc-sie-ze-zmianami/y1r9r36",
+  "title": "Zmiany dla biskupów. Niedługo w życie wejdą nowe przepisy"
+}

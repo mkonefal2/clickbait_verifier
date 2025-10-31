@@ -1,0 +1,49 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_alarm: regex hit 'tragedia' (+10), content_sensational: phrase 'tragicznych wydarzeń' detected (+8)",
+    "content_credibility: organization names mentioned (-3), content_credibility: numbers/dates/statistics detected (-2)",
+    "alignment_score: 0.6, no penalty applied"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera słowo 'tragedia', co może wywoływać silne emocje.",
+    "Artykuł wspomina o zatrzymaniu 13-letniego brata, co dodaje dramatyzmu.",
+    "Treść zawiera konkretne informacje, co zwiększa jej wiarygodność."
+  ],
+  "signals": {
+    "title_hits": [
+      "alarming"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names",
+      "numbers/dates/statistics"
+    ],
+    "mismatch": {
+      "alignment_score": 0.6,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "W Woli Osowińskiej zmarł 17-latek, policja zatrzymała jego 13-letniego brata",
+    "notes_to_editor": "Zaleca się unikanie emocjonalnych słów w tytule, aby zwiększyć neutralność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 15,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:35:36"
+  },
+  "summary": "W miejscowości Wola Osowińska na Lubelszczyźnie doszło do tragicznych wydarzeń, w wyniku których zmarł 17-latek. Policja zatrzymała jego 13-letniego brata w związku z tym incydentem. Artykuł opisuje szczegóły zdarzenia oraz reakcję służb.",
+  "id": 1761747034664,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/tragedia-na-lubelszczyznie-17-latek-nie-zyje-zatrzymano-jego-13-letniego-brata/f0exz6h",
+  "title": "Tragedia na Lubelszczyźnie. 17-latek nie żyje, policja zatrzymała jego 13-letniego brata"
+}

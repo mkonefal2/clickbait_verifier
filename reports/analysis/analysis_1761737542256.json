@@ -1,0 +1,49 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'skierowany' (+6); title does not provide complete information about the event.",
+    "content_sensational: phrases like 'mały okręt rakietowy' suggest a focus on military action, which can be seen as sensational (+8).",
+    "content_credibility: organization names mentioned (Polska Agencja Prasowa) (-3).",
+    "alignment_score: calculated as 0.55, resulting in a medium alignment penalty (+8)."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł sugeruje, że okręt rakietowy ma znaczenie dla sytuacji w regionie, co może wzbudzać ciekawość.",
+    "Artykuł zawiera informacje o okręcie, ale nie ma w nim przesadnych stwierdzeń.",
+    "Tytuł i treść są zgodne, ale niektóre sformułowania mogą być odbierane jako sensacyjne."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Rosyjski okręt rakietowy Amur przeniesiony na Morze Bałtyckie",
+    "notes_to_editor": "Rozważ użycie bardziej neutralnego języka w tytule, aby uniknąć wrażenia sensacyjności."
+  },
+  "diagnostics": {
+    "tokens_title": 42,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:18:10"
+  },
+  "summary": "Artykuł informuje o decyzji skierowania rosyjskiego okrętu rakietowego Amur na Morze Bałtyckie. Okręt wcześniej wchodził w skład Floty Czarnomorskiej i jest uzbrojony w pociski manewrujące Kalibr. Informacje pochodzą z ukraińskiego portalu Militarnyj.",
+  "id": 1761737542256,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/rosyjski-okret-rakietowy-skierowany-na-morze-baltyckie/55hz1e1",
+  "title": "Rosyjski okręt rakietowy skierowany na Morze Bałtyckie"
+}

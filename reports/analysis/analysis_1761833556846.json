@@ -1,0 +1,48 @@
+{
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "title_sensational: regex hit 'grasują' (+12), title_sensational: regex hit 'cierpią' (+12)",
+    "content_sensational: phrase 'skuteczne ataki' detected (+8), content_sensational: phrase 'elitarną jednostkę' detected (+8)",
+    "alignment_score: 0.55, applying medium alignment penalty (+8)"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słów 'grasują' i 'cierpią', które mogą budzić emocje i zainteresowanie.",
+    "W treści artykułu pojawiają się sformułowania sugerujące dramatyczne wydarzenia, co zwiększa napięcie.",
+    "Treść wspiera tytuł, ale niektóre elementy są przesadzone, co wpływa na ocenę."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names detected"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Ukraińskie ataki na rosyjskie systemy obrony w Donbasie",
+    "notes_to_editor": "Rozważyć użycie bardziej neutralnego języka w tytule, aby uniknąć wrażenia sensacji."
+  },
+  "diagnostics": {
+    "tokens_title": 37,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:54:11"
+  },
+  "summary": "Ukraiński wywiad wojskowy poinformował o skutecznych atakach na rosyjskie systemy obrony powietrznej w Donbasie. Elitarna jednostka specjalna 'Duch' zniszczyła radary oraz wyrzutnię rakietową, a także zlikwidowała grupę żołnierzy. Do komunikatu dołączono nagrania z dronów dokumentujące operację.",
+  "id": 1761833556846,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/raporty/raport-wojna-z-rosja/news-duchy-grasuja-w-donbasie-rosyjskie-wojska-cierpia,nId,8035371",
+  "title": "\"Duchy\" grasują w Donbasie. Rosyjskie wojska cierpią"
+}

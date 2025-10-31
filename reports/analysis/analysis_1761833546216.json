@@ -1,0 +1,45 @@
+{
+  "score": 20,
+  "label": "not_clickbait",
+  "rationale": [
+    "title_alarm: regex hit 'zagrożenie' (+10), no superlatives or absolutes detected.",
+    "content_credibility: organization names detected (-3), no sensational phrases.",
+    "alignment_score: content supports title well (0.75), no penalties applied."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera słowo 'zagrożenie', co wskazuje na poważny temat, ale nie ma przesadnych oczekiwań.",
+    "Artykuł odnosi się do alertu o silnym wietrze, co jest zgodne z tytułem i nie zawiera niepewnych stwierdzeń."
+  ],
+  "signals": {
+    "title_hits": [
+      "alarm"
+    ],
+    "content_hits": [],
+    "credibility_hits": [
+      "organization names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.75,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Alert o silnym wietrze w dwóch województwach",
+    "notes_to_editor": "Zaleca się unikanie alarmujących słów w tytule, aby zachować neutralność."
+  },
+  "diagnostics": {
+    "tokens_title": 30,
+    "tokens_content": 298,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:52:04"
+  },
+  "summary": "Rządowe Centrum Bezpieczeństwa wydało alert dotyczący silnego wiatru w województwach zachodniopomorskim i pomorskim. Mieszkańcy zostali ostrzeżeni o konieczności zachowania ostrożności podczas aktywności na zewnątrz, szczególnie w pobliżu drzew. W artykule zawarte są również informacje o innych zagrożeniach pogodowych.",
+  "id": 1761833546216,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/polska/news-silny-wiatr-nadciaga-rcb-rozeslalo-alert,nId,8036009",
+  "title": "Silny wiatr nadciąga. RCB rozesłało alert"
+}

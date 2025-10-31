@@ -1,0 +1,53 @@
+{
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "title_superlative: regex hit 'rzadki' (+6), title_sensational: regex hit 'sensacja' (+12), title_curiosity_gap: regex hit 'zobacz co się stało' (+6)",
+    "content_sensational: phrase 'ornitologiczna sensacja' detected (+8), content_hedging: 'może' detected (-2)",
+    "alignment_score: 0.55 → medium alignment penalty +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'sensacja', co wzbudza zainteresowanie, ale nie jest przesadny.",
+    "W artykule pojawiają się sformułowania, które mogą budzić emocje, ale są też elementy, które zwiększają wiarygodność, jak dane o rzadkości ptaka.",
+    "Treść artykułu dobrze odnosi się do tytułu, ale niektóre stwierdzenia są bardziej pewne niż to, co przedstawia artykuł."
+  ],
+  "signals": {
+    "title_hits": [
+      "rzadki",
+      "sensacja",
+      "zobacz co się stało"
+    ],
+    "content_hits": [
+      "ornitologiczna sensacja",
+      "zmiany klimatyczne"
+    ],
+    "credibility_hits": [
+      "21 przypadków",
+      "Krynicy Morskiej",
+      "Melanitta americana"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Rzadki ptak z Ameryki Północnej zaobserwowany nad Bałtykiem",
+    "notes_to_editor": "Zaleca się unikanie słów wywołujących sensację w tytule, aby zachować neutralność."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 296,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:53:41"
+  },
+  "summary": "Nad polskim wybrzeżem Bałtyku zaobserwowano markaczkę amerykańską, niezwykle rzadki gatunek ptaka. Jej obecność w Polsce jest związana z możliwymi zmianami klimatycznymi i migracyjnymi. Eksperci wskazują, że takie przypadki mogą świadczyć o zmianach w środowisku naturalnym.",
+  "id": 1761833554767,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/nauka/news-ornitologiczna-sensacja-rzadki-ptak-z-ameryki-polnocnej-nad-,nId,8036050",
+  "title": "Ornitologiczna sensacja. Rzadki ptak z Ameryki Północnej nad Bałtykiem"
+}

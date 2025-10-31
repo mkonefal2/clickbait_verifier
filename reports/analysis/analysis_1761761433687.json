@@ -1,0 +1,53 @@
+{
+  "score": 60,
+  "label": "strong",
+  "rationale": [
+    "title_superlative: regex hit 'najlepszy' (+6), title_sensational: regex hit 'niewiarygodny' (+12), title_curiosity_gap: regex hit 'zobacz co się stało' (+6), title_punctuation: multiple exclamation marks (+3)",
+    "content_sensational: phrase 'gospodarka Rosji tonie' (+8), content_credibility: organization names detected (-3), content_credibility: numbers detected (-2), content_credibility: quoted speakers detected (-2)",
+    "alignment_score: 0.55 (medium alignment) → penalty +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów, takich jak 'niewiarygodny', co tworzy przesadne oczekiwania.",
+    "Artykuł zawiera dane liczbowe i odniesienia do organizacji, co zmniejsza jego wiarygodność.",
+    "Treść jest zgodna z tytułem, ale nieco przesadza w przedstawianiu sytuacji."
+  ],
+  "signals": {
+    "title_hits": [
+      "najlepszy",
+      "niewiarygodny",
+      "zobacz co się stało",
+      "!!!"
+    ],
+    "content_hits": [
+      "gospodarka Rosji tonie"
+    ],
+    "credibility_hits": [
+      "organization names",
+      "numbers",
+      "quoted speakers"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Gospodarka Rosji w recesji, a propagandyści Putina zyskują na wynagrodzeniach",
+    "notes_to_editor": "Zaleca się unikanie przesadnych sformułowań w tytule, aby zwiększyć wiarygodność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 18,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:50:19"
+  },
+  "summary": "Artykuł opisuje sytuację gospodarczą w Rosji, która zmaga się z recesją, podczas gdy czołowi propagandyści Putina, tacy jak Olga Skabiejewa i Jewgienij Popow, doświadczają znacznego wzrostu wynagrodzeń. W ciągu ostatnich czterech lat ich zarobki wzrosły o 50%, co jest wynikiem ich lojalności wobec Kremla i szerzenia prokremlowskiej narracji.",
+  "id": 1761761433687,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/slodka-cena-lojalnosci-gospodarka-rosji-tonie-ale-czolowi-propagandysci-putina-zyja/77752sd",
+  "title": "Słodka cena lojalności. Gospodarka Rosji tonie, ale czołowi propagandyści Putina żyją jak pączki w maśle"
+}

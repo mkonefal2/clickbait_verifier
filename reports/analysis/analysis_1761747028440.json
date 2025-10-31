@@ -1,0 +1,48 @@
+{
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "title_sensational: regex hit 'wstrząsający' (+12), title_alarm: regex hit 'tragedia' (+10)",
+    "content_sensational: phrase 'poważny wypadek' detected (+8), content_overcertainty: absolute 'wszystkie' detected (+6)",
+    "alignment_score: calculated at 0.55, resulting in penalty of +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'wstrząsający', co może budzić emocje i przesadne oczekiwania.",
+    "Artykuł zawiera stwierdzenia o 'poważnym wypadku', co również podkreśla dramatyzm sytuacji.",
+    "Treść jest zgodna z tytułem, ale niektóre sformułowania mogą wprowadzać w błąd."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational",
+      "alarming"
+    ],
+    "content_hits": [
+      "sensational",
+      "overcertainty"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Kontrole sal zabaw w Lubelskiem po wypadku 11-latki",
+    "notes_to_editor": "Zaleca się unikanie emocjonalnych słów w tytule, aby zwiększyć obiektywność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 58,
+    "tokens_content": 1095,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:32:35"
+  },
+  "summary": "Artykuł opisuje wypadek 11-letniej dziewczynki w sali zabaw w Lublinie, która złamała kręgosłup po skoku na niepompowaną poduszkę. W wyniku tego incydentu wojewoda zlecił kontrole wszystkich sal zabaw w regionie. W artykule podano również, że w sprawie wypadku prowadzone jest śledztwo przez prokuraturę.",
+  "id": 1761747028440,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/lublin/news-kontrole-w-calym-wojewodztwie-poklosie-wstrzasajacego-wypadk,nId,8035697",
+  "title": "Kontrole w całym województwie. Pokłosie wstrząsającego wypadku 11-latki"
+}

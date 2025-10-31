@@ -1,0 +1,50 @@
+{
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "title_sensational: regex hit 'ujawniamy' (+12), indicating a sensational claim.",
+    "content_sensational: phrase 'może mieć poważne konsekwencje' detected (+8), adds sensational tone.",
+    "content_credibility: org names detected (-3), which reduces credibility.",
+    "alignment_score: calculated at 0.55, resulting in a penalty of +8 due to medium alignment."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'ujawniamy', co sugeruje sensacyjne ujawnienie informacji.",
+    "W treści pojawia się stwierdzenie, że wydarzenie 'może mieć poważne konsekwencje', co dodaje dramatyzmu.",
+    "W artykule wymienione są nazwy organizacji, co wpływa na jego wiarygodność.",
+    "Treść w pewnym stopniu wspiera obietnice tytułu, ale nie w pełni."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Spotkanie agentów służb specjalnych z biznesmenami podczas kongresu PiS.",
+    "notes_to_editor": "Rozważyć użycie bardziej neutralnego języka w tytule, aby uniknąć wrażenia sensacji."
+  },
+  "diagnostics": {
+    "tokens_title": 17,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:21:32"
+  },
+  "summary": "Artykuł opisuje wydarzenie, które miało miejsce podczas kongresu PiS, gdzie agenci służb specjalnych spotkali się z biznesmenami. Impreza, określana jako 'Patriotyczna domówka', wzbudziła kontrowersje i może mieć poważne konsekwencje. Autorzy ujawniają kulisy tego spotkania oraz jego organizatorów.",
+  "id": 1761737545779,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/tylko-w-onecie/jak-agenci-sluzb-specjalnych-z-czasow-pis-pili-ze-swoimi-figurantami-ujawniamy-kulisy/r1dmq1g",
+  "title": "\"Patriotyczna domówka\", czyli jak agenci specsłużb z czasów PiS pili ze swoimi figurantami. Ujawniamy kulisy"
+}

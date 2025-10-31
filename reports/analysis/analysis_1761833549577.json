@@ -1,0 +1,50 @@
+{
+  "score": 55,
+  "label": "strong",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'lot budzi szereg pytań' (+6)",
+    "content_sensational: phrases like 'zbiegło się w czasie' and 'budzi szereg pytań' (+8)",
+    "content_hedging: phrases like 'może' and 'prawdopodobnie' detected (-2)",
+    "alignment_score: calculated at 0.55, resulting in a penalty of +8 due to medium alignment",
+    "no country mismatch detected",
+    "no time omission detected"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera zwrot 'lot budzi szereg pytań', co wzbudza ciekawość czytelników.",
+    "W artykule pojawiają się sformułowania sugerujące niepewność, co zmniejsza jego wiarygodność.",
+    "Treść artykułu jest zgodna z tytułem, ale nie w pełni go wspiera."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational phrases",
+      "hedging"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Rosyjski Ił-76TD wylądował w Caracas w związku z nowym porozumieniem",
+    "notes_to_editor": "Zaleca się unikanie zwrotów wzbudzających ciekawość w tytule, aby zwiększyć neutralność."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 2999,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:52:41"
+  },
+  "summary": "Rosyjski samolot transportowy Ił-76TD wylądował w Caracas z tajemniczym ładunkiem, co zbiegło się z nowym strategicznym porozumieniem między Rosją a Wenezuelą. W artykule omawiane są napięcia w relacjach z USA oraz wcześniejsze działania firmy Aviacon Zitotrans, która przewoziła sprzęt dla rosyjskiego sektora zbrojeniowego.",
+  "id": 1761833549577,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/swiat/news-rosyjski-il-76td-wyladowal-w-caracas-lot-budzi-szereg-pytan,nId,8036016",
+  "title": "​Rosyjski Ił-76TD wylądował w Caracas. Lot budzi szereg pytań"
+}

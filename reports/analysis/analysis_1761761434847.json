@@ -1,0 +1,51 @@
+{
+  "score": 50,
+  "label": "strong",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'Zbigniew Ziobro stanie przed sądem?' (+6), title_question: regex hit '?' (+4)",
+    "content_sensational: phrase 'zaskakujące słowa prawników' detected (+8)",
+    "content_hedging: phrase 'najpewniej' detected (-2)",
+    "alignment_score: calculated alignment score is 0.55, resulting in penalty of +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera pytanie, które wzbudza ciekawość czytelników.",
+    "W treści pojawia się sformułowanie sugerujące sensację, co zwiększa napięcie.",
+    "Artykuł zawiera pewne niepewności, co zmniejsza jego wiarygodność.",
+    "Treść w pewnym stopniu wspiera tytuł, ale nie w pełni."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap",
+      "question"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "hedging"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Czy Zbigniew Ziobro stanie przed sądem? Analiza prawników",
+    "notes_to_editor": "Zaleca się unikanie pytań w tytule, aby zwiększyć neutralność."
+  },
+  "diagnostics": {
+    "tokens_title": 9,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:51:18"
+  },
+  "summary": "Artykuł omawia sytuację Zbigniewa Ziobry, który może stanąć przed sądem. Prawnicy wskazują na różne aspekty prawne związane z jego sytuacją, sugerując, że proces może się nie odbyć. W artykule cytowane są opinie ekspertów na temat potencjalnych zarzutów.",
+  "id": 1761761434847,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/tylko-w-onecie/zbigniew-ziobro-stanie-przed-sadem-zaskakujace-slowa-prawnikow/5bmcgfj",
+  "title": "Zbigniew Ziobro stanie przed sądem? Zaskakujące słowa prawników"
+}

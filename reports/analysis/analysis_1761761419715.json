@@ -1,0 +1,46 @@
+{
+  "score": 25,
+  "label": "mild",
+  "rationale": [
+    "title_question: regex hit 'czy' (+4), title_hits: no superlatives or alarming language detected.",
+    "content_sensational: phrases like 'porywisty wiatr' detected (+8), but overall content remains informative.",
+    "alignment_score: calculated at 0.6, resulting in a penalty of +8 for medium alignment."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zadaje pytanie, co może wzbudzać ciekawość, ale nie używa mocnych słów.",
+    "W treści pojawiają się nieco dramatyczne opisy pogody, ale ogólnie artykuł jest informacyjny.",
+    "Treść dobrze odpowiada na pytanie w tytule, ale nieco odbiega od jego obietnicy."
+  ],
+  "signals": {
+    "title_hits": [
+      "question"
+    ],
+    "content_hits": [
+      "sensational phrases"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.6,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Prognoza pogody na Wszystkich Świętych: co zabrać ze sobą?",
+    "notes_to_editor": "Rozważyć użycie bardziej neutralnego tytułu, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 42,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:40:08"
+  },
+  "summary": "Artykuł przedstawia prognozę pogody na Wszystkich Świętych i Dzień Zaduszny w Polsce. Zawiera informacje o przewidywanych temperaturach oraz warunkach atmosferycznych, wskazując na możliwość opadów deszczu i porywistego wiatru w niektórych regionach. Podano również szczegóły dotyczące zmian temperatury w nadchodzących dniach.",
+  "id": 1761761419715,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/pogoda/news-pogoda-na-wszystkich-swietych-parasol-czy-okulary-przeciwslo,nId,8035754",
+  "title": "Pogoda na Wszystkich Świętych: Parasol czy okulary przeciwsłoneczne?"
+}

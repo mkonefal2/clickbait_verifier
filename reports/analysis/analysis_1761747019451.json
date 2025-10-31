@@ -1,0 +1,51 @@
+{
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "title_superlative: regex hit 'najlepszy' (+6), title_question: regex hit (+4), title_curiosity_gap: regex hit 'gdzie internauci szukają' (+6)",
+    "content_sensational: phrases like 'przeżyć coś więcej' (+8), content_hedging: 'może' detected (-2), content_credibility: org names detected (-3)",
+    "alignment_score: 0.55, resulting in a penalty of +8 for medium alignment"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera pytanie i sugeruje poszukiwanie najlepszych miejsc, co może budzić ciekawość.",
+    "W treści użyto nieco przesadnych sformułowań, ale także odniesień do wiarygodnych źródeł, co zwiększa jej rzetelność.",
+    "Zawartość artykułu jest zgodna z tytułem, ale niektóre fragmenty mogą być interpretowane jako przesadne."
+  ],
+  "signals": {
+    "title_hits": [
+      "superlative",
+      "question",
+      "curiosity gap"
+    ],
+    "content_hits": [
+      "sensational phrases",
+      "hedging"
+    ],
+    "credibility_hits": [
+      "organization names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Najciekawsze kierunki podróży na 2026 rok",
+    "notes_to_editor": "Zaleca się unikanie pytań w tytule oraz przesadnych sformułowań, aby zwiększyć rzetelność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 12,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:30:34"
+  },
+  "summary": "Artykuł omawia najciekawsze kierunki podróży na rok 2026, wskazując na miejsca rekomendowane przez National Geographic i Expedia. Wśród wyróżnionych lokalizacji znajdują się zarówno znane metropolie, jak i mniej odkryte perły, które oferują unikalne doświadczenia podróżnicze. Podkreślono znaczenie ekologii i autentyczności w wyborze miejsc na wakacje.",
+  "id": 1761747019451,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/ciekawostki/news-hity-wyszukiwan-na-2026-gdzie-internauci-szukaja-wakacyjnych,nId,8035670",
+  "title": "Hity wyszukiwań na 2026: Gdzie internauci szukają wakacyjnych przygód?"
+}

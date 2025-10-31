@@ -1,0 +1,50 @@
+{
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'to było trochę jak puzzle' (+6), indicating a curiosity gap.",
+    "content_sensational: phrase 'rzuci rękawicę' suggests a dramatic action (+8).",
+    "content_credibility: org names detected (-3), as the article mentions a political party.",
+    "alignment_score: calculated at 0.6, indicating medium alignment, resulting in a penalty of +8."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera frazę, która wzbudza ciekawość, co może przyciągać czytelników.",
+    "W treści użyto dramatycznego języka, co może sugerować sensacyjność.",
+    "Artykuł wspomina o partii politycznej, co zmniejsza jego wiarygodność.",
+    "Treść dobrze odpowiada tytułowi, ale nieco przesadza z dramatyzmem."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.6,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Joanna Mucha ogłasza start w wyborach na przewodniczącą Polski 2050",
+    "notes_to_editor": "Rozważ użycie bardziej neutralnego tytułu, aby uniknąć wrażenia sensacyjności."
+  },
+  "diagnostics": {
+    "tokens_title": 11,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:44:13"
+  },
+  "summary": "Joanna Mucha ogłosiła swoją decyzję o kandydowaniu na przewodniczącą Polski 2050. W rozmowie z Onetem podkreśliła, że nie konsultowała swojego wyboru z Szymonem Hołownią. Jeśli wygra, jej partia planuje wystartować w wyborach parlamentarnych w 2027 roku.",
+  "id": 1761761426572,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/joanna-mucha-wystartuje-na-szefowa-polski-2050-to-bylo-troche-jak-puzzle/4tf34xb",
+  "title": "Joanna Mucha wystartuje na szefową Polski 2050. \"To było trochę jak puzzle\""
+}

@@ -1,0 +1,52 @@
+{
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'co z wojskami w Polsce?' (+6), title_question: regex hit '?' (+4)",
+    "content_sensational: phrase 'fatalne wieści' detected (+8)",
+    "content_credibility: organization names detected (-3), quoted speakers detected (-2)",
+    "alignment_score: calculated at 0.55, resulting in a penalty of +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera pytanie, co może wzbudzać ciekawość czytelników.",
+    "W treści użyto sformułowania 'fatalne wieści', co nadaje jej dramatyzmu.",
+    "Artykuł odnosi się do NATO i wypowiedzi ekspertów, co zwiększa jego wiarygodność.",
+    "Treść wspiera tytuł, ale nieco odbiega od jego obietnic, co wpływa na ocenę."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap",
+      "question"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names",
+      "quoted speakers"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Przegrupowanie sił USA w Europie: co oznacza dla wojsk w Polsce?",
+    "notes_to_editor": "Rozważ usunięcie dramatycznych sformułowań, aby tytuł był bardziej neutralny."
+  },
+  "diagnostics": {
+    "tokens_title": 12,
+    "tokens_content": 299,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:38:46"
+  },
+  "summary": "Artykuł omawia obecność amerykańskich żołnierzy w Polsce w kontekście planów USA dotyczących redukcji sił w Europie. Zawiera wypowiedzi Donalda Trumpa oraz przedstawicieli NATO, którzy zapewniają, że liczba wojsk w Polsce pozostanie stabilna. Wskazuje również na zmiany w strategii USA, które koncentrują się na regionie Indo-Pacyfiku.",
+  "id": 1761761415224,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/polska/news-usa-przegrupowuja-sily-co-z-wojskami-w-polsce-komentarz-nato,nId,8035719",
+  "title": "USA przegrupowują siły, co z wojskami w Polsce? Komentarz NATO i Sikorskiego"
+}

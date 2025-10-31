@@ -1,0 +1,46 @@
+{
+  "score": 20,
+  "label": "not_clickbait",
+  "rationale": [
+    "title_hits: no superlatives, absolutes, sensational language, or curiosity gaps detected.",
+    "content_hits: minimal sensational phrases, mostly neutral reporting.",
+    "credibility_hits: mentions of organization names (MSZ) and statistics (number of Poles in Cuba) enhance credibility.",
+    "alignment_score: 0.75 indicates high alignment between title and content, no penalties applied."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jest neutralny i nie zawiera przesadnych słów ani pytań, co nie tworzy oczekiwań.",
+    "Artykuł dostarcza rzetelnych informacji na temat Polaków w rejonie dotkniętym huraganem, co zwiększa jego wiarygodność.",
+    "Treść jest zgodna z tytułem, co potwierdza, że nie ma w niej nieścisłości."
+  ],
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "MSZ",
+      "19 Polaków"
+    ],
+    "mismatch": {
+      "alignment_score": 0.75,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Rzecznik MSZ o sytuacji Polaków na Jamajce i Kubie po huraganie Melissa",
+    "notes_to_editor": "Zaleca się unikanie dramatyzacji w tytułach, aby zachować rzetelność informacji."
+  },
+  "diagnostics": {
+    "tokens_title": 36,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:30:43"
+  },
+  "summary": "Huragan Melissa uderzył w Jamajkę, powodując znaczne zniszczenia, a następnie dotarł na Kubę. Polskie Ministerstwo Spraw Zagranicznych zapewnia, że nie ma informacji o poszkodowanych Polakach w tych krajach. Na Kubie przebywa co najmniej 19 Polaków, którzy zarejestrowali się w systemie Odyseusz.",
+  "id": 1761747020481,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/swiat/news-co-z-polakami-na-jamajce-i-kubie-rzecznik-msz-komentuje,nId,8035679",
+  "title": "Co z Polakami na Jamajce i Kubie? Rzecznik MSZ komentuje"
+}

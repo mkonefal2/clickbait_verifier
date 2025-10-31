@@ -1,0 +1,50 @@
+{
+  "score": 67,
+  "label": "strong",
+  "rationale": [
+    "title_sensational: regex hit 'wyleciał w powietrze' (+12), indicating sensational language.",
+    "title_curiosity_gap: regex hit 'dopadli go' (+6), creating a curiosity gap.",
+    "content_sensational: phrase 'sprawiedliwa kara' detected (+8), which adds sensationalism.",
+    "content_overcertainty: phrase 'od kwietnia 2022 r.' detected (+6), suggesting certainty.",
+    "alignment_score: calculated as 0.55, indicating medium alignment with penalties applied."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnego wyrażenia 'wyleciał w powietrze', co sugeruje dramatyczny charakter wydarzenia.",
+    "W treści pojawia się stwierdzenie o 'sprawiedliwej karze', co dodaje sensacyjności.",
+    "Artykuł zawiera konkretne daty i liczby, co zwiększa jego wiarygodność."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational",
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational",
+      "overcertainty"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Rosyjski wojskowy z Buczy zginął w eksplozji samochodu w Rosji",
+    "notes_to_editor": "Rozważyć użycie bardziej neutralnego języka w tytule, aby uniknąć przesadnych oczekiwań."
+  },
+  "diagnostics": {
+    "tokens_title": 43,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:40:42"
+  },
+  "summary": "Weniamin Mazżerin, rosyjski wojskowy oskarżany o zbrodnie wojenne w Buczy, zginął w wyniku eksplozji samochodu w Rosji. Ukraiński wywiad poszukiwał go od kwietnia 2022 roku. W artykule przedstawiono również kontekst zbrodni wojennych popełnionych przez rosyjskie siły w Ukrainie.",
+  "id": 1761761421759,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/raporty/raport-wojna-z-rosja/news-dopadli-go-w-rosji-zbrodniarz-wojenny-z-buczy-wylecial-w-pow,nId,8035762",
+  "title": "Dopadli go w Rosji. Zbrodniarz wojenny z Buczy wyleciał w powietrze"
+}

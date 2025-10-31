@@ -1,0 +1,49 @@
+{
+  "score": 40,
+  "label": "mild",
+  "rationale": [
+    "title_sensational: regex hit 'spustoszył' (+12), title_curiosity_gap: regex hit 'PODSUMOWANIE' (+6)",
+    "content_sensational: phrase 'obszarem klęski żywiołowej' detected (+8), content_credibility: org names detected (-3)",
+    "alignment_score: 0.55, hence penalty +8 for medium alignment"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnego słowa 'spustoszył', co może budzić emocje.",
+    "Artykuł zawiera informacje o klęsce żywiołowej, co zwiększa dramatyzm.",
+    "Treść dobrze opisuje skutki huraganu, ale tytuł może wprowadzać w błąd."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational",
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Huragan Melissa uderzył w Karaiby, powodując zniszczenia na Jamajce",
+    "notes_to_editor": "Rozważ użycie mniej dramatycznego języka w tytule."
+  },
+  "diagnostics": {
+    "tokens_title": 14,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:48:11"
+  },
+  "summary": "Huragan Melissa dotarł do Karaibów, powodując znaczne zniszczenia na Jamajce, gdzie ogłoszono stan klęski żywiołowej. Najbardziej ucierpiał region Saint Elizabeth, znany jako spichlerz Jamajki. Obecnie huragan przemieszcza się nad Kubą, gdzie również odnotowano skutki burzy.",
+  "id": 1761761432196,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/huragan-melissa-uderzyl-w-karaiby-spustoszyl-spichlerz-jamajki-podsumowanie/8tnk1ll",
+  "title": "Huragan Melissa uderzył w Karaiby. Spustoszył \"spichlerz Jamajki\" [PODSUMOWANIE]"
+}

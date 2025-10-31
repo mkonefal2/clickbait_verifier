@@ -1,0 +1,47 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_sensational: regex hit 'tragedia' (+10), title_curiosity_gap: no hits, title_exclamation: no hits",
+    "content_sensational: no hits, content_credibility: org names detected (-3), content_numbers: dates mentioned (-2)",
+    "alignment_score: 0.55 → medium alignment penalty +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera słowo 'tragedia', co może wywoływać emocje i zainteresowanie.",
+    "Artykuł zawiera dane dotyczące śmierci 14-latki oraz informacje o śledztwie, co zwiększa jego wiarygodność.",
+    "Tytuł i treść są zgodne, ale tytuł może sugerować większą sensacyjność niż ma to miejsce w artykule."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational"
+    ],
+    "content_hits": [],
+    "credibility_hits": [
+      "organization names",
+      "dates"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Śmierć 14-letniej Natalii z Andrychowa: nowe informacje w sprawie",
+    "notes_to_editor": "Zaleca się unikanie emocjonalnych słów w tytule, aby zachować neutralność."
+  },
+  "diagnostics": {
+    "tokens_title": 12,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:54:50"
+  },
+  "summary": "Krakowska prokuratura prowadzi śledztwo w sprawie śmierci 14-letniej Natalii z Andrychowa, która zmarła po znalezieniu w stanie hipotermii. Dziewczynka wyszła z domu do szkoły, ale źle się poczuła i nie mogła odnaleźć drogi. Prokuratura otrzymała nową opinię, która ma pomóc w dalszym postępowaniu.",
+  "id": 1761833560063,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/krakow/news-14-latka-z-andrychowa-zmarla-nieopodal-komisariatu-nowe-info,nId,8036019",
+  "title": "14-latka z Andrychowa zmarła nieopodal komisariatu. Nowe informacje "
+}

@@ -1,0 +1,49 @@
+{
+  "score": 65,
+  "label": "strong",
+  "rationale": [
+    "title_sensational: regex hit 'szok' (+12), 'niewiarygodny' (+12), 'zwiastun chaosu' (+12)",
+    "content_sensational: phrase 'ruch, który trąci desperacją' (+8)",
+    "alignment_score: calculated alignment score of 0.55 indicates medium alignment (+8 penalty)",
+    "exaggeration_gap: title is sensational but content maintains some credibility, leading to a penalty (+14)"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów, takich jak 'szok' i 'niewiarygodny', co tworzy przesadne oczekiwania.",
+    "W artykule pojawiają się sensacyjne stwierdzenia, które mogą wprowadzać w błąd.",
+    "Treść w pewnym stopniu wspiera tytuł, ale nie w pełni, co prowadzi do obniżenia oceny."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational",
+      "sensational",
+      "sensational"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": true,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Putin demonstruje nową broń nuklearną, Trump odpowiada na jego groźby",
+    "notes_to_editor": "Zaleca się unikanie przesadnych sformułowań w tytule, aby zwiększyć wiarygodność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 13,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:18:00"
+  },
+  "summary": "Artykuł omawia ostatnie działania Władimira Putina związane z testem nowej broni nuklearnej, rakiety Buriewiesznik. Autor podkreśla, że te działania są próbą zastraszenia, na co Donald Trump odpowiedział groźbą nuklearną. Tekst analizuje kontekst polityczny i propagandowy tych wydarzeń.",
+  "id": 1761737541926,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/nuklearna-pokazowka-putina-zwiastun-chaosu-obnazyl-jego-slabosc-opinia/h9gf3ks",
+  "title": "Putin pręży nuklearne muskuły, by pokazać, że się nie boi. Trump szybko go \"zgasił\""
+}

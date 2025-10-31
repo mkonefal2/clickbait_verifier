@@ -1,0 +1,50 @@
+{
+  "score": 58,
+  "label": "strong",
+  "rationale": [
+    "title_sensational: regex hit 'trudne do zrozumienia' (+12), title_alarming: regex hit 'niepokój' (+10), title_curiosity_gap: regex hit 'zaproszenie dla Rosji' (+6)",
+    "content_sensational: regex hit 'niepokój' (+8), content_hedging: detected 'może' (-2)",
+    "alignment_score: 0.5 → penalty +8 for medium alignment",
+    "no country mismatch detected, but title implies a broader European context while content focuses on NATO and the US."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słów wywołujących niepokój, takich jak 'trudne do zrozumienia' i 'zaproszenie dla Rosji', co może wzbudzać sensację.",
+    "Artykuł zawiera niepewność z użyciem słowa 'może', co zmniejsza jego wiarygodność.",
+    "Tytuł sugeruje, że decyzja USA ma wpływ na Polskę, ale treść koncentruje się na NATO jako całości."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensation",
+      "alarming",
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensation",
+      "hedging"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.5,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Decyzja USA o redukcji wojsk w Europie budzi obawy w NATO",
+    "notes_to_editor": "Zaleca się unikanie emocjonalnych sformułowań w tytule, aby zachować neutralność."
+  },
+  "diagnostics": {
+    "tokens_title": 61,
+    "tokens_content": 296,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:18:51"
+  },
+  "summary": "Stany Zjednoczone ogłosiły redukcję liczebności swoich wojsk w Europie Wschodniej, co wywołało niepokój wśród państw NATO. Decyzja ta wskazuje na zmiany w strategii militarnej USA i ich priorytetach globalnych. W artykule omawiane są także obawy związane z potencjalnym wpływem na bezpieczeństwo regionu.",
+  "id": 1761737543082,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/usa-pogrywaja-sobie-z-nato-ich-decyzja-moze-okazac-sie-zaproszeniem-dla-rosji/6vh61zj",
+  "title": "Waszyngton pogrywa sobie z NATO. Decyzja USA wywołała niepokój w Europie. \"Trudne do zrozumienia\""
+}

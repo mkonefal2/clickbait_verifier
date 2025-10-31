@@ -1,0 +1,48 @@
+{
+  "score": 65,
+  "label": "strong",
+  "rationale": [
+    "title_sensational: regex hit 'piekło' (+12), title_sensational: regex hit 'zmusić' (+12), title_curiosity_gap: regex hit 'tak' (+6)",
+    "content_sensational: phrase 'zgotować piekło' (+8), content_sensational: phrase 'energetyczny terror' (+8), content_overcertainty: absolute 'zawsze' (+6)",
+    "alignment_score: 0.5, penalty for medium alignment (+8)"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów, takich jak 'piekło' i 'zmusić', co sugeruje dramatyczne wydarzenia.",
+    "W treści pojawiają się emocjonalne zwroty, takie jak 'energetyczny terror', co zwiększa wrażenie sensacji.",
+    "Treść nie w pełni wspiera obietnice tytułu, co sugeruje, że może być przesadny."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational",
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational",
+      "overcertainty"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.5,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Rosja planuje działania wobec Ukrainy w kontekście wojny",
+    "notes_to_editor": "Zaleca się unikanie przesadnych sformułowań w tytule, aby zwiększyć wiarygodność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 14,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:18:29"
+  },
+  "summary": "Artykuł omawia strategię Rosji wobec Ukrainy, wskazując na działania Kremla mające na celu wywarcie presji na Ukrainę. Autor podkreśla, że ataki na ludność cywilną są częścią szerszej strategii politycznej Rosji. Zawiera również odniesienia do skutków tych działań dla międzynarodowej polityki.",
+  "id": 1761737542529,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/rosyjski-terror-tak-sily-putina-chca-zgotowac-ukrainie-pieklo-opinia/r0gnyf1",
+  "title": "Rosja szykuje piekło. Tak Putin chce zmusić Ukrainę do warunków Kremla [OPINIA]"
+}

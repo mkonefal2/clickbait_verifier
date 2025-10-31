@@ -1,0 +1,62 @@
+{
+  "score": 20,
+  "label": "not_clickbait",
+  "rationale": [
+    "title_superlative: no hits, (+0)",
+    "title_absolutes: no hits, (+0)",
+    "title_sensational: no hits, (+0)",
+    "title_alarming: no hits, (+0)",
+    "title_curiosity_gap: no hits, (+0)",
+    "title_listicle: no hits, (+0)",
+    "title_punctuation: no hits, (+0)",
+    "content_overcertainty: no hits, (+0)",
+    "content_sensational: no hits, (+0)",
+    "credibility_org_names: RMF24.pl detected (-3)",
+    "credibility_numbers: multiple bus lines mentioned (-2)",
+    "credibility_dates: specific date mentioned (-2)",
+    "credibility_quoted_speakers: no hits, (-0)",
+    "credibility_scientific_terms: no hits, (-0)",
+    "credibility_hedging: no hits, (-0)",
+    "alignment_score: 1.0, no penalty",
+    "exaggeration_gap: false, no penalty",
+    "country_mismatch: false, no penalty",
+    "time_omission: false, no penalty"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jest neutralny i nie zawiera przesadnych słów ani obietnic.",
+    "Artykuł dostarcza konkretne informacje o bezpłatnej komunikacji miejskiej w Łodzi.",
+    "Nie ma w nim przesadnych stwierdzeń ani sensacyjnych zwrotów."
+  ],
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "RMF24.pl",
+      "multiple bus lines",
+      "1 listopada"
+    ],
+    "mismatch": {
+      "alignment_score": 1.0,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Bezpłatna komunikacja miejska w Łodzi w dniu Wszystkich Świętych",
+    "notes_to_editor": "Zaleca się unikanie użycia sensacyjnych zwrotów w tytule."
+  },
+  "diagnostics": {
+    "tokens_title": 45,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:32:18"
+  },
+  "summary": "W Łodzi w dniu Wszystkich Świętych mieszkańcy będą mogli korzystać z bezpłatnej komunikacji miejskiej. W związku z tym w weekend kursować będą specjalne linie tramwajowe i autobusowe, które ułatwią dojazd na cmentarze. Zmiany w organizacji ruchu mają na celu zachęcenie do korzystania z transportu publicznego.",
+  "id": 1761747027621,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/lodz/news-wszystkich-swietych-w-lodzi-po-raz-pierwszy-bezplatna-komuni,nId,8035709",
+  "title": "Wszystkich Świętych w Łodzi. Po raz pierwszy bezpłatna komunikacja miejska"
+}

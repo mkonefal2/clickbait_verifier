@@ -1,0 +1,51 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'przejdzie metamorfozę' (+6), suggesting a transformation that piques interest.",
+    "content_sensational: phrase 'kultowy akademik' detected (+8), which adds a sensational tone.",
+    "content_credibility: organization names detected (-3), which adds credibility.",
+    "content_credibility: quoted speakers detected (-2), which adds credibility.",
+    "mismatch_alignment_score: calculated alignment score is 0.65, leading to a penalty of +8."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł sugeruje, że akademik przejdzie interesującą metamorfozę, co przyciąga uwagę.",
+    "Artykuł zawiera cytaty ekspertów i informacje o organizacjach, co zwiększa wiarygodność.",
+    "Treść dobrze wspiera obietnice tytułu, ale nieco odbiega od oczekiwań."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names",
+      "quoted speakers"
+    ],
+    "mismatch": {
+      "alignment_score": 0.65,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Kultowy akademik w Poznaniu przejdzie modernizację",
+    "notes_to_editor": "Rozważ użycie bardziej neutralnego tytułu, aby uniknąć wrażenia sensacyjności."
+  },
+  "diagnostics": {
+    "tokens_title": 42,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:42:42"
+  },
+  "summary": "Artykuł informuje o planowanej modernizacji Domu Studenckiego Jowita w Poznaniu, której koszt szacowany jest na 120-130 milionów złotych. Zwycięski projekt przewiduje dobudowę czterech kondygnacji oraz stworzenie miniaturowego parku. W przebudowanym akademiku znajdzie się miejsce dla około 330 lokatorów.",
+  "id": 1761761424509,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/poznan/news-jowita-nie-zniknie-kultowy-akademik-w-poznaniu-przejdzie-met,nId,8035782",
+  "title": "\"Jowita\" nie zniknie. Kultowy akademik w Poznaniu przejdzie metamorfozę"
+}

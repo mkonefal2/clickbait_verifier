@@ -1,0 +1,50 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'Chodzi o' (+6)",
+    "content_sensational: phrase 'możliwości popełnienia przestępstwa' (+8)",
+    "content_credibility: organization names detected (-3)",
+    "alignment_score: calculated at 0.55, resulting in a penalty of +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera zwrot 'Chodzi o', co wzbudza ciekawość czytelników.",
+    "Treść zawiera stwierdzenie o możliwości popełnienia przestępstwa, co może być postrzegane jako sensacyjne.",
+    "W artykule wspomniane są organizacje, co obniża jego wiarygodność.",
+    "Treść w pewnym stopniu wspiera tytuł, ale nie w pełni, co skutkuje dodatkowym punktem karnym."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Karol Nawrocki zgłasza sprawę do prokuratury w związku z rozporządzeniem ministra Żurka",
+    "notes_to_editor": "Zaleca się unikanie zwrotów wzbudzających ciekawość w tytule, aby zwiększyć jego neutralność."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:23:57"
+  },
+  "summary": "Prezydent Karol Nawrocki złożył wniosek do Trybunału Konstytucyjnego dotyczący rozporządzenia ministra sprawiedliwości Waldemara Żurka. W ocenie prezydenta, rozporządzenie narusza przepisy Konstytucji RP. Dodatkowo, Nawrocki skierował zawiadomienie do prokuratury o możliwości popełnienia przestępstwa przez Żurka w związku z tym rozporządzeniem.",
+  "id": 1761740517040,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/polityka/news-karol-nawrocki-zlozyl-zawiadomienie-do-prokuratury-chodzi-o-,nId,8035414",
+  "title": "Karol Nawrocki złożył zawiadomienie do prokuratury. Chodzi o Żurka"
+}

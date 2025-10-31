@@ -1,0 +1,49 @@
+{
+  "score": 50,
+  "label": "strong",
+  "rationale": [
+    "title_alarm: regex hit 'zagrożenie' (+10), title_sensational: regex hit 'groźny' (+12), title_curiosity_gap: no hits (+0)",
+    "content_sensational: regex hit 'zagrożenie' (+10), content_hedging: 'może' detected (-2)",
+    "alignment_score: 0.55 (medium alignment) → penalty +8",
+    "no country mismatch detected, no time omission detected"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'groźny', co sugeruje poważne zagrożenie.",
+    "Artykuł zawiera informacje o inwazyjnym gatunku, co może budzić niepokój.",
+    "Treść jest zgodna z tytułem, ale niektóre stwierdzenia są bardziej alarmujące niż konkretne."
+  ],
+  "signals": {
+    "title_hits": [
+      "alarm",
+      "sensational"
+    ],
+    "content_hits": [
+      "sensational",
+      "hedging"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Inwazyjny gatunek kraba zauważony na Fuerteventurze",
+    "notes_to_editor": "Zaleca się unikanie alarmujących słów w tytule, aby zachować neutralność."
+  },
+  "diagnostics": {
+    "tokens_title": 38,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:23:33"
+  },
+  "summary": "Na wyspie Fuerteventura zauważono inwazyjnego kalinka błękitnego, który może zagrażać lokalnej faunie. Gatunek ten, pochodzący z zachodniej półkuli, został zgłoszony do Sieci Wczesnego Wykrywania Gatunków Egzotycznych. Eksperci ostrzegają przed jego wpływem na ekosystem Wysp Kanaryjskich.",
+  "id": 1761740515232,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/swiat/news-grozny-przybysz-na-popularnej-wsrod-turystow-wyspie,nId,8035661",
+  "title": "Groźny przybysz na popularnej wśród turystów wyspie"
+}

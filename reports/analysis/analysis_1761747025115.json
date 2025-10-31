@@ -1,0 +1,51 @@
+{
+  "score": 40,
+  "label": "mild",
+  "rationale": [
+    "title_sensational: regex hit 'na usługach Rosji' (+12), title_curiosity_gap: regex hit 'Pracował za dolary' (+6)",
+    "content_sensational: phrases like 'skandal w ukraińskiej armii' (+8), 'fatalne wieści' (+8)",
+    "content_credibility: organization names mentioned (-3), specific dates mentioned (-2)",
+    "alignment_score: calculated as 0.55, resulting in a penalty of +8 for medium alignment"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa sformułowania 'na usługach Rosji', co może budzić sensację.",
+    "Artykuł zawiera informacje o skandalu w ukraińskiej armii, co dodaje dramatyzmu.",
+    "W treści pojawiają się konkretne daty i nazwy organizacji, co zwiększa wiarygodność."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational",
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization_names",
+      "specific_dates"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Brytyjski instruktor wojskowy zatrzymany za współpracę z rosyjskimi służbami w Ukrainie",
+    "notes_to_editor": "Rozważ użycie bardziej neutralnego tytułu, aby uniknąć wrażenia sensacji."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:31:54"
+  },
+  "summary": "Służba Bezpieczeństwa Ukrainy zatrzymała byłego brytyjskiego instruktora wojskowego, podejrzanego o współpracę z rosyjskimi służbami specjalnymi. Mężczyzna miał przekazywać informacje o ukraińskich siłach zbrojnych w zamian za pieniądze. Został oskarżony o nieuprawnione ujawnianie danych o Siłach Zbrojnych w warunkach stanu wojennego.",
+  "id": 1761747025115,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/raporty/raport-wojna-z-rosja/news-brytyjski-agent-na-uslugach-rosji-w-szeregach-ukraincow-prac,nId,8035711",
+  "title": "Brytyjski agent na usługach Rosji w szeregach Ukraińców. Pracował za dolary"
+}

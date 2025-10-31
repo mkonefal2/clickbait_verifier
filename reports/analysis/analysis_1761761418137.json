@@ -1,0 +1,49 @@
+{
+  "score": 70,
+  "label": "strong",
+  "rationale": [
+    "title_sensational: regex hit 'radioaktywne tsunami' (+12), title_alarm: regex hit 'zagłady' (+10), title_curiosity_gap: regex hit 'może' (+6)",
+    "content_sensational: phrase 'może wywołać radioaktywne tsunami' (+8), content_hedging: 'może' detected (-2)",
+    "alignment_score: 0.55, resulting in a penalty of +8 for medium alignment"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów, takich jak 'radioaktywne tsunami', co budzi niepokój.",
+    "Artykuł zawiera niepewność w stwierdzeniach, co zmniejsza jego wiarygodność.",
+    "Treść w pewnym stopniu wspiera tytuł, ale nie jest w pełni zgodna z jego obietnicami."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational",
+      "alarm",
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational",
+      "hedging"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Rosja testuje nową torpedę nuklearną Posejdon",
+    "notes_to_editor": "Zaleca się unikanie alarmujących sformułowań w tytule, aby zwiększyć wiarygodność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 43,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:39:40"
+  },
+  "summary": "Artykuł informuje o testach nowej torpedy nuklearnej Posejdon, ogłoszonych przez Władimira Putina. Analitycy ostrzegają, że broń ta może wywołać radioaktywne tsunami, co stanowi zagrożenie dla regionów przybrzeżnych. Putin podkreśla, że torpeda ma zasięg 10 000 km i prędkość 185 km/h.",
+  "id": 1761761418137,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/swiat/news-torpeda-zaglady-moze-wywolac-radioaktywne-tsunami-putin-chwa,nId,8035758",
+  "title": "\"Torpeda zagłady\" może wywołać radioaktywne tsunami"
+}

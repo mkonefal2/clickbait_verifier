@@ -1,0 +1,49 @@
+{
+  "score": 62,
+  "label": "strong",
+  "rationale": [
+    "title_superlative: regex hit 'najlepszy' (+6), title_sensational: regex hit 'szok' (+12), title_curiosity_gap: regex hit 'nie uwierzysz' (+6), content_sensational: phrases detected (+8), content_overcertainty: absolutes detected (+6), alignment_score: 0.5 (penalty +8)"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnego słowa 'najlepszy', co tworzy przesadne oczekiwania.",
+    "Tytuł sugeruje, że film jest szokujący, co jest podkreślone w treści.",
+    "Artykuł zawiera niepewne stwierdzenia, co obniża jego wiarygodność.",
+    "Treść nie w pełni wspiera obietnice tytułu, co prowadzi do dodatkowych punktów karnych."
+  ],
+  "signals": {
+    "title_hits": [
+      "najlepszy",
+      "szok",
+      "nie uwierzysz"
+    ],
+    "content_hits": [
+      "sensational phrases detected"
+    ],
+    "credibility_hits": [
+      "overcertainty detected"
+    ],
+    "mismatch": {
+      "alignment_score": 0.5,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Nowy film Netflixa, który wzbudza kontrowersje",
+    "notes_to_editor": "Zaleca się unikanie przesadnych określeń w tytule, aby zwiększyć wiarygodność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 53,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:46:48"
+  },
+  "summary": "Artykuł omawia nowy film Netflixa 'Dom pełen dynamitu', który przedstawia fikcyjny atak nuklearny na Stany Zjednoczone. Reżyserka Kathryn Bigelow stworzyła dzieło, które zdobyło uznanie, ale autor wskazuje na jego potencjalnie szkodliwy wpływ na postrzeganie zagrożeń ze strony Rosji. Film wywołuje kontrowersje, zwłaszcza w kontekście jego interpretacji przez różne strony polityczne.",
+  "id": 1761761430045,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/opinie/witold-jurasz-najnowszy-hit-netflixa-z-ktorego-cieszyc-sie-bedzie-jedynie-putin/m0pvyhq",
+  "title": "Najnowszy hit Netflixa. \"Film, z którego cieszyć się będzie jedynie Putin\""
+}

@@ -1,0 +1,48 @@
+{
+  "score": 50,
+  "label": "strong",
+  "rationale": [
+    "title_sensational: regex hit 'dramatyczny' (+12), title_alarming: regex hit 'walczy o życie' (+10)",
+    "content_sensational: phrase 'walczy o życie' detected (+8), content_sensational: phrase 'dramatic appeal for help' detected (+8)",
+    "alignment_score: 0.5 (medium alignment) → penalty +8",
+    "country_mismatch: title implies Poland but content refers to Germany → penalty +18"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnego słowa 'dramatyczny', co może budzić przesadne emocje.",
+    "Artykuł opisuje trudną sytuację dziecka, co jest dramatyczne, ale nie zawiera wielu danych, które zwiększyłyby wiarygodność.",
+    "Tytuł sugeruje wydarzenie w Polsce, ale treść dotyczy Niemiec."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational",
+      "alarming"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.5,
+      "exaggeration_gap": false,
+      "country_mismatch": true,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "8-letni chłopiec walczy z nowotworem mózgu. Rodzice proszą o pomoc",
+    "notes_to_editor": "Zaleca się unikanie dramatycznych sformułowań w tytule, aby zwiększyć obiektywność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:26:37"
+  },
+  "summary": "Artykuł opisuje 8-letniego Kacperka, który walczy z nowotworem mózgu. Leczenie w Polsce zostało wyczerpane, a rodzice apelują o pomoc w sfinansowaniu innowacyjnej terapii w Niemczech. Sytuacja jest dramatyczna, a rodzina jest zdesperowana w poszukiwaniu wsparcia.",
+  "id": 1761740523914,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/warszawa/8-letni-synek-policjanta-walczy-o-zycie-dramatyczny-apel-o-pomoc/d9kr5hz",
+  "title": "8-letni synek policjanta walczy o życie. Dramatyczny apel o pomoc"
+}

@@ -1,0 +1,50 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'nie otrzymała informacji' (+6), suggesting a curiosity gap.",
+    "content_sensational: phrase 'żelaznym sojusznikiem' detected (+8), adds some sensational language.",
+    "content_credibility: organization names detected (-3), reduces credibility.",
+    "mismatch_alignment_score: calculated at 0.55, resulting in a penalty of +8."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł sugeruje, że Polska nie została poinformowana o ważnych zmianach, co wzbudza ciekawość.",
+    "W artykule użyto stwierdzenia o sojuszu, co może być postrzegane jako przesadne.",
+    "W treści wspomniano o Polskiej Agencji Prasowej, co zmniejsza wiarygodność.",
+    "Treść dobrze odnosi się do tytułu, ale nieco odbiega od jego tonu."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "USA zmniejszają liczebność wojsk w Europie, Polska nie otrzymała informacji.",
+    "notes_to_editor": "Rozważ zmianę tytułu na bardziej neutralny, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 62,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:45:39"
+  },
+  "summary": "W artykule omawiane są plany USA dotyczące redukcji liczebności wojsk w Europie. Wicepremier Władysław Kosiniak-Kamysz zapewnił, że Polska nie otrzymała informacji o tych zmianach. Podkreślił również silny sojusz między Polską a Stanami Zjednoczonymi.",
+  "id": 1761761428696,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/usa-redukuja-liczebnosc-wojsk-w-europie-kosiniak-kamysz-zabral-glos/mvg38je",
+  "title": "USA redukują liczebność wojsk w Europie. Szef MON: Polska nie otrzymała informacji"
+}

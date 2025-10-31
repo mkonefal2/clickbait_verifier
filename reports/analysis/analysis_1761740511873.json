@@ -1,0 +1,52 @@
+{
+  "score": 60,
+  "label": "strong",
+  "rationale": [
+    "title_sensational: regex hit 'absolutna patologia' (+12)",
+    "content_sensational: phrase 'wiele niejasności' detected (+8)",
+    "content_overcertainty: absolute 'wszystko' detected (+6)",
+    "alignment_score: 0.55 (medium alignment) → penalty +8",
+    "exaggeration_gap: title is sensational but content has credibility → penalty +14"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnego wyrażenia 'absolutna patologia', co wzbudza emocje.",
+    "Artykuł zawiera informacje o niejasnościach w sprawie sprzedaży działki, co dodaje dramatyzmu.",
+    "Tytuł sugeruje poważny problem, ale treść zawiera konkretne dane i źródła, co zwiększa wiarygodność."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational"
+    ],
+    "content_hits": [
+      "sensational",
+      "overcertainty"
+    ],
+    "credibility_hits": [
+      "organization names",
+      "numbers/dates/statistics"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": true,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "PiS rozpoczyna kontrolę w sprawie sprzedaży działki pod CPK.",
+    "notes_to_editor": "Rozważ użycie bardziej neutralnego języka w tytule, aby uniknąć wrażenia sensacji."
+  },
+  "diagnostics": {
+    "tokens_title": 41,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:22:47"
+  },
+  "summary": "Posłowie PiS rozpoczęli kontrolę w Krajowym Ośrodku Wsparcia Rolnictwa w związku z niejasnościami dotyczącymi sprzedaży działki pod budowę Centralnego Portu Komunikacyjnego. Działka o powierzchni 160 ha została sprzedana wiceprezesowi firmy Dawtona tuż przed zmianą władzy. Rzecznik Prokuratury Okręgowej wszczął śledztwo w sprawie przekroczenia uprawnień przez funkcjonariuszy publicznych.",
+  "id": 1761740511873,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/polska/news-kontratak-pis-w-sprawie-dzialki-pod-cpk-absolutna-patologia,nId,8035636",
+  "title": "Kontratak PiS w sprawie działki pod CPK. \"Absolutna patologia\""
+}

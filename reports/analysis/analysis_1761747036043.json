@@ -1,0 +1,49 @@
+{
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "title_superlative: regex hit 'ulubiony' (+6), title_curiosity_gap: regex hit 'zaskakuje' (+6)",
+    "content_sensational: phrase 'narkotykach' detected (+8), content_credibility: organization names detected (-3)",
+    "alignment_score: 0.55, resulting in a penalty of +8 for medium alignment"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera słowo 'ulubiony', co może budzić zainteresowanie czytelników.",
+    "W artykule pojawia się słowo 'narkotykach', co może być uznane za sensacyjne.",
+    "Treść artykułu dobrze odnosi się do tytułu, ale niektóre informacje są nieco przesadzone."
+  ],
+  "signals": {
+    "title_hits": [
+      "ulubiony",
+      "zaskakuje"
+    ],
+    "content_hits": [
+      "narkotykach"
+    ],
+    "credibility_hits": [
+      "organizacje"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Papież Leon XIII i jego ulubiony napój z kokainą",
+    "notes_to_editor": "Rozważ usunięcie nieco sensacyjnych sformułowań w tytule, aby zwiększyć neutralność."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-10-31 14:36:30"
+  },
+  "summary": "Artykuł opisuje ulubiony napój papieża Leona XIII, Vin Mariani, który zawierał kokainę. W XIX wieku kokaina była popularnym lekiem, a papież reklamował ten napój, co wzbudzało kontrowersje. Autor podkreśla, że papież nie krył się z tym faktem i docenił twórcę receptury.",
+  "id": 1761747036043,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/religia/kultura/kokaina-w-kieliszku-papieza-leon-xiii-nawet-sie-z-tym-nie-kryl/l02r96c",
+  "title": "Papież Leon XIII miał swój ulubiony napój. Jego skład zaskakuje do dziś"
+}
