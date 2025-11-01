@@ -1,0 +1,56 @@
+{
+  "score": 24,
+  "label": "not_clickbait",
+  "rationale": [
+    "title_superlative: no hits, score remains 0",
+    "title_absolutes: no hits, score remains 0",
+    "title_sensational: no hits, score remains 0",
+    "title_alarming: no hits, score remains 0",
+    "title_curiosity_gap: no hits, score remains 0",
+    "title_listicle: no hits, score remains 0",
+    "title_punctuation: no hits, score remains 0",
+    "content_overcertainty: no hits, score remains 0",
+    "content_sensational: no hits, score remains 0",
+    "credibility_reductions: org names detected (-3), total -3",
+    "hedging_reductions: no hits, score remains 0",
+    "alignment_score: 0.75, no penalty",
+    "exaggeration_gap: false, no penalty",
+    "country_mismatch: false, no penalty",
+    "time_omission: false, no penalty"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jest neutralny i nie zawiera przesadnych słów ani obietnic.",
+    "Artykuł opiera się na faktach i informacjach z wiarygodnych źródeł.",
+    "Nie ma żadnych nieścisłości dotyczących kraju ani czasu w treści."
+  ],
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "organization names detected"
+    ],
+    "mismatch": {
+      "alignment_score": 0.75,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "USA potwierdzają, że nie planują redukcji wojsk w Polsce",
+    "notes_to_editor": "Zaleca się unikanie sensacyjnych sformułowań w tytule."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:24:03"
+  },
+  "summary": "Artykuł informuje o decyzji USA dotyczącej liczby wojsk w Europie. Szef MON, Władysław Kosiniak-Kamysz, potwierdził, że nie planują oni redukcji liczby wojsk w Polsce. Wicepremier podkreślił siłę sojuszu polsko-amerykańskiego i jego znaczenie dla bezpieczeństwa.",
+  "id": 1761847720795,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/usa-redukuja-liczbe-wojsk-w-europie-szef-mon-uzyskalismy-potwierdzenie/9nvdkx2",
+  "title": "USA redukują liczbę wojsk w Europie. Szef MON: uzyskaliśmy potwierdzenie"
+}

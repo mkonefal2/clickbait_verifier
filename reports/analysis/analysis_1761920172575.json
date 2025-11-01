@@ -1,0 +1,50 @@
+{
+  "score": 50,
+  "label": "strong",
+  "rationale": [
+    "title_sensational: regex hit 'szok' (+12), title_curiosity_gap: regex hit 'zobacz co się stało' (+6)",
+    "content_sensational: phrase 'kuriozalny' detected (+8), content_credibility: organization names detected (-3)",
+    "alignment_score: 0.55, resulting in medium alignment penalty (+8)"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'szok', co może wzbudzać przesadne emocje.",
+    "W treści pojawia się słowo 'kuriozalny', co również podkreśla sensacyjny charakter.",
+    "Artykuł zawiera informacje o policji, co może wpływać na jego wiarygodność.",
+    "Treść dobrze odnosi się do tytułu, ale nieco przesadza z dramatyzmem."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational",
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Dwóch mężczyzn zaatakowało 45-latka w jego domu.",
+    "notes_to_editor": "Zaleca się unikanie sensacyjnych zwrotów w tytule, aby zwiększyć wiarygodność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 295,
+    "processing_time_ms": 120,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:33:44"
+  },
+  "summary": "Dwóch młodych mężczyzn zaatakowało 45-letniego mężczyznę w jego domu, używając siekier. Na pomoc poszkodowanemu ruszyła 28-letnia kobieta, która również miała siekierę. Policja wskazuje, że w tle zdarzenia mogła kryć się zazdrość o kobietę.",
+  "id": 1761920172575,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/bialystok/zaatakowali-mezczyzne-z-siekierami-uciekli-na-widok-kuzynki-z-siekiera/fvc4wtc",
+  "title": "Zaatakowali mężczyznę z siekierami. Uciekli na widok kuzynki z siekierą"
+}

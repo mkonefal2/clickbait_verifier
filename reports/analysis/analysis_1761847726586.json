@@ -1,0 +1,48 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_superlative: regex hit 'duża' (+6), content_sensational: phrase 'duża zmiana' detected (+8), content_credibility: org names detected (-3), content_credibility: numbers detected (-2)",
+    "alignment_score: 0.65, no penalty; no country mismatch; no time omission"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'duża', co może sugerować przesadę, ale nie jest to superlatyw.",
+    "Artykuł zawiera dane liczbowe i odniesienia do organizacji, co zwiększa jego wiarygodność.",
+    "Treść jest zgodna z tytułem, ale użycie słów takich jak 'zmiana' może budzić pewne emocje."
+  ],
+  "signals": {
+    "title_hits": [
+      "superlative"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names",
+      "numbers"
+    ],
+    "mismatch": {
+      "alignment_score": 0.65,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Wyniki exit poll w Holandii: liberałowie wygrywają ze skrajną prawicą",
+    "notes_to_editor": "Zaleca się unikanie użycia słów mogących sugerować przesadę lub emocje w tytule."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:27:04"
+  },
+  "summary": "W Holandii odbyły się wybory parlamentarne, w których partia Demokraci 66 zdobyła 27 mandatów, pokonując skrajną prawicę, Partię Wolności. Wyniki sondażu exit poll wskazują na znaczącą zmianę w układzie politycznym kraju, co może wpłynąć na przyszłe decyzje rządowe.",
+  "id": 1761847726586,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/duza-zmiana-w-holandii-exit-poll-liberalowie-wygrywaja-ze-skrajna-prawica/5ppcn6l",
+  "title": "Duża zmiana w Holandii. Exit poll: liberałowie wygrywają ze skrajną prawicą"
+}

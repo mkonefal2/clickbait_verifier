@@ -1,0 +1,50 @@
+{
+  "score": 65,
+  "label": "strong",
+  "rationale": [
+    "title_alarm: regex hit 'alarm' (+0), title_sensational: regex hit 'burze' (+12), title_sensational: regex hit 'wichury' (+12), title_alarm: regex hit 'niebezpieczna' (+10), title_curiosity_gap: regex hit 'użyj' (+6), content_sensational: 'niebezpieczną pogodę' (+8), content_overcertainty: 'może osiągnąć' (+6), content_credibility: org names detected (-3), content_credibility: numbers detected (-2)",
+    "alignment_score: 0.65 (high alignment), no penalties applied"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słów takich jak 'burze' i 'wichury', co wprowadza element sensacji.",
+    "Artykuł informuje o niebezpiecznej pogodzie, co może budzić niepokój.",
+    "Treść jest zgodna z tytułem, ale zawiera również dane liczbowe, co zwiększa wiarygodność."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational",
+      "alarm"
+    ],
+    "content_hits": [
+      "sensational",
+      "overcertainty"
+    ],
+    "credibility_hits": [
+      "organization names",
+      "numbers"
+    ],
+    "mismatch": {
+      "alignment_score": 0.65,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Silny wiatr i burze w Polsce - alert IMGW",
+    "notes_to_editor": "Zaleca się unikanie języka sensacyjnego w tytule, aby zwiększyć wiarygodność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 15,
+    "tokens_content": 295,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:25:47"
+  },
+  "summary": "W Polsce ogłoszono pomarańczowy alarm IMGW z powodu nadchodzących burz i silnych wiatrów. Porywy wiatru mogą osiągnąć nawet 110 km na godz. Alerty dotyczą 12 województw, a lokalnie mogą wystąpić burze.",
+  "id": 1761847724354,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/pogoda/zolty-i-pomaranczowy-alert-imgw-w-12-wojewodztwach-powieje-az-110-km-na-godz/9wpt6zj",
+  "title": "Pomarańczowy alarm IMGW. Burze i wichury uderzą w Polskę. Powieje nawet 110 km na godz."
+}

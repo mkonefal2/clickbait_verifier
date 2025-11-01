@@ -1,0 +1,51 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'Jak afera CPK wpłynęła na ocenę PiS?' (+6)",
+    "content_sensational: phrase 'ponad połowa Polaków' detected (+8)",
+    "content_credibility: org names detected (-3), numbers detected (-2)",
+    "mismatch_alignment_score: 0.55, penalty +8 for medium alignment"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera pytanie, które wzbudza ciekawość czytelnika.",
+    "W treści pojawia się informacja o ponad połowie Polaków, co może być postrzegane jako sensacyjne.",
+    "Artykuł zawiera dane statystyczne i odniesienia do organizacji, co zwiększa jego wiarygodność.",
+    "Tytuł i treść są zgodne, ale nieco przesadzone w ocenie sytuacji."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names",
+      "numbers"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Nowy sondaż ocenia PiS po aferze z CPK",
+    "notes_to_editor": "Rozważyć użycie bardziej neutralnego tytułu, aby uniknąć wrażenia sensacji."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:33:55"
+  },
+  "summary": "Artykuł analizuje wpływ afery związanej z Centralnym Portem Komunikacyjnym na opinie Polaków o partii Prawo i Sprawiedliwość. Z sondażu wynika, że ponad połowa Polaków zmieniła swoje zdanie na temat tej partii po ujawnieniu afery. W artykule podano również, że ponad 20% ankietowanych nie słyszało o sprawie CPK.",
+  "id": 1761920172840,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/afera-cpk-wplynela-na-ocene-pis-przez-polakow-nowy-sondaz/jdhfr14",
+  "title": "Surowa ocena PiS po aferze z CPK. Nowy sondaż"
+}

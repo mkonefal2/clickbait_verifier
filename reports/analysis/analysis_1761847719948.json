@@ -1,0 +1,48 @@
+{
+  "score": 49,
+  "label": "mild",
+  "rationale": [
+    "title_sensational: regex hit 'budzi zdumienie' (+12), title_question: regex hit 'Kto jeszcze traktuje go serio?' (+4)",
+    "content_sensational: phrase 'budzi zdumienie' detected (+8), content_hedging: 'może' detected (-2)",
+    "alignment_score: calculated at 0.55, resulting in a penalty of +8 due to medium alignment"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera zwrot 'budzi zdumienie', co nadaje mu sensacyjny charakter.",
+    "Artykuł zawiera pewne niepewności, co wpływa na jego wiarygodność.",
+    "Treść artykułu jest zgodna z tytułem, ale nie w pełni go wspiera."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational",
+      "question"
+    ],
+    "content_hits": [
+      "sensational",
+      "hedging"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Trump ogłasza powrót do testów broni jądrowej",
+    "notes_to_editor": "Rozważyć użycie bardziej neutralnego języka w tytule, aby uniknąć sensacyjności."
+  },
+  "diagnostics": {
+    "tokens_title": 13,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:22:40"
+  },
+  "summary": "Donald Trump ogłosił zamiar wznowienia testów broni jądrowej w odpowiedzi na programy innych krajów. Ekspert komentuje, że taka deklaracja jest zaskakująca i nieuzasadniona w obecnej sytuacji międzynarodowej. Artykuł przedstawia również reakcje na tę zapowiedź oraz kontekst polityczny.",
+  "id": 1761847719948,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/trump-zrywa-z-nuklearnym-tabu-budzi-zdumienie-kto-jeszcze-traktuje-go-serio/h8rcfyb",
+  "title": "Trump zrywa z nuklearnym tabu i budzi zdumienie. \"Kto jeszcze traktuje go serio?\""
+}

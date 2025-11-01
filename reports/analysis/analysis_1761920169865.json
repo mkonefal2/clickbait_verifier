@@ -1,0 +1,48 @@
+{
+  "score": 70,
+  "label": "strong",
+  "rationale": [
+    "title_sensational: regex hit 'szok' (+12), title_hits total = 12",
+    "content_sensational: phrase 'szokującego zdarzenia' detected (+8), content_hits total = 8",
+    "content_overcertainty: absolute 'wszyscy' detected (-6), content_hits total = -6",
+    "alignment_score: calculated at 0.55, resulting in a penalty of +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera słowo 'szok', co sugeruje sensacyjny charakter wydarzenia.",
+    "W treści artykułu pojawia się zwrot 'szokujące zdarzenie', co potwierdza dramatyzm sytuacji.",
+    "Artykuł zawiera informacje o działaniach szpitala oraz policji, co zwiększa jego wiarygodność.",
+    "Tytuł i treść są zgodne, ale nieco przesadzone w opisie sytuacji."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Lekarka w Żywcu przyłapana na pracy pod wpływem alkoholu",
+    "notes_to_editor": "Rozważyć użycie mniej emocjonalnego języka w tytule, aby uniknąć wrażenia sensacji."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 298,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:33:11"
+  },
+  "summary": "W szpitalu w Żywcu lekarz został przyłapany na pracy pod wpływem alkoholu, z wynikiem 3,5 promila. Dyrekcja natychmiast rozwiązała z nią umowę, a sprawą zajmuje się policja. Incydent wywołał obawy o bezpieczeństwo pacjentów.",
+  "id": 1761920169865,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/slaskie/news-skandal-w-szpitalu-w-zywcu-pijana-lekarka-na-dyzurze-miala-p,nId,8036394",
+  "title": "Skandal w szpitalu w Żywcu. Pijana lekarka na dyżurze, miała ponad 3 promile"
+}

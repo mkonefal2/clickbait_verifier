@@ -1,0 +1,51 @@
+{
+  "score": 62,
+  "label": "strong",
+  "rationale": [
+    "title_sensational: regex hit 'porażająca' (+12), 'czai się' (+12), 'nie chce się zbroić' (+12)",
+    "content_sensational: phrase 'przerażająca naiwność' (+8), 'sygnał alarmowy' (+8)",
+    "content_hedging: 'może' detected (-2)",
+    "alignment_score: 0.55 (medium alignment) → penalty +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów, które mogą wywoływać silne emocje, takich jak 'porażająca' i 'czai się'.",
+    "W treści pojawiają się dramatyczne sformułowania, co zwiększa wrażenie sensacyjności.",
+    "Artykuł zawiera pewne niepewności, co wpływa na jego wiarygodność.",
+    "Treść w pewnym stopniu nie odpowiada obietnicom zawartym w tytule."
+  ],
+  "signals": {
+    "title_hits": [
+      "porażająca",
+      "czai się",
+      "nie chce się zbroić"
+    ],
+    "content_hits": [
+      "przerażająca naiwność",
+      "sygnał alarmowy"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Irlandia a zagrożenia ze strony Rosji: potrzeba zbrojenia?",
+    "notes_to_editor": "Rozważyć złagodzenie języka w tytule, aby uniknąć wrażenia sensacyjności."
+  },
+  "diagnostics": {
+    "tokens_title": 11,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:14:20"
+  },
+  "summary": "Artykuł omawia sytuację bezpieczeństwa Irlandii w kontekście zagrożeń ze strony Rosji. Autor krytykuje decyzję nowej prezydentki, Catherine Connolly, o niezbrojeniu się, wskazując na niebezpieczeństwo związane z geopolitycznymi napięciami. Tekst podkreśla, że Irlandia powinna dostrzegać realne zagrożenia i działać w celu zapewnienia swojego bezpieczeństwa.",
+  "id": 1761833572402,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/politico/kto-uratuje-irlandie-nie-chce-sie-zbroic-a-rosja-juz-czai-sie-na-jej-wodach-opinia/k0ys6rt",
+  "title": "Porażająca naiwność Irlandii. Nie chce się zbroić, choć Rosja już się czai [OPINIA]"
+}

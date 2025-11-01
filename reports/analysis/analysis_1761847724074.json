@@ -1,0 +1,46 @@
+{
+  "score": 24,
+  "label": "not_clickbait",
+  "rationale": [
+    "title_superlative: regex hit 'wyjątkowo' (+6), title_curiosity_gap: no hits, title_exaggeration: no hits",
+    "content_overcertainty: no hits, content_sensational: no hits, content_credibility: org names detected (-3), content_credibility: no numbers/dates/statistics, content_credibility: no quoted speakers, content_credibility: no scientific/method terms, content_hedging: 'może' detected (-2)",
+    "mismatch_alignment_score: 0.75, no exaggeration gap, no country mismatch, no time omission"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'wyjątkowo', co może sugerować coś niezwykłego, ale nie jest to przesadne.",
+    "Artykuł zawiera informacje o prognozie pogody, ale nie ma w nim cytatów ekspertów ani danych liczbowych, co zmniejsza jego wiarygodność.",
+    "Treść jest zgodna z tytułem i dotyczy prognozy pogody w Polsce."
+  ],
+  "signals": {
+    "title_hits": [
+      "wyjątkowo"
+    ],
+    "content_hits": [],
+    "credibility_hits": [
+      "org names detected"
+    ],
+    "mismatch": {
+      "alignment_score": 0.75,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Prognoza pogody na piątek w Polsce: poprawa warunków atmosferycznych",
+    "notes_to_editor": "Zaleca się unikanie użycia słów, które mogą sugerować przesadę lub wyjątkowość, aby zwiększyć wiarygodność tytułu."
+  },
+  "diagnostics": {
+    "tokens_title": 11,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:25:35"
+  },
+  "summary": "Artykuł omawia prognozę pogody na piątek w Polsce, wskazując na poprawę warunków atmosferycznych po czwartkowych opadach deszczu i silnym wietrze. W piątek przewiduje się więcej słońca oraz temperatury dwucyfrowe, chociaż lokalnie mogą wystąpić opady i wiatr.",
+  "id": 1761847724074,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/pogoda/polska-na-progu-zwrotu-w-pogodzie-mamy-nowa-prognoze-na-piatek-mapy/gxff4yp",
+  "title": "Polska na progu zwrotu w pogodzie. W tych regionach aura zapowiada się wyjątkowo"
+}

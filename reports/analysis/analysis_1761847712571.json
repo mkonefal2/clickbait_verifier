@@ -1,0 +1,50 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_superlative: regex hit 'największy' (+6), title_curiosity_gap: regex hit 'zobacz co się stało' (+6)",
+    "content_sensational: phrase 'Kreml pod ścianą' (+8), content_credibility: org names detected (-3), content_credibility: numbers detected (-2)",
+    "alignment_score: 0.55, resulting in penalty of +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'największy', co może wywoływać przesadne oczekiwania.",
+    "Artykuł zawiera informacje o sankcjach i sprzedaży aktywów, co zwiększa jego wiarygodność.",
+    "Tytuł sugeruje ważne wydarzenie, ale treść nie wyjaśnia go w pełni."
+  ],
+  "signals": {
+    "title_hits": [
+      "największy",
+      "zobacz co się stało"
+    ],
+    "content_hits": [
+      "Kreml pod ścianą"
+    ],
+    "credibility_hits": [
+      "organizacje",
+      "liczby"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Łukoil sprzedaje zagraniczne aktywa cypryjskiej grupie Gunvor",
+    "notes_to_editor": "Zaleca się unikanie superlatyw i zwrotów wywołujących ciekawość w tytule."
+  },
+  "diagnostics": {
+    "tokens_title": 42,
+    "tokens_content": 2999,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:20:22"
+  },
+  "summary": "Rosyjski koncern naftowy Łukoil ogłosił sprzedaż swoich zagranicznych aktywów cypryjskiej grupie Gunvor w odpowiedzi na amerykańskie sankcje. Transakcja obejmuje 100% udziałów w LUKOIL International GmbH. Łukoil działa w wielu krajach, a jego sprzedaż jest reakcją na presję wywieraną przez sankcje na rosyjski przemysł naftowy.",
+  "id": 1761847712571,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/swiat/news-rosyjski-potentat-naftowy-sprzedaje-swoje-zagraniczne-aktywa,nId,8036093",
+  "title": "Rosyjski potentat naftowy sprzedaje swoje zagraniczne aktywa"
+}

@@ -1,0 +1,49 @@
+{
+  "score": 65,
+  "label": "strong",
+  "rationale": [
+    "title_sensational: regex hit 'zapowiedź czystki' (+12), title_sensational: regex hit 'obsesja Putina' (+12), title_curiosity_gap: regex hit 'nowy poziom' (+6)",
+    "content_sensational: phrase 'eliminacja przeciwników' detected (+8), content_sensational: phrase 'może przyczynić się do upadku reżimu' detected (+8)",
+    "alignment_score: 0.5, penalty applied (+8), no country mismatch detected, no time omission detected"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów, takich jak 'zapowiedź czystki', co wzbudza niepokój i ciekawość.",
+    "W treści artykułu pojawiają się dramatyczne sformułowania dotyczące eliminacji przeciwników, co potwierdza sensacyjny charakter.",
+    "Treść artykułu jest zgodna z tytułem, ale nieco przesadza w ocenie sytuacji."
+  ],
+  "signals": {
+    "title_hits": [
+      "zapowiedź czystki",
+      "obsesja Putina",
+      "nowy poziom"
+    ],
+    "content_hits": [
+      "eliminacja przeciwników",
+      "może przyczynić się do upadku reżimu"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.5,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Analiza działań Putina wobec przeciwników Kremla",
+    "notes_to_editor": "Zaleca się unikanie sensacyjnych sformułowań w tytule, aby zwiększyć wiarygodność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 15,
+    "tokens_content": 3000,
+    "processing_time_ms": 120,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:17:12"
+  },
+  "summary": "Artykuł omawia rosnącą obsesję Władimira Putina na punkcie przeciwników Kremla, porównując ją do działań carów i Stalina. Zawiera analizy dotyczące sytuacji w Rosji oraz możliwych konsekwencji dla reżimu. Ekspertka wskazuje na niebezpieczeństwa związane z eliminacją przeciwników w kontekście konfliktu na Ukrainie.",
+  "id": 1761833575163,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/szalenstwo-jak-za-cara-i-stalina-ekspertka-ostrzega-przed-czystka-w-rosji/c60rgmx",
+  "title": "Obsesja Putina na punkcie wrogów Kremla wkroczyła na nowy poziom. \"Zapowiedź czystki\" [OPINIA]"
+}

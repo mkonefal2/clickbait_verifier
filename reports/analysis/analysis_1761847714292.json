@@ -1,0 +1,47 @@
+{
+  "score": 40,
+  "label": "mild",
+  "rationale": [
+    "title_alarm: regex hit 'tragedia' (+10), title_sensational: no hits, title_curiosity: no hits",
+    "content_sensational: phrase 'tragedia rodzinna' detected (+8), content_hedging: 'może' detected (-2)",
+    "alignment_score: 0.6 (medium alignment) → penalty +8",
+    "no country mismatch or time omission detected"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'tragedia', co może budzić emocje i przyciągać uwagę.",
+    "Artykuł zawiera informacje o tragicznym zdarzeniu rodzinnym, co zwiększa jego dramatyzm.",
+    "Treść artykułu jest zgodna z tytułem, ale niektóre sformułowania mogą wprowadzać w błąd."
+  ],
+  "signals": {
+    "title_hits": [
+      "alarming: 'tragedia'"
+    ],
+    "content_hits": [
+      "sensational phrases: 'tragedia rodzinna'"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.6,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Sąd zadecydował o umieszczeniu 13-latka w schronisku po śmierci jego brata",
+    "notes_to_editor": "Zaleca się unikanie emocjonalnych słów w tytule, aby zachować neutralność."
+  },
+  "diagnostics": {
+    "tokens_title": 3,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:20:44"
+  },
+  "summary": "W artykule opisano tragiczną sytuację, w której 13-letni chłopiec zabił swojego 17-letniego brata. Sąd w Radzyniu Podlaskim zdecydował o umieszczeniu go w schronisku dla nieletnich na trzy miesiące. Sprawa jest w toku, a sąd będzie oceniać zgromadzone dowody oraz zeznania chłopca.",
+  "id": 1761847714292,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/lublin/news-zabojstwo-17-latka-decyzja-sadu-ws-13-letniego-brata,nId,8036104",
+  "title": "Zabójstwo 17-latka"
+}

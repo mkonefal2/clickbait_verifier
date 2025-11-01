@@ -1,0 +1,51 @@
+{
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "title_superlative: regex hit 'niespotykane' (+6), title_sensational: regex hit 'idą na noże' (+12), title_curiosity_gap: regex hit 'zmiany' (+6)",
+    "content_sensational: phrase 'ryzyko polityczne jest ogromne' (+8), content_credibility: organization names mentioned (-3), content_credibility: quoted speakers (-2)",
+    "alignment_score: 0.55 (medium alignment), penalty for medium alignment (+8)"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera mocne sformułowanie 'idą na noże', co sugeruje konflikt, oraz używa słowa 'niespotykane', co tworzy przesadne oczekiwania.",
+    "W treści artykułu pojawia się stwierdzenie o 'ogromnym ryzyku politycznym', co może być uznane za sensacyjne.",
+    "Artykuł zawiera cytaty ekspertów, co zwiększa jego wiarygodność, ale tytuł nieco przesadza w przedstawieniu sytuacji."
+  ],
+  "signals": {
+    "title_hits": [
+      "niespotykane",
+      "idą na noże",
+      "zmiany"
+    ],
+    "content_hits": [
+      "ryzyko polityczne jest ogromne"
+    ],
+    "credibility_hits": [
+      "organization names",
+      "quoted speakers"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "USA i Chiny w obliczu rywalizacji gospodarczej",
+    "notes_to_editor": "Rozważyć złagodzenie tytułu, aby uniknąć przesadnych oczekiwań i sensacji."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:39:19"
+  },
+  "summary": "Artykuł omawia rosnącą rywalizację gospodarczą między USA a Chinami, wskazując na ich wzajemne uzależnienie. Autor podkreśla, że mimo agresywnej konfrontacji, obie strony muszą dążyć do porozumienia. Zawiera również analizę ryzyka politycznego związanego z tą sytuacją.",
+  "id": 1761920181189,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/oznaka-desperacji-chiny-i-usa-stawiaja-wszystko-na-jedna-karte/wlwblzv",
+  "title": "\"Zmiany niespotykane od stulecia\". USA i Chiny idą na noże"
+}

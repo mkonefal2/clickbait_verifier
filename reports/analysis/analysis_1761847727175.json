@@ -1,0 +1,53 @@
+{
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "title_sensational: regex hit 'naiwny' (+12), title_sensational: regex hit 'kupić' (+12)",
+    "content_sensational: phrase 'irracjonalne fantazje' detected (+8)",
+    "content_credibility: organization names mentioned (-3)",
+    "content_credibility: quoted speakers detected (-2)",
+    "mismatch_alignment: alignment score calculated at 0.55, resulting in penalty +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słów 'naiwny' i 'kupić', co nadaje mu sensacyjny charakter.",
+    "W treści pojawia się stwierdzenie o 'irracjonalnych fantazjach', co również zwiększa dramatyzm.",
+    "Artykuł zawiera cytaty ekspertów, co zwiększa jego wiarygodność.",
+    "Tytuł i treść są w miarę zgodne, ale nieco przesadzone w obietnicach."
+  ],
+  "signals": {
+    "title_hits": [
+      "naiwny",
+      "kupić"
+    ],
+    "content_hits": [
+      "irracjonalne fantazje"
+    ],
+    "credibility_hits": [
+      "organization names",
+      "quoted speakers"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Putin i jego nierealistyczne oczekiwania wobec Trumpa",
+    "notes_to_editor": "Rozważyć użycie mniej sensacyjnych słów w tytule, aby lepiej odzwierciedlić treść artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 16,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:27:32"
+  },
+  "summary": "Artykuł omawia nierealistyczne oczekiwania Władimira Putina dotyczące zakończenia wojny z Ukrainą. Ekspert Władisław Inoziemcew wskazuje, że postulaty Putina są irracjonalne i niemożliwe do spełnienia. Podkreśla, że Zachód nie może zgodzić się na warunki, które prowadziłyby do porażki Ukrainy.",
+  "id": 1761847727175,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/nieudany-ruch-putina-naiwnoscia-bylo-sadzic-ze-trumpa-mozna-kupic-opinia/tevrlqe",
+  "title": "Naiwny ruch Putina. Myślał, że może \"kupić\" Trumpa \"wykopaniem bezsensownej dziury\""
+}

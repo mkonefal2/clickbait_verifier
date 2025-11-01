@@ -1,0 +1,48 @@
+{
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "title_superlative: regex hit 'zaskakujące' (+6), title_curiosity_gap: regex hit 'co naprawdę' (+6), title_question: regex hit '?' (+4)",
+    "content_sensational: phrase 'długowieczność nie przychodzi sama' (+8), content_hedging: phrase 'okazuje się, że' (-2)",
+    "alignment_score: 0.55 → medium alignment → penalty +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera słowo 'zaskakujące', co może sugerować przesadne oczekiwania.",
+    "Artykuł zawiera stwierdzenia, które mogą być odbierane jako sensacyjne, ale także odnosi się do badań naukowych.",
+    "Treść wspiera tytuł, ale niektóre sformułowania mogą wprowadzać w błąd."
+  ],
+  "signals": {
+    "title_hits": [
+      "zaskakujące",
+      "co naprawdę",
+      "?"
+    ],
+    "content_hits": [
+      "długowieczność nie przychodzi sama"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Jakie czynniki wpływają na długość życia według naukowców?",
+    "notes_to_editor": "Zaleca się unikanie słów sugerujących sensację w tytule oraz bardziej neutralne podejście do przedstawiania wyników badań."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:13:26"
+  },
+  "summary": "Naukowcy z Oksfordu przeprowadzili badania dotyczące długości życia, wskazując, że genetyka ma mniejszy wpływ niż styl życia i środowisko. Kluczowym czynnikiem długowieczności okazał się stabilny związek. Artykuł podkreśla, że długowieczność wymaga aktywnego działania i nie jest jedynie wynikiem szczęścia.",
+  "id": 1761833570554,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/nauka/jak-wydluzyc-swoje-zycie-naukowcy-podaja-kluczowe-czynniki/k61crn0",
+  "title": "Co naprawdę decyduje o długości życia? Naukowcy ujawniają zaskakujące wyniki"
+}

@@ -1,0 +1,49 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_superlative: regex hit 'zwolniony' (+6), title_sensational: regex hit 'decyzja' (+12)",
+    "content_sensational: phrase 'wyłączony z sankcji' detected (+8), content_credibility: org names detected (-3)",
+    "alignment_score: calculated as 0.55, resulting in penalty of +8 due to medium alignment"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'decyzja', co może sugerować ważne wydarzenie.",
+    "Artykuł zawiera informacje o zwolnieniu spółki Rosnieft z sankcji, co jest istotne, ale nie przesadzone.",
+    "Treść jest zgodna z tytułem, ale nie zawiera mocnych emocji ani przesadnych stwierdzeń."
+  ],
+  "signals": {
+    "title_hits": [
+      "superlative",
+      "sensational"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "USA zwolniło Rosnieft z sankcji",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia sensacji."
+  },
+  "diagnostics": {
+    "tokens_title": 6,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:27:55"
+  },
+  "summary": "Departament Stanu USA ogłosił, że spółka Rosnieft, zarządzana przez Niemców, zostaje zwolniona z amerykańskich sankcji do końca kwietnia 2026 roku. Decyzja ta została potwierdzona przez agencję dpa. Artykuł przedstawia kontekst tej decyzji oraz jej potencjalne skutki.",
+  "id": 1761847728053,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/sankcje-na-rosyjskich-gigantow-naftowych-donald-trump-zrobil-jeden-wyjatek/tbelpxq",
+  "title": "Jest decyzja USA. Rosnieft zwolniony z sankcji"
+}

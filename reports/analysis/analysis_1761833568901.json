@@ -1,0 +1,52 @@
+{
+  "score": 25,
+  "label": "mild",
+  "rationale": [
+    "title_sensational: regex hit 'ostrzelana' (+12), title_alarm: regex hit 'strzały' (+10)",
+    "content_sensational: phrase 'szkoła podstawowa we wsi Włodary została ostrzelana' (+8)",
+    "content_credibility: organization names detected (-3), quoted speakers detected (-2)",
+    "mismatch_alignment_score: calculated alignment score is 0.55, resulting in a penalty of +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słów 'ostrzelana' i 'strzały', co może budzić niepokój.",
+    "Artykuł zawiera informacje o ewakuacji uczniów, co jest poważnym tematem.",
+    "W treści pojawiają się cytaty policji, co zwiększa wiarygodność.",
+    "Tytuł sugeruje dramatyczne wydarzenie, ale treść jest bardziej informacyjna."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational",
+      "alarming"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names",
+      "quoted speakers"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Ewakuacja uczniów w szkole we Włodarach po strzałach",
+    "notes_to_editor": "Zaleca się unikanie alarmujących słów w tytule, aby lepiej odzwierciedlić ton artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 8,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:12:17"
+  },
+  "summary": "W szkole podstawowej we Włodarach doszło do ostrzelania budynku, co spowodowało ewakuację uczniów. Policja zatrzymała podejrzanego mężczyznę. Informacje na temat zdarzenia przekazała lokalna policja.",
+  "id": 1761833568901,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/szkola-we-wlodarach-ostrzelana-doszlo-do-ewakuacji-uczniow/2f7ejdz",
+  "title": "Ewakuacja szkoły. W stronę budynku padły strzały"
+}

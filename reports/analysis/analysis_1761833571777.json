@@ -1,0 +1,51 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_superlative: regex hit 'największy' (+6), title_sensational: regex hit 'szok' (+12), title_curiosity_gap: regex hit 'nie uwierzysz' (+6)",
+    "content_sensational: phrase 'ogromny wzrost wydatków' detected (+8), content_credibility: org names detected (-3), content_credibility: quoted speakers detected (-2)",
+    "alignment_score: 0.55 (medium alignment), penalty applied (+8), no country mismatch, no time omission"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnego słowa 'największy', co tworzy przesadne oczekiwania.",
+    "Artykuł zawiera stwierdzenia o dużych wydatkach, co może być postrzegane jako sensacyjne.",
+    "Tytuł i treść są zgodne, ale niektóre sformułowania mogą wprowadzać w błąd."
+  ],
+  "signals": {
+    "title_hits": [
+      "superlative",
+      "sensational",
+      "curiosity gap"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names",
+      "quoted speakers"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Rumunia domaga się nowych fabryk w zamian za zakupy broni od UE",
+    "notes_to_editor": "Zaleca się unikanie przesadnych sformułowań w tytule, aby zwiększyć wiarygodność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 15,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:14:10"
+  },
+  "summary": "Rumunia domaga się, aby intensyfikacja zbrojeń w Europie przyniosła korzyści wszystkim krajom UE. Minister obrony Liviu-Ionut Moteansu podkreśla, że nowe fabryki i miejsca pracy w Rumunii są kluczowe dla dalszych zakupów broni. Kraj ten ma wiele atutów dla producentów broni, które mogą być wykorzystane w nadchodzących latach.",
+  "id": 1761833571777,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/politico/bukareszt-chce-kawalka-europejskiego-tortu-zbrojeniowego-minister-obrony-stawia/ng05wk5",
+  "title": "Bukareszt chce kawałka europejskiego tortu zbrojeniowego. Minister obrony stawia UE warunek: bez nowych fabryk w Rumunii nie będzie zakupów broni"
+}

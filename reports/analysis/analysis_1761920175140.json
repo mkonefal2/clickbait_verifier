@@ -1,0 +1,48 @@
+{
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "title_superlative: regex hit 'największy' (+6), title_question: regex hit '?' (+4)",
+    "content_sensational: 'może okazać się' (+8), content_hedging: 'może' (-2)",
+    "alignment_score: 0.55 → medium alignment penalty +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'największy', co tworzy przesadne oczekiwania.",
+    "W treści pojawia się niepewność, co zmniejsza jej wiarygodność.",
+    "Artykuł sugeruje, że partia Grzegorza Brauna może mieć znaczenie, ale nie podaje konkretnych dowodów."
+  ],
+  "signals": {
+    "title_hits": [
+      "największy",
+      "?"
+    ],
+    "content_hits": [
+      "może okazać się",
+      "może"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Najnowszy sondaż partyjny dotyczący partii Grzegorza Brauna",
+    "notes_to_editor": "Zaleca się unikanie superlatyw i pytań w tytule, aby zwiększyć neutralność."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:34:41"
+  },
+  "summary": "Najnowszy sondaż partyjny wskazuje, że Koalicja Obywatelska ma największe szanse na zwycięstwo w nadchodzących wyborach. W badaniach uwzględniono także PiS i Konfederację, które odnotowują spadki poparcia. Ugrupowanie Grzegorza Brauna może odegrać istotną rolę w walce o władzę.",
+  "id": 1761920175140,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/partia-grzegorza-brauna-bedzie-rozdawac-karty-najnowszy-sondaz-partyjny/dc17jj2",
+  "title": "Partia Grzegorza Brauna będzie rozdawać karty? Najnowszy sondaż partyjny"
+}

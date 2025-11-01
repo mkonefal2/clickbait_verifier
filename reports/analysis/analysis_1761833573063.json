@@ -1,0 +1,50 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_sensational: regex hit 'awaria' (+12), title_alarm: regex hit 'problemy' (+10)",
+    "content_sensational: phrase 'poważna awaria' detected (+8)",
+    "content_credibility: organization names detected (-3)",
+    "alignment_score: 0.6, medium alignment → penalty +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'awaria', co sugeruje poważny problem.",
+    "Artykuł zawiera informacje o problemach z usługami Microsoftu, co jest zgodne z tytułem.",
+    "W treści pojawiają się konkretne organizacje, co może zmniejszać wiarygodność."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational",
+      "alarm"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.6,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Problemy z dostępem do usług Microsoftu",
+    "notes_to_editor": "Rozważyć użycie mniej dramatycznego języka w tytule."
+  },
+  "diagnostics": {
+    "tokens_title": 8,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:14:46"
+  },
+  "summary": "W artykule opisano poważną awarię usług Microsoftu, która miała miejsce w środę wieczorem. Użytkownicy zgłaszają problemy z dostępem do aplikacji, w tym Microsoft 365. Wspomniano również o potencjalnych problemach z Amazon Web Services.",
+  "id": 1761833573063,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/awaria-uslug-microsoftu-tysiace-zgloszen-z-calego-swiata/cm1ckts",
+  "title": "Awaria usług Microsoftu. Są problemy z dostępem do wielu z nich"
+}

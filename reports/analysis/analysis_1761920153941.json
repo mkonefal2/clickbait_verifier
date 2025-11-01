@@ -1,0 +1,44 @@
+{
+  "score": 24,
+  "label": "not_clickbait",
+  "rationale": [
+    "title_superlative: no hits detected (0), title_absolute: no hits detected (0), title_sensational: no hits detected (0), title_alarming: no hits detected (0), title_curiosity_gap: no hits detected (0), title_listicle: no hits detected (0), title_punctuation: no hits detected (0)",
+    "content_overcertainty: no hits detected (0), content_sensational: no hits detected (0), credibility_org_names: 1 organization detected (-3), credibility_numbers: no hits detected (0), credibility_quoted_speakers: no hits detected (0), credibility_scientific_terms: no hits detected (0), content_hedging: no hits detected (0)",
+    "alignment_score: 0.75, no penalties applied for alignment, no exaggeration gap detected, no country mismatch, no time omission"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jest neutralny i nie zawiera przesadnych słów ani obietnic.",
+    "Artykuł jest informacyjny, zawiera dane o przechwyceniu rosyjskiego samolotu przez polskich pilotów.",
+    "W treści wspomniano o organizacji wojskowej, co zmniejsza wiarygodność, ale nie wpływa na ogólną jakość informacji."
+  ],
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "organization_names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.75,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Polscy piloci przechwycili rosyjski samolot nad Bałtykiem",
+    "notes_to_editor": "Zaleca się unikanie sensationalnych tytułów, aby lepiej odzwierciedlić treść artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 39,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:30:39"
+  },
+  "summary": "Polscy piloci przechwycili trzeci w tym tygodniu rosyjski samolot nad Bałtykiem. Wojsko zapewnia, że nie doszło do naruszenia polskiej przestrzeni powietrznej. Incydent podkreśla rosnącą aktywność rosyjskiego lotnictwa w regionie, a polskie siły zbrojne pozostają w pełnej gotowości bojowej.",
+  "id": 1761920153941,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/polska/news-polscy-piloci-w-akcji-rosyjski-samolot-przechwycony,nId,8036398",
+  "title": "Polscy piloci w akcji. Rosyjski samolot przechwycony"
+}

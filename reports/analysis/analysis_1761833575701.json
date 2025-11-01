@@ -1,0 +1,49 @@
+{
+  "score": 65,
+  "label": "strong",
+  "rationale": [
+    "title_sensational: regex hit 'wrze' (+12), title_alarming: regex hit 'niebezpieczeństwo' (+10)",
+    "content_sensational: phrase 'gwałtowny wzrost' detected (+8), content_hedging: 'może' detected (-2)",
+    "alignment_score: calculated at 0.55, resulting in a penalty of +8 due to medium alignment",
+    "country_mismatch: title implies Poland but content discusses both Poland and Germany, resulting in a penalty of +18"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnego słowa 'wrze', co sugeruje napiętą sytuację.",
+    "W treści pojawia się opis gwałtownego wzrostu liczby uchodźców, co dodaje dramatyzmu.",
+    "Tytuł sugeruje wydarzenie w Polsce, ale treść dotyczy także Niemiec."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational",
+      "alarming"
+    ],
+    "content_hits": [
+      "sensational",
+      "hedging"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": true,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Politycy w Polsce i Niemczech rozważają zmiany w polityce uchodźczej",
+    "notes_to_editor": "Zaleca się unikanie sensacyjnych sformułowań w tytule, aby lepiej odzwierciedlić treść artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:17:34"
+  },
+  "summary": "Artykuł omawia rosnące napięcia w Polsce i Niemczech związane z przybywaniem ukraińskich uchodźców. Politycy w obu krajach rozważają ograniczenie polityki otwartych drzwi w odpowiedzi na wzrost liczby młodych uchodźców. Wskazano na potencjalne zagrożenia dla Ukrainy w kontekście trwającej wojny.",
+  "id": 1761833575701,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/ukraincy-stali-sie-punktem-zapalnym-politico-sprzeciw-w-polsce-i-niemczech/bcwy8qe",
+  "title": "Ukraińscy uchodźcy stali się punktem zapalnym. POLITICO: wrze w Polsce i Niemczech"
+}

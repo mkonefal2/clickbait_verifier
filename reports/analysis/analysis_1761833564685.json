@@ -1,0 +1,50 @@
+{
+  "score": 40,
+  "label": "mild",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'Ale że u Niemca?' (+6)",
+    "content_sensational: phrase 'szuka azylu' detected (+8)",
+    "content_credibility: org names detected (-3)",
+    "alignment_score: calculated as 0.55, resulting in penalty +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera pytanie, które wzbudza ciekawość czytelników.",
+    "W treści użyto sformułowania 'szuka azylu', co dodaje dramatyzmu.",
+    "Artykuł odnosi się do konkretnej osoby, co zmniejsza jego wiarygodność.",
+    "Treść w miarę dobrze odpowiada tytułowi, ale nieco go przeszacowuje."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "org names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": true,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Donald Tusk komentuje wniosek o azyl Karola Nawrockiego.",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia sensacji."
+  },
+  "diagnostics": {
+    "tokens_title": 45,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:10:56"
+  },
+  "summary": "Donald Tusk skomentował wniosek o azyl Karola Nawrockiego, znanego jako 'Wielki Bu', który obecnie przebywa w areszcie w Niemczech. Tusk wyraził zdziwienie, że Nawrocki ubiega się o azyl w Niemczech. Artykuł przedstawia kontekst sytuacji oraz reakcję Tuska na te wydarzenia.",
+  "id": 1761833564685,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/donald-tusk-o-azylu-dla-wielkiego-bu-ale-ze-u-niemca/2t7hk11",
+  "title": "Donald Tusk o azylu dla \"Wielkiego Bu\". \"Ale że u Niemca?\""
+}

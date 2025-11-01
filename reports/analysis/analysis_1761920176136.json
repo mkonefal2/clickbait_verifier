@@ -1,0 +1,48 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_sensational: regex hit 'ujawnia' (+12), title_curiosity_gap: regex hit 'co zrobił' (+6)",
+    "content_sensational: phrase 'celowo manipulował' (+8)",
+    "alignment_score: calculated at 0.6, resulting in a medium alignment penalty of +8",
+    "no country mismatch detected, as content refers to Poland"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'ujawnia', co budzi ciekawość czytelników.",
+    "W treści pojawia się sformułowanie 'celowo manipulował', co dodaje dramatyzmu.",
+    "Artykuł dobrze odnosi się do tytułu, ale niektóre sformułowania mogą być nieco przesadzone."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational",
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.6,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Policja zatrzymała 18-latka za manipulację w transformatorach",
+    "notes_to_editor": "Zaleca się unikanie słów budzących ciekawość, aby tytuł był bardziej neutralny."
+  },
+  "diagnostics": {
+    "tokens_title": 11,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:35:14"
+  },
+  "summary": "Policja zatrzymała 18-letniego mieszkańca Janikowa, który przyznał się do manipulacji w transformatorach energetycznych. Mieszkańcy od września doświadczali czasowych braków w dostawach prądu, które były spowodowane jego działaniami. Teraz grozi mu kara za te czyny.",
+  "id": 1761920176136,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kujawsko-pomorskie/w-janikowie-policja-zatrzymala-18-latka-ujawnia-co-zrobil-swoim-sasiadom/9e5gf2k",
+  "title": "Policja zatrzymała 18-latka. Ujawnia, co zrobił swoim sąsiadom"
+}

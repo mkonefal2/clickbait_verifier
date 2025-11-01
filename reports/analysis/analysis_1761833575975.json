@@ -1,0 +1,52 @@
+{
+  "score": 70,
+  "label": "strong",
+  "rationale": [
+    "title_sensational: regex hit 'wzrasta przemoc' (+12), title_sensational: regex hit 'chłopaka po prostu zatłukli na śmierć' (+12)",
+    "content_sensational: phrase 'tortury — coraz bardziej wyrafinowane' (+8), content_sensational: phrase 'egzekucje w rosyjskim wojsku stają się coraz bardziej masowe' (+8)",
+    "alignment_score: calculated alignment score is 0.55, resulting in penalty of +8",
+    "content_credibility: organization names/sources mentioned (-3), quoted speakers (-2)"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera mocne sformułowanie 'wzrasta przemoc', co może budzić emocje.",
+    "W treści pojawiają się dramatyczne opisy, takie jak 'tortury' i 'masowe egzekucje', co zwiększa wrażenie sensacyjności.",
+    "Treść artykułu jest zgodna z tytułem, ale nieco przesadna, co skutkuje dodatkowymi punktami.",
+    "Artykuł zawiera informacje o źródłach, co zwiększa jego wiarygodność."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational"
+    ],
+    "content_hits": [
+      "sensational",
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names",
+      "quoted speakers"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Rosyjscy żołnierze doświadczają wzrostu przemocy i egzekucji",
+    "notes_to_editor": "Zaleca się unikanie dramatycznych sformułowań w tytule, aby zwiększyć obiektywność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 43,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:17:48"
+  },
+  "summary": "Artykuł opisuje wzrastającą przemoc i egzekucje w rosyjskim wojsku, wskazując na osobiste konflikty między żołnierzami a ich przełożonymi. Zawiera relacje o brutalnych incydentach, w tym torturach i morderstwach, które stają się coraz bardziej powszechne. Informacje pochodzą z niezależnych źródeł, co podkreśla powagę sytuacji.",
+  "id": 1761833575975,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/zerowanie-rosyjskich-zolnierzy-w-wojskach-putina-wzrasta-przemoc/c2ydmd8",
+  "title": "\"Zerowanie\" rosyjskich żołnierzy. W wojskach Putina wzrasta przemoc"
+}

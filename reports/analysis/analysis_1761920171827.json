@@ -1,0 +1,60 @@
+{
+  "score": 24,
+  "label": "not_clickbait",
+  "rationale": [
+    "title_superlative: no hits, (+0)",
+    "title_absolute: no hits, (+0)",
+    "title_sensational: no hits, (+0)",
+    "title_alarming: no hits, (+0)",
+    "title_curiosity_gap: no hits, (+0)",
+    "title_listicle: no hits, (+0)",
+    "title_punctuation: no hits, (+0)",
+    "content_overcertainty: no hits, (+0)",
+    "content_sensational: no hits, (+0)",
+    "credibility_org_names: RMF24.pl detected (-3)",
+    "credibility_numbers: train delays mentioned (-2)",
+    "credibility_quoted_speakers: no hits, (-0)",
+    "credibility_scientific_terms: no hits, (-0)",
+    "content_hedging: no hits, (-0)",
+    "alignment_score: 0.75, no penalty",
+    "exaggeration_gap: false",
+    "country_mismatch: false",
+    "time_omission: false"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł nie zawiera przesadnych słów ani mocnych wyrażeń.",
+    "Artykuł zawiera konkretne informacje o awarii pociągów, co zwiększa jego wiarygodność.",
+    "Nie znaleziono żadnych nieścisłości między tytułem a treścią."
+  ],
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "RMF24.pl detected",
+      "train delays mentioned"
+    ],
+    "mismatch": {
+      "alignment_score": 0.75,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Awaria systemów kolejowych w Słupsku powoduje opóźnienia pociągów",
+    "notes_to_editor": "Zaleca się unikanie sensacyjnych tytułów w przyszłości."
+  },
+  "diagnostics": {
+    "tokens_title": 42,
+    "tokens_content": 299,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:33:31"
+  },
+  "summary": "W Słupsku doszło do awarii systemów sterowania ruchem kolejowym, co spowodowało wstrzymanie ruchu pociągów z kierunku Szczecina i Miastka. Ekipy techniczne pracują nad przywróceniem normalności, a przewoźnicy uruchomili zastępczą komunikację autobusową. Niektóre pociągi już mają znaczne opóźnienia.",
+  "id": 1761920171827,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/trojmiasto/news-paraliz-kolejowy-w-slupsku-awaria-systemow-zatrzymala-pociag,nId,8036378",
+  "title": "Paraliż kolejowy w Słupsku. Awaria systemów zatrzymała pociągi"
+}

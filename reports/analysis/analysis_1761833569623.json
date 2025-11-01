@@ -1,0 +1,46 @@
+{
+  "score": 20,
+  "label": "not_clickbait",
+  "rationale": [
+    "title_hits: no superlatives, absolutes, sensational language, or curiosity gaps detected (0 points)",
+    "content_hits: no sensational phrases detected (0 points)",
+    "credibility_hits: organization names mentioned (-3), no numbers/dates/statistics or quoted speakers detected (0 points)",
+    "alignment_score: content supports title well (0.8), no penalties applied",
+    "no exaggeration gap detected, no country mismatch, no time omission detected"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jest informacyjny i nie zawiera przesadnych słów ani obietnic.",
+    "Artykuł podaje konkretne informacje o zdarzeniu, co zwiększa jego wiarygodność.",
+    "Nie ma żadnych rozbieżności między tytułem a treścią."
+  ],
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "organization names detected"
+    ],
+    "mismatch": {
+      "alignment_score": 0.8,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Zwłoki wyłowione z potoku w Szczawnicy przez strażaków",
+    "notes_to_editor": "Zaleca się unikanie dramatyzacji w tytule, aby lepiej odzwierciedlić treść artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 37,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:12:41"
+  },
+  "summary": "W Szczawnicy, przy ulicy Szlachtowskiej, strażacy wyłowili zwłoki z potoku. Informację tę podał 'Tygodnik Podhalański'. Zdarzenie miało miejsce tuż przed godziną ósmą rano.",
+  "id": 1761833569623,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/krakow/strazacy-wylowili-zwloki-z-potoku-w-szczawnicy/pv9fmlx",
+  "title": "Strażacy wyłowili zwłoki z potoku w Szczawnicy"
+}

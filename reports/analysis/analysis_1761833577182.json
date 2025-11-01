@@ -1,0 +1,49 @@
+{
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "title_sensational: regex hit 'awantura' (+12), title_hits: 'szarpanina' (+12)",
+    "content_sensational: phrase 'nie da się zastraszyć' detected (+8)",
+    "content_credibility: organization names detected (-3)",
+    "alignment_score: calculated as 0.55, resulting in a penalty of +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'awantura', co może budzić sensację.",
+    "W treści pojawia się stwierdzenie burmistrzyni, które również jest emocjonalne.",
+    "Artykuł odnosi się do konkretnego incydentu, co zwiększa jego wiarygodność."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Incydent między burmistrzyni a radnym w Dusznikach-Zdroju",
+    "notes_to_editor": "Rozważyć użycie bardziej neutralnego języka w tytule, aby uniknąć wrażenia sensacji."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:18:31"
+  },
+  "summary": "W Dusznikach-Zdroju doszło do incydentu między nową burmistrzynię Urszulą Karpowicz a radnym Jarosławem Kwolkiem. Awantura, która miała miejsce w restauracji, została zarejestrowana przez kamerę monitoringu. Policja interweniowała w sprawie, a obie strony wydały oświadczenia dotyczące zajścia.",
+  "id": 1761833577182,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/wroclaw/nowa-burmistrzyni-dusznik-zdroju-na-celowniku-kamery-uchwycily-szarpanine/n0lqkj5",
+  "title": "Szarpanina między urzędnikami w Dusznikach-Zdroju. Radny oskarża burmistrzynię"
+}

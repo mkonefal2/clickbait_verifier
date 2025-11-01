@@ -1,0 +1,50 @@
+{
+  "score": 25,
+  "label": "mild",
+  "rationale": [
+    "title_sensational: regex hit 'pijana' (+12), 'szpital' implies serious context (+0), 'oświadczenie' implies official response (+0)",
+    "content_sensational: phrase 'pod wpływem alkoholu' (+8), mention of '3,5 promila' adds shock value (+0)",
+    "credibility_reduction: organization names mentioned (-3), specific statistic of alcohol level (-2)",
+    "alignment_score: calculated alignment score is 0.6, resulting in a medium alignment penalty of +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'pijana', co może budzić sensację i przyciągać uwagę.",
+    "Artykuł zawiera konkretne dane dotyczące poziomu alkoholu, co zwiększa dramatyzm sytuacji.",
+    "Tytuł i treść są zgodne, ale niektóre elementy mogą wprowadzać w błąd."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names",
+      "statistics"
+    ],
+    "mismatch": {
+      "alignment_score": 0.6,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Lekarka przybyła do pracy w Żywcu z wysokim poziomem alkoholu we krwi",
+    "notes_to_editor": "Rozważyć użycie mniej emocjonalnego języka w tytule, aby zwiększyć neutralność."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:38:34"
+  },
+  "summary": "W Żywcu lekarz przybył do pracy z poziomem alkoholu wynoszącym 3,5 promila. Dyrekcja szpitala natychmiast rozwiązała umowę z tą lekarką. Policja potwierdziła incydent, który wzbudził kontrowersje w lokalnej społeczności.",
+  "id": 1761920179951,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/slask/lekarka-przyszla-pijana-do-pracy-w-zywcu-miala-35-promila-alkoholu/ld9nes2",
+  "title": "Lekarka przyszła pijana do pracy w Żywcu. Szpital wydał oświadczenie"
+}

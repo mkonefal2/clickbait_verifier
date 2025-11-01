@@ -1,0 +1,50 @@
+{
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "title_superlative: regex hit 'starszy' (+6), title_curiosity_gap: regex hit 'co przyspiesza' (+6), title_hits_total: 12",
+    "content_sensational: phrase 'starzenie się bywa bezlitosne' (+8), content_hits_total: 8",
+    "content_credibility: org names detected (-3), content_credibility_total: -3",
+    "mismatch_alignment_score: 0.60, penalty: +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'starszy', co może sugerować przesadne oczekiwania.",
+    "Artykuł zawiera stwierdzenia, które mogą być uznane za dramatyczne, ale również przedstawia wiarygodne informacje.",
+    "Treść jest zgodna z tytułem, ale niektóre szczegóły mogą być nieco przesadzone."
+  ],
+  "signals": {
+    "title_hits": [
+      "superlative",
+      "curiosity gap"
+    ],
+    "content_hits": [
+      "sensational phrases"
+    ],
+    "credibility_hits": [
+      "organization names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.6,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Naukowcy odkryli czynniki przyspieszające starzenie mózgu",
+    "notes_to_editor": "Zaleca się unikanie przesadnych sformułowań w tytule, aby zwiększyć wiarygodność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 66,
+    "tokens_content": 295,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:25:13"
+  },
+  "summary": "Artykuł omawia badania dotyczące starzenia się mózgu i czynniki, które mogą wpływać na ten proces. Naukowcy wskazują na sposoby, które mogą pomóc w opóźnieniu starzenia się mózgu oraz zagrożenia, które należy unikać. Podkreślają znaczenie zdrowia mózgu dla jakości życia.",
+  "id": 1761847723237,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/nauka/twoj-mozg-moze-byc-starszy-niz-myslisz-naukowcy-odkryli-co-przyspiesza-jego-starzenie/wxpgn5q",
+  "title": "Twój mózg może być starszy, niż myślisz. Naukowcy odkryli, co przyspiesza jego starzenie"
+}

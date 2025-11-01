@@ -1,0 +1,48 @@
+{
+  "score": 55,
+  "label": "strong",
+  "rationale": [
+    "title_superlative: regex hit 'największy' (+6), title_sensational: regex hit 'szachu' (+12), title_curiosity_gap: regex hit 'nie możemy czekać' (+6)",
+    "content_sensational: phrase 'czas działa na jej niekorzyść' (+8), content_overcertainty: phrase 'Europa wie' (+6)",
+    "alignment_score: 0.5 (medium alignment) → penalty +8, no country mismatch or time omission detected"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnego słowa 'szachu', co może tworzyć przesadne oczekiwania.",
+    "Artykuł zawiera stwierdzenia o pewności, co może budzić wątpliwości co do wiarygodności.",
+    "Tytuł sugeruje pilność sytuacji, ale treść nie dostarcza wystarczających szczegółów."
+  ],
+  "signals": {
+    "title_hits": [
+      "największy",
+      "szachu",
+      "nie możemy czekać"
+    ],
+    "content_hits": [
+      "czas działa na jej niekorzyść"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.5,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "USA i Chiny osiągnęły porozumienie, Europa szuka nowych strategii",
+    "notes_to_editor": "Zaleca się unikanie mocnych słów w tytule, aby zwiększyć neutralność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:37:55"
+  },
+  "summary": "Artykuł omawia porozumienie między USA a Chinami dotyczące kontroli eksportu kluczowych surowców, co przynosi ulgę europejskiemu przemysłowi. Jednakże, autorzy wskazują na wiele wyzwań, przed którymi stoi Europa, w tym kwestie handlowe i wojna w Ukrainie. W obliczu tych problemów, UE rozważa poszukiwanie alternatywnych strategii.",
+  "id": 1761920179090,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/politico/usa-i-chiny-dopiely-swego-europa-w-szachu-nie-mozemy-czekac/cvvty25",
+  "title": "USA i Chiny dopięły swego. Europa w szachu. \"Nie możemy czekać\""
+}

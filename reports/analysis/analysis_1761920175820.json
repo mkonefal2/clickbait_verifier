@@ -1,0 +1,44 @@
+{
+  "score": 24,
+  "label": "not_clickbait",
+  "rationale": [
+    "title_superlative: no hits detected (0), title_absolutes: no hits detected (0), title_sensational: no hits detected (0), title_alarming: no hits detected (0), title_curiosity_gap: no hits detected (0), title_listicle: no hits detected (0), title_punctuation: no hits detected (0)",
+    "content_overcertainty: no hits detected (0), content_sensational: no hits detected (0), credibility_org_names: Polska Agencja Prasowa detected (-3), credibility_numbers: no hits detected (0), credibility_quoted_speakers: no hits detected (0), credibility_scientific_terms: no hits detected (0), content_hedging: no hits detected (0)",
+    "alignment_score: 1.0 (high alignment), no penalties applied, no exaggeration gap, no country mismatch, no time omission penalties."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł nie zawiera mocnych słów ani przesadnych stwierdzeń, co czyni go informacyjnym.",
+    "Artykuł opiera się na wiarygodnym źródle, ale zawiera jedną nazwę organizacji, co nieco obniża jego wiarygodność.",
+    "Treść artykułu w pełni odpowiada tytułowi, co świadczy o wysokiej zgodności."
+  ],
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "Polska Agencja Prasowa"
+    ],
+    "mismatch": {
+      "alignment_score": 1.0,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Sąd nie uwzględnił wniosku o list żelazny dla Bartosza G. w sprawie zabójstwa 16-latki z Mławy",
+    "notes_to_editor": "Zaleca się unikanie używania dramatycznych tytułów, aby zachować neutralność."
+  },
+  "diagnostics": {
+    "tokens_title": 13,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:35:04"
+  },
+  "summary": "Artykuł dotyczy decyzji Sądu Okręgowego w Płocku, który nie uwzględnił wniosku o list żelazny dla Bartosza G., podejrzanego o zabójstwo 16-letniej dziewczyny z Mławy. Bartosz G. został zatrzymany w Grecji na podstawie europejskiego nakazu aresztowania. Sprawa budzi zainteresowanie mediów i opinii publicznej.",
+  "id": 1761920175820,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/zabojstwo-16-latki-z-mlawy-sad-nie-uwzglednil-wniosku-o-list-zelazny-dla-bartosza-g/4zqbgrx",
+  "title": "Zabójstwo 16-latki z Mławy. Sąd nie uwzględnił wniosku o list żelazny dla Bartosza G."
+}

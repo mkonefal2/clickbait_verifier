@@ -1,0 +1,50 @@
+{
+  "score": 55,
+  "label": "strong",
+  "rationale": [
+    "title_superlative: regex hit 'wielkiego męża stanu' (+6), title_sensational: regex hit 'Płacz' (+12), title_curiosity_gap: regex hit 'sam na nią zapracował' (+6)",
+    "content_sensational: phrase 'poniósł klęskę' detected (+8), content_overcertainty: phrase 'największej nadziei' detected (+6)",
+    "alignment_score: 0.5, resulting in a penalty of +8 due to medium alignment",
+    "no country mismatch detected, but time/date omission present due to title not mentioning specific election date"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnego wyrażenia 'wielkiego męża stanu', co tworzy przesadne oczekiwania.",
+    "W artykule pojawiają się dramatyczne sformułowania, takie jak 'poniósł klęskę', co zwiększa emocjonalny ładunek treści.",
+    "Tytuł sugeruje, że Timmermans jest w trudnej sytuacji, ale treść nie wyjaśnia dokładnie, dlaczego tak się stało."
+  ],
+  "signals": {
+    "title_hits": [
+      "superlative",
+      "sensational",
+      "curiosity gap"
+    ],
+    "content_hits": [
+      "sensational",
+      "overcertainty"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.5,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": true
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Frans Timmermans poniósł porażkę w wyborach w Holandii",
+    "notes_to_editor": "Zaleca się unikanie emocjonalnych sformułowań w tytule oraz dodanie konkretnej daty wyborów."
+  },
+  "diagnostics": {
+    "tokens_title": 12,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:36:32"
+  },
+  "summary": "Frans Timmermans, holenderski polityk, poniósł porażkę w wyborach parlamentarnych, co zaskoczyło wielu jego zwolenników. Jego wcześniejsze doświadczenie w Brukseli oraz oskarżenia o 'fanatyzm' przyczyniły się do tego wyniku. Artykuł analizuje przyczyny jego niepowodzenia oraz reakcje europejskich socjaldemokratów.",
+  "id": 1761920178415,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/politico/placz-po-porazce-wielkiego-meza-stanu-timmermans-sam-na-nia-zapracowal-doslownie/vrjh8hd",
+  "title": "Płacz w Europie po porażce \"wielkiego męża stanu\". Timmermans sam na nią zapracował"
+}

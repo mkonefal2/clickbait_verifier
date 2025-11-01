@@ -1,0 +1,46 @@
+{
+  "score": 24,
+  "label": "not_clickbait",
+  "rationale": [
+    "title_alarm: regex hit 'tragedia' (+10), no other title patterns detected.",
+    "content_credibility: organization names detected (-3), no sensational phrases.",
+    "alignment_score: 0.75, high alignment, no penalties applied."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera słowo 'tragedia', które może budzić emocje, ale nie jest przesadny.",
+    "Artykuł przedstawia fakt o wypadku drogowym, co zwiększa jego wiarygodność.",
+    "Treść artykułu bezpośrednio odnosi się do tytułu, co potwierdza jego rzetelność."
+  ],
+  "signals": {
+    "title_hits": [
+      "alarming"
+    ],
+    "content_hits": [],
+    "credibility_hits": [
+      "organization names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.75,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Śmiertelny wypadek drogowy w Brzegu",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć emocjonalnych reakcji."
+  },
+  "diagnostics": {
+    "tokens_title": 6,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:36:00"
+  },
+  "summary": "W Brzegu na drodze krajowej 94 doszło do śmiertelnego wypadku, w którym zginął 56-letni policjant. Mężczyzna jechał rowerem na służbę, gdy został potrącony przez samochód osobowy. Policja prowadzi dochodzenie w sprawie okoliczności wypadku.",
+  "id": 1761920177586,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/opole/tragedia-na-obwodnicy-brzegu-nie-zyje-56-letni-policjant/qbf1txx",
+  "title": "Tragedia na drodze. Nie żyje 56-letni policjant"
+}

@@ -1,0 +1,51 @@
+{
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "title_superlative: regex hit 'nowego' (+6), title_sensational: regex hit 'zaskakujący' (+12), title_curiosity_gap: regex hit 'pojawił się' (+6)",
+    "content_sensational: phrase 'zaskakujący pomysł' detected (+8), content_credibility: org names detected (-3), content_credibility: quoted speakers detected (-2)",
+    "alignment_score: 0.6, applying penalty for medium alignment (+8), no country mismatch or time omission detected"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'zaskakujący', co może budzić ciekawość, ale nie jest przesadnie dramatyczny.",
+    "Artykuł zawiera cytaty i odniesienia do organizacji, co zwiększa jego wiarygodność.",
+    "Treść jest zgodna z tytułem, ale nie wprowadza w błąd co do tematu."
+  ],
+  "signals": {
+    "title_hits": [
+      "superlative: nowego",
+      "sensational: zaskakujący",
+      "curiosity_gap: pojawił się"
+    ],
+    "content_hits": [
+      "sensational: zaskakujący pomysł"
+    ],
+    "credibility_hits": [
+      "org names detected",
+      "quoted speakers detected"
+    ],
+    "mismatch": {
+      "alignment_score": 0.6,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "PiS planuje nowy program socjalny przed wyborami",
+    "notes_to_editor": "Rozważ usunięcie słów wywołujących sensację, aby tytuł był bardziej neutralny."
+  },
+  "diagnostics": {
+    "tokens_title": 15,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:22:30"
+  },
+  "summary": "Artykuł omawia plany partii Prawo i Sprawiedliwość dotyczące wprowadzenia nowego programu socjalnego, który ma być odpowiednikiem 500 plus. Podkreślono, że program powinien być prosty i dostępny dla obywateli, aby przyciągnąć ich głosy w nadchodzących wyborach. W artykule przywołano wypowiedzi liderów partii oraz analizę wpływu na budżet państwa.",
+  "id": 1761847719427,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/pis-szuka-nowego-500-plus-by-wygrac-wybory-pojawil-sie-zaskakujacy-pomysl/fezdbw6",
+  "title": "PiS szuka nowego 500 plus, by wygrać wybory. Pojawił się zaskakujący pomysł"
+}

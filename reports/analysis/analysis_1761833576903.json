@@ -1,0 +1,49 @@
+{
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "title_superlative: regex hit 'całą pulę' (+6), title_curiosity_gap: regex hit 'kluczowy sondaż' (+6), title_punctuation: question mark (+4)",
+    "content_sensational: phrase 'zmiana układu rządzącego' (+8), content_hedging: phrase 'wydaje się' (-2)",
+    "alignment_score: 0.55 → MEDIUM alignment → penalty +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnego wyrażenia 'całą pulę', co może budzić przesadne oczekiwania.",
+    "Artykuł zawiera stwierdzenia, które mogą być interpretowane jako sensacyjne, ale także zawiera pewne zastrzeżenia.",
+    "Treść wspiera tytuł, ale nie w pełni, co sugeruje, że niektóre obietnice tytułu mogą być przesadzone."
+  ],
+  "signals": {
+    "title_hits": [
+      "superlative",
+      "curiosity_gap",
+      "punctuation"
+    ],
+    "content_hits": [
+      "sensational",
+      "hedging"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Konfederacja w kontekście nadchodzących wyborów: wyniki sondażu",
+    "notes_to_editor": "Zaleca się unikanie przesadnych wyrażeń w tytule, aby zwiększyć wiarygodność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:18:23"
+  },
+  "summary": "Artykuł omawia rosnącą rolę Konfederacji w polskiej polityce oraz wyniki najnowszego sondażu SW Research. Zmiany w układzie rządzącym po wyborach parlamentarnych w 2027 roku wydają się prawdopodobne, a kluczowe pytanie dotyczy potencjalnych koalicjantów partii. W artykule przedstawiono opinie Polaków na ten temat.",
+  "id": 1761833576903,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/tylko-w-onecie/konfederacja-gra-o-cala-pule-polacy-odpowiedzieli-na-kluczowe-pytanie-sondaz/2xmjch5",
+  "title": "Konfederacja chce zagrać o całą pulę. Mamy kluczowy sondaż"
+}

@@ -1,0 +1,46 @@
+{
+  "score": 40,
+  "label": "mild",
+  "rationale": [
+    "title_alarm: regex hit 'zagrożenie' (+10), title_sensational: no hits, title_curiosity: no hits, title_superlative: no hits, title_punctuation: no hits",
+    "content_sensational: no hits, content_overcertainty: no hits, content_credibility: org names detected (-3), content_numbers: no hits, content_hedging: no hits",
+    "alignment_score: 0.6 (medium alignment), no country mismatch, no time omission"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera słowo 'zagrożenie', co może budzić niepokój, ale nie ma w nim przesadnych obietnic.",
+    "Artykuł dostarcza informacji o zagrożeniach cybernetycznych dla samorządów, co zwiększa jego wiarygodność.",
+    "Treść artykułu dobrze odpowiada na to, co sugeruje tytuł, co oznacza, że nie ma dużych rozbieżności."
+  ],
+  "signals": {
+    "title_hits": [
+      "title_alarm"
+    ],
+    "content_hits": [],
+    "credibility_hits": [
+      "org names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.6,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Ministerstwo ostrzega przed atakami cyberprzestępców na samorządy",
+    "notes_to_editor": "Rozważ użycie bardziej neutralnego tytułu, aby uniknąć wywoływania niepotrzebnego strachu."
+  },
+  "diagnostics": {
+    "tokens_title": 38,
+    "tokens_content": 292,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:19:25"
+  },
+  "summary": "Pełnomocnik Rządu ds. Cyberbezpieczeństwa ostrzega przed nową falą ataków phishingowych na jednostki samorządu terytorialnego. Oszuści podszywają się pod Ministerstwo Cyfryzacji, próbując wyłudzić wrażliwe dane. Ministerstwo zaleca środki ostrożności, takie jak weryfikacja adresów nadawców i nieotwieranie podejrzanych załączników.",
+  "id": 1761847707826,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/polska/news-samorzady-na-celowniku-cyberprzestepcow-ministerstwo-ostrzeg,nId,8036109",
+  "title": "Samorządy na celowniku cyberprzestępców. Ministerstwo ostrzega"
+}

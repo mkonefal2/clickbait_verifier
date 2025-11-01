@@ -1,0 +1,51 @@
+{
+  "score": 55,
+  "label": "strong",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'jak system sprzyja wyłudzeniom' (+6), title_questions: regex hit '?' (+4)",
+    "content_sensational: phrase 'potężnym polem do finansowych nadużyć' (+8), content_overcertainty: phrase 'wszystko' (-6)",
+    "alignment_score: 0.5 → penalty +8 for medium alignment",
+    "exaggeration_gap: true → penalty +14 due to sensational title but credible content"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera pytanie, co wzbudza ciekawość czytelników.",
+    "W treści użyto mocnych sformułowań, które mogą sugerować sensację.",
+    "Artykuł dostarcza wiarygodnych informacji, ale tytuł może wprowadzać w błąd."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap",
+      "questions"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names",
+      "numbers"
+    ],
+    "mismatch": {
+      "alignment_score": 0.5,
+      "exaggeration_gap": true,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Analiza działania gangu dyrektorek i systemu wyłudzeń",
+    "notes_to_editor": "Zaleca się unikanie pytań w tytule oraz mocnych sformułowań, aby zwiększyć wiarygodność."
+  },
+  "diagnostics": {
+    "tokens_title": 15,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:35:26"
+  },
+  "summary": "Artykuł opisuje działalność gangu dyrektorek, który wykorzystał system szkolnictwa niepublicznego do finansowych nadużyć. Zawiera przykłady oszustw, takie jak fałszywe zapisy na listy obecności. Autor wskazuje na luki w systemie, które umożliwiają takie działania.",
+  "id": 1761920176408,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/lodz/system-sprzyja-wyludzeniom-wyjasniamy-afere-z-gangiem-dyrektorek/h8br229",
+  "title": "Tak działał gang dyrektorek? Wyjaśniamy krok po kroku, jak system sprzyja wyłudzeniom"
+}

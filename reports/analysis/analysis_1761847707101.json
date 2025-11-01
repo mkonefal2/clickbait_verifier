@@ -1,0 +1,48 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_superlative: no hits, content_sensational: 'szok' (+8), content_sensational: 'niewiarygodny' (+12), content_sensational: 'tragedia' (+10), content_credibility: org names detected (-3), content_credibility: numbers detected (-2), content_credibility: quoted speakers detected (-2), mismatch_alignment: alignment score 0.6 (medium alignment, penalty +8)"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł nie zawiera mocnych słów, ale treść zawiera pewne sensacyjne zwroty, co może budzić emocje.",
+    "Artykuł zawiera informacje o zatrzymaniach i nielegalnym obrocie lekami, co zwiększa wiarygodność.",
+    "Tytuł sugeruje wydarzenie w Polsce, a treść rzeczywiście dotyczy Polski."
+  ],
+  "signals": {
+    "title_hits": [],
+    "content_hits": [
+      "szok",
+      "niewiarygodny",
+      "tragedia"
+    ],
+    "credibility_hits": [
+      "organization names",
+      "numbers",
+      "quoted speakers"
+    ],
+    "mismatch": {
+      "alignment_score": 0.6,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Zatrzymano lekarza i księdza w sprawie handlu narkotykami",
+    "notes_to_editor": "Zaleca się unikanie sensacyjnych zwrotów w treści, aby zwiększyć obiektywność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 45,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:19:16"
+  },
+  "summary": "Centralne Biuro Zwalczania Cyberprzestępczości zatrzymało dziesięć osób podejrzanych o handel silnymi lekami opioidowymi, w tym lekarza i księdza. Zatrzymania miały miejsce w kilku województwach, a podczas przeszukań zabezpieczono tysiące tabletek i plastrów z substancjami psychotropowymi. Proceder trwał od 2023 roku, a zatrzymani usłyszeli zarzuty dotyczące obrotu nielegalnymi lekami.",
+  "id": 1761847707101,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/polska/news-lekarz-i-ksiadz-wsrod-zatrzymanych-rozbito-grupe-handlujaca-,nId,8036082",
+  "title": "Lekarz i ksiądz wśród zatrzymanych. Rozbito grupę handlującą narkotykami"
+}

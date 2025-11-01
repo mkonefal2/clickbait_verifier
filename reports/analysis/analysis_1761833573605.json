@@ -1,0 +1,51 @@
+{
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "title_sensational: regex hit 'zaskakujące' (+12), title_curiosity_gap: regex hit 'chcą nowego kraju' (+6)",
+    "content_sensational: phrase 'zaskakujące słowa' detected (+8)",
+    "content_credibility: organization names mentioned (-3), quoted speakers detected (-2)",
+    "alignment_score: 0.6, medium alignment → penalty +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'zaskakujące', co może budzić ciekawość czytelników.",
+    "W artykule pojawiają się cytaty i odniesienia do znanych osób, co zwiększa jego wiarygodność.",
+    "Treść dobrze odpowiada na tytuł, ale nieco przesadza z emocjami."
+  ],
+  "signals": {
+    "title_hits": [
+      "zaskakujące",
+      "chcą nowego kraju"
+    ],
+    "content_hits": [
+      "zaskakujące słowa"
+    ],
+    "credibility_hits": [
+      "organization names",
+      "quoted speakers"
+    ],
+    "mismatch": {
+      "alignment_score": 0.6,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Niemcy rozważają poszerzenie UE o Turcję",
+    "notes_to_editor": "Rozważ zmianę tytułu na bardziej neutralny, aby uniknąć wrażenia przesady."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:15:11"
+  },
+  "summary": "Kanclerz Niemiec Friedrich Merz ogłosił, że jego rząd chce poszerzenia Unii Europejskiej o Turcję. Deklaracja została złożona podczas konferencji z prezydentem Turcji Recepem Tayyipem Erdoganem. Merz podkreślił, że Ankara od dłuższego czasu stara się o dołączenie do UE, mimo że proces akcesyjny napotyka liczne przeszkody.",
+  "id": 1761833573605,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/friedrich-merz-chce-poszerzenia-ue-zaskakujace-slowa-kanclerza-niemiec/8qrpc52",
+  "title": "Niemcy chcą nowego kraju w UE. Zaskakujące słowa kanclerza"
+}

@@ -1,0 +1,49 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_sensational: regex hit 'handlowali' (+12), indicating a sensational action.",
+    "content_sensational: phrase 'znaczną ilością środków odurzających' detected (+8), suggesting a serious issue.",
+    "content_credibility: organization names mentioned (-3), which adds some credibility.",
+    "alignment_score: calculated at 0.6, indicating medium alignment with the title."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'handlowali', co sugeruje poważne działania, co może przyciągać uwagę.",
+    "Artykuł zawiera informacje o lekarzu i księdzu, co zwiększa zainteresowanie czytelników.",
+    "Treść jest zgodna z tytułem, ale nie ma przesadnych obietnic."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.6,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Zatrzymano dziesięć osób, w tym lekarza i księdza, za handel środkami odurzającymi",
+    "notes_to_editor": "Zaleca się unikanie słów sugerujących sensację w tytule, aby zwiększyć wiarygodność."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:24:46"
+  },
+  "summary": "Dziesięć osób, w tym lekarz i ksiądz, zostało zatrzymanych za handel środkami odurzającymi, takimi jak oxykodon i fentanyl. Prokuratura poinformowała, że proceder trwał od 2023 roku. Sprawa wzbudza duże zainteresowanie ze względu na zaangażowanie osób zaufania publicznego.",
+  "id": 1761847722383,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/krakow/handlowali-srodkami-odurzajacymi-wsrod-zatrzymanych-lekarz-i-ksiadz/djn4l7y",
+  "title": "Handlowali środkami odurzającymi. Wśród zatrzymanych lekarz i ksiądz"
+}

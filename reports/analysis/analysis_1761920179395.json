@@ -1,0 +1,46 @@
+{
+  "score": 50,
+  "label": "strong",
+  "rationale": [
+    "title_sensational: regex hit 'wyglądało, jakby próbował uciekać' (+12), title_sensational: regex hit 'ojciec mówił, że ktoś mu groził' (+12)",
+    "content_sensational: phrase 'nie wyklucza udziału osób trzecich' (+8), content_sensational: phrase 'otrzymywał groźby' (+8)",
+    "alignment_score: 0.5, penalty for low alignment (+8), no country mismatch detected, no time omission detected"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera emocjonalne sformułowania, które mogą wzbudzać sensację.",
+    "W treści artykułu znajdują się niepokojące informacje o groźbach i możliwym udziale osób trzecich.",
+    "Treść artykułu w pewnym stopniu wspiera obietnice zawarte w tytule, ale nie w pełni."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.5,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Ciało 18-latka znalezione w Zabłotce, ojciec mówi o groźbach",
+    "notes_to_editor": "Zaleca się unikanie emocjonalnych sformułowań w tytule, aby zwiększyć neutralność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 18,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:38:06"
+  },
+  "summary": "W miejscowości Zabłotce koło Sanoka odnaleziono ciało 18-latka. Lekarz nie wykluczył udziału osób trzecich, a ojciec zmarłego informował o groźbach kierowanych do jego syna. W Przemyślu planowana jest sekcja zwłok, która ma wyjaśnić okoliczności śmierci.",
+  "id": 1761920179395,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/rzeszow/cialo-18-latka-w-miejscowosci-zablotce-ojciec-mowil-ze-ktos-mu-grozil/jxjt0qc",
+  "title": "Ciało 18-latka w miejscowości Zabłotce. \"Wyglądało, jakby próbował uciekać\". Ojciec mówił, że ktoś mu groził"
+}

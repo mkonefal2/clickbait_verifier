@@ -1,0 +1,48 @@
+{
+  "score": 50,
+  "label": "strong",
+  "rationale": [
+    "title_sensational: regex hit 'absurdalnych' (+12), title_curiosity_gap: no hits, title_superlative: no hits, title_absolutes: no hits",
+    "content_sensational: regex hit 'absurdalnych' (+8), content_credibility: org names detected (-3), content_credibility: no numbers/dates/statistics detected, content_credibility: no quoted speakers detected",
+    "alignment_score: 0.5 → penalty +8 for medium alignment"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnego słowa 'absurdalnych', co może budzić sensację.",
+    "Artykuł zawiera informacje o spotkaniu polityków, ale nie zawiera cytatów ani danych, co wpływa na jego wiarygodność.",
+    "Treść artykułu w pewnym stopniu wspiera tytuł, ale nie w pełni."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.5,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Ziobro spotkał się z Orbanem w Budapeszcie.",
+    "notes_to_editor": "Rozważ użycie bardziej neutralnego tytułu, aby uniknąć wrażenia sensacji."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 60,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:19:47"
+  },
+  "summary": "Były minister sprawiedliwości Zbigniew Ziobro spotkał się w Budapeszcie z premierem Węgier Viktorem Orbanem. Spotkanie miało miejsce po wniosku o uchwałę w sprawie uchwały immunitetu Ziobry, który jest oskarżany o 26 przestępstw. Artykuł przedstawia kontekst polityczny tego wydarzenia.",
+  "id": 1761847710026,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/polska/news-ziobro-spotkal-sie-z-orbanem-w-budapeszcie-w-absurdalnych-cz,nId,8036115",
+  "title": "Ziobro spotkał się z Orbanem w Budapeszcie. \"W absurdalnych czasach żyjemy\""
+}

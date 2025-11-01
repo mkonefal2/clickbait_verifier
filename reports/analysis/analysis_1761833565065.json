@@ -1,0 +1,50 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'Tego się obawiamy' (+6)",
+    "content_sensational: phrase 'obawia się, iż jego klient nie uzyska praworządnego postępowania' (+8)",
+    "content_hedging: phrase 'wydaje się' (-2)",
+    "alignment_score: 0.55 → MEDIUM alignment penalty +8",
+    "final score calculation: (title hits 6 * 0.4) + (content hits 8 * 0.15) + (mismatch penalty 8 * 0.4) = 30"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera element niepewności, co może wzbudzać ciekawość czytelników.",
+    "W treści pojawiają się sformułowania sugerujące niepewność co do postępowania prawnego, co może być postrzegane jako sensacyjne.",
+    "Artykuł jest w miarę wiarygodny, ale zawiera pewne elementy, które mogą wprowadzać w błąd."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "hedging"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Adwokat Wielkiego Bu komentuje obawy dotyczące ekstradycji",
+    "notes_to_editor": "Rozważyć usunięcie elementów, które mogą wprowadzać w błąd, aby zwiększyć wiarygodność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 60,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:11:08"
+  },
+  "summary": "Adwokat Patryka M., znanego jako Wielki Bu, wyraził obawy dotyczące możliwości uzyskania sprawiedliwego postępowania karnego w Polsce. Zwrócił uwagę na potencjalne polityczne gier związane z jego klientem oraz na oczekiwane decyzje niemieckiej strony w sprawie ekstradycji i azylu w ciągu dwóch miesięcy.",
+  "id": 1761833565065,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/ekstradycja-wielkiego-bu-jego-adwokat-zabral-glos-tego-sie-obawiamy/p962fbl",
+  "title": "Ekstradycja \"Wielkiego Bu\". Jego adwokat zabrał głos. \"Tego się obawiamy\""
+}

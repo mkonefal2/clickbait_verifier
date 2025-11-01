@@ -1,0 +1,50 @@
+{
+  "score": 50,
+  "label": "strong",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'zaskakująca' (+6), title_questions: regex hit '?' (+4)",
+    "content_sensational: phrase 'może całkowicie odmienić krajobraz finansowy' (+8)",
+    "content_overcertainty: phrase 'nie uszczupliłoby budżetu państwa' (+6)",
+    "mismatch_alignment_score: calculated alignment score 0.5, resulting in penalty +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera słowo 'zaskakująca', co budzi ciekawość czytelników.",
+    "W treści pojawiają się mocne stwierdzenia, które mogą wprowadzać w błąd.",
+    "Artykuł sugeruje, że zmiany mogą mieć ogromny wpływ na finanse Polaków, co może być przesadzone.",
+    "Tytuł i treść są zgodne, ale niektóre stwierdzenia w treści są zbyt pewne."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap",
+      "questions"
+    ],
+    "content_hits": [
+      "sensational",
+      "overcertainty"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.5,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Propozycja likwidacji 800 plus i dodatkowych emerytur w Sejmie",
+    "notes_to_editor": "Rozważyć użycie mniej emocjonalnego języka w tytule, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:19:06"
+  },
+  "summary": "W artykule omawiana jest obywatelska petycja w Sejmie, która proponuje likwidację programu 800 plus oraz trzynastej i czternastej emerytury. W zamian wnioskodawca postuluje zniesienie podatku dochodowego od osób fizycznych. Autorzy petycji twierdzą, że zmiany te mogą przynieść korzyści finansowe dla pracujących Polaków, ale mogą także negatywnie wpłynąć na seniorów.",
+  "id": 1761847706348,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/ekonomia/news-koniec-800-plus-oraz-dodatkowych-emerytur-zaskakujaca-petycj,nId,8036080",
+  "title": "Koniec 800 plus oraz dodatkowych emerytur? Zaskakująca petycja w Sejmie"
+}

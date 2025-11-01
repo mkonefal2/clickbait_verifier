@@ -1,0 +1,52 @@
+{
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "title_superlative: regex hit 'najstarsza' (+6), title_sensational: regex hit 'skarb' (+12), title_curiosity_gap: regex hit 'co się stało' (+6)",
+    "content_sensational: phrase 'rzadkie szczęście' (+8), content_credibility: org names detected (-3), content_credibility: quoted speakers detected (-2)",
+    "alignment_score: 0.60 → medium alignment penalty +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'najstarsza', co może tworzyć przesadne oczekiwania.",
+    "W treści pojawia się sformułowanie 'rzadkie szczęście', które nadaje sensacyjny ton.",
+    "Artykuł zawiera cytaty ekspertów, co zwiększa jego wiarygodność.",
+    "Treść dobrze wspiera obietnice tytułu, ale niektóre sformułowania mogą być uznane za przesadne."
+  ],
+  "signals": {
+    "title_hits": [
+      "najstarsza",
+      "skarb",
+      "co się stało"
+    ],
+    "content_hits": [
+      "rzadkie szczęście"
+    ],
+    "credibility_hits": [
+      "organizacje",
+      "cytaty"
+    ],
+    "mismatch": {
+      "alignment_score": 0.6,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Odkrycie najstarszej larwy komara w bursztynie z czasów dinozaurów",
+    "notes_to_editor": "Rozważyć unikanie słów o silnym ładunku emocjonalnym w tytule."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:31:45"
+  },
+  "summary": "Naukowcy odkryli najstarszą znaną larwę komara, zachowaną w bursztynie z Mjanmy, sprzed 99 milionów lat. Larwa, nazwana Cretosabethes primaevus, jest podobna do współczesnych komarów, co rzuca nowe światło na ewolucję tych owadów. Odkrycie to stanowi ważny krok w badaniach nad historią komarów na Ziemi.",
+  "id": 1761920161521,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/nauka/news-bursztynowa-kapsula-czasu-larwa-komara-z-czasow-dinozaurow,nId,8036397",
+  "title": "Bursztynowa kapsuła czasu: Larwa komara z czasów dinozaurów "
+}

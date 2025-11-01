@@ -1,0 +1,51 @@
+{
+  "score": 60,
+  "label": "strong",
+  "rationale": [
+    "title_sensational: regex hit 'oburzony' (+12), 'fala hejtu' (+12)",
+    "content_sensational: phrases like 'fala gróźb i hejtu' (+8), 'histerycznej, antysemickiej kampanii' (+8)",
+    "alignment_score: calculated at 0.5, resulting in a penalty of +8 for medium alignment",
+    "exaggeration_gap: title is sensational but content has credible sources, resulting in a penalty of +14"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów, takich jak 'oburzony' i 'fala hejtu', co tworzy przesadne oczekiwania.",
+    "Artykuł zawiera emocjonalne opisy sytuacji, co zwiększa wrażenie sensacji.",
+    "Treść jest zgodna z tytułem, ale zawiera również wiarygodne źródła, co zmniejsza efekt przesady."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational",
+      "alarming"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names",
+      "quoted speakers"
+    ],
+    "mismatch": {
+      "alignment_score": 0.5,
+      "exaggeration_gap": true,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Koncert poświęcony twórczości Louisa Lewandowskiego odwołany z powodu gróźb",
+    "notes_to_editor": "Zaleca się unikanie emocjonalnego języka w tytule, aby zwiększyć neutralność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:20:56"
+  },
+  "summary": "Koncert poświęcony twórczości Louisa Lewandowskiego, który miał się odbyć w Wrześni, został odwołany z powodu gróźb i hejtu ze strony antysemickich środowisk. Organizatorzy podkreślili, że decyzja była podyktowana troską o bezpieczeństwo uczestników. Prymas Polski wyraził rozczarowanie odwołaniem wydarzenia, wskazując na religijny charakter repertuaru.",
+  "id": 1761847715419,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/poznan/news-fala-hejtu-i-grozb-przed-koncertem-prymas-polski-oburzony-br,nId,8035727",
+  "title": "Fala hejtu i gróźb przed koncertem. Prymas Polski oburzony, Braun pisze o \"otrzeźwieniu\""
+}

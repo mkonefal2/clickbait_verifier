@@ -1,0 +1,49 @@
+{
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "title_superlative: regex hit 'zrewolucjonizować' (+6), content_sensational: phrase 'zboże, które może zrewolucjonizować' (+8), content_hedging: 'może' detected (-2)",
+    "content_credibility: organization names/sources not mentioned (-3), numbers/statistics not present (-2), quoted speakers not present (-2)"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'zrewolucjonizować', co może sugerować przesadne oczekiwania.",
+    "Artykuł zawiera informacje o zdrowotnych korzyściach sorgo, ale nie podaje konkretnych danych ani cytatów ekspertów."
+  ],
+  "signals": {
+    "title_hits": [
+      "superlative"
+    ],
+    "content_hits": [
+      "sensational",
+      "hedging"
+    ],
+    "credibility_hits": [
+      "organization names",
+      "numbers",
+      "quoted speakers"
+    ],
+    "mismatch": {
+      "alignment_score": 0.6,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Sorgo: zboże o wysokich wartościach odżywczych",
+    "notes_to_editor": "Zaleca się unikanie przesadnych sformułowań w tytule, aby lepiej odzwierciedlić zawartość artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 34,
+    "tokens_content": 298,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:31:54"
+  },
+  "summary": "Artykuł omawia rosnącą popularność sorgo, zboża odpornego na suszę, bogatego w składniki odżywcze i naturalnie bezglutenowego. Opisuje jego korzyści zdrowotne, takie jak wsparcie odporności i stabilizacja poziomu cukru we krwi, oraz zaleca jego włączenie do diety.",
+  "id": 1761920162504,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/nauka/news-zboze-ktore-moze-zrewolucjonizowac-zdrowa-diete,nId,8036379",
+  "title": "Zboże, które może zrewolucjonizować zdrową dietę"
+}

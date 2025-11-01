@@ -1,0 +1,47 @@
+{
+  "score": 55,
+  "label": "strong",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'powód może zaskoczyć' (+6), indicating a curiosity gap.",
+    "content_sensational: phrase 'zaskakująca decyzja' detected (+8), which adds sensationalism.",
+    "alignment_score: calculated as 0.55, indicating medium alignment with a penalty of +8.",
+    "exaggeration_gap: title suggests sensationalism but content maintains some credibility, resulting in a penalty of +14."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł sugeruje, że powód zmiany nazwiska jest zaskakujący, co budzi ciekawość.",
+    "W artykule pojawia się stwierdzenie o 'zaskakującej decyzji', co dodaje dramatyzmu.",
+    "Treść w pewnym stopniu wspiera tytuł, ale są elementy, które mogą wprowadzać w błąd."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": true,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Zabójca 'Pershinga' zmienia nazwisko z powodu skojarzeń.",
+    "notes_to_editor": "Rozważ użycie bardziej neutralnego tytułu, aby uniknąć wrażenia sensacyjności."
+  },
+  "diagnostics": {
+    "tokens_title": 42,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:26:14"
+  },
+  "summary": "Ryszard Bogucki, skazany za zabójstwo 'Pershinga', planuje zmianę nazwiska przed wyjściem z więzienia. Chce uniknąć skojarzeń z osobami publicznymi, które noszą to samo nazwisko. Bogucki ma opuścić zakład karny 8 stycznia 2026 roku.",
+  "id": 1761847724980,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/slask/zabojca-pershinga-zmienia-nazwisko-chodzi-o-czlowieka-prezydenta-nawrockiego/mtznyrs",
+  "title": "Zabójca \"Pershinga\" zmienia nazwisko. Powód może zaskoczyć"
+}

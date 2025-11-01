@@ -1,0 +1,49 @@
+{
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'pomimo tego, że sezon na nie już się zakończył' (+6), indicating a curiosity gap.",
+    "content_sensational: phrase 'burze jak w środku lata' detected (+8), contributing to sensational language.",
+    "content_hedging: 'wydaje się' detected (-2), which reduces credibility.",
+    "alignment_score: calculated at 0.55, resulting in a penalty of +8 due to medium alignment."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł sugeruje zaskakującą sytuację, używając sformułowania 'pomimo tego, że sezon na nie już się zakończył', co budzi ciekawość.",
+    "W treści użyto mocnego wyrażenia 'burze jak w środku lata', co dodaje dramatyzmu.",
+    "Artykuł zawiera pewne niepewności, co zmniejsza jego wiarygodność.",
+    "Treść w pewnym stopniu wspiera tytuł, ale nie w pełni, co prowadzi do średniego dopasowania."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational",
+      "hedging"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Burze w Polsce w październiku, mimo zakończenia sezonu burzowego",
+    "notes_to_editor": "Rozważyć użycie mniej dramatycznych sformułowań w tytule, aby zwiększyć obiektywność."
+  },
+  "diagnostics": {
+    "tokens_title": 75,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:36:22"
+  },
+  "summary": "W ostatnich dniach w Polsce wystąpiły burze, które były bardziej intensywne niż zazwyczaj o tej porze roku. Pomimo zakończenia sezonu burzowego, zjawiska atmosferyczne były wyjątkowo dynamiczne, z silnym wiatrem i opadami deszczu. Artykuł opisuje nietypowe warunki pogodowe, które zaskoczyły mieszkańców.",
+  "id": 1761920178138,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/pogoda/niebo-nad-polska-przeciely-pioruny-skad-sie-wziely-burze-o-tej-porze-roku/ymk6eyj",
+  "title": "Nad Polską pojawiły się burze jak w środku lata, pomimo tego, że sezon na nie już się zakończył"
+}

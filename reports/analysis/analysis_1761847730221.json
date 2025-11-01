@@ -1,0 +1,52 @@
+{
+  "score": 65,
+  "label": "strong",
+  "rationale": [
+    "title_sensational: regex hit 'zatrważające' (+12), title_alarm: regex hit 'przestępstw' (+10), title_curiosity_gap: regex hit 'mamy' (+6)",
+    "content_sensational: phrase 'zorganizowanych linczów' detected (+8), content_credibility: org names detected (-3), content_credibility: quoted speakers detected (-2)",
+    "alignment_score: 0.55, applying medium alignment penalty (+8)"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'zatrważające', co sugeruje, że sytuacja jest bardzo poważna.",
+    "W treści artykułu pojawiają się niepokojące informacje o wzroście przestępstw, co potwierdza tytuł.",
+    "Artykuł zawiera dane statystyczne, co zwiększa jego wiarygodność, ale także używa mocnych sformułowań."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational",
+      "alarm",
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational",
+      "credibility"
+    ],
+    "credibility_hits": [
+      "organization names",
+      "quoted speakers"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Wzrost przestępstw przeciwko Ukraińcom w Polsce",
+    "notes_to_editor": "Zaleca się unikanie mocnych słów w tytule, aby nie wywoływać niepotrzebnego alarmu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:29:10"
+  },
+  "summary": "Artykuł przedstawia wzrost przestępstw przeciwko Ukraińcom w Polsce w ostatnich dwóch latach. Statystyki pokazują, że liczba gróźb karalnych wzrosła o ponad 50%, a przypadków znęcania się o 70%. Ekspert ostrzega przed możliwymi konsekwencjami tej sytuacji.",
+  "id": 1761847730221,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/warszawa/coraz-wiecej-przestepstw-przeciwko-ukraincom-mamy-zatrwazajace-dane/wbtb3js",
+  "title": "Coraz więcej przestępstw przeciwko Ukraińcom. Mamy zatrważające dane"
+}

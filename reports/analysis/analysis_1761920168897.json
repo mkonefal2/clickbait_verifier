@@ -1,0 +1,46 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'nowe fakty' (+6), suggesting undisclosed information.",
+    "content_sensational: phrases like 'przez 27 lat nie wychodziła z mieszkania' (+8) create a sensational tone.",
+    "alignment_score: calculated at 0.55, leading to a penalty of +8 due to medium alignment."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł sugeruje, że w artykule znajdą się nowe, zaskakujące informacje o kobiecie, która nie wychodziła z domu przez 27 lat.",
+    "Treść artykułu zawiera sensacyjne stwierdzenia o sytuacji kobiety, co może wzbudzać emocje.",
+    "Artykuł dostarcza informacji, ale nie spełnia w pełni oczekiwań stawianych przez tytuł."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Kobieta z Świętochłowic, która przez 27 lat nie wychodziła z domu, przesłuchana przez prokuraturę",
+    "notes_to_editor": "Zaleca się unikanie sugestywnych fraz w tytule, aby lepiej odzwierciedlić zawartość artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 46,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:32:59"
+  },
+  "summary": "Pani Mirella z Świętochłowic przez 27 lat nie wychodziła z mieszkania. Po przesłuchaniu w sądzie potwierdziła, że nie była przetrzymywana ani nie doświadczyła przemocy. Prokuratura planuje przesłuchanie jej rodziców w tej sprawie, która dotyczy ewentualnego znęcania się.",
+  "id": 1761920168897,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/slaskie/news-przez-27-lat-nie-wychodzila-z-domu-nowe-fakty-ws-42-latki-ze,nId,8036361",
+  "title": "Przez 27 lat nie wychodziła z domu. Nowe fakty ws. 42-latki ze Świętochłowic"
+}

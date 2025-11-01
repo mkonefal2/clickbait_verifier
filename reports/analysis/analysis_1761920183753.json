@@ -1,0 +1,49 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_sensational: regex hit 'ostrzega' (+12), title_curiosity_gap: regex hit 'niech raz Polak nie będzie mądry po szkodzie' (+6)",
+    "content_sensational: phrase 'niebezpieczeństwami związanymi z eurosceptycznym podejściem' (+8)",
+    "alignment_score: 0.55 (medium alignment) → penalty +8",
+    "no country mismatch detected",
+    "no time omission detected"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'ostrzega', co nadaje mu dramatyczny ton.",
+    "W artykule pojawia się ostrzeżenie o niebezpieczeństwie, co zwiększa emocjonalny ładunek treści.",
+    "Treść w miarę odpowiada obietnicom tytułu, ale nie jest w pełni spójna."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational",
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Radosław Sikorski omawia zagrożenia związane z eurosceptycyzmem w Polsce",
+    "notes_to_editor": "Rozważyć użycie bardziej neutralnego języka w tytule, aby uniknąć wrażenia sensacyjności."
+  },
+  "diagnostics": {
+    "tokens_title": 54,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:41:05"
+  },
+  "summary": "Radosław Sikorski, wicepremier i minister spraw zagranicznych, omawia sytuację na Ukrainie oraz ostrzega przed eurosceptycznym podejściem niektórych polskich polityków. W rozmowie z dziennikarzem Onetu opowiada o swojej książce 'Z okopu do Europy' i podkreśla, że obecnie nie ma zagrożenia inwazji na Polskę ze strony Rosji.",
+  "id": 1761920183753,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/tylko-w-onecie/radoslaw-sikorski-ostrzega-niech-raz-polak-nie-bedzie-madry-po-szkodzie/b7t2ex5",
+  "title": "Sikorski ostrzega. \"Niech raz Polak nie będzie mądry po szkodzie\""
+}

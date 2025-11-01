@@ -1,0 +1,48 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_sensational: regex hit 'ostrzelana' (+12), title_alarm: regex hit 'zagrożenie' (+10)",
+    "content_sensational: phrase 'szkoła została ewakuowana' (+8)",
+    "alignment_score: calculated at 0.6, resulting in a medium alignment penalty of +8",
+    "no country mismatch detected, as both title and content refer to Poland"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'ostrzelana', co może budzić niepokój i tworzyć przesadne oczekiwania.",
+    "Artykuł zawiera informacje o ewakuacji szkoły, co dodaje dramatyzmu do sytuacji.",
+    "Treść artykułu dobrze odpowiada tytułowi, co wskazuje na umiarkowaną zgodność."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational",
+      "alarm"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.6,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Mężczyzna zatrzymany po strzałach w kierunku szkoły we Włodarach",
+    "notes_to_editor": "Zaleca się unikanie słów budzących niepokój w tytule, aby zachować neutralność."
+  },
+  "diagnostics": {
+    "tokens_title": 7,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:13:38"
+  },
+  "summary": "Mężczyzna został zatrzymany przez policję po oddaniu strzałów w kierunku szkoły we wsi Włodary w województwie opolskim. Do incydentu doszło w czwartek rano, a szkoła została ewakuowana w związku z zagrożeniem. Policja prowadzi dalsze dochodzenie w tej sprawie.",
+  "id": 1761833570817,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/opole/strzaly-w-kierunku-szkoly-we-wlodarach-mezczyzna-zatrzymany/es08sdy",
+  "title": "Szkoła we Włodarach ostrzelana. Mężczyzna zatrzymany"
+}

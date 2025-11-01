@@ -1,0 +1,46 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_superlative: regex hit 'najbogatszych' (+6), content_credibility: org names detected (-3), content_credibility: quoted speakers detected (-2), content_credibility: numbers detected (-2), alignment_score: 0.6 (medium alignment) → penalty +8",
+    "The title contains a superlative which creates a sense of importance but does not exaggerate the event. The content is factual and includes credible sources, reducing the overall clickbait score."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'najbogatszych', co podkreśla znaczenie zmarłej osoby, ale nie wprowadza w błąd.",
+    "Artykuł zawiera cytaty i dane, co zwiększa jego wiarygodność, a treść jest zgodna z tytułem."
+  ],
+  "signals": {
+    "title_hits": [
+      "najbogatszych"
+    ],
+    "content_hits": [],
+    "credibility_hits": [
+      "org names detected",
+      "quoted speakers detected",
+      "numbers detected"
+    ],
+    "mismatch": {
+      "alignment_score": 0.6,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Zmarła Barbara Komorowska, współzałożycielka Bakomy, miała 77 lat",
+    "notes_to_editor": "Rozważ użycie bardziej neutralnego tytułu, aby uniknąć wrażenia sensacyjności."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:19:57"
+  },
+  "summary": "Barbara Komorowska, współzałożycielka firmy Bakoma, zmarła w wieku 77 lat. Jej śmierć została uczczona minutą ciszy na sesji rady gminy Teresin. Była znana z działalności społecznej i edukacyjnej w regionie, a także była jedną z najbogatszych Polek.",
+  "id": 1761847710778,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/polska/news-zmarla-wspolzalozycielka-bakomy-barbara-komorowska-miala-77-,nId,8036098",
+  "title": "Zmarła współzałożycielka Bakomy. Barbara Komorowska miała 77 lat"
+}

@@ -1,0 +1,50 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'Pan to wynegocjował' (+6), suggesting a curiosity gap.",
+    "content_sensational: phrase 'wyjść z Unii Europejskiej' is somewhat sensational (+8).",
+    "content_credibility: organization names detected (-3).",
+    "mismatch_alignment_score: calculated alignment score is 0.55, resulting in a penalty of +8."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera zwrot, który budzi ciekawość, sugerując, że coś ważnego zostało wynegocjowane.",
+    "W treści użyto sformułowania, które może być uznane za sensacyjne, co zwiększa emocjonalny ładunek artykułu.",
+    "Artykuł odnosi się do znanych postaci politycznych, co może wpływać na jego wiarygodność.",
+    "Treść jest zgodna z tytułem, ale niektóre szczegóły mogłyby być lepiej wyjaśnione."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Sikorski zwrócił się do Kaczyńskiego w sprawie Unii Europejskiej",
+    "notes_to_editor": "Rozważyć dodanie więcej kontekstu do tytułu, aby uniknąć wrażenia sensacyjności."
+  },
+  "diagnostics": {
+    "tokens_title": 7,
+    "tokens_content": 295,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:21:59"
+  },
+  "summary": "Radosław Sikorski, szef polskiej dyplomacji, zwrócił się do Jarosława Kaczyńskiego podczas spotkania online, komentując jego słowa na temat Unii Europejskiej. Sikorski zasugerował, że Kaczyński powinien rozważyć sposób wyjścia z Unii, nawiązując do sędziego Szmyta. Artykuł przedstawia konfrontację między dwoma prominentnymi politykami w kontekście europejskim.",
+  "id": 1761847718624,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/minister-sikorski-zwrocil-sie-do-jaroslawa-kaczynskiego-pan-to-wynegocjowal/gdzzmkg",
+  "title": "Sikorski zwrócił się do Kaczyńskiego. \"Pan to wynegocjował\""
+}

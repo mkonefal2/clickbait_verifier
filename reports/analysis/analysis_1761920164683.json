@@ -1,0 +1,50 @@
+{
+  "score": 50,
+  "label": "strong",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'zniszczyła' (+6), implying a surprising event.",
+    "content_sensational: phrase 'bardzo udana operacja' detected (+8).",
+    "content_overcertainty: absolute '100%' detected (+6).",
+    "alignment_score: 0.55, resulting in a penalty of +8 for medium alignment.",
+    "no country mismatch detected.",
+    "no time omission detected."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł sugeruje, że Ukraińcy zniszczyli coś niezwykłego, co może wzbudzać ciekawość.",
+    "W treści użyto mocnych sformułowań, co zwiększa dramatyzm opisywanej operacji.",
+    "Artykuł zawiera pewne stwierdzenia, które mogą budzić wątpliwości co do ich wiarygodności."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational",
+      "overcertainty"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Ukraińskie służby zniszczyły rosyjską rakietę Oriesznik",
+    "notes_to_editor": "Rozważ użycie bardziej neutralnego tytułu, aby uniknąć wrażenia sensacji."
+  },
+  "diagnostics": {
+    "tokens_title": 24,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:32:16"
+  },
+  "summary": "Artykuł informuje o zniszczeniu rosyjskiej rakiety Oriesznik przez ukraińskie służby wywiadowcze. Operacja miała miejsce latem 2023 roku na poligonie Kapustin Jar w Rosji. Szef Służb Bezpieczeństwa Ukrainy potwierdził, że zniszczenie rakiety było całkowite i uzyskano 100-proc. potwierdzenie tego wydarzenia.",
+  "id": 1761920164683,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/raporty/raport-wojna-z-rosja/news-ukraina-zniszczyla-rosyjska-rakiete-oriesznik-tajna-operacja,nId,8036368",
+  "title": "Ukraińcy zniszczyli Oriesznika"
+}

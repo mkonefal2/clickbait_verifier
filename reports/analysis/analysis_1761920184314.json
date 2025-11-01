@@ -1,0 +1,48 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'może usłyszeć zarzuty' (+6)",
+    "content_hedging: 'może' detected (-2)",
+    "content_sensational: 'wezwany do prokuratury' (+8)",
+    "alignment_score: 0.6 → medium alignment penalty +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł sugeruje, że Daniel Obajtek może mieć poważne problemy prawne, co wzbudza ciekawość.",
+    "Artykuł zawiera niepewne sformułowania, co obniża jego wiarygodność.",
+    "Treść jest zgodna z tytułem, ale nie dostarcza szczegółowych informacji."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "hedging",
+      "sensational"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.6,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Daniel Obajtek wezwany do prokuratury w sprawie Orlen.",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia sensacji."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:41:27"
+  },
+  "summary": "Daniel Obajtek został wezwany do Prokuratury Regionalnej w Warszawie w związku z podejrzeniami o przekroczenie uprawnień podczas jego kadencji jako prezesa Orlen. Spółka miała wydać blisko 3 mln zł na usługi detektywów. Obajtek ma stawić się na przesłuchanie 12 listopada.",
+  "id": 1761920184314,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/warszawa/nieoficjalnie-daniel-obajtek-wezwany-do-prokuratury-moze-uslyszec-zarzuty/5vltmfq",
+  "title": "Nieoficjalnie: Daniel Obajtek wezwany do prokuratury. Może usłyszeć zarzuty"
+}

@@ -1,0 +1,50 @@
+{
+  "score": 40,
+  "label": "mild",
+  "rationale": [
+    "title_alarm: regex hit 'grożą' (+10), title_sensational: regex hit 'szykany' (+12)",
+    "content_sensational: phrase 'szykany, zatrzymania i przesłuchania' (+8), content_overcertainty: phrase 'muszą się liczyć' (+6)",
+    "alignment_score: 0.55, resulting in penalty +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słów 'grożą' i 'szykany', co może wywoływać niepokój.",
+    "W treści pojawiają się mocne sformułowania dotyczące zagrożeń dla Polaków w Rosji.",
+    "Artykuł zawiera informacje o zaleceniach ambasadora, co zwiększa jego wiarygodność."
+  ],
+  "signals": {
+    "title_hits": [
+      "title_alarm",
+      "title_sensational"
+    ],
+    "content_hits": [
+      "content_sensational",
+      "content_overcertainty"
+    ],
+    "credibility_hits": [
+      "quoted speakers"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Ambasador Polski ostrzega przed wyjazdem do Rosji na Wszystkich Świętych",
+    "notes_to_editor": "Rozważyć złagodzenie języka w tytule, aby uniknąć wrażenia sensacyjności."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:31:00"
+  },
+  "summary": "Ambasador Polski w Moskwie, Krzysztof Krajewski, ostrzega Polaków przed wyjazdem do Rosji na Wszystkich Świętych. Zwraca uwagę na ryzyko szykan i prowokacji ze strony rosyjskich służb. Uroczystości upamiętniające Polaków na cmentarzach w Rosji będą miały szczególny charakter z powodu dewastacji miejsc pamięci.",
+  "id": 1761920156987,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/swiat/news-ambasador-ostrzega-przed-wyjazdem-do-rosji-polakom-groza-szy,nId,8036346",
+  "title": "Ambasador ostrzega przed wyjazdem do Rosji. Polakom grożą szykany"
+}

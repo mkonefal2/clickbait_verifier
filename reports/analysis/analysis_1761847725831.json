@@ -1,0 +1,51 @@
+{
+  "score": 65,
+  "label": "strong",
+  "rationale": [
+    "title_superlative: regex hit 'rewolucja' (+6), title_sensational: regex hit 'najbardziej agresywny' (+12), title_curiosity_gap: regex hit 'nadchodzi' (+6)",
+    "content_sensational: regex hit 'geopolityczna rewolucja' (+8), content_overcertainty: absolute 'wszystkie' detected (+6), content_sensational: phrase 'fundamentalnej zmianie' (+8)",
+    "alignment_score: 0.55, resulting in a penalty of +8, as the title suggests a dramatic change while the content provides a more measured analysis."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnego słowa 'rewolucja', co może budzić przesadne oczekiwania.",
+    "W treści pojawiają się zwroty sugerujące dramatyczne zmiany w gospodarce, co potwierdza sensacyjny charakter artykułu.",
+    "Tytuł sugeruje coś rewolucyjnego, ale treść jest bardziej stonowana i analityczna."
+  ],
+  "signals": {
+    "title_hits": [
+      "rewolucja",
+      "najbardziej agresywny",
+      "nadchodzi"
+    ],
+    "content_hits": [
+      "geopolityczna rewolucja",
+      "fundamentalnej zmianie"
+    ],
+    "credibility_hits": [
+      "wszystkie"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Kraje zwiększają rezerwy złota w obliczu zmian geopolitycznych",
+    "notes_to_editor": "Zaleca się unikanie mocnych słów i zwrotów, które mogą wprowadzać w błąd czytelników."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:26:49"
+  },
+  "summary": "Artykuł omawia rosnący popyt na złoto w kontekście zmian geopolitycznych. Wzrost cen metali szlachetnych jest postrzegany jako sygnał fundamentalnych zmian w globalnym porządku finansowym. Autor wskazuje, że kraje przestają ufać dolarowi i zwracają się ku metalom szlachetnym jako alternatywie.",
+  "id": 1761847725831,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/dotychczasowy-porzadek-upada-kraje-rozpoczely-nerwowy-wyscig-po-zloto/mk5rv9h",
+  "title": "Skarbce państwowe wypełniają się złotem. Nadchodzi rewolucja"
+}

@@ -1,0 +1,53 @@
+{
+  "score": 75,
+  "label": "extreme",
+  "rationale": [
+    "title_sensational: regex hit 'brutalne' (+12), 'szok' (+12)",
+    "title_curiosity_gap: regex hit 'nie uwierzysz' (+6)",
+    "content_sensational: phrases like 'brutalne sceny' (+8)",
+    "mismatch_alignment_score: 0.4, penalty +18",
+    "mismatch_exaggeration_gap: true, penalty +14"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów, takich jak 'brutalne', co tworzy przesadne oczekiwania.",
+    "Artykuł zawiera dramatyczne opisy wydarzeń, co zwiększa jego sensacyjność.",
+    "Tytuł sugeruje, że wydarzenia dotyczą Polski, ale treść dotyczy Chicago.",
+    "Tytuł obiecuje szokujące informacje, ale treść nie dostarcza wystarczających dowodów."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational",
+      "curiosity gap"
+    ],
+    "content_hits": [
+      "sensational phrases"
+    ],
+    "credibility_hits": [
+      "organization names",
+      "statistics"
+    ],
+    "mismatch": {
+      "alignment_score": 0.4,
+      "exaggeration_gap": true,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Brutalne wydarzenia w Chicago związane z operacją federalną",
+    "notes_to_editor": "Zaleca się unikanie przesadnych słów w tytule oraz skupienie się na faktach."
+  },
+  "diagnostics": {
+    "tokens_title": 46,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:15:22"
+  },
+  "summary": "Artykuł opisuje brutalne działania federalnych agentów w Chicago w ramach operacji egzekwowania przepisów imigracyjnych. Zawiera relacje o starciach z protestującymi oraz aresztowaniach nieudokumentowanych migrantów. Wydarzenia te wywołują kontrowersje i obawy wśród mieszkańców.",
+  "id": 1761833573909,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/jestes-martwy-brutalna-sceny-na-ulicach-chicago-operacja-wymyka-sie-spod-kontroli/ffclgv8",
+  "title": "\"Jesteś martwy, liberale\". Dantejskie sceny na ulicach Chicago"
+}

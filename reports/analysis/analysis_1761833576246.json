@@ -1,0 +1,57 @@
+{
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "title_superlative: no hits, (+0)",
+    "title_absolutes: no hits, (+0)",
+    "title_sensational: no hits, (+0)",
+    "title_alarming: no hits, (+0)",
+    "title_curiosity_gap: no hits, (+0)",
+    "title_listicle: no hits, (+0)",
+    "title_punctuation: no questions, (+0)",
+    "content_overcertainty: no hits, (+0)",
+    "content_sensational: no hits, (+0)",
+    "credibility_reductions: org names detected (-3), numbers/dates/statistics detected (-2)",
+    "hedging_reductions: no hits, (+0)",
+    "alignment_score: 0.6, no penalty",
+    "exaggeration_gap: false, no penalty",
+    "country_mismatch: false, no penalty",
+    "time_omission: false, no penalty"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł nie zawiera mocnych słów ani przesady, ale może budzić pewne zainteresowanie.",
+    "Artykuł zawiera informacje o grobie powstańca, co zwiększa jego wiarygodność.",
+    "Nie ma niezgodności geograficznych ani pominięć czasowych w treści."
+  ],
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "organization names detected",
+      "numbers/dates/statistics detected"
+    ],
+    "mismatch": {
+      "alignment_score": 0.6,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Grób powstańca warszawskiego Aleksandra Nawrockiego wymaga pilnej uwagi",
+    "notes_to_editor": "Rozważyć dodanie więcej kontekstu historycznego, aby zwiększyć zainteresowanie czytelników."
+  },
+  "diagnostics": {
+    "tokens_title": 51,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:17:59"
+  },
+  "summary": "Artykuł opisuje historię Aleksandra Nawrockiego, jedynego powstańca warszawskiego pochowanego w Mielnie, którego grób popada w ruinę. Wskazuje na brak zainteresowania ze strony społeczności oraz zagrożenie likwidacją mogiły z powodu nieopłacenia. Autor podkreśla znaczenie pamięci o bohaterach i potrzebę ich upamiętnienia.",
+  "id": 1761833576246,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/szczecin/aleksander-nawrocki-zapomniany-powstaniec-warszawski-z-mielna-co-dalej-z-jego-grobem/v3mqyww",
+  "title": "Był powstańcem warszawskim, zmarł w samotności. Jego grób popada w ruinę"
+}

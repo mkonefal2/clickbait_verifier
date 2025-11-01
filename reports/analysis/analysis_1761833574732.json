@@ -1,0 +1,47 @@
+{
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "title_superlative: regex hit 'najlepszy' (+6), title_absolute: regex hit 'na pewno' (+8), content_overcertainty: absolute detected in content (+6), content_sensational: 'zagrożenie' detected (+10), content_hedging: 'może' detected (-2), alignment_score: 0.5 (medium alignment) → penalty +8",
+    "Total title score: 14, total content score: 24, total penalties: 18, final score calculation: (14 * 0.4) + (24 * 0.15) - (18 * 0.4) = 5.6 + 3.6 - 7.2 = 2.0, capped at 45."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'najlepszy', co może tworzyć przesadne oczekiwania, a także zawiera absolut 'na pewno'.",
+    "W treści pojawia się słowo 'zagrożenie', co nadaje sensacyjny charakter, ale także użyto słowa 'może', co zmniejsza wiarygodność.",
+    "Tytuł i treść są do siebie w miarę zgodne, ale niektóre stwierdzenia w treści są mniej pewne."
+  ],
+  "signals": {
+    "title_hits": [
+      "najlepszy",
+      "na pewno"
+    ],
+    "content_hits": [
+      "zagrożenie",
+      "może"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.5,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Ekspert wskazuje na czynniki wpływające na decyzje Władimira Putina",
+    "notes_to_editor": "Zaleca się unikanie używania superlatywów i absolutów w tytule, aby zwiększyć neutralność."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:17:01"
+  },
+  "summary": "Artykuł omawia czynniki, które mogą wpłynąć na decyzje Władimira Putina w kontekście konfliktu na Ukrainie. Ekspert Tadeusz Iwański wskazuje, że jedynym sposobem na zmuszenie Putina do ustępstw jest zagrożenie wewnętrzne. Zawiera również komentarze dotyczące frustracji Donalda Trumpa w związku z sankcjami.",
+  "id": 1761833574732,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/sankcje-mogly-zaskoczyc-wladimira-putina-trump-na-pewno-jest-sfrustrowany/43x8dkv",
+  "title": "Tylko to może powstrzymać Władimira Putina. Ekspert nie ma wątpliwości"
+}

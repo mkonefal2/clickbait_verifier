@@ -1,0 +1,52 @@
+{
+  "score": 25,
+  "label": "mild",
+  "rationale": [
+    "title_sensational: regex hit 'ostrzelany' (+12), title_alarming: regex hit 'niebezpieczeństwo' (+10)",
+    "content_sensational: phrase 'narażenie innych na niebezpieczeństwo' (+8)",
+    "content_credibility: organization names mentioned (-3), numbers mentioned (-2)",
+    "mismatch_alignment_score: 0.65 (medium alignment) → penalty +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'ostrzelany', co może wywoływać niepokój.",
+    "W artykule pojawiają się informacje o ewakuacji dzieci, co dodaje dramatyzmu.",
+    "Artykuł zawiera dane liczbowe i informacje o policji, co zwiększa wiarygodność.",
+    "Tytuł i treść są zgodne, ale nieco przesadzone w kontekście zagrożenia."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational",
+      "alarming"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names",
+      "numbers"
+    ],
+    "mismatch": {
+      "alignment_score": 0.65,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Incydent w szkole we Włodarach: ewakuacja dzieci po strzałach",
+    "notes_to_editor": "Zaleca się unikanie słów wywołujących strach w tytule, aby zachować neutralność."
+  },
+  "diagnostics": {
+    "tokens_title": 5,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:29:21"
+  },
+  "summary": "Budynek szkoły we Włodarach został ostrzelany, prawdopodobnie z wiatrówki. Policja zatrzymała mężczyznę, który może być związany z incydentem. Ewakuacja uczniów została przeprowadzona, a w budynku nie odnotowano poszkodowanych.",
+  "id": 1761920152465,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/polska/news-budynek-szkoly-we-wlodarach-ostrzelany-ewakuacja-dzieci,nId,8035966",
+  "title": "Ostrzelany budynek szkoły we Włodarach"
+}

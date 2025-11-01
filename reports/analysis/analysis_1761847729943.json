@@ -1,0 +1,52 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_sensational: regex hit 'wisi na włosku' (+12), title_alarm: regex hit 'nowi ranni' (+10)",
+    "content_sensational: phrase 'wciąż brakuje jedzenia i podstawowych środków medycznych' (+8)",
+    "content_credibility: org names detected (-3), quoted speakers detected (-2)",
+    "mismatch_alignment: alignment score 0.55, penalty +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów 'wisi na włosku', co sugeruje dramatyczną sytuację.",
+    "Artykuł zawiera informacje o braku jedzenia i rannej ludności, co zwiększa emocjonalny wydźwięk.",
+    "W treści pojawiają się organizacje i cytaty, co podnosi wiarygodność informacji.",
+    "Tytuł i treść są zgodne, ale niektóre sformułowania mogą budzić wątpliwości."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational",
+      "alarm"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names",
+      "quoted speakers"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Rozejm w Gazie w trudnej sytuacji. Wciąż przybywa nowych rannych.",
+    "notes_to_editor": "Zaleca się unikanie dramatycznych sformułowań w tytule, aby zwiększyć obiektywność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 12,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:28:59"
+  },
+  "summary": "Artykuł opisuje trudną sytuację w Strefie Gazy, gdzie mimo zawieszenia broni, wciąż dochodzi do nowych ofiar. W regionie brakuje podstawowych środków medycznych i żywności, co prowadzi do ostrego niedożywienia wśród dzieci. Wypowiedzi przedstawicieli organizacji humanitarnych podkreślają dramatyczne warunki życia mieszkańców.",
+  "id": 1761847729943,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/tylko-w-onecie/rozejm-w-strefie-gazy-wisi-na-wlosku-wciaz-trafiaja-do-nas-nowi-ranni/5xst906",
+  "title": "Rozejm w Gazie wisi na włosku. \"Wciąż trafiają do nas nowi ranni\""
+}

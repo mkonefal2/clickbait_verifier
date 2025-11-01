@@ -1,0 +1,48 @@
+{
+  "score": 40,
+  "label": "mild",
+  "rationale": [
+    "title_superlative: regex hit 'najwyższym' (+6), title_superlative: regex hit 'najwyższym' (+6), content_sensational: phrase 'kamień milowy w historii światowej architektury' (+8), content_credibility: org names detected (-3), content_credibility: numbers detected (-2)",
+    "alignment_score: 0.55 (medium alignment), penalty +8 for medium alignment"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnego słowa 'najwyższym', co tworzy przesadne oczekiwania.",
+    "W artykule pojawiają się stwierdzenia o znaczeniu wydarzenia, co dodaje dramatyzmu.",
+    "Artykuł zawiera dane liczbowe, co zwiększa jego wiarygodność."
+  ],
+  "signals": {
+    "title_hits": [
+      "najwyższym"
+    ],
+    "content_hits": [
+      "kamień milowy w historii światowej architektury"
+    ],
+    "credibility_hits": [
+      "org names detected",
+      "numbers detected"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Sagrada Familia w Barcelonie osiągnęła nową wysokość",
+    "notes_to_editor": "Rozważ użycie mniej dramatycznych sformułowań w tytule, aby zwiększyć neutralność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:31:11"
+  },
+  "summary": "Bazylika Sagrada Família w Barcelonie osiągnęła wysokość 162,91 metra, stając się najwyższym kościołem na świecie. Zamontowano pierwszy element krzyża na szczycie centralnej wieży, a finalna wysokość ma wynieść 172 metry. Budowa trwa od 1882 roku i ma być ukończona w 2026 roku, w setną rocznicę śmierci architekta Antoniego Gaudíego.",
+  "id": 1761920158253,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/swiat/news-historyczny-dzien-w-barcelonie-sagrada-familia-najwyzszym-ko,nId,8036350",
+  "title": "Historyczny dzień w Barcelonie: Sagrada Familia najwyższym kościołem na świecie"
+}

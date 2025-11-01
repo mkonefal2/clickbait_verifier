@@ -1,0 +1,60 @@
+{
+  "score": 24,
+  "label": "not_clickbait",
+  "rationale": [
+    "title_superlative: no hits (+0)",
+    "title_absolute: no hits (+0)",
+    "title_sensational: no hits (+0)",
+    "title_alarming: no hits (+0)",
+    "title_curiosity_gap: no hits (+0)",
+    "title_listicle: no hits (+0)",
+    "title_punctuation: no hits (+0)",
+    "content_overcertainty: no hits (+0)",
+    "content_sensational: no hits (+0)",
+    "credibility_org_names: Polska Agencja Prasowa detected (-3)",
+    "credibility_numbers: no hits (-0)",
+    "credibility_quoted_speakers: Scott Bessent detected (-2)",
+    "credibility_scientific_terms: no hits (-0)",
+    "credibility_hedging: no hits (-0)",
+    "alignment_score: 0.8 (high alignment, no penalty)",
+    "exaggeration_gap: false",
+    "country_mismatch: false",
+    "time_omission: false"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł nie zawiera przesadnych słów ani wyrażeń, co sprawia, że jest informacyjny.",
+    "Artykuł opiera się na wiarygodnych źródłach, takich jak Polska Agencja Prasowa.",
+    "Nie ma niezgodności między tytułem a treścią, co zwiększa jego rzetelność."
+  ],
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "Polska Agencja Prasowa",
+      "Scott Bessent"
+    ],
+    "mismatch": {
+      "alignment_score": 0.8,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "USA i Chiny osiągnęły porozumienie w sprawie kontroli eksportu metali ziem rzadkich",
+    "notes_to_editor": "Zaleca się unikanie sensacyjnych sformułowań w przyszłych tytułach."
+  },
+  "diagnostics": {
+    "tokens_title": 16,
+    "tokens_content": 292,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:16:47"
+  },
+  "summary": "Artykuł informuje o porozumieniu między USA a Chinami, które dotyczy zawieszenia chińskich kontroli eksportu metali ziem rzadkich. Sekretarz skarbu USA, Scott Bessent, ogłosił, że w zamian za to USA zawieszają restrykcje na zakup nowoczesnej technologii przez chińskie firmy. Porozumienie ma obowiązywać przez rok.",
+  "id": 1761833574464,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/porozumienie-usa-z-chinami-sekretarz-skarbu-zdradzil-co-waszyngton-obiecal-pekinowi/etty4vb",
+  "title": "Porozumienie USA z Chinami. Sekretarz skarbu zdradził, co Waszyngton obiecał Pekinowi"
+}

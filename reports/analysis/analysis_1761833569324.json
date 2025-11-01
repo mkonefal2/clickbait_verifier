@@ -1,0 +1,48 @@
+{
+  "score": 50,
+  "label": "strong",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'współpraca ze znanym posłem' (+6), title_sensational: regex hit 'tajemniczy oszust' (+12)",
+    "content_sensational: phrase 'sprawiał wrażenie, że ma do zaoferowania dużo' (+8), content_hedging: phrase 'wydaje się' (-2)",
+    "alignment_score: 0.5, penalty for medium alignment (+8)"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera intrygujące sformułowanie 'tajemniczy oszust', co wzbudza ciekawość.",
+    "W treści pojawiają się sformułowania sugerujące sensację, co może wprowadzać w błąd.",
+    "Tytuł i treść są w miarę zgodne, ale niektóre fragmenty mogą wprowadzać wątpliwości."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap",
+      "sensational"
+    ],
+    "content_hits": [
+      "sensational",
+      "hedging"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.5,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Oszust i jego współpraca z posłem KO",
+    "notes_to_editor": "Zaleca się unikanie sensacyjnych sformułowań w tytule oraz treści, aby zwiększyć wiarygodność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 37,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:12:31"
+  },
+  "summary": "Artykuł opisuje historię Andrzeja R., skazania za oszustwa oraz jego współpracę z detektywem Krzysztofem Rutkowskim i politykiem Dariuszem Jońskim. Zawiera informacje o oszustwach, które doprowadziły do jego skazania oraz kontekście jego działań.",
+  "id": 1761833569324,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/tajemniczy-oszust-i-wspolpraca-ze-znanym-poslem-ko/8fr926s",
+  "title": "Tajemniczy oszust i współpraca ze znanym posłem KO"
+}

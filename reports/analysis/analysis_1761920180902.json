@@ -1,0 +1,47 @@
+{
+  "score": 60,
+  "label": "strong",
+  "rationale": [
+    "title_sensational: regex hit 'Nie jedź na Białoruś. Być może nie wrócisz' (+12), implying danger and urgency.",
+    "content_sensational: phrases like 'atak hybrydowy' and 'cisza przed burzą' detected (+8).",
+    "alignment_score: calculated as 0.55, indicating medium alignment with title, resulting in a penalty of +8.",
+    "country_mismatch: title implies a focus on Poland, but the content primarily discusses Lithuania, resulting in a penalty of +18."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera mocne sformułowanie sugerujące niebezpieczeństwo, co może wzbudzać niepokój.",
+    "W treści użyto dramatycznych fraz, które podkreślają napiętą sytuację na granicy.",
+    "Artykuł dotyczy Litwy, mimo że tytuł sugeruje, że chodzi o Polskę, co wprowadza w błąd."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": true,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Sytuacja na granicy Litwy i Białorusi: zagrożenia i reakcje",
+    "notes_to_editor": "Zaleca się unikanie dramatycznych sformułowań w tytule, aby zwiększyć wiarygodność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:39:08"
+  },
+  "summary": "Artykuł opisuje napiętą sytuację na granicy Litwy i Białorusi, gdzie białoruskie gangi przemytnicze wprowadzają niepokój w przestrzeni powietrznej. Litwa planuje podjąć środki odwetowe wobec działań Mińska, które są postrzegane jako atak hybrydowy. Władze Litwy ostrzegają przed możliwymi konsekwencjami dla osób podróżujących do Białorusi.",
+  "id": 1761920180902,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/napieta-sytuacja-na-wschodniej-flance-nato-sasiad-polski-reaguje/h506lc6",
+  "title": "\"Nie jedź na Białoruś. Być może nie wrócisz\". Reportaż z Litwy"
+}

@@ -1,0 +1,51 @@
+{
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "title_superlative: regex hit 'zaskakujący' (+6), title_hits: 'sporo tracą' suggests exaggeration (+6), title_curiosity_gap: 'zaskakujący powrót' implies a curiosity gap (+6)",
+    "content_sensational: 'zaskakujący powrót' in content (+8), content_overcertainty: 'wszyscy politycy tracą' (+6), credibility_reduction: organization names mentioned (-3), numbers/statistics mentioned (-2)"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'zaskakujący', co może tworzyć przesadne oczekiwania.",
+    "Artykuł zawiera informacje o spadku zaufania polityków, co jest nieco sensacyjne, ale zawiera również dane statystyczne, co zwiększa wiarygodność.",
+    "Tytuł sugeruje, że wszyscy politycy tracą zaufanie, co jest przesadzone."
+  ],
+  "signals": {
+    "title_hits": [
+      "superlative: zaskakujący",
+      "exaggeration: sporo tracą",
+      "curiosity_gap: zaskakujący powrót"
+    ],
+    "content_hits": [
+      "sensational: zaskakujący powrót",
+      "overcertainty: wszyscy politycy tracą"
+    ],
+    "credibility_hits": [
+      "organization names",
+      "numbers/statistics"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Nowy sondaż pokazuje spadek zaufania Sikorskiego i Tuska",
+    "notes_to_editor": "Rozważyć użycie bardziej neutralnego języka w tytule, aby uniknąć wrażenia przesady."
+  },
+  "diagnostics": {
+    "tokens_title": 12,
+    "tokens_content": 295,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:40:51"
+  },
+  "summary": "Najnowszy sondaż IBRiS pokazuje, że zaufanie do polityków w Polsce spada, szczególnie w przypadku Radosława Sikorskiego i Donalda Tuska. Rafał Trzaskowski również doświadcza lekkiego kryzysu, podczas gdy Szymon Hołownia pozostaje na ostatnim miejscu. Artykuł przedstawia szczegóły dotyczące wyników sondażu oraz zmiany w zaufaniu do polityków.",
+  "id": 1761920183473,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/tylko-w-onecie/nowy-sondaz-sikorski-i-tusk-sporo-traca-zaskakujacy-powrot-na-szczyt/6zs4l14",
+  "title": "Nowy sondaż: Sikorski i Tusk sporo tracą. Zaskakujący powrót na szczyt"
+}

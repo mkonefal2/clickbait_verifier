@@ -1,0 +1,53 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_superlative: regex hit 'największy' (+6), title_sensational: regex hit 'szaleją' (+12), title_alarming: regex hit 'zagrożenie' (+10)",
+    "content_sensational: phrase 'groźny wypadek' detected (+8), content_credibility: org names detected (-3), content_credibility: numbers detected (-2), content_credibility: quoted speakers detected (-2)",
+    "alignment_score: 0.6, no penalty applied, no country mismatch, no time omission"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnego słowa 'szaleją', co może sugerować przesadę.",
+    "Artykuł zawiera informacje o liczbie interwencji strażaków oraz konkretne przypadki, co zwiększa wiarygodność.",
+    "Tytuł sugeruje poważne zagrożenie, ale treść jest bardziej informacyjna."
+  ],
+  "signals": {
+    "title_hits": [
+      "superlative",
+      "sensational",
+      "alarming"
+    ],
+    "content_hits": [
+      "sensational",
+      "credibility"
+    ],
+    "credibility_hits": [
+      "organization names",
+      "numbers",
+      "quoted speakers"
+    ],
+    "mismatch": {
+      "alignment_score": 0.6,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Silny wiatr i ulewy w Polsce powodują interwencje strażaków",
+    "notes_to_editor": "Zaleca się unikanie przesadnych sformułowań w tytule, aby lepiej odzwierciedlić treść artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 5,
+    "tokens_content": 299,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:19:37"
+  },
+  "summary": "W Polsce występują silne wiatry i ulewy, które spowodowały 1265 interwencji strażaków do godziny 18. Najwięcej zgłoszeń dotyczy województwa mazowieckiego. W Lubinie doszło do wypadku, w którym ranne zostały cztery osoby, gdy drzewo przewrócone przez wiatr spadło na drogę.",
+  "id": 1761847708866,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/polska/news-wichury-szaleja-nad-polska-ponad-1200-interwencji-strazakow-,nId,8036125",
+  "title": "Wichury szaleją nad Polską"
+}

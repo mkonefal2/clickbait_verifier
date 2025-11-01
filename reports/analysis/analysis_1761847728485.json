@@ -1,0 +1,51 @@
+{
+  "score": 65,
+  "label": "strong",
+  "rationale": [
+    "title_sensational: regex hit 'dreszcz' (+12), 'zapowiedź' (+12)",
+    "content_sensational: phrase 'przeszedł dreszcz' detected (+8)",
+    "content_hedging: 'sceptyczni' indicates uncertainty (-2)",
+    "alignment_score: calculated as 0.55, resulting in penalty of +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słów 'dreszcz' i 'zapowiedź', co nadaje mu sensacyjny charakter.",
+    "W treści pojawiają się sformułowania wywołujące emocje, takie jak 'przeszedł dreszcz'.",
+    "Artykuł zawiera pewne wątpliwości, co zmniejsza jego wiarygodność.",
+    "Tytuł i treść są w dużej mierze zgodne, ale nieco przesadzone."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational",
+      "curiosity gap"
+    ],
+    "content_hits": [
+      "sensational phrases"
+    ],
+    "credibility_hits": [
+      "hedging"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Trump zapowiada testy broni atomowej, eksperci wyrażają wątpliwości",
+    "notes_to_editor": "Rozważyć użycie bardziej neutralnego języka w tytule, aby uniknąć sensacyjności."
+  },
+  "diagnostics": {
+    "tokens_title": 12,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:28:05"
+  },
+  "summary": "Donald Trump ogłosił zamiar przeprowadzenia testów broni atomowej, argumentując, że inne mocarstwa, takie jak Chiny i Rosja, również to robią. Jego zapowiedź budzi obawy i przypomina czasy zimnej wojny. Eksperci jednak są sceptyczni co do realności tych testów.",
+  "id": 1761847728485,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/trump-zapowiedzial-test-broni-jadrowej-swiat-sie-wzdrygnal-fizycy-sa-sceptyczni/718f0p4",
+  "title": "Zapowiedź Trumpa sprawiła, że przez świat przeszedł dreszcz. Fizycy są sceptyczni"
+}

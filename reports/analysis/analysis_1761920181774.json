@@ -1,0 +1,50 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_sensational: regex hit 'drużyny ludowe' (+12), implying unusual or extraordinary groups.",
+    "content_sensational: phrase 'wspierać służby graniczne' suggests a dramatic involvement (+8).",
+    "content_credibility: org names detected (-3), as the article cites TASS.",
+    "mismatch_alignment: alignment score calculated as 0.55, resulting in a penalty of +8."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'drużyny ludowe', co może sugerować coś niezwykłego.",
+    "Artykuł zawiera informacje o wsparciu dla służb granicznych, co może brzmieć dramatycznie.",
+    "W artykule cytowane są źródła, co zmniejsza jego wiarygodność.",
+    "Treść artykułu jest zgodna z tytułem, ale nie w pełni spełnia jego obietnice."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Rosja tworzy grupy wsparcia przy granicy z Finlandią",
+    "notes_to_editor": "Rozważyć użycie bardziej neutralnego języka w tytule, aby uniknąć wrażenia sensacyjności."
+  },
+  "diagnostics": {
+    "tokens_title": 40,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:39:43"
+  },
+  "summary": "Władze Karelii ogłosiły utworzenie 'drużyn ludowych', które mają wspierać służby graniczne w ochronie granicy z Finlandią. Informację przekazał szef władz regionu, Artur Parfenczikow, cytowany przez agencję TASS. Inicjatywa ta ma na celu wzmocnienie bezpieczeństwa w rejonie granicznym.",
+  "id": 1761920181774,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/rosja-formuje-druzyny-ludowe-przy-granicy-z-finlandia/ellrz3g",
+  "title": "Rosja formuje \"drużyny ludowe\" przy granicy z Finlandią"
+}

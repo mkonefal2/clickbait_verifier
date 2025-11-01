@@ -1,0 +1,48 @@
+{
+  "score": 55,
+  "label": "strong",
+  "rationale": [
+    "title_sensational: regex hit 'grozy' (+12), title_curiosity_gap: regex hit 'zobacz co się stało' (+6)",
+    "content_sensational: phrase 'sytuacja mogła skończyć się tragicznie' (+8), content_overcertainty: absolute 'nikt nie ucierpiał' (+6)",
+    "alignment_score: 0.55, medium alignment → penalty +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'grozy', co sugeruje dramatyczny charakter zdarzenia.",
+    "Artykuł zawiera stwierdzenie, że nikt nie ucierpiał, co może budzić wątpliwości co do bezpieczeństwa sytuacji.",
+    "Treść dobrze odpowiada obietnicy tytułu, ale nieco przesadza z dramatyzmem."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational",
+      "curiosity gap"
+    ],
+    "content_hits": [
+      "sensational",
+      "overcertainty"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Incydent z taksówką pod dworcem PKP w Zielonej Górze",
+    "notes_to_editor": "Zaleca się unikanie dramatycznych słów w tytule, aby zachować neutralność."
+  },
+  "diagnostics": {
+    "tokens_title": 14,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:10:04"
+  },
+  "summary": "W Zielonej Górze taksówka samoistnie ruszyła spod dworca i wjechała na ruchliwą ulicę, co mogło prowadzić do poważnych konsekwencji. Kierująca próbowała zatrzymać pojazd, ale przez pomyłkę dodała gazu, co doprowadziło do uderzenia w latarnię. Policja ukarała ją mandatem za nieopanowanie pojazdu.",
+  "id": 1761833561994,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/news-chwile-grozy-pod-dworcem-pkp-auto-bez-kierowcy-wjechalo-na-r,nId,8035976",
+  "title": "Chwile grozy pod dworcem PKP. Auto bez kierowcy wjechało na ruchliwą ulicę [FILM]"
+}

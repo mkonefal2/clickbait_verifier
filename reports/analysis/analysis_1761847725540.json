@@ -1,0 +1,47 @@
+{
+  "score": 55,
+  "label": "strong",
+  "rationale": [
+    "title_sensational: regex hit 'uderza' (+12), 'lubię patrzeć' (+12)",
+    "content_sensational: phrase 'to przestępca i powinien siedzieć w więzieniu' (+8)",
+    "alignment_score: 0.6, medium alignment → penalty +8",
+    "exaggeration_gap: title is sensational but content has credibility → penalty +14"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów, takich jak 'uderza', co sugeruje dramatyczny ton.",
+    "W treści pojawiają się sensacyjne stwierdzenia, które mogą budzić kontrowersje.",
+    "Treść w pewnym stopniu wspiera obietnice tytułu, ale nie w pełni, co wpływa na ocenę."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.6,
+      "exaggeration_gap": true,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Donald Trump krytykuje Joego Bidena w mediach społecznościowych",
+    "notes_to_editor": "Zaleca się unikanie sensacyjnego języka w tytule, aby zwiększyć wiarygodność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:26:35"
+  },
+  "summary": "Donald Trump skrytykował Joego Bidena, nazywając go przestępcą, który powinien trafić do więzienia. W swoim wpisie w mediach społecznościowych odniósł się do politycznego śledztwa z 2022 roku, które dotyczyło jego osoby. W artykule podano szczegóły tej krytyki oraz kontekst polityczny.",
+  "id": 1761847725540,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/donald-trump-uderza-w-joego-bidena-szumowina-i-nieudacznik/e1320t5",
+  "title": "Donald Trump uderza w Joego Bidena. \"Lubię patrzeć, jak się wije\""
+}

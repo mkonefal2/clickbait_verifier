@@ -1,0 +1,47 @@
+{
+  "score": 60,
+  "label": "strong",
+  "rationale": [
+    "title_superlative: regex hit 'niewiele osób zna' (+6), title_sensational: regex hit 'niewiarygodny' (+12), title_curiosity_gap: regex hit 'niewiele osób zna' (+6)",
+    "content_sensational: regex hit 'niewiarygodny' (+8), content_hedging: 'może' detected (-2)",
+    "alignment_score: 0.55, penalty for medium alignment (+8), no country mismatch or time omission detected"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera mocne sformułowania, które mogą wzbudzać ciekawość, takie jak 'niewiele osób zna'.",
+    "Artykuł używa słowa 'niewiarygodny', co może sugerować przesadę, ale zawiera również elementy wiarygodne.",
+    "Treść artykułu jest zgodna z tytułem, ale nieco przesadna w swoim tonie."
+  ],
+  "signals": {
+    "title_hits": [
+      "niewiele osób zna",
+      "niewiarygodny"
+    ],
+    "content_hits": [
+      "niewiarygodny"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Polskie zwyczaje pogrzebowe, które warto znać",
+    "notes_to_editor": "Rozważyć użycie mniej sensationalnych sformułowań w tytule, aby zwiększyć wiarygodność."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:10:32"
+  },
+  "summary": "Artykuł opisuje unikalne polskie zwyczaje pogrzebowe, takie jak zasłanianie luster i zapalanie świec, które mają na celu zapewnienie spokoju duszy zmarłego. Wspomina o tradycji 'pustej nocy' oraz praktykach mających na celu odpędzenie złych duchów. Autor podkreśla znaczenie tych obyczajów w kulturze polskiej.",
+  "id": 1761833563759,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/cala-wies-obchodzila-pusta-noc-nietypowe-polskie-zwyczaje-pogrzebowe/1vqp6r0",
+  "title": "Zmarły z wódką w ręku i chlebem na trumnie. Niewiele osób zna ten rytuał"
+}

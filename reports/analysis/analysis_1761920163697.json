@@ -1,0 +1,44 @@
+{
+  "score": 20,
+  "label": "not_clickbait",
+  "rationale": [
+    "title_superlative: no hits (+0), title_absolute: no hits (+0), title_sensational: no hits (+0), title_alarming: no hits (+0), title_curiosity_gap: no hits (+0), title_listicle: no hits (+0), title_punctuation: no hits (+0)",
+    "content_overcertainty: no hits (+0), content_sensational: no hits (+0), content_credibility: org names detected (-3), content_numbers: no hits (+0), content_quoted: no hits (+0), content_scientific: no hits (+0), content_hedging: no hits (+0)",
+    "alignment_score: 1.0, no penalty, country_mismatch: false, time_omission: false"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł nie zawiera przesadnych słów ani emocjonalnych wyrażeń.",
+    "Artykuł przedstawia konkretne informacje o wniosku o uchwałę immunitetu Zbigniewa Ziobry, co zwiększa jego wiarygodność.",
+    "Treść i tytuł są zgodne, co świadczy o wysokiej spójności."
+  ],
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "organization names detected"
+    ],
+    "mismatch": {
+      "alignment_score": 1.0,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Ziobro odebrał wniosek o uchwałę immunitetu",
+    "notes_to_editor": "Zaleca się unikanie tytułów, które mogą być interpretowane jako sensacyjne."
+  },
+  "diagnostics": {
+    "tokens_title": 9,
+    "tokens_content": 49,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:32:04"
+  },
+  "summary": "Zbigniew Ziobro odebrał wniosek o uchwałę immunitetu, który został do niego skierowany. Informacje te zostały potwierdzone przez dziennikarza Tomasza Skory, który wskazał, że doręczenie miało miejsce przez system informacyjny Sejmu.",
+  "id": 1761920163697,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/polityka/news-nieoficjalnie-ziobro-odebral-wniosek-ws-uchylenia-immunitetu,nId,8036383",
+  "title": "Nieoficjalnie: Ziobro odebrał wniosek ws. uchylenia immunitetu"
+}

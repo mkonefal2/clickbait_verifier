@@ -1,0 +1,51 @@
+{
+  "score": 40,
+  "label": "mild",
+  "rationale": [
+    "title_sensational: regex hit 'cyrk' (+12), title_sensational: regex hit 'niewiarygodny' (+12)",
+    "content_sensational: phrase 'znęcanie się nad zwierzętami' detected (+8)",
+    "content_credibility: organization names detected (-3), content_credibility: numbers detected (-2)",
+    "alignment_score: 0.55, resulting in penalty +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'cyrk', co może budzić sensację i ciekawość.",
+    "Artykuł zawiera informacje o znęcaniu się nad zwierzętami, co jest dramatyczne.",
+    "W treści pojawiają się konkretne dane, co zwiększa jej wiarygodność."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational"
+    ],
+    "content_hits": [
+      "sensational",
+      "credibility"
+    ],
+    "credibility_hits": [
+      "organization names",
+      "numbers"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Mężczyzna oskarżony o nielegalne przetrzymywanie lwów i tygrysa",
+    "notes_to_editor": "Rozważyć użycie bardziej neutralnego tytułu, aby uniknąć wrażenia sensacyjności."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:32:49"
+  },
+  "summary": "Mieszkaniec Czchowa został oskarżony o nielegalne posiadanie dwóch lwów afrykańskich i tygrysa bengalskiego. Oprócz tego zarzuca mu się znęcanie się nad zwierzętami oraz fałszowanie dokumentacji. Grozi mu do 5 lat więzienia za te przestępstwa.",
+  "id": 1761920167917,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/krakow/news-niezly-cyrk-trzymal-w-klatkach-dwa-lwy-i-tygrysa,nId,8036360",
+  "title": "Niezły cyrk. Trzymał w klatkach dwa lwy i tygrysa"
+}

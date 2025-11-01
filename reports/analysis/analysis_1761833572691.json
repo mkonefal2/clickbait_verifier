@@ -1,0 +1,49 @@
+{
+  "score": 60,
+  "label": "strong",
+  "rationale": [
+    "title_alarm: regex hit 'tragedia' (+10), title_sensational: regex hit 'śmiertelna pułapka' (+12), title_curiosity: regex hit 'co jeszcze ma na sumieniu' (+6)",
+    "content_sensational: phrase 'narażając tym samym kierowców oraz pieszych na śmierć' (+8), content_overcertainty: phrase 'wróci teraz za kraty' (+6)",
+    "alignment_score: 0.55 → MEDIUM alignment penalty +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa alarmującego słowa 'tragedia', co tworzy przesadne oczekiwania.",
+    "Artykuł zawiera zdania sugerujące poważne zagrożenie dla życia, co zwiększa dramatyzm.",
+    "Tytuł sugeruje, że mężczyzna jest recydywistą, co nie jest w pełni rozwinięte w treści."
+  ],
+  "signals": {
+    "title_hits": [
+      "alarm: tragedia",
+      "sensational: śmiertelna pułapka",
+      "curiosity: co jeszcze ma na sumieniu"
+    ],
+    "content_hits": [
+      "sensational: narażając tym samym kierowców oraz pieszych na śmierć",
+      "overcertainty: wróci teraz za kraty"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Mężczyzna rozwiesił metalowy drut w ulicy, stwarzając zagrożenie",
+    "notes_to_editor": "Rozważyć użycie mniej dramatycznego języka w tytule, aby lepiej odzwierciedlić treść artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:14:36"
+  },
+  "summary": "W Zawierciu 44-letni mężczyzna rozwiesił metalowy drut w poprzek ulicy, co stwarzało poważne zagrożenie dla kierowców i pieszych. Sprawca, recydywista, został zatrzymany przez policję. Artykuł podkreśla niebezpieczeństwo związane z takim działaniem.",
+  "id": 1761833572691,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/slask/o-wlos-od-tragedii-w-zawierciu-44-latek-rozwiesil-metalowy-drut-w-poprzek-ulicy/lq22q67",
+  "title": "O włos od tragedii. 44-latek rozwiesił metalowy drut w poprzek ulicy"
+}

@@ -1,0 +1,50 @@
+{
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'nawet 50 mld dol.' (+6)",
+    "content_sensational: phrase 'mocno uderzą' detected (+8)",
+    "content_hedging: phrase 'jeśli ta presja na Moskwę zostanie utrzymana' detected (-2)",
+    "alignment_score: calculated at 0.55, resulting in a penalty of +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera wyrażenie 'nawet 50 mld dol.', które wzbudza ciekawość.",
+    "W treści użyto mocnego sformułowania 'mocno uderzą', co może sugerować dramatyzm.",
+    "Artykuł zawiera pewne niepewności, co zmniejsza jego wiarygodność.",
+    "Treść dobrze wspiera tytuł, ale nieco odbiega od obietnicy."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "hedging"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Analizy Ukrainy wskazują na możliwe straty Rosji z powodu sankcji.",
+    "notes_to_editor": "Zaleca się unikanie przesadnych sformułowań w tytule, aby zwiększyć wiarygodność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:27:45"
+  },
+  "summary": "Ukraina przedstawiła wstępne analizy wpływu nowych sankcji na Rosję, które mogą wynieść co najmniej 50 miliardów dolarów rocznie. Prezydent Wołodymyr Zełenski podkreślił znaczenie utrzymania presji na Moskwę, aby osiągnąć zamierzone cele. Artykuł omawia również kontekst polityczny i ekonomiczny związany z tymi sankcjami.",
+  "id": 1761847727501,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/sankcje-mocno-uderza-w-rosje-ukraina-ma-pierwsze-analizy-nawet-50-mld-dol/ry753gk",
+  "title": "Sankcje mocno uderzą w Rosję? Ukraina ma pierwsze analizy. \"Nawet 50 mld dol.\""
+}

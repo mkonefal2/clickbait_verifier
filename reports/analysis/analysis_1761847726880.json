@@ -1,0 +1,53 @@
+{
+  "score": 75,
+  "label": "extreme",
+  "rationale": [
+    "title_superlative: regex hit 'najkrwawsza' (+6), title_sensational: regex hit 'krwawa' (+12), title_alarming: regex hit 'tragedia' (+10), title_curiosity_gap: regex hit 'co się stało' (+6)",
+    "content_sensational: phrase 'najkrwawsza akcja policji w historii' (+8), content_credibility: organization names detected (-3), content_credibility: statistics detected (-2), content_credibility: quoted speakers detected (-2)",
+    "alignment_score: 0.4 (LOW alignment) → penalty +18, exaggeration_gap: true → penalty +14"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów 'najkrwawsza' i 'tragedia', co tworzy przesadne oczekiwania.",
+    "Artykuł zawiera dane liczbowe i odniesienia do organizacji, co może zwiększać wiarygodność, ale także obniża ją przez brak cytatów ekspertów.",
+    "Tytuł sugeruje dramatyczne wydarzenie, ale treść nie dostarcza wystarczających informacji, aby to uzasadnić."
+  ],
+  "signals": {
+    "title_hits": [
+      "najkrwawsza",
+      "krwawa",
+      "tragedia",
+      "co się stało"
+    ],
+    "content_hits": [
+      "najkrwawsza akcja policji w historii"
+    ],
+    "credibility_hits": [
+      "organizacje",
+      "statystyki",
+      "cytaty"
+    ],
+    "mismatch": {
+      "alignment_score": 0.4,
+      "exaggeration_gap": true,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Operacja policji w Brazylii zakończona tragedią - 130 ofiar",
+    "notes_to_editor": "Zaleca się unikanie przesadnych słów i dramatyzacji w tytule, aby lepiej odzwierciedlić treść artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:27:19"
+  },
+  "summary": "W Brazylii miała miejsce tragiczna operacja policyjna, w wyniku której zginęło co najmniej 130 osób. To wydarzenie zostało określone jako najkrwawsza akcja policji w historii Rio de Janeiro. Prezydent kraju wyraził swoje zaniepokojenie sytuacją.",
+  "id": 1761847726880,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/krwawa-operacja-policji-w-brazylii-nie-zyje-130-osob-prezydent-wstrzasniety/r6c13th",
+  "title": "Krwawa operacja policji w Brazylii. Nie żyje 130 osób. Prezydent wstrząśnięty"
+}

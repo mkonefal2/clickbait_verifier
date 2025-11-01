@@ -1,0 +1,51 @@
+{
+  "score": 50,
+  "label": "strong",
+  "rationale": [
+    "title_sensational: regex hit 'ujawniamy' (+12), indicating sensational language.",
+    "title_curiosity_gap: regex hit 'nowe fakty' (+6), creating curiosity.",
+    "content_sensational: phrase 'śmierć Damiana' has a sensational tone (+8).",
+    "content_hedging: use of 'nie wiemy' suggests uncertainty (-2).",
+    "alignment_score: calculated as 0.55, indicating medium alignment with a penalty of +8."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'ujawniamy', co sugeruje sensacyjny charakter informacji.",
+    "W artykule pojawia się stwierdzenie 'śmierć Damiana', które ma emocjonalny ładunek.",
+    "Treść nie do końca odpowiada obietnicy tytułu, co wpływa na wiarygodność."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational",
+      "curiosity gap"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "hedging"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Nowe informacje o śmierci Damiana po policyjnym pościgu",
+    "notes_to_editor": "Zaleca się unikanie sensacyjnych sformułowań w tytule, aby zwiększyć wiarygodność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 43,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:23:51"
+  },
+  "summary": "Artykuł opisuje okoliczności śmierci Damiana Pawełoszka po policyjnym pościgu. Policja ustaliła, że przyczyną była upadek z masztu telekomunikacyjnego, jednak śledczy nie skontaktowali się z właścicielem masztu, co budzi wątpliwości co do przeprowadzonych działań. Właściciel terenu nie odnotował żadnych uszkodzeń, co może sugerować inne okoliczności zdarzenia.",
+  "id": 1761847720518,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/ujawniamy-smierc-damiana-po-policyjnym-poscigu-sledczy-nie-sprawdzili-kluczowej/knftmgj",
+  "title": "Śmierć Damiana po policyjnym pościgu. Ujawniamy nowe fakty"
+}

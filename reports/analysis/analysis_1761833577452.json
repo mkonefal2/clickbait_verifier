@@ -1,0 +1,50 @@
+{
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "title_sensational: regex hit 'afera' (+12), title_curiosity_gap: regex hit 'jest apel policji' (+6)",
+    "content_sensational: phrase 'nieznani sprawcy' detected (+8)",
+    "credibility_reduction: organization names/sources mentioned (-3)",
+    "alignment_score: 0.55, medium alignment penalty +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'afera', co nadaje mu sensacyjny charakter.",
+    "W treści pojawia się zwrot 'nieznani sprawcy', co również zwiększa dramatyzm.",
+    "Artykuł zawiera informacje o policji, co dodaje wiarygodności, ale tytuł może wprowadzać w błąd."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational",
+      "curiosity gap"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Policja poszukuje sprawców kradzieży popiersia marszałka Piłsudskiego w Radwanicach",
+    "notes_to_editor": "Zaleca się unikanie sensacyjnych słów w tytule, aby zachować neutralność."
+  },
+  "diagnostics": {
+    "tokens_title": 13,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:18:41"
+  },
+  "summary": "W Radwanicach skradziono popiersie marszałka Józefa Piłsudskiego o wartości około 22 tys. zł. Policja apeluje o pomoc w ustaleniu sprawców i prosi o kontakt osoby, które mogą mieć informacje na ten temat. W artykule zamieszczono zdjęcie z monitoringu.",
+  "id": 1761833577452,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/wroclaw/ukradli-popiersie-marszalka-pilsudskiego-nad-ranem-policja-apeluje-o-pomoc/74rc9fj",
+  "title": "Nad ranem ukradli popiersie marszałka Piłsudskiego. Afera w Radwanicach. Jest apel policji"
+}

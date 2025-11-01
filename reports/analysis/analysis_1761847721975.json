@@ -1,0 +1,49 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_alarm: regex hit 'tragedia' (+10), title_sensational: regex hit 'przepraszam' (+12)",
+    "content_sensational: phrase 'tragiczne wydarzenia' detected (+8), content_credibility: org names detected (-3)",
+    "alignment_score: calculated at 0.55, resulting in a penalty of +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'tragedia', co może budzić emocje i zainteresowanie.",
+    "W treści pojawia się sformułowanie 'tragiczne wydarzenia', co również zwiększa dramatyzm.",
+    "Artykuł zawiera informacje o decyzji sądu, co zwiększa jego wiarygodność."
+  ],
+  "signals": {
+    "title_hits": [
+      "alarm",
+      "sensational"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Decyzja sądu w sprawie 13-letniego brata zamordowanego 17-latka",
+    "notes_to_editor": "Rozważyć użycie mniej emocjonalnych sformułowań w tytule, aby zwiększyć neutralność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 14,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:24:37"
+  },
+  "summary": "Artykuł informuje o decyzji sądu dotyczącej 13-letniego chłopca, który zabił swojego 17-letniego brata. Chłopiec został umieszczony w zamkniętym schronisku dla nieletnich na trzy miesiące. W treści opisano dramatyczne okoliczności zdarzenia oraz reakcję rodziny.",
+  "id": 1761847721975,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/zabojstwo-17-latka-jest-decyzja-sadu-w-sprawie-jego-13-letniego-brata/5dhwkx0",
+  "title": "Jest decyzja sądu po zabójstwie 17-latka na Lubelszczyźnie. \"Przepraszam mamo\""
+}

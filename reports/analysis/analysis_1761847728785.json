@@ -1,0 +1,48 @@
+{
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "title_sensational: regex hit 'aresztować' (+12), title_curiosity_gap: regex hit 'chce go aresztować' (+6)",
+    "content_sensational: phrase 'co za stan rzeczy' detected (+8)",
+    "alignment_score: calculated at 0.55, resulting in a penalty of +8 due to medium alignment",
+    "no country mismatch detected, as both title and content refer to Poland and Hungary respectively"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'aresztować', co budzi emocje i zainteresowanie.",
+    "W treści pojawiają się wyrażenia, które mogą być uznane za sensacyjne.",
+    "Artykuł w miarę dobrze odzwierciedla to, co obiecuje tytuł, ale nieco przesadza z dramatyzmem."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational",
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Orban spotkał się z Ziobrą w Budapeszcie",
+    "notes_to_editor": "Rozważyć złagodzenie języka w tytule, aby uniknąć wrażenia sensacyjności."
+  },
+  "diagnostics": {
+    "tokens_title": 40,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:28:17"
+  },
+  "summary": "Viktor Orban spotkał się ze Zbigniewem Ziobrą w Budapeszcie, gdzie poruszono kwestie związane z planami polskiego rządu dotyczącymi aresztowania Ziobry. Spotkanie miało miejsce w kontekście napięć politycznych w Europie. Orban skomentował sytuację na swoim profilu społecznościowym.",
+  "id": 1761847728785,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/viktor-orban-spotkal-sie-ze-zbigniewem-ziobra-polski-rzad-chce-go-aresztowac/dbywy2q",
+  "title": "Orban spotkał się z Ziobrą. \"Polski rząd chce go aresztować\""
+}

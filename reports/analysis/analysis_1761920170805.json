@@ -1,0 +1,50 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'jak feniks z popiołów' (+6)",
+    "content_sensational: phrase 'czas, korozja oraz działania ludzi spowodowały liczne uszkodzenia rzeźby' (+8)",
+    "content_credibility: organization names mentioned (-3)",
+    "alignment_score: 0.55 → penalty +8 for medium alignment"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera ciekawą frazę 'jak feniks z popiołów', co może wzbudzać ciekawość czytelników.",
+    "W treści pojawiają się mocne sformułowania dotyczące uszkodzeń rzeźby, co może wprowadzać dramatyzm.",
+    "Artykuł wspomina o organizacjach, co zwiększa jego wiarygodność.",
+    "Treść w pewnym stopniu wspiera obietnice tytułu, ale nie w pełni."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Renowacja rzeźby 'Ogniste Ptaki' w Szczecinie",
+    "notes_to_editor": "Rozważyć zmianę tytułu na bardziej neutralny, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 37,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:33:21"
+  },
+  "summary": "Artykuł opisuje zakończenie renowacji rzeźby 'Ogniste Ptaki' autorstwa Władysława Hasiora w Szczecinie. Prace konserwatorskie mają na celu przywrócenie oryginalnego wyglądu rzeźby z lat 70. Zawierają one odtworzenie brakujących elementów oraz zastosowanie farby antykorozyjnej, co ma na celu ochronę obiektu przed dalszymi uszkodzeniami.",
+  "id": 1761920170805,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/szczecin/news-szczecinskie-ptaki-wracaja-do-zycia-jak-feniks-z-popiolow,nId,8036375",
+  "title": "Szczecińskie ptaki wracają do życia. Jak feniks z popiołów"
+}

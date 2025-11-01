@@ -1,0 +1,48 @@
+{
+  "score": 65,
+  "label": "strong",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'po cichu' (+6), title_sensational: regex hit 'trzęsienie ziemi' (+12), title_sensational: regex hit 'księżniczki' (+12)",
+    "content_sensational: phrase 'szok' detected (+8), content_sensational: phrase 'niewiarygodny' detected (+12), content_overcertainty: phrase 'wszystkie tytuły' detected (+6)",
+    "alignment_score: 0.55 → penalty +8 for medium alignment"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów, takich jak 'trzęsienie ziemi', co sugeruje dramatyczne wydarzenia.",
+    "Artykuł zawiera informacje o księżniczkach i ich sytuacji, co może budzić ciekawość czytelników.",
+    "Treść nie w pełni odpowiada obietnicom zawartym w tytule, co obniża wiarygodność."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap",
+      "sensational"
+    ],
+    "content_hits": [
+      "sensational",
+      "overcertainty"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Księżniczki Beatrice i Eugenie opuściły Wielką Brytanię po decyzji króla.",
+    "notes_to_editor": "Rozważyć użycie bardziej neutralnego języka w tytule, aby uniknąć wrażenia sensacji."
+  },
+  "diagnostics": {
+    "tokens_title": 54,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:31:33"
+  },
+  "summary": "Księżniczki Beatrice i Eugenie opuściły Wielką Brytanię po decyzji króla Karola III, który odebrał tytuły ich ojcu, księciu Andrzejowi. Decyzja ta jest związana z kontrowersjami dotyczącymi Jeffreya Epsteina. Księżniczki zostały zauważone w różnych miejscach za granicą, co zbiegło się z ogłoszeniem tej decyzji przez Pałac Buckingham.",
+  "id": 1761920160358,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/swiat/news-trzesienie-ziemi-w-rodzinie-krolewskiej-ksiezniczki-po-cichu,nId,8036355",
+  "title": "Trzęsienie ziemi w rodzinie królewskiej. Księżniczki po cichu uciekły z Wielkiej Brytanii"
+}

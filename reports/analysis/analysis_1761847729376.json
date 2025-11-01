@@ -1,0 +1,49 @@
+{
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'może być drugim Tajwanem' (+6)",
+    "content_sensational: phrase 'suwerenności cyfrowej' detected (+8)",
+    "content_hedging: 'może' detected (-2)",
+    "alignment_score: 0.6 (medium alignment) → penalty +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa sformułowania 'może być', co budzi ciekawość czytelnika.",
+    "W treści pojawia się termin 'suwerenności cyfrowej', co nadaje jej sensacyjny charakter.",
+    "W artykule użyto słowa 'może', co zmniejsza pewność przekazu.",
+    "Treść w dużej mierze wspiera tytuł, ale nie w pełni."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational",
+      "hedging"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.6,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Europa stawia na cyfrowy rozwój, Polska w roli lidera.",
+    "notes_to_editor": "Zaleca się unikanie sformułowań budzących nadmierne oczekiwania w tytule."
+  },
+  "diagnostics": {
+    "tokens_title": 41,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:28:38"
+  },
+  "summary": "Artykuł omawia wyzwania i możliwości, przed którymi stoi Europa w kontekście cyfrowej suwerenności. Ekspert Tomasz Klekowski wskazuje na potencjalną rolę Polski w tym procesie, podkreślając, że osiągnięcie niezależności cyfrowej może wymagać znacznych inwestycji. Wskazano również na trudności związane z dominacją amerykańskich i azjatyckich firm technologicznych.",
+  "id": 1761847729376,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/tylko-w-onecie/europa-rusza-do-cyfrowego-wyscigu-polska-moze-byc-drugim-tajwanem/xbnqdmn",
+  "title": "Europa rusza do cyfrowego wyścigu. \"Polska może być drugim Tajwanem\""
+}

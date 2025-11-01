@@ -1,0 +1,48 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_sensational: regex hit 'na celowniku' (+12), title_sensational: regex hit 'akt oskarżenia' (+12)",
+    "content_sensational: phrase 'oskarżonych przez Prokuraturę' (+8)",
+    "alignment_score: 0.65, resulting in no penalty",
+    "no country mismatch detected",
+    "no time omission detected"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa sformułowania 'na celowniku', co może budzić sensację.",
+    "Artykuł zawiera informacje o oskarżeniach, co podnosi dramatyzm sytuacji.",
+    "Treść dobrze odpowiada obietnicom zawartym w tytule, co zwiększa wiarygodność."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.65,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Oskarżenia przeciw byłej wiceprezydent Krakowa i urzędnikom",
+    "notes_to_editor": "Zaleca się unikanie sensacyjnych sformułowań w tytule, aby zwiększyć obiektywność."
+  },
+  "diagnostics": {
+    "tokens_title": 48,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:20:31"
+  },
+  "summary": "Była wiceprezydent Krakowa Elżbieta K. oraz czterech urzędników zostało oskarżonych o szereg nieprawidłowości, w tym przekroczenie uprawnień i ujawnianie informacji. Oskarżenia dotyczą działań, które miały miejsce w latach 2018-2019, a podejrzanym grożą kary pozbawienia wolności do 10 lat.",
+  "id": 1761847713381,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/krakow/news-byla-wiceprezydent-krakowa-na-celowniku-prokuratury-jest-akt,nId,8036097",
+  "title": "Była wiceprezydent Krakowa na celowniku prokuratury. Jest akt oskarżenia"
+}

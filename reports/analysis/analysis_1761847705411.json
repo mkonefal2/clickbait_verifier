@@ -1,0 +1,54 @@
+{
+  "score": 24,
+  "label": "not_clickbait",
+  "rationale": [
+    "title_superlative: no hits, (+0)",
+    "title_absolutes: no hits, (+0)",
+    "title_sensational: no hits, (+0)",
+    "title_alarming: no hits, (+0)",
+    "title_curiosity_gap: no hits, (+0)",
+    "title_listicle: no hits, (+0)",
+    "title_punctuation: no hits, (+0)",
+    "content_overcertainty: no hits, (+0)",
+    "content_sensational: no hits, (+0)",
+    "credibility_reductions: no hits, (+0)",
+    "hedging_reductions: no hits, (+0)",
+    "alignment_score: 1.0, no penalty",
+    "exaggeration_gap: false, no penalty",
+    "country_mismatch: false, no penalty",
+    "time_omission: false, no penalty"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jest informacyjny i nie zawiera przesadnych słów ani obietnic.",
+    "Treść artykułu dostarcza praktycznych wskazówek dotyczących przechowywania mandarynek.",
+    "Nie ma żadnych nieścisłości między tytułem a treścią."
+  ],
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 1.0,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Jak skutecznie przechowywać mandarynki?",
+    "notes_to_editor": "Zaleca się unikanie tytułów, które mogą być uznane za sensacyjne."
+  },
+  "diagnostics": {
+    "tokens_title": 42,
+    "tokens_content": 2960,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:18:52"
+  },
+  "summary": "Artykuł przedstawia praktyczne porady dotyczące przechowywania mandarynek, aby zachować ich świeżość i smak. Zawiera wskazówki dotyczące optymalnej temperatury oraz sposobu układania owoców, aby uniknąć pleśni. Podkreśla również znaczenie unikania ciepłego powietrza z kaloryferów.",
+  "id": 1761847705411,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/ciekawostki/news-jak-przechowywac-mandarynki-proste-triki-na-swieze-owoce,nId,8036096",
+  "title": "​Jak przechowywać mandarynki? Proste triki na świeże owoce"
+}

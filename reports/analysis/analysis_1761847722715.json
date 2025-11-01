@@ -1,0 +1,51 @@
+{
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "title_sensational: regex hit 'pseudoedukacyjne imperium' (+12), title_curiosity_gap: regex hit 'Nowe fakty' (+6)",
+    "content_sensational: phrase 'czujnością wykazał się urzędnik' (+8)",
+    "credibility_reduction: organization names mentioned (-3), numbers/dates/statistics detected (-2)",
+    "alignment_score: calculated as 0.55, resulting in medium alignment penalty (+8)"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera mocne sformułowanie 'pseudoedukacyjne imperium', co może wzbudzać sensację.",
+    "W artykule pojawia się informacja o czujności urzędnika, co dodaje dramatyzmu.",
+    "W treści wspomniane są konkretne daty i organizacje, co zwiększa wiarygodność, ale tytuł nie odnosi się do nich."
+  ],
+  "signals": {
+    "title_hits": [
+      "pseudoedukacyjne imperium",
+      "Nowe fakty"
+    ],
+    "content_hits": [
+      "czujnością wykazał się urzędnik"
+    ],
+    "credibility_hits": [
+      "organization names",
+      "numbers/dates/statistics"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Zatrzymania dyrektorek szkół w związku z oszustwami edukacyjnymi",
+    "notes_to_editor": "Zaleca się unikanie sensacyjnych sformułowań w tytule, aby zwiększyć wiarygodność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:25:02"
+  },
+  "summary": "Artykuł opisuje zatrzymania dyrektorek szkół w związku z działalnością oszukańczej sieci edukacyjnej, która funkcjonowała w 20 miastach w Polsce. Śledztwo trwało od kilku lat, a jego początki sięgają czujności urzędnika z Łodzi. W artykule przedstawiono również kontekst działań prokuratury i policji.",
+  "id": 1761847722715,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/lodz/grupa-dyrektorek-ze-szkol-wyludzala-pieniadze-pseudoedukacyjne-imperium-w-20-miastach/wrqc4w8",
+  "title": "Dyrektorki szkół zatrzymane. Pseudoedukacyjne imperium w 20 miastach. Nowe fakty"
+}

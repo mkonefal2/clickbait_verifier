@@ -1,0 +1,49 @@
+{
+  "score": 50,
+  "label": "strong",
+  "rationale": [
+    "title_sensational: regex hit 'masakrę' (+12), title_alarm: regex hit 'zagrożenie' (+10)",
+    "content_sensational: phrases like 'krwawe Halloween' (+8), content_overcertainty: use of 'potencjalny zamach' (+6)",
+    "alignment_score: 0.55, resulting in a penalty of +8 for medium alignment",
+    "no country mismatch detected, as both title and content refer to the USA"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnego słowa 'masakrę', co może budzić niepokój.",
+    "W treści pojawiają się dramatyczne sformułowania, co zwiększa wrażenie sensacji.",
+    "Artykuł mówi o planowanym zamachu, co jest poważnym tematem, ale tytuł może wywoływać przesadne emocje."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational",
+      "alarm"
+    ],
+    "content_hits": [
+      "sensational",
+      "overcertainty"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "FBI udaremniło planowany zamach w Michigan na Halloween",
+    "notes_to_editor": "Rozważyć złagodzenie tytułu, aby uniknąć przesadnych emocji."
+  },
+  "diagnostics": {
+    "tokens_title": 34,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:31:21"
+  },
+  "summary": "FBI ogłosiło, że zatrzymało kilka osób w Michigan, które planowały zamach na Halloween. Dyrektor FBI, Kash Patel, poinformował o udaremnieniu potencjalnego ataku. Szczegóły akcji mają być podane wkrótce.",
+  "id": 1761920159415,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/swiat/news-planowali-masakre-w-halloween-fbi-udaremnilo-zamach,nId,8036374",
+  "title": "Planowali masakrę w Halloween. FBI udaremniło zamach"
+}

@@ -1,0 +1,50 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'Czasu coraz mniej' (+6), suggesting urgency and curiosity.",
+    "content_sensational: phrase 'możliwe są grupowe przejścia na zwolnienia' detected (+8), indicating potential dramatic actions.",
+    "content_credibility: organization names mentioned (-3), reducing credibility.",
+    "alignment_score: calculated as 0.55, resulting in a penalty of +8 for medium alignment."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł sugeruje pilność sytuacji, co może wzbudzać ciekawość czytelników.",
+    "W artykule pojawiają się dramatyczne stwierdzenia dotyczące możliwych protestów.",
+    "W treści wymienione są organizacje, co wpływa na wiarygodność informacji.",
+    "Treść w części wspiera tytuł, ale nie w pełni, co prowadzi do umiarkowanego wrażenia clickbaitowego."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Wiceminister apeluje o szybkie uchwalenie dodatku mieszkaniowego",
+    "notes_to_editor": "Rozważ użycie bardziej neutralnego tytułu, aby uniknąć wrażenia sensacyjności."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 2983,
+    "processing_time_ms": 120,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:41:59"
+  },
+  "summary": "W artykule omawiana jest pilna potrzeba nowelizacji ustawy dotyczącej świadczeń mieszkaniowych dla funkcjonariuszy Służby Więziennej. Wiceminister Arkadiusz Myrcha zwraca uwagę na ograniczony czas na uchwalenie przepisów przed końcem roku. Istnieje ryzyko protestów, jeśli świadczenia nie zostaną wprowadzone na czas.",
+  "id": 1761934115487,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/polska/news-czasu-coraz-mniej-wiceminister-ponagla-ws-dodatku-mieszkanio,nId,8036408",
+  "title": "Czasu coraz mniej. Wiceminister ponagla ws. dodatku mieszkaniowego"
+}

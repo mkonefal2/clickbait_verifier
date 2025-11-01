@@ -1,0 +1,48 @@
+{
+  "score": 75,
+  "label": "extreme",
+  "rationale": [
+    "title_sensational: regex hit 'narkopaństwem' (+12), 'przerażający' (+12), 'nie jesteśmy już w stanie' (+10)",
+    "content_sensational: phrases like 'narkotykowej wojny' (+8), 'przerażający obraz' (+8)",
+    "alignment_score: 0.4, penalty +18 for low alignment",
+    "exaggeration_gap: title is sensational but content has credible statistics, penalty +14"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów, takich jak 'narkopaństwem', co tworzy przesadne oczekiwania.",
+    "Artykuł zawiera przerażające opisy sytuacji w Belgii, co zwiększa dramatyzm.",
+    "Treść artykułu dostarcza informacji, ale nie w pełni odpowiada na obietnice tytułu."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational",
+      "alarming"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.4,
+      "exaggeration_gap": true,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Belgia zmaga się z problemem narkotyków i przestępczości.",
+    "notes_to_editor": "Zaleca się unikanie przesadnych sformułowań w tytule, aby lepiej odzwierciedlić treść artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 15,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:26:25"
+  },
+  "summary": "Artykuł opisuje rosnący problem przestępczości narkotykowej w Belgii, wskazując na niepokojące statystyki dotyczące morderstw i wpływ mafii. Wysoki rangą sędzia śledczy ostrzega, że kraj staje się 'narkopaństwem', co stawia w niebezpieczeństwie obywateli. W artykule podkreślono również, że sytuacja jest na tyle poważna, że władze nie są w stanie zapewnić bezpieczeństwa mieszkańcom.",
+  "id": 1761847725263,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/belgia-staje-sie-narkopanstwem-sportowa-torba-z-narkotykami-to-50-tys-euro/z0pqcd0",
+  "title": "Kraj w sercu Europy staje się narkopaństwem. \"Nie jesteśmy już w stanie chronić naszych obywateli\""
+}

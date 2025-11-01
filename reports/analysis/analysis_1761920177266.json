@@ -1,0 +1,50 @@
+{
+  "score": 65,
+  "label": "strong",
+  "rationale": [
+    "title_alarm: regex hit 'tragedia' (+10), title_sensational: regex hit 'dramaticzny' (+12), title_curiosity_gap: no hits (0)",
+    "content_sensational: phrase 'dramatic accident' detected (+8), content_credibility: org names detected (-3), content_credibility: numbers detected (-2)",
+    "alignment_score: 0.5, penalty for medium alignment (+8), no country mismatch, no time omission"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera słowo 'tragedia', co wzmacnia dramatyzm sytuacji.",
+    "W artykule opisano poważne wypadki dzieci, co dodaje emocjonalnego ładunku.",
+    "Tytuł sugeruje dramatyczny wypadek, ale treść nie dostarcza wystarczająco szczegółowych informacji, co może wprowadzać w błąd."
+  ],
+  "signals": {
+    "title_hits": [
+      "alarm",
+      "sensational"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names",
+      "numbers"
+    ],
+    "mismatch": {
+      "alignment_score": 0.5,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Wypadki dzieci na sali zabaw w Lublinie skłaniają do dyskusji o normach prawnych",
+    "notes_to_editor": "Zaleca się unikanie dramatyzacji w tytule i skupienie się na faktach."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:35:50"
+  },
+  "summary": "Artykuł opisuje poważne wypadki dzieci na sali zabaw w Lublinie, w tym złamania kręgosłupa. Właściciele obiektu próbują przerzucić odpowiedzialność na pracowników i rodziców. Eksperci apelują o wprowadzenie norm prawnych w tym sektorze.",
+  "id": 1761920177266,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/lublin/dramatyczny-wypadek-na-sali-zabaw-i-uniki-wlascicieli-eksperci-apeluja/3ljhk37",
+  "title": "Dramatyczny wypadek na sali zabaw i uniki właścicieli. Eksperci apelują"
+}

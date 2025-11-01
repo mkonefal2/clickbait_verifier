@@ -1,0 +1,50 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'szukało' (+6), suggesting a mystery to solve.",
+    "content_sensational: phrase '140 policjantów' (+8) emphasizes the scale of the search.",
+    "content_credibility: organization names detected (-3) as police and fire services are mentioned.",
+    "mismatch_alignment_score: calculated at 0.65, indicating medium alignment with the title."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł sugeruje, że dzieci zniknęły w tajemniczych okolicznościach, co wzbudza ciekawość.",
+    "Artykuł podkreśla dużą liczbę zaangażowanych policjantów, co może być postrzegane jako przesadne.",
+    "W treści wspomniano o policji i strażakach, co zwiększa wiarygodność informacji.",
+    "Tytuł i treść są w miarę zgodne, ale niektóre elementy mogą budzić wątpliwości."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.65,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Dzieci z placu zabaw odnalezione przez policję w Krakowie",
+    "notes_to_editor": "Zaleca się unikanie języka, który może sugerować sensację, aby zwiększyć wiarygodność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 40,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:32:39"
+  },
+  "summary": "Dwa 6-latki zniknęły z placu zabaw w Krakowie, co spowodowało zaangażowanie 140 policjantów i strażaków w ich poszukiwania. Chłopcy zostali odnalezieni w galerii handlowej, gdzie bawili się, przyznając, że uciekli 'dla żartu'. Dzięki szybkiej reakcji służb, dzieci zostały bezpiecznie przekazane opiekunom.",
+  "id": 1761920166979,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/krakow/news-dali-noge-z-placu-zabaw-6-latkow-szukalo-140-policjantow,nId,8036354",
+  "title": "Dali nogę z placu zabaw. 6-latków szukało 140 policjantów"
+}

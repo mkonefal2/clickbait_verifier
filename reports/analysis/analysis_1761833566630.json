@@ -1,0 +1,49 @@
+{
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "title_sensational: regex hit 'problemy polityków' (+12), title_curiosity_gap: regex hit 'pani też by tak zrobiła' (+6)",
+    "content_sensational: phrase 'problemy polityków PiS' detected (+8), content_credibility: organization names mentioned (-3)",
+    "alignment_score: 0.55, resulting in penalty +8 for medium alignment"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera wyrażenia sugerujące problemy, co może wzbudzać ciekawość czytelników.",
+    "W treści pojawiają się odniesienia do polityków i ich decyzji, co zwiększa wiarygodność, ale także używa emocjonalnego języka.",
+    "Tytuł i treść są ze sobą zgodne, ale nie w pełni, co powoduje niewielkie rozczarowanie."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational",
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Politycy PiS komentują zakupy z Funduszu Sprawiedliwości",
+    "notes_to_editor": "Rozważ użycie bardziej neutralnego tytułu, aby uniknąć wrażenia sensacji."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:11:31"
+  },
+  "summary": "Były wiceminister sprawiedliwości Michał Wójcik komentuje kontrowersje związane z zakupem oprogramowania szpiegowskiego Pegasus z Funduszu Sprawiedliwości. Wójcik podkreśla, że decyzje dotyczące sprzętu podejmują służby, a politycy jedynie przekazują fundusze. W artykule omawiane są również zarzuty wobec polityków PiS.",
+  "id": 1761833566630,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/pegasus-kupiony-z-funduszu-sprawiedliwosci-michal-wojcik-to-nie-my-decydowalismy/70qscbz",
+  "title": "Problemy polityków PiS. Wójcik do Długosz: pani też by tak zrobiła"
+}

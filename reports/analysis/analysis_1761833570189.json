@@ -1,0 +1,47 @@
+{
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'NAGRANIE' (+6)",
+    "content_sensational: phrase 'niebezpiecznie wyglądającej sytuacji' detected (+8)",
+    "content_sensational: phrase 'na szczęście nikomu nic się nie stało' detected (+8)",
+    "alignment_score: 0.55, resulting in penalty +8 for medium alignment"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera słowo 'NAGRANIE', co wzbudza ciekawość czytelników.",
+    "W treści pojawiają się wyrażenia sugerujące dramatyzm sytuacji.",
+    "Artykuł dobrze opisuje zdarzenie, ale tytuł może wprowadzać w błąd co do jego skali."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity gap"
+    ],
+    "content_hits": [
+      "sensational phrases"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Zdarzenie drogowe w Zielonej Górze: samochód ruszył bez kierowcy",
+    "notes_to_editor": "Rozważyć użycie bardziej neutralnego tytułu, aby uniknąć wrażenia sensacji."
+  },
+  "diagnostics": {
+    "tokens_title": 44,
+    "tokens_content": 299,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:13:14"
+  },
+  "summary": "W Zielonej Górze doszło do niebezpiecznego zdarzenia, gdy taksówkarka wysadziła pasażera i wysiadła z auta, które nie zostało zabezpieczone. Samochód stoczył się na ruchliwą drogę, zatrzymując się po drugiej stronie. Na szczęście nikt nie ucierpiał w tym incydencie.",
+  "id": 1761833570189,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/lubuskie/niebezpieczne-zdarzenie-w-zielonej-gorze-kobieta-wysiadla-samochod-ruszyl/91myn26",
+  "title": "Kobieta wysiadła z auta, samochód sam ruszył na drogę [NAGRANIE]"
+}

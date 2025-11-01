@@ -1,0 +1,49 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_sensational: regex hit 'ostrzelał' (+12), title_alarming: regex hit 'niebezpieczeństwo' (+10)",
+    "content_sensational: phrase 'ostrzelał szkołę' detected (+8), content_credibility: org names detected (-3)",
+    "alignment_score: calculated at 0.6, resulting in a penalty of +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera słowo 'ostrzelał', które może budzić niepokój i przyciąga uwagę.",
+    "Artykuł zawiera informacje o incydencie, ale także odniesienia do źródeł, co podnosi jego wiarygodność.",
+    "Treść artykułu dobrze odpowiada na obietnice zawarte w tytule, co sprawia, że jest umiarkowanie sensacyjny."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational",
+      "alarming"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.6,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Incydent ostrzelania szkoły we Włodarach koło Opola",
+    "notes_to_editor": "Rozważyć użycie mniej emocjonalnego języka w tytule, aby zwiększyć neutralność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:25:23"
+  },
+  "summary": "W artykule opisano incydent ostrzelania szkoły we Włodarach koło Opola przez 38-letniego mężczyznę, który był wcześniej notowany przez policję. Policja znalazła broń w jego mieszkaniu, a mężczyzna jest podejrzany o narażenie ludzi na niebezpieczeństwo oraz zniszczenie mienia.",
+  "id": 1761847723496,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/opole/ostrzelanie-szkoly-we-wlodarach-kolo-opola-nowe-fakty-w-sprawie-38-latka/g0zqj8e",
+  "title": "Ostrzelanie szkoły we Włodarach koło Opola. Nowe fakty w sprawie 38-latka"
+}

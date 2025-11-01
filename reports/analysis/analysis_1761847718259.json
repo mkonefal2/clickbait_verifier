@@ -1,0 +1,55 @@
+{
+  "score": 24,
+  "label": "not_clickbait",
+  "rationale": [
+    "title_superlative: no regex hits, score remains 0",
+    "title_absolutes: no regex hits, score remains 0",
+    "title_sensational: no regex hits, score remains 0",
+    "title_alarming: no regex hits, score remains 0",
+    "title_curiosity_gap: no regex hits, score remains 0",
+    "title_listicle: no regex hits, score remains 0",
+    "title_punctuation: no multiple exclamation marks or questions, score remains 0",
+    "content_overcertainty: no absolutes detected, score remains 0",
+    "content_sensational: no sensational phrases detected, score remains 0",
+    "credibility_hits: organization names detected (-3), total credibility score -3",
+    "mismatch_alignment_score: calculated as 0.85, no penalty",
+    "mismatch_exaggeration_gap: no, score remains 0",
+    "mismatch_country_mismatch: no, score remains 0",
+    "mismatch_time_omission: no, score remains 0"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł nie zawiera przesadnych słów ani mocnych sformułowań.",
+    "Treść artykułu jest informacyjna i nie zawiera sensacyjnych zwrotów.",
+    "Artykuł odnosi się do wydarzeń w Polsce, co jest zgodne z tytułem."
+  ],
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "organization names detected"
+    ],
+    "mismatch": {
+      "alignment_score": 0.85,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Donald Tusk komentuje wizytę Zbigniewa Ziobry na Węgrzech",
+    "notes_to_editor": "Tytuł jest neutralny i odzwierciedla treść artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 289,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:21:45"
+  },
+  "summary": "Donald Tusk skomentował wizytę Zbigniewa Ziobry na Węgrzech, gdzie Ziobro promował film o zmianach w TVP. Spotkał się również z premierem Węgier, Viktorem Orbanem. Tusk odniósł się do tej wizyty w mediach społecznościowych.",
+  "id": 1761847718259,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/donald-tusk-komentuje-wizyte-zbigniewa-ziobry-na-wegrzech-krotki-wpis/s0edbe5",
+  "title": "Donald Tusk komentuje wizytę Zbigniewa Ziobry na Węgrzech. Krótki wpis"
+}

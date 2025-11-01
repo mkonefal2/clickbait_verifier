@@ -1,0 +1,50 @@
+{
+  "score": 40,
+  "label": "mild",
+  "rationale": [
+    "title_superlative: regex hit 'największy' (+6), title_sensational: regex hit 'zaskoczone' (+12), title_curiosity_gap: no hits, title_punctuation: no hits",
+    "content_sensational: regex hit 'zaskoczone' (+8), content_credibility: org names detected (-3), content_numbers: numbers detected (-2), content_hedging: no hits",
+    "alignment_score: 0.65, no penalties, country_mismatch: false, time_omission: false"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'największy', co może sugerować przesadę.",
+    "Artykuł zawiera informacje o zatrzymaniach i liczbach, co zwiększa jego wiarygodność.",
+    "Tytuł i treść są zgodne, a wydarzenie dotyczy Niemiec, co jest zgodne z informacjami w artykule."
+  ],
+  "signals": {
+    "title_hits": [
+      "największy",
+      "zaskoczone"
+    ],
+    "content_hits": [
+      "zaskoczone"
+    ],
+    "credibility_hits": [
+      "org names",
+      "numbers"
+    ],
+    "mismatch": {
+      "alignment_score": 0.65,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Niemieckie służby rozbiły laboratorium narkotyków",
+    "notes_to_editor": "Zaleca się unikanie superlatyw i sensacyjnych sformułowań w tytule."
+  },
+  "diagnostics": {
+    "tokens_title": 42,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:40:15"
+  },
+  "summary": "Niemieckie służby rozbiły jedno z największych nielegalnych laboratoriów narkotyków w Brandenburgii. Zabezpieczono 100 kg substancji odurzających oraz 200 tys. euro w gotówce. W akcji zatrzymano dwóch mężczyzn, w tym Polaka i Ukraińca.",
+  "id": 1761920182642,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/wielkie-laboratorium-narkotykow-rozbite-niemieckie-sluzby-zaskoczone/xsnxkrs",
+  "title": "Wielkie laboratorium narkotyków rozbite. Niemieckie służby zaskoczone"
+}

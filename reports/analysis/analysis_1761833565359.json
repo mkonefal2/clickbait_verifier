@@ -1,0 +1,49 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_sensational: regex hit 'oszukańcza propaganda' (+12)",
+    "content_sensational: phrase 'oszukańcza propaganda' detected (+8)",
+    "content_credibility: organization names detected (-3)",
+    "alignment_score: 0.6, medium alignment → penalty +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera mocne sformułowanie 'oszukańcza propaganda', co może budzić emocje.",
+    "W treści artykułu również pojawia się to sformułowanie, co wzmacnia wrażenie sensacyjności.",
+    "Artykuł odnosi się do działania Kaczyńskiego, co może wpływać na postrzeganą wiarygodność."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.6,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Jarosław Kaczyński komentuje sprawę działki pod CPK.",
+    "notes_to_editor": "Rozważ usunięcie emocjonalnych sformułowań w tytule, aby zwiększyć neutralność."
+  },
+  "diagnostics": {
+    "tokens_title": 9,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:11:19"
+  },
+  "summary": "Jarosław Kaczyński wypowiedział się na temat kontrowersji związanej z działką pod Centralnym Portem Komunikacyjnym. Podkreślił, że działka nie miała strategicznego znaczenia, a umowa chroniła interesy państwa. Kaczyński określił oskarżenia jako 'oszukańczą propagandę'.",
+  "id": 1761833565359,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/jaroslaw-kaczynski-o-aferze-z-dzialka-pod-cpk-oszukancza-propaganda/0cd4bdr",
+  "title": "Jarosław Kaczyński o aferze z działką pod CPK. \"Oszukańcza propaganda\""
+}

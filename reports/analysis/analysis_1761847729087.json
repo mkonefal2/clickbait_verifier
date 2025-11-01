@@ -1,0 +1,53 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'wierzę w to' (+6)",
+    "content_sensational: phrase 'spodziewa się zakończenia wojny w ciągu roku' (+8)",
+    "content_overcertainty: phrase 'jesteśmy przekonani' (+6)",
+    "credibility_reduction: organization names mentioned (-3)",
+    "alignment_score: 0.55, resulting in penalty +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera wyrażenie 'wierzę w to', które może budzić ciekawość czytelników.",
+    "W treści pojawia się stwierdzenie o zakończeniu wojny w ciągu roku, co jest dość sensacyjne.",
+    "Cytat 'jesteśmy przekonani' sugeruje pewność, co może być przesadą.",
+    "Artykuł wspomina o organizacji, co obniża jego wiarygodność.",
+    "Treść w pewnym stopniu wspiera tytuł, ale nie w pełni."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational",
+      "overcertainty"
+    ],
+    "credibility_hits": [
+      "organization_names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Wysłannik Putina przewiduje zakończenie wojny w ciągu roku",
+    "notes_to_editor": "Rozważyć użycie bardziej neutralnego tytułu, aby uniknąć wrażenia sensacji."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:28:28"
+  },
+  "summary": "Specjalny wysłannik Kremla, Kiriłł Dmitrijew, podczas wizyty w Arabii Saudyjskiej, wyraził przekonanie, że wojna na Ukrainie zakończy się w ciągu roku. Dmitrijew, który jest również prezesem Rosyjskiego Funduszu Inwestycji Bezpośrednich, podkreślił, że dąży się do pokoju w regionie.",
+  "id": 1761847729087,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/wyslannik-wladimira-putina-o-terminie-zakonczenia-wojny-wierze-w-to/1xk3stn",
+  "title": "Wysłannik Władimira Putina o terminie zakończenia wojny. \"Wierzę w to\""
+}

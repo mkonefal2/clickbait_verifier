@@ -1,0 +1,47 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_sensational: regex hit 'szokująca' (+12), title_hits total = 12",
+    "content_sensational: phrase 'tragicznych okolicznościach' (+8), content_hits total = 8",
+    "alignment_score: calculated as 0.5, resulting in penalty +8",
+    "no country mismatch detected, as both title and content refer to Poland"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera słowo 'szokująca', co może sugerować przesadne emocje.",
+    "W treści użyto wyrażeń, które podkreślają dramatyzm sytuacji.",
+    "Treść artykułu jest zgodna z tytułem, ale nieco przesadza w emocjonalnym wydźwięku."
+  ],
+  "signals": {
+    "title_hits": [
+      "szokująca"
+    ],
+    "content_hits": [
+      "tragicznych okolicznościach"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.5,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Sąd apelacyjny uchyla wyrok w sprawie potrójnego zabójstwa",
+    "notes_to_editor": "Zaleca się unikanie emocjonalnych słów w tytule, aby zwiększyć obiektywność."
+  },
+  "diagnostics": {
+    "tokens_title": 22,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:21:06"
+  },
+  "summary": "Sąd apelacyjny w Poznaniu uchylił wyrok dożywocia dla Serhiia T., skazanym za zabójstwo żony i dwóch córek. Wyrok został unieważniony z powodu obecności neosędziego w składzie orzekającym. Sprawa zostanie rozpoznana od początku przez nowy skład sędziowski.",
+  "id": 1761847716347,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/poznan/news-zabil-zone-i-male-corki-szokujaca-decyzja-sadu-ws-serhiia-t,nId,8036090",
+  "title": "Zabił żonę i małe córki"
+}

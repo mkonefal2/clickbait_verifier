@@ -1,0 +1,49 @@
+{
+  "score": 25,
+  "label": "mild",
+  "rationale": [
+    "title_sensational: regex hit 'zamach' (+12), title_alarming: regex hit 'zagrożenie' (+10)",
+    "content_sensational: phrase 'potencjalny atak terrorystyczny' (+8), content_credibility: org names detected (-3)",
+    "alignment_score: 0.6, medium alignment → penalty +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'zamach', co może budzić niepokój i przyciągać uwagę.",
+    "Artykuł zawiera informacje o zatrzymaniach przez FBI, co zwiększa jego wiarygodność.",
+    "Treść dobrze wspiera tytuł, ale niektóre sformułowania mogą być uważane za sensacyjne."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational",
+      "alarming"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.6,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "FBI zatrzymało kilka osób planujących atak podczas Halloween",
+    "notes_to_editor": "Zaleca się unikanie słów budzących niepokój w tytule, aby zwiększyć neutralność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 7,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:39:29"
+  },
+  "summary": "FBI udaremniło potencjalny atak terrorystyczny związany z Halloween, zatrzymując kilka osób w Michigan. Dyrektor FBI, Kash Patel, ogłosił te informacje na konferencji prasowej. Artykuł przedstawia szczegóły dotyczące planowanego zamachu oraz działania służb bezpieczeństwa.",
+  "id": 1761920181463,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/planowali-zamach-w-halloween-fbi-zatrzymalo-kilka-osob/3sfre79",
+  "title": "Planowali zamach w Halloween. FBI zatrzymało kilka osób"
+}

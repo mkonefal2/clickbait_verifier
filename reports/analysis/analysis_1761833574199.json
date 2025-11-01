@@ -1,0 +1,50 @@
+{
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "title_superlative: no hits",
+    "title_sensational: 'dziwne zachowanie' (+12)",
+    "title_curiosity_gap: no hits",
+    "content_sensational: 'dziwne zachowanie' (+8)",
+    "content_hedging: 'wydaje się' (-2)",
+    "alignment_score: 0.55 → penalty +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera słowo 'dziwne', co może budzić sensację.",
+    "W artykule pojawia się stwierdzenie 'wydaje się', co osłabia pewność informacji.",
+    "Treść artykułu jest zgodna z tytułem, ale nieco mniej dramatyczna."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational"
+    ],
+    "content_hits": [
+      "sensational",
+      "hedging"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Donald Trump w Japonii: kontrowersje dotyczące jego zachowania",
+    "notes_to_editor": "Zaleca się unikanie sensacyjnych sformułowań w tytule, aby zwiększyć wiarygodność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 60,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:16:35"
+  },
+  "summary": "Donald Trump zakończył wizyty w Japonii i Korei Południowej w związku ze szczytem APEC. Jego zachowanie w Tokio wzbudziło kontrowersje i pytania o stan zdrowia. W artykule omówiono szczegóły wizyty oraz reakcje na jego działania.",
+  "id": 1761833574199,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/nagrania-zwrocily-uwage-na-donalda-trumpa-dziwne-zachowanie-przy-flagach/mql7yd3",
+  "title": "Wraca temat zdrowia Donalda Trumpa. W Japonii był wyraźnie zagubiony"
+}

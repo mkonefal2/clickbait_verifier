@@ -1,0 +1,49 @@
+{
+  "score": 65,
+  "label": "strong",
+  "rationale": [
+    "title_sensational: regex hit 'straszy' (+12), title_alarming: regex hit 'zagrożenie' (+10), title_curiosity_gap: regex hit 'niedługo nadejdzie czas' (+6)",
+    "content_sensational: phrase 'porządnie zlejemy' detected (+8), content_overcertainty: phrase 'Białoruś nie chce brać udziału w wojnie' (+6)",
+    "alignment_score: calculated at 0.55, resulting in penalty +8 for medium alignment"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnego słowa 'straszy', co tworzy przesadne oczekiwania.",
+    "W treści pojawiają się sensacyjne sformułowania, takie jak 'porządnie zlejemy', co podkreśla dramatyzm sytuacji.",
+    "Artykuł dobrze odnosi się do tytułu, ale niektóre stwierdzenia są zbyt pewne."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational",
+      "alarming",
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational",
+      "overcertainty"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Aleksander Łukaszenko komentuje sytuację w Europie",
+    "notes_to_editor": "Rozważ zmianę tytułu na bardziej neutralny, aby uniknąć wrażenia sensacyjności."
+  },
+  "diagnostics": {
+    "tokens_title": 38,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:38:45"
+  },
+  "summary": "Aleksander Łukaszenko ostrzega NATO przed konsekwencjami ewentualnej interwencji w Białorusi. Podkreśla, że kraj nie zamierza brać udziału w wojnie, a także odnosi się do incydentów z balonami przemytniczymi. Wskazuje na winę polskich i litewskich władz za zaistniałą sytuację.",
+  "id": 1761920180222,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/aleksander-lukaszenko-odgraza-sie-europie-porzadnie-was-zlejemy/b8mq0ch",
+  "title": "\"Niedługo nadejdzie czas\". Aleksander Łukaszenko straszy Europę"
+}

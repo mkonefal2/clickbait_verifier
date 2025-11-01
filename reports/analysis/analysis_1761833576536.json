@@ -1,0 +1,62 @@
+{
+  "score": 20,
+  "label": "not_clickbait",
+  "rationale": [
+    "title_superlative: no hits, (+0)",
+    "title_absolute: 'wszyscy' detected (+8)",
+    "title_sensational: no hits, (+0)",
+    "title_alarming: no hits, (+0)",
+    "title_curiosity_gap: no hits, (+0)",
+    "title_listicle: no hits, (+0)",
+    "title_punctuation: no hits, (+0)",
+    "content_overcertainty: no hits, (+0)",
+    "content_sensational: no hits, (+0)",
+    "credibility_org_names: PAP detected (-3)",
+    "credibility_numbers: no hits, (+0)",
+    "credibility_quoted_speakers: Władysław Kosiniak-Kamysz detected (-2)",
+    "credibility_scientific_terms: no hits, (+0)",
+    "credibility_hedging: no hits, (+0)",
+    "alignment_score: 0.75, no penalty",
+    "exaggeration_gap: false",
+    "country_mismatch: false",
+    "time_omission: false"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera słowo 'wszyscy', co może tworzyć przesadne oczekiwania.",
+    "Artykuł opiera się na wypowiedziach szefa MON, co zwiększa jego wiarygodność.",
+    "Treść jest zgodna z tytułem, a nie ma w niej elementów sensacyjnych ani alarmujących."
+  ],
+  "signals": {
+    "title_hits": [
+      "absolute"
+    ],
+    "content_hits": [],
+    "credibility_hits": [
+      "org names",
+      "quoted speakers"
+    ],
+    "mismatch": {
+      "alignment_score": 0.75,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Szef MON omawia przygotowanie na sytuacje kryzysowe",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia przesady."
+  },
+  "diagnostics": {
+    "tokens_title": 42,
+    "tokens_content": 282,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:18:11"
+  },
+  "summary": "W artykule Władysław Kosiniak-Kamysz, szef MON, podkreśla znaczenie przygotowania na sytuacje kryzysowe. Zwraca uwagę na konieczność kształtowania odpowiednich kompetencji już od najmłodszych lat oraz na wsparcie wojska dla szkół w budowaniu postaw odpowiedzialności.",
+  "id": 1761833576536,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/trojmiasto/nowa-edycja-programu-mon-wladyslaw-kosiniak-kamysz-kazdy-musi-byc-przygotowany/20txdkr",
+  "title": "Szef MON o sytuacjach kryzysowych. \"Każdy musi być przygotowany\""
+}

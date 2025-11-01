@@ -1,0 +1,47 @@
+{
+  "score": 55,
+  "label": "strong",
+  "rationale": [
+    "title_sensational: regex hit 'halucynogenne' (+12), title_sensational: regex hit 'pieczarki' (+12), title_curiosity_gap: regex hit 'policji powiedział' (+6)",
+    "content_sensational: phrase 'zaskakujący finał interwencji' (+8), content_sensational: phrase 'nielegalną plantację' (+8)",
+    "alignment_score: 0.55, which indicates medium alignment, resulting in a penalty of +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów 'halucynogenne' i 'pieczarki', co budzi sensację.",
+    "Artykuł zawiera zwroty sugerujące zaskoczenie oraz nielegalność, co zwiększa dramatyzm.",
+    "Tytuł sugeruje, że osoba hodowała pieczarki, co jest mylące w kontekście treści."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational",
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.55,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Policja odkryła nielegalną hodowlę grzybów w Wrocławiu",
+    "notes_to_editor": "Rozważyć użycie bardziej neutralnego języka w tytule, aby uniknąć wrażenia sensacji."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:41:50"
+  },
+  "summary": "Policja we Wrocławiu odkryła nielegalną plantację grzybów halucynogennych podczas interwencji związanej z domową awanturą. Zatrzymano dwie osoby, a funkcjonariusze zabezpieczyli 0,5 kg grzybów oraz inne substancje odurzające. Sprawa jest w toku.",
+  "id": 1761920185005,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/wroclaw/interwencja-we-wroclawiu-ujawnila-nielegalna-hodowle-grzybow-to-pieczarki/723hyrl",
+  "title": "Hodował grzyby halucynogenne w mieszkaniu. Policji powiedział, że to pieczarki"
+}

@@ -1,0 +1,48 @@
+{
+  "score": 24,
+  "label": "not_clickbait",
+  "rationale": [
+    "title_superlative: no hits detected (0), title_absolutes: no hits detected (0), title_sensational: no hits detected (0), title_alarming: no hits detected (0), title_curiosity_gap: no hits detected (0), title_listicle: no hits detected (0), title_punctuation: no hits detected (0)",
+    "content_overcertainty: no hits detected (0), content_sensational: no hits detected (0), content_credibility: org names detected (-3), content_numbers: numbers detected (-2), content_quoted_speakers: no hits detected (0), content_scientific_terms: no hits detected (0), content_hedging: no hits detected (0)",
+    "alignment_score: 1.0, no penalties applied, no country mismatch, no time omission"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jest neutralny i nie zawiera przesadnych słów ani obietnic.",
+    "Artykuł podaje konkretne informacje o akcie oskarżenia, co zwiększa jego wiarygodność.",
+    "Treść jest zgodna z tytułem, nie ma żadnych nieścisłości ani wprowadzenia w błąd."
+  ],
+  "signals": {
+    "title_hits": [],
+    "content_hits": [
+      "organization names detected",
+      "numbers detected"
+    ],
+    "credibility_hits": [
+      "organization names",
+      "numbers"
+    ],
+    "mismatch": {
+      "alignment_score": 1.0,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Prokuratura informuje o akcie oskarżenia wobec Dariusza Mateckiego",
+    "notes_to_editor": "Zaleca się unikanie sensacyjnych tytułów, aby zachować neutralność i obiektywność."
+  },
+  "diagnostics": {
+    "tokens_title": 47,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:11:53"
+  },
+  "summary": "Artykuł informuje o akcie oskarżenia wobec Dariusza Mateckiego, dotyczącego nieprawidłowości w przyznawaniu dotacji z Funduszu Sprawiedliwości. Prokuratura wskazuje na współdziałanie Mateckiego z innymi osobami w celu przywłaszczenia 16 mln zł. Mateckiemu grozi do 10 lat więzienia.",
+  "id": 1761833567415,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/prokuratura-o-akcie-oskarzenia-wobec-dariusza-mateckiego/7y6m34g",
+  "title": "Prokuratura o akcie oskarżenia wobec Dariusza Mateckiego"
+}

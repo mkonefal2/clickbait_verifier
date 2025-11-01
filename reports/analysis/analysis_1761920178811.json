@@ -1,0 +1,49 @@
+{
+  "score": 55,
+  "label": "strong",
+  "rationale": [
+    "title_superlative: regex hit 'największa' (+6), title_sensational: regex hit 'wrze' (+12), title_curiosity_gap: regex hit 'POLITICO' (+6)",
+    "content_sensational: phrase 'gwałtowny wzrost' detected (+8), content_overcertainty: phrase 'musimy się tym zająć' detected (+6)",
+    "alignment_score: 0.5, penalty for medium alignment (+8), no country mismatch detected, no time omission detected"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'wrze', co sugeruje dramatyczną sytuację, a także odnosi się do POLITICO, co może wzbudzać ciekawość.",
+    "W treści artykułu pojawiają się mocne sformułowania, takie jak 'gwałtowny wzrost', co zwiększa wrażenie sensacyjności.",
+    "Artykuł omawia sytuację uchodźców z Ukrainy w Polsce i Niemczech, co jest zgodne z tytułem."
+  ],
+  "signals": {
+    "title_hits": [
+      "superlative",
+      "sensational",
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational",
+      "overcertainty"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "alignment_score": 0.5,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Politycy w Polsce i Niemczech dyskutują o uchodźcach z Ukrainy",
+    "notes_to_editor": "Rozważyć użycie bardziej neutralnego języka w tytule, aby uniknąć wrażenia sensacyjności."
+  },
+  "diagnostics": {
+    "tokens_title": 62,
+    "tokens_content": 3000,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:37:46"
+  },
+  "summary": "Artykuł omawia rosnące napięcia w Polsce i Niemczech związane z przyjmowaniem uchodźców z Ukrainy. Politycy z obu krajów rozważają ograniczenie polityki otwartych drzwi w odpowiedzi na wzrost liczby młodych uchodźców. Sytuacja ta może mieć poważne konsekwencje dla Ukrainy w kontekście trwającej wojny.",
+  "id": 1761920178811,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/politico/ukraincy-stali-sie-punktem-zapalnym-politico-sprzeciw-w-polsce-i-niemczech/468gkrj",
+  "title": "Ukraińscy uchodźcy stali się punktem zapalnym. POLITICO: wrze w Polsce i Niemczech"
+}

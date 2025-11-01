@@ -1,0 +1,51 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_sensational: 'Afera korupcyjna' (+12), title_curiosity_gap: 'z zarzutami' (+6)",
+    "content_sensational: 'korzyści majątkowych', 'podżegania do wystawiania nierzetelnych faktur' (+8)",
+    "credibility_reduction: org names mentioned (-3), numbers/dates/statistics (-2)",
+    "alignment_score: 0.6, medium alignment → penalty +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'Afera', co może budzić emocje i zainteresowanie.",
+    "W treści pojawiają się sformułowania sugerujące poważne zarzuty, co zwiększa dramatyzm.",
+    "Artykuł zawiera konkretne informacje o zarzutach, co podnosi jego wiarygodność."
+  ],
+  "signals": {
+    "title_hits": [
+      "sensational",
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names",
+      "numbers/dates/statistics"
+    ],
+    "mismatch": {
+      "alignment_score": 0.6,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Zarzuty dla polityka KO w Częstochowie",
+    "notes_to_editor": "Rozważyć użycie mniej emocjonalnego języka w tytule, aby zwiększyć neutralność."
+  },
+  "diagnostics": {
+    "tokens_title": 37,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:38:21"
+  },
+  "summary": "Polityk KO z Częstochowy, Łukasz B., usłyszał pięć zarzutów dotyczących przyjmowania korzyści majątkowych oraz fałszowania dokumentów. Wśród zastosowanych środków zapobiegawczych znajduje się zawieszenie w pełnieniu funkcji publicznych. Sprawa jest badana przez prokuraturę.",
+  "id": 1761920179679,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/slask/akcja-cba-w-czestochowie-polityk-ko-uslyszal-zarzuty/fz1dsl1",
+  "title": "Afera korupcyjna w Częstochowie. Polityk KO z zarzutami"
+}

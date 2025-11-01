@@ -1,0 +1,50 @@
+{
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "title_curiosity_gap: regex hit 'Niech pan na mnie nie krzyczy' (+6)",
+    "content_sensational: phrase 'awantura' detected (+8)",
+    "content_credibility: org names detected (-3)",
+    "alignment_score: 0.5 (medium alignment) → penalty +8"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera zwrot, który wzbudza ciekawość, co może przyciągać uwagę.",
+    "W treści użyto słowa 'awantura', co nadaje artykułowi dramatyzmu.",
+    "Artykuł odnosi się do konkretnej organizacji, co zmniejsza jego wiarygodność.",
+    "Treść dobrze odpowiada na tytuł, ale nie w pełni, co prowadzi do dodatkowej kary."
+  ],
+  "signals": {
+    "title_hits": [
+      "curiosity_gap"
+    ],
+    "content_hits": [
+      "sensational"
+    ],
+    "credibility_hits": [
+      "organization names"
+    ],
+    "mismatch": {
+      "alignment_score": 0.5,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Konferencja PiS: pytania dziennikarzy wywołują napięcia",
+    "notes_to_editor": "Rozważ zmianę tytułu na bardziej neutralny, aby uniknąć wrażenia sensacji."
+  },
+  "diagnostics": {
+    "tokens_title": 38,
+    "tokens_content": 300,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:34:05"
+  },
+  "summary": "Podczas konferencji prasowej PiS doszło do napiętej wymiany zdań między dziennikarzami a posłami. Dziennikarz TVN24 zadał pytanie o wykorzystanie sponsorowanych saszetek owocowych w kampaniach wyborczych, co wywołało nerwową reakcję posła Jan Kanthaka. Artykuł opisuje sytuację oraz kontekst polityczny związany z wydarzeniem.",
+  "id": 1761920173317,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/awantura-na-konferencji-pis-u-niech-pan-na-mnie-nie-krzyczy/qw04qv1",
+  "title": "Awantura na konferencji PiS-u. \"Niech pan na mnie nie krzyczy\""
+}

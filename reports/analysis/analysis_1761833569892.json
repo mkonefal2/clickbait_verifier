@@ -1,0 +1,59 @@
+{
+  "score": 20,
+  "label": "not_clickbait",
+  "rationale": [
+    "title_superlative: no hits, (+0)",
+    "title_absolutes: no hits, (+0)",
+    "title_sensational: no hits, (+0)",
+    "title_alarming: no hits, (+0)",
+    "title_curiosity_gap: no hits, (+0)",
+    "title_listicle: no hits, (+0)",
+    "title_punctuation: no hits, (+0)",
+    "content_overcertainty: no hits, (+0)",
+    "content_sensational: no hits, (+0)",
+    "credibility_org_names: Onet Wiadomości detected (-3)",
+    "credibility_numbers: no hits, (-0)",
+    "credibility_quoted_speakers: no hits, (-0)",
+    "credibility_scientific_terms: no hits, (-0)",
+    "credibility_hedging: no hits, (-0)",
+    "mismatch_alignment_score: 1.0, no penalty",
+    "mismatch_exaggeration_gap: false, no penalty",
+    "mismatch_country_mismatch: false, no penalty",
+    "mismatch_time_omission: false, no penalty"
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jest neutralny i nie zawiera przesadnych słów ani emocjonalnych wyrażeń.",
+    "Artykuł podaje konkretne informacje o wypadku drogowym, co zwiększa jego wiarygodność.",
+    "Nie ma niezgodności między tytułem a treścią, a informacje są zgodne z rzeczywistością."
+  ],
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "Onet Wiadomości"
+    ],
+    "mismatch": {
+      "alignment_score": 1.0,
+      "exaggeration_gap": false,
+      "country_mismatch": false,
+      "time_omission": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Wypadek trzech pojazdów na trasie S12 w kierunku Lublina",
+    "notes_to_editor": "Zaleca się unikanie dramatyzacji w tytule, aby zachować neutralność."
+  },
+  "diagnostics": {
+    "tokens_title": 64,
+    "tokens_content": 263,
+    "processing_time_ms": 150,
+    "analyzer": "github_models",
+    "model": "gpt-4o-mini",
+    "analyzed_at": "2025-11-01 14:13:02"
+  },
+  "summary": "Na trasie S12 w kierunku Lublina doszło do zderzenia trzech pojazdów. Na miejscu wypadku pracują służby, a kierowcy muszą liczyć się z dużymi utrudnieniami w ruchu, który odbywa się jednym pasem.",
+  "id": 1761833569892,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/lublin/zderzenie-trzech-pojazdow-na-trasie-s12-w-strone-lublina-duze-utrudnienia/cvcn5lk",
+  "title": "Zderzenie trzech pojazdów na trasie S12 w stronę Lublina. Duże utrudnienia"
+}
