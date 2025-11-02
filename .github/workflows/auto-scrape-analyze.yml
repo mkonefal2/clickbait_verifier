@@ -1,0 +1,80 @@
+name: Scrape and Analyze Articles with GPT
+
+on:
+  # Uruchamiaj codziennie o 8:00 i 20:00 UTC
+  schedule:
+    - cron: '0 8,20 * * *'
+  
+  # Pozwól na ręczne uruchomienie
+  workflow_dispatch:
+  
+  # Uruchamiaj na push do main/master (opcjonalne)
+  push:
+    branches: [ master, main ]
+    paths:
+      - 'clickbait_verifier/**'
+      - 'config.yaml'
+
+jobs:
+  scrape-and-analyze:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+    
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+        cache: 'pip'
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        # Playwright dla dynamicznych stron (opcjonalne)
+        # pip install playwright
+        # python -m playwright install chromium
+    
+    - name: Configure Git
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "GitHub Actions Bot"
+    
+    - name: Scrape articles
+      run: |
+        python -m clickbait_verifier.main
+      continue-on-error: true
+    
+    - name: Analyze with GPT
+      env:
+        OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      run: |
+        python analyze_today.py
+      continue-on-error: true
+    
+    - name: Commit and push results
+      run: |
+        git add reports/scraped/*.json
+        git add reports/analysis/*.json
+        
+        # Sprawdź czy są zmiany
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "🤖 Auto: scraped and analyzed articles [$(date +'%Y-%m-%d %H:%M')]"
+          git push
+        fi
+      continue-on-error: true
+    
+    - name: Summary
+      if: always()
+      run: |
+        echo "## 📊 Workflow Summary" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "- **Scraped files:** $(ls reports/scraped/scraped_$(date +%s | cut -c1-10)*.json 2>/dev/null | wc -l)" >> $GITHUB_STEP_SUMMARY
+        echo "- **Analysis files:** $(ls reports/analysis/ | wc -l)" >> $GITHUB_STEP_SUMMARY
+        echo "- **Date:** $(date)" >> $GITHUB_STEP_SUMMARY
