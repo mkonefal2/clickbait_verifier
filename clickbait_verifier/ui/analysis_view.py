@@ -143,7 +143,7 @@ def render_analysis_view(analysis: dict, scraped_path: Optional[str], analysis_n
         summary_block_html = f"""
   <div style='margin-top:20px;padding:16px;background:#f9fafb;border-left:3px solid #3b82f6;border-radius:6px;'>
     <div class="helper-text" style='font-size:11px;margin-bottom:8px;color:#9ca3af;text-transform:uppercase;letter-spacing:0.5px;font-weight:600;'>Podsumowanie</div>
-    <div style='font-size:14px;line-height:1.6;color:#374151;'>{html.escape(summary_text)}</div>
+    <div style='font-size:16px;line-height:1.6;color:#374151;font-weight:400;'>{html.escape(summary_text)}</div>
   </div>
 """
     else:
