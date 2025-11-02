@@ -167,13 +167,14 @@ def render_image_block_compact(image_url: Optional[str], orig_url: Optional[str]
         return ''
 
 
-def render_header_card(title: str, suggested_title: Optional[str], image_block_html: str) -> str:
+def render_header_card(title: str, suggested_title: Optional[str], image_block_html: str, summary_block_html: str = "") -> str:
     """Generate HTML for header card.
     
     Args:
         title: Original article title.
         suggested_title: Suggested neutral title.
         image_block_html: HTML for image block.
+        summary_block_html: HTML for summary block (optional).
         
     Returns:
         HTML string for header card.
@@ -186,6 +187,7 @@ def render_header_card(title: str, suggested_title: Optional[str], image_block_h
   <div class="helper-text">Sugerowany tytuł (neutralny)</div>
   <div class="suggested-title">{html.escape(suggested_text)}</div>
 {image_block_html}
+{summary_block_html}
 </div>
 """
     return textwrap.dedent(header_card)
@@ -492,7 +494,8 @@ def render_simple_header_card_with_rationale(title: str, source: str, rationale:
 
 
 def render_simple_header_card_with_suggestion(title: str, source: str, suggested_title: Optional[str],
-                                               image_block_html: str, url: Optional[str] = None) -> str:
+                                               image_block_html: str, url: Optional[str] = None, 
+                                               summary_block_html: str = "") -> str:
     """Generate HTML for simple header card with suggested title (used in feed view).
     
     Args:
@@ -501,6 +504,7 @@ def render_simple_header_card_with_suggestion(title: str, source: str, suggested
         suggested_title: Suggested neutral title.
         image_block_html: HTML for image block.
         url: URL to the original article.
+        summary_block_html: HTML for summary block (optional).
         
     Returns:
         HTML string for header card.
@@ -527,6 +531,7 @@ def render_simple_header_card_with_suggestion(title: str, source: str, suggested
   <div style='flex-grow:0;'>
     {image_block_html}
   </div>
+  {summary_block_html}
 </div>
 <style>
 @media (max-width: 900px) {{

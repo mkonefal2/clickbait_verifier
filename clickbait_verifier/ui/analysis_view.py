@@ -4,6 +4,7 @@ import streamlit as st
 import os
 import sys
 import json
+import html
 from typing import Optional
 
 # Add parent directory to path
@@ -136,6 +137,18 @@ def render_analysis_view(analysis: dict, scraped_path: Optional[str], analysis_n
     # Precompute image HTML block
     image_block_html = render_image_block(image_url, orig_url)
     
+    # Precompute summary block
+    summary_text = analysis.get('summary', '')
+    if summary_text and summary_text.strip():
+        summary_block_html = f"""
+  <div style='margin-top:20px;padding:16px;background:#f9fafb;border-left:3px solid #3b82f6;border-radius:6px;'>
+    <div class="helper-text" style='font-size:11px;margin-bottom:8px;color:#9ca3af;text-transform:uppercase;letter-spacing:0.5px;font-weight:600;'>Podsumowanie</div>
+    <div style='font-size:14px;line-height:1.6;color:#374151;'>{html.escape(summary_text)}</div>
+  </div>
+"""
+    else:
+        summary_block_html = ""
+    
     # Create two-column layout: left for content, right for rationale
     col_left, col_right = st.columns([3, 2])
     
@@ -145,7 +158,7 @@ def render_analysis_view(analysis: dict, scraped_path: Optional[str], analysis_n
             original_title = analysis.get('title') or '-'
             suggested = analysis.get('suggestions', {}).get('rewrite_title_neutral')
             
-            header_card = render_header_card(original_title, suggested, image_block_html)
+            header_card = render_header_card(original_title, suggested, image_block_html, summary_block_html)
             st.markdown(header_card, unsafe_allow_html=True)
         except Exception:
             # Fallback to simple text display

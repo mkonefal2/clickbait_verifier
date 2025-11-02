@@ -414,7 +414,20 @@ def render_feed(candidates: List[Tuple[float, str]], max_items: int = 10):
                 pass
 
         image_block = render_image_block_compact(image_url_local, art['url'])
-        header_card = render_simple_header_card_with_suggestion(art['title'], art['source'], suggested, image_block, art['url'])
+        
+        # Build summary block if available
+        summary_text = a.get('summary', '')
+        if summary_text and summary_text.strip():
+            summary_block = f"""
+  <div style='margin-top:20px;padding:16px;background:#f9fafb;border-left:3px solid #3b82f6;border-radius:6px;'>
+    <div class="helper-text" style='font-size:11px;margin-bottom:8px;color:#9ca3af;text-transform:uppercase;letter-spacing:0.5px;font-weight:600;'>Podsumowanie</div>
+    <div style='font-size:14px;line-height:1.6;color:#374151;'>{html.escape(summary_text)}</div>
+  </div>
+"""
+        else:
+            summary_block = ""
+        
+        header_card = render_simple_header_card_with_suggestion(art['title'], art['source'], suggested, image_block, art['url'], summary_block)
         score_card = render_score_card_with_rationale(art['score'], art['label'], rationale)
 
         # Adjust layout based on selected view mode
