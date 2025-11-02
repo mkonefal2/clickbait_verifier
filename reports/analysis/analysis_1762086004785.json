@@ -1,0 +1,49 @@
+{
+  "id": 1762086004785,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/zacieta-dyskusja-w-studiu-pozwolcie-prowadzic-mi-program/kvdbypz",
+  "title": "Zacięta dyskusja w studiu. \"Niech pan nie opowiada niestworzonych historii\"",
+  "score": 38,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy emocjonalne ('zacięta dyskusja'), co podnosi poziom clickbaitu.",
+    "W treści artykułu pojawiają się cytaty, co zwiększa wiarygodność.",
+    "Zidentyfikowano niewielką niezgodność między tytułem a treścią, ponieważ tytuł sugeruje bardziej dramatyczną sytuację niż przedstawiona w artykule.",
+    "Tytuł i treść są zgodne w kontekście omawianego tematu, ale tytuł jest bardziej sensacyjny."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa emocjonalnych słów, co może przyciągać uwagę, ale również może być uznane za przesadzone.",
+    "Artykuł zawiera cytaty, co sprawia, że jest bardziej wiarygodny.",
+    "Tytuł sugeruje dramatyczną sytuację, która nie do końca odzwierciedla treść artykułu.",
+    "Ogólnie tytuł i treść są zgodne, ale tytuł jest bardziej sensacyjny niż sama treść."
+  ],
+  "summary": "Artykuł opisuje ostrą dyskusję w programie radiowym na temat sprzedaży działki pod Centralny Port Komunikacyjny (CPK). Joanna Mucha krytycznie ocenia sposób, w jaki załatwiono procedury związane z transakcją, sugerując możliwość nieprawidłowości. W trakcie rozmowy politycy wymieniają się oskarżeniami.",
+  "signals": {
+    "title_hits": [
+      "zacięta dyskusja",
+      "nie opowiada niestworzonych historii"
+    ],
+    "content_hits": [
+      "ostra dyskusja",
+      "opowiada pan głupoty"
+    ],
+    "credibility_hits": [
+      "Joanna Mucha",
+      "7. Dzień Tygodnia w Radiu ZET"
+    ],
+    "mismatch": {
+      "title": "Zacięta dyskusja w studiu. 'Niech pan nie opowiada niestworzonych historii'",
+      "content": "Ostra dyskusja wokół sprzedaży działki pod CPK. 'Opowiada pan głupoty!'"
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Dyskusja w studiu na temat sprzedaży działki pod CPK",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 15,
+    "tokens_content": 103,
+    "processing_time_ms": 15267,
+    "model": "gpt-4o-mini"
+  }
+}

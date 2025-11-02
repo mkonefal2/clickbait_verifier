@@ -1,0 +1,50 @@
+{
+  "id": 1762086021449,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/natalia-panczenko-rosja-w-kampanie-przeciwko-mnie-wladowala-15-mln-zl/zd3k71p",
+  "title": "Dostaje groźby śmierci. \"Rosja w kampanię przeciwko mnie władowała 15 mln zł\"",
+  "score": 63,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'groźby śmierci' oraz '15 mln zł', co zwiększa jego clickbaitowość.",
+    "Treść artykułu odnosi się do obaw Natalii Panczenko związanych z wojną informacyjną, co jest zgodne z tytułem, ale nie wyjaśnia dokładnie kontekstu finansowego.",
+    "W artykule występują sygnały wiarygodności, takie jak cytaty i odniesienia do badań.",
+    "Wykryto pewne niezgodności między tytułem a treścią, szczególnie w kontekście wyjaśnienia, jak te 15 mln zł zostało wykorzystane."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera dramatyczne sformułowania, które przyciągają uwagę, takie jak 'groźby śmierci' i '15 mln zł'.",
+    "Treść artykułu dotyczy obaw Natalii Panczenko związanych z dezinformacją, ale nie dostarcza pełnego kontekstu dotyczącego kwoty wymienionej w tytule.",
+    "Artykuł zawiera cytaty i odniesienia do badań, co zwiększa jego wiarygodność.",
+    "Istnieją pewne różnice między tym, co obiecuje tytuł, a tym, co jest faktycznie omawiane w treści."
+  ],
+  "summary": "Artykuł opisuje obawy Natalii Panczenko, liderki społeczności ukraińskiej w Polsce, dotyczące groźby śmierci związanej z wojną informacyjną prowadzoną przez Rosję. Panczenko podkreśla, że Polska jest celem rosyjskiej dezinformacji i wskazuje na znaczną kwotę 15 mln zł, która została zainwestowana w kampanię przeciwko niej.",
+  "signals": {
+    "title_hits": [
+      "groźby śmierci",
+      "15 mln zł"
+    ],
+    "content_hits": [
+      "groźby śmierci",
+      "wojna informacyjna",
+      "dezinformacja"
+    ],
+    "credibility_hits": [
+      "cytaty",
+      "badania"
+    ],
+    "mismatch": {
+      "title": "Dostaje groźby śmierci. 'Rosja w kampanię przeciwko mnie władowała 15 mln zł'",
+      "content": "Natalia Panczenko mówi o obawach związanych z dezinformacją, ale nie wyjaśnia dokładnie, jak te 15 mln zł zostało wykorzystane."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Natalia Panczenko o groźbach i rosyjskiej dezinformacji",
+    "notes_to_editor": "Rozważyć dodanie kontekstu dotyczącego kwoty 15 mln zł w treści artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 14,
+    "tokens_content": 155,
+    "processing_time_ms": 14788,
+    "model": "gpt-4o-mini"
+  }
+}

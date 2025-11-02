@@ -1,0 +1,51 @@
+{
+  "id": 1762086013267,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/poznan/znalazla-metalowy-wkret-w-batoniku-na-halloween-zaskakujace-zachowanie-10-latki/rz3wejr",
+  "title": "10-latka znalazła metalowy wkręt w batoniku na Halloween. Takiego finału nikt się nie spodziewał",
+  "score": 62,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazę 'Takiego finału nikt się nie spodziewał', co jest przykładem luk ciekawości.",
+    "W treści artykułu znajdują się konkretne informacje o incydencie, jednak tytuł sugeruje większą sensacyjność.",
+    "W artykule podano konkretne dane, takie jak długość wkrętu (7 cm), co zwiększa wiarygodność.",
+    "Występuje niewielka rozbieżność między tytułem a treścią, ponieważ tytuł sugeruje zaskoczenie, podczas gdy treść wyjaśnia sytuację.",
+    "Analiza wykazała, że tytuł ma 19 tokenów, a treść 145 tokenów."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa zwrotu, który wzbudza ciekawość, co może przyciągać czytelników.",
+    "Treść artykułu dostarcza konkretne informacje o incydencie, ale tytuł może sugerować większą sensacyjność niż to, co jest opisane.",
+    "Podano konkretne dane, co sprawia, że artykuł jest bardziej wiarygodny.",
+    "Jest niewielka różnica między tym, co mówi tytuł, a tym, co jest w treści, ponieważ tytuł sugeruje zaskoczenie, a treść wyjaśnia sytuację.",
+    "Tytuł ma 19 słów, a treść 145 słów."
+  ],
+  "summary": "Artykuł opisuje incydent, w którym 10-letnia dziewczynka znalazła metalowy wkręt w batoniku, który otrzymała podczas Halloween. Po zgłoszeniu sprawy przez ojca, okazało się, że wkręt został podłożony przez nią i jej koleżanki jako żart. Incydent może mieć poważne konsekwencje dla dziewczynki i jej rodziny.",
+  "signals": {
+    "title_hits": [
+      "Takiego finału nikt się nie spodziewał"
+    ],
+    "content_hits": [
+      "10-latka znalazła metalowy wkręt",
+      "7 cm wkręt",
+      "zgłosił tę sprawę policji"
+    ],
+    "credibility_hits": [
+      "Dziennikarze Onet Wiadomości",
+      "2 listopada 2025"
+    ],
+    "mismatch": {
+      "title": "Zaskakujący finał sprawy",
+      "content": "Treść wyjaśnia, że incydent był żartem."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "10-latka znalazła metalowy wkręt w batoniku na Halloween.",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 19,
+    "tokens_content": 145,
+    "processing_time_ms": 15075,
+    "model": "gpt-4o-mini"
+  }
+}

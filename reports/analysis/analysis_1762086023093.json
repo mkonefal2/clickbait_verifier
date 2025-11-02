@@ -1,0 +1,52 @@
+{
+  "id": 1762086023093,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/potezna-eksplozja-w-sklepie-w-meksyku-nie-zyja-23-osoby/e1wf514",
+  "title": "Potężna eksplozja w sklepie w Meksyku. Nie żyją 23 osoby",
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne ('Potężna eksplozja', 'Nie żyją 23 osoby'), co podnosi jego clickbaitowość.",
+    "Treść artykułu jest zgodna z tytułem, jednak tytuł jest bardziej dramatyczny niż sama relacja.",
+    "W artykule podano konkretne liczby (23 osoby, kilkoro dzieci), co zwiększa jego wiarygodność.",
+    "Nie znaleziono luk ciekawości, ale tytuł mógłby być bardziej neutralny."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera emocjonalne sformułowania, które mogą przyciągać uwagę czytelników.",
+    "Treść artykułu odpowiada tytułowi, ale tytuł brzmi bardziej dramatycznie niż sama relacja.",
+    "W artykule podano konkretne liczby, co sprawia, że jest bardziej wiarygodny.",
+    "Nie znaleziono elementów, które mogłyby wzbudzać dodatkową ciekawość, ale tytuł mógłby być bardziej stonowany."
+  ],
+  "summary": "W wyniku potężnej eksplozji w sklepie w Hermosillo w Meksyku zginęło 23 osoby, w tym dzieci. Co najmniej 12 osób doznało oparzeń i zostało przewiezionych do szpitala. Informacje te przekazały światowe agencje, w tym Polska Agencja Prasowa.",
+  "signals": {
+    "title_hits": [
+      "Potężna eksplozja",
+      "Nie żyją 23 osoby"
+    ],
+    "content_hits": [
+      "23 osoby",
+      "kilkoro dzieci",
+      "eksplozja",
+      "Hermosillo",
+      "12 osób doznało oparzeń"
+    ],
+    "credibility_hits": [
+      "Polska Agencja Prasowa",
+      "światowe agencje"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "title_is_dramatic": true
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Eksplozja w sklepie w Meksyku - 23 ofiary śmiertelne",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby zmniejszyć dramatyzm."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 63,
+    "processing_time_ms": 11218,
+    "model": "gpt-4o-mini"
+  }
+}

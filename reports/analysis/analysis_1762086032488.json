@@ -1,0 +1,49 @@
+{
+  "id": 1762086032488,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/ukraincy-chca-zgasic-swiatlo-rosjanom-blackouty-to-nic-strasznego/wy483yn",
+  "title": "Ukraińcy chcą \"zgasić światło\" Rosjanom. \"Blackouty to nic strasznego\"",
+  "score": 62,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'zgasić światło' oraz 'nic strasznego', co wzbudza ciekawość.",
+    "Treść artykułu odnosi się bezpośrednio do tytułu, jednak użycie emocjonalnego języka w tytule zwiększa jego clickbaitowość.",
+    "W artykule pojawiają się cytaty, co podnosi jego wiarygodność, ale nie zmienia ogólnego wrażenia clickbaitowego.",
+    "Wykryto brak liczby lub konkretnego źródła, co obniża wiarygodność treści."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa emocjonalnych słów, które przyciągają uwagę i mogą budzić ciekawość.",
+    "Treść artykułu jest zgodna z tytułem, ale sposób sformułowania tytułu sprawia, że wydaje się bardziej sensacyjny.",
+    "Artykuł zawiera cytaty, co sprawia, że jest bardziej wiarygodny, ale nie zmienia ogólnego wrażenia.",
+    "Brak konkretnej liczby lub źródła może wpłynąć na postrzeganą wiarygodność artykułu."
+  ],
+  "summary": "Artykuł informuje o zapowiedzi ataków ukraińskich sił na infrastrukturę energetyczną Rosji, w tym o wypowiedzi dowódcy, który stwierdził, że blackouty nie są straszne. W artykule cytowane są słowa Roberta 'Madziara' Browdiego, który zwrócił się do Rosjan w mediach społecznościowych.",
+  "signals": {
+    "title_hits": [
+      "zgasić światło",
+      "nic strasznego"
+    ],
+    "content_hits": [
+      "blackouty",
+      "atak ukraińskich dronów"
+    ],
+    "credibility_hits": [
+      "Robert 'Madziar' Browdi",
+      "Polska Agencja Prasowa"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "title_content_similarity": 0.85
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Ukraińcy zapowiadają ataki na rosyjską infrastrukturę energetyczną.",
+    "notes_to_editor": "Zaleca się unikanie emocjonalnych sformułowań w tytule, aby zwiększyć neutralność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 15,
+    "tokens_content": 76,
+    "processing_time_ms": 12535,
+    "model": "gpt-4o-mini"
+  }
+}

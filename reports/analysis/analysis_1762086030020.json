@@ -1,0 +1,48 @@
+{
+  "id": 1762086030020,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/to-oni-bronia-wschodniej-flanki-nato-wszystko-moze-zmotywowac-putina/1ll4bhl",
+  "title": "Tak powstaje obrona wschodniej flanki NATO. \"Jesteśmy obserwowani\"",
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'Jesteśmy obserwowani', co może wzbudzać ciekawość.",
+    "Treść artykułu jest zgodna z tytułem, jednak nie zawiera zbyt wielu konkretów, co może prowadzić do luk ciekawości.",
+    "W treści występują cytaty, co zwiększa wiarygodność, ale nie ma konkretnych danych liczbowych ani źródeł.",
+    "Wykryto niewielką niezgodność między tytułem a treścią, ponieważ tytuł sugeruje bardziej szczegółowy opis obrony, podczas gdy treść koncentruje się na ogólnym opisie sytuacji."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera intrygujące sformułowanie, które może przyciągnąć uwagę czytelników.",
+    "Treść artykułu odpowiada tytułowi, ale nie dostarcza zbyt wielu szczegółów, co może pozostawić czytelników z pytaniami.",
+    "Artykuł zawiera cytaty, co dodaje mu wiarygodności, ale brakuje konkretnych danych.",
+    "Tytuł i treść są zgodne, ale tytuł sugeruje więcej szczegółów, niż artykuł faktycznie zawiera."
+  ],
+  "summary": "Artykuł opisuje sytuację obrony wschodniej flanki NATO, koncentrując się na Litwie, gdzie powstaje strategiczna obrona. W treści cytowany jest niemiecki generał, który ostrzega przed możliwymi działaniami Rosji. Podkreśla się, że międzynarodowe brygady są przygotowane na ewentualne zagrożenia ze strony Rosji.",
+  "signals": {
+    "title_hits": [
+      "Jesteśmy obserwowani"
+    ],
+    "content_hits": [
+      "wszystko może zmotywować Putina",
+      "obrona wschodniej flanki NATO"
+    ],
+    "credibility_hits": [
+      "Niemiecki generał",
+      "cytaty"
+    ],
+    "mismatch": {
+      "title": "Tak powstaje obrona wschodniej flanki NATO.",
+      "content": "Artykuł koncentruje się na ogólnym opisie sytuacji, a nie na szczegółach dotyczących powstawania obrony."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Obrona wschodniej flanki NATO: sytuacja w Litwie",
+    "notes_to_editor": "Rozważyć dodanie więcej konkretów dotyczących obrony i działań NATO."
+  },
+  "diagnostics": {
+    "tokens_title": 12,
+    "tokens_content": 134,
+    "processing_time_ms": 14263,
+    "model": "gpt-4o-mini"
+  }
+}

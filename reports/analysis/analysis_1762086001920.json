@@ -1,0 +1,48 @@
+{
+  "id": 1762086001920,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/atak-hakerski-na-serwis-supergrosz-minister-alarmuje-sytuacja-jest-bardzo-powazna/4fzyws1",
+  "title": "Wyciek danych po kolejnym ataku hakerskim. \"Sytuacja jest poważna\"",
+  "score": 62,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'atak hakerski' i 'sytuacja jest poważna', które wzbudzają emocje.",
+    "Treść artykułu potwierdza te informacje, ale używa również absolutów, co zwiększa ocenę clickbaitu.",
+    "Występuje niewielka niezgodność między tytułem a treścią, ponieważ tytuł sugeruje wyciek danych, a treść koncentruje się na powadze sytuacji.",
+    "Artykuł zawiera cytat od ministra, co zwiększa jego wiarygodność."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa emocjonalnych słów, które mogą przyciągać uwagę czytelników.",
+    "Treść artykułu potwierdza te informacje, ale używa mocnych wyrażeń, co może sprawiać wrażenie dramatyzacji.",
+    "Jest niewielka różnica między tym, co mówi tytuł a tym, co jest w artykule, co może wprowadzać w błąd.",
+    "Cytat od ministra dodaje artykułowi wiarygodności."
+  ],
+  "summary": "Artykuł informuje o wycieku danych użytkowników serwisu SuperGrosz w wyniku ataku hakerskiego. Wicepremier Krzysztof Gawkowski ostrzega, że sytuacja jest bardzo poważna. Zespoły zajmujące się bezpieczeństwem pracują nad rozwiązaniem problemu.",
+  "signals": {
+    "title_hits": [
+      "atak hakerski",
+      "sytuacja jest poważna"
+    ],
+    "content_hits": [
+      "atak hakerski",
+      "sytuacja jest bardzo poważna"
+    ],
+    "credibility_hits": [
+      "Krzysztof Gawkowski"
+    ],
+    "mismatch": {
+      "title": "Wyciek danych po kolejnym ataku hakerskim.",
+      "content": "Dane części użytkowników serwisu SuperGrosz wyciekły po ataku hakerskim."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Wyciek danych użytkowników serwisu SuperGrosz po ataku hakerskim.",
+    "notes_to_editor": "Rozważyć użycie bardziej neutralnego języka w tytule."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 66,
+    "processing_time_ms": 14445,
+    "model": "gpt-4o-mini"
+  }
+}

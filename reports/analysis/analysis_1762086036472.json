@@ -1,0 +1,50 @@
+{
+  "id": 1762086036472,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/zweglone-ciala-na-karaibach-trump-robi-co-chce-a-europa-umywa-rece/kh0z374",
+  "title": "Na karaibskie plaże wypływają zwęglone ciała. Efekt brutalnego pokazu siły Donalda Trumpa",
+  "score": 72,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'zwęglone ciała' i 'brutalnego pokazu siły', co zwiększa jego clickbaitowość.",
+    "Treść artykułu odnosi się do sytuacji politycznej i militarnej, ale nie dostarcza konkretnych dowodów na bezpośredni związek z Donaldem Trumpem, co może prowadzić do niezgodności.",
+    "W artykule występują cytaty, ale nie są one wystarczająco kontekstualizowane, co wpływa na wiarygodność.",
+    "Zidentyfikowano wysoką wartość emocjonalną w tytule i treści, co jest charakterystyczne dla clickbaitu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa dramatycznych sformułowań, które przyciągają uwagę, co sugeruje, że jest to artykuł clickbaitowy.",
+    "Treść odnosi się do poważnych tematów politycznych, ale nie dostarcza wystarczających dowodów na związki z Donaldem Trumpem, co może wprowadzać w błąd.",
+    "Artykuł zawiera cytaty, ale brakuje kontekstu, co może wpływać na jego wiarygodność.",
+    "W artykule jest dużo emocji, co jest typowe dla clickbaitowych treści."
+  ],
+  "summary": "Artykuł opisuje sytuację na Karaibach w kontekście polityki międzynarodowej, wskazując na rosnącą brutalność i bezsilność mniejszych państw wobec większych mocarstw. Zawiera odniesienia do działań militarnych USA oraz ich wpływu na region. Autor podkreśla, że władza na Karaibach jest coraz bardziej uzależniona od siły.",
+  "signals": {
+    "title_hits": [
+      "zwęglone ciała",
+      "brutalnego pokazu siły"
+    ],
+    "content_hits": [
+      "brutalnego pokazu siły",
+      "bezsilności",
+      "mniejsze państwa"
+    ],
+    "credibility_hits": [
+      "Nahal Toosi",
+      "EPA/Orlando Barria, Andrew CABALLERO-REYNOLDS"
+    ],
+    "mismatch": {
+      "title_content_mismatch": true,
+      "explanation": "Tytuł sugeruje bezpośredni związek między Trumpem a zwęglonymi ciałami, podczas gdy treść koncentruje się na szerszym kontekście politycznym."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Sytuacja na Karaibach w kontekście polityki międzynarodowej i działań USA",
+    "notes_to_editor": "Rozważyć dodanie więcej kontekstu do cytatów oraz źródeł, aby zwiększyć wiarygodność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 16,
+    "tokens_content": 165,
+    "processing_time_ms": 16381,
+    "model": "gpt-4o-mini"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": 1762086024320,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/richard-branson-pod-wrazeniem-slow-donalda-tuska-przyznal-mu-racje/3pdckjn",
+  "title": "\"Brutalna prawda\" w słowach Donalda Tuska. Miliarder pod wrażeniem słów premiera",
+  "score": 62,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazę sensacyjną \"Brutalna prawda\", co zwiększa jego clickbaitowość.",
+    "Treść artykułu odnosi się do komentarza Richarda Bransona na temat słów Donalda Tuska, co jest zgodne z tytułem.",
+    "W artykule brak jest konkretnych cytatów lub danych liczbowych, co obniża jego wiarygodność.",
+    "Mismatched detection wykazało, że tytuł i treść są zgodne, ale tytuł jest bardziej dramatyczny niż treść.",
+    "Analiza wykazała, że tytuł ma większą wagę w ocenie clickbaitu niż treść."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnego wyrażenia \"Brutalna prawda\", co przyciąga uwagę, ale może być uznane za przesadne.",
+    "Artykuł rzeczywiście dotyczy komentarza Richarda Bransona na temat Donalda Tuska, co jest zgodne z tytułem.",
+    "Brakuje w artykule konkretnych cytatów lub danych, co może wpływać na postrzeganą wiarygodność.",
+    "Tytuł jest bardziej dramatyczny niż sama treść artykułu, co może wprowadzać w błąd.",
+    "Ogólnie, tytuł ma większy wpływ na ocenę clickbaitu niż sama treść."
+  ],
+  "summary": "Artykuł opisuje reakcję miliardera Richarda Bransona na słowa Donalda Tuska, które padły w wywiadzie dla tygodnika \"Sunday Times\". Branson wyraził swoje uznanie dla Tuska, komentując jego mocne stwierdzenia dotyczące wojny w Ukrainie. W artykule podkreślono, że komentarz Bransona miał miejsce w mediach społecznościowych.",
+  "signals": {
+    "title_hits": [
+      "Brutalna prawda"
+    ],
+    "content_hits": [
+      "miliarder",
+      "wrażenie",
+      "słowa Donalda Tuska"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "title_content_match": true,
+      "title_sensational": true,
+      "content_sensational": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Richard Branson komentuje słowa Donalda Tuska na temat Ukrainy",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 16,
+    "tokens_content": 90,
+    "processing_time_ms": 14103,
+    "model": "gpt-4o-mini"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": 1762086005661,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/zbigniew-ziobro-straci-immunitet-piotr-zgorzelski-ujawnia-szczegoly/cf2tkpb",
+  "title": "Zbigniew Ziobro straci immunitet? Piotr Zgorzelski ujawnia szczegóły",
+  "score": 38,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera pytanie, co może wzbudzać ciekawość, ale nie stosuje skrajnych fraz sensacyjnych.",
+    "Treść artykułu jest zgodna z tytułem, jednak nie dostarcza szczegółowych informacji, co może prowadzić do luk ciekawości.",
+    "W tytule użyto imienia i nazwiska osoby publicznej, co może zwiększać zainteresowanie.",
+    "W treści pojawia się cytat z wicemarszałka Sejmu, co dodaje wiarygodności, ale brakuje konkretnych danych liczbowych."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zadaje pytanie, co może przyciągać uwagę, ale nie jest przesadnie sensacyjny.",
+    "Treść artykułu odpowiada na tytuł, ale nie zawiera wielu szczegółów, co może budzić ciekawość.",
+    "W artykule wspomniano osobę publiczną, co może zwiększać zainteresowanie czytelników.",
+    "Cytat z wicemarszałka Sejmu dodaje wiarygodności, ale brakuje konkretnych faktów."
+  ],
+  "summary": "Artykuł informuje o możliwym uchwałeniu immunitetu Zbigniewa Ziobry, byłego ministra sprawiedliwości, na najbliższym posiedzeniu Sejmu. Wicemarszałek Sejmu Piotr Zgorzelski potwierdził, że sprawa ta ma być omawiana. Zawiera również odniesienie do wcześniejszych działań Ziobry w kontekście komisji śledczej.",
+  "signals": {
+    "title_hits": [
+      "straci immunitet",
+      "ujawnia szczegóły"
+    ],
+    "content_hits": [
+      "Zbigniew Ziobro",
+      "immunitet",
+      "Piotr Zgorzelski"
+    ],
+    "credibility_hits": [
+      "Polska Agencja Prasowa",
+      "Piotr Zgorzelski"
+    ],
+    "mismatch": {
+      "title": "Zbigniew Ziobro straci immunitet?",
+      "content": "Sprawa uchwały immunitetu Zbigniewa Ziobry ma być omawiana."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Możliwe uchwała immunitetu Zbigniewa Ziobry na posiedzeniu Sejmu",
+    "notes_to_editor": "Rozważyć dodanie więcej szczegółów w treści artykułu, aby zaspokoić ciekawość czytelników."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 98,
+    "processing_time_ms": 17760,
+    "model": "gpt-4o-mini"
+  }
+}

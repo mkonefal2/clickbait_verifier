@@ -1,0 +1,47 @@
+{
+  "id": 1762086039938,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/warszawa/grozny-wypadek-kolo-warszawy-auto-dachowalo-sa-ranni-w-tym-dwoje-dzieci/lfp2n11",
+  "title": "Groźny wypadek w Pruszkowie. Są ranni, w tym dwoje dzieci",
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera słowo 'groźny', co jest frazą sensacyjną.",
+    "Treść artykułu informuje o wypadku, jednak nie zawiera nadmiernych emocji ani dramatyzacji.",
+    "Zgłoszono ranne osoby, w tym dzieci, co może budzić ciekawość, ale jest zgodne z faktami.",
+    "Zidentyfikowano pewne niezgodności między tytułem a treścią, ale nie są one znaczące.",
+    "Brak cytatów lub szczegółowych danych liczbowych, co obniża wiarygodność."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'groźny', co może przyciągać uwagę, ale nie jest przesadnie dramatyczny.",
+    "Artykuł opisuje wypadek, podając konkretne informacje o rannych, w tym dzieciach.",
+    "Nie ma dużych rozbieżności między tytułem a treścią, co jest pozytywne.",
+    "Brak dodatkowych źródeł czy statystyk, co może wpływać na postrzeganą wiarygodność informacji."
+  ],
+  "summary": "Artykuł opisuje groźny wypadek drogowy, który miał miejsce w Pruszkowie koło Warszawy. W wyniku zderzenia dwóch aut rannych zostało siedem osób, w tym dwoje dzieci. Służby informują o poważnych utrudnieniach w ruchu drogowym w okolicy.",
+  "signals": {
+    "title_hits": [
+      "groźny"
+    ],
+    "content_hits": [
+      "wypadek",
+      "ranni",
+      "dzieci"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "title": "Tytuł jest zgodny z treścią, ale użycie słowa 'groźny' może być uznane za sensacyjne.",
+      "content": "Treść artykułu jest zgodna z tytułem, podaje konkretne informacje o wypadku."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Wypadek drogowy w Pruszkowie. Ranni, w tym dzieci",
+    "notes_to_editor": "Rozważyć dodanie cytatów lub danych liczbowych dla zwiększenia wiarygodności."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 64,
+    "processing_time_ms": 12209,
+    "model": "gpt-4o-mini"
+  }
+}

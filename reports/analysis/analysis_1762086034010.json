@@ -1,0 +1,50 @@
+{
+  "id": 1762086034010,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/viktor-orban-w-potrzasku-usa-i-ue-dokrecaja-srube-wegry-musza-zdecydowac-albo-sa/sxnm1n7",
+  "title": "Viktor Orban w potrzasku. Musi szukać przyjaciół tam, gdzie dotąd widział wrogów",
+  "score": 62,
+  "label": "strong",
+  "rationale": [
+    "Title contains sensational phrases like 'w potrzasku' and 'musi szukać przyjaciół tam, gdzie dotąd widział wrogów'.",
+    "Content discusses a critical situation for Viktor Orban, aligning with the title but using emotional language.",
+    "Mismatch detection shows a strong alignment between title and content, but the title is more dramatic.",
+    "Credibility signals are present, including a quote from an analyst and specific details about sanctions and geopolitical context."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera dramatyczne sformułowania, które przyciągają uwagę, jak 'w potrzasku'.",
+    "Treść artykułu opisuje trudną sytuację Viktora Orbana, co zgadza się z tytułem, ale jest bardziej emocjonalne.",
+    "Nie ma dużych rozbieżności między tytułem a treścią, ale tytuł jest bardziej dramatyczny.",
+    "Artykuł zawiera cytaty i konkretne informacje, co zwiększa jego wiarygodność."
+  ],
+  "summary": "Artykuł opisuje trudną sytuację Węgier pod rządami Viktora Orbana, który musi zmierzyć się z amerykańskimi sankcjami na rosyjską ropę. W obliczu zagrożenia odcięcia dostaw, Węgry rozważają alternatywne źródła, jednak Orban wyraża wątpliwości co do ich opłacalności. W artykule pojawiają się również oskarżenia wobec Chorwacji o wykorzystywanie sytuacji wojennej w Ukrainie.",
+  "signals": {
+    "title_hits": [
+      "w potrzasku",
+      "musi szukać przyjaciół",
+      "dotąd widział wrogów"
+    ],
+    "content_hits": [
+      "sankcje",
+      "dostawy",
+      "alternatywne źródła"
+    ],
+    "credibility_hits": [
+      "cytat od Tamas Pletser",
+      "konkretne dane o sankcjach"
+    ],
+    "mismatch": {
+      "title_content_alignment": "strong"
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Viktor Orban staje przed wyzwaniami związanymi z sankcjami USA i UE",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć dramatyzacji sytuacji."
+  },
+  "diagnostics": {
+    "tokens_title": 16,
+    "tokens_content": 241,
+    "processing_time_ms": 14924,
+    "model": "gpt-4o-mini"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": 1762086010843,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/politico/paraliz-w-usa-braklo-pieniedzy-na-pomoc-42-mln-amerykanow-bez-jedzenia/vjrrw09",
+  "title": "\"42 miliony Amerykanów pozostaną bez jedzenia\". Ogromne poruszenie w USA",
+  "score": 62,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazę sensacyjną \"ogromne poruszenie\", co zwiększa jego clickbaitowość.",
+    "Treść artykułu zawiera liczby oraz cytaty, co podnosi wiarygodność, ale również może być użyte w clickbaitowy sposób.",
+    "Występuje niezgodność między tytułem a treścią, ponieważ tytuł sugeruje dramatyczną sytuację, podczas gdy treść przedstawia kontekst i przyczyny tego stanu.",
+    "W treści pojawiają się absoluty, takie jak \"pierwszy taki przypadek\", co również wpływa na ocenę clickbaitu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera emocjonalne sformułowania, które mogą przyciągać uwagę czytelników.",
+    "Artykuł zawiera konkretne liczby i cytaty, co sprawia, że jest bardziej wiarygodny, ale może też być użyte do wywołania sensacji.",
+    "Tytuł sugeruje dramatyczną sytuację, ale treść wyjaśnia kontekst, co może wprowadzać w błąd.",
+    "Pojawiają się mocne sformułowania, które mogą zwiększać zainteresowanie, ale też wpływają na ocenę clickbaitu."
+  ],
+  "summary": "Artykuł opisuje sytuację w USA, gdzie 42 miliony ludzi mogą zostać bez pomocy żywnościowej z powodu braku funduszy. Wzrost kosztów życia oraz zamknięcie rządu prowadzi do dramatycznego wzrostu liczby rodzin szukających wsparcia. Cytaty polityków i konkretne liczby ilustrują powagę sytuacji.",
+  "signals": {
+    "title_hits": [
+      "ogromne poruszenie"
+    ],
+    "content_hits": [
+      "42 miliony Amerykanów",
+      "pierwszy taki przypadek",
+      "dramaturgia sytuacji"
+    ],
+    "credibility_hits": [
+      "Ben Ray Lujan",
+      "cytaty",
+      "liczby"
+    ],
+    "mismatch": {
+      "title": "Ogromne poruszenie w USA",
+      "content": "Treść przedstawia kontekst i przyczyny sytuacji"
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "42 miliony Amerykanów mogą stracić dostęp do pomocy żywnościowej",
+    "notes_to_editor": "Rozważyć zmianę tytułu na bardziej neutralny, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 215,
+    "processing_time_ms": 14692,
+    "model": "gpt-4o-mini"
+  }
+}

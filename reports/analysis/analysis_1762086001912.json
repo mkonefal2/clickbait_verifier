@@ -1,0 +1,51 @@
+{
+  "id": 1762086001912,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/atak-hakerski-na-serwis-supergrosz-minister-alarmuje-sytuacja-jest-bardzo-powazna/4fzyws1",
+  "title": "Wyciek danych po kolejnym ataku hakerskim. \"Sytuacja jest poważna\"",
+  "score": 55,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'atak hakerski' i 'sytuacja jest poważna', które mogą wzbudzać emocje.",
+    "Treść artykułu potwierdza tytuł, jednak użycie absolutów w tytule i treści wpływa na podniesienie wyniku clickbaitu.",
+    "W treści występują cytaty z wiarygodnego źródła (wicepremier), co podnosi poziom wiarygodności, ale nie neutralizuje clickbaitowych elementów.",
+    "W artykule nie ma konkretnej liczby ani statystyk, co mogłoby wzmocnić jego wiarygodność.",
+    "Zidentyfikowano pewne rozbieżności między tytułem a treścią, ale są one minimalne."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera emocjonalne sformułowania, które mogą przyciągać uwagę czytelników.",
+    "Treść artykułu odpowiada tytułowi, ale użycie mocnych słów wpływa na jego odbiór jako clickbait.",
+    "Cytaty z wicepremiera dodają wiarygodności, ale brak konkretów osłabia ten efekt.",
+    "W artykule nie ma danych liczbowych, które mogłyby wzmocnić jego rzetelność.",
+    "Tytuł i treść są zgodne, ale nieco przesadzone w tonie."
+  ],
+  "summary": "Artykuł informuje o wycieku danych użytkowników serwisu SuperGrosz w wyniku ataku hakerskiego. Wicepremier Krzysztof Gawkowski ostrzega, że sytuacja jest poważna i zapewnia, że odpowiednie zespoły zajmują się sprawą. Incydent ten budzi obawy dotyczące bezpieczeństwa danych w Polsce.",
+  "signals": {
+    "title_hits": [
+      "atak hakerski",
+      "sytuacja jest poważna"
+    ],
+    "content_hits": [
+      "atak hakerski",
+      "sytuacja jest bardzo poważna"
+    ],
+    "credibility_hits": [
+      "Krzysztof Gawkowski",
+      "Polska Agencja Prasowa"
+    ],
+    "mismatch": {
+      "title": "Wyciek danych po kolejnym ataku hakerskim. 'Sytuacja jest poważna'",
+      "content": "Kolejny atak hakerski. Minister alarmuje: sytuacja jest bardzo poważna"
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Wyciek danych użytkowników serwisu SuperGrosz po ataku hakerskim",
+    "notes_to_editor": "Rozważyć użycie mniej emocjonalnych sformułowań w tytule."
+  },
+  "diagnostics": {
+    "tokens_title": 13,
+    "tokens_content": 92,
+    "processing_time_ms": 14407,
+    "model": "gpt-4o-mini"
+  }
+}

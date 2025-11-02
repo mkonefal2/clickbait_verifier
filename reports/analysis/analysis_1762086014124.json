@@ -1,0 +1,49 @@
+{
+  "id": 1762086014124,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/religia/rosjanie-budowali-kiedys-jednodniowe-cerkwie-przed-tym-mialy-ich-chronic/3hvre79",
+  "title": "Rosjanie budowali kiedyś jednodniowe cerkwie. Przed tym miały ich chronić",
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy, które mogą wzbudzać ciekawość, takie jak 'kiedyś' i 'przed tym miały ich chronić'.",
+    "Treść artykułu jest krótka i powtarza informacje zawarte w tytule, co może sugerować niską wartość dodaną.",
+    "W artykule brakuje konkretnych danych, cytatów lub źródeł, co wpływa na jego wiarygodność.",
+    "Zidentyfikowano niewielką niezgodność między tytułem a treścią, ponieważ tytuł sugeruje większą historię, podczas gdy treść jest bardzo zwięzła."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera interesujące elementy, które mogą przyciągnąć uwagę czytelników.",
+    "Treść artykułu jest krótka i nie rozwija tematu, co może pozostawić czytelnika z niedosytem informacji.",
+    "Artykuł nie zawiera konkretów ani źródeł, co może budzić wątpliwości co do jego rzetelności.",
+    "Tytuł sugeruje bardziej rozbudowaną historię, podczas gdy treść jest bardzo zwięzła."
+  ],
+  "summary": "Artykuł opisuje zwyczaj budowania jednodniowych cerkwi przez Rosjan w przeszłości, szczególnie w czasach zarazy. Wskazuje, że te cerkwie były symbolem nadziei, budowanym w pośpiechu przed zmrokiem. Autor podkreśla, że mieszkańcy wiosek i miast wierzyli, iż ich powstanie może przynieść ocalenie.",
+  "signals": {
+    "title_hits": [
+      "kiedyś",
+      "przed tym",
+      "chronić"
+    ],
+    "content_hits": [
+      "budowali",
+      "jednodniowe cerkwie",
+      "zaraza",
+      "nadzieja"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "title": "Tytuł sugeruje szerszą narrację.",
+      "content": "Treść jest zbyt krótka i nie rozwija tematu."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Budowa jednodniowych cerkwi przez Rosjan w przeszłości",
+    "notes_to_editor": "Rozważyć dodanie więcej informacji i źródeł, aby zwiększyć wartość artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 85,
+    "processing_time_ms": 13390,
+    "model": "gpt-4o-mini"
+  }
+}

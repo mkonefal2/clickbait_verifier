@@ -1,0 +1,49 @@
+{
+  "id": 1762086017423,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/izrael-grozi-nasileniem-atakow-w-libanie-nie-bedziemy-tolerowac/cg28gcr",
+  "title": "Izrael grozi nasileniem ataków w Libanie. \"Nie będziemy tolerować\"",
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazę sensacyjną 'grozi nasileniem ataków', co może wzbudzać emocje.",
+    "W treści artykułu znajduje się informacja o zagrożeniu ze strony Izraela, co jest zgodne z tytułem.",
+    "W tytule występuje absolut 'nie będziemy tolerować', co podnosi poziom clickbaitu.",
+    "Brak cytatów lub konkretnych danych liczbowych w treści, co obniża sygnały wiarygodności.",
+    "Zidentyfikowano niewielką niezgodność między tytułem a treścią, ale jest ona minimalna."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa emocjonalnych słów, co może przyciągać uwagę czytelników.",
+    "Treść artykułu jest zgodna z tytułem, opisując zagrożenie ze strony Izraela.",
+    "W tytule użyto mocnych słów, co może sugerować dramatyzm sytuacji.",
+    "Artykuł nie zawiera cytatów ani konkretnych danych, co może wpływać na jego wiarygodność.",
+    "Tytuł i treść są w dużej mierze zgodne, ale niektóre sformułowania mogą budzić wątpliwości."
+  ],
+  "summary": "Izraelski minister obrony Israel Kac zapowiedział nasilenie ataków na Hezbollah w Libanie. Oświadczenie to nastąpiło po doniesieniach o śmierci czterech osób w wyniku izraelskich ataków. Artykuł przedstawia kontekst tej sytuacji oraz stanowisko izraelskiego rządu.",
+  "signals": {
+    "title_hits": [
+      "grozi",
+      "nasileniem ataków",
+      "nie będziemy tolerować"
+    ],
+    "content_hits": [
+      "grozi nasileniem ataków",
+      "nie będziemy tolerować"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "title_content_match": true,
+      "content_summary_match": true
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Izrael zapowiada zwiększenie ataków na Hezbollah w Libanie",
+    "notes_to_editor": "Rozważyć dodanie cytatów lub danych liczbowych dla zwiększenia wiarygodności artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 11,
+    "tokens_content": 83,
+    "processing_time_ms": 12646,
+    "model": "gpt-4o-mini"
+  }
+}

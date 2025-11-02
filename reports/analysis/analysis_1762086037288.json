@@ -1,0 +1,47 @@
+{
+  "id": 1762086037288,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/trojmiasto/14-letni-andrzej-tyszka-zaginal-policja-prosi-o-pomoc/lvhrb1d",
+  "title": "14-letni Andrzej wyszedł do szkoły w Halloween i zupełnie przepadł. Apel policji o pomoc",
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'zupełnie przepadł', co może wzbudzać niepokój.",
+    "Treść artykułu jest zgodna z tytułem, jednak nie zawiera dodatkowych informacji, które mogłyby wzmocnić jego wiarygodność.",
+    "W tytule użyto daty i kontekstu (Halloween), co może budzić ciekawość, ale nie jest to skrajnie clickbaitowe.",
+    "W treści nie ma cytatów ani konkretnych liczb, co obniża sygnały wiarygodności.",
+    "Brak istotnych niezgodności między tytułem a treścią."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera emocjonalne sformułowania, które mogą przyciągać uwagę.",
+    "Treść artykułu odpowiada tytułowi, ale nie dostarcza dodatkowych informacji, które mogłyby zwiększyć jego wiarygodność.",
+    "W tytule pojawia się kontekst Halloween, co może wzbudzać ciekawość, ale nie jest to przesadnie sensacyjne.",
+    "Artykuł nie zawiera cytatów ani konkretów, co może wpływać na postrzeganą wiarygodność.",
+    "Nie znaleziono istotnych niezgodności między tytułem a treścią."
+  ],
+  "summary": "Artykuł informuje o zaginięciu 14-letniego Andrzeja Tyszki, który w dniu 31 października pojechał do szkoły w Słupsku i nie wrócił do domu. Policja prowadzi poszukiwania chłopca i apeluje o pomoc w odnalezieniu go. W artykule zamieszczono również zdjęcia zaginionego.",
+  "signals": {
+    "title_hits": [
+      "zupełnie przepadł"
+    ],
+    "content_hits": [
+      "zaginął",
+      "policja prosi o pomoc"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "exists": false,
+      "details": {}
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Zaginięcie 14-letniego Andrzeja Tyszki – apel policji o pomoc",
+    "notes_to_editor": "Rozważyć dodanie cytatów lub statystyk, aby zwiększyć wiarygodność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 17,
+    "tokens_content": 80,
+    "processing_time_ms": 14714,
+    "model": "gpt-4o-mini"
+  }
+}

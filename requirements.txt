@@ -6,3 +6,5 @@ pyyaml
 python-dateutil
 ratelimit
 playwright
+openai
+python-dotenv

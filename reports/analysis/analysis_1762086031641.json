@@ -1,0 +1,50 @@
+{
+  "id": 1762086031641,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/tragiczny-bilans-powodzi-w-wietnamie-35-ofiar-smiertelnych/162wlvw",
+  "title": "Powodzie w Wietnamie. \"Mieszkańcy nie zdążyli się przygotować\"",
+  "score": 32,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazę 'Mieszkańcy nie zdążyli się przygotować', co może budzić ciekawość, ale nie jest to skrajnie sensacyjne.",
+    "Treść artykułu koncentruje się na faktach dotyczących powodzi i liczby ofiar, co zmniejsza stopień clickbaitu.",
+    "Zidentyfikowano niewielką liczbę sygnałów wiarygodności, takich jak źródło (Polska Agencja Prasowa) oraz konkretne liczby ofiar.",
+    "Brak istotnych niezgodności między tytułem a treścią, co wpływa na niższy wynik clickbaitu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera zdanie, które może przyciągać uwagę, ale nie jest przesadnie dramatyczne.",
+    "Artykuł skupia się na rzeczywistych informacjach o powodzi i jej skutkach, co sprawia, że jest bardziej wiarygodny.",
+    "Podano konkretne liczby ofiar, co zwiększa zaufanie do treści.",
+    "Tytuł i treść są zgodne, co obniża stopień clickbaitu."
+  ],
+  "summary": "Artykuł opisuje tragiczne skutki powodzi w Wietnamie, w wyniku których zginęło 35 osób, a pięć jest zaginionych. Intensywne opady deszczu spowodowały zalanie tysięcy domów oraz zniszczenie pól uprawnych. Informacje pochodzą od wietnamskich służb zarządzania kryzysowego.",
+  "signals": {
+    "title_hits": [
+      "Mieszkańcy nie zdążyli się przygotować"
+    ],
+    "content_hits": [
+      "35 osób nie żyje",
+      "zalanie tysięcy domów",
+      "zniszczenia pól uprawnych"
+    ],
+    "credibility_hits": [
+      "Polska Agencja Prasowa",
+      "VDDMA",
+      "liczba ofiar"
+    ],
+    "mismatch": {
+      "title": "Mieszkańcy nie zdążyli się przygotować",
+      "content": "Artykuł zawiera informacje o liczbie ofiar i skutkach powodzi, co jest zgodne z tytułem."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Bilans powodzi w Wietnamie: 35 ofiar śmiertelnych",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 90,
+    "processing_time_ms": 12954,
+    "model": "gpt-4o-mini"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": 1762086010991,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/politico/paraliz-w-usa-braklo-pieniedzy-na-pomoc-42-mln-amerykanow-bez-jedzenia/vjrrw09",
+  "title": "\"42 miliony Amerykanów pozostaną bez jedzenia\". Ogromne poruszenie w USA",
+  "score": 68,
+  "label": "strong",
+  "rationale": [
+    "Title contains a sensational phrase ('42 miliony Amerykanów pozostaną bez jedzenia') which triggers a high clickbait score.",
+    "Content reinforces the title with alarming statistics and quotes, contributing to the overall clickbait nature.",
+    "Mismatch detection shows that the title aligns with the content, but the sensationalism in the title raises the score.",
+    "Credibility signals are present through quotes from a senator and specific statistics, but the overall tone remains sensational."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera dramatyczne stwierdzenie, które przyciąga uwagę i może wzbudzać niepokój.",
+    "Treść artykułu potwierdza tytuł, podając alarmujące dane i cytaty, co zwiększa jego clickbaitowość.",
+    "Tytuł i treść są zgodne, ale sensacyjne sformułowania w tytule wpływają na wyższą ocenę.",
+    "Artykuł zawiera wiarygodne źródła i statystyki, ale jego ton pozostaje dramatyczny."
+  ],
+  "summary": "Artykuł opisuje sytuację 42 milionów Amerykanów, którzy mogą stracić dostęp do pomocy żywnościowej z powodu braku funduszy w wyniku zamknięcia rządu. Wzrost kosztów życia w USA prowadzi do zwiększonej liczby rodzin szukających wsparcia. Cytaty z polityków ilustrują niepokój związany z tą sytuacją.",
+  "signals": {
+    "title_hits": [
+      "42 miliony Amerykanów",
+      "bez jedzenia",
+      "Ogromne poruszenie"
+    ],
+    "content_hits": [
+      "42 miliony Amerykanów",
+      "brak funduszy",
+      "koszty życia wzrosły",
+      "niepokój rodziny"
+    ],
+    "credibility_hits": [
+      "Ben Ray Lujan, senator",
+      "statystyki o wzroście rodzin szukających pomocy"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "title_sensationalism": true
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Brak funduszy na pomoc żywnościową dla 42 milionów Amerykanów",
+    "notes_to_editor": "Rozważyć użycie bardziej neutralnego języka w tytule, aby zmniejszyć wrażenie clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 197,
+    "processing_time_ms": 18046,
+    "model": "gpt-4o-mini"
+  }
+}

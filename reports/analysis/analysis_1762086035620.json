@@ -1,0 +1,51 @@
+{
+  "id": 1762086035620,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/zaczela-sie-faza-0-duze-poruszenie-w-nato-podejrzane-ruchy-rosji/mlxcnq7",
+  "title": "\"Zaczęła się faza 0\". Duże poruszenie w NATO. Podejrzane ruchy Rosji",
+  "score": 62,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'Duże poruszenie' oraz 'podejrzane ruchy', co zwiększa jego clickbaitowość.",
+    "Treść artykułu odnosi się do niepokojących działań Rosji w kontekście NATO, co jest zgodne z tytułem, ale używa emocjonalnego języka.",
+    "W artykule pojawiają się konkretne liczby i nazwiska, co może zwiększać wiarygodność, ale nie równoważy to ogólnego wrażenia sensacyjności.",
+    "Wykryto niezgodność między tytułem a treścią, ponieważ tytuł sugeruje dramatyczne wydarzenia, podczas gdy treść jest bardziej informacyjna."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa emocjonalnych zwrotów, które mogą przyciągać uwagę, co jest typowe dla clickbaitu.",
+    "Artykuł opisuje działania Rosji w kontekście NATO, co jest zgodne z tytułem, ale sposób, w jaki to przedstawiono, jest bardziej dramatyczny.",
+    "Pojawiają się konkretne informacje, takie jak nazwiska i liczby, co dodaje wiarygodności, ale nie zmienia ogólnego wrażenia sensacyjności.",
+    "Tytuł sugeruje większe napięcie, niż to, co faktycznie przedstawia treść artykułu."
+  ],
+  "summary": "Artykuł informuje o nowym etapie przygotowań Rosji do potencjalnego konfliktu z NATO, określanym jako 'fazę 0'. W NATO narasta niepokój, a organizacja planuje odświeżenie swoich tajnych planów obronnych. W artykule przytoczono informacje od Christophera T. Donahue, dowódcy sił lądowych NATO, dotyczące kompleksowej koncepcji obronnej przedstawionej w Brukseli.",
+  "signals": {
+    "title_hits": [
+      "Duże poruszenie",
+      "podejrzane ruchy"
+    ],
+    "content_hits": [
+      "faza 0",
+      "nowy etap przygotowań",
+      "niepokój w NATO"
+    ],
+    "credibility_hits": [
+      "Welt am Sonntag",
+      "Christopher T. Donahue",
+      "32 krajów"
+    ],
+    "mismatch": {
+      "title": "Zaczęła się faza 0. Duże poruszenie w NATO. Podejrzane ruchy Rosji",
+      "content": "Artykuł informuje o nowym etapie przygotowań Rosji do potencjalnego konfliktu z NATO."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Rosja rozpoczyna nowy etap przygotowań do konfliktu z NATO",
+    "notes_to_editor": "Rozważyć użycie mniej dramatycznego języka w tytule i treści, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 15,
+    "tokens_content": 137,
+    "processing_time_ms": 15798,
+    "model": "gpt-4o-mini"
+  }
+}

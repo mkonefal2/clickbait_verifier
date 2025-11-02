@@ -1,0 +1,48 @@
+{
+  "id": 1762086038787,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/tylko-w-onecie/stan-wyjatkowy-telus-opchnal-dzialke-zurek-chce-wsadzic-ziobre-obajtek-ma-oddac-kase/jcsywwq",
+  "title": "\"Stan Wyjątkowy\". Kaczyński zarządził rzeź, Żurek chce dopaść Ziobrę, Obajtek ma oddać kasę za botoks",
+  "score": 78,
+  "label": "extreme",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'zarządził rzeź' oraz 'dopaść Ziobrę', co wzbudza silne emocje.",
+    "W treści artykułu występują powtórzenia nazwisk i sytuacji, ale nie ma konkretnych danych liczbowych ani cytatów, co obniża wiarygodność.",
+    "Zidentyfikowano znaczne rozbieżności między tytułem a treścią, co wskazuje na clickbaitowy charakter.",
+    "Tytuł sugeruje dramatyczne wydarzenia, które nie są w pełni odzwierciedlone w treści artykułu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów, które mogą wywołać emocje, co jest typowe dla clickbaitu.",
+    "W artykule brakuje konkretnych danych i cytatów, co może wpływać na jego wiarygodność.",
+    "Tytuł i treść nie do końca się zgadzają, co sugeruje, że tytuł został stworzony, aby przyciągnąć uwagę.",
+    "Mocne sformułowania w tytule nie są w pełni poparte informacjami w artykule."
+  ],
+  "summary": "Artykuł opisuje sprzedaż działki przez ministra Roberta Telusa tuż przed przejęciem władzy przez rząd Donalda Tuska. Zawiera informacje o powiązaniach Telusa z rodziną Wielgomasów oraz o szybkim procesie sprzedaży. Autorzy podcastu 'Stan Wyjątkowy' komentują tę sytuację, wskazując na możliwe nieprawidłowości.",
+  "signals": {
+    "title_hits": [
+      "stan wyjątkowy",
+      "zarządził rzeź",
+      "dopaść Ziobrę",
+      "oddaj kasę za botoks"
+    ],
+    "content_hits": [
+      "Telus opchnął działkę",
+      "Żurek chce wsadzić Ziobrę"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "title_content_mismatch": true,
+      "title_content_difference": "Tytuł sugeruje dramatyczne wydarzenia, które nie są w pełni odzwierciedlone w treści."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Sprzedaż działki przez ministra Telusa przed przejęciem władzy przez rząd Tuska",
+    "notes_to_editor": "Zaleca się unikanie sensacyjnych sformułowań w tytule, aby lepiej odzwierciedlić treść artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 18,
+    "tokens_content": 164,
+    "processing_time_ms": 14842,
+    "model": "gpt-4o-mini"
+  }
+}

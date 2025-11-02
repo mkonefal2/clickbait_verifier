@@ -1,0 +1,50 @@
+{
+  "id": 1762086010160,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/pogoda/ulewy-zaatakuja-czesc-polski-imgw-wydal-ostrzezenia-pierwszego-stopnia/gf42yjz",
+  "title": "Ulewy i gwałtowny wzrost poziomu wody w rzekach. IMGW wydał ważne ostrzeżenia",
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'gwałtowny wzrost poziomu wody', co może wzbudzać emocje.",
+    "Treść artykułu jest zgodna z tytułem, informując o ostrzeżeniach IMGW przed intensywnymi opadami deszczu.",
+    "W tytule i treści występują liczby, co zwiększa wiarygodność, ale nie ma cytatów ani źródeł.",
+    "Wykryto lukę ciekawości w tytule, która może przyciągać uwagę czytelników."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów, które mogą przyciągać uwagę, jak 'gwałtowny wzrost poziomu wody'.",
+    "Artykuł rzeczywiście dotyczy ostrzeżeń IMGW o intensywnych opadach, co jest zgodne z tytułem.",
+    "Zawiera liczby, co sprawia, że informacje są bardziej wiarygodne, ale brakuje cytatów lub źródeł.",
+    "Tytuł sugeruje dramatyczne wydarzenia, co może wzbudzać ciekawość czytelników."
+  ],
+  "summary": "Instytut Meteorologii i Gospodarki Wodnej (IMGW) wydał ostrzeżenia pierwszego stopnia przed intensywnymi opadami deszczu, które mają wystąpić w dwóch województwach na południowym zachodzie Polski. Dodatkowo, IMGW ostrzega przed wzrostem poziomu wody w rzekach, co może prowadzić do zagrożeń hydrologicznych.",
+  "signals": {
+    "title_hits": [
+      "gwałtowny wzrost poziomu wody",
+      "ważne ostrzeżenia"
+    ],
+    "content_hits": [
+      "ostrzeżenia pierwszego stopnia",
+      "intensywne opady deszczu",
+      "wzrost poziomu wody"
+    ],
+    "credibility_hits": [
+      "IMGW",
+      "ostrzeżenia pierwszego stopnia"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "title_summary_match": true
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Ostrzeżenia IMGW przed intensywnymi opadami deszczu w Polsce",
+    "notes_to_editor": "Zaleca się unikanie użycia emocjonalnych sformułowań w tytule, aby zwiększyć obiektywność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 15,
+    "tokens_content": 87,
+    "processing_time_ms": 14550,
+    "model": "gpt-4o-mini"
+  }
+}

@@ -174,7 +174,7 @@ scoring:
     credibility:
       org_names:      { per_hit: 3, cap: 12 }
       numbers_dates:  { per_hit: 2, cap: 10 }
-      quoted_speakers:{ per_hit: 2, cap: 8 }
+      quoted_speakers: { per_hit: 2, cap: 8 }
       methods_terms:  { per_hit: 2, cap: 8 }
     hedging:
       hedging_terms:  { per_hit: 2, cap: 10 }

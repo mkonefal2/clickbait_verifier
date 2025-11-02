@@ -1,0 +1,50 @@
+{
+  "id": 1762086016557,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/czystka-w-moskwie-na-generalow-i-milionerow-padl-blady-strach/h0kkpmx",
+  "title": "Czystka w Moskwie. Na generałów i milionerów padł blady strach",
+  "score": 62,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'czystka' i 'blady strach', które wzbudzają emocje.",
+    "Treść artykułu opisuje konkretne wydarzenia, ale używa dramatycznego języka, co wpływa na ocenę clickbaitu.",
+    "W tytule i treści występuje pewne dopasowanie, ale tytuł jest bardziej sensacyjny niż treść.",
+    "Brak cytatów i konkretnych danych liczbowych, co obniża sygnały wiarygodności.",
+    "Mismatches między tytułem a treścią są obecne, ponieważ tytuł sugeruje większą dramatyczność niż przedstawione fakty."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa emocjonalnych słów, co może przyciągać uwagę czytelników.",
+    "Artykuł opisuje wydarzenia w Moskwie, ale nie jest tak dramatyczny, jak sugeruje tytuł.",
+    "Tytuł i treść nie są całkowicie zgodne, co może wprowadzać w błąd.",
+    "Brak konkretnych danych i cytatów sprawia, że artykuł wydaje się mniej wiarygodny.",
+    "Tytuł wydaje się bardziej sensacyjny niż sama treść artykułu."
+  ],
+  "summary": "Artykuł opisuje czystkę w Moskwie, która dotyczy generałów, urzędników i biznesmenów. Rozpoczęła się po dymisji ministra obrony Siergieja Szojgu, a wśród zatrzymanych znajduje się jego zastępca, generał major Timur Iwanow. Czystka jest związana z krytyką działań wojennych w Ukrainie oraz korupcją w ministerstwie.",
+  "signals": {
+    "title_hits": [
+      "czystka",
+      "blady strach"
+    ],
+    "content_hits": [
+      "czystka",
+      "generałowie",
+      "urzednicy",
+      "biznesmeni"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "title": "Czystka w Moskwie. Na generałów i milionerów padł blady strach",
+      "content": "Czystka w Moskwie. Na generałów i milionerów padł blady strach"
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Czystka w Moskwie: Zatrzymania generałów i urzędników",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby lepiej odzwierciedlić treść artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 12,
+    "tokens_content": 107,
+    "processing_time_ms": 15698,
+    "model": "gpt-4o-mini"
+  }
+}

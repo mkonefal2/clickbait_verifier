@@ -1,0 +1,49 @@
+{
+  "id": 1762086002776,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/dyskusja-wokol-aresztu-dla-zbigniewa-ziobry-rzad-kladzie-te-sprawe/zbntl94",
+  "title": "Ziobro trafi do aresztu? \"Jest obawa, że nie podda się procedurom\"",
+  "score": 55,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera pytanie, co może wzbudzać ciekawość czytelnika, oraz używa frazy 'obawa', co sugeruje dramatyzm.",
+    "Treść artykułu odnosi się do dyskusji na temat aresztu Zbigniewa Ziobry, co jest zgodne z tytułem, ale nie dostarcza jednoznacznych informacji.",
+    "W artykule występują cytaty, co zwiększa jego wiarygodność, ale nie ma konkretnych liczb ani źródeł.",
+    "Wykryto lukę ciekawości w tytule, ponieważ nie ma odpowiedzi na pytanie postawione w tytule."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera pytanie, co przyciąga uwagę, oraz słowo 'obawa', które sugeruje dramatyczną sytuację.",
+    "Treść artykułu dotyczy dyskusji na temat aresztu Zbigniewa Ziobry, co jest zgodne z tytułem, ale nie daje jednoznacznych odpowiedzi.",
+    "W artykule są cytaty, co zwiększa jego wiarygodność, ale brakuje konkretnych danych.",
+    "Tytuł wzbudza ciekawość, ponieważ nie odpowiada na postawione pytanie."
+  ],
+  "summary": "Artykuł opisuje dyskusję w programie radiowym na temat możliwości aresztowania Zbigniewa Ziobry w związku z zarzutami dotyczącymi Funduszu Sprawiedliwości. W rozmowie uczestniczyli politycy, którzy wyrazili różne opinie na temat tej sprawy, wskazując na obawy dotyczące procedur prawnych.",
+  "signals": {
+    "title_hits": [
+      "aresztu",
+      "obawa"
+    ],
+    "content_hits": [
+      "dyskusja",
+      "areszt",
+      "obawa"
+    ],
+    "credibility_hits": [
+      "cytaty"
+    ],
+    "mismatch": {
+      "title_content_match": "partial",
+      "explanation": "Tytuł sugeruje, że Ziobro może trafić do aresztu, podczas gdy treść nie dostarcza jednoznacznych informacji na ten temat."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Dyskusja na temat aresztu Zbigniewa Ziobry",
+    "notes_to_editor": "Rozważyć dodanie konkretnych danych lub źródeł, aby zwiększyć wiarygodność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 14,
+    "tokens_content": 112,
+    "processing_time_ms": 14297,
+    "model": "gpt-4o-mini"
+  }
+}

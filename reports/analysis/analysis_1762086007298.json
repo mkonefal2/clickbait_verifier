@@ -1,0 +1,51 @@
+{
+  "id": 1762086007298,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/lodz/cukierki-z-iglami-na-halloween-w-lodzi-wiadomo-kto-dal-je-dzieciom/17rdg7e",
+  "title": "Dzieci w Łodzi dostawały cukierki z igłami na Halloween. Ustalili, kto za tym stał",
+  "score": 62,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'cukierki z igłami', które wzbudzają niepokój.",
+    "Treść artykułu potwierdza zawartość tytułu, jednak nie dostarcza dodatkowych informacji, które mogłyby złagodzić wrażenie sensacji.",
+    "W artykule pojawiają się liczby i konkretne odniesienia do zdarzenia, co zwiększa jego wiarygodność.",
+    "Wykryto niewielką niezgodność między tytułem a treścią, ponieważ tytuł sugeruje, że ustalono sprawcę, podczas gdy treść nie podaje szczegółowych informacji na ten temat."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł artykułu wzbudza silne emocje, mówiąc o niebezpiecznych cukierkach, co przyciąga uwagę.",
+    "Treść potwierdza, że dzieci otrzymały te cukierki, ale nie wyjaśnia dokładnie, kto był odpowiedzialny, co może budzić dodatkowe pytania.",
+    "Artykuł zawiera konkretne informacje, co sprawia, że jest bardziej wiarygodny.",
+    "Istnieje niewielka różnica między tym, co mówi tytuł, a tym, co jest w treści, ponieważ tytuł sugeruje, że sprawca jest znany, ale nie podaje szczegółów."
+  ],
+  "summary": "W Łodzi podczas Halloween dzieci otrzymały czekoladki z metalowymi igłami. Sprawę nagłośniła stand-uperka Aleksandra Radomska, która poinformowała policję. Artykuł wskazuje, że policja zajmuje się tą sprawą, a Radomska wydała oświadczenie dotyczące sprawcy.",
+  "signals": {
+    "title_hits": [
+      "cukierki z igłami",
+      "Dzieci w Łodzi",
+      "ustalili, kto za tym stał"
+    ],
+    "content_hits": [
+      "cukierki z igłami",
+      "policja",
+      "Aleksandra Radomska"
+    ],
+    "credibility_hits": [
+      "policja",
+      "oświadczenie"
+    ],
+    "mismatch": {
+      "title": "Ustalili, kto za tym stał",
+      "content": "W sobotę artystka napisała oświadczenie, w którym poinformowała o tym, kto stał za tą akcją."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Dzieci w Łodzi otrzymały cukierki z igłami podczas Halloween, policja bada sprawę",
+    "notes_to_editor": "Rozważyć dodanie więcej szczegółów na temat ustaleń dotyczących sprawcy w treści artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 14,
+    "tokens_content": 90,
+    "processing_time_ms": 14619,
+    "model": "gpt-4o-mini"
+  }
+}

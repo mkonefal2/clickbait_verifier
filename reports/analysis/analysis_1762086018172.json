@@ -1,0 +1,44 @@
+{
+  "id": 1762086018172,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/jak-sie-zyje-emerytom-w-czechach-przez-tych-liberalow-jestem-biedny/gfg970k",
+  "title": "Przyjechał pan z Polski, zapytać jak się mają czescy emeryci? To są jaja!",
+  "score": 62,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne ('To są jaja!'), które mogą wywołać ciekawość.",
+    "W treści artykułu występują opisy różnych sytuacji życiowych czeskich emerytów, co jest zgodne z tytułem.",
+    "W tytule i treści występuje pewien dysonans, ponieważ tytuł sugeruje humorystyczny ton, podczas gdy treść jest bardziej poważna.",
+    "Brak cytatów lub danych liczbowych, które mogłyby zwiększyć wiarygodność artykułu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa wyrazów, które mogą przyciągać uwagę, co sprawia, że artykuł wydaje się bardziej sensacyjny.",
+    "Treść artykułu opisuje życie czeskich emerytów, co jest zgodne z tytułem, ale ton tytułu jest bardziej lekki niż poważny ton treści.",
+    "Nie ma w artykule żadnych cytatów ani konkretów, które mogłyby potwierdzić przedstawione informacje."
+  ],
+  "summary": "Artykuł opisuje życie czeskich emerytów, wskazując na różnice w ich sytuacji finansowej. Przedstawione są historie dwóch mężczyzn, którzy ilustrują, jak zróżnicowany jest system emerytalny w Czechach. Niektórzy emeryci mogą sobie pozwolić na wakacje i restauracje, podczas gdy inni ledwo wiążą koniec z końcem.",
+  "signals": {
+    "title_hits": [
+      "są jaja"
+    ],
+    "content_hits": [
+      "seniorom w Czechach żyje się lepiej",
+      "stać nas na wakacje"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "title_content_mismatch": true,
+      "description": "Tytuł sugeruje humorystyczny ton, podczas gdy treść jest bardziej poważna."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Jak żyją czescy emeryci? Analiza ich sytuacji finansowej.",
+    "notes_to_editor": "Rozważyć zmianę tytułu na bardziej neutralny, aby lepiej odzwierciedlał ton artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 15,
+    "tokens_content": 233,
+    "processing_time_ms": 13931,
+    "model": "gpt-4o-mini"
+  }
+}

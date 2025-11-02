@@ -1,0 +1,50 @@
+{
+  "id": 1762086011647,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/politico/ukraincy-stali-sie-punktem-zapalnym-politico-sprzeciw-w-polsce-i-niemczech/468gkrj",
+  "title": "Ukraińscy uchodźcy stali się punktem zapalnym. POLITICO: wrze w Polsce i Niemczech",
+  "score": 52,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne jak 'punkt zapalny' oraz 'wrze', co sugeruje emocjonalny ładunek.",
+    "Treść artykułu odnosi się do rzeczywistych wydarzeń, ale używa dramatycznego języka.",
+    "W tytule i treści występuje pewien stopień niezgodności, ponieważ tytuł sugeruje konflikt, podczas gdy treść koncentruje się na politycznych reakcjach.",
+    "W artykule pojawiają się cytaty i odniesienia do polityków, co zwiększa jego wiarygodność."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa emocjonalnych słów, które mogą przyciągać uwagę, jak 'punkt zapalny' i 'wrze'.",
+    "Artykuł opisuje rzeczywiste wydarzenia, ale sposób ich przedstawienia może być dramatyczny.",
+    "Tytuł sugeruje konflikt, podczas gdy treść koncentruje się na reakcjach polityków.",
+    "W artykule są cytaty i odniesienia do polityków, co sprawia, że jest bardziej wiarygodny."
+  ],
+  "summary": "Artykuł opisuje rosnące napięcia w Polsce i Niemczech związane z polityką uchodźczą wobec Ukraińców. Politycy z obu krajów rozważają ograniczenie otwartych drzwi dla uchodźców w odpowiedzi na wzrost ich liczby. Wskazano na możliwe konsekwencje dla Ukrainy w kontekście trwającej wojny.",
+  "signals": {
+    "title_hits": [
+      "punkt zapalny",
+      "wrze"
+    ],
+    "content_hits": [
+      "spór o ukraińskich uchodźców",
+      "musimy się tym zająć"
+    ],
+    "credibility_hits": [
+      "POLITICO",
+      "dziennikarzy",
+      "cytaty"
+    ],
+    "mismatch": {
+      "title": "Ukraińscy uchodźcy stali się punktem zapalnym. POLITICO: wrze w Polsce i Niemczech",
+      "content": "Politycy w Niemczech i Polsce grożą wycofaniem się z polityki otwartych drzwi."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Politycy w Polsce i Niemczech rozważają zmiany w polityce uchodźczej wobec Ukraińców",
+    "notes_to_editor": "Zaleca się unikanie emocjonalnych fraz w tytule, aby zwiększyć neutralność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 14,
+    "tokens_content": 165,
+    "processing_time_ms": 14821,
+    "model": "gpt-4o-mini"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": 1762086000069,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/ciekawostki/masz-problemy-z-cukrem-skonsultuj-z-lekarzem-picie-tych-rodzajow-herbat/xq96gjn",
+  "title": "Naturalne nie znaczy neutralne. Eksperci ujawniają, co może zaszkodzić diabetykom",
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'ujawniają', co może sugerować dramatyzm.",
+    "Treść artykułu ostrzega przed potencjalnymi zagrożeniami związanymi z piciem ziołowych herbat przez diabetyków, co jest zgodne z tytułem.",
+    "W tytule użyto absolutu 'naturalne nie znaczy neutralne', co podnosi poziom clickbaitu.",
+    "W treści nie ma wyraźnych sygnałów wiarygodności, takich jak konkretne dane czy cytaty z ekspertów.",
+    "Wykryto niewielką niezgodność między tytułem a treścią, ponieważ tytuł sugeruje szersze ujawnienie informacji, podczas gdy treść koncentruje się na ostrzeżeniu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł sugeruje, że artykuł ujawnia ważne informacje, co może przyciągać uwagę.",
+    "Treść rzeczywiście ostrzega diabetyków przed niebezpieczeństwami związanymi z herbatami, co jest zgodne z tytułem.",
+    "Jednak tytuł używa mocnych słów, co może sprawiać wrażenie dramatyzmu.",
+    "Brakuje konkretnych danych lub cytatów, które mogłyby zwiększyć wiarygodność artykułu.",
+    "Jest niewielka różnica między tym, co obiecuje tytuł, a tym, co znajduje się w treści."
+  ],
+  "summary": "Artykuł ostrzega osoby z cukrzycą przed piciem niektórych ziołowych herbat, które mogą być niebezpieczne. Eksperci podkreślają, że nie wszystkie naturalne napary są bezpieczne i mogą działać silniej niż się wydaje. Zaleca się konsultację z lekarzem przed ich spożyciem.",
+  "signals": {
+    "title_hits": [
+      "ujawniają",
+      "naturalne nie znaczy neutralne"
+    ],
+    "content_hits": [
+      "ostrzegają",
+      "nie każda ziołowa herbata jest dobra"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "title": "Naturalne nie znaczy neutralne. Eksperci ujawniają, co może zaszkodzić diabetykom",
+      "content": "Masz cukrzycę? Uważaj, co pijesz. Lepiej unikaj takich herbat bez konsultacji z lekarzem"
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Ostrzeżenie dla diabetyków: niektóre ziołowe herbaty mogą być niebezpieczne",
+    "notes_to_editor": "Rozważyć dodanie konkretnych danych lub cytatów ekspertów, aby zwiększyć wiarygodność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 14,
+    "tokens_content": 108,
+    "processing_time_ms": 18013,
+    "model": "gpt-4o-mini"
+  }
+}

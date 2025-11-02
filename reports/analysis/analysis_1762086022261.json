@@ -1,0 +1,49 @@
+{
+  "id": 1762086022261,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/polonia-w-usa-skulimowski-dzis-to-sie-konczy-wystarczy-pojechac-na-nowojorski/nk3lpqf",
+  "title": "Polonia w USA. Marek Skulimowski: Dziś to się kończy. Wystarczy pojechać na nowojorski Greenpoint",
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy, które mogą wzbudzać ciekawość, takie jak 'Dziś to się kończy'.",
+    "Treść artykułu odnosi się do zmian w polskich dzielnicach w USA, co jest zgodne z tytułem, ale nie wyczerpuje jego sensacyjności.",
+    "W tytule i treści występują sygnały wiarygodności, takie jak cytaty i odniesienia do konkretnej osoby.",
+    "Zidentyfikowano lukę ciekawości w tytule, która może przyciągnąć czytelników."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł sugeruje, że coś ważnego się kończy, co może zainteresować czytelników.",
+    "Treść artykułu rzeczywiście dotyczy zmian w polskich dzielnicach w USA, co jest zgodne z tytułem, ale nie jest aż tak dramatyczne, jak mogłoby się wydawać.",
+    "W artykule są cytaty i odniesienia do konkretnej osoby, co zwiększa jego wiarygodność.",
+    "Tytuł zawiera elementy, które mogą wzbudzić ciekawość, co sprawia, że jest nieco clickbaitowy."
+  ],
+  "summary": "Artykuł omawia zmiany w polskich dzielnicach w USA, w szczególności na nowojorskim Greenpoincie. Marek Skulimowski, były dyplomata, zwraca uwagę na zanik polskiej społeczności w tych rejonach, co jest efektem mniejszej liczby nowych imigrantów. W artykule podkreślono, jak zmienił się Greenpoint na przestrzeni ostatnich 20 lat.",
+  "signals": {
+    "title_hits": [
+      "Dziś to się kończy",
+      "wystarczy pojechać"
+    ],
+    "content_hits": [
+      "zanikać polskie dzielnice",
+      "wygląda zupełnie inaczej"
+    ],
+    "credibility_hits": [
+      "Marek Skulimowski",
+      "wywiadu dla Onetu"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "mismatch_score": 0
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Zmiany w polskich dzielnicach w USA: Marek Skulimowski o Greenpoincie",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 15,
+    "tokens_content": 204,
+    "processing_time_ms": 14224,
+    "model": "gpt-4o-mini"
+  }
+}

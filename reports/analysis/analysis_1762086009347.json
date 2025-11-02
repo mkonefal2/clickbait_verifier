@@ -1,0 +1,48 @@
+{
+  "id": 1762086009347,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/pogoda/pas-deszczowej-pogody-tworzy-sie-nad-polska-tu-popada-najmocniej/ej03pzb",
+  "title": "Wielogodzinna ulewa obejmie część Polski. Tu utworzy się pas intensywnych opadów",
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'wielogodzinna ulewa' oraz 'intensywnych opadów', co zwiększa jego clickbaitowość.",
+    "Treść artykułu dostarcza informacji o załamaniu pogody i intensywnych opadach, co jest zgodne z tytułem, ale nie zawiera przesadnych stwierdzeń.",
+    "W tytule i treści występują elementy, które mogą wzbudzać ciekawość, ale nie są one nadmiernie dramatyczne.",
+    "W artykule nie ma cytatów ani źródeł, co obniża sygnały wiarygodności.",
+    "Wykryto niewielką rozbieżność między tytułem a treścią, co wpływa na ocenę."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa emocjonalnych słów, które mogą przyciągać uwagę, ale nie jest przesadnie dramatyczny.",
+    "Treść artykułu jest zgodna z tytułem i dostarcza konkretne informacje o pogodzie w Polsce.",
+    "Artykuł nie zawiera cytatów ani źródeł, co może wpływać na postrzeganą wiarygodność.",
+    "Choć tytuł i treść są spójne, niektóre sformułowania mogą wzbudzać ciekawość czytelników."
+  ],
+  "summary": "Artykuł informuje o załamaniu pogody w Polsce, które przyniesie intensywne opady deszczu. W zachodniej części kraju już odczuwalne są zmiany, a w kolejnych godzinach opady mają objąć większość regionów. Miejscami może spaść więcej niż połowa normy opadów dla listopada.",
+  "signals": {
+    "title_hits": [
+      "wielogodzinna ulewa",
+      "intensywnych opadów"
+    ],
+    "content_hits": [
+      "załamanie pogody",
+      "intensywne opady",
+      "więcej niż połowa normy opadów"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "exists": false,
+      "details": "Tytuł i treść są spójne."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Intensywne opady deszczu przewidywane w Polsce.",
+    "notes_to_editor": "Rozważyć dodanie źródeł lub cytatów, aby zwiększyć wiarygodność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 13,
+    "tokens_content": 104,
+    "processing_time_ms": 13332,
+    "model": "gpt-4o-mini"
+  }
+}

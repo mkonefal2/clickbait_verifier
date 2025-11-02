@@ -1,0 +1,49 @@
+{
+  "id": 1762086030886,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/trafili-na-wojne-rosji-blagaja-o-pomoc-wyrok-smierci/3y831z5",
+  "title": "Trafili na wojnę Rosji. Północnokoreańscy żołnierze błagają o pomoc. \"Wyrok śmierci\"",
+  "score": 65,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'błagają o pomoc' i 'wyrok śmierci', które przyciągają uwagę.",
+    "Treść artykułu potwierdza informacje zawarte w tytule, ale używa również dramatycznego języka.",
+    "W treści występują elementy, które mogą budzić ciekawość, jak sytuacja północnokoreańskich żołnierzy.",
+    "Zidentyfikowano brak cytatów i źródeł, co wpływa na wiarygodność artykułu.",
+    "Występuje zgodność między tytułem a treścią, ale tytuł jest bardziej dramatyczny."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów, które mają na celu przyciągnięcie uwagi czytelników.",
+    "Treść artykułu potwierdza to, co jest napisane w tytule, ale jest bardziej dramatyczna.",
+    "Artykuł opisuje trudną sytuację północnokoreańskich żołnierzy, co może wzbudzać ciekawość.",
+    "Brakuje w nim cytatów i źródeł, co może wpływać na postrzeganą wiarygodność.",
+    "Tytuł i treść są zgodne, ale tytuł jest bardziej emocjonalny."
+  ],
+  "summary": "Artykuł opisuje sytuację dwóch północnokoreańskich jeńców wojennych, którzy walczyli po stronie Rosji i zostali schwytani przez Ukrainę. Błagają oni o pomoc, aby nie wracać do Korei Północnej, lecz przenieść się do Korei Południowej. Wskazuje to na trudności, jakie Pjongjang ponosi w związku z wojną.",
+  "signals": {
+    "title_hits": [
+      "błagają o pomoc",
+      "wyrok śmierci"
+    ],
+    "content_hits": [
+      "błagają",
+      "schwytani",
+      "przeniesiono do Korei Południowej"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "title_content_match": "partial",
+      "title_content_discrepancy": "Tytuł jest bardziej dramatyczny niż treść"
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Północnokoreańscy żołnierze proszą o pomoc po schwytaniu przez Ukrainę",
+    "notes_to_editor": "Rozważyć dodanie cytatów i źródeł dla zwiększenia wiarygodności artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 15,
+    "tokens_content": 105,
+    "processing_time_ms": 14176,
+    "model": "gpt-4o-mini"
+  }
+}

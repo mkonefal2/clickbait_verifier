@@ -1,0 +1,45 @@
+{
+  "id": 1762086009943,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/pogoda/ulewy-zaatakuja-czesc-polski-imgw-wydal-ostrzezenia-pierwszego-stopnia/gf42yjz",
+  "title": "Ulewy i gwałtowny wzrost poziomu wody w rzekach. IMGW wydał ważne ostrzeżenia",
+  "score": 25,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne 'gwałtowny wzrost poziomu wody', co może budzić emocje.",
+    "Treść artykułu jest zgodna z tytułem, ale nie zawiera dodatkowych informacji, które mogłyby zwiększyć ciekawość.",
+    "W artykule występują liczby i źródła (IMGW), co zwiększa jego wiarygodność.",
+    "Mismatched detection nie występuje, ponieważ tytuł i treść są spójne."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów, które mogą przyciągać uwagę, jak 'gwałtowny wzrost poziomu wody'.",
+    "Treść artykułu odpowiada tytułowi, informując o ostrzeżeniach IMGW, ale nie dodaje zaskakujących faktów.",
+    "Artykuł opiera się na wiarygodnym źródle, co zwiększa jego rzetelność.",
+    "Nie ma rozbieżności między tytułem a treścią, co jest pozytywne."
+  ],
+  "summary": "Instytut Meteorologii i Gospodarki Wodnej (IMGW) wydał ostrzeżenia przed intensywnymi opadami deszczu w dwóch województwach na południowym zachodzie Polski. Ostrzeżenia dotyczą także wzrostu poziomu wody w rzekach, co może stanowić zagrożenie dla mieszkańców tych obszarów.",
+  "signals": {
+    "title_hits": [
+      "gwałtowny wzrost poziomu wody"
+    ],
+    "content_hits": [
+      "ostrzeżenia pierwszego stopnia",
+      "intensywne opady deszczu"
+    ],
+    "credibility_hits": [
+      "IMGW",
+      "ostrzegania meteorologiczne"
+    ],
+    "mismatch": {}
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "IMGW wydał ostrzeżenia przed intensywnymi opadami deszczu i wzrostem poziomu wody",
+    "notes_to_editor": "Rozważyć użycie mniej emocjonalnych sformułowań w tytule."
+  },
+  "diagnostics": {
+    "tokens_title": 14,
+    "tokens_content": 92,
+    "processing_time_ms": 17836,
+    "model": "gpt-4o-mini"
+  }
+}

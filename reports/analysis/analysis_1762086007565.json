@@ -1,0 +1,50 @@
+{
+  "id": 1762086007565,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/lodz/cukierki-z-iglami-na-halloween-w-lodzi-wiadomo-kto-dal-je-dzieciom/17rdg7e",
+  "title": "Dzieci w Łodzi dostawały cukierki z igłami na Halloween. Ustalili, kto za tym stał",
+  "score": 55,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'cukierki z igłami', co może wzbudzać niepokój.",
+    "Treść artykułu potwierdza informacje zawarte w tytule, ale nie rozwija ich w sposób, który by je sensacyjnie podkreślał.",
+    "W tytule i treści występują absoluty ('wszyscy', 'nikt'), co podnosi ocenę clickbaitu.",
+    "Brak cytatów lub konkretnych danych liczbowych, co obniża wiarygodność.",
+    "Występuje niewielka rozbieżność między tytułem a treścią, ponieważ tytuł sugeruje, że ustalono sprawcę, podczas gdy treść nie podaje szczegółów."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera niepokojące informacje, co może przyciągać uwagę czytelników.",
+    "Treść artykułu zgadza się z tytułem, ale nie dodaje wielu nowych informacji.",
+    "W tytule użyto mocnych słów, co sprawia, że brzmi bardziej dramatycznie.",
+    "Artykuł nie zawiera konkretnych cytatów ani danych, co może wpływać na jego wiarygodność.",
+    "Tytuł sugeruje, że sprawca został ustalony, ale artykuł nie podaje szczegółów na ten temat."
+  ],
+  "summary": "Artykuł informuje o incydencie w Łodzi, gdzie dzieci otrzymały cukierki z metalowymi igłami podczas Halloween. Sprawę nagłośniła stand-uperka Aleksandra Radomska, a policja została poinformowana o sytuacji. W artykule wspomniano, że ustalono, kto był odpowiedzialny za ten incydent.",
+  "signals": {
+    "title_hits": [
+      "cukierki z igłami",
+      "Dzieci w Łodzi",
+      "ustalili, kto za tym stał"
+    ],
+    "content_hits": [
+      "cukierki z igłami",
+      "Dzieci w Łodzi",
+      "ustalili, kto za tym stał"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "title": "Ustalili, kto za tym stał",
+      "content": "Nie podano szczegółów na temat sprawcy."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Incydent z cukierkami z igłami w Łodzi podczas Halloween",
+    "notes_to_editor": "Rozważyć dodanie więcej informacji o sprawcy i kontekście incydentu."
+  },
+  "diagnostics": {
+    "tokens_title": 15,
+    "tokens_content": 85,
+    "processing_time_ms": 14110,
+    "model": "gpt-4o-mini"
+  }
+}

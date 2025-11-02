@@ -1,0 +1,48 @@
+{
+  "id": 1762086028348,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/spektakularny-upadek-francji-moze-pociagnac-za-soba-cala-strefe-euro/8nfgtt2",
+  "title": "Byli motorem napędowym strefy euro. Dziś mogą pociągnąć ją na dno",
+  "score": 67,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'pociągnąć ją na dno', co wzbudza silne emocje.",
+    "Treść artykułu podkreśla poważne problemy Francji, co jest zgodne z tytułem, ale używa dramatycznych sformułowań.",
+    "W artykule brak jest konkretnych danych liczbowych lub cytatów, co obniża sygnały wiarygodności.",
+    "Występuje pewne dopasowanie między tytułem a treścią, ale tytuł jest bardziej dramatyczny niż treść.",
+    "Zastosowanie słowa 'spektakularny' w kontekście upadku Francji w tytule podnosi poziom clickbaitu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa emocjonalnych sformułowań, które mogą przyciągać uwagę czytelników.",
+    "Treść artykułu rzeczywiście odnosi się do problemów Francji, ale nie jest tak dramatyczna jak sugeruje tytuł.",
+    "Brakuje konkretnych danych lub cytatów, które mogłyby zwiększyć wiarygodność artykułu.",
+    "Tytuł i treść są ze sobą zgodne, ale tytuł jest bardziej sensacyjny."
+  ],
+  "summary": "Artykuł omawia kryzys, w jakim znalazła się Francja, wskazując na jej problemy z długiem i paraliżem politycznym. Autor sugeruje, że sytuacja we Francji może mieć poważne konsekwencje dla całej strefy euro, która przez lata była dla niej wsparciem. Wskazano na potencjalne zagrożenia dla stabilności strefy euro.",
+  "signals": {
+    "title_hits": [
+      "pociągnąć ją na dno",
+      "motor napędowy"
+    ],
+    "content_hits": [
+      "pogrążona w problemach",
+      "tonie w długach",
+      "paraliż polityczny"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "title_content_match": "partial",
+      "explanation": "Tytuł sugeruje dramatyczne konsekwencje, które nie są w pełni odzwierciedlone w treści."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Francja w kryzysie: problemy mogą wpłynąć na strefę euro",
+    "notes_to_editor": "Rozważyć dodanie konkretnych danych lub cytatów, aby zwiększyć wiarygodność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 101,
+    "processing_time_ms": 16231,
+    "model": "gpt-4o-mini"
+  }
+}

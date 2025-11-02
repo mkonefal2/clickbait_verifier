@@ -1,0 +1,47 @@
+{
+  "id": 1761516148265,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/krakow/tragiczne-odkrycie-w-malopolsce-cialo-mezczyzny-na-polu-namiotowym/d07xhbp",
+  "title": "Tragiczne odkrycie w Małopolsce. Ciało mężczyzny na polu namiotowym",
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazę 'tragiczne odkrycie', co może być uznane za sensacyjne.",
+    "Treść artykułu jest zgodna z tytułem, jednak nie dostarcza dodatkowych informacji, które mogłyby zaspokoić lukę ciekawości.",
+    "W artykule pojawia się informacja o wieku mężczyzny, co może być uznane za sygnał wiarygodności.",
+    "Nie znaleziono cytatów ani innych źródeł, co obniża ocenę wiarygodności treści."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słów, które mogą przyciągać uwagę, jak 'tragiczne odkrycie'.",
+    "Treść artykułu odpowiada tytułowi, ale nie rozwija tematu w sposób, który mógłby zaspokoić ciekawość czytelnika.",
+    "W artykule podano wiek mężczyzny, co dodaje wiarygodności, ale brakuje innych źródeł lub cytatów.",
+    "Brak dodatkowych informacji sprawia, że artykuł jest mniej wiarygodny."
+  ],
+  "summary": "W Małopolsce, w pobliżu Przełomu Białki, odkryto ciało około 30-letniego mężczyzny na polu namiotowym. Mężczyzna biwakował tam ze znajomymi dzień przed odkryciem. Informację przekazało RMF FM.",
+  "signals": {
+    "title_hits": [
+      "tragiczne odkrycie"
+    ],
+    "content_hits": [
+      "ciało około 30-letniego mężczyzny",
+      "biwakował ze znajomymi"
+    ],
+    "credibility_hits": [
+      "RMF FM"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "content_additional_info": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Odkrycie ciała mężczyzny na polu namiotowym w Małopolsce",
+    "notes_to_editor": "Rozważyć dodanie więcej informacji lub kontekstu do artykułu, aby zwiększyć jego wartość informacyjną."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 54,
+    "processing_time_ms": 15012,
+    "model": "gpt-4o-mini"
+  }
+}

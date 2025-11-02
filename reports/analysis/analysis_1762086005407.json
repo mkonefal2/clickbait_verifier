@@ -1,0 +1,50 @@
+{
+  "id": 1762086005407,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/zbigniew-ziobro-straci-immunitet-piotr-zgorzelski-ujawnia-szczegoly/cf2tkpb",
+  "title": "Zbigniew Ziobro straci immunitet? Piotr Zgorzelski ujawnia szczegóły",
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera pytanie, co może wzbudzać ciekawość, ale nie zawiera skrajnych emocji ani sensacyjnych fraz.",
+    "Treść artykułu jest zgodna z tytułem i dostarcza konkretne informacje na temat sytuacji związanej z immunitetem Zbigniewa Ziobro.",
+    "W artykule występują cytaty oraz odniesienia do źródła (Polska Agencja Prasowa), co zwiększa jego wiarygodność.",
+    "Nie znaleziono wyraźnych sygnałów clickbaitowych w treści, ale tytuł może być uznany za lekko sensacyjny ze względu na formę pytania."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł stawia pytanie, co może przyciągać uwagę, ale nie jest przesadnie dramatyczny.",
+    "Treść artykułu odpowiada na pytanie postawione w tytule i dostarcza konkretne informacje o sytuacji Zbigniewa Ziobro.",
+    "Artykuł zawiera cytaty i odniesienia do źródła, co sprawia, że jest bardziej wiarygodny.",
+    "Nie ma w nim wyraźnych elementów, które mogłyby sugerować, że jest to typowy clickbait."
+  ],
+  "summary": "Artykuł informuje o możliwości uchwały dotyczącej uchwały immunitetu Zbigniewa Ziobro, byłego ministra sprawiedliwości. Wicemarszałek Sejmu Piotr Zgorzelski zapowiedział, że sprawa ta może być omawiana na najbliższym posiedzeniu Sejmu. W artykule podano również źródło informacji, co zwiększa jego wiarygodność.",
+  "signals": {
+    "title_hits": [
+      "straci immunitet",
+      "ujawnia szczegóły"
+    ],
+    "content_hits": [
+      "Zbigniew Ziobro",
+      "immunitet",
+      "Piotr Zgorzelski",
+      "Polska Agencja Prasowa"
+    ],
+    "credibility_hits": [
+      "Polska Agencja Prasowa"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "mismatch_score": 0
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Możliwość uchwały o immunitecie Zbigniewa Ziobro na posiedzeniu Sejmu",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 77,
+    "processing_time_ms": 14436,
+    "model": "gpt-4o-mini"
+  }
+}

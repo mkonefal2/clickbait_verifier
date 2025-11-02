@@ -1,0 +1,50 @@
+{
+  "id": 1762086025899,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/rosjanie-uderzyli-w-obwodzie-zaporoskim-w-ukrainie-60-tys-osob-bez-pradu/4dpzctf",
+  "title": "Uderzenie Rosjan na obwód zaporoski. Tysiące osób bez prądu",
+  "score": 32,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'uderzenie' i 'tysiące osób', co może wzbudzać emocje.",
+    "Treść artykułu jest zgodna z tytułem, jednak nie zawiera dodatkowych informacji, które mogłyby wzmocnić jego wiarygodność.",
+    "W artykule pojawia się konkretna liczba (60 tys. osób), co jest sygnałem wiarygodności.",
+    "Nie występują żadne inne sygnały wiarygodności, takie jak dodatkowe źródła czy cytaty."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa emocjonalnych słów, co może przyciągać uwagę czytelników.",
+    "Treść artykułu odpowiada tytułowi, ale brakuje w niej dodatkowych informacji, które mogłyby potwierdzić jego rzetelność.",
+    "Podano konkretną liczbę osób dotkniętych sytuacją, co zwiększa wiarygodność informacji.",
+    "Brak innych źródeł czy cytatów, które mogłyby wzmocnić zaufanie do artykułu."
+  ],
+  "summary": "Artykuł informuje o ataku Rosjan na obwód zaporoski, w wyniku którego blisko 60 tysięcy osób zostało pozbawionych prądu. Informację tę przekazał gubernator Iwan Fedorow na platformie Telegram. Opisuje skutki ataku, jednak nie podaje szczegółowych informacji na temat jego przebiegu.",
+  "signals": {
+    "title_hits": [
+      "uderzenie",
+      "tysiące osób"
+    ],
+    "content_hits": [
+      "60 tys. osób",
+      "ataków na obwód zaporoski"
+    ],
+    "credibility_hits": [
+      "Polska Agencja Prasowa",
+      "Iwan Fedorow",
+      "Telegram"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "additional_info": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Atak Rosjan na obwód zaporoski pozbawił prądu 60 tysięcy osób",
+    "notes_to_editor": "Rozważyć dodanie więcej informacji o skutkach ataku oraz kontekście sytuacji."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 66,
+    "processing_time_ms": 13120,
+    "model": "gpt-4o-mini"
+  }
+}

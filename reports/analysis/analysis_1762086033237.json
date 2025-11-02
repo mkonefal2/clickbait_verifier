@@ -1,0 +1,50 @@
+{
+  "id": 1762086033237,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/viktor-orban-ostro-krytykuje-donalda-tuska-jest-w-trybie-paniki/d8syn9w",
+  "title": "Viktor Orban uderza w Donalda Tuska. \"Jest w trybie paniki\"",
+  "score": 55,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'uderza' oraz 'trybie paniki', co wskazuje na emocjonalny ładunek.",
+    "Treść artykułu jest zgodna z tytułem, ale nie dostarcza dodatkowych informacji, które mogłyby zaspokoić ciekawość czytelnika.",
+    "W artykule pojawia się cytat z Viktora Orbana, co podnosi jego wiarygodność.",
+    "W tytule i treści występują absolutne sformułowania, co zwiększa stopień clickbaitu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów, które przyciągają uwagę, jak 'uderza' i 'trybie paniki'.",
+    "Treść artykułu odpowiada tytułowi, ale nie rozwija go w sposób, który mógłby zaspokoić ciekawość czytelników.",
+    "Cytat z Viktora Orbana dodaje wiarygodności artykułowi.",
+    "Użycie mocnych sformułowań w tytule i treści zwiększa wrażenie sensacyjności."
+  ],
+  "summary": "W artykule opisano krytykę Viktora Orbana wobec Donalda Tuska, w której premier Węgier oskarża Tuska o rozpoczęcie ataku na Węgry. Krytyka ta została wyrażona w mediach społecznościowych, w kontekście wcześniejszych wypowiedzi Tuska dotyczących Węgier.",
+  "signals": {
+    "title_hits": [
+      "uderza",
+      "trybie paniki"
+    ],
+    "content_hits": [
+      "ostro krytykuje",
+      "atak na Węgry"
+    ],
+    "credibility_hits": [
+      "Viktor Orban",
+      "Donald Tusk",
+      "cytat"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "content_depth": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Viktor Orban krytykuje Donalda Tuska za jego wypowiedzi",
+    "notes_to_editor": "Rozważyć dodanie więcej kontekstu do artykułu, aby zaspokoić ciekawość czytelników."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 93,
+    "processing_time_ms": 10361,
+    "model": "gpt-4o-mini"
+  }
+}

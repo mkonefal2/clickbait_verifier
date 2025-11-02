@@ -1,0 +1,46 @@
+{
+  "id": 1762086000057,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/ciekawostki/masz-problemy-z-cukrem-skonsultuj-z-lekarzem-picie-tych-rodzajow-herbat/xq96gjn",
+  "title": "Naturalne nie znaczy neutralne. Eksperci ujawniają, co może zaszkodzić diabetykom",
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'ujawniają', co może sugerować sensacyjność.",
+    "Treść artykułu ostrzega przed niebezpieczeństwami związanymi z piciem ziołowych herbat przez diabetyków, co jest zgodne z tytułem.",
+    "W treści występują absoluty, np. 'nie każda ziołowa herbata jest dobra', co podnosi poziom clickbaitu.",
+    "Zidentyfikowano brak konkretnych danych liczbowych lub cytatów, co obniża wiarygodność artykułu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł sugeruje, że artykuł zawiera ważne informacje, ale używa słów, które mogą przyciągać uwagę.",
+    "Treść rzeczywiście dotyczy zagrożeń dla diabetyków związanych z piciem ziołowych herbat, co jest zgodne z tytułem.",
+    "W artykule pojawiają się mocne sformułowania, które mogą budzić emocje.",
+    "Brakuje jednak konkretnych danych lub cytatów, co może wpływać na postrzeganą wiarygodność informacji."
+  ],
+  "summary": "Artykuł ostrzega diabetyków przed piciem niektórych ziołowych herbat, które mogą być szkodliwe. Eksperci podkreślają, że naturalne produkty nie zawsze są bezpieczne i mogą działać niekorzystnie na zdrowie. Zaleca się konsultację z lekarzem przed ich spożyciem.",
+  "signals": {
+    "title_hits": [
+      "ujawniają",
+      "może zaszkodzić"
+    ],
+    "content_hits": [
+      "nie każda ziołowa herbata jest dobra",
+      "działają jak lek lub jak trucizna"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "title_content_match": true,
+      "title_summary_match": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Ziołowe herbaty a cukrzyca: co warto wiedzieć?",
+    "notes_to_editor": "Rozważyć dodanie konkretnych danych lub cytatów dla zwiększenia wiarygodności artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 14,
+    "tokens_content": 106,
+    "processing_time_ms": 14116,
+    "model": "gpt-4o-mini"
+  }
+}

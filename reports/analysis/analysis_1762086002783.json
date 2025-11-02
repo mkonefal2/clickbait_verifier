@@ -1,0 +1,47 @@
+{
+  "id": 1762086002783,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/dyskusja-wokol-aresztu-dla-zbigniewa-ziobry-rzad-kladzie-te-sprawe/zbntl94",
+  "title": "Ziobro trafi do aresztu? \"Jest obawa, że nie podda się procedurom\"",
+  "score": 62,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera pytanie, co może wzbudzać ciekawość, a także używa frazy 'obawa', co może być interpretowane jako sensacyjne.",
+    "Treść artykułu odnosi się do dyskusji na temat aresztu Zbigniewa Ziobry, jednak nie dostarcza jednoznacznych informacji na temat jego aresztowania.",
+    "W artykule pojawiają się cytaty, co zwiększa wiarygodność, ale tytuł może wprowadzać w błąd co do rzeczywistej treści."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zadaje pytanie, co może przyciągać uwagę, a także używa słowa 'obawa', co może brzmieć sensacyjnie.",
+    "Artykuł omawia dyskusję na temat potencjalnego aresztu Zbigniewa Ziobry, ale nie podaje konkretnych informacji na ten temat.",
+    "W artykule są cytaty, co sprawia, że jest bardziej wiarygodny, ale tytuł może sugerować coś innego niż to, co jest w treści."
+  ],
+  "summary": "Artykuł opisuje dyskusję w programie radiowym na temat możliwości aresztowania Zbigniewa Ziobry w związku z zarzutami dotyczącymi Funduszu Sprawiedliwości. W rozmowie uczestniczyli przedstawiciele różnych partii politycznych, którzy wyrazili swoje opinie na temat tej sprawy.",
+  "signals": {
+    "title_hits": [
+      "aresztu",
+      "obawa"
+    ],
+    "content_hits": [
+      "aresztu dla Zbigniewa Ziobry",
+      "obawa, że nie podda się procedurom"
+    ],
+    "credibility_hits": [
+      "Paulina Piechna-Więckiewicz",
+      "Marcin Horała"
+    ],
+    "mismatch": {
+      "title": "Ziobro trafi do aresztu?",
+      "content": "dyskusja na temat aresztu"
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Dyskusja na temat aresztu Zbigniewa Ziobry w programie radiowym",
+    "notes_to_editor": "Rozważyć zmianę tytułu na bardziej neutralny, aby lepiej odzwierciedlał treść artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 15,
+    "tokens_content": 104,
+    "processing_time_ms": 11836,
+    "model": "gpt-4o-mini"
+  }
+}

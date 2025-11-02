@@ -1,0 +1,44 @@
+{
+  "id": 1762086034834,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/wenezuela-rozmiescila-w-poblizu-stolicy-rosyjskie-rakiety-ryzyko-dla-usa/lf3lrd5",
+  "title": "Nowy ruch Wenezueli. \"Zwiększa zagrożenie dla USA\"",
+  "score": 55,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazę sensacyjną 'zwiększa zagrożenie', co może budzić emocje.",
+    "Treść artykułu jest zgodna z tytułem, jednak użycie słowa 'zagrożenie' w tytule może sugerować większą dramatyzację niż w treści.",
+    "W treści występują konkretne informacje o rosyjskich rakietach, co zwiększa wiarygodność, ale również może być interpretowane jako clickbait.",
+    "W artykule nie ma cytatów ani statystyk, co obniża sygnały wiarygodności."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa emocjonalnego języka, co może przyciągać uwagę czytelników.",
+    "Treść artykułu odpowiada tytułowi, ale nieco łagodzi dramatyzm, co może wprowadzać w błąd.",
+    "Artykuł zawiera konkretne informacje, ale brakuje w nim cytatów lub danych, co może wpływać na jego wiarygodność."
+  ],
+  "summary": "Wenezuela rozmieściła rosyjski rakietowy system przeciwlotniczy Buk-M2E w pobliżu stolicy, Caracas, w obawie przed ewentualnym atakiem ze strony USA. Analitycy wskazują, że ten ruch zwiększa ryzyko dla amerykańskich operacji powietrznych.",
+  "signals": {
+    "title_hits": [
+      "zwiększa zagrożenie"
+    ],
+    "content_hits": [
+      "rozmieściła rosyjskie rakiety",
+      "zwiększa zagrożenie"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "title_content_match": true,
+      "title_content_dramatization": true
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Wenezuela rozmieszcza rosyjskie rakiety w pobliżu stolicy",
+    "notes_to_editor": "Rozważyć użycie bardziej neutralnego języka w tytule."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 75,
+    "processing_time_ms": 12059,
+    "model": "gpt-4o-mini"
+  }
+}

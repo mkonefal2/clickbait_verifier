@@ -1,0 +1,47 @@
+{
+  "id": 1762086015642,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/chinski-szok-trump-i-xi-wstrzymali-dziala-ale-to-nie-koniec-handlowej-wojny/qgxd2sb",
+  "title": "Donald Trump i Xi Jinping jeszcze ze sobą nie skończyli. To może nie być koniec wojny handlowej [OPINIA]",
+  "score": 62,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'szok' oraz 'to może nie być koniec', co wzbudza ciekawość.",
+    "Treść artykułu odnosi się do aktualnych wydarzeń, ale używa emocjonalnego języka, co zwiększa stopień clickbaitu.",
+    "Wykryto niezgodność między tytułem a treścią, ponieważ tytuł sugeruje zakończenie konfliktu, podczas gdy treść wskazuje na jego kontynuację.",
+    "Brak konkretnych źródeł lub liczb w treści, co osłabia sygnały wiarygodności."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa emocjonalnych słów, które przyciągają uwagę, jak 'szok' i 'może nie być koniec'.",
+    "Artykuł dotyczy aktualnych wydarzeń, ale język jest dość dramatyczny, co sprawia, że wydaje się bardziej sensacyjny.",
+    "Tytuł sugeruje, że konflikt się kończy, podczas gdy treść mówi, że może on trwać dalej.",
+    "Brakuje konkretów, takich jak źródła czy liczby, co wpływa na wiarygodność artykułu."
+  ],
+  "summary": "Artykuł omawia spotkanie Donalda Trumpa i Xi Jinpinga, które miało na celu złagodzenie napięć w handlu międzynarodowym. Autor wskazuje, że mimo wstrzymania działań, konflikt handlowy między USA a Chinami może się nie zakończyć. Zwraca uwagę na nieprzewidywalność obu stron oraz na chaos w międzynarodowych relacjach.",
+  "signals": {
+    "title_hits": [
+      "szok",
+      "może nie być koniec"
+    ],
+    "content_hits": [
+      "wstrzymali działa",
+      "konflikt",
+      "nieobliczalne"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "title": "koniec wojny handlowej",
+      "content": "to nie koniec handlowej wojny"
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Spotkanie Trumpa i Xi Jinpinga: nowe perspektywy w wojnie handlowej",
+    "notes_to_editor": "Zaleca się unikanie emocjonalnych fraz w tytule oraz dodanie źródeł i liczb w treści dla zwiększenia wiarygodności."
+  },
+  "diagnostics": {
+    "tokens_title": 17,
+    "tokens_content": 138,
+    "processing_time_ms": 14638,
+    "model": "gpt-4o-mini"
+  }
+}

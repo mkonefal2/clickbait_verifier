@@ -1,0 +1,51 @@
+{
+  "id": 1762086000992,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/2-listopada-obchodzony-jest-dzien-zaduszny-w-kosciele-czym-sa-zaduszki/7h4k4fg",
+  "title": "Ważny dzień dla katolików. Czym naprawdę są Zaduszki?",
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazę 'Ważny dzień', co może sugerować sensacyjność.",
+    "W treści artykułu występują informacje o Dniu Zadusznym oraz dogmatach wiary, co jest zgodne z tytułem.",
+    "Nie znaleziono znaczących luk ciekawości ani absolutów w treści.",
+    "Zidentyfikowano cytat z historii Kościoła, co zwiększa wiarygodność.",
+    "Mismatched detection wykazał, że tytuł i treść są zgodne, ale tytuł sugeruje większą sensacyjność."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł sugeruje, że artykuł dotyczy ważnego dnia, co jest zgodne z jego treścią.",
+    "Artykuł wyjaśnia, czym są Zaduszki, ale nie używa przesadnych sformułowań.",
+    "Zawiera odniesienia do tradycji katolickiej, co dodaje mu wiarygodności.",
+    "Nie ma w nim przesadnych obietnic ani sensacyjnych stwierdzeń."
+  ],
+  "summary": "Artykuł opisuje Dzień Zaduszny, który obchodzony jest 2 listopada przez katolików. Wyjaśnia, że jest to dzień wspomnienia wszystkich wierzących, którzy przebywają w czyśćcu, oraz przedstawia dogmaty wiary związane z tym dniem. Zawiera również odniesienie do historycznego kontekstu tego święta.",
+  "signals": {
+    "title_hits": [
+      "ważny dzień",
+      "czym naprawdę są"
+    ],
+    "content_hits": [
+      "Dzień Zaduszny",
+      "czyściec",
+      "dogmaty wiary"
+    ],
+    "credibility_hits": [
+      "Polska Agencja Prasowa",
+      "sobór w Lyonie"
+    ],
+    "mismatch": {
+      "detected": false,
+      "reason": "Tytuł i treść są zgodne."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Dzień Zaduszny - znaczenie i tradycje",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 98,
+    "processing_time_ms": 12968,
+    "model": "gpt-4o-mini"
+  }
+}

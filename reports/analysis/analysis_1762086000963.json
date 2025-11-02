@@ -1,0 +1,44 @@
+{
+  "id": 1762086000963,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/2-listopada-obchodzony-jest-dzien-zaduszny-w-kosciele-czym-sa-zaduszki/7h4k4fg",
+  "title": "Ważny dzień dla katolików. Czym naprawdę są Zaduszki?",
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazę 'ważny dzień', co może być interpretowane jako sensacyjne, ale nie jest to skrajne stwierdzenie.",
+    "Treść artykułu dostarcza informacji na temat Zaduszek, jednak nie odnosi się do tytułu w sposób bezpośredni, co powoduje pewne niedopasowanie.",
+    "Nie znaleziono wyraźnych sygnałów wiarygodności, takich jak liczby czy konkretne źródła, poza ogólnym odniesieniem do Kościoła katolickiego."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł sugeruje, że artykuł dotyczy ważnego dnia dla katolików, co jest prawdą, ale nie wyjaśnia w pełni, czym są Zaduszki.",
+    "Artykuł rzeczywiście opisuje Zaduszki, ale nie dostarcza wystarczających informacji, aby w pełni zrozumieć ich znaczenie.",
+    "Brak konkretnych danych lub cytatów z wiarygodnych źródeł osłabia jego autorytet."
+  ],
+  "summary": "Artykuł opisuje Dzień Zaduszny obchodzony 2 listopada, który jest ważnym dniem dla katolików. Wskazuje na liturgiczne wspomnienie wierzących w Chrystusa, którzy według katolickiej doktryny przebywają w czyśćcu. Zawiera odniesienie do dogmatu wiary ogłoszonego na soborze w Lyonie w 1274 roku.",
+  "signals": {
+    "title_hits": [
+      "ważny dzień"
+    ],
+    "content_hits": [
+      "Dzień Zaduszny",
+      "Kościół katolicki",
+      "czyściec"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "title": "Ważny dzień dla katolików. Czym naprawdę są Zaduszki?",
+      "content": "Artykuł wyjaśnia znaczenie Zaduszek, ale tytuł sugeruje większą głębię analizy."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Znaczenie Zaduszek w Kościele katolickim",
+    "notes_to_editor": "Rozważyć dodanie cytatów lub danych statystycznych dla zwiększenia wiarygodności artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 9,
+    "tokens_content": 102,
+    "processing_time_ms": 12186,
+    "model": "gpt-4o-mini"
+  }
+}

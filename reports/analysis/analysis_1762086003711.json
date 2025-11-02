@@ -1,0 +1,49 @@
+{
+  "id": 1762086003711,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/tragiczny-bilans-weekendu-na-drogach-sa-pierwsze-dane-policji/jw4r990",
+  "title": "Akcja Znicz. Policja podała pierwsze dane o wypadkach",
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy, które mogą wzbudzać ciekawość, takie jak 'pierwsze dane'.",
+    "Treść artykułu dostarcza konkretnych danych statystycznych dotyczących wypadków, co zwiększa wiarygodność.",
+    "W artykule występują liczby, co jest sygnałem wiarygodności.",
+    "Zidentyfikowano niewielką niezgodność między tytułem a treścią, ponieważ tytuł nie odnosi się bezpośrednio do tragicznych skutków wypadków."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera sformułowania, które mogą przyciągać uwagę, jak 'pierwsze dane'.",
+    "Artykuł podaje konkretne liczby dotyczące wypadków, co sprawia, że jest bardziej wiarygodny.",
+    "W treści znajdują się liczby, co jest pozytywnym sygnałem.",
+    "Tytuł nie do końca oddaje tragiczne skutki wypadków, co może wprowadzać w błąd."
+  ],
+  "summary": "Artykuł opisuje tragiczny bilans weekendu na drogach w Polsce w ramach Akcji Znicz. Policja podała, że od piątku doszło do 146 wypadków, w wyniku których zginęło sześć osób, a 184 zostały ranne. W artykule zawarte są także informacje o wzmożonych kontrolach policyjnych.",
+  "signals": {
+    "title_hits": [
+      "pierwsze dane"
+    ],
+    "content_hits": [
+      "146 wypadków",
+      "sześć osób",
+      "184 osoby"
+    ],
+    "credibility_hits": [
+      "Policja",
+      "dane policji"
+    ],
+    "mismatch": {
+      "title": "Akcja Znicz. Policja podała pierwsze dane o wypadkach",
+      "content": "Tragiczny bilans weekendu na drogach. Zginęło sześć osób."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Dane o wypadkach drogowych podczas Akcji Znicz",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć sensacyjności."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 56,
+    "processing_time_ms": 14599,
+    "model": "gpt-4o-mini"
+  }
+}

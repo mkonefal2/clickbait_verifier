@@ -1,0 +1,49 @@
+{
+  "id": 1762086003960,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/tragiczny-bilans-weekendu-na-drogach-sa-pierwsze-dane-policji/jw4r990",
+  "title": "Akcja Znicz. Policja podała pierwsze dane o wypadkach",
+  "score": 40,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy, które mogą budzić ciekawość, takie jak 'pierwsze dane'.",
+    "Treść artykułu zawiera konkretne liczby dotyczące wypadków, co zwiększa wiarygodność.",
+    "Zidentyfikowano niewielką niezgodność między tytułem a treścią, ponieważ tytuł sugeruje, że dane są nowe, podczas gdy treść koncentruje się na bilansie weekendu.",
+    "W treści występują emocjonalne sformułowania, takie jak 'tragiczny bilans', co może wpływać na postrzeganą clickbajtowość."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł może wzbudzać ciekawość, ponieważ sugeruje, że są nowe informacje.",
+    "Artykuł podaje konkretne liczby dotyczące wypadków, co sprawia, że jest bardziej wiarygodny.",
+    "Tytuł i treść nie są całkowicie zgodne, ponieważ tytuł sugeruje, że dane są świeże, a treść skupia się na bilansie weekendu.",
+    "Użycie słowa 'tragiczny' w treści może wpływać na to, jak artykuł jest postrzegany."
+  ],
+  "summary": "Artykuł informuje o bilansie weekendu na polskich drogach w ramach Akcji Znicz. Policja podała, że doszło do 146 wypadków, w których zginęło sześć osób, a 184 zostały ranne. Wzmożone kontrole drogowe mają na celu poprawę bezpieczeństwa na drogach w tym okresie.",
+  "signals": {
+    "title_hits": [
+      "pierwsze dane"
+    ],
+    "content_hits": [
+      "146 wypadków",
+      "sześć osób",
+      "184 osoby"
+    ],
+    "credibility_hits": [
+      "Policja",
+      "dane policji"
+    ],
+    "mismatch": {
+      "title": "Akcja Znicz. Policja podała pierwsze dane o wypadkach",
+      "content": "Tragiczny bilans weekendu na drogach. Są pierwsze dane policji"
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Bilans weekendu na drogach w ramach Akcji Znicz",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 56,
+    "processing_time_ms": 14083,
+    "model": "gpt-4o-mini"
+  }
+}

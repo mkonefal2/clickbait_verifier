@@ -1,0 +1,48 @@
+meta:
+  name: "clickbait_assessment_spec"
+  version: "1.2.3"
+  language: "pl"
+  last_updated: "2025-10-29"
+  author: "GPT Integration"
+  description: "Simplified specification for GPT-based clickbait analysis"
+
+preprocessing:
+  expected_language: ["pl", "pl-PL"]
+  allow_other_languages: false
+  min_content_chars: 500
+
+features:
+  title_features:
+    sensational_phrases_regex:
+      - "\\b(szok\\w*|wstrząs\\w*|niewiarygodn\\w*|niesamowit\\w*|skandal\\w*|dramat|bomba|hit|viral|tajemnic\\w*|sekret\\w*)\\b"
+    absolutes_regex:
+      - "\\b(zawsze|nigdy|wszystk\\w*|każd\\w*|na pewno|bez wątpieni\\w*|sto procent|100%)\\b"
+    curiosity_gap_regex:
+      - "\\b(zobacz|sprawdź|nie uwierzysz|nie zgadniesz|oto dlaczego|poznaj|to musisz zobaczyć)\\b"
+
+scoring:
+  thresholds:
+    not_clickbait: 0
+    mild: 25
+    strong: 50
+    extreme: 75
+  weights:
+    title_clickbait_weight: 0.4
+    content_clickbait_weight: 0.15
+    mismatch_weight: 0.4
+    credibility_weight: 0.05
+
+output_fields:
+  required:
+    - id
+    - source
+    - url
+    - title
+    - score
+    - label
+    - rationale
+    - rationale_user_friendly
+    - summary
+    - signals
+    - suggestions
+    - diagnostics

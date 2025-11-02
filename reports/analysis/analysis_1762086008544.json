@@ -1,0 +1,51 @@
+{
+  "id": 1762086008544,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/nauka/oszukac-przeznaczenie-milioner-rzucil-wyzwanie-smierci/vxxr3cm",
+  "title": "Oszukać przeznaczenie. Milioner rzucił wyzwanie śmierci",
+  "score": 65,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'oszukać przeznaczenie' i 'rzucił wyzwanie śmierci', co podnosi poziom clickbaitu.",
+    "Treść artykułu jest zgodna z tytułem, ale nie dostarcza wystarczającej ilości szczegółów, co może budzić lukę ciekawości.",
+    "W artykule pojawiają się liczby (2 mln dol. rocznie), co zwiększa jego wiarygodność.",
+    "Brak cytatów lub bezpośrednich odniesień do źródeł, co obniża poziom sygnałów wiarygodności."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa dramatycznych fraz, które mogą przyciągać uwagę, co zwiększa jego clickbaitowość.",
+    "Treść artykułu odpowiada tytułowi, ale nie zawiera wystarczających informacji, co może sprawić, że czytelnik będzie chciał więcej szczegółów.",
+    "W artykule podano konkretne liczby, co sprawia, że jest bardziej wiarygodny.",
+    "Brakuje cytatów lub odniesień do źródeł, co może wpływać na postrzeganą rzetelność informacji."
+  ],
+  "summary": "Artykuł opisuje działania Bryana Johnsona, amerykańskiego milionera, który dąży do cofnięcia swojego zegara biologicznego, aby znów mieć ciało 18-latka. Johnson inwestuje 2 mln dol. rocznie w program, który obejmuje ścisłą rutynę i współpracę z zespołem 30 lekarzy i ekspertów zdrowotnych. Informacje pochodzą z 'Tygodnika Przegląd'.",
+  "signals": {
+    "title_hits": [
+      "oszukać przeznaczenie",
+      "milioner",
+      "wyzwanie",
+      "śmierci"
+    ],
+    "content_hits": [
+      "2 mln dol.",
+      "30 lekarzy",
+      "rutyna"
+    ],
+    "credibility_hits": [
+      "Tygodnik Przegląd"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "details": "Tytuł i treść są zgodne, jednak tytuł jest bardziej dramatyczny niż treść."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Milioner inwestuje w cofnięcie zegara biologicznego",
+    "notes_to_editor": "Rozważyć dodanie cytatów lub odniesień do źródeł dla zwiększenia wiarygodności artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 9,
+    "tokens_content": 116,
+    "processing_time_ms": 15385,
+    "model": "gpt-4o-mini"
+  }
+}

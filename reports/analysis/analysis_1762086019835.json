@@ -1,0 +1,53 @@
+{
+  "id": 1762086019835,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/nadchodzi-cios-brexitu-giganci-zabieraja-pieniadze-i-uciekaja-z-londynu/02t7kj6",
+  "title": "Brytyjczycy rozżaleni. Zrozumieli, co zrobili, opuszczając UE",
+  "score": 66,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy emocjonalne ('rozżaleni', 'zrozumieli, co zrobili'), które mogą wzbudzać ciekawość czytelnika.",
+    "Treść artykułu odnosi się do negatywnych skutków brexitu, co jest zgodne z tytułem, ale nie wyczerpuje jego sensacji.",
+    "W artykule występują sygnały wiarygodności, takie jak odniesienia do byłego premiera i sytuacji gospodarczej.",
+    "Wykryto pewne niezgodności między tytułem a treścią, jednak nie są one na tyle duże, by obniżyć ocenę.",
+    "Zastosowane wzorce regex wykryły kilka fraz sensacyjnych i luk ciekawości w tytule i treści."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł artykułu używa emocjonalnych słów, które mogą przyciągać uwagę czytelników.",
+    "Treść artykułu opisuje negatywne skutki brexitu, co jest zgodne z tytułem, ale nie wyczerpuje jego sensacji.",
+    "Artykuł zawiera odniesienia do wiarygodnych źródeł, co zwiększa jego rzetelność.",
+    "Choć tytuł i treść są zgodne, niektóre sformułowania mogą być uznane za przesadzone.",
+    "W artykule występują elementy, które mogą wzbudzać ciekawość czytelników."
+  ],
+  "summary": "Artykuł omawia negatywne skutki brexitu dla Londynu, gdzie wiele firm przenosi swoje siedziby do innych europejskich miast. Brytyjczycy wyrażają swoje rozczarowanie obietnicami byłego premiera Borisa Johnsona, który zapewniał, że brexit przyniesie poprawę sytuacji gospodarczej. W rzeczywistości Londyn traci na znaczeniu jako centrum finansowe.",
+  "signals": {
+    "title_hits": [
+      "rozżaleni",
+      "zrozumieli",
+      "opuszczając UE"
+    ],
+    "content_hits": [
+      "giganci zabierają pieniądze",
+      "uciekają z Londynu",
+      "sytuacja gospodarcza"
+    ],
+    "credibility_hits": [
+      "były premier Boris Johnson",
+      "protestu domagający się ponownego przystąpienia"
+    ],
+    "mismatch": {
+      "exists": true,
+      "details": "Tytuł sugeruje głębsze zrozumienie Brytyjczyków, podczas gdy treść koncentruje się głównie na negatywnych skutkach brexitu."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Brytyjczycy wyrażają obawy po brexicie",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć emocjonalnych konotacji."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 145,
+    "processing_time_ms": 18383,
+    "model": "gpt-4o-mini"
+  }
+}

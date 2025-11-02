@@ -1,0 +1,51 @@
+{
+  "id": 1762086038043,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/tylko-w-onecie/przygotowuje-ciala-do-pogrzebu-przez-25-lat-widzialem-juz-chyba-wszystko/3k1g0x5",
+  "title": "Jest \"specjalistą od śmierci\". Zdradza tajemnicze kulisy swojego fachu",
+  "score": 52,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'specjalistą od śmierci' i 'tajemnicze kulisy', co zwiększa jego clickbaitowość.",
+    "Treść artykułu zawiera emocjonalne opisy i osobiste doświadczenia, co również podnosi poziom clickbaitu.",
+    "Wykryto niezgodność między tytułem a treścią, ponieważ tytuł sugeruje szersze tajemnice, podczas gdy treść koncentruje się na osobistych doświadczeniach.",
+    "W artykule znajdują się cytaty, co podnosi jego wiarygodność, ale nie ma konkretnych danych liczbowych ani źródeł.",
+    "Zastosowane wagi: tytuł 40%, treść 15%, niezgodność 40% prowadzą do wysokiego wyniku."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa emocjonalnych i sensacyjnych słów, co przyciąga uwagę.",
+    "Artykuł opisuje osobiste doświadczenia osoby zajmującej się przygotowaniem ciał, co może wzbudzać ciekawość.",
+    "Tytuł sugeruje, że będzie więcej tajemnic, niż jest to przedstawione w treści.",
+    "Cytaty w artykule dodają mu wiarygodności, ale brakuje konkretów, które mogłyby to wzmocnić.",
+    "Wynik oceny jest wysoki z powodu emocjonalnego ładunku treści i tytułu."
+  ],
+  "summary": "Artykuł przedstawia rozmowę z Adamem Ragielem, który od 25 lat zajmuje się przygotowaniem ciał do pogrzebu. Wspomina o trudnych doświadczeniach związanych z pracą, w tym o tragediach, które miały wpływ na jego postrzeganie życia i śmierci. Podkreśla kruchość życia oraz emocjonalny ciężar związany z jego zawodem.",
+  "signals": {
+    "title_hits": [
+      "specjalistą od śmierci",
+      "tajemnicze kulisy"
+    ],
+    "content_hits": [
+      "przygotowuje ciała",
+      "tragedia",
+      "kruchość życia"
+    ],
+    "credibility_hits": [
+      "cytaty"
+    ],
+    "mismatch": {
+      "title": "Jest \"specjalistą od śmierci\". Zdradza tajemnicze kulisy swojego fachu",
+      "content": "Artykuł skupia się na osobistych doświadczeniach, a nie na tajemnicach zawodu."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Rozmowa z specjalistą zajmującym się przygotowaniem ciał do pogrzebu",
+    "notes_to_editor": "Rozważyć zmianę tytułu na bardziej neutralny, aby lepiej odzwierciedlał treść artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 13,
+    "tokens_content": 123,
+    "processing_time_ms": 15001,
+    "model": "gpt-4o-mini"
+  }
+}

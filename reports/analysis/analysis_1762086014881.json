@@ -1,0 +1,50 @@
+{
+  "id": 1762086014881,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/atak-nozownikow-w-brytyjskim-pociagu-nowe-informacje/rnggrbh",
+  "title": "Atak nożowników w brytyjskim pociągu. Nowe informacje",
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'atak nożowników', co może wzbudzać emocje.",
+    "Treść artykułu dostarcza konkretne informacje o ataku, jednak niektóre sformułowania w tytule mogą sugerować większą dramatyzację.",
+    "W artykule występują liczby dotyczące liczby rannych, co zwiększa jego wiarygodność.",
+    "Nie stwierdzono znaczącego rozbieżności między tytułem a treścią, co pozytywnie wpływa na ocenę.",
+    "Wykryto kilka sygnałów wiarygodności, w tym cytat przedstawiciela policji."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł artykułu używa mocnych słów, które mogą przyciągać uwagę czytelników.",
+    "Treść artykułu dostarcza konkretne informacje o ataku, ale tytuł może brzmieć bardziej dramatycznie niż sama historia.",
+    "W artykule podano konkretne liczby dotyczące rannych, co sprawia, że jest bardziej wiarygodny.",
+    "Tytuł i treść są zgodne, co jest pozytywne.",
+    "W artykule znajduje się cytat przedstawiciela policji, co zwiększa jego rzetelność."
+  ],
+  "summary": "Artykuł opisuje atak nożowników w brytyjskim pociągu, w wyniku którego dziesięć osób zostało rannych, w tym dziewięć ciężko. Policja zatrzymała dwie osoby, które są obywatelami brytyjskimi. Atak nie jest traktowany jako akt terrorystyczny, a motywy sprawców pozostają nieznane.",
+  "signals": {
+    "title_hits": [
+      "atak nożowników"
+    ],
+    "content_hits": [
+      "dziesięć osób zostało rannych",
+      "zatrzymano dwie osoby",
+      "atak nie jest traktowany jako akt terrorystyczny"
+    ],
+    "credibility_hits": [
+      "przedstawiciel policji John Loveless"
+    ],
+    "mismatch": {
+      "exists": false,
+      "details": "Tytuł i treść są zgodne."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Atak w brytyjskim pociągu: szczegóły zdarzenia",
+    "notes_to_editor": "Rozważyć neutralniejszy tytuł, aby uniknąć dramatyzacji."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 104,
+    "processing_time_ms": 13770,
+    "model": "gpt-4o-mini"
+  }
+}

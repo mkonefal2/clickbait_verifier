@@ -1,0 +1,49 @@
+{
+  "id": 1762086020658,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/napieta-sytuacja-na-wschodniej-flance-nato-sasiad-polski-reaguje/h506lc6",
+  "title": "\"Nie jedź na Białoruś. Być może nie wrócisz\". Reportaż z Litwy",
+  "score": 62,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne ('Nie jedź na Białoruś', 'Być może nie wrócisz'), które wzbudzają silne emocje i ciekawość.",
+    "Treść artykułu odnosi się do napiętej sytuacji na granicy Litwy i Białorusi, co jest zgodne z tytułem, ale nie wyjaśnia w pełni kontekstu.",
+    "W artykule pojawiają się cytaty i odniesienia do działań rządu, co zwiększa wiarygodność, ale nie równoważy silnego tonu tytułu.",
+    "Wykryto pewne niezgodności między tytułem a treścią, co wpływa na ocenę zgodności."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa dramatycznych zwrotów, które mogą przyciągać uwagę czytelników.",
+    "Treść artykułu opisuje sytuację na granicy Litwy i Białorusi, co jest zgodne z tytułem, ale nie wyjaśnia wszystkiego.",
+    "Artykuł zawiera cytaty i odniesienia do działań rządu, co sprawia, że jest bardziej wiarygodny.",
+    "Jednak tytuł i treść nie są całkowicie zgodne, co wpływa na ocenę."
+  ],
+  "summary": "Artykuł opisuje napiętą sytuację na granicy Litwy i Białorusi, gdzie białoruskie gangi przemytnicze wdzierają się do przestrzeni powietrznej Litwy, powodując niepokój wśród mieszkańców. Władze Litwy zapowiadają działania odwetowe, a sytuacja jest określana jako atak hybrydowy. W artykule podkreślono również, że może to być cisza przed burzą.",
+  "signals": {
+    "title_hits": [
+      "Nie jedź na Białoruś",
+      "Być może nie wrócisz"
+    ],
+    "content_hits": [
+      "atak hybrydowy",
+      "niepokojąca cisza"
+    ],
+    "credibility_hits": [
+      "Premier Litwy Inga Ruginiene",
+      "Aleksander Łukaszenko"
+    ],
+    "mismatch": {
+      "title": "Tytuł sugeruje osobiste zagrożenie, podczas gdy treść koncentruje się na sytuacji geopolitycznej.",
+      "content": "Treść artykułu nie dostarcza bezpośrednich informacji o ryzyku dla osób podróżujących na Białoruś."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Sytuacja na granicy Litwy i Białorusi: zagrożenie ze strony przemytników",
+    "notes_to_editor": "Rozważyć złagodzenie tonu tytułu, aby lepiej odzwierciedlał treść artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 12,
+    "tokens_content": 168,
+    "processing_time_ms": 18704,
+    "model": "gpt-4o-mini"
+  }
+}

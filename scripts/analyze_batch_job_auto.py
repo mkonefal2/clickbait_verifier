@@ -317,50 +317,19 @@ def _determine_manipulation_techniques(
 
 
 def _generate_summary(title: str, content: str, score: int) -> str:
-    """
-    Generuje zwięzłe streszczenie TREŚCI artykułu (nie analizy clickbaitowości).
-    Zgodne z wymaganiami z clickbait_agent_spec_v1.1.yaml:
-    - 2-4 zdania, max 400 znaków
-    - Opisuje O CZYM jest artykuł
-    - Obiektywne, neutralne, informacyjne
-    """
-    # Usuń HTML tagi jeśli są
-    clean_content = re.sub(r'<[^>]+>', '', content)
+    """Generuje krótkie streszczenie analizy."""
+    # Wyciągnij pierwsze 2-3 zdania z treści
+    sentences = content[:300].split('. ')[:2]
+    content_preview = '. '.join(sentences) + '.'
     
-    # Podziel na zdania
-    sentences = re.split(r'[.!?]+\s+', clean_content.strip())
+    if score >= 70:
+        severity = "Wysoki poziom clickbaitu"
+    elif score >= 40:
+        severity = "Średni poziom clickbaitu"
+    else:
+        severity = "Niski poziom clickbaitu"
     
-    # Weź pierwsze 2-4 zdania (max 400 znaków)
-    summary_sentences = []
-    total_length = 0
-    
-    for sentence in sentences[:6]:  # Max 6 zdań do rozważenia
-        sentence = sentence.strip()
-        if not sentence or len(sentence) < 20:  # Pomiń zbyt krótkie
-            continue
-        
-        # Pomiń elementy UI/nawigacji
-        if any(skip in sentence.lower() for skip in ['udostępnij', 'facebook', 'kopiuj link', 'skróć artykuł', 'zobacz także']):
-            continue
-            
-        if total_length + len(sentence) > 400:
-            break
-            
-        summary_sentences.append(sentence)
-        total_length += len(sentence)
-        
-        if len(summary_sentences) >= 4:  # Max 4 zdania
-            break
-    
-    # Jeśli nie udało się zebrać zdań, użyj tytułu jako fallback
-    if not summary_sentences:
-        return f"Artykuł dotyczy: {title[:350]}"
-    
-    summary = '. '.join(summary_sentences)
-    if summary and not summary.endswith('.'):
-        summary += '.'
-    
-    return summary
+    return f"{severity}. {content_preview}"
 
 
 def main(file_list):

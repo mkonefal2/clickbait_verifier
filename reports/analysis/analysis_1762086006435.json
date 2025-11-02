@@ -1,0 +1,41 @@
+{
+  "id": 1762086006435,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/krakow/cysterna-wpadla-do-rowu-utrudnienia-w-ruchu-na-a4/fddc2yc",
+  "title": "Cysterna wpadła do rowu. Utrudnienia w ruchu na A4",
+  "score": 15,
+  "label": "not_clickbait",
+  "rationale": [
+    "Tytuł nie zawiera fraz sensacyjnych ani absolutów.",
+    "Treść artykułu jest zgodna z tytułem, opisując konkretne zdarzenie.",
+    "Brak luk ciekawości, ponieważ artykuł dostarcza pełnych informacji o zdarzeniu.",
+    "W artykule podano źródło informacji (RMF FM), co zwiększa jego wiarygodność."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jest prosty i informacyjny, nie używa przesadnych słów.",
+    "Treść artykułu dokładnie odpowiada tytułowi, opisując incydent na autostradzie.",
+    "Nie ma w artykule niejasności, wszystko jest jasno wyjaśnione.",
+    "Podano źródło informacji, co sprawia, że artykuł jest bardziej wiarygodny."
+  ],
+  "summary": "Na autostradzie A4 w rejonie Tarnowa doszło do zdarzenia z udziałem cysterny, co spowodowało częściowe zablokowanie drogi. Informacje o utrudnieniach w ruchu przekazało RMF FM. W artykule podano szczegóły dotyczące incydentu oraz jego skutków dla kierowców.",
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "RMF FM"
+    ],
+    "mismatch": {
+      "title_content_match": true
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Zdarzenie z cysterną na A4 w rejonie Tarnowa",
+    "notes_to_editor": "Artykuł jest dobrze napisany, nie wymaga zmian."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 66,
+    "processing_time_ms": 12029,
+    "model": "gpt-4o-mini"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": 1762086025097,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/rosja-wpadla-we-wlasna-pulapke-amerykanski-dowodca-czeka-ja-katastrofa/9zpjt6r",
+  "title": "To być albo nie być dla Putina. Amerykański dowódca: Rosję czeka katastrofa [OPINIA]",
+  "score": 68,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'katastrofa' oraz 'to być albo nie być', co zwiększa jego clickbaitowość.",
+    "Treść artykułu odnosi się do sytuacji wojennej, jednak używa dramatycznego języka, co również wpływa na ocenę.",
+    "Występuje niezgodność między tytułem a treścią, ponieważ tytuł sugeruje jednoznaczne stwierdzenie, podczas gdy treść jest bardziej analityczna.",
+    "Artykuł zawiera cytaty i odniesienia do faktów, co podnosi jego wiarygodność, ale nie równoważy ogólnego tonu clickbaitowego."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa dramatycznych słów, co sprawia, że jest bardziej przyciągający, ale także może wprowadzać w błąd.",
+    "Treść artykułu opisuje sytuację wojenną, ale język użyty w artykule jest bardzo emocjonalny.",
+    "Tytuł sugeruje jednoznaczne wnioski, podczas gdy artykuł przedstawia bardziej złożoną analizę.",
+    "Artykuł zawiera cytaty i odniesienia do faktów, co dodaje mu wiarygodności, ale nie zmienia jego sensacyjnego tonu."
+  ],
+  "summary": "Artykuł omawia sytuację na froncie ukraińskim, wskazując na trudności, jakie napotyka Rosja w wojnie. Były amerykański dowódca Chuck Pfarrer podkreśla, że Putin wprowadził swoje wojska w ślepą uliczkę, co może prowadzić do katastrofalnych skutków. Autor zwraca uwagę na konsekwencje decyzji Putina oraz na straty, jakie mogą ponieść rosyjscy żołnierze.",
+  "signals": {
+    "title_hits": [
+      "katastrofa",
+      "to być albo nie być"
+    ],
+    "content_hits": [
+      "oboz śmierci",
+      "zacięte walki",
+      "krwawe lata"
+    ],
+    "credibility_hits": [
+      "Chuck Pfarrer",
+      "cytaty",
+      "liczby"
+    ],
+    "mismatch": {
+      "title": "To być albo nie być dla Putina. Amerykański dowódca: Rosję czeka katastrofa",
+      "content": "Artykuł analizuje sytuację wojenną, ale nie dostarcza jednoznacznych prognoz."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Analiza sytuacji wojennej w Rosji i Ukrainie według amerykańskiego dowódcy",
+    "notes_to_editor": "Rozważyć złagodzenie języka w tytule, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 15,
+    "tokens_content": 206,
+    "processing_time_ms": 28884,
+    "model": "gpt-4o-mini"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": 1762086027509,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/specjalne-ceny-dla-nawiedzonych-nieruchomosci-w-hongkongu/n8fq605",
+  "title": "W Hongkongu można kupić tanie mieszkanie. Jest zaskakujący warunek",
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazę 'zaskakujący warunek', co może budzić ciekawość, ale nie jest to skrajnie sensacyjne.",
+    "Treść artykułu dostarcza konkretne informacje o zniżkach na nieruchomości, co ogranicza elementy clickbaitu.",
+    "Wykryto kilka sygnałów wiarygodności, takich jak źródło (CNN) i konkretne liczby (34 proc. obniżki).",
+    "Zgodność tytułu z treścią jest na poziomie akceptowalnym, ponieważ tytuł odnosi się do warunku zakupu mieszkań."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera interesującą informację o warunkach zakupu mieszkań, co może przyciągać uwagę, ale nie jest przesadnie sensacyjny.",
+    "Artykuł dostarcza konkretne dane o zniżkach, co sprawia, że jest bardziej informacyjny niż typowy clickbait.",
+    "Podano wiarygodne źródło informacji oraz konkretne liczby, co zwiększa zaufanie do treści.",
+    "Tytuł dobrze odzwierciedla treść artykułu, co zmniejsza ryzyko wprowadzenia w błąd."
+  ],
+  "summary": "W Hongkongu wprowadzono specjalne ceny dla nieruchomości uznawanych za 'nawiedzone'. Osoby zainteresowane mogą skorzystać z obniżek sięgających nawet 34 proc., pod warunkiem, że mieszkanie ma związek z gwałtowną śmiercią lub jest uważane za nawiedzone. Informacje pochodzą z portalu CNN.",
+  "signals": {
+    "title_hits": [
+      "zaskakujący warunek"
+    ],
+    "content_hits": [
+      "nawiedzonych",
+      "obniżka nawet o 34 proc."
+    ],
+    "credibility_hits": [
+      "Polska Agencja Prasowa",
+      "CNN"
+    ],
+    "mismatch": {
+      "is_mismatch": false,
+      "details": "Tytuł i treść są zgodne, tytuł odnosi się do warunku zakupu mieszkań."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "W Hongkongu obniżki cen mieszkań związanych z nawiedzeniami",
+    "notes_to_editor": "Artykuł jest informacyjny i nie wymaga dużych zmian, ale można rozważyć neutralniejszy tytuł."
+  },
+  "diagnostics": {
+    "tokens_title": 13,
+    "tokens_content": 102,
+    "processing_time_ms": 14410,
+    "model": "gpt-4o-mini"
+  }
+}

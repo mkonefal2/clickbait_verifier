@@ -1,0 +1,49 @@
+{
+  "id": 1762086026702,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/rosyjska-flota-cieni-na-baltyku-udalo-sie-zapobiec-atakom/m79fs5s",
+  "title": "Rosyjska \"flota cieni\" na Bałtyku. Udało się zapobiec atakom",
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazę 'flota cieni', co może budzić ciekawość, ale nie jest to absolut.",
+    "Treść artykułu jest zgodna z tytułem, nie ma istotnych rozbieżności.",
+    "W treści pojawiają się konkretne informacje o działaniach fińskiej marynarki wojennej, co zwiększa wiarygodność.",
+    "Nie znaleziono wyraźnych sygnałów clickbaitowych w treści, ale tytuł może sugerować większą sensację."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa intrygującego określenia 'flota cieni', co może przyciągać uwagę czytelników.",
+    "Treść artykułu odpowiada tytułowi, co oznacza, że nie wprowadza w błąd.",
+    "Artykuł zawiera konkretne informacje o działaniach marynarki wojennej, co sprawia, że jest bardziej wiarygodny.",
+    "Mimo to, tytuł może sugerować większą sensację, niż ma to miejsce w rzeczywistości."
+  ],
+  "summary": "Artykuł informuje o działaniach fińskiej marynarki wojennej, która dzięki wzmożonemu patrolowaniu Morza Bałtyckiego zapobiegła atakom ze strony rosyjskich statków. Wspomniano o eskortowaniu tankowców przez okręty wojenne, co wskazuje na rosnące napięcia w regionie.",
+  "signals": {
+    "title_hits": [
+      "flota cieni"
+    ],
+    "content_hits": [
+      "fińskiej marynarki wojennej",
+      "zapobiec atakom",
+      "eskortowane przez okręty wojenne"
+    ],
+    "credibility_hits": [
+      "Polska Agencja Prasowa",
+      "Heikki Saukkomaa/Lehtikuva Oy/East News"
+    ],
+    "mismatch": {
+      "exists": false,
+      "details": "Tytuł i treść są zgodne."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Działania fińskiej marynarki wojennej na Bałtyku w odpowiedzi na rosyjskie zagrożenia",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 79,
+    "processing_time_ms": 14406,
+    "model": "gpt-4o-mini"
+  }
+}

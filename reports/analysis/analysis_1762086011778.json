@@ -1,0 +1,51 @@
+{
+  "id": 1762086011778,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/politico/ukraincy-stali-sie-punktem-zapalnym-politico-sprzeciw-w-polsce-i-niemczech/468gkrj",
+  "title": "Ukraińscy uchodźcy stali się punktem zapalnym. POLITICO: wrze w Polsce i Niemczech",
+  "score": 52,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'punkt zapalny' i 'wrze', które mogą wywoływać emocje.",
+    "Treść artykułu odnosi się do aktualnych wydarzeń, ale nie zawiera zbyt wielu absolutów ani luk ciekawości.",
+    "Wykryto niezgodność między tytułem a treścią, ponieważ tytuł sugeruje większy konflikt niż to, co jest opisane w artykule.",
+    "W artykule pojawiają się cytaty oraz odniesienia do polityków, co podnosi wiarygodność informacji."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa emocjonalnych słów, które mogą przyciągać uwagę czytelników.",
+    "Artykuł dotyczy sytuacji związanej z uchodźcami, ale nie jest tak dramatyczny, jak sugeruje tytuł.",
+    "Tytuł i treść nie do końca się zgadzają, co może wprowadzać w błąd.",
+    "W artykule są cytaty i odniesienia do polityków, co sprawia, że jest bardziej wiarygodny."
+  ],
+  "summary": "Artykuł omawia rosnące napięcia w Polsce i Niemczech związane z ukraińskimi uchodźcami. Politycy w tych krajach rozważają ograniczenie polityki otwartych drzwi w odpowiedzi na wzrost liczby uchodźców po złagodzeniu przepisów przez Kijów. Zmiany te mogą wpłynąć na sytuację Ukrainy w kontekście trwającej wojny.",
+  "signals": {
+    "title_hits": [
+      "punkt zapalny",
+      "wrze"
+    ],
+    "content_hits": [
+      "spór o ukraińskich uchodźców",
+      "politycy w Niemczech i Polsce",
+      "grożą wycofaniem się z polityki otwartych drzwi"
+    ],
+    "credibility_hits": [
+      "dziennikarzy",
+      "cytaty",
+      "partii"
+    ],
+    "mismatch": {
+      "title": "Ukraińscy uchodźcy stali się punktem zapalnym. POLITICO: wrze w Polsce i Niemczech",
+      "content": "Politycy w Niemczech i Polsce — państwach, które przyjęły największą liczbę uchodźców z Ukrainy w Unii Europejskiej — grożą wycofaniem się z polityki otwartych drzwi."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Napięcia związane z ukraińskimi uchodźcami w Polsce i Niemczech",
+    "notes_to_editor": "Rozważyć łagodzenie tytułu, aby lepiej odzwierciedlał treść artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 14,
+    "tokens_content": 169,
+    "processing_time_ms": 15952,
+    "model": "gpt-4o-mini"
+  }
+}

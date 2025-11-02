@@ -1,0 +1,52 @@
+{
+  "id": 1762086008235,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/nauka/oszukac-przeznaczenie-milioner-rzucil-wyzwanie-smierci/vxxr3cm",
+  "title": "Oszukać przeznaczenie. Milioner rzucił wyzwanie śmierci",
+  "score": 66,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'oszukać przeznaczenie' i 'rzucił wyzwanie śmierci', co sugeruje dramatyzm.",
+    "Treść artykułu opisuje konkretne działania milionera, ale nie dostarcza wystarczających dowodów na poparcie tytułu.",
+    "W tytule i treści występuje pewien stopień niezgodności, ponieważ tytuł sugeruje bardziej dramatyczne wydarzenia niż te opisane w artykule.",
+    "W artykule pojawiają się liczby (2 mln dol. rocznie) oraz odniesienia do ekspertów, co zwiększa wiarygodność, ale nie równoważy sensacyjności tytułu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa dramatycznych zwrotów, co może przyciągać uwagę, ale niekoniecznie odzwierciedla rzeczywistą treść artykułu.",
+    "Artykuł skupia się na działaniach konkretnej osoby, ale nie dostarcza wystarczających informacji, aby uzasadnić tak mocny tytuł.",
+    "W tytule i treści są pewne różnice, ponieważ tytuł sugeruje większe napięcie niż to, co opisuje artykuł.",
+    "Artykuł zawiera konkretne liczby i odniesienia do ekspertów, co dodaje mu wiarygodności, ale nie zmienia sensacyjnego charakteru tytułu."
+  ],
+  "summary": "Artykuł opisuje działania Bryana Johnsona, amerykańskiego milionera, który dąży do cofnięcia swojego zegara biologicznego, aby wyglądać jak 18-latek. Koszt jego programu wynosi 2 miliony dolarów rocznie, a jego rutyna jest monitorowana przez 30 lekarzy i ekspertów zdrowotnych. Informacje pochodzą z 'Tygodnika Przegląd'.",
+  "signals": {
+    "title_hits": [
+      "oszukać przeznaczenie",
+      "milioner",
+      "rzucił wyzwanie",
+      "śmierci"
+    ],
+    "content_hits": [
+      "Bryan Johnson",
+      "2 mln dol.",
+      "30 lekarzy"
+    ],
+    "credibility_hits": [
+      "Tygodnik Przegląd",
+      "Kornel Wawrzyniak"
+    ],
+    "mismatch": {
+      "title": "Oszukać przeznaczenie. Milioner rzucił wyzwanie śmierci",
+      "content": "Bryan Johnson dąży do poprawy swojego zdrowia."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Milioner Bryan Johnson dąży do poprawy swojego zdrowia",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby lepiej odzwierciedlić treść artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 9,
+    "tokens_content": 92,
+    "processing_time_ms": 16622,
+    "model": "gpt-4o-mini"
+  }
+}

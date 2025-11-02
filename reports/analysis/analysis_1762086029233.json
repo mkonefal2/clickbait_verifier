@@ -1,0 +1,49 @@
+{
+  "id": 1762086029233,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/tankowiec-i-terminal-naftowy-uszkodzone-atak-na-port-w-tuapse-w-rosji/pngcsft",
+  "title": "Atak dronów na rosyjski port. Doszło do pożaru",
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'atak' i 'pożar', co podnosi jego clickbaitowość.",
+    "Treść artykułu jest zgodna z tytułem, co zmniejsza ryzyko mismatch.",
+    "W artykule pojawiają się konkretne informacje o uszkodzeniach, co zwiększa jego wiarygodność.",
+    "Zidentyfikowano kilka słów kluczowych w tytule i treści, które mogą przyciągać uwagę czytelników."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera emocjonujące słowa, które mogą przyciągać uwagę, jak 'atak' i 'pożar'.",
+    "Treść artykułu odpowiada tytułowi, co sprawia, że jest bardziej wiarygodny.",
+    "Artykuł dostarcza konkretne informacje o skutkach ataku, co zwiększa jego wartość informacyjną.",
+    "Zauważono, że tytuł i treść zawierają elementy, które mogą zainteresować czytelników."
+  ],
+  "summary": "Artykuł opisuje atak dronów na port w Tuapse, który miał miejsce w nocy z soboty na niedzielę. W wyniku ataku doszło do pożaru oraz uszkodzenia tankowca i infrastruktury terminalu naftowego. Informacje te zostały potwierdzone przez władze Kraju Krasnodarskiego.",
+  "signals": {
+    "title_hits": [
+      "atak",
+      "pożar"
+    ],
+    "content_hits": [
+      "atak dronów",
+      "uszkodzony tankowiec",
+      "terminal naftowy"
+    ],
+    "credibility_hits": [
+      "władze Kraju Krasnodarskiego"
+    ],
+    "mismatch": {
+      "exists": false,
+      "details": "Tytuł i treść są zgodne."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Atak dronów na port w Tuapse spowodował pożar",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby zmniejszyć wrażenie clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 64,
+    "processing_time_ms": 11676,
+    "model": "gpt-4o-mini"
+  }
+}

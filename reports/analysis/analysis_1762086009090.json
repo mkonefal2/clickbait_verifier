@@ -1,0 +1,51 @@
+{
+  "id": 1762086009090,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/pogoda/pas-deszczowej-pogody-tworzy-sie-nad-polska-tu-popada-najmocniej/ej03pzb",
+  "title": "Wielogodzinna ulewa obejmie część Polski. Tu utworzy się pas intensywnych opadów",
+  "score": 32,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy sugerujące intensywność opadów, co może wzbudzać ciekawość, ale nie jest skrajnie sensacyjny.",
+    "Treść artykułu potwierdza informacje zawarte w tytule, co zmniejsza ryzyko niezgodności.",
+    "W tytule i treści występują słowa kluczowe związane z pogodą, ale brak jest absolutów czy przesadnych stwierdzeń.",
+    "W artykule podano konkretne informacje o opadach, co zwiększa jego wiarygodność."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł sugeruje, że w Polsce wystąpią intensywne opady deszczu, co jest zgodne z treścią artykułu.",
+    "Artykuł dostarcza konkretne informacje o prognozowanej pogodzie, co czyni go bardziej wiarygodnym.",
+    "Nie ma w nim przesadnych stwierdzeń ani sensacyjnych fraz, co sprawia, że jest umiarkowanie clickbaitowy.",
+    "Ogólnie, tytuł i treść są ze sobą zgodne, co zmniejsza wrażenie clickbaitu."
+  ],
+  "summary": "Artykuł informuje o nadchodzącym załamaniu pogody w Polsce, które przyniesie intensywne opady deszczu. Zmiany pogodowe już odczuwane są w zachodniej Polsce, a w kolejnych godzinach opady mają objąć większość regionów. Miejscami przewiduje się, że spadnie więcej niż połowa normy opadów dla listopada.",
+  "signals": {
+    "title_hits": [
+      "wielogodzinna ulewa",
+      "pas intensywnych opadów"
+    ],
+    "content_hits": [
+      "załamanie pogody",
+      "intensywne opady",
+      "więcej niż połowa normy opadów"
+    ],
+    "credibility_hits": [
+      "Paweł Albertusiak",
+      "2 listopada 2025",
+      "East News"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "mismatch_score": 0
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Intensywne opady deszczu w Polsce – prognoza pogody",
+    "notes_to_editor": "Rozważyć użycie mniej dramatycznych sformułowań w tytule."
+  },
+  "diagnostics": {
+    "tokens_title": 12,
+    "tokens_content": 102,
+    "processing_time_ms": 14754,
+    "model": "gpt-4o-mini"
+  }
+}
