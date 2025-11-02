@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+a#!/usr/bin/env python3
 """
 Monitor GPT API usage in real-time
 """
