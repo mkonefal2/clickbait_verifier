@@ -1,7 +1,12 @@
 name: Scrape and Analyze Articles with GPT
 
 on:
-  # Uruchamiaj codziennie o 14:30 UTC (16:30 czasu polskiego w zimie, 15:30 w lecie)
+  # Run daily at 14:30 UTC. This is a daily cron (not a one-off date).
+  # Note on Poland local time:
+  # - In winter (CET, UTC+1) 14:30 UTC = 15:30 CET
+  # - In summer (CEST, UTC+2) 14:30 UTC = 16:30 CEST
+  # If you want a fixed local Poland time every day (regardless of DST), convert the desired
+  # local time to UTC for each DST period or schedule multiple cron entries.
   schedule:
     - cron: '30 14 * * *'
   
