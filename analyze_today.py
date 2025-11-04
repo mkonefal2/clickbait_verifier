@@ -5,12 +5,18 @@ Batch analyze today's scraped articles with GPT
 import json
 import time
 from pathlib import Path
+from datetime import datetime, timezone
 from clickbait_verifier.analyzer import GPTAnalyzer
 
 def analyze_todays_articles():
     """Analyze articles scraped today with GPT."""
     
-    print("🚀 Analiza GPT artykułów z dzisiaj (2 listopada 2025)")
+    # Get today's date dynamically
+    today = datetime.now(timezone.utc)
+    today_str = today.strftime("%d %B %Y")
+    today_timestamp_prefix = str(int(today.replace(hour=0, minute=0, second=0, microsecond=0).timestamp()))[:8]
+    
+    print(f"🚀 Analiza GPT artykułów z dzisiaj ({today_str})")
     print("=" * 60)
     
     # Initialize analyzer
@@ -38,8 +44,8 @@ def analyze_todays_articles():
     
     print(f"📊 Istniejące analizy: {len(existing)}")
     
-    # Find today's articles (1762086* = 2 Nov 2025)
-    todays_files = list(scraped_dir.glob('scraped_1762086*.json'))
+    # Find today's articles using dynamic timestamp prefix
+    todays_files = list(scraped_dir.glob(f'scraped_{today_timestamp_prefix}*.json'))
     to_analyze = []
     seen_titles = set()  # Track titles to avoid duplicates
     
@@ -60,7 +66,7 @@ def analyze_todays_articles():
             print(f"⚠️  Błąd ładowania {file}: {e}")
     
     print(f"🎯 Nowych artykułów do analizy: {len(to_analyze)}")
-    print(f"📅 Wszystkie z dzisiaj (2 listopada 2025)")
+    print(f"📅 Wszystkie z dzisiaj ({today_str})")
     print()
     
     if not to_analyze:
