@@ -302,11 +302,34 @@ def render_feed(candidates: List[Tuple[float, str]], max_items: int = 10):
         </style>
         """, unsafe_allow_html=True)
         
-        layout_col, filter_col1, filter_col2, filter_col3, filter_col4 = st.columns([1, 1, 1, 1, 1])
+        # Initialize date filter in session state
+        if 'feed_date_filter' not in st.session_state:
+            st.session_state['feed_date_filter'] = 'Dzisiaj'
+        
+        layout_col, date_col, filter_col1, filter_col2, filter_col3, filter_col4 = st.columns([1, 1, 1, 1, 1, 1])
         
         with layout_col:
             layout_options = ['Jedna kolumna', 'Dwie kolumny', 'Kompaktowy']
             st.session_state['feed_layout'] = st.selectbox('📱 Widok', layout_options, index=layout_options.index(st.session_state['feed_layout']))
+        
+        with date_col:
+            from datetime import datetime as dt
+            today_str = dt.now().strftime('%Y-%m-%d')
+            date_filter_options = ['Wszystkie', 'Dzisiaj', 'Ostatnie 7 dni', 'Ostatnie 30 dni']
+            selected_date_filter = st.selectbox('📅 Data', date_filter_options, 
+                                               index=date_filter_options.index(st.session_state['feed_date_filter']))
+            st.session_state['feed_date_filter'] = selected_date_filter
+            
+            if selected_date_filter == 'Dzisiaj':
+                all_articles = [art for art in all_articles if art['date'] == today_str]
+            elif selected_date_filter == 'Ostatnie 7 dni':
+                from datetime import timedelta
+                cutoff_date = (dt.now() - timedelta(days=7)).strftime('%Y-%m-%d')
+                all_articles = [art for art in all_articles if art['date'] >= cutoff_date]
+            elif selected_date_filter == 'Ostatnie 30 dni':
+                from datetime import timedelta
+                cutoff_date = (dt.now() - timedelta(days=30)).strftime('%Y-%m-%d')
+                all_articles = [art for art in all_articles if art['date'] >= cutoff_date]
         
         with filter_col1:
             sources = sorted(list(set([art['source'] for art in all_articles if art['source']])))
