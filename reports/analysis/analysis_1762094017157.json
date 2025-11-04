@@ -1,0 +1,54 @@
+{
+  "id": 1762094017157,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/pogoda/news-imgw-ostrzega-przed-intensywnymi-opadami-te-regiony-sa-zagro,nId,8036857",
+  "title": "IMGW ostrzega przed intensywnymi opadami. Te regiony są zagrożone",
+  "score": 20,
+  "label": "not_clickbait",
+  "rationale": [
+    "Tytuł zawiera konkretne ostrzeżenie o intensywnych opadach, co jest zgodne z treścią artykułu.",
+    "W treści nie występują frazy sensacyjne ani absoluty, a informacje są przedstawione w sposób rzeczowy.",
+    "Zidentyfikowano kilka sygnałów wiarygodności, takich jak źródło IMGW oraz konkretne dane dotyczące opadów.",
+    "Brak jest istotnych rozbieżności między tytułem a treścią, co potwierdza ich zgodność."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jasno informuje o ostrzeżeniu przed opadami, co znajduje potwierdzenie w treści.",
+    "Artykuł przedstawia konkretne informacje bez przesadnych stwierdzeń, co sprawia, że jest rzetelny.",
+    "W tekście są podane źródła i dane, co zwiększa jego wiarygodność.",
+    "Tytuł i treść są spójne, co oznacza, że nie ma w nich sprzeczności."
+  ],
+  "summary": "Artykuł informuje o ostrzeżeniach IMGW przed intensywnymi opadami deszczu w kilku województwach Polski. Służby apelują o zachowanie ostrożności, zwłaszcza w rejonach z prognozowanymi największymi opadami. Wskazano konkretne obszary, gdzie mogą wystąpić lokalne podtopienia oraz utrudnienia na drogach.",
+  "signals": {
+    "title_hits": [
+      "ostrzega",
+      "intensywnymi opadami",
+      "zagrożone"
+    ],
+    "content_hits": [
+      "ostrzegania",
+      "intensywne opady",
+      "alerty",
+      "prognozy"
+    ],
+    "credibility_hits": [
+      "IMGW",
+      "40 mm",
+      "powiaty",
+      "alerty hydrologiczne"
+    ],
+    "mismatch": {
+      "exists": false,
+      "details": "Brak rozbieżności między tytułem a treścią."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Ostrzeżenia IMGW przed intensywnymi opadami w Polsce",
+    "notes_to_editor": "Artykuł jest rzetelny i nie zawiera elementów clickbaitowych."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 330,
+    "processing_time_ms": 18325,
+    "model": "gpt-4o-mini"
+  }
+}

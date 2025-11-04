@@ -1,0 +1,50 @@
+{
+  "id": 1762006154584,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/putin-dobija-rosyjska-gospodarke-niedlugo-przebije-niechlubny-rekord/9cnf8j0",
+  "title": "Rosyjska gospodarka się przegrzała. \"Będzie jeszcze gorzej\"",
+  "score": 52,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy emocjonalne, takie jak 'przegrzała' i 'Będzie jeszcze gorzej', które mogą wzbudzać silne reakcje.",
+    "Treść artykułu potwierdza problemy gospodarcze Rosji, jednak nie dostarcza konkretnych danych ani źródeł, co wpływa na wiarygodność.",
+    "W artykule występują sygnały wiarygodności, takie jak odniesienia do Centrum Analiz Makroekonomicznych, ale brakuje konkretnych liczb.",
+    "Zauważono pewne niezgodności między tytułem a treścią, ponieważ tytuł sugeruje dramatyczny rozwój sytuacji, podczas gdy treść jest bardziej stonowana."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa emocjonalnych słów, które mogą przyciągać uwagę czytelników.",
+    "Artykuł opisuje problemy gospodarcze Rosji, ale nie zawiera wielu konkretów, co może wpływać na jego wiarygodność.",
+    "W artykule są odniesienia do instytucji analitycznych, ale brakuje szczegółowych danych.",
+    "Tytuł sugeruje poważne problemy, ale treść jest bardziej zrównoważona."
+  ],
+  "summary": "Artykuł omawia trudności, przed którymi stoi rosyjska gospodarka, wskazując na ryzyko recesji oraz stagnację w wielu branżach. Władze przyznają, że sytuacja jest poważna, a jedyną szansą na poprawę może być wzrost konsumpcji. Problemy te są wynikiem nieracjonalnej polityki gospodarczej.",
+  "signals": {
+    "title_hits": [
+      "przegrzała",
+      "Będzie jeszcze gorzej"
+    ],
+    "content_hits": [
+      "gospodarka się wykoleiła",
+      "ryzyko pogrążenia się w recesji",
+      "antyrekord"
+    ],
+    "credibility_hits": [
+      "Centrum Analiz Makroekonomicznych",
+      "Dziennikarze The Moscow Times"
+    ],
+    "mismatch": {
+      "title": "Rosyjska gospodarka się przegrzała. \"Będzie jeszcze gorzej\"",
+      "content": "Rosyjska gospodarka się wykoleiła. Już nawet władze przyznają wprost, że jest źle."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Problemy rosyjskiej gospodarki: prognozy na przyszłość",
+    "notes_to_editor": "Rozważyć dodanie konkretnych danych i źródeł dla zwiększenia wiarygodności artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 132,
+    "processing_time_ms": 15819,
+    "model": "gpt-4o-mini"
+  }
+}

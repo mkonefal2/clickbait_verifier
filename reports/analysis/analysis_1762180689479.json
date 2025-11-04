@@ -1,0 +1,51 @@
+{
+  "id": 1762180689479,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/deepfake-z-karolem-nawrockim-hula-w-sieci-wielu-moze-dac-sie-nabrac/btqk4qr",
+  "title": "Deepfake z Karolem Nawrockim hula w sieci. Wielu może dać się nabrać",
+  "score": 55,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazę 'hula w sieci', co może sugerować sensację.",
+    "W treści artykułu użyto słów takich jak 'oszuści', 'szybki zysk', co wzmacnia wrażenie clickbaitu.",
+    "Występuje pewne niedopasowanie między tytułem a treścią, ponieważ tytuł sugeruje, że wiele osób da się nabrać, podczas gdy artykuł koncentruje się na zagrożeniu.",
+    "Artykuł zawiera konkretne informacje o oszustwach, co zwiększa jego wiarygodność."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł może wydawać się sensacyjny, ponieważ sugeruje, że wiele osób może paść ofiarą oszustwa.",
+    "W treści artykułu pojawiają się słowa, które mogą wzbudzać niepokój, jak 'oszuści' i 'szybki zysk'.",
+    "Tytuł i treść nie są do końca zgodne, ponieważ tytuł sugeruje, że wiele osób już się nabrało, a artykuł informuje o zagrożeniu.",
+    "Artykuł zawiera konkretne informacje, co sprawia, że jest bardziej wiarygodny."
+  ],
+  "summary": "Artykuł opisuje, jak cyberprzestępcy wykorzystują wizerunek Karola Nawrockiego w fałszywych reklamach, aby nakłonić ludzi do niebezpiecznych inwestycji. W mediach społecznościowych pojawiają się przerobione nagrania, które obiecują wysokie zyski. Ministerstwo ostrzega przed tymi oszustwami.",
+  "signals": {
+    "title_hits": [
+      "hula w sieci",
+      "może dać się nabrać"
+    ],
+    "content_hits": [
+      "oszuści",
+      "szybki zysk",
+      "wizerunek",
+      "fałszywe reklamy"
+    ],
+    "credibility_hits": [
+      "Dziennikarze Onet Wiadomości",
+      "Ministerstwo ostrzega"
+    ],
+    "mismatch": {
+      "title": "Wielu może dać się nabrać",
+      "content": "Mniej świadomy odbiorca może paść ofiarą oszustów."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Fałszywe reklamy z wizerunkiem Karola Nawrockiego w sieci",
+    "notes_to_editor": "Zaleca się unikanie fraz, które mogą sugerować sensację w tytule."
+  },
+  "diagnostics": {
+    "tokens_title": 13,
+    "tokens_content": 108,
+    "processing_time_ms": 16136,
+    "model": "gpt-4o-mini"
+  }
+}

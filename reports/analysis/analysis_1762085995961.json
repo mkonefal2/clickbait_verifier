@@ -1,0 +1,49 @@
+{
+  "id": 1762085995961,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/slaskie/news-miliony-dla-slaskiego-szpitala-moze-stac-sie-najnowoczesniej,nId,8036311",
+  "title": "Miliony dla śląskiego szpitala. Może stać się najnowocześniejszy w kraju",
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazę 'najnowocześniejszy w kraju', co jest absolutem.",
+    "W treści artykułu znajdują się konkretne liczby dotyczące kwoty dofinansowania oraz liczby nowoczesnych urządzeń.",
+    "Zidentyfikowano lukę ciekawości w tytule, sugerującą, że szpital może stać się 'najnowocześniejszy'.",
+    "Zgłoszono nieco niezgodności między tytułem a treścią, ponieważ tytuł sugeruje pewność, podczas gdy treść mówi o możliwościach.",
+    "Cytaty z dyrektora szpitala oraz lekarzy zwiększają wiarygodność artykułu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów, takich jak 'najnowocześniejszy', co może przyciągać uwagę.",
+    "Artykuł zawiera konkretne informacje o kwocie dofinansowania oraz liczbie nowoczesnych urządzeń, co dodaje mu wiarygodności.",
+    "Tytuł sugeruje, że szpital na pewno stanie się najnowocześniejszy, co nie jest w pełni potwierdzone w treści.",
+    "W artykule znajdują się cytaty ekspertów, co zwiększa jego rzetelność."
+  ],
+  "summary": "Wojewódzki Szpital Specjalistyczny im. św. Barbary w Sosnowcu otrzyma blisko 100 mln zł z Krajowego Planu Odbudowy na rozwój diagnostyki i leczenia onkologicznego. Środki zostaną przeznaczone na zakup nowoczesnych urządzeń oraz cyfryzację placówki, co ma przyczynić się do podniesienia standardów leczenia w regionie.",
+  "signals": {
+    "title_hits": [
+      "najnowocześniejszy"
+    ],
+    "content_hits": [
+      "100 mln zł",
+      "350 nowoczesnych urządzeń"
+    ],
+    "credibility_hits": [
+      "dyrektor placówki",
+      "dr n. med. Dawid Szkudłapski"
+    ],
+    "mismatch": {
+      "title": "Może stać się najnowocześniejszy w kraju",
+      "content": "po zmianach sosnowiecki szpital będzie jednym z najnowocześniejszych"
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Śląski szpital otrzyma 100 mln zł na modernizację",
+    "notes_to_editor": "Rozważyć zmianę tytułu na bardziej neutralny, aby uniknąć wrażenia pewności, które nie jest w pełni poparte w treści."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 370,
+    "processing_time_ms": 15106,
+    "model": "gpt-4o-mini"
+  }
+}

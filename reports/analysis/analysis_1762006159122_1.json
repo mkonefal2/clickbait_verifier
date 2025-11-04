@@ -1,0 +1,51 @@
+{
+  "id": 1762006159122,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/wszystkich-swietych-na-monte-cassino-za-nasza-wolnosc-i-wasza/tc054qh",
+  "title": "Wszystkich Świętych na Monte Cassino. \"Za naszą wolność i waszą\"",
+  "score": 24,
+  "label": "not_clickbait",
+  "rationale": [
+    "Tytuł zawiera frazy, które mogą budzić ciekawość, ale nie są przesadnie sensacyjne ani nie wprowadzają w błąd.",
+    "Treść artykułu jest zgodna z tytułem i dostarcza konkretne informacje na temat mszy na Polskim Cmentarzu Wojennym.",
+    "Brak użycia absolutów, sensacyjnych fraz czy luk ciekawości w treści.",
+    "W artykule występują elementy wiarygodności, takie jak źródło (Polska Agencja Prasowa) oraz konkretne informacje o wydarzeniu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jest informacyjny i nie wprowadza w błąd, co sprawia, że nie jest uznawany za clickbait.",
+    "Treść artykułu odpowiada tytułowi i opisuje wydarzenie związane z obchodami Wszystkich Świętych.",
+    "Nie ma w artykule przesadnych stwierdzeń ani sensacyjnych zwrotów, co zwiększa jego wiarygodność.",
+    "Artykuł opiera się na rzetelnym źródle, co potwierdza jego autentyczność."
+  ],
+  "summary": "Artykuł opisuje uroczystość Wszystkich Świętych, która odbyła się na Polskim Cmentarzu Wojennym na Monte Cassino. W mszy uczestniczyli przedstawiciele polskiej dyplomacji, duchowieństwa oraz lokalnych władz. Wydarzenie podkreśla znaczenie pamięci o poległych w walce za wolność.",
+  "signals": {
+    "title_hits": [
+      "wszystkich świętych",
+      "monte cassino",
+      "wolność"
+    ],
+    "content_hits": [
+      "msza",
+      "Polski Cmentarz Wojenny",
+      "przedstawiciele polskiej dyplomacji"
+    ],
+    "credibility_hits": [
+      "Polska Agencja Prasowa",
+      "Albert Zawada"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "title_content_similarity": 1.0
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Obchody Wszystkich Świętych na Monte Cassino",
+    "notes_to_editor": "Artykuł jest rzetelny i nie zawiera elementów clickbaitowych."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 80,
+    "processing_time_ms": 20554,
+    "model": "gpt-4o-mini"
+  }
+}

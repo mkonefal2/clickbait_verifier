@@ -1,0 +1,40 @@
+{
+  "id": 1762267149110,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/polskie-ciezarowki-z-zakazem-ruchu-na-bialorusi-lukaszenko-wydal-dekret/yc8el60",
+  "title": "Polskie ciężarówki z zakazem ruchu na Białorusi. Łukaszenko wydał dekret",
+  "score": 20,
+  "label": "not_clickbait",
+  "rationale": [
+    "Tytuł nie zawiera fraz sensacyjnych ani absolutów.",
+    "Treść artykułu jest zgodna z tytułem, nie ma rozbieżności.",
+    "Brak luk ciekawości w treści.",
+    "Nie znaleziono sygnałów wiarygodności w treści, ale tytuł jest informacyjny."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jest prosty i informacyjny, nie używa przesadnych słów.",
+    "Treść artykułu odpowiada tytułowi, więc nie ma sprzeczności.",
+    "Artykuł nie stawia pytań ani nie sugeruje sensacji.",
+    "Brak cytatów czy danych, ale tytuł jasno informuje o temacie."
+  ],
+  "summary": "Aleksander Łukaszenko wydał dekret zakazujący ruchu ciężarówek i ciągników zarejestrowanych w Polsce i na Litwie na terytorium Białorusi. Ograniczenia te będą obowiązywać do 31 grudnia 2027 roku. Informację przekazała Polska Agencja Prasowa.",
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [],
+    "mismatch": {
+      "exists": false,
+      "details": ""
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Zakaz ruchu ciężarówek z Polski na Białorusi wprowadzony przez Łukaszenkę",
+    "notes_to_editor": "Artykuł informacyjny, dobrze odzwierciedlający temat."
+  },
+  "diagnostics": {
+    "tokens_title": 12,
+    "tokens_content": 79,
+    "processing_time_ms": 29175,
+    "model": "gpt-4o-mini"
+  }
+}

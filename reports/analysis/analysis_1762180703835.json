@@ -1,0 +1,51 @@
+{
+  "id": 1762180703835,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/tu-jest-nato-ani-kroku-dalej-niemcy-tworza-kolosa-tuz-pod-nosem-putina/tk638m0",
+  "title": "\"Tu jest NATO. Ani kroku dalej\". Niemcy tworzą pancernego kolosa pod nosem Putina",
+  "score": 62,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'pancernego kolosa', co może budzić emocje.",
+    "W treści artykułu pojawiają się liczby i konkretne informacje o wyposażeniu brygady, co zwiększa wiarygodność.",
+    "Występuje pewne niedopasowanie między tytułem a treścią, ponieważ tytuł sugeruje dramatyczny kontekst, podczas gdy treść jest bardziej informacyjna.",
+    "Zidentyfikowano sygnały wiarygodności, takie jak cytaty i odniesienia do konkretnych osób i wydarzeń."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa emocjonalnych słów, co może przyciągać uwagę czytelników.",
+    "Artykuł zawiera konkretne dane o niemieckiej brygadzie, co sprawia, że jest bardziej wiarygodny.",
+    "Tytuł może wprowadzać w błąd, sugerując dramatyzm, którego nie ma w treści.",
+    "W artykule są cytaty i odniesienia do rzeczywistych osób, co podnosi jego rzetelność."
+  ],
+  "summary": "Artykuł opisuje działania niemieckiego generała Christoph Huber, który dowodzi 45. Brygadą Pancerną na Litwie. Jego misją jest wzmocnienie obrony NATO na wschodniej flance, szczególnie w kontekście zagrożenia ze strony Rosji. Niemcy planują dostarczenie nowoczesnego wyposażenia dla tej brygady, w tym czołgów i dronów.",
+  "signals": {
+    "title_hits": [
+      "pancernego kolosa"
+    ],
+    "content_hits": [
+      "45. Brygada Pancerna",
+      "nowoczesną broń",
+      "drony kamikadze"
+    ],
+    "credibility_hits": [
+      "Wolfgang Buescher",
+      "Christoph Huber",
+      "VALDA KALNINA",
+      "GAVRIIL GRIGOROV"
+    ],
+    "mismatch": {
+      "exists": true,
+      "description": "Tytuł sugeruje dramatyczny kontekst, podczas gdy treść jest bardziej informacyjna."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Niemcy tworzą 45. Brygadę Pancerną na Litwie w odpowiedzi na zagrożenie ze strony Rosji",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia sensacyjności."
+  },
+  "diagnostics": {
+    "tokens_title": 15,
+    "tokens_content": 180,
+    "processing_time_ms": 15975,
+    "model": "gpt-4o-mini"
+  }
+}

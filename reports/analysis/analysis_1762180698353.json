@@ -1,0 +1,47 @@
+{
+  "id": 1762180698353,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/olsztyn/areszt-dla-42-latka-z-elblaga-strzelal-w-okna-i-grozil-smiercia/4b1nb6h",
+  "title": "Nocne groźby i strzały w okna. 42-latek z Elbląga w areszcie",
+  "score": 55,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'groźby' i 'strzały', co zwiększa jego clickbaitowość.",
+    "Treść artykułu jest zgodna z tytułem, ale zawiera dramatyczne opisy, które mogą budzić ciekawość.",
+    "W tytule i treści występują absoluty, co wpływa na ocenę clickbaitu.",
+    "W artykule nie ma cytatów ani źródeł, co obniża sygnały wiarygodności."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa dramatycznych słów, które przyciągają uwagę, co może być uznane za clickbait.",
+    "Treść artykułu odpowiada tytułowi, ale zawiera emocjonalne opisy, które mogą wzbudzać ciekawość.",
+    "W artykule nie ma odniesień do wiarygodnych źródeł, co może wpływać na postrzeganą rzetelność informacji."
+  ],
+  "summary": "Artykuł opisuje incydent, w którym 42-letni mężczyzna z Elbląga groził swojej znajomej śmiercią i strzelał w okna jej domu. Został aresztowany i usłyszał zarzuty, a grozi mu kara do 5 lat pozbawienia wolności. Mężczyzna nie przyznał się do winy i odmówił składania wyjaśnień.",
+  "signals": {
+    "title_hits": [
+      "groźby",
+      "strzały"
+    ],
+    "content_hits": [
+      "groził",
+      "strzelał",
+      "nóż",
+      "areszt"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "title_content_match": true,
+      "title_content_similarity": 0.85
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Mężczyzna z Elbląga aresztowany za groźby i strzały w okna",
+    "notes_to_editor": "Rozważyć dodanie cytatów lub źródeł dla zwiększenia wiarygodności artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 78,
+    "processing_time_ms": 15936,
+    "model": "gpt-4o-mini"
+  }
+}

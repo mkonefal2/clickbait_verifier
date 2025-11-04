@@ -1,0 +1,49 @@
+{
+  "id": 1762020480684,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/nowe-doniesienia-z-frontu-w-ukrainie-sytuacja-pozostaje-trudna/lrqextf",
+  "title": "\"Sytuacja pozostaje trudna\". Nowe informacje z frontu w Pokrowsku",
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazę 'sytuacja pozostaje trudna', co może być interpretowane jako sensacyjne, ale nie jest to skrajne stwierdzenie.",
+    "Treść artykułu dostarcza konkretnych informacji o sytuacji w Pokrowsku, co zmniejsza stopień clickbaitu.",
+    "Nie znaleziono istotnych luk ciekawości ani absolutów w tytule ani w treści.",
+    "Mismatches między tytułem a treścią są minimalne, ponieważ tytuł odzwierciedla główny temat artykułu.",
+    "Artykuł zawiera źródło (Polska Agencja Prasowa), co zwiększa jego wiarygodność."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł nie jest przesadnie dramatyczny, ale może budzić pewne emocje.",
+    "Artykuł jasno przedstawia sytuację w Pokrowsku, co sprawia, że jest informacyjny.",
+    "Nie ma w nim przesadnych stwierdzeń ani pytań, które mogłyby wzbudzać ciekawość bez sensu.",
+    "Tytuł dobrze oddaje treść artykułu, więc nie ma dużych rozbieżności.",
+    "Podano źródło informacji, co czyni artykuł bardziej wiarygodnym."
+  ],
+  "summary": "Artykuł informuje o trudnej sytuacji w Pokrowsku w obwodzie donieckim na wschodzie Ukrainy. Ukraińska armia poinformowała o poprawie pozycji taktycznych i zwiększeniu liczby grup szturmowych, a głównym celem jest odcięcie rosyjskich linii zaopatrzeniowych.",
+  "signals": {
+    "title_hits": [
+      "sytuacja pozostaje trudna"
+    ],
+    "content_hits": [
+      "sytuacja w Pokrowsku pozostaje trudna",
+      "ukraińska armia",
+      "poprawić pozycje taktyczne"
+    ],
+    "credibility_hits": [
+      "Polska Agencja Prasowa"
+    ],
+    "mismatch": {
+      "title_content_match": true
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Trudna sytuacja w Pokrowsku – nowe informacje",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć emocjonalnego wydźwięku."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 112,
+    "processing_time_ms": 18115,
+    "model": "gpt-4o-mini"
+  }
+}

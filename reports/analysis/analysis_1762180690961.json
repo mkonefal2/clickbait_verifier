@@ -1,0 +1,48 @@
+{
+  "id": 1762180690961,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/kolejna-duza-awaria-systemu-blik-zewnetrzny-atak/lrqlvf5",
+  "title": "Kolejna duża awaria systemu BLIK. \"Zewnętrzny atak\"",
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'duża awaria' oraz 'zewnętrzny atak', co zwiększa jego clickbaitowość.",
+    "Treść artykułu jest zgodna z tytułem, jednak nie dostarcza dodatkowych informacji, które mogłyby zaspokoić ciekawość czytelnika.",
+    "W artykule pojawia się cytat z komunikatu firmy BLIK, co podnosi jego wiarygodność.",
+    "Wykryto niewielką liczbę słów w tytule (9) i treści (82), co wskazuje na zwięzłość, ale niekoniecznie na clickbaitowość."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł artykułu używa mocnych słów, które mogą przyciągać uwagę, jak 'duża awaria' i 'zewnętrzny atak'.",
+    "Treść artykułu odpowiada tytułowi, ale nie rozwija tematu, co może pozostawić czytelników z niedosytem informacji.",
+    "Artykuł zawiera cytat z firmy BLIK, co sprawia, że jest bardziej wiarygodny.",
+    "Tytuł i treść są krótkie, co może sugerować, że nie ma w nich zbędnych informacji."
+  ],
+  "summary": "Artykuł informuje o kolejnej awarii systemu płatności BLIK, która jest spowodowana zewnętrznym atakiem typu DDoS. Użytkownicy zgłaszają problemy techniczne, a firma potwierdza występowanie utrudnień w działaniu systemu.",
+  "signals": {
+    "title_hits": [
+      "duża awaria",
+      "zewnętrzny atak"
+    ],
+    "content_hits": [
+      "poważne problemy techniczne",
+      "zewnętrzny atak typu DDoS"
+    ],
+    "credibility_hits": [
+      "komunikat BLIK-a"
+    ],
+    "mismatch": {
+      "exists": false,
+      "details": "Tytuł jest zgodny z treścią artykułu."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Awaria systemu BLIK spowodowana zewnętrznym atakiem",
+    "notes_to_editor": "Rozważyć dodanie większej ilości informacji na temat skutków awarii i reakcji użytkowników."
+  },
+  "diagnostics": {
+    "tokens_title": 9,
+    "tokens_content": 82,
+    "processing_time_ms": 12283,
+    "model": "gpt-4o-mini"
+  }
+}

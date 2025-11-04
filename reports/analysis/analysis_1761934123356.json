@@ -1,0 +1,53 @@
+{
+  "id": 1761934123356,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/news-afera-wodna-na-dzialce-pod-cpk-jest-zawiadomienie-do-prokura,nId,8036702",
+  "title": "Afera wodna na działce pod CPK. Jest zawiadomienie do prokuratury",
+  "score": 40,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'afera' i 'zawiadomienie do prokuratury', co zwiększa jego clickbaitowość.",
+    "Treść artykułu jest zgodna z tytułem, ale nie zawiera wystarczających informacji, aby w pełni zaspokoić ciekawość czytelnika.",
+    "W artykule pojawiają się liczby i konkretne odniesienia do działań instytucji, co podnosi jego wiarygodność.",
+    "Wykryto niewielką niezgodność między tytułem a treścią, co wpływa na ocenę.",
+    "Ogólna analiza wskazuje na umiarkowany stopień clickbaitu, z uwagi na sensacyjne sformułowania w tytule."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słów, które mogą przyciągać uwagę, jak 'afera' i 'prokuratura', co sprawia, że wygląda na bardziej sensacyjny.",
+    "Treść artykułu jest zgodna z tytułem, ale nie wyjaśnia wszystkiego, co może budzić ciekawość czytelników.",
+    "Artykuł zawiera konkretne dane i odniesienia do działań instytucji, co czyni go bardziej wiarygodnym.",
+    "Występuje niewielka różnica między tym, co jest napisane w tytule a tym, co jest w treści, co wpływa na ocenę.",
+    "Ogólnie rzecz biorąc, artykuł ma umiarkowany poziom clickbaitu z powodu użycia sensacyjnych słów w tytule."
+  ],
+  "summary": "Artykuł opisuje zawiadomienie złożone przez prezesa Wód Polskich dotyczące możliwego przestępstwa przez byłe kierownictwo instytucji. Sprawa dotyczy działki w Zabłotni, przez którą ma przebiegać linia kolejowa do Centralnego Portu Komunikacyjnego. W artykule przedstawiono również kontrowersje związane z klasyfikacją cieku wodnego na tej działce.",
+  "signals": {
+    "title_hits": [
+      "afera",
+      "zawiadomienie do prokuratury"
+    ],
+    "content_hits": [
+      "zawiadomienie",
+      "możliwości popełnienia przestępstwa",
+      "kontrowersyjna działka"
+    ],
+    "credibility_hits": [
+      "Wody Polskie",
+      "Mateusz Balcerowicz",
+      "Kodeks karny"
+    ],
+    "mismatch": {
+      "title": "Afera wodna na działce pod CPK. Jest zawiadomienie do prokuratury",
+      "content": "Zawiadomienie o możliwości popełnienia przestępstwa przez byłe kierownictwo Wód Polskich."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Zawiadomienie do prokuratury w sprawie działki pod CPK",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby zmniejszyć wrażenie clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 350,
+    "processing_time_ms": 16444,
+    "model": "gpt-4o-mini"
+  }
+}

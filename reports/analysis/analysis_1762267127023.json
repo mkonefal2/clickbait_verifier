@@ -1,0 +1,52 @@
+{
+  "id": 1762267127023,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/swiat/news-setki-uzadlen-przez-szerszenie-i-smierc-w-kilka-godzin-tragi,nId,8037433",
+  "title": "Setki użądleń przez szerszenie i śmierć w kilka godzin. Tragiczny finał rodzinnych wakacji w Azji",
+  "score": 66,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'setki użądleń' i 'śmierć w kilka godzin', co podnosi jego clickbaitowość.",
+    "Treść artykułu zawiera szczegółowe informacje o tragicznym zdarzeniu, ale tytuł sugeruje większą dramatyzację niż to, co jest opisane w treści.",
+    "W artykule występują liczby (ponad 100 użądleń) oraz cytaty od lekarzy, co zwiększa wiarygodność, ale nie równoważy sensacyjności tytułu.",
+    "Wykryto niezgodność między tytułem a treścią, ponieważ tytuł koncentruje się na dramatyzacji, podczas gdy treść dostarcza faktów."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł artykułu używa dramatycznych sformułowań, co sprawia, że wydaje się bardziej sensacyjny.",
+    "Treść opowiada o tragicznym zdarzeniu, ale tytuł może sugerować większą sensację niż to, co faktycznie się wydarzyło.",
+    "W artykule są podane konkretne liczby i cytaty, co dodaje mu wiarygodności, ale tytuł wciąż jest bardzo emocjonalny.",
+    "Tytuł i treść nie do końca się zgadzają, ponieważ tytuł bardziej dramatyzuje sytuację."
+  ],
+  "summary": "Artykuł opisuje tragiczną historię amerykańskiego dyrektora szkoły i jego syna, którzy zostali zaatakowani przez azjatyckie szerszenie olbrzymie podczas wakacji w Laosie. Obaj zostali użądleni ponad 100 razy i zmarli w wyniku ciężkiego wstrząsu anafilaktycznego. Zdarzenie miało miejsce podczas wyprawy w ekoturystycznym ośrodku, co podkreśla niebezpieczeństwa związane z egzotycznymi podróżami.",
+  "signals": {
+    "title_hits": [
+      "setki użądleń",
+      "śmierć w kilka godzin",
+      "tragiczny finał"
+    ],
+    "content_hits": [
+      "użycie liczby 100",
+      "cytat od lekarza",
+      "szerszenie olbrzymie"
+    ],
+    "credibility_hits": [
+      "źródło: rmf24",
+      "cytaty od lekarzy",
+      "konkretne dane o szerszeniach"
+    ],
+    "mismatch": {
+      "title": "Setki użądleń przez szerszenie i śmierć w kilka godzin. Tragiczny finał rodzinnych wakacji w Azji",
+      "content": "Artykuł opisuje konkretne zdarzenie, ale tytuł sugeruje większą sensację."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Tragiczny atak szerszeni olbrzymich w Laosie: zmarli amerykański dyrektor i jego syn",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć dramatyzacji."
+  },
+  "diagnostics": {
+    "tokens_title": 15,
+    "tokens_content": 459,
+    "processing_time_ms": 17834,
+    "model": "gpt-4o-mini"
+  }
+}

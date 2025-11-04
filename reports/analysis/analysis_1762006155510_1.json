@@ -1,0 +1,49 @@
+{
+  "id": 1762006155510,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/rosjanie-nacieraja-na-pokrowsk-kijow-wysyla-do-walki-sily-specjalne/lcqn4cf",
+  "title": "Rosjanie nacierają na Pokrowsk. Kijów wysyła do walki siły specjalne",
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'nacierają' i 'wysyła do walki', co może wzbudzać emocje.",
+    "Treść artykułu jest zgodna z tytułem, opisując działania wojskowe w Pokrowsku.",
+    "W tytule i treści brak jest absolutów, ale występują elementy, które mogą budzić ciekawość.",
+    "Artykuł zawiera źródło (Polska Agencja Prasowa), co zwiększa jego wiarygodność."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa emocjonalnych słów, które mogą przyciągać uwagę czytelników.",
+    "Treść artykułu odpowiada tytułowi, mówiąc o działaniach wojskowych w Pokrowsku.",
+    "Nie ma w artykule przesadnych stwierdzeń, ale są elementy, które mogą intrygować.",
+    "Artykuł powołuje się na wiarygodne źródło, co podnosi jego rzetelność."
+  ],
+  "summary": "Artykuł informuje o działaniach ukraińskich sił specjalnych w Pokrowsku, gdzie toczą się ciężkie walki z Rosjanami. Wysłanie tych sił ma na celu odzyskanie kontroli nad kluczowymi szlakami logistycznymi. Informacje pochodzą z mediów powołujących się na źródła wojskowe.",
+  "signals": {
+    "title_hits": [
+      "nacierają",
+      "wysyła do walki"
+    ],
+    "content_hits": [
+      "ukraińskie siły specjalne",
+      "ciężkie walki",
+      "odzyskać kontrolę"
+    ],
+    "credibility_hits": [
+      "Polska Agencja Prasowa"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "title_content_similarity": 0.9
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Ukraińskie siły specjalne w Pokrowsku w odpowiedzi na działania Rosjan",
+    "notes_to_editor": "Rozważyć użycie mniej emocjonalnych słów w tytule dla lepszej neutralności."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 61,
+    "processing_time_ms": 13904,
+    "model": "gpt-4o-mini"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": 1762006143931,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/warszawa/news-od-dzisiaj-nocna-prohibicja-w-warszawie-na-poczatek-w-dwoch-,nId,8036791",
+  "title": "Od dzisiaj nocna prohibicja w Warszawie. Na początek w dwóch dzielnicach ",
+  "score": 25,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy wskazujące na nowość i lokalne wydarzenie, co może budzić ciekawość.",
+    "Treść artykułu jest zgodna z tytułem, jednak nie zawiera przesadnych lub sensacyjnych stwierdzeń.",
+    "W artykule pojawiają się konkretne liczby i informacje o lokalizacji, co zwiększa jego wiarygodność.",
+    "Brak absolutów i luk ciekawości, ale tytuł może sugerować większą wagę wydarzenia niż w rzeczywistości."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł informuje o nowym zakazie sprzedaży alkoholu w Warszawie, co może zainteresować mieszkańców.",
+    "Treść artykułu dokładnie opisuje wprowadzenie zakazu, bez przesadnych stwierdzeń.",
+    "Artykuł zawiera konkretne dane, co sprawia, że jest bardziej wiarygodny.",
+    "Choć tytuł może wydawać się nieco dramatyczny, fakty przedstawione w artykule są rzeczowe."
+  ],
+  "summary": "Od soboty w Warszawie wprowadzony zostaje nocny zakaz sprzedaży alkoholu, który będzie obowiązywał w Śródmieściu i Pradze-Północ od godz. 22.00 do 6.00. Zakaz dotyczy sklepów i stacji benzynowych, ale nie obejmuje barów i restauracji. Władze monitorują sytuację, aby zapobiec przenoszeniu się klientów do innych dzielnic.",
+  "signals": {
+    "title_hits": [
+      "nocna prohibicja",
+      "Warszawie"
+    ],
+    "content_hits": [
+      "nocny zakaz sprzedaży alkoholu",
+      "Śródmieścia",
+      "Pragi-Północ"
+    ],
+    "credibility_hits": [
+      "policja",
+      "straż miejska",
+      "prezydent Rafał Trzaskowski"
+    ],
+    "mismatch": {
+      "exists": false,
+      "details": "Tytuł jest zgodny z treścią artykułu."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "W Warszawie wprowadzono nocny zakaz sprzedaży alkoholu w dwóch dzielnicach",
+    "notes_to_editor": "Rozważyć bardziej neutralne sformułowanie tytułu, aby uniknąć wrażenia sensacyjności."
+  },
+  "diagnostics": {
+    "tokens_title": 12,
+    "tokens_content": 335,
+    "processing_time_ms": 12073,
+    "model": "gpt-4o-mini"
+  }
+}

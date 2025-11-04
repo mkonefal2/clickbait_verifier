@@ -1,0 +1,54 @@
+{
+  "id": 1762085980816,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/ekonomia/news-niemcy-pokorni-wobec-przemiany-polski-czas-wynioslosci-minal,nId,8036817",
+  "title": "Niemcy pokorni wobec przemiany Polski? \"Czas wyniosłości minął\"",
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera pytanie, co może budzić ciekawość, ale nie stosuje skrajnych emocji ani sensacyjnych fraz.",
+    "Treść artykułu jest zgodna z tytułem, omawia zmiany w relacjach gospodarczych między Polską a Niemcami.",
+    "W treści pojawiają się konkretne dane i cytaty, co zwiększa wiarygodność.",
+    "Zidentyfikowano kilka fraz, które mogą być uznane za sensacyjne, ale nie dominują one w artykule."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł stawia pytanie, co może zainteresować czytelników, ale nie jest przesadnie emocjonalny.",
+    "Artykuł rzeczywiście opisuje zmiany w relacjach między Polską a Niemcami, co zgadza się z tytułem.",
+    "W artykule znajdują się konkretne dane i opinie ekspertów, co sprawia, że jest bardziej wiarygodny.",
+    "Choć pojawiają się pewne sensacyjne zwroty, nie są one głównym tematem tekstu."
+  ],
+  "summary": "Artykuł omawia zmiany w relacjach gospodarczych między Polską a Niemcami, podkreślając rosnącą siłę polskiej gospodarki oraz zmieniające się postrzeganie Polski przez Niemców. Wskazuje na wzrost pewności siebie Polaków oraz na różnice w zamożności między krajami, przytaczając konkretne dane i opinie ekspertów.",
+  "signals": {
+    "title_hits": [
+      "pokorni",
+      "przemiany",
+      "Czas wyniosłości minął"
+    ],
+    "content_hits": [
+      "gospodarka rośnie",
+      "cyfryzacja",
+      "pewność siebie",
+      "stopa wzrostu",
+      "PKB"
+    ],
+    "credibility_hits": [
+      "cytaty",
+      "dane statystyczne",
+      "źródło: Neue Zuercher Zeitung"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "title_content_similarity": 0.85
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Zmiany w relacjach gospodarczych między Polską a Niemcami",
+    "notes_to_editor": "Artykuł dobrze przedstawia zmiany w relacjach, ale tytuł mógłby być bardziej neutralny."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 542,
+    "processing_time_ms": 12678,
+    "model": "gpt-4o-mini"
+  }
+}

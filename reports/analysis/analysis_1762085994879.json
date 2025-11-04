@@ -1,0 +1,48 @@
+{
+  "id": 1762085994879,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/lublin/news-gruzin-i-ukrainiec-wlamali-sie-do-domu-co-im-grozi,nId,8036845",
+  "title": "Gruzin i Ukrainiec włamali się do domu. Co im grozi?",
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera pytanie, co może wzbudzać ciekawość, ale nie zawiera skrajnych emocji ani sensacyjnych fraz.",
+    "Treść artykułu jest zgodna z tytułem, opisując konkretne zdarzenie i konsekwencje prawne.",
+    "Nie znaleziono w tytule ani treści wyraźnych sygnałów wiarygodności, takich jak cytaty czy konkretne liczby.",
+    "W treści występują elementy informacyjne, ale nie są one podane w sposób, który mógłby być uznany za clickbaitowy."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zadaje pytanie, co może przyciągnąć uwagę, ale nie jest przesadnie emocjonalny.",
+    "Artykuł dokładnie opisuje incydent, który jest zgodny z tytułem.",
+    "Brak cytatów i konkretów w artykule sprawia, że nie można go uznać za w pełni wiarygodny.",
+    "Treść jest informacyjna i nie ma w niej przesadnych stwierdzeń."
+  ],
+  "summary": "Artykuł informuje o zatrzymaniu dwóch mężczyzn, Gruzina i Ukraińca, w związku z włamaniem do domu w gminie Kłoczew. Złodzieje ukradli biżuterię oraz pieniądze, a także zniszczyli elementy okna. Mężczyźni usłyszeli zarzuty kradzieży z włamaniem i zostali aresztowani na dwa miesiące.",
+  "signals": {
+    "title_hits": [
+      "włamali się",
+      "co im grozi"
+    ],
+    "content_hits": [
+      "włamaniu",
+      "kradzieżą",
+      "zatrzymano",
+      "aresztowaniu"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "title": "Tytuł jest zgodny z treścią artykułu.",
+      "content": "Artykuł szczegółowo opisuje incydent i jego konsekwencje."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Zatrzymanie Gruzina i Ukraińca za włamanie do domu",
+    "notes_to_editor": "Rozważyć dodanie cytatów lub danych statystycznych dla zwiększenia wiarygodności."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 157,
+    "processing_time_ms": 11699,
+    "model": "gpt-4o-mini"
+  }
+}

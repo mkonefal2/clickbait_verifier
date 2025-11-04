@@ -1,0 +1,55 @@
+{
+  "id": 1762020486348,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/wendeta-na-krecie-rozlegly-sie-strzaly-nie-zyja-trzy-osoby/ekkxqnw",
+  "title": "Wendeta na Krecie. Rozległy się strzały, nie żyją trzy osoby",
+  "score": 62,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne ('Wendeta', 'rozległy się strzały', 'nie żyją trzy osoby'), co zwiększa jego clickbaitowość.",
+    "Treść artykułu jest zgodna z tytułem, ale nie dostarcza dodatkowych informacji, które mogłyby zaspokoić ciekawość czytelnika.",
+    "W artykule pojawiają się liczby (3 osoby zginęły, 10 rannych), co podnosi wiarygodność, ale nie zmniejsza clickbaitowości tytułu.",
+    "Wykryto brak cytatów lub dodatkowych źródeł, co obniża poziom wiarygodności treści.",
+    "Wynik końcowy obliczono na podstawie wagi tytułu (0.4), treści (0.15) oraz wykrycia niezgodności (0.4)."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł artykułu używa dramatycznych słów, co przyciąga uwagę, ale może wprowadzać w błąd.",
+    "Treść artykułu odpowiada tytułowi, ale nie dostarcza dodatkowych informacji, które mogłyby wyjaśnić sytuację.",
+    "Artykuł zawiera liczby, co sprawia, że jest bardziej wiarygodny, ale tytuł wciąż brzmi sensacyjnie.",
+    "Brak cytatów lub dodatkowych źródeł sprawia, że artykuł może wydawać się mniej rzetelny."
+  ],
+  "summary": "Na Krecie doszło do strzelaniny, w wyniku której zginęły trzy osoby, a dziesięć zostało rannych. Zdarzenie, które miało miejsce w sobotę, jest związane z wendetą i jest reakcją na wcześniejsze podłożenie ładunku wybuchowego w nowo wybudowanym domu. Policja prowadzi śledztwo w tej sprawie.",
+  "signals": {
+    "title_hits": [
+      "Wendeta",
+      "strzały",
+      "nie żyją",
+      "trzy osoby"
+    ],
+    "content_hits": [
+      "trzy osoby zginęły",
+      "10 rannych",
+      "strzelanina",
+      "cechy wendety"
+    ],
+    "credibility_hits": [
+      "Polska Agencja Prasowa",
+      "portal Ekathimerini",
+      "liczby"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "title_content_explanation": "Tytuł i treść są zgodne, jednak tytuł jest bardziej dramatyczny."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Strzelanina na Krecie: trzy osoby nie żyją, dziesięć jest rannych",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 66,
+    "processing_time_ms": 15040,
+    "model": "gpt-4o-mini"
+  }
+}

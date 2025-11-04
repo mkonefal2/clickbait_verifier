@@ -1,0 +1,49 @@
+{
+  "id": 1762180684757,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/raporty/raport-wojna-z-rosja/news-zaskakujaco-trzezwa-ocena-kremla-oswiadczenie-pieskowa-daje-,nId,8036868",
+  "title": "Zaskakująco trzeźwa ocena Kremla",
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazę 'zaskakująco', co jest sygnałem luk ciekawości.",
+    "W treści artykułu użyto kilku absolutów, takich jak 'nie ma obecnie potrzeby' oraz 'Kreml nie rezygnuje'.",
+    "Zidentyfikowano niewielką niezgodność między tytułem a treścią, ponieważ ocena Kremla jest opisana jako trzeźwa, ale niekoniecznie zaskakująca.",
+    "W artykule znajdują się cytaty i liczby, co zwiększa wiarygodność informacji."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'zaskakująco', co może przyciągać uwagę czytelników.",
+    "W treści pojawiają się mocne stwierdzenia, które mogą budzić emocje.",
+    "Tytuł sugeruje, że ocena Kremla jest zaskakująca, ale artykuł nie dostarcza dowodów na to zaskoczenie.",
+    "Artykuł zawiera cytaty i odniesienia do faktów, co czyni go bardziej wiarygodnym."
+  ],
+  "summary": "Artykuł opisuje oświadczenie rzecznika Kremla, Dmitrija Pieskowa, który podkreśla, że obecnie priorytetem powinno być rozwiązanie konfliktu w Ukrainie, a nie organizacja szczytu między Władimirem Putinem a Donaldem Trumpem. Kreml nie widzi potrzeby zwoływania takiego spotkania, a wcześniejsze plany zostały odwołane z powodu nieprzyjęcia warunków Moskwy.",
+  "signals": {
+    "title_hits": [
+      "zaskakująco"
+    ],
+    "content_hits": [
+      "nie ma obecnie potrzeby",
+      "Kreml nie rezygnuje"
+    ],
+    "credibility_hits": [
+      "Dmitrij Pieskow",
+      "cytaty",
+      "liczby"
+    ],
+    "mismatch": {
+      "title": "Zaskakująco trzeźwa ocena Kremla",
+      "content": "ocena Kremla jest trzeźwa, ale niekoniecznie zaskakująca"
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Ocena Kremla w sprawie konfliktu na Ukrainie",
+    "notes_to_editor": "Rozważyć użycie mniej emocjonalnych sformułowań w tytule."
+  },
+  "diagnostics": {
+    "tokens_title": 5,
+    "tokens_content": 364,
+    "processing_time_ms": 16665,
+    "model": "gpt-4o-mini"
+  }
+}

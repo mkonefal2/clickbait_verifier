@@ -1,0 +1,52 @@
+{
+  "id": 1762180677027,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/polska/news-ziobro-kontratakuje-sklada-zawiadomienie-na-zurka,nId,8037090",
+  "title": "Ziobro kontratakuje. Składa zawiadomienie na Żurka",
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera słowo 'kontratakuje', co sugeruje dramatyzm i emocjonalny ładunek, co jest typowe dla clickbaitu.",
+    "Treść artykułu jest zgodna z tytułem, jednak nie zawiera przesadnych stwierdzeń ani sensacyjnych fraz.",
+    "W treści artykułu pojawiają się konkretne informacje, takie jak liczba zarzutów, co zwiększa wiarygodność.",
+    "Nie znaleziono wyraźnych luk ciekawości, ale tytuł może budzić zainteresowanie czytelników."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'kontratakuje', co może brzmieć dramatycznie i przyciągać uwagę.",
+    "Treść artykułu jest zgodna z tytułem, ale nie zawiera przesadzonych informacji.",
+    "Artykuł podaje konkretne liczby i fakty, co sprawia, że jest bardziej wiarygodny.",
+    "Nie ma w nim wyraźnych pułapek, ale tytuł może wzbudzać ciekawość."
+  ],
+  "summary": "Zbigniew Ziobro złożył zawiadomienie do prokuratury przeciwko ministrowi sprawiedliwości Waldemarowi Żurkowi. Zarzuty dotyczą ujawnienia tajemnicy śledztwa, które miały trafić do mediów. Sprawa obejmuje również przekazanie informacji dotyczących wniosku o uchwałę immunitetu Ziobry, który ma 26 zarzutów, w tym o kierowanie zorganizowaną grupą przestępczą.",
+  "signals": {
+    "title_hits": [
+      "kontratakuje"
+    ],
+    "content_hits": [
+      "zawiadomienie",
+      "ujawnienia",
+      "tajemnicy",
+      "zarzuty",
+      "26 zarzutów"
+    ],
+    "credibility_hits": [
+      "Zbigniew Ziobro",
+      "Waldemar Żurek",
+      "TVN 24"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "title_content_similarity": 0.85
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Ziobro składa zawiadomienie do prokuratury przeciwko Żurkowi",
+    "notes_to_editor": "Zaleca się unikanie dramatycznych sformułowań w tytułach, aby zwiększyć obiektywność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 7,
+    "tokens_content": 153,
+    "processing_time_ms": 19612,
+    "model": "gpt-4o-mini"
+  }
+}

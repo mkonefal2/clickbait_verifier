@@ -1,0 +1,51 @@
+{
+  "id": 1762180692862,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/oksana-zabuzko-mowilam-ze-dzis-kijow-jutro-warszawa-to-sie-wlasnie-rozgrywa/ssp3gxt",
+  "title": "Oksana Zabużko: Mówiłam, że dziś Kijów, jutro Warszawa. To się właśnie rozgrywa",
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy wskazujące na sensację, takie jak 'dziś Kijów, jutro Warszawa', co może budzić ciekawość.",
+    "Treść artykułu odnosi się do aktualnych wydarzeń i wypowiedzi Oksany Zabużko, co zwiększa jej wiarygodność.",
+    "W artykule nie występują absoluty ani nadmierne emocje, ale tytuł może sugerować dramatyzm.",
+    "Zidentyfikowano pewne niezgodności między tytułem a treścią, ale nie są one znaczące.",
+    "W artykule znajdują się cytaty, co podnosi jego wiarygodność."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł artykułu może budzić ciekawość, ponieważ sugeruje dramatyczny rozwój wydarzeń.",
+    "Treść odnosi się do aktualnych sytuacji i wypowiedzi znanej pisarki, co sprawia, że jest bardziej wiarygodna.",
+    "Nie ma w niej przesadnych emocji, ale tytuł może wydawać się nieco dramatyczny.",
+    "Zauważono pewne różnice między tytułem a treścią, ale nie są one istotne.",
+    "Artykuł zawiera cytaty, co zwiększa jego rzetelność."
+  ],
+  "summary": "W artykule Oksana Zabużko, ukraińska pisarka, komentuje aktualną sytuację w Europie w kontekście wojny i zagrożeń ze strony Rosji. Przywołuje swoje wcześniejsze ostrzeżenia dotyczące możliwego rozwoju wydarzeń, które teraz zdają się spełniać. Rozmowa odbyła się w podcaście 'Rachunek sumienia'.",
+  "signals": {
+    "title_hits": [
+      "dziś Kijów, jutro Warszawa"
+    ],
+    "content_hits": [
+      "Oksana Zabużko",
+      "wojna",
+      "rosyjskich dronów"
+    ],
+    "credibility_hits": [
+      "cytaty",
+      "Oksana Zabużko"
+    ],
+    "mismatch": {
+      "title": "Mówiłam, że dziś Kijów, jutro Warszawa",
+      "content": "to nie była taką głupią histeryczką, tylko mówiła prawdę"
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Oksana Zabużko o aktualnej sytuacji w Europie i zagrożeniu wojną",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć sensacyjności."
+  },
+  "diagnostics": {
+    "tokens_title": 15,
+    "tokens_content": 171,
+    "processing_time_ms": 17904,
+    "model": "gpt-4o-mini"
+  }
+}

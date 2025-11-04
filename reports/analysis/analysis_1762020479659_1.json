@@ -1,0 +1,44 @@
+{
+  "id": 1762020479659,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/krzysztof-wojna-nie-zyje-znany-dziennikarz-mediow-publicznych-mial-86-lat/jged8m7",
+  "title": "Nie żyje dziennikarz Krzysztof Wojna",
+  "score": 10,
+  "label": "not_clickbait",
+  "rationale": [
+    "Tytuł jest bezpośredni i informacyjny, nie zawiera fraz sensacyjnych ani luk ciekawości.",
+    "Treść artykułu jest zgodna z tytułem, dostarczając konkretne informacje o zmarłym dziennikarzu.",
+    "Brak użycia absolutów lub przesadnych stwierdzeń w treści.",
+    "Nie występują sygnały clickbaitowe w treści ani w tytule.",
+    "Artykuł zawiera podstawowe informacje o dacie i okoliczności śmierci."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jasno informuje o śmierci Krzysztofa Wojny, co jest zgodne z treścią artykułu.",
+    "Artykuł podaje konkretne informacje, takie jak wiek zmarłego i jego zawód.",
+    "Nie ma w nim przesadnych stwierdzeń ani sensacyjnych zwrotów.",
+    "Całość jest rzeczowa i nie wprowadza w błąd."
+  ],
+  "summary": "Artykuł informuje o śmierci Krzysztofa Wojny, znanego dziennikarza mediów publicznych w Polsce, który zmarł w Warszawie w wieku 86 lat. Podano datę i okoliczności jego śmierci, a także jego rolę w polskim dziennikarstwie.",
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "Krzysztof Wojna",
+      "86 lat"
+    ],
+    "mismatch": {
+      "exists": false,
+      "details": "Tytuł i treść są zgodne."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Zmarł dziennikarz Krzysztof Wojna",
+    "notes_to_editor": "Artykuł jest informacyjny i nie wymaga zmian."
+  },
+  "diagnostics": {
+    "tokens_title": 6,
+    "tokens_content": 40,
+    "processing_time_ms": 11673,
+    "model": "gpt-4o-mini"
+  }
+}

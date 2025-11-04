@@ -1,0 +1,53 @@
+{
+  "id": 1761934120496,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/swiat/news-kwestia-dni-lub-godzin-usa-gotowe-do-ataku-na-wenezuele,nId,8036417",
+  "title": "\"Kwestia dni lub godzin\". USA gotowe do ataku na Wenezuelę?",
+  "score": 68,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne ('kwestia dni lub godzin') oraz pytanie, co wzbudza ciekawość.",
+    "Treść artykułu zawiera wiele absolutów i sensacyjnych stwierdzeń, jak 'może nastąpić w każdej chwili'.",
+    "Wykryto niezgodność między tytułem a treścią, ponieważ tytuł sugeruje pewność ataku, podczas gdy treść podaje, że decyzja nie została jeszcze podjęta.",
+    "Artykuł zawiera cytaty z wiarygodnych źródeł, co zwiększa jego wiarygodność.",
+    "Analiza wykazała, że tytuł ma większy wpływ na ocenę clickbaitu niż treść."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa dramatycznych zwrotów, co przyciąga uwagę czytelników.",
+    "W artykule pojawiają się mocne stwierdzenia, które mogą wzbudzać emocje.",
+    "Tytuł sugeruje pewność ataku, podczas gdy w treści jest mowa o niepewności.",
+    "Cytaty z wiarygodnych źródeł dodają artykułowi autorytetu.",
+    "Tytuł ma większy wpływ na ocenę clickbaitu niż sama treść."
+  ],
+  "summary": "Artykuł informuje o możliwym ataku USA na Wenezuelę, który może nastąpić w najbliższych dniach lub godzinach. Podano, że administracja Trumpa zidentyfikowała obiekty wojskowe związane z przemytem narkotyków. W treści zawarte są również wypowiedzi polityków oraz informacje o przygotowaniach wojskowych USA w regionie.",
+  "signals": {
+    "title_hits": [
+      "kwestia dni lub godzin",
+      "gotowe do ataku"
+    ],
+    "content_hits": [
+      "atak na instalacje wojskowe",
+      "może nastąpić w każdej chwili",
+      "dni wenezuelskiego przywódcy są policzone"
+    ],
+    "credibility_hits": [
+      "Miami Herald",
+      "Washington Post",
+      "Wall Street Journal"
+    ],
+    "mismatch": {
+      "title": "Tytuł sugeruje pewność ataku.",
+      "content": "Treść wskazuje na niepewność decyzji."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "USA rozważają atak na Wenezuelę w związku z przemytem narkotyków.",
+    "notes_to_editor": "Rozważyć zmianę tytułu na bardziej neutralny, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 564,
+    "processing_time_ms": 16938,
+    "model": "gpt-4o-mini"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": 1762085983377,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/polska/news-wyciekly-m-in-numery-pesel-atak-hakerski-na-serwis-z-pozyczk,nId,8036839",
+  "title": "Wyciekły m.in. numery PESEL",
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazę 'wyciekły', co może sugerować sensację, ale nie jest to skrajnie emocjonalne sformułowanie.",
+    "Treść artykułu dostarcza konkretne informacje na temat wycieku danych osobowych, co jest zgodne z tytułem.",
+    "W artykule występują liczby (np. 'co najmniej 10 tysięcy osób'), co podnosi wiarygodność.",
+    "Nie znaleziono istotnych luk ciekawości ani absolutów w treści.",
+    "Wykryto zgodność między tytułem a treścią, co zmniejsza ryzyko clickbaitu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł nie jest przesadnie emocjonalny, ale sugeruje poważną sytuację.",
+    "Artykuł jasno opisuje wyciek danych, co odpowiada temu, co obiecuje tytuł.",
+    "Podano konkretne liczby, co sprawia, że artykuł wydaje się bardziej wiarygodny.",
+    "Nie ma w nim przesadnych stwierdzeń ani niejasności.",
+    "Tytuł i treść są spójne, co zmniejsza wrażenie clickbaitu."
+  ],
+  "summary": "Artykuł informuje o ataku hakerskim na serwis SuperGrosz, w wyniku którego doszło do wycieku danych osobowych użytkowników. Wśród skradzionych informacji znajdują się numery PESEL, adresy oraz numery telefonów. Minister cyfryzacji apeluje do klientów o zachowanie ostrożności i podjęcie działań zabezpieczających.",
+  "signals": {
+    "title_hits": [
+      "wyciekły"
+    ],
+    "content_hits": [
+      "hakerzy",
+      "wykradli",
+      "numery PESEL",
+      "dane osobowe",
+      "co najmniej 10 tysięcy osób"
+    ],
+    "credibility_hits": [
+      "minister cyfryzacji",
+      "Krzysztof Gawkowski",
+      "liczby"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "title_content_similarity": 0.85
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Atak hakerski na serwis SuperGrosz - wyciek danych osobowych",
+    "notes_to_editor": "Rozważyć dodanie bardziej neutralnego tytułu, aby uniknąć wrażenia sensacyjności."
+  },
+  "diagnostics": {
+    "tokens_title": 5,
+    "tokens_content": 233,
+    "processing_time_ms": 12275,
+    "model": "gpt-4o-mini"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": 1762180704700,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/ukraina-siega-po-rosyjska-bron-pojechalismy-do-tajnego-obozu-szkoleniowego/ddg9bpr",
+  "title": "Ukraina sięga po rosyjską broń. Oto tajny obóz szkoleniowy",
+  "score": 55,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'tajny oboz szkoleniowy', które mogą wzbudzać ciekawość.",
+    "Treść artykułu odnosi się do tytułu, ale nie dostarcza szczegółowych informacji, które mogłyby zaspokoić ciekawość czytelnika.",
+    "W artykule pojawiają się cytaty, co zwiększa jego wiarygodność, ale brakuje konkretnych liczb i źródeł.",
+    "Wykryto pewne niezgodności między tytułem a treścią, ponieważ tytuł sugeruje większą tajemniczość niż to, co jest opisane w artykule."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa intrygujących słów, które mogą przyciągać uwagę czytelników.",
+    "Treść artykułu jest zgodna z tytułem, ale nie dostarcza wystarczających informacji, aby odpowiedzieć na pytania czytelników.",
+    "Artykuł zawiera cytaty, co sprawia, że jest bardziej wiarygodny, ale brakuje w nim konkretów.",
+    "Tytuł może sugerować więcej tajemniczości, niż jest to przedstawione w artykule."
+  ],
+  "summary": "Artykuł opisuje sytuację w Ukrainie, gdzie obcokrajowcy, w tym młodzi ludzie z Ameryki Południowej, walczą w szeregach ukraińskich. Dziennikarze odwiedzili tajny oboz szkoleniowy, aby przyjrzeć się szkoleniom i porozmawiać z żołnierzami, którzy dzielą się swoimi motywacjami do wsparcia Ukrainy.",
+  "signals": {
+    "title_hits": [
+      "tajny oboz szkoleniowy"
+    ],
+    "content_hits": [
+      "szkoleniowy",
+      "żołnierze",
+      "motywacje"
+    ],
+    "credibility_hits": [
+      "Ibrahim Naber",
+      "Die Welt",
+      "Iberson Raul Martinez"
+    ],
+    "mismatch": {
+      "title": "Ukraina sięga po rosyjską broń. Oto tajny obóz szkoleniowy",
+      "content": "Ukraina sięga po rosyjską broń. Pojechaliśmy do tajnego obozu szkoleniowego"
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Ukraina rekrutuje obcokrajowców do walki i szkolenia w tajnym obozie",
+    "notes_to_editor": "Rozważyć dodanie więcej konkretów i danych, aby artykuł był bardziej informacyjny."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 112,
+    "processing_time_ms": 16348,
+    "model": "gpt-4o-mini"
+  }
+}

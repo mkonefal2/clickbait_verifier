@@ -1,0 +1,50 @@
+{
+  "id": 1762267146722,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/poznan/sledztwo-przeciwko-ewie-zgrabczynskiej-w-tle-fikcyjne-faktury-na-leczenie-raka/d36ed3j",
+  "title": "\"Ewa mówiła, że ma nowotwór i potrzebuje pieniędzy\". Kulisy wyłudzeń w poznańskim zoo",
+  "score": 62,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne ('nowotwór', 'potrzebuje pieniędzy'), co zwiększa jego clickbaitowość.",
+    "Treść artykułu odnosi się do konkretnej sprawy, ale używa dramatycznych sformułowań, co może wprowadzać w błąd.",
+    "Wykryto niezgodność między tytułem a treścią, ponieważ tytuł sugeruje osobisty dramat, podczas gdy treść koncentruje się na aspektach prawnych.",
+    "Artykuł zawiera cytaty i konkretne informacje, co podnosi jego wiarygodność."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów, które mogą przyciągać uwagę, ale mogą też wprowadzać w błąd.",
+    "Treść artykułu opisuje konkretne wydarzenia, ale dramatyczny ton tytułu może sugerować coś innego.",
+    "Zauważono, że tytuł i treść nie do końca się zgadzają, co może wprowadzać w błąd czytelników.",
+    "Artykuł zawiera cytaty i konkretne dane, co sprawia, że jest bardziej wiarygodny."
+  ],
+  "summary": "Artykuł opisuje sprawę wyłudzeń w poznańskim zoo, w której główną rolę odgrywa Ewa Zgrabczyńska. Dwie osoby przyznały się do wystawiania fikcyjnych faktur, a Zgrabczyńska miała twierdzić, że potrzebuje pieniędzy na leczenie nowotworu. Były pracownik zoo relacjonuje, że początkowo wierzono jej zapewnieniom, ale z czasem zaczęto w nie wątpić.",
+  "signals": {
+    "title_hits": [
+      "nowotwór",
+      "potrzebuje pieniędzy"
+    ],
+    "content_hits": [
+      "wyłudzenia",
+      "fikcyjne faktury",
+      "nowotwór"
+    ],
+    "credibility_hits": [
+      "cytaty",
+      "konkretne informacje"
+    ],
+    "mismatch": {
+      "title": "Ewa mówiła, że ma nowotwór i potrzebuje pieniędzy",
+      "content": "Artykuł koncentruje się na wyłudzeniach, a nie na osobistych dramatach Ewy."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Wyłudzenia w poznańskim zoo: nowe fakty o Ewie Zgrabczyńskiej",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wprowadzania w błąd."
+  },
+  "diagnostics": {
+    "tokens_title": 15,
+    "tokens_content": 161,
+    "processing_time_ms": 15002,
+    "model": "gpt-4o-mini"
+  }
+}

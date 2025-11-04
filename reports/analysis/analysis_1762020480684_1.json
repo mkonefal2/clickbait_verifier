@@ -1,0 +1,45 @@
+{
+  "id": 1762020480684,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/nowe-doniesienia-z-frontu-w-ukrainie-sytuacja-pozostaje-trudna/lrqextf",
+  "title": "\"Sytuacja pozostaje trudna\". Nowe informacje z frontu w Pokrowsku",
+  "score": 20,
+  "label": "not_clickbait",
+  "rationale": [
+    "Tytuł nie zawiera fraz sensacyjnych ani absolutów.",
+    "Treść artykułu jest zgodna z tytułem, nie ma rozbieżności.",
+    "Brak luk ciekawości w tytule i treści.",
+    "W treści znajdują się konkretne informacje o sytuacji na froncie, co zwiększa wiarygodność.",
+    "Nie znaleziono sygnałów clickbaitowych w analizie treści."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jest informacyjny i nie używa przesadnych słów.",
+    "Treść artykułu odpowiada tytułowi, nie wprowadza w błąd.",
+    "Nie ma w nim elementów, które mogłyby wzbudzać ciekawość w sposób manipulacyjny.",
+    "Artykuł zawiera konkretne dane na temat sytuacji na froncie, co czyni go wiarygodnym.",
+    "Nie znaleziono żadnych przesadnych lub sensacyjnych stwierdzeń."
+  ],
+  "summary": "Artykuł opisuje trudną sytuację w Pokrowsku, obwodzie donieckim na Ukrainie. Ukraińska armia informuje o poprawie pozycji taktycznych w niektórych miejscach oraz o zwiększeniu liczby grup szturmowych. Głównym celem jest odcięcie rosyjskich linii zaopatrzeniowych.",
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "Polska Agencja Prasowa",
+      "ukraińska armia"
+    ],
+    "mismatch": {
+      "exists": false,
+      "details": "Tytuł i treść są zgodne."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Trudna sytuacja w Pokrowsku - nowe informacje z frontu",
+    "notes_to_editor": "Artykuł jest dobrze napisany i nie zawiera elementów clickbaitowych."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 115,
+    "processing_time_ms": 14988,
+    "model": "gpt-4o-mini"
+  }
+}

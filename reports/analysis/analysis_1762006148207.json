@@ -1,0 +1,50 @@
+{
+  "id": 1762006148207,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/duza-awaria-blik-a-wicepremier-mowi-o-zewnetrznym-ataku/ff0s8hl",
+  "title": "Duża awaria BLIK-a. Wicepremier mówi o \"zewnętrznym ataku\"",
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazę 'duża awaria', co może być uznane za sensacyjne.",
+    "W treści artykułu znajdują się informacje o problemach technicznych z BLIK-iem oraz wypowiedź wicepremiera, co jest zgodne z tytułem.",
+    "W tytule i treści występuje pewne niedopasowanie, ponieważ nie wszystkie szczegóły dotyczące ataku są rozwinięte w treści.",
+    "Brak konkretnego źródła lub dodatkowych danych liczbowych, co wpływa na ocenę wiarygodności."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł sugeruje poważny problem, co może przyciągać uwagę, ale nie jest przesadnie dramatyczny.",
+    "Treść artykułu potwierdza informacje zawarte w tytule, mówiąc o awarii BLIK-a i wypowiedzi wicepremiera.",
+    "Niektóre szczegóły w tytule mogą być bardziej rozwinięte w artykule, co może wprowadzać w błąd.",
+    "Brak dodatkowych źródeł lub danych, które mogłyby zwiększyć zaufanie do informacji."
+  ],
+  "summary": "Artykuł opisuje poważne problemy techniczne z systemem płatności BLIK, które miały miejsce 1 listopada 2025 roku. Użytkownicy zgłaszali trudności w generowaniu kodów oraz wykonywaniu przelewów. Wicepremier Krzysztof Gawkowski poinformował, że przyczyną awarii mógł być 'zewnętrzny atak'. Awaria została naprawiona po godzinie 11:30.",
+  "signals": {
+    "title_hits": [
+      "duża awaria",
+      "zewnętrznym ataku"
+    ],
+    "content_hits": [
+      "duża awaria BLIK-a",
+      "zewnętrznym ataku",
+      "poważne problemy techniczne"
+    ],
+    "credibility_hits": [
+      "Wicepremier mówi",
+      "informował"
+    ],
+    "mismatch": {
+      "title": "Duża awaria BLIK-a. Wicepremier mówi o 'zewnętrznym ataku'",
+      "content": "Duża awaria BLIK-a. Wicepremier mówi o 'zewnętrznym ataku'"
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Problemy techniczne z BLIK-iem, wicepremier informuje o możliwym ataku",
+    "notes_to_editor": "Rozważyć dodanie dodatkowych źródeł lub danych liczbowych dla zwiększenia wiarygodności."
+  },
+  "diagnostics": {
+    "tokens_title": 12,
+    "tokens_content": 91,
+    "processing_time_ms": 18338,
+    "model": "gpt-4o-mini"
+  }
+}

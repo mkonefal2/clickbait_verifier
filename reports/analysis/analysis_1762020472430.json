@@ -1,0 +1,44 @@
+{
+  "id": 1762020472430,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/poznan/news-7-latek-nie-zyje-tragiczny-final-halloweenowej-zabawy,nId,8036770",
+  "title": "7-latek nie żyje",
+  "score": 15,
+  "label": "not_clickbait",
+  "rationale": [
+    "Tytuł jest prosty i bezpośredni, nie zawiera fraz sensacyjnych ani absolutów.",
+    "Treść artykułu jest zgodna z tytułem, opisuje tragiczną sytuację bez przesadnych emocji.",
+    "Nie wykryto luk ciekawości ani innych technik clickbaitowych w treści.",
+    "Artykuł zawiera konkretne informacje, takie jak wiek dziecka, okoliczności wypadku oraz źródła informacji, co zwiększa jego wiarygodność."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jest jasny i odnosi się bezpośrednio do treści artykułu, nie próbuje wprowadzać w błąd.",
+    "Artykuł opisuje tragiczną sytuację, w której 7-letni chłopiec zmarł w wyniku wypadku, co jest zgodne z tytułem.",
+    "Nie ma w nim sensacyjnych zwrotów ani prób wzbudzenia niepotrzebnych emocji.",
+    "Zawiera konkretne informacje i cytaty, co sprawia, że jest wiarygodny."
+  ],
+  "summary": "Artykuł opisuje tragiczny wypadek, w którym 7-letni chłopiec zmarł po potrąceniu przez samochód podczas zbierania słodyczy na Halloween. Policja i prokuratura prowadzą śledztwo w tej sprawie, a w artykule zawarte są szczegóły dotyczące okoliczności wypadku oraz działania służb ratunkowych.",
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "Źródło: rmf24",
+      "Cytaty z policji",
+      "Liczby dotyczące wieku dziecka i okoliczności wypadku"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "mismatch_score": 0
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Tragiczny wypadek: 7-latek zmarł po potrąceniu",
+    "notes_to_editor": "Zaleca się unikanie dramatyzacji w tytule, aby lepiej odzwierciedlić treść artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 4,
+    "tokens_content": 288,
+    "processing_time_ms": 13050,
+    "model": "gpt-4o-mini"
+  }
+}

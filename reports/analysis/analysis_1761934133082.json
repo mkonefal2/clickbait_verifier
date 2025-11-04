@@ -1,0 +1,51 @@
+{
+  "id": 1761934133082,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/maciej-kalach-nie-dziwi-mnie-gang-dyrektorek-wiemy-jak-dzialaja-te-szkoly/hh3rb5w",
+  "title": "Maciej Kałach: Czemu oburza was gang dyrektorek? Znamy takie historie od lat",
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera pytanie, co może wzbudzać ciekawość, ale nie jest skrajnie sensacyjny.",
+    "W treści artykułu pojawiają się frazy związane z aferami w szkolnictwie, co może być uznane za sensacyjne.",
+    "Nie stwierdzono istotnych niezgodności między tytułem a treścią, co wpływa na niższy wynik clickbaitu.",
+    "Artykuł zawiera odniesienia do raportu Najwyższej Izby Kontroli, co zwiększa jego wiarygodność."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zadaje pytanie, co może przyciągać uwagę, ale nie jest przesadnie dramatyczny.",
+    "W artykule mowa o nieprawidłowościach w szkolnictwie, co może budzić emocje, ale nie jest to przesadzone.",
+    "Tytuł dobrze odzwierciedla treść artykułu, co sprawia, że nie wprowadza w błąd.",
+    "Artykuł odnosi się do oficjalnych raportów, co czyni go bardziej wiarygodnym."
+  ],
+  "summary": "Artykuł omawia sytuację związaną z tzw. 'gangiem dyrektorek', który miał fałszować frekwencje uczniów w prywatnych szkołach, aby uzyskać wyższe dotacje. Maciej Kałach wskazuje na powszechność tego typu praktyk w szkolnictwie prywatnym, podkreślając, że takie historie są znane od lat. Wspomina również o działaniach prokuratury w tej sprawie.",
+  "signals": {
+    "title_hits": [
+      "gang dyrektorek",
+      "oburza",
+      "znamy takie historie"
+    ],
+    "content_hits": [
+      "gang dyrektorek",
+      "fałszywe oburzenie",
+      "Najwyższa Izba Kontroli"
+    ],
+    "credibility_hits": [
+      "raport Najwyższej Izby Kontroli",
+      "prokuratura"
+    ],
+    "mismatch": {
+      "title": "Tytuł odnosi się do oburzenia związane z gangiem dyrektorek, co jest zgodne z treścią.",
+      "content": "Treść artykułu szczegółowo opisuje sytuację i nie wprowadza w błąd."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Maciej Kałach o nieprawidłowościach w prywatnych szkołach",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 13,
+    "tokens_content": 226,
+    "processing_time_ms": 14803,
+    "model": "gpt-4o-mini"
+  }
+}

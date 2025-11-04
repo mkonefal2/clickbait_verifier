@@ -1,0 +1,50 @@
+{
+  "id": 1762020474298,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/warszawa/news-grozny-wypadek-w-pruszkowie-9-osob-rannych-w-tym-dzieci,nId,8036801",
+  "title": "Groźny wypadek w Pruszkowie. 9 osób rannych, w tym dzieci",
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'groźny wypadek' oraz liczby, co może wzbudzać ciekawość.",
+    "Treść artykułu jest zgodna z tytułem, jednak zawiera powtórzenia i nieco nadmiarowe informacje.",
+    "Wykryto 2 sygnały wiarygodności: liczby (9 osób rannych) oraz źródło (RMF24).",
+    "Brak istotnych luk ciekawości, ponieważ treść dostarcza pełnych informacji na temat zdarzenia."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera emocjonalne słowa, które mogą przyciągać uwagę, jak 'groźny wypadek'.",
+    "Treść artykułu odpowiada tytułowi i dostarcza szczegółowych informacji o wypadku.",
+    "Artykuł zawiera konkretne liczby, co zwiększa jego wiarygodność.",
+    "Nie ma w artykule niejasnych informacji, które mogłyby budzić dodatkowe pytania."
+  ],
+  "summary": "W Pruszkowie pod Warszawą doszło do wypadku drogowego, w którym rannych zostało dziewięć osób, w tym dwoje dzieci. W wyniku zderzenia dwóch samochodów, 7 poszkodowanych trafiło do szpitala. Na miejscu występują utrudnienia w ruchu.",
+  "signals": {
+    "title_hits": [
+      "groźny wypadek",
+      "9 osób rannych"
+    ],
+    "content_hits": [
+      "dziewięć osób",
+      "dwoje dzieci",
+      "7 poszkodowanych"
+    ],
+    "credibility_hits": [
+      "RMF24",
+      "9 osób"
+    ],
+    "mismatch": {
+      "exists": false,
+      "details": "Tytuł jest zgodny z treścią artykułu."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Wypadek w Pruszkowie. 9 osób rannych, w tym dzieci",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby zredukować element clickbaitowy."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 112,
+    "processing_time_ms": 13283,
+    "model": "gpt-4o-mini"
+  }
+}

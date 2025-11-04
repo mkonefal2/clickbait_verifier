@@ -1,0 +1,51 @@
+{
+  "id": 1762267120651,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/polska/news-duza-awaria-u-operatora-klienci-byli-bez-zasiegu-i-mozliwosc,nId,8037138",
+  "title": "Duża awaria u operatora",
+  "score": 25,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazę 'duża awaria', co może budzić ciekawość, ale nie jest to ekstremalnie sensacyjne.",
+    "Treść artykułu dostarcza szczegółowych informacji na temat awarii, co zmniejsza stopień clickbaitu.",
+    "W artykule występują cytaty z biura prasowego operatora, co zwiększa wiarygodność informacji.",
+    "Nie stwierdzono istotnych rozbieżności między tytułem a treścią, co pozytywnie wpływa na ocenę.",
+    "W artykule podano konkretne liczby dotyczące klientów operatora, co również zwiększa jego wiarygodność."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł sugeruje, że doszło do poważnej awarii, co może przyciągać uwagę, ale nie jest przesadnie dramatyczny.",
+    "Artykuł szczegółowo opisuje sytuację związaną z awarią, co sprawia, że jest informacyjny.",
+    "Cytaty z biura prasowego operatora dodają wiarygodności do przedstawionych informacji.",
+    "Tytuł i treść są zgodne, co jest pozytywnym aspektem.",
+    "Podane są konkretne liczby dotyczące klientów, co zwiększa rzetelność artykułu."
+  ],
+  "summary": "Artykuł opisuje dużą awarię sieci Play, która miała miejsce w Polsce. Klienci zgłaszali problemy z połączeniami głosowymi i zasięgiem. Biuro prasowe operatora potwierdziło, że sytuacja wraca do normy, jednak nie ujawniono przyczyn awarii. Awaria dotknęła użytkowników w różnych regionach kraju.",
+  "signals": {
+    "title_hits": [
+      "duża awaria"
+    ],
+    "content_hits": [
+      "awaria",
+      "problemy z wykonywaniem połączeń",
+      "sytuacja wraca do normy"
+    ],
+    "credibility_hits": [
+      "biuro prasowe operatora",
+      "ponad 13,3 miliona klientów"
+    ],
+    "mismatch": {
+      "detected": false,
+      "details": ""
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Awaria sieci Play dotknęła klientów w Polsce",
+    "notes_to_editor": "Rozważyć dodanie więcej szczegółów dotyczących przyczyn awarii, gdy będą dostępne."
+  },
+  "diagnostics": {
+    "tokens_title": 5,
+    "tokens_content": 305,
+    "processing_time_ms": 17503,
+    "model": "gpt-4o-mini"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": 1762085991882,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/krakow/news-krakowianie-pokazali-wielkie-serce-rekordowy-wynik-zbiorki-n,nId,8036848",
+  "title": "Krakowianie pokazali wielkie serce. Rekordowy wynik zbiórki na cmentarzu",
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy emocjonalne ('wielkie serce', 'rekordowy wynik'), co podnosi jego clickbaitowość.",
+    "Treść artykułu jest zgodna z tytułem, jednak nie zawiera szczegółowych informacji, które mogłyby zaspokoić ciekawość czytelnika.",
+    "W artykule występują liczby (74 tys. zł, 61,5 tys. zł), co zwiększa jego wiarygodność.",
+    "Cytaty z osób publicznych (Anna Dymna, Robert Makłowicz) dodają autorytetu, ale nie są kluczowe dla głównego przekazu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa emocjonalnych słów, co może przyciągać uwagę, ale nie jest całkowicie zgodny z treścią.",
+    "Artykuł dobrze opisuje wydarzenie, ale nie dostarcza wielu szczegółów, które mogłyby zaspokoić ciekawość czytelnika.",
+    "Podano konkretne kwoty zebranych funduszy, co sprawia, że artykuł wydaje się bardziej wiarygodny.",
+    "Cytaty znanych osób dodają autorytetu, ale nie są kluczowe dla zrozumienia głównego tematu."
+  ],
+  "summary": "Podczas sobotniej kwesty na Cmentarzu Rakowickim w Krakowie zebrano 74 tys. zł, które zostaną przeznaczone na renowację zapomnianych nagrobków. W wydarzeniu uczestniczyli wolontariusze oraz znane osoby, w tym Anna Dymna i Robert Makłowicz. Tegoroczny wynik zbiórki jest rekordowy w porównaniu do 61,5 tys. zł zebranych w ubiegłym roku.",
+  "signals": {
+    "title_hits": [
+      "wielkie serce",
+      "rekordowy wynik"
+    ],
+    "content_hits": [
+      "74 tysiące złotych",
+      "61,5 tys. zł",
+      "Cmentarz Rakowicki"
+    ],
+    "credibility_hits": [
+      "Anna Dymna",
+      "Robert Makłowicz",
+      "prezydent Krakowa"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "content_detail_level": "low"
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Rekordowa kwesta na Cmentarzu Rakowickim w Krakowie",
+    "notes_to_editor": "Rozważyć dodanie więcej szczegółów dotyczących samej zbiórki i jej celów."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 171,
+    "processing_time_ms": 15234,
+    "model": "gpt-4o-mini"
+  }
+}

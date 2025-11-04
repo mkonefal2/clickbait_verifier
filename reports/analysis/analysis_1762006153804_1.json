@@ -1,0 +1,53 @@
+{
+  "id": 1762006153804,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/nadchodzi-nowa-era-nuklearna-swiat-drzy-po-slowach-trumpa/e781prm",
+  "title": "Nuklearna gra Trumpa wywołuje ciarki u światowych przywódców. \"Wkrótce się przekonacie\"",
+  "score": 62,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'ciarki' oraz 'wkrótce się przekonacie', które wzbudzają ciekawość.",
+    "Treść artykułu odnosi się do kontrowersyjnych wypowiedzi Trumpa, co zwiększa emocjonalny ładunek.",
+    "Występuje niezgodność między tytułem a treścią, ponieważ tytuł sugeruje dramatyzm, podczas gdy treść jest bardziej analityczna.",
+    "W artykule znajdują się cytaty oraz odniesienia do działań Trumpa, co podnosi jego wiarygodność.",
+    "Analiza wykazała, że tytuł ma większy wpływ na ocenę clickbaitu niż treść, co wpłynęło na końcowy wynik."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa emocjonalnych słów, które przyciągają uwagę, jak 'ciarki' i 'wkrótce się przekonacie'.",
+    "Artykuł omawia kontrowersyjne wypowiedzi Trumpa, co sprawia, że jest bardziej dramatyczny.",
+    "Tytuł sugeruje większy dramatyzm, niż wynika to z samej treści artykułu.",
+    "W artykule są cytaty i odniesienia do działań Trumpa, co czyni go bardziej wiarygodnym.",
+    "Tytuł miał większy wpływ na ocenę clickbaitu niż sama treść."
+  ],
+  "summary": "Artykuł opisuje kontrowersyjne wypowiedzi Donalda Trumpa dotyczące wznowienia testów broni jądrowej, które wywołały obawy wśród światowych przywódców. Zawiera analizę reakcji polityków oraz możliwe konsekwencje tej decyzji dla międzynarodowych relacji i nieproliferacji broni jądrowej.",
+  "signals": {
+    "title_hits": [
+      "ciarki",
+      "wkrótce się przekonacie"
+    ],
+    "content_hits": [
+      "bezprecedensowy krok",
+      "lekkomyślna decyzja",
+      "nowa era nuklearna"
+    ],
+    "credibility_hits": [
+      "Alex Raufoglu",
+      "1 listopada 2025",
+      "cytaty"
+    ],
+    "mismatch": {
+      "title": "Nuklearna gra Trumpa wywołuje ciarki u światowych przywódców. 'Wkrótce się przekonacie'",
+      "content": "Bezprecedensowy krok. Nuklearna gra Donalda Trump wywołuje ciarki u światowych przywódców."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Trump wywołuje obawy wśród światowych przywódców swoimi wypowiedziami o broni jądrowej.",
+    "notes_to_editor": "Rozważyć zmianę tytułu na bardziej neutralny, aby zmniejszyć element clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 15,
+    "tokens_content": 156,
+    "processing_time_ms": 17854,
+    "model": "gpt-4o-mini"
+  }
+}

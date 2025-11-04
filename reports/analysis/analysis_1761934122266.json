@@ -1,0 +1,52 @@
+{
+  "id": 1761934122266,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/swiat/news-najsurowszy-wyrok-w-sprawie-pozaru-hotelu-w-turcji-11-osob-s,nId,8036671",
+  "title": "Najsurowszy wyrok w sprawie pożaru hotelu w Turcji. 11 osób skazanych",
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy absolutne ('najsurowszy wyrok'), co zwiększa jego clickbaitowość.",
+    "Treść artykułu jest zgodna z tytułem, jednak nie zawiera dodatkowych informacji, które mogłyby zwiększyć ciekawość.",
+    "W artykule występują liczby (11 skazanych, 78 ofiar), co podnosi wiarygodność.",
+    "Brak cytatów z ekspertów lub dodatkowych źródeł, co wpływa na postrzeganą wiarygodność.",
+    "Mismatches między tytułem a treścią nie występują, ponieważ treść dokładnie odnosi się do tytułu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów, co może przyciągać uwagę, ale nie jest przesadnie sensacyjny.",
+    "Treść artykułu odpowiada tytułowi i dostarcza konkretne informacje o wyroku.",
+    "W artykule są liczby, które potwierdzają przedstawione fakty, ale brakuje cytatów, co mogłoby zwiększyć jego wiarygodność.",
+    "Nie ma rozbieżności między tytułem a treścią, co jest pozytywne."
+  ],
+  "summary": "Turecki sąd skazał właściciela hotelu oraz 10 innych osób na dożywocie za zaniedbania, które doprowadziły do pożaru w hotelu w styczniu, w wyniku którego zginęło 78 osób, w tym 34 dzieci. Rodziny ofiar wyraziły satysfakcję z wyroku, a oskarżeni zapowiadają apelację. Śledztwo ujawniło poważne braki w zakresie bezpieczeństwa w hotelu.",
+  "signals": {
+    "title_hits": [
+      "najsurowszy",
+      "wyrok"
+    ],
+    "content_hits": [
+      "dożywocie",
+      "78 osób",
+      "34 dzieci"
+    ],
+    "credibility_hits": [
+      "Turecki sąd",
+      "wyrok",
+      "zaniedbania"
+    ],
+    "mismatch": {
+      "exists": false,
+      "description": "Brak rozbieżności między tytułem a treścią."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Wyrok w sprawie pożaru hotelu w Turcji: 11 osób skazanych na dożywocie",
+    "notes_to_editor": "Rozważyć dodanie cytatów z ekspertów lub rodzin ofiar dla zwiększenia wiarygodności artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 335,
+    "processing_time_ms": 14384,
+    "model": "gpt-4o-mini"
+  }
+}

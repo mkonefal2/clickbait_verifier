@@ -1,0 +1,52 @@
+{
+  "id": 1762006136983,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/nauka/news-szukanie-przodkow-za-pomoca-badan-dna-jakie-cechy-dziedziczy,nId,8036726",
+  "title": "Szukanie przodków za pomocą badań DNA. Jakie cechy dziedziczymy po naszych bliskich?",
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera pytanie, co może budzić ciekawość, ale nie używa skrajnych emocji ani przesadnych stwierdzeń.",
+    "Treść artykułu jest zgodna z tytułem, jednak zawiera pewne elementy, które mogą być uznane za sensacyjne, np. odniesienia do genetyki i chorób.",
+    "W treści pojawiają się cytaty eksperta, co zwiększa wiarygodność, ale nie ma zbyt wielu konkretnych danych liczbowych.",
+    "Wykryto kilka fraz, które mogą być uznane za sensacyjne, ale nie dominują one w treści."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jest interesujący, ale nie przesadnie dramatyczny, co sprawia, że nie jest bardzo clickbaitowy.",
+    "Artykuł odpowiada na pytania postawione w tytule, ale zawiera też dodatkowe informacje, które mogą przyciągnąć uwagę.",
+    "Cytaty z eksperta dodają artykułowi wiarygodności, chociaż brakuje konkretnych statystyk.",
+    "W treści pojawiają się pewne emocjonalne sformułowania, ale nie są one głównym elementem."
+  ],
+  "summary": "Artykuł omawia, jakie cechy dziedziczymy po przodkach, takie jak kolor oczu, skłonności zdrowotne oraz cechy fizyczne. Zawiera również informacje o zastosowaniach badań DNA w medycynie i kryminalistyce. Ekspert wyjaśnia, jak testy genetyczne mogą pomóc w określeniu pochodzenia etnicznego i identyfikacji krewnych.",
+  "signals": {
+    "title_hits": [
+      "szukanie przodków",
+      "badania DNA",
+      "cechy dziedziczymy"
+    ],
+    "content_hits": [
+      "cechy wyglądu",
+      "genetyka komercyjna",
+      "predyspozycje zdrowotne"
+    ],
+    "credibility_hits": [
+      "profesor Grzegorz Przybylski",
+      "badania genetyczne",
+      "mukowiscydoza"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "title_content_similarity": 0.85
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Jakie cechy dziedziczymy po przodkach dzięki badaniom DNA?",
+    "notes_to_editor": "Artykuł dobrze odpowiada na pytania postawione w tytule, ale warto unikać nieco bardziej sensacyjnych sformułowań."
+  },
+  "diagnostics": {
+    "tokens_title": 14,
+    "tokens_content": 575,
+    "processing_time_ms": 15755,
+    "model": "gpt-4o-mini"
+  }
+}

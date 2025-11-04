@@ -1,0 +1,47 @@
+{
+  "id": 1762089680061,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/ten-dzwiek-wywolal-salwy-smiechu-w-calym-bloku-w-kijowie-oksana-zabuzko-o-zyciu-pod/ssp3gxt",
+  "title": "Oksana Zabużko: Mówiłam, że dziś Kijów, jutro Warszawa. To się właśnie rozgrywa",
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy, które mogą wzbudzać ciekawość, ale nie są skrajnie sensacyjne.",
+    "Treść artykułu jest zgodna z tytułem, co zmniejsza ryzyko clickbaitu.",
+    "Nie wykryto w treści wyraźnych sygnałów wiarygodności, takich jak liczby czy źródła.",
+    "W tytule użyto formy wypowiedzi, co może sugerować osobisty ton, ale nie jest to przesadnie dramatyczne."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jest interesujący, ale nie przesadnie sensacyjny.",
+    "Treść artykułu odpowiada tytułowi, co czyni go bardziej wiarygodnym.",
+    "Brakuje konkretnych danych lub źródeł, które mogłyby wzmocnić artykuł.",
+    "Osobisty ton wypowiedzi Oksany Zabużko dodaje emocji, ale nie jest to przesadzone."
+  ],
+  "summary": "W artykule przedstawiono rozmowę z Oksaną Zabużko, ukraińską pisarką, która mówi o życiu w Kijowie oraz o literaturze jako narzędziu walki z zakłamaniem. Zabużko odnosi się do sytuacji w Europie, podkreślając znaczenie rachunku sumienia. Rozmowa odbyła się w kontekście podcastu \"Rachunek sumienia\".",
+  "signals": {
+    "title_hits": [
+      "Mówiłam",
+      "dziś Kijów, jutro Warszawa"
+    ],
+    "content_hits": [
+      "Oksana Zabużko",
+      "rachunek sumienia",
+      "życie w oblężonym Kijowie"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "exists": false,
+      "details": "Tytuł i treść są zgodne."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Oksana Zabużko o sytuacji w Kijowie i Warszawie",
+    "notes_to_editor": "Rozważyć dodanie konkretnych danych lub cytatów, aby wzmocnić wiarygodność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 17,
+    "tokens_content": 90,
+    "processing_time_ms": 14811,
+    "model": "gpt-4o-mini"
+  }
+}

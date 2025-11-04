@@ -1,0 +1,48 @@
+{
+  "id": 1762267144819,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/wielki-bu-wroci-do-polski-lawina-komentarzy-w-sieci-nie-ma-swietych-krow/hk6dnf1",
+  "title": "Fala komentarzy po decyzji sądu w sprawie \"Wielkiego Bu\". \"Koledzy czekają\"",
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy, które mogą budzić ciekawość, takie jak 'fala komentarzy' i 'koledzy czekają', co może sugerować sensacyjność.",
+    "Treść artykułu odnosi się do konkretnej decyzji sądu i reakcji polityków, co jest zgodne z tytułem, ale nie zawiera szczegółowych informacji, które mogłyby w pełni zaspokoić ciekawość czytelnika.",
+    "W artykule znajdują się cytaty, co podnosi jego wiarygodność, ale brak jest konkretnych liczb lub źródeł, które mogłyby wzmocnić argumentację.",
+    "Mismatches są minimalne, ponieważ tytuł i treść są ze sobą zgodne, ale tytuł może sugerować większą ilość komentarzy niż jest to przedstawione w treści."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera zwroty, które mogą przyciągać uwagę, jak 'fala komentarzy', co może sugerować, że artykuł jest sensacyjny.",
+    "Treść artykułu odnosi się do decyzji sądu i reakcji polityków, co jest zgodne z tytułem, ale nie dostarcza wystarczająco szczegółowych informacji.",
+    "Artykuł zawiera cytaty, co zwiększa jego wiarygodność, jednak brak jest konkretnych danych, które mogłyby to wzmocnić.",
+    "Tytuł i treść są w dużej mierze zgodne, ale tytuł może sugerować więcej komentarzy, niż rzeczywiście się pojawia w artykule."
+  ],
+  "summary": "Artykuł opisuje decyzję niemieckiego sądu w sprawie ekstradycji Patryka M., znanego jako 'Wielki Bu', oraz reakcje polityków na tę sytuację. W sieci zaczęły pojawiać się komentarze dotyczące tej sprawy, w tym wypowiedź Romana Giertycha. Tekst koncentruje się na politycznych reperkusjach tej decyzji.",
+  "signals": {
+    "title_hits": [
+      "fala komentarzy",
+      "koledzy czekają"
+    ],
+    "content_hits": [
+      "decyzja sądu",
+      "reakcje polityków"
+    ],
+    "credibility_hits": [
+      "Roman Giertych"
+    ],
+    "mismatch": {
+      "is_mismatch": false,
+      "details": "Tytuł i treść są zgodne, ale tytuł może sugerować więcej komentarzy."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Reakcje polityków na decyzję sądu w sprawie ekstradycji 'Wielkiego Bu'",
+    "notes_to_editor": "Rozważyć dodanie więcej konkretów dotyczących liczby komentarzy lub reakcji, aby zwiększyć wartość informacyjną artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 13,
+    "tokens_content": 92,
+    "processing_time_ms": 23195,
+    "model": "gpt-4o-mini"
+  }
+}

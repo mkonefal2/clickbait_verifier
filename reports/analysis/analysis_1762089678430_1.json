@@ -1,0 +1,42 @@
+{
+  "id": 1762089678430,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/sport/news-jakub-moder-po-operacji-nie-zagra-przez-kilka-miesiecy,nId,8036853",
+  "title": "Jakub Moder po operacji. Nie zagra przez kilka miesięcy",
+  "score": 20,
+  "label": "not_clickbait",
+  "rationale": [
+    "Tytuł jest zgodny z treścią artykułu, nie zawiera fraz sensacyjnych ani absolutów.",
+    "W treści nie występują elementy, które mogłyby wzbudzać ciekawość w sposób clickbaitowy.",
+    "Brak mismatchu między tytułem a treścią, ponieważ tytuł dokładnie odzwierciedla informacje zawarte w artykule.",
+    "W artykule znajdują się wiarygodne źródła, takie jak wypowiedź trenera Robin Van Persie."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł odpowiada treści artykułu, nie używa przesadnych słów ani nie próbuje wprowadzać w błąd.",
+    "Treść jest informacyjna i nie zawiera elementów, które mogłyby być uznane za sensacyjne.",
+    "Nie ma rozbieżności między tytułem a treścią, co oznacza, że artykuł jest spójny.",
+    "Artykuł opiera się na wiarygodnych informacjach, w tym na wypowiedzi trenera."
+  ],
+  "summary": "Jakub Moder, piłkarz Feyenoordu Rotterdam i reprezentant Polski, przeszedł operację pleców, co oznacza, że nie zagra przez kilka miesięcy. Informację tę potwierdził trener Feyenoordu, Robin Van Persie, który wyraził rozczarowanie z powodu kontuzji zawodnika. Moder nie skomentował jeszcze sytuacji na swoich mediach społecznościowych.",
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "Wypowiedź trenera Robin Van Persie"
+    ],
+    "mismatch": {
+      "is_mismatch": false,
+      "details": "Tytuł odpowiada treści artykułu."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Jakub Moder przeszedł operację pleców i nie zagra przez kilka miesięcy",
+    "notes_to_editor": "Artykuł jest dobrze napisany i nie wymaga zmian."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 151,
+    "processing_time_ms": 12207,
+    "model": "gpt-4o-mini"
+  }
+}

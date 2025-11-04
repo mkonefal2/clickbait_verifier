@@ -1,0 +1,54 @@
+{
+  "id": 1761934126261,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/raporty/raport-izrael-w-stanie-wojny/news-hezbollah-gromadzi-rakiety-i-artylerię-cos-szykuje-sie-w-lib,nId,8036696",
+  "title": "Hezbollah gromadzi rakiety i artylerię. Coś szykuje się w Libanie",
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy budzące ciekawość, takie jak 'coś szykuje się', co może sugerować sensacyjność.",
+    "Treść artykułu jest zgodna z tytułem, jednak nie zawiera mocnych sygnałów wiarygodności, poza jednym cytatem.",
+    "W tytule użyto słowa 'gromadzi', co może być interpretowane jako fraza sensacyjna.",
+    "W treści artykułu znajdują się liczby oraz odniesienia do źródeł, co podnosi wiarygodność, ale nie w wystarczającym stopniu, aby zredukować clickbaitowość."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł wzbudza ciekawość, sugerując, że coś ważnego się wydarzy, co może przyciągać uwagę czytelników.",
+    "Treść artykułu jest spójna z tytułem, ale nie zawiera wielu wiarygodnych źródeł, co może wpływać na postrzeganą rzetelność informacji.",
+    "Słowo 'gromadzi' w tytule może być uznane za nieco dramatyczne, co może podnosić stopień clickbaitu.",
+    "Artykuł zawiera pewne liczby i cytaty, co zwiększa jego wiarygodność, ale nie wystarczająco, aby całkowicie zniwelować wrażenie clickbaitu."
+  ],
+  "summary": "Artykuł opisuje działania libańskiego Hezbollahu, który odbudowuje swój arsenał wojskowy, ignorując warunki rozejmu z Izraelem. Wspierany przez Iran, Hezbollah może doprowadzić do wznowienia konfliktu na Bliskim Wschodzie. Izrael wywiera presję na Liban w celu całkowitego rozbrojenia Hezbollahu, co stawia Liban w trudnej sytuacji militarnej.",
+  "signals": {
+    "title_hits": [
+      "gromadzi",
+      "coś szykuje się"
+    ],
+    "content_hits": [
+      "Hezbollah",
+      "gromadzi",
+      "uzbrojenie",
+      "Iran",
+      "wojna"
+    ],
+    "credibility_hits": [
+      "Wall Street Journal",
+      "ekspertka ds. Bliskiego Wschodu",
+      "liczby"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "title_sensational": true,
+      "content_sensational": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Hezbollah odbudowuje arsenał wojskowy w Libanie",
+    "notes_to_editor": "Rozważyć dodanie więcej wiarygodnych źródeł w treści artykułu, aby zwiększyć jego rzetelność."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 382,
+    "processing_time_ms": 16719,
+    "model": "gpt-4o-mini"
+  }
+}

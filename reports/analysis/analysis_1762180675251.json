@@ -1,0 +1,42 @@
+{
+  "id": 1762180675251,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/polska/news-korupcja-w-ochronie-zdrowia-trzy-osoby-zatrzymane,nId,8037085",
+  "title": "Korupcja w ochronie zdrowia. Trzy osoby zatrzymane",
+  "score": 20,
+  "label": "not_clickbait",
+  "rationale": [
+    "Tytuł jest bezpośredni i informacyjny, nie zawiera fraz sensacyjnych ani absolutów.",
+    "Treść artykułu jest zgodna z tytułem, przedstawia konkretne informacje o zatrzymaniach związanych z korupcją.",
+    "Brak luk ciekawości, ponieważ artykuł dostarcza pełne informacje na temat sprawy.",
+    "Nie znaleziono sygnałów wiarygodności, takich jak cytaty czy źródła, ale treść jest oparta na faktach.",
+    "Analiza wykazała, że tytuł i treść są spójne, co zmniejsza ryzyko clickbaitu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jasno informuje o temacie artykułu i nie jest przesadzony.",
+    "Treść artykułu dokładnie opisuje sytuację, która została zapowiedziana w tytule.",
+    "Nie ma w artykule niejasnych lub sensacyjnych elementów, które mogłyby wprowadzać w błąd.",
+    "Artykuł oparty jest na faktach, chociaż brakuje w nim cytatów lub odniesień do źródeł.",
+    "Tytuł i treść są zgodne, co sprawia, że artykuł jest rzetelny."
+  ],
+  "summary": "Centralne Biuro Antykorupcyjne zatrzymało trzy osoby w związku z korupcją w ochronie zdrowia. Zatrzymani są oskarżeni o przyjmowanie korzyści majątkowych w zamian za korzystne decyzje dotyczące zamówień publicznych. Wartość nielegalnych korzyści szacowana jest na około 110 tysięcy złotych.",
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [],
+    "mismatch": {
+      "title_content_match": true,
+      "content_title_match": true
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Zatrzymania w sprawie korupcji w ochronie zdrowia",
+    "notes_to_editor": "Artykuł jest rzetelny i nie wymaga zmian."
+  },
+  "diagnostics": {
+    "tokens_title": 7,
+    "tokens_content": 327,
+    "processing_time_ms": 19043,
+    "model": "gpt-4o-mini"
+  }
+}

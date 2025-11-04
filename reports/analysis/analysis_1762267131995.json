@@ -1,0 +1,55 @@
+{
+  "id": 1762267131995,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/slaskie/news-bielsko-biala-podnosi-oplaty-za-smieci-od-stycznia-zaplacisz,nId,8037397",
+  "title": "Bielsko-Biała podnosi opłaty za śmieci! Od stycznia zapłacisz więcej – sprawdź, ile dokładnie",
+  "score": 32,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'podnosi opłaty' i 'sprawdź, ile dokładnie', co może wzbudzać ciekawość.",
+    "Treść artykułu jest zgodna z tytułem, jednak niektóre sformułowania mogą sugerować dramatyzm sytuacji.",
+    "W treści znajdują się liczby dotyczące podwyżki opłat, co zwiększa wiarygodność informacji.",
+    "W artykule brak jest cytatów z wiarygodnych źródeł poza wypowiedziami urzędników, co może wpływać na postrzeganą rzetelność.",
+    "Mismatches między tytułem a treścią są minimalne, tytuł dobrze odzwierciedla główny temat artykułu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł wzbudza ciekawość poprzez użycie słów sugerujących podwyżkę opłat, co może przyciągać uwagę czytelników.",
+    "Treść artykułu rzeczywiście dotyczy podwyżki opłat za śmieci, co jest zgodne z tytułem, ale niektóre sformułowania mogą brzmieć dramatycznie.",
+    "Artykuł zawiera konkretne liczby, co sprawia, że informacje są bardziej wiarygodne.",
+    "Brakuje niezależnych cytatów, co może wpływać na postrzeganą rzetelność artykułu.",
+    "Tytuł i treść są spójne, co jest pozytywne."
+  ],
+  "summary": "Artykuł informuje o podwyżce opłat za gospodarowanie odpadami komunalnymi w Bielsku-Białej, która wejdzie w życie od stycznia 2026 roku. Opłata wzrośnie z 39 zł do 45 zł od osoby miesięcznie. Władze miasta tłumaczą tę decyzję potrzebą zbilansowania systemu gospodarki odpadami oraz rosnącym deficytem finansowym.",
+  "signals": {
+    "title_hits": [
+      "podnosi opłaty",
+      "zaplacisz więcej",
+      "sprawdź, ile dokładnie"
+    ],
+    "content_hits": [
+      "podwyżka opłat",
+      "39 zł do 45 zł",
+      "deficyt",
+      "brak miejskiej spalarni"
+    ],
+    "credibility_hits": [
+      "Rada Miejska",
+      "prezydent miasta Jarosław Klimaszewski",
+      "Karolina Miech, naczelnik wydziału"
+    ],
+    "mismatch": {
+      "exists": false,
+      "details": "Tytuł i treść są zgodne, nie ma istotnych rozbieżności."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Bielsko-Biała wprowadza nowe stawki za śmieci od stycznia 2026 roku",
+    "notes_to_editor": "Rozważyć dodanie cytatów z mieszkańców lub niezależnych ekspertów dla zwiększenia wiarygodności artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 16,
+    "tokens_content": 350,
+    "processing_time_ms": 15483,
+    "model": "gpt-4o-mini"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": 1762085996755,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/trojmiasto/news-trwaja-poszukiwania-14-letniego-andrzeja-ma-znak-szczegolny-,nId,8036838",
+  "title": "Trwają poszukiwania 14-letniego Andrzeja",
+  "score": 10,
+  "label": "not_clickbait",
+  "rationale": [
+    "Tytuł jest prosty i informacyjny, nie zawiera fraz sensacyjnych ani absolutów.",
+    "Treść artykułu jest zgodna z tytułem, opisuje konkretne poszukiwania zaginionego chłopca.",
+    "Nie wykryto luk ciekawości ani innych technik clickbaitowych w treści.",
+    "Artykuł zawiera konkretne informacje, takie jak rysopis zaginionego oraz numery kontaktowe do policji."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jasno informuje o poszukiwaniach zaginionego chłopca, nie jest przesadzony ani sensacyjny.",
+    "Treść artykułu szczegółowo opisuje sytuację, co potwierdza zgodność z tytułem.",
+    "Nie ma w artykule żadnych technik mających na celu wywołanie sensacji czy ciekawości.",
+    "Podano istotne informacje, takie jak rysopis zaginionego i numery kontaktowe do policji."
+  ],
+  "summary": "Artykuł informuje o trwających poszukiwaniach 14-letniego Andrzeja Tyszki, który zaginął po wyjściu do szkoły w Słupsku. Policja apeluje o pomoc w odnalezieniu chłopca, podając jego rysopis oraz numery kontaktowe dla osób, które mogą mieć informacje na jego temat.",
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "źródło: rmf24",
+      "numery telefonów",
+      "rysopis zaginionego"
+    ],
+    "mismatch": {
+      "exists": false,
+      "details": "Tytuł i treść są zgodne."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Poszukiwania zaginionego 14-letniego chłopca",
+    "notes_to_editor": "Artykuł dobrze informuje o sytuacji, nie wymaga zmian."
+  },
+  "diagnostics": {
+    "tokens_title": 6,
+    "tokens_content": 225,
+    "processing_time_ms": 11103,
+    "model": "gpt-4o-mini"
+  }
+}

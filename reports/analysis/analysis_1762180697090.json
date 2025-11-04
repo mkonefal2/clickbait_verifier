@@ -1,0 +1,44 @@
+{
+  "id": 1762180697090,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/krakow/porwanie-mezczyzny-w-olkuszu-nowe-informacje/hmf1d2j",
+  "title": "Porwanie mężczyzny w Olkuszu. Nowe informacje",
+  "score": 20,
+  "label": "not_clickbait",
+  "rationale": [
+    "Tytuł nie zawiera fraz sensacyjnych ani absolutów.",
+    "Treść artykułu jest zgodna z tytułem i dostarcza konkretne informacje na temat zdarzenia.",
+    "Brak luk ciekawości w tytule i treści.",
+    "Nie znaleziono sygnałów wiarygodności, ale artykuł opiera się na informacjach z wiarygodnego źródła (RMF FM).",
+    "Zgodność tytułu z treścią jest wysoka, co obniża wynik clickbaitowości."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jest prosty i informacyjny, nie używa przesadnych słów.",
+    "Treść artykułu dokładnie odpowiada tytułowi, dostarczając konkretne informacje o porwaniu.",
+    "Nie ma w artykule niejasności ani sensacyjnych zwrotów.",
+    "Artykuł opiera się na źródle, które jest znane i wiarygodne.",
+    "Tytuł i treść są spójne, co świadczy o niskim poziomie clickbaitu."
+  ],
+  "summary": "Artykuł informuje o porwaniu mężczyzny w Olkuszu, gdzie policja zatrzymała trzy osoby w związku z tym zdarzeniem. Informacje pochodzą z wiarygodnego źródła, RMF FM. Opisano również datę i czas zdarzenia, co dodaje kontekstu do sytuacji.",
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "RMF FM"
+    ],
+    "mismatch": {
+      "title_matches_content": true,
+      "content_matches_title": true
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Zatrzymania w sprawie porwania mężczyzny w Olkuszu",
+    "notes_to_editor": "Artykuł jest dobrze napisany i nie wymaga zmian."
+  },
+  "diagnostics": {
+    "tokens_title": 7,
+    "tokens_content": 49,
+    "processing_time_ms": 12481,
+    "model": "gpt-4o-mini"
+  }
+}

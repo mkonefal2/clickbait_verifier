@@ -1,0 +1,53 @@
+{
+  "id": 1762180696193,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/zbigniew-ziobro-uderza-w-waldemara-zurka-podwojne-zlamanie-prawa/eg303mc",
+  "title": "Zbigniew Ziobro uderza w Waldemara Żurka. \"Podwójne złamanie prawa\"",
+  "score": 62,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'uderza' oraz 'podwójne złamanie prawa', co wskazuje na emocjonalny ładunek.",
+    "Treść artykułu odnosi się do kontrowersyjnych wypowiedzi Zbigniewa Ziobry, co podkreśla sensacyjny charakter informacji.",
+    "W artykule występuje niezgodność między tytułem a treścią, ponieważ tytuł sugeruje dramatyczny konflikt, podczas gdy treść skupia się na faktach prawnych.",
+    "W artykule są cytaty i liczby, co może zwiększać jego wiarygodność, ale nie równoważy to ogólnego wrażenia clickbaitowego."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa emocjonalnych słów, co przyciąga uwagę, ale może wprowadzać w błąd.",
+    "Artykuł opisuje kontrowersyjne wypowiedzi polityka, co nadaje mu dramatyzmu.",
+    "Tytuł sugeruje większy konflikt, niż wynika to z treści, co może być mylące dla czytelników.",
+    "Artykuł zawiera cytaty i liczby, co dodaje mu wiarygodności, ale nie zmienia jego sensacyjnego charakteru."
+  ],
+  "summary": "Zbigniew Ziobro skrytykował ujawnienie przez TVN szczegółów dotyczących wniosku o uchylenie jego immunitetu poselskiego, nazywając to 'podwójnym złamaniem prawa'. Polityk zapowiedział złożenie zawiadomienia na Waldemara Żurka, obecnego szefa resortu sprawiedliwości. Prokuratura planuje postawić Ziobrze 26 zarzutów, w tym o kierowanie zorganizowaną grupą przestępczą.",
+  "signals": {
+    "title_hits": [
+      "uderza",
+      "podwójne złamanie prawa"
+    ],
+    "content_hits": [
+      "Zbigniew Ziobro",
+      "Waldemara Żurka",
+      "podwójne złamanie prawa",
+      "prokuratura",
+      "zarzuty"
+    ],
+    "credibility_hits": [
+      "cytaty",
+      "liczby",
+      "źródła"
+    ],
+    "mismatch": {
+      "title": "Zbigniew Ziobro uderza w Waldemara Żurka. \"Podwójne złamanie prawa\"",
+      "content": "Zbigniew Ziobro skrytykował ujawnienie przez TVN szczegółów dotyczących wniosku o uchylenie jego immunitetu poselskiego."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Zbigniew Ziobro krytykuje Waldemara Żurka za ujawnienie szczegółów wniosku o uchwałę immunitetu.",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 119,
+    "processing_time_ms": 17342,
+    "model": "gpt-4o-mini"
+  }
+}

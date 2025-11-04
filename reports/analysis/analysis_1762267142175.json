@@ -1,0 +1,49 @@
+{
+  "id": 1762267142175,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/jaroslaw-kaczynski-pojawil-sie-w-sadzie-nie-widze-powodu-do-pojednania/rdzddlf",
+  "title": "Jarosław Kaczyński pojawił się w sądzie. \"Nie widzę powodu do pojednania\"",
+  "score": 25,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazę z cytatem, co zwiększa jego atrakcyjność, ale nie jest przesadnie sensacyjny.",
+    "Treść artykułu jest zgodna z tytułem, co zmniejsza ryzyko mismatch.",
+    "W treści występują konkretne informacje, takie jak daty i cytaty, co podnosi wiarygodność.",
+    "Nie występują w treści frazy sensacyjne ani absoluty, co wskazuje na umiarkowany poziom clickbaitu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jest interesujący, ale nie przesadnie dramatyczny.",
+    "Treść artykułu odpowiada tytułowi, co jest pozytywne.",
+    "Artykuł zawiera konkretne informacje, takie jak daty i wypowiedzi, co sprawia, że jest wiarygodny.",
+    "Nie ma w nim przesadnych stwierdzeń, co oznacza, że jest umiarkowanie clickbaitowy."
+  ],
+  "summary": "Jarosław Kaczyński stawił się w Sądzie Rejonowym w Warszawie w związku z rozprawą przeciwko niemu, wytoczoną przez europosła Krzysztofa Brejzę. W trakcie wywiadu przed wejściem na salę, Kaczyński stwierdził, że nie widzi powodu do pojednania. Kolejna rozprawa została zaplanowana na 9 grudnia.",
+  "signals": {
+    "title_hits": [
+      "cytat"
+    ],
+    "content_hits": [
+      "cytat",
+      "konkretne informacje"
+    ],
+    "credibility_hits": [
+      "źródło",
+      "data",
+      "cytat"
+    ],
+    "mismatch": {
+      "exists": false,
+      "details": "Tytuł jest zgodny z treścią artykułu."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Jarosław Kaczyński w sądzie: brak powodu do pojednania",
+    "notes_to_editor": "Artykuł jest informacyjny, warto unikać dramatyzacji w tytule."
+  },
+  "diagnostics": {
+    "tokens_title": 14,
+    "tokens_content": 85,
+    "processing_time_ms": 15085,
+    "model": "gpt-4o-mini"
+  }
+}

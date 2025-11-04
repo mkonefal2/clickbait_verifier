@@ -1,0 +1,48 @@
+{
+  "id": 1762267149401,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/porywa-tlumy-ale-nie-odcina-sie-od-politycznej-trucizny-34-latek-idzie-po-wladze-w/q7200df",
+  "title": "Zapytał ludzi, dlaczego głosowali na Trumpa. Teraz idzie po władzę w jego mieście",
+  "score": 62,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera elementy sensacyjne, takie jak 'idzie po władzę', co może wzbudzać emocje.",
+    "Treść artykułu odnosi się do kontrowersyjnych tematów, takich jak polityka i historia zamachów.",
+    "W treści występują frazy, które mogą być uznane za sensacyjne, jak 'polityczna trucizna' oraz 'porywa tłumy'.",
+    "Zidentyfikowano pewne niezgodności między tytułem a treścią, co wpływa na ocenę clickbaitu.",
+    "Brak konkretnych danych liczbowych lub cytatów, które mogłyby zwiększyć wiarygodność artykułu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł sugeruje dramatyczne wydarzenia, co może przyciągać uwagę czytelników.",
+    "Artykuł porusza kontrowersyjne tematy związane z polityką, co może budzić emocje.",
+    "W treści pojawiają się mocne sformułowania, które mogą być postrzegane jako sensacyjne.",
+    "Zauważono pewne różnice między tym, co obiecuje tytuł, a tym, co jest w artykule.",
+    "Brak konkretów, takich jak liczby czy cytaty, które mogłyby dodać wiarygodności."
+  ],
+  "summary": "Artykuł opisuje Zohrana Mamdaniego, kandydata na burmistrza Nowego Jorku, który zdobył popularność wśród lewicowych wyborców. Zawiera informacje o jego kontrowersyjnej przeszłości oraz o sceptycyzmie niektórych członków Partii Demokratycznej wobec jego sukcesów. Wybory burmistrza w Nowym Jorku wzbudzają duże zainteresowanie.",
+  "signals": {
+    "title_hits": [
+      "głosowali na Trumpa",
+      "idzie po władzę"
+    ],
+    "content_hits": [
+      "porywa tłumy",
+      "polityczna trucizna"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "title_content_mismatch": true,
+      "description": "Tytuł sugeruje, że artykuł będzie skupiony na powodach głosowania na Trumpa, podczas gdy treść koncentruje się na Mamdanim i jego kontrowersjach."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Kandydat na burmistrza Nowego Jorku zdobywa popularność wśród lewicowych wyborców",
+    "notes_to_editor": "Rozważyć dodanie danych liczbowych lub cytatów dla zwiększenia wiarygodności artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 14,
+    "tokens_content": 224,
+    "processing_time_ms": 19118,
+    "model": "gpt-4o-mini"
+  }
+}

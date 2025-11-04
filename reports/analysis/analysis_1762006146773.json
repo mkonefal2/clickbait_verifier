@@ -1,0 +1,53 @@
+{
+  "id": 1762006146773,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/zakopane/news-serial-1670-przypomnial-o-niezwyklym-i-zapomnianym-zwyczaju-,nId,8036780",
+  "title": "Serial \"1670\" przypomniał o niezwykłym i zapomnianym zwyczaju Rzeczypospolitej",
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'niezwykłym' i 'zapomnianym', co może budzić ciekawość.",
+    "Treść artykułu jest zgodna z tytułem, jednak niektóre sformułowania mogą być uznane za przesadzone.",
+    "W treści występują liczby i konkretne informacje o portretach trumiennych, co zwiększa wiarygodność.",
+    "Nie stwierdzono istotnych niezgodności między tytułem a treścią, co pozytywnie wpływa na ocenę.",
+    "Analiza wykazała, że tytuł i treść są spójne, co zmniejsza ryzyko uznania artykułu za clickbaitowy."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera słowa, które mogą przyciągać uwagę, jak 'niezwykłym' i 'zapomnianym'.",
+    "Treść artykułu odpowiada tytułowi, ale niektóre opisy mogą wydawać się przesadzone.",
+    "Artykuł zawiera konkretne informacje i liczby, co sprawia, że jest bardziej wiarygodny.",
+    "Nie znaleziono dużych niezgodności między tytułem a treścią, co jest pozytywne.",
+    "Ogólnie, tytuł i treść są zgodne, co zmniejsza ryzyko uznania artykułu za clickbait."
+  ],
+  "summary": "Artykuł opisuje portrety trumienne, które były popularnym elementem kultury sarmackiej w Rzeczypospolitej. Wskazuje na ich znaczenie w ceremoniach pogrzebowych oraz ich unikalność w kontekście polskiej tradycji. Zawiera również informacje o ich historii, technice wykonania oraz współczesnym zainteresowaniu tym dziedzictwem kulturowym.",
+  "signals": {
+    "title_hits": [
+      "niezwykłym",
+      "zapomnianym"
+    ],
+    "content_hits": [
+      "portrety trumienne",
+      "Rzeczypospolitej",
+      "sztuka"
+    ],
+    "credibility_hits": [
+      "Sylwia Bogaczyk",
+      "Muzeum Zamkowego",
+      "liczby"
+    ],
+    "mismatch": {
+      "exists": false,
+      "details": "Tytuł i treść są zgodne."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Serial \"1670\" przedstawia portrety trumienne w kontekście polskiej kultury.",
+    "notes_to_editor": "Artykuł dobrze przedstawia temat, ale warto unikać przesadnych określeń w tytule."
+  },
+  "diagnostics": {
+    "tokens_title": 13,
+    "tokens_content": 511,
+    "processing_time_ms": 14832,
+    "model": "gpt-4o-mini"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": 1761737546654,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/wroclaw/atak-na-wolontariusza-we-wroclawiu-organizacja-wskazuje-na-tlo-polityczne/5f0mpfd",
+  "title": "Wolontariusz SOS Wrocław zaatakowany na ulicy. Organizacja ujawnia szczegóły",
+  "score": 60,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'zaatakowany' i 'ujawnia szczegóły', co może wzbudzać ciekawość.",
+    "Treść artykułu zawiera emocjonalny opis zdarzenia, co potęguje wrażenie sensacyjności.",
+    "Występuje mismatch między tytułem a treścią, ponieważ tytuł sugeruje więcej szczegółów niż te, które są faktycznie podane.",
+    "W artykule pojawiają się cytaty i odniesienia do kontekstu politycznego, co może zwiększać jego wiarygodność."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów, które przyciągają uwagę, jak 'zaatakowany' i 'szczegóły', co może sprawić, że czytelnik chce dowiedzieć się więcej.",
+    "Treść artykułu opisuje brutalny atak na wolontariusza, co jest emocjonalnie angażujące.",
+    "Tytuł sugeruje, że artykuł zawiera wiele informacji, ale w rzeczywistości nie ma ich aż tak dużo.",
+    "Artykuł zawiera cytaty i odniesienia do sytuacji politycznej, co może sprawić, że jest bardziej wiarygodny."
+  ],
+  "summary": "W artykule opisano atak na wolontariusza SOS Wrocław, który został pobity na ulicy. Napastnik użył obraźliwych słów o podłożu politycznym. Organizacja wskazuje, że incydent może być związany z rosnącą agresją wobec wolontariuszy i retoryką władz miasta. Poszkodowany trafił do szpitala z obrażeniami twarzy.",
+  "signals": {
+    "title_hits": [
+      "zaatakowany",
+      "ujawnia szczegóły"
+    ],
+    "content_hits": [
+      "pobity",
+      "obraźliwe słowa",
+      "podłożu politycznym"
+    ],
+    "credibility_hits": [
+      "cytaty",
+      "odniesienia do sytuacji politycznej"
+    ],
+    "mismatch": {
+      "title": "Wolontariusz SOS Wrocław zaatakowany na ulicy. Organizacja ujawnia szczegóły",
+      "content": "W artykule brakuje szczegółowych informacji, które sugeruje tytuł."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Atak na wolontariusza SOS Wrocław - szczegóły incydentu",
+    "notes_to_editor": "Rozważyć dodanie więcej szczegółów w treści, aby lepiej odpowiadała tytułowi."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 114,
+    "processing_time_ms": 16996,
+    "model": "gpt-4o-mini"
+  }
+}

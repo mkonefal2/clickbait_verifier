@@ -1,0 +1,46 @@
+{
+  "id": 1762267141213,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/incydent-na-konferencji-pis-posel-ko-przyszedl-z-karteczkami/zkb2s0b",
+  "title": "Niespodziewany incydent na konferencji PiS. Poseł KO zaskoczył karteczkami",
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'niespodziewany incydent' i 'zaskoczył', co podnosi poziom clickbaitu.",
+    "Treść artykułu jest zgodna z tytułem, ale nie zawiera szczegółowych informacji, które mogłyby potwierdzić sensacyjność tytułu.",
+    "W artykule brakuje cytatów lub konkretnych liczb, co obniża jego wiarygodność.",
+    "Wykryto lukę ciekawości w tytule, ale nie jest ona ekstremalna."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa emocjonalnych słów, które mogą przyciągać uwagę, jak 'niespodziewany' i 'zaskoczył'.",
+    "Treść artykułu odpowiada tytułowi, ale nie dostarcza wielu szczegółów, które mogłyby go wzmocnić.",
+    "Brakuje konkretów, jak cytaty czy liczby, co sprawia, że artykuł wydaje się mniej wiarygodny.",
+    "Tytuł sugeruje coś intrygującego, ale nie jest to na tyle mocne, by uznać go za bardzo clickbaitowy."
+  ],
+  "summary": "Podczas konferencji prasowej Prawa i Sprawiedliwości doszło do incydentu, gdy poseł Koalicji Obywatelskiej Adrian Witczak przerwał wydarzenie, przyklejając kartki z hasłami odnoszącymi się do afery związanej z budową Centralnego Portu Komunikacyjnego. Jego działania wzbudziły kontrowersje i były nieoczekiwanym zwrotem akcji.",
+  "signals": {
+    "title_hits": [
+      "niespodziewany incydent",
+      "zaskoczył"
+    ],
+    "content_hits": [
+      "przyklejał kartki",
+      "przerwał wydarzenie"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "title_content_match": true,
+      "content_details": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Incydent na konferencji PiS z udziałem posła KO",
+    "notes_to_editor": "Rozważyć dodanie więcej szczegółów w treści, aby zwiększyć wiarygodność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 85,
+    "processing_time_ms": 14334,
+    "model": "gpt-4o-mini"
+  }
+}

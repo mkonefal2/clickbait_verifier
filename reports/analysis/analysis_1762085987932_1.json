@@ -1,0 +1,50 @@
+{
+  "id": 1762085987932,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/polityka/news-glosowanie-nad-uchyleniem-ziobrze-immunitetu-przyspiesza-jes,nId,8036851",
+  "title": "Nowy termin głosowania ws. Ziobry",
+  "score": 20,
+  "label": "not_clickbait",
+  "rationale": [
+    "Tytuł jest neutralny i informacyjny, nie zawiera fraz sensacyjnych ani absolutów.",
+    "Treść artykułu szczegółowo opisuje sytuację prawną Zbigniewa Ziobry, w tym szczegóły dotyczące głosowania.",
+    "Nie stwierdzono rozbieżności między tytułem a treścią, co wskazuje na zgodność.",
+    "Artykuł zawiera konkretne informacje, takie jak liczba przestępstw i kwoty, co zwiększa jego wiarygodność."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jest prosty i informuje o nowym terminie głosowania, nie używa przesadnych słów.",
+    "Artykuł dokładnie opisuje sytuację Zbigniewa Ziobry i szczegóły dotyczące głosowania.",
+    "Tytuł i treść są zgodne, co oznacza, że nie ma w nich sprzeczności.",
+    "W artykule podano konkretne liczby i fakty, co czyni go bardziej wiarygodnym."
+  ],
+  "summary": "Artykuł informuje o planowanym głosowaniu w Sejmie nad uchwałą w sprawie uchwały immunitetu Zbigniewa Ziobry, które ma się odbyć w najbliższy piątek. W treści przedstawiono szczegóły dotyczące wniosku prokuratury oraz zarzutów wobec byłego ministra sprawiedliwości, w tym podejrzenia o popełnienie 26 przestępstw związanych z Funduszem Sprawiedliwości.",
+  "signals": {
+    "title_hits": [],
+    "content_hits": [
+      "głosowanie",
+      "immunitetu",
+      "Zbigniewowi Ziobrze",
+      "25 lat więzienia",
+      "26 przestępstw"
+    ],
+    "credibility_hits": [
+      "dziennikarz RMF FM Michał Dobrołowicz",
+      "Prokuratura Krajowa",
+      "Rzeczniczka Prokuratora Generalnego prok. Anna Adamiak"
+    ],
+    "mismatch": {
+      "title": "Nowy termin głosowania ws. Ziobry",
+      "content": "Artykuł szczegółowo omawia głosowanie nad uchwałą immunitetu Zbigniewa Ziobry."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Termin głosowania nad immunitetem Zbigniewa Ziobry",
+    "notes_to_editor": "Tytuł jest informacyjny i nie wymaga zmiany, ale można rozważyć bardziej neutralną wersję."
+  },
+  "diagnostics": {
+    "tokens_title": 7,
+    "tokens_content": 420,
+    "processing_time_ms": 13542,
+    "model": "gpt-4o-mini"
+  }
+}

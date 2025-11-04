@@ -1,0 +1,49 @@
+{
+  "id": 1762020485939,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/tajemnie-drony-nad-lotniskiem-wojskowym-w-belgii-minister-obrony-alarmuje/91e7r0n",
+  "title": "Drony nad lotniskiem wojskowym w Belgii. Minister obrony alarmuje",
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera słowo 'alarmuje', co może sugerować dramatyzm sytuacji, ale nie jest to skrajnie sensacyjne.",
+    "Treść artykułu dostarcza konkretne informacje o incydencie z dronami i zawiera cytat ministra obrony, co zwiększa wiarygodność.",
+    "Nie występują w treści żadne frazy absolutne ani luk ciekawości.",
+    "Zidentyfikowano niewielką niezgodność między tytułem a treścią, ponieważ tytuł nie wskazuje na szczegóły dotyczące śledztwa."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'alarmuje', co może brzmieć dramatycznie, ale nie jest to przesadne.",
+    "Artykuł przedstawia konkretne fakty o dronach i zawiera wypowiedź ministra, co sprawia, że jest wiarygodny.",
+    "Nie ma w nim przesadnych stwierdzeń ani prób wzbudzenia ciekawości.",
+    "Tytuł i treść są w większości zgodne, ale tytuł nie wspomina o śledztwie, co może wprowadzać w błąd."
+  ],
+  "summary": "Artykuł informuje o zauważeniu kilku dronów nad lotniskiem wojskowym Kleine Brogel w Belgii. Minister obrony Theo Francken potwierdził, że system detekcji działa, a śledztwo w tej sprawie jest w toku. W artykule zawarto również podziękowania dla strażników za ich czujność.",
+  "signals": {
+    "title_hits": [
+      "alarmuje"
+    ],
+    "content_hits": [
+      "dronów",
+      "system detekcji",
+      "śledztwo"
+    ],
+    "credibility_hits": [
+      "Theo Francken",
+      "minister obrony"
+    ],
+    "mismatch": {
+      "title": "Drony nad lotniskiem wojskowym w Belgii. Minister obrony alarmuje",
+      "content": "Śledztwo jest w toku"
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Drony zauważone nad lotniskiem wojskowym w Belgii",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć dramatyzacji sytuacji."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 75,
+    "processing_time_ms": 13485,
+    "model": "gpt-4o-mini"
+  }
+}

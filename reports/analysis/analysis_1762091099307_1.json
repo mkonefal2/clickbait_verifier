@@ -1,0 +1,45 @@
+{
+  "id": 1762091099307,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/pogoda/polska-u-progu-wielkich-zmian-w-pogodzie-zbliza-sie-potezny-antycyklon/201kgst",
+  "title": "Potężny antycyklon weźmie Polskę w objęcia. Wtedy rozpocznie się długotrwała zmiana pogody",
+  "score": 65,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'potężny antycyklon' oraz 'długotrwała zmiana pogody', co zwiększa jego clickbaitowość.",
+    "Treść artykułu jest zgodna z tytułem, jednak użycie mocnych przymiotników w tytule wprowadza element sensacji.",
+    "W artykule nie ma cytatów ani konkretnych danych liczbowych, co obniża sygnały wiarygodności.",
+    "Wykryto lukę ciekawości w tytule, co może przyciągać czytelników."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów, które mogą przyciągać uwagę, jak 'potężny' i 'długotrwała zmiana'.",
+    "Treść artykułu odpowiada tytułowi, ale nie zawiera konkretnych danych ani cytatów, co może wpływać na postrzeganą wiarygodność.",
+    "Tytuł może wzbudzać ciekawość, co skłania do kliknięcia w artykuł."
+  ],
+  "summary": "Artykuł informuje o nadchodzącym antycyklonie, który przyniesie Polsce zmiany w pogodzie. Po chłodnym październiku, mieszkańcy mogą spodziewać się słonecznej i ciepłej aury, co ma trwać przez dłuższy czas. Prognozy wskazują na możliwość wystąpienia 'złotej polskiej jesieni'.",
+  "signals": {
+    "title_hits": [
+      "potężny",
+      "długotrwała zmiana"
+    ],
+    "content_hits": [
+      "potężny antycyklon",
+      "zmiany w pogodzie"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "exists": false,
+      "details": "Tytuł i treść są zgodne."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Antycyklon przyniesie zmiany w pogodzie w Polsce",
+    "notes_to_editor": "Rozważyć użycie mniej emocjonalnego języka w tytule."
+  },
+  "diagnostics": {
+    "tokens_title": 15,
+    "tokens_content": 97,
+    "processing_time_ms": 12808,
+    "model": "gpt-4o-mini"
+  }
+}

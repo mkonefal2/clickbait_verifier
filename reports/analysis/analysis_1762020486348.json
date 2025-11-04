@@ -1,0 +1,55 @@
+{
+  "id": 1762020486348,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/wendeta-na-krecie-rozlegly-sie-strzaly-nie-zyja-trzy-osoby/ekkxqnw",
+  "title": "Wendeta na Krecie. Rozległy się strzały, nie żyją trzy osoby",
+  "score": 62,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne ('Wendeta', 'rozległy się strzały', 'nie żyją trzy osoby'), co podnosi jego clickbaitowość.",
+    "Treść artykułu potwierdza informacje zawarte w tytule, ale nie dostarcza dodatkowych szczegółów, które mogłyby zaspokoić ciekawość czytelnika.",
+    "W artykule występują liczby (3 osoby zginęły, 10 rannych), co zwiększa jego wiarygodność.",
+    "Zidentyfikowano brak cytatów lub źródeł poza jednym odniesieniem do portalu Ekathimerini, co obniża ogólną ocenę wiarygodności.",
+    "Mismatched detection jest niski, ponieważ tytuł i treść są zgodne, ale tytuł jest bardziej dramatyczny niż treść."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów, które przyciągają uwagę, co sprawia, że jest bardziej sensacyjny.",
+    "Treść artykułu potwierdza to, co mówi tytuł, ale nie rozwija tematu w sposób, który mógłby zaspokoić ciekawość czytelników.",
+    "W artykule podano konkretne liczby, co sprawia, że jest bardziej wiarygodny.",
+    "Brakuje cytatów lub dodatkowych źródeł, co może wpływać na postrzeganą rzetelność informacji.",
+    "Tytuł jest bardziej dramatyczny niż sama treść artykułu."
+  ],
+  "summary": "Na Krecie doszło do strzelaniny, w wyniku której zginęły trzy osoby, a dziesięć zostało rannych. Zdarzenie miało cechy wendety i było związane z wcześniejszym podłożeniem ładunku wybuchowego w nowo wybudowanym domu. Informacje te zostały przekazane przez portal Ekathimerini.",
+  "signals": {
+    "title_hits": [
+      "Wendeta",
+      "strzały",
+      "nie żyją",
+      "trzy osoby"
+    ],
+    "content_hits": [
+      "trzy osoby zginęły",
+      "10 rannych",
+      "strzelanina",
+      "cechy wendety"
+    ],
+    "credibility_hits": [
+      "Polska Agencja Prasowa",
+      "Ekathimerini"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "title_is_dramatic": true
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Strzelanina na Krecie. Trzy osoby nie żyją, a dziesięć jest rannych",
+    "notes_to_editor": "Rozważyć dodanie więcej kontekstu i źródeł w artykule, aby zwiększyć jego wiarygodność."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 56,
+    "processing_time_ms": 14540,
+    "model": "gpt-4o-mini"
+  }
+}

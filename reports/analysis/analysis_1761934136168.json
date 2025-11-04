@@ -1,0 +1,54 @@
+{
+  "id": 1761934136168,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/poznan/poznan-byla-sprzataczka-skazana-za-podwojne-zabojstwo-seniorek/g0545cx",
+  "title": "Sprzątaczka skazana za dwa zabójstwa w Poznaniu. Odciski palców zdradziły Małgorzatę R.",
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'skazana za dwa zabójstwa', co może budzić emocje.",
+    "Treść artykułu jest zgodna z tytułem, co zmniejsza ryzyko mismatch.",
+    "W artykule pojawiają się konkretne liczby (30 lat więzienia) oraz nazwiska, co zwiększa wiarygodność.",
+    "W treści nie ma wyraźnych luk ciekawości, ale tytuł może sugerować większą sensacyjność niż rzeczywistość."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł artykułu zawiera dramatyczne sformułowania, które mogą przyciągać uwagę czytelników.",
+    "Treść artykułu jest zgodna z tytułem, co sprawia, że nie wprowadza w błąd.",
+    "Artykuł podaje konkretne informacje, takie jak długość kary, co zwiększa jego rzetelność.",
+    "Mimo że tytuł może wydawać się sensacyjny, treść nie zawiera nieuzasadnionych emocji ani przesady."
+  ],
+  "summary": "Artykuł opisuje sprawę Małgorzaty R., sprzątaczki skazanej na 30 lat więzienia za dwa brutalne zabójstwa starszych kobiet w Poznaniu. Odciski palców oskarżonej, które trafiły do bazy danych po wcześniejszych kradzieżach, pomogły w jej ujęciu. Motyw zbrodni pozostaje niejasny, a oskarżona miała być zła na ofiary za faworyzowanie jej męża.",
+  "signals": {
+    "title_hits": [
+      "zabójstwa",
+      "skazana",
+      "Odciski palców"
+    ],
+    "content_hits": [
+      "skazana",
+      "zabójstwa",
+      "odciski palców",
+      "30 lat więzienia"
+    ],
+    "credibility_hits": [
+      "Łukasz Cieśla",
+      "Jakub Kaczmarczyk / PAP",
+      "2023"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "title_sensationalism": true,
+      "content_clarity": true
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Sprzątaczka skazana na 30 lat więzienia za zabójstwo dwóch kobiet w Poznaniu.",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia sensacyjności."
+  },
+  "diagnostics": {
+    "tokens_title": 14,
+    "tokens_content": 174,
+    "processing_time_ms": 13289,
+    "model": "gpt-4o-mini"
+  }
+}

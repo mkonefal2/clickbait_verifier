@@ -1,0 +1,49 @@
+{
+  "id": 1762006160949,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/warszawa/polska-liderem-jestesmy-najwiekszym-producentem-swiec-i-zniczy-w-europie/8nvebse",
+  "title": "Polska największym producentem świec i zniczy w Europie. \"Wysoki poziom\"",
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazę 'największym producentem', co jest absolutem i może wzbudzać ciekawość.",
+    "W treści artykułu podano konkretne liczby dotyczące eksportu, co zwiększa wiarygodność.",
+    "Tytuł i treść są zgodne, ponieważ treść potwierdza, że Polska jest największym producentem świec i zniczy.",
+    "W artykule nie występują inne sensacyjne frazy, co obniża ogólny poziom clickbaitu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnego sformułowania, które może przyciągać uwagę.",
+    "Artykuł zawiera konkretne dane dotyczące eksportu, co sprawia, że jest bardziej wiarygodny.",
+    "Tytuł jest zgodny z treścią, ponieważ artykuł rzeczywiście mówi o Polsce jako największym producencie.",
+    "Nie ma w artykule przesadnych lub sensacyjnych stwierdzeń, co sprawia, że jest mniej clickbaitowy."
+  ],
+  "summary": "Artykuł informuje, że Polska jest największym producentem świec i zniczy w Europie, z eksportem wynoszącym około 700 mln euro w ubiegłym roku. Zawiera również informacje o rosnącej obecności produktów LED-owych z Azji, które stanowią około 14% rynku. Wypowiedź przedstawiciela branży, Łukasza Kuchty, podkreśla znaczenie polskiej produkcji.",
+  "signals": {
+    "title_hits": [
+      "największym producentem",
+      "Wysoki poziom"
+    ],
+    "content_hits": [
+      "700 mln euro",
+      "14 proc. rynku"
+    ],
+    "credibility_hits": [
+      "Polska Agencja Prasowa",
+      "Łukasz Kuchta"
+    ],
+    "mismatch": {
+      "exists": false,
+      "details": "Tytuł i treść są zgodne."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Polska liderem w produkcji świec i zniczy w Europie",
+    "notes_to_editor": "Rozważyć usunięcie frazy 'Wysoki poziom' dla większej neutralności."
+  },
+  "diagnostics": {
+    "tokens_title": 12,
+    "tokens_content": 103,
+    "processing_time_ms": 14369,
+    "model": "gpt-4o-mini"
+  }
+}

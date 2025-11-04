@@ -1,0 +1,51 @@
+{
+  "id": 1761920180494,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/masakra-w-szpitalu-w-al-faszir-who-alarmuje-o-masowych-egzekucjach-w-sudanie/stb15e9",
+  "title": "Masowe egzekucje w Sudanie. Miasto Al-Faszir pod kontrolą RSF",
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera słowo 'masowe', co jest absolutem i może budzić emocje.",
+    "Treść artykułu jest zgodna z tytułem, jednak nie zawiera dodatkowych sensacyjnych fraz.",
+    "W treści występują konkretne liczby (460 osób), co zwiększa wiarygodność.",
+    "Brak luk ciekawości w tytule, ponieważ informuje o konkretnej sytuacji.",
+    "Mismatching nie występuje, ponieważ tytuł i treść są spójne."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'masowe', co może przyciągać uwagę, ale nie jest przesadnie sensacyjny.",
+    "Treść artykułu odpowiada tytułowi i dostarcza konkretne informacje o sytuacji w Sudanie.",
+    "Podano konkretne liczby, co dodaje wiarygodności artykułowi.",
+    "Nie ma w tytule pytań ani niejasności, więc nie budzi to dodatkowej ciekawości.",
+    "Tytuł i treść są zgodne, co oznacza, że nie ma rozbieżności."
+  ],
+  "summary": "Artykuł informuje o masowych egzekucjach, które miały miejsce w szpitalu w Al-Faszir w Sudanie, po zajęciu miasta przez antyrządowe bojówki. Dyrektor generalny WHO alarmuje, że ponad 460 osób zostało zamordowanych, a tysiące mieszkańców nie miały możliwości ucieczki.",
+  "signals": {
+    "title_hits": [
+      "masowe",
+      "egzekucje"
+    ],
+    "content_hits": [
+      "460 osób",
+      "masowa egzekucja"
+    ],
+    "credibility_hits": [
+      "WHO",
+      "Tedros Adhanom Ghebreyesus"
+    ],
+    "mismatch": {
+      "exists": false,
+      "details": "Tytuł i treść są zgodne."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Egzekucje w Sudanie. Sytuacja w Al-Faszir",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć emocjonalnego ładunku."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 85,
+    "processing_time_ms": 14422,
+    "model": "gpt-4o-mini"
+  }
+}

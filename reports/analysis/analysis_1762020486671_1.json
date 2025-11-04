@@ -1,0 +1,51 @@
+{
+  "id": 1762020486671,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/wenezuela-prosi-o-pomoc-wojskowa-list-dostal-min-wladimir-putin/5q5hzfq",
+  "title": "Wenezuela prosi o pomoc wojskową. List dostał m.in. Władimir Putin",
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy wskazujące na prośbę o pomoc, co może budzić ciekawość, ale nie jest przesadnie sensacyjny.",
+    "Treść artykułu jest zgodna z tytułem, przedstawia konkretne informacje o prośbie Wenezueli o pomoc wojskową.",
+    "W artykule nie ma wyraźnych sygnałów wiarygodności, takich jak liczby czy cytaty, ale odniesienie do 'Washington Post' dodaje pewnej wiarygodności.",
+    "Nie wykryto znaczących luk ciekawości w treści, ponieważ artykuł dostarcza informacji na temat sytuacji."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jest interesujący, ale nie przesadnie dramatyczny, co sprawia, że artykuł nie jest mocno clickbaitowy.",
+    "Treść artykułu odpowiada tytułowi i dostarcza konkretne informacje o prośbie Wenezueli o wsparcie wojskowe.",
+    "Artykuł odnosi się do wiarygodnego źródła, co zwiększa jego rzetelność.",
+    "Nie ma w artykule niejasności, ponieważ dostarcza on pełnych informacji na temat sytuacji."
+  ],
+  "summary": "Artykuł informuje o prośbie prezydenta Wenezueli Nicolasa Maduro o pomoc wojskową od Rosji, Chin i Iranu w odpowiedzi na zwiększoną obecność amerykańską w regionie Karaibów. W szczególności Wenezuela potrzebuje wsparcia w zakresie radarów, naprawy samolotów oraz dostaw pocisków.",
+  "signals": {
+    "title_hits": [
+      "pomoc wojskową",
+      "Władimir Putin"
+    ],
+    "content_hits": [
+      "Wenezuela prosi o pomoc wojskową",
+      "Nicolas Maduro",
+      "rosyjskiej",
+      "Chin",
+      "Iran"
+    ],
+    "credibility_hits": [
+      "Washington Post"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "content_summary_match": true
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Wenezuela zwraca się o pomoc wojskową do Rosji, Chin i Iranu",
+    "notes_to_editor": "Artykuł jest informacyjny, ale tytuł mógłby być bardziej neutralny."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 83,
+    "processing_time_ms": 12620,
+    "model": "gpt-4o-mini"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": 1762180671011,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/ciekawostki/news-polacy-uwielbiaja-spedzac-tam-wakacje-eksperci-bija-na-alarm,nId,8037087",
+  "title": "Polacy uwielbiają spędzać tam wakacje. Eksperci biją na alarm: kąpieliska coraz brudniejsze",
+  "score": 62,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'biją na alarm', co sugeruje dramatyzm sytuacji.",
+    "W treści artykułu pojawiają się liczby i dane statystyczne, co zwiększa wiarygodność, ale również może być użyte do wzbudzenia emocji.",
+    "Zidentyfikowano niezgodność między tytułem a treścią, ponieważ tytuł sugeruje ogólną tendencję, podczas gdy treść koncentruje się na konkretnych danych dotyczących jakości wody.",
+    "W treści występują cytaty ekspertów, co podnosi poziom wiarygodności, ale także może być postrzegane jako technika clickbaitowa."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa dramatycznych sformułowań, co może przyciągać uwagę czytelników.",
+    "Artykuł zawiera konkretne dane i opinie ekspertów, co sprawia, że jest bardziej wiarygodny, ale też może wywoływać silniejsze emocje.",
+    "Tytuł może wprowadzać w błąd, sugerując, że problem dotyczy wszystkich kąpielisk, podczas gdy treść skupia się na konkretnych danych.",
+    "Cytaty ekspertów dodają autorytetu, ale mogą również być używane do zwiększenia dramatyzmu sytuacji."
+  ],
+  "summary": "Artykuł opisuje pogarszającą się jakość wody w kąpieliskach na Majorce, wskazując na spadek liczby miejsc ocenianych jako 'doskonałe'. Ekspert Joan Thomàs alarmuje, że głównym problemem są niedostatecznie oczyszczone ścieki. Władze planują modernizację infrastruktury wodno-kanalizacyjnej, aby poprawić sytuację.",
+  "signals": {
+    "title_hits": [
+      "uwielbiają",
+      "biją na alarm",
+      "brudniejsze"
+    ],
+    "content_hits": [
+      "spadł",
+      "89 procent",
+      "68 procent",
+      "21 punktów procentowych"
+    ],
+    "credibility_hits": [
+      "Joan Thomàs",
+      "dane",
+      "raporty"
+    ],
+    "mismatch": {
+      "title": "Polacy uwielbiają spędzać tam wakacje. Eksperci biją na alarm: kąpieliska coraz brudniejsze",
+      "content": "Artykuł koncentruje się na jakości wody w kąpieliskach na Majorce, a nie na ogólnym zachowaniu Polaków."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Pogarszająca się jakość wody w kąpieliskach na Majorce - eksperci alarmują",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 15,
+    "tokens_content": 487,
+    "processing_time_ms": 19732,
+    "model": "gpt-4o-mini"
+  }
+}

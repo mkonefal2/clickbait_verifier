@@ -1,0 +1,47 @@
+{
+  "id": 1762006148748,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/dzieci-obrzucily-dom-kamieniami-w-trakcie-halloween-gdzie-jest-granica/v46cq3v",
+  "title": "Incydent podczas Halloween. \"Wszystko dlatego, że nie otrzymaliście cukierków\"",
+  "score": 65,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'wszystko dlatego', co sugeruje dramatyzm sytuacji.",
+    "Treść artykułu opisuje incydent, ale nie dostarcza szczegółowych informacji, które mogłyby potwierdzić lub wyjaśnić tytuł.",
+    "W tytule użyto cudzysłowu, co może wzbudzać ciekawość czytelnika, ale nie jest to poparte w treści.",
+    "W treści występują słowa wywołujące emocje, takie jak 'bulwersujący' oraz 'niebezpieczny', co podnosi poziom clickbaitu.",
+    "Zidentyfikowano brak wiarygodnych sygnałów, takich jak cytaty lub liczby, które mogłyby wzmocnić autorytet artykułu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł artykułu używa dramatycznych fraz, co może przyciągać uwagę czytelników.",
+    "Treść opisuje incydent, ale nie wyjaśnia dokładnie, dlaczego dzieci obrzucały dom kamieniami.",
+    "Cytaty i konkretne dane są nieobecne, co osłabia wiarygodność informacji.",
+    "Słowa wywołujące emocje w treści mogą sprawić, że artykuł wydaje się bardziej sensacyjny."
+  ],
+  "summary": "Podczas Halloween w Zacharzewie grupa dzieci obrzuciła kamieniami dom kobiety, która nie otworzyła im drzwi. Incydent miał miejsce w piątkowy wieczór i został opisany jako niebezpieczny. Artykuł podkreśla emocjonalny charakter zdarzenia, ale nie dostarcza szczegółowych informacji na temat jego przyczyn.",
+  "signals": {
+    "title_hits": [
+      "wszystko dlatego",
+      "bulwersujący incydent"
+    ],
+    "content_hits": [
+      "bulwersujący",
+      "niebezpieczny incydent"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "title_content_mismatch": true,
+      "explanation": "Tytuł sugeruje, że jest to wyjaśnienie incydentu, podczas gdy treść nie dostarcza konkretnego kontekstu."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Incydent dzieci obrzucających dom kamieniami podczas Halloween",
+    "notes_to_editor": "Zaleca się unikanie dramatyzacji w tytule oraz dodanie więcej kontekstu w treści."
+  },
+  "diagnostics": {
+    "tokens_title": 14,
+    "tokens_content": 82,
+    "processing_time_ms": 17509,
+    "model": "gpt-4o-mini"
+  }
+}

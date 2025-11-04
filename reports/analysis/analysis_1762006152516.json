@@ -1,0 +1,51 @@
+{
+  "id": 1762006152516,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/aleksander-lukaszenko-roman-protasiewicz-jest-agentem-bialoruskiego-wywiadu/m7p7twk",
+  "title": "Łukaszenko: Roman Protasiewicz jest agentem białoruskiego wywiadu",
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera bezpośrednie stwierdzenie, które jest sensacyjne, ale nie zawiera absolutów ani luk ciekawości.",
+    "Treść artykułu jest zgodna z tytułem, co zmniejsza ryzyko mismatch.",
+    "W treści występują cytaty z wiarygodnego źródła, co podnosi jej wiarygodność.",
+    "W tytule nie ma przesadnych emocji ani dramatyzacji, ale użycie nazwiska znanej postaci politycznej może przyciągać uwagę."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł artykułu jasno przedstawia informację, która jest potwierdzona w treści.",
+    "Artykuł zawiera cytaty, co zwiększa jego wiarygodność.",
+    "Nie ma w nim przesadnych emocji ani dramatyzacji, ale temat jest kontrowersyjny, co może przyciągać uwagę.",
+    "Zgodność między tytułem a treścią zmniejsza wrażenie clickbaitu."
+  ],
+  "summary": "Artykuł informuje o stwierdzeniu Aleksandra Łukaszenki, który twierdzi, że Roman Protasiewicz, dotychczas uważany za opozycjonistę, jest agentem białoruskiego wywiadu. Informacja ta została przekazana przez białoruską agencję informacyjną BiełTA. Protasiewicz był współredaktorem opozycyjnego kanału Nexta, uznanego przez władze białoruskie za ekstremistyczny.",
+  "signals": {
+    "title_hits": [
+      "agentem",
+      "białoruskiego wywiadu"
+    ],
+    "content_hits": [
+      "Roman Protasiewicz",
+      "białoruskiego wywiadu",
+      "Aleksander Łukaszenko",
+      "BiełTA"
+    ],
+    "credibility_hits": [
+      "BiełTA",
+      "Aleksander Łukaszenko"
+    ],
+    "mismatch": {
+      "exists": false,
+      "details": "Tytuł i treść są zgodne."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Aleksander Łukaszenko twierdzi, że Roman Protasiewicz jest agentem wywiadu",
+    "notes_to_editor": "Rozważyć dodanie kontekstu historycznego dotyczącego Protasiewicza, aby zwiększyć zrozumienie tematu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 92,
+    "processing_time_ms": 14246,
+    "model": "gpt-4o-mini"
+  }
+}

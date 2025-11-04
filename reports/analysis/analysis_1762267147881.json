@@ -1,0 +1,48 @@
+{
+  "id": 1762267147881,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/donald-trump-grozi-nowemu-jorkowi-boi-sie-porazki/228rdyl",
+  "title": "Donald Trump szantażuje Nowy Jork. Decyzja miasta może być dla niego ciosem",
+  "score": 65,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne ('szantażuje', 'ciosem'), które mogą wzbudzać emocje.",
+    "Treść artykułu potwierdza tezę tytułu, jednak używa również bardziej neutralnego języka.",
+    "Wykryto brak cytatów lub konkretnych danych, co obniża wiarygodność.",
+    "Zidentyfikowano niezgodność między tytułem a treścią, ponieważ tytuł sugeruje większy dramatyzm niż przedstawiony w artykule.",
+    "Analiza wykazała, że tytuł ma 14 tokenów, a treść 135 tokenów, co wskazuje na różnice w długości."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów, które mogą przyciągać uwagę czytelników.",
+    "Treść artykułu rzeczywiście odnosi się do tytułu, ale jest mniej dramatyczna.",
+    "Brak konkretnych danych lub cytatów sprawia, że artykuł może wydawać się mniej wiarygodny.",
+    "Tytuł sugeruje większe napięcie, niż to, co jest opisane w artykule.",
+    "Tytuł jest krótki, a treść znacznie dłuższa, co może wpływać na postrzeganą wartość informacji."
+  ],
+  "summary": "Artykuł opisuje sytuację, w której Donald Trump grozi Nowemu Jorkowi ograniczeniem funduszy federalnych w przypadku wygranej lewicowego polityka Zohrana Mamdaniego w wyborach na burmistrza. Wskazuje na możliwe konsekwencje tej decyzji dla miasta oraz kontekst polityczny związany z nadchodzącymi wyborami.",
+  "signals": {
+    "title_hits": [
+      "szantażuje",
+      "ciosem"
+    ],
+    "content_hits": [
+      "szantażuje",
+      "ciosem"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "title": "Donald Trump szantażuje Nowy Jork. Decyzja miasta może być dla niego ciosem",
+      "content": "Donald Trump szantażuje Nowy Jork. Decyzja miasta może być dla niego ciosem"
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Donald Trump ostrzega Nowy Jork przed ograniczeniem funduszy federalnych",
+    "notes_to_editor": "Rozważyć dodanie cytatów lub danych, aby zwiększyć wiarygodność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 14,
+    "tokens_content": 135,
+    "processing_time_ms": 17662,
+    "model": "gpt-4o-mini"
+  }
+}

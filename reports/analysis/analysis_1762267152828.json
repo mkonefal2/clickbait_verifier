@@ -1,0 +1,49 @@
+{
+  "id": 1762267152828,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/warszawa/lokator-z-piekla-rodem-w-mieszkaniu-na-slowacji-okazalo-sie-ze-to-poszukiwany-polak/znm0vhx",
+  "title": "Lokator z piekła rodem. \"Piłował, wiercił, słychać było krzyki\". Poszukiwany Polak zdemolował życie sąsiadów w Bratysławie",
+  "score": 68,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'lokator z piekła rodem' oraz 'zdemolował życie sąsiadów', co podnosi jego clickbaitowość.",
+    "W treści występują również emocjonalne opisy sytuacji, co wzmacnia efekt sensacyjny.",
+    "Zidentyfikowano brak cytatów lub wiarygodnych źródeł, co obniża ocenę wiarygodności.",
+    "Występuje pewna niezgodność między tytułem a treścią, ponieważ tytuł sugeruje dramatyczne wydarzenia, które są opisane, ale nie w tak ekstremalny sposób.",
+    "Analiza wykazała, że tytuł ma 21 tokenów, a treść 266 tokenów."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów, które przyciągają uwagę, takich jak 'lokator z piekła rodem', co sprawia, że artykuł wydaje się bardziej dramatyczny.",
+    "W treści są emocjonalne opisy, które mogą wzbudzać ciekawość czytelników.",
+    "Brakuje jednak cytatów lub wiarygodnych źródeł, co może wpływać na postrzeganą rzetelność informacji.",
+    "Tytuł sugeruje bardzo dramatyczne wydarzenia, które są opisane w artykule, ale nie w tak ekstremalny sposób, co może wprowadzać w błąd.",
+    "Artykuł jest dość długi, co może wpływać na jego odbiór."
+  ],
+  "summary": "Artykuł opisuje sytuację Polaka, który wynajmował mieszkanie w Bratysławie i przestał płacić oraz nie chciał go opuścić. Właściciel mieszkania, zdesperowany, zwrócił się o pomoc do mediów, co doprowadziło do interwencji służb. Okazało się, że mężczyzna był poszukiwany w Polsce za różne przestępstwa, w tym groźby karalne.",
+  "signals": {
+    "title_hits": [
+      "lokator z piekła rodem",
+      "zdemolował życie sąsiadów"
+    ],
+    "content_hits": [
+      "przestał płacić",
+      "zdesperowany właściciel",
+      "poszukiwany"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "title": "Dramatyczny tytuł",
+      "content": "Opis sytuacji, ale nie tak dramatyczny jak tytuł"
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Polak poszukiwany w Polsce zatrzymany na Słowacji po problemach z wynajmem mieszkania",
+    "notes_to_editor": "Rozważyć użycie bardziej neutralnego tytułu, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 21,
+    "tokens_content": 266,
+    "processing_time_ms": 21242,
+    "model": "gpt-4o-mini"
+  }
+}

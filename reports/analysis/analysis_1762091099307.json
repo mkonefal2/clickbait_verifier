@@ -1,0 +1,48 @@
+{
+  "id": 1762091099307,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/pogoda/polska-u-progu-wielkich-zmian-w-pogodzie-zbliza-sie-potezny-antycyklon/201kgst",
+  "title": "Potężny antycyklon weźmie Polskę w objęcia. Wtedy rozpocznie się długotrwała zmiana pogody",
+  "score": 55,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne ('potężny antycyklon', 'długotrwała zmiana pogody'), co podnosi jego clickbaitowość.",
+    "Treść artykułu jest zgodna z tytułem, ale zawiera pewne elementy przesady, co wpływa na ocenę.",
+    "W tytule i treści występują absoluty ('potężny', 'wielkie zmiany'), co zwiększa stopień clickbaitu.",
+    "Nie znaleziono cytatów ani konkretnych danych liczbowych w treści, co obniża wiarygodność.",
+    "Zidentyfikowano niewielką niezgodność między tytułem a treścią, co wpływa na ocenę."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów, które mogą przyciągać uwagę, co sprawia, że jest bardziej clickbaitowy.",
+    "Treść artykułu odpowiada tytułowi, ale niektóre sformułowania mogą być przesadzone.",
+    "W tytule i treści pojawiają się słowa, które podkreślają intensywność sytuacji, co zwiększa wrażenie sensacyjności.",
+    "Artykuł nie zawiera cytatów ani konkretnych danych, co może wpływać na jego wiarygodność.",
+    "Zauważono drobne różnice między tytułem a treścią, co również wpływa na ocenę."
+  ],
+  "summary": "Artykuł informuje o nadchodzącym antycyklonie, który ma przynieść zmiany w pogodzie w Polsce. Po chłodnym październiku, prognozy wskazują na poprawę warunków atmosferycznych, z większą ilością słońca i wyższymi temperaturami. Zmiany te mają trwać przez dłuższy czas, co zapowiada 'złotą polską jesień'.",
+  "signals": {
+    "title_hits": [
+      "potężny",
+      "długotrwała zmiana pogody"
+    ],
+    "content_hits": [
+      "potężny antycyklon",
+      "wielkich zmian w pogodzie"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "title": "Potężny antycyklon weźmie Polskę w objęcia. Wtedy rozpocznie się długotrwała zmiana pogody",
+      "content": "Potężny antycyklon na długo zawładnie Polską. Znamy datę nadejścia wielkich zmian w pogodzie"
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Antycyklon przyniesie zmiany w pogodzie w Polsce",
+    "notes_to_editor": "Rozważyć użycie mniej emocjonalnych sformułowań w tytule, aby zwiększyć wiarygodność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 15,
+    "tokens_content": 102,
+    "processing_time_ms": 19337,
+    "model": "gpt-4o-mini"
+  }
+}

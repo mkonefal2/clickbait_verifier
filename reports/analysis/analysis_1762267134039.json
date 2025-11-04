@@ -1,0 +1,52 @@
+{
+  "id": 1762267134039,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/warszawa/news-7-latek-zasnal-majac-w-buzi-zelki-nie-zyje,nId,8037045",
+  "title": "7-latek nie żyje, zadławił się żelkami",
+  "score": 60,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazę 'nie żyje', co jest absolutem i może wzbudzać silne emocje.",
+    "Treść artykułu jest zgodna z tytułem, jednak sposób przedstawienia zdarzenia może wywoływać sensację.",
+    "W treści występują konkretne liczby (wiek dziecka) oraz cytat od rzecznika pogotowia, co zwiększa wiarygodność.",
+    "Wykryto lukę ciekawości w tytule, która może skłaniać do kliknięcia."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów, które mogą przyciągać uwagę i wywoływać emocje.",
+    "Treść artykułu jest zgodna z tytułem, ale sposób opisu tragedii może być uznany za sensacyjny.",
+    "Artykuł zawiera konkretne informacje i cytaty, co sprawia, że jest bardziej wiarygodny.",
+    "Tytuł może budzić ciekawość, co skłania do kliknięcia."
+  ],
+  "summary": "W artykule opisano tragiczną sytuację, w której 7-letni chłopiec z Warszawy zmarł po zadławieniu się żelkami. Dziecko zasnęło z słodyczami w buzi, a rodzice odkryli, że nie oddycha. Mimo wysiłków ratowników, nie udało się go uratować. Rzecznik pogotowia apeluje do rodziców o ostrożność przy podawaniu słodyczy dzieciom przed snem.",
+  "signals": {
+    "title_hits": [
+      "nie żyje",
+      "zadławił się"
+    ],
+    "content_hits": [
+      "7-latek",
+      "zadławił się",
+      "ratownicy",
+      "walczyli o jego życie"
+    ],
+    "credibility_hits": [
+      "Michał Radkowski",
+      "Piotr Owczarski",
+      "Wojewódzkiej Stacji Pogotowia Ratunkowego"
+    ],
+    "mismatch": {
+      "is_mismatch": false,
+      "details": "Tytuł jest zgodny z treścią artykułu."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Tragiczny wypadek: 7-latek zmarł po zadławieniu się żelkami",
+    "notes_to_editor": "Zaleca się unikanie emocjonalnych sformułowań w tytule, aby zachować neutralność."
+  },
+  "diagnostics": {
+    "tokens_title": 7,
+    "tokens_content": 215,
+    "processing_time_ms": 15151,
+    "model": "gpt-4o-mini"
+  }
+}

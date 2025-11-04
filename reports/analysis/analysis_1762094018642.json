@@ -1,0 +1,50 @@
+{
+  "id": 1762094018642,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/warszawa/news-poscig-zakonczony-uderzeniem-w-drzewo-policjant-trafil-do-sz,nId,8036858",
+  "title": "Pościg zakończony uderzeniem w drzewo. Policjant trafił do szpitala",
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'pościg zakończony' i 'trafił do szpitala', co może wzbudzać ciekawość.",
+    "Treść artykułu jest zgodna z tytułem, jednak nie dostarcza dodatkowych informacji, które mogłyby potwierdzić dramatyzm sytuacji.",
+    "W artykule nie występują liczby ani cytaty, co obniża poziom wiarygodności.",
+    "Wykryto lukę ciekawości w tytule, ponieważ nie podano szczegółów dotyczących stanu zdrowia policjanta.",
+    "Analiza wykazała, że tytuł i treść są spójne, co zmniejsza ryzyko oceny jako clickbait."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł przyciąga uwagę, używając dramatycznych sformułowań, co może skłonić do kliknięcia.",
+    "Treść artykułu odpowiada tytułowi, ale nie dostarcza wielu szczegółów, które mogłyby wyjaśnić sytuację.",
+    "Brak konkretów, takich jak liczby czy cytaty, sprawia, że artykuł wydaje się mniej wiarygodny.",
+    "Tytuł sugeruje, że coś dramatycznego się wydarzyło, ale nie wyjaśnia, co dokładnie się stało z policjantem."
+  ],
+  "summary": "Artykuł opisuje incydent, w którym policjant został ranny podczas pościgu w Pęcicach koło Pruszkowa. Funkcjonariusz trafił do szpitala po tym, jak samochód policyjny uderzył w drzewo. Kierowca, którego próbowano zatrzymać, wciąż jest poszukiwany.",
+  "signals": {
+    "title_hits": [
+      "pościg",
+      "zakończony",
+      "trafił do szpitala"
+    ],
+    "content_hits": [
+      "policjant",
+      "rany",
+      "pościg",
+      "szpital"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "title_content_match": true,
+      "content_detail_level": "low"
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Policjant ranny podczas pościgu w Pęcicach",
+    "notes_to_editor": "Rozważyć dodanie więcej szczegółów dotyczących stanu zdrowia policjanta oraz kontekstu sytuacji."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 126,
+    "processing_time_ms": 14699,
+    "model": "gpt-4o-mini"
+  }
+}

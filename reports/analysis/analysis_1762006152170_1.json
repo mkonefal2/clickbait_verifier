@@ -1,0 +1,51 @@
+{
+  "id": 1762006152170,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/politico/w-koalicji-friedricha-merza-wrze-coraz-wiecej-punktow-zapalnych/vmxqz8z",
+  "title": "Niemcy pogrążają się w impasie. Strach przed skrajną prawicą paraliżuje rząd",
+  "score": 62,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'pogrążają się w impasie' i 'strach przed skrajną prawicą', co wskazuje na emocjonalny ładunek.",
+    "Treść artykułu opisuje problemy polityczne w Niemczech, ale nie dostarcza wystarczających dowodów na potwierdzenie dramatyzmu tytułu.",
+    "W artykule występują liczby i cytaty, co zwiększa jego wiarygodność, ale tytuł sugeruje większy kryzys niż ten opisany w treści.",
+    "Wykryto niezgodność między tytułem a treścią, ponieważ tytuł sugeruje paraliż rządu, podczas gdy treść koncentruje się na wewnętrznych sporach koalicyjnych."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa dramatycznych sformułowań, które mogą przyciągać uwagę, ale niekoniecznie odzwierciedlają rzeczywistość opisaną w artykule.",
+    "Artykuł omawia problemy polityczne w Niemczech, ale nie potwierdza tak silnych stwierdzeń jak w tytule.",
+    "W treści znajdują się liczby i cytaty, co sprawia, że jest bardziej wiarygodna, ale tytuł wydaje się przesadzony.",
+    "Zauważono różnice między tym, co mówi tytuł, a tym, co jest w artykule, co może wprowadzać w błąd."
+  ],
+  "summary": "Artykuł opisuje sytuację polityczną w Niemczech pod rządami kanclerza Friedricha Merza. Wskazuje na wewnętrzne napięcia w koalicji oraz rosnące wpływy skrajnej prawicy, które paraliżują władze w podejmowaniu reform. Problemy takie jak kryzys gospodarczy i kontrowersje dotyczące poboru do wojska są głównymi tematami tekstu.",
+  "signals": {
+    "title_hits": [
+      "pogrążają się w impasie",
+      "strach przed skrajną prawicą"
+    ],
+    "content_hits": [
+      "koalicja w Niemczech",
+      "AfD rośnie w siłę",
+      "strach przed skrajną prawicą"
+    ],
+    "credibility_hits": [
+      "Friedrich Merz",
+      "Nette Noestlinger",
+      "Chris Lunday"
+    ],
+    "mismatch": {
+      "title": "Niemcy pogrążają się w impasie. Strach przed skrajną prawicą paraliżuje rząd",
+      "content": "Koalicja w Niemczech się chwieje, a AfD rośnie w siłę."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Sytuacja polityczna w Niemczech: wewnętrzne napięcia w koalicji i rosnące wpływy skrajnej prawicy",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 13,
+    "tokens_content": 166,
+    "processing_time_ms": 22039,
+    "model": "gpt-4o-mini"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": 1762006142106,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/poznan/news-poznan-darmowa-komunikacja-miejska-na-wszystkich-swietych,nId,8036775",
+  "title": "Poznań: Darmowa komunikacja miejska na Wszystkich Świętych",
+  "score": 15,
+  "label": "not_clickbait",
+  "rationale": [
+    "Tytuł jest informacyjny i bezpośrednio odnosi się do treści artykułu, nie zawiera fraz sensacyjnych ani luk ciekawości.",
+    "Treść artykułu dostarcza konkretne informacje o darmowej komunikacji miejskiej w Poznaniu, w tym szczegóły dotyczące linii tramwajowych i autobusowych.",
+    "Nie wykryto żadnych sygnałów wiarygodności, które mogłyby podnieść ocenę clickbaitu.",
+    "Brak mismatchu między tytułem a treścią, ponieważ treść dokładnie odpowiada tytułowi."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jasno informuje o darmowej komunikacji w Poznaniu, co jest zgodne z treścią artykułu.",
+    "Artykuł szczegółowo opisuje, jak działa darmowa komunikacja, jakie linie są dostępne i jakie są godziny kursowania.",
+    "Nie znaleziono przesłanek, które mogłyby sugerować, że artykuł jest clickbaitowy.",
+    "Tytuł i treść są spójne, więc nie ma rozbieżności między nimi."
+  ],
+  "summary": "Artykuł informuje o darmowej komunikacji miejskiej w Poznaniu w dniu Wszystkich Świętych. Wskazuje, że wszystkie linie autobusowe i tramwajowe będą dostępne bezpłatnie, a także podaje szczegóły dotyczące wzmocnienia kursów tramwajowych w rejonie cmentarzy. Dodatkowo zawiera wypowiedź dyrektora ZTM na temat zachęcania do korzystania z komunikacji.",
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "Cytat od Jan Gosiewski, dyrektor ZTM",
+      "Informacje o wzmocnieniu linii tramwajowych"
+    ],
+    "mismatch": {
+      "is_mismatch": false,
+      "details": "Tytuł i treść są zgodne."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Darmowa komunikacja miejska w Poznaniu na Wszystkich Świętych",
+    "notes_to_editor": "Artykuł jest dobrze napisany i nie wymaga poprawek."
+  },
+  "diagnostics": {
+    "tokens_title": 8,
+    "tokens_content": 203,
+    "processing_time_ms": 13149,
+    "model": "gpt-4o-mini"
+  }
+}

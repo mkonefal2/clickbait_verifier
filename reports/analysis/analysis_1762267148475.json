@@ -1,0 +1,43 @@
+{
+  "id": 1762267148475,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/nie-zyje-dick-cheney-byly-wiceprezydent-usa/rxhhbsc",
+  "title": "Nie żyje Dick Cheney, były wiceprezydent USA",
+  "score": 10,
+  "label": "not_clickbait",
+  "rationale": [
+    "Tytuł jest bezpośredni i informacyjny, nie zawiera fraz sensacyjnych ani luk ciekawości.",
+    "Treść artykułu jest zgodna z tytułem, dostarczając podstawowych informacji o zmarłym polityku.",
+    "Nie wykryto żadnych sygnałów clickbaitowych w treści ani w tytule.",
+    "Artykuł zawiera cytat z CNN, co zwiększa jego wiarygodność."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jasno informuje o śmierci Dicka Cheneya, co jest zgodne z treścią artykułu.",
+    "Artykuł nie używa sensacyjnych zwrotów ani nie stawia pytań, które mogłyby budzić ciekawość.",
+    "Podano źródło informacji, co zwiększa zaufanie do artykułu.",
+    "Nie ma rozbieżności między tytułem a treścią, co świadczy o rzetelności."
+  ],
+  "summary": "Artykuł informuje o śmierci Dicka Cheneya, byłego wiceprezydenta USA, który zmarł w wieku 84 lat. Informacje pochodzą z oświadczenia jego rodziny oraz relacji CNN, która podkreśla jego rolę jako wpływowego polityka w czasach rządów George'a W. Busha.",
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "CNN",
+      "oświadczenie rodziny"
+    ],
+    "mismatch": {
+      "exists": false,
+      "details": ""
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Zmarł Dick Cheney, były wiceprezydent USA",
+    "notes_to_editor": "Artykuł jest rzetelny i nie zawiera elementów clickbaitowych."
+  },
+  "diagnostics": {
+    "tokens_title": 8,
+    "tokens_content": 85,
+    "processing_time_ms": 12977,
+    "model": "gpt-4o-mini"
+  }
+}

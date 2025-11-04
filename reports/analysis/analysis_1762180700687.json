@@ -1,0 +1,51 @@
+{
+  "id": 1762180700687,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/rzeszow/cialo-18-latka-w-zablotce-48-latek-aresztowany-druga-osoba-w-rekach-policji/pd7trfv",
+  "title": "Dwie osoby zatrzymane po tragedii w wsi Zabłotce. Policja ujawnia nowe szczegóły",
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy, które mogą wzbudzać ciekawość, takie jak 'tragedii' i 'nowe szczegóły'.",
+    "Treść artykułu jest zgodna z tytułem, ale nie zawiera żadnych sensacyjnych fraz ani absolutów.",
+    "W artykule pojawiają się informacje o zatrzymaniach, co jest zgodne z tytułem, ale nie ma wyraźnych sygnałów wiarygodności, poza cytatem z prokuratury.",
+    "Wykryto niewielką lukę ciekawości, ponieważ tytuł sugeruje więcej informacji, niż jest zawarte w treści."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł artykułu używa słów, które mogą przyciągać uwagę, jak 'tragedii' i 'nowe szczegóły'.",
+    "Treść artykułu odpowiada tytułowi, ale nie zawiera przesadnych stwierdzeń ani dramatyzacji.",
+    "W artykule są informacje o zatrzymaniach, co jest zgodne z tytułem, ale brakuje dodatkowych źródeł czy statystyk.",
+    "Tytuł sugeruje, że artykuł zawiera więcej informacji, niż w rzeczywistości jest podane."
+  ],
+  "summary": "Artykuł opisuje sprawę tajemniczej śmierci 18-latka z Sanoka, którego ciało znaleziono we wsi Zabłotce. Zatrzymano dwie osoby, w tym 48-letniego mieszkańca wsi, który został aresztowany na trzy miesiące. Policja zabezpieczyła woreczek z białą substancją w pobliżu miejsca zdarzenia, a śledczy nie wykluczają zmiany kwalifikacji sprawy.",
+  "signals": {
+    "title_hits": [
+      "tragedii",
+      "nowe szczegóły"
+    ],
+    "content_hits": [
+      "tajemnicza śmierć",
+      "zatrzymano dwie osoby",
+      "48-letni mieszkaniec",
+      "aresztowany"
+    ],
+    "credibility_hits": [
+      "TVN24",
+      "Prokuratura Rejonowa w Sanoku"
+    ],
+    "mismatch": {
+      "title": "Dwie osoby zatrzymane po tragedii w wsi Zabłotce. Policja ujawnia nowe szczegóły",
+      "content": "Tajemnicza śmierć 18-latka z Sanoka. Dwie osoby zatrzymane, jedna trafiła do aresztu"
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Zatrzymano dwie osoby w sprawie śmierci 18-latka w wsi Zabłotce",
+    "notes_to_editor": "Rozważyć dodanie więcej szczegółów dotyczących okoliczności zdarzenia oraz źródeł informacji."
+  },
+  "diagnostics": {
+    "tokens_title": 14,
+    "tokens_content": 114,
+    "processing_time_ms": 21363,
+    "model": "gpt-4o-mini"
+  }
+}

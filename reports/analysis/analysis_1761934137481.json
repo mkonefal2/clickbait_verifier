@@ -1,0 +1,49 @@
+{
+  "id": 1761934137481,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/nikt-nie-wie-co-mial-na-mysli-zapowiedz-donalda-trumpa-o-wznowieniu-testow/7ej1zbp",
+  "title": "\"Lekkomyślna i niebezpieczna\". Zapowiedź Trumpa wywołuje konsternację w Kongresie",
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy emocjonalne ('lekkomyślna', 'niebezpieczna'), co zwiększa jego clickbaitowość.",
+    "Treść artykułu odnosi się do konkretnej sytuacji, jednak używa sensacyjnych określeń.",
+    "W artykule występują cytaty, co podnosi jego wiarygodność.",
+    "Zidentyfikowano niezgodność między tytułem a treścią, ponieważ tytuł sugeruje silniejsze emocje niż te, które są przedstawione w treści."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów, które mogą przyciągać uwagę, co sprawia, że jest bardziej sensacyjny.",
+    "Artykuł opisuje konkretne wydarzenie, ale emocjonalny język w tytule może wprowadzać w błąd.",
+    "Cytaty w artykule zwiększają jego wiarygodność.",
+    "Tytuł może sugerować większe kontrowersje niż te, które są faktycznie przedstawione w treści."
+  ],
+  "summary": "Artykuł opisuje zapowiedź Donalda Trumpa o wznowieniu testów nuklearnych, która wywołała konsternację w Kongresie. Były ambasador USA w Polsce, Daniel Fried, skrytykował tę deklarację, twierdząc, że jest ona nieprzemyślana i osłabia pozycję Ameryki w kwestii kontroli zbrojeń.",
+  "signals": {
+    "title_hits": [
+      "lekkomyślna",
+      "niebezpieczna"
+    ],
+    "content_hits": [
+      "konsternacja",
+      "zapowiedź",
+      "testów nuklearnych"
+    ],
+    "credibility_hits": [
+      "Daniel Fried"
+    ],
+    "mismatch": {
+      "title": "Tytuł sugeruje silniejsze emocje niż te przedstawione w treści.",
+      "content": "Treść koncentruje się na faktach i opiniach, a nie na sensacyjnych stwierdzeniach."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Zapowiedź Trumpa o wznowieniu testów nuklearnych budzi kontrowersje w Kongresie",
+    "notes_to_editor": "Rozważyć użycie neutralnego języka w tytule, aby lepiej odzwierciedlić treść artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 13,
+    "tokens_content": 139,
+    "processing_time_ms": 14167,
+    "model": "gpt-4o-mini"
+  }
+}

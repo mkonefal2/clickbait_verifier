@@ -1,0 +1,49 @@
+{
+  "id": 1762180694367,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/szymon-holownia-nie-zjawil-sie-na-przesluchaniu-wybral-wyjazd-w-dalekie-miejsce/l3q8j8k",
+  "title": "Hołownia nie zjawił się na przesłuchaniu. Pojechał do kraju w Afryce",
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy sugerujące sensację, takie jak 'nie zjawił się' i 'pojechał do kraju w Afryce', co może budzić ciekawość.",
+    "Treść artykułu jest zgodna z tytułem, jednak nie dostarcza dodatkowych informacji, które mogłyby wyjaśnić kontekst.",
+    "W artykule występują cytaty oraz odniesienia do źródeł, co zwiększa jego wiarygodność.",
+    "Analiza wykazała, że tytuł i treść są spójne, co zmniejsza ryzyko clickbaitu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł artykułu używa zwrotów, które mogą przyciągać uwagę, sugerując coś kontrowersyjnego.",
+    "Treść artykułu odpowiada tytułowi, ale brakuje w niej głębszego kontekstu, co mogłoby bardziej zainteresować czytelników.",
+    "Artykuł zawiera cytaty i odniesienia, co sprawia, że jest bardziej wiarygodny.",
+    "Tytuł i treść są zgodne, co zmniejsza wrażenie, że artykuł jest typowym clickbaitowym."
+  ],
+  "summary": "Szymon Hołownia nie stawił się na przesłuchaniu w sprawie swoich wypowiedzi o 'zamachu stanu'. Z informacji uzyskanych od Kancelarii Sejmu wynika, że obecnie przebywa w Etiopii, gdzie składa oficjalną wizytę w Addis Abebie.",
+  "signals": {
+    "title_hits": [
+      "nie zjawił się",
+      "pojechał do kraju w Afryce"
+    ],
+    "content_hits": [
+      "Szymon Hołownia nie stawił się na przesłuchaniu",
+      "oficjalną wizytę w Etiopii"
+    ],
+    "credibility_hits": [
+      "Wirtualna Polska ustaliła",
+      "Kancelarii Sejmu"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "content_depth": "low"
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Szymon Hołownia nie zjawił się na przesłuchaniu i przebywa w Etiopii",
+    "notes_to_editor": "Rozważyć dodanie większej ilości kontekstu dotyczącego sytuacji Hołowni."
+  },
+  "diagnostics": {
+    "tokens_title": 12,
+    "tokens_content": 86,
+    "processing_time_ms": 14929,
+    "model": "gpt-4o-mini"
+  }
+}

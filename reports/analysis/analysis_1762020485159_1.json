@@ -1,0 +1,49 @@
+{
+  "id": 1762020485159,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/samia-suluhu-hassan-zdobyla-98-proc-poparcia-opozycja-grzmi-o-parodii/gbnw55j",
+  "title": "Samia Suluhu Hassan zdobyła 98 proc. poparcia. Opozycja grzmi o parodii",
+  "score": 55,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'grzmi o parodii', co może wzbudzać ciekawość.",
+    "Treść artykułu dostarcza konkretnych informacji, jednak użycie emocjonalnego języka w opisie reakcji opozycji wpływa na ocenę clickbaitu.",
+    "Występuje pewne niedopasowanie między tytułem a treścią, ponieważ tytuł sugeruje kontrowersję, podczas gdy treść koncentruje się na faktach.",
+    "W artykule pojawiają się cytaty i odniesienia do źródeł, co zwiększa jego wiarygodność."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa emocjonalnego języka, co może przyciągać uwagę czytelników.",
+    "Artykuł zawiera konkretne informacje, ale sposób przedstawienia reakcji opozycji może wydawać się przesadzony.",
+    "Tytuł sugeruje kontrowersję, ale treść koncentruje się na faktach, co może wprowadzać w błąd.",
+    "W artykule są cytaty i odniesienia do źródeł, co sprawia, że jest bardziej wiarygodny."
+  ],
+  "summary": "Artykuł informuje o wygranej Samii Suluhu Hassan w wyborach prezydenckich w Tanzanii, gdzie zdobyła 98 proc. głosów. Opozycja krytycznie ocenia te wyniki, nazywając je 'parodią demokracji'. W artykule przytoczono wypowiedzi przedstawicieli opozycji oraz odniesienia do oficjalnych danych.",
+  "signals": {
+    "title_hits": [
+      "98 proc. poparcia",
+      "opozycja grzmi o parodii"
+    ],
+    "content_hits": [
+      "98 proc. poparcia",
+      "parodia demokracji"
+    ],
+    "credibility_hits": [
+      "Polska Agencja Prasowa",
+      "AFP"
+    ],
+    "mismatch": {
+      "title": "Tytuł sugeruje kontrowersję, która nie jest w pełni odzwierciedlona w treści.",
+      "content": "Treść koncentruje się na faktach, ale używa emocjonalnego języka."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Samia Suluhu Hassan zdobyła 98 proc. głosów w wyborach prezydenckich w Tanzanii.",
+    "notes_to_editor": "Rozważyć bardziej neutralny język w tytule, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 15,
+    "tokens_content": 98,
+    "processing_time_ms": 21398,
+    "model": "gpt-4o-mini"
+  }
+}

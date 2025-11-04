@@ -1,0 +1,50 @@
+{
+  "id": 1762085983377,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/polska/news-wyciekly-m-in-numery-pesel-atak-hakerski-na-serwis-z-pozyczk,nId,8036839",
+  "title": "Wyciekły m.in. numery PESEL",
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazę 'm.in.', co może sugerować, że nie wszystkie informacje są ujawnione, co budzi ciekawość.",
+    "W treści artykułu występują konkretne dane, takie jak liczba osób dotkniętych wyciekiem (10 tysięcy), co zwiększa wiarygodność informacji.",
+    "Zidentyfikowano kilka fraz sensacyjnych, ale nie są one dominujące w treści.",
+    "Tytuł jest zgodny z treścią, nie ma istotnych rozbieżności."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł sugeruje, że artykuł dotyczy wycieku danych osobowych, co jest zgodne z jego treścią.",
+    "W artykule podano konkretne liczby i informacje, co sprawia, że jest bardziej wiarygodny.",
+    "Choć tytuł może budzić ciekawość, nie jest przesadnie sensacyjny.",
+    "Nie znaleziono znaczących rozbieżności między tytułem a treścią."
+  ],
+  "summary": "Artykuł informuje o ataku hakerskim na serwis SuperGrosz, który skutkował wyciekiem danych osobowych użytkowników, w tym numerów PESEL, adresów i numerów telefonów. Minister cyfryzacji apeluje do klientów o ostrożność oraz zaleca podjęcie działań zabezpieczających, takich jak zastrzeżenie numeru PESEL i zmiana haseł.",
+  "signals": {
+    "title_hits": [
+      "m.in."
+    ],
+    "content_hits": [
+      "wyciek",
+      "hakerzy",
+      "numery PESEL",
+      "10 tysięcy"
+    ],
+    "credibility_hits": [
+      "minister cyfryzacji",
+      "Krzysztof Gawkowski"
+    ],
+    "mismatch": {
+      "exists": false,
+      "details": ""
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Atak hakerski na serwis SuperGrosz - wyciek danych osobowych",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 5,
+    "tokens_content": 215,
+    "processing_time_ms": 11872,
+    "model": "gpt-4o-mini"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": 1762085994351,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/lublin/news-gruzin-i-ukrainiec-wlamali-sie-do-domu-co-im-grozi,nId,8036845",
+  "title": "Gruzin i Ukrainiec włamali się do domu. Co im grozi?",
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera pytanie, co może wzbudzać ciekawość, ale nie zawiera ekstremalnych fraz sensacyjnych.",
+    "Treść artykułu jest zgodna z tytułem, opisując konkretne zdarzenie i jego konsekwencje.",
+    "W treści występują liczby (wiek zatrzymanych) oraz konkretne informacje o przestępstwie, co zwiększa wiarygodność.",
+    "Nie znaleziono znaczących sygnałów clickbaitowych w treści, ale tytuł może być uznany za lekko sensacyjny ze względu na pytanie."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zadaje pytanie, co może przyciągać uwagę, ale nie jest przesadnie dramatyczny.",
+    "Artykuł dokładnie opisuje incydent i jego skutki, co jest zgodne z tytułem.",
+    "W artykule podano konkretne informacje, takie jak wiek zatrzymanych, co sprawia, że jest bardziej wiarygodny.",
+    "Nie znaleziono w treści przesadnych stwierdzeń, ale tytuł może być postrzegany jako lekko sensacyjny."
+  ],
+  "summary": "Artykuł opisuje incydent włamania do domu w gminie Kłoczew, gdzie zatrzymano dwóch mężczyzn: 32-letniego Gruzina i 33-letniego Ukraińca. Złodzieje ukradli biżuterię i pieniądze, a także zniszczyli elementy okna. Obaj mężczyźni usłyszeli zarzuty i zostali aresztowani na dwa miesiące, grozi im do 10 lat więzienia.",
+  "signals": {
+    "title_hits": [
+      "włamali się",
+      "co im grozi"
+    ],
+    "content_hits": [
+      "zatrzymano",
+      "kradzieżą",
+      "aresztowaniu",
+      "grozi do 10 lat"
+    ],
+    "credibility_hits": [
+      "32-letni Gruzin",
+      "33-letni Ukrainiec",
+      "Prokuratura Rejonowa w Rykach"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "title_summary_match": true
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Zatrzymano Gruzina i Ukraińca za włamanie do domu",
+    "notes_to_editor": "Rozważyć zmianę tytułu na bardziej neutralny, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 156,
+    "processing_time_ms": 13696,
+    "model": "gpt-4o-mini"
+  }
+}

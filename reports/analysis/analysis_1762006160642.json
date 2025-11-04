@@ -1,0 +1,42 @@
+{
+  "id": 1762006160642,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/warszawa/od-dzis-nocna-prohibicja-w-warszawie-na-poczatku-w-dwoch-dzielnicach/k8zq5f8",
+  "title": "Od dziś nocna prohibicja w Warszawie. Na początku w dwóch dzielnicach",
+  "score": 15,
+  "label": "not_clickbait",
+  "rationale": [
+    "Tytuł nie zawiera fraz sensacyjnych ani absolutów.",
+    "Treść artykułu jest zgodna z tytułem, co zmniejsza ryzyko clickbaitu.",
+    "W artykule podano konkretne informacje o zakazie sprzedaży alkoholu w dwóch dzielnicach.",
+    "Brak luk ciekawości, ponieważ tytuł jasno informuje o temacie.",
+    "Nie znaleziono sygnałów wiarygodności, takich jak cytaty czy liczby."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jest prosty i informacyjny, nie zawiera przesadnych słów.",
+    "Treść artykułu odpowiada tytułowi, co sprawia, że jest wiarygodna.",
+    "Artykuł podaje konkretne informacje o nowym zakazie w Warszawie.",
+    "Nie ma w nim żadnych niejasności, które mogłyby wzbudzać ciekawość.",
+    "Brak dodatkowych źródeł lub cytatów, które mogłyby zwiększyć wiarygodność."
+  ],
+  "summary": "Artykuł informuje o wprowadzeniu nocnej prohibicji na sprzedaż alkoholu w Warszawie, która zacznie obowiązywać od godziny 22.00 w dwóch dzielnicach: Śródmieściu i Pradze-Północ. Zakaz dotyczy sklepów, stacji benzynowych oraz lokali gastronomicznych. Prohibicja ma charakter pilotażowy.",
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [],
+    "mismatch": {
+      "title": "Od dziś nocna prohibicja w Warszawie. Na początku w dwóch dzielnicach",
+      "content": "Od dziś nocna prohibicja w Warszawie. Na początku w dwóch dzielnicach"
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Wprowadzenie nocnej prohibicji na sprzedaż alkoholu w Warszawie",
+    "notes_to_editor": "Artykuł jest informacyjny i nie wymaga zmian."
+  },
+  "diagnostics": {
+    "tokens_title": 14,
+    "tokens_content": 66,
+    "processing_time_ms": 12657,
+    "model": "gpt-4o-mini"
+  }
+}

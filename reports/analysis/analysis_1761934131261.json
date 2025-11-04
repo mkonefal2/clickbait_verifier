@@ -1,0 +1,51 @@
+{
+  "id": 1761934131261,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/donald-tusk-zapowiada-kolejne-rozliczenia-bezwstydnie-okradali-polske/576tkfr",
+  "title": "Donald Tusk zapowiada rozliczenia. \"Kradli zgodnie z procedurami\"",
+  "score": 62,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'Kradli zgodnie z procedurami', co sugeruje dramatyczny kontekst.",
+    "Treść artykułu odnosi się do poważnych oskarżeń, co zwiększa emocjonalny ładunek.",
+    "Wykryto niezgodność między tytułem a treścią, ponieważ tytuł sugeruje konkretne oskarżenia, które nie są w pełni rozwinięte w treści.",
+    "Obecność cytatów z Donalda Tuska oraz odniesienia do konkretnych wydarzeń zwiększa wiarygodność artykułu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł artykułu używa mocnych słów, co może przyciągać uwagę czytelników.",
+    "Artykuł porusza poważne oskarżenia, co dodaje emocji do treści.",
+    "Tytuł i treść nie do końca się zgadzają, ponieważ tytuł sugeruje konkretne oskarżenia, które nie są szczegółowo opisane w artykule.",
+    "Cytaty i odniesienia do wydarzeń zwiększają zaufanie do informacji przedstawionych w artykule."
+  ],
+  "summary": "Donald Tusk zapowiedział przyspieszenie rozliczeń dotyczących działań rządu PiS. W rozmowie z TVP odniósł się do różnych afer, w tym do sprawy działki pod CPK oraz rekordowego zadłużenia Polski. Premier podkreślił, że odkrywane są nowe nieprawidłowości z czasów poprzedniego rządu.",
+  "signals": {
+    "title_hits": [
+      "Kradli",
+      "rozliczenia"
+    ],
+    "content_hits": [
+      "Bezwstydnie okradali Polskę",
+      "rozliczenia",
+      "sprawy bardzo poważne"
+    ],
+    "credibility_hits": [
+      "Donald Tusk",
+      "TVP",
+      "Jarosław Kaczyński"
+    ],
+    "mismatch": {
+      "title": "Kradli zgodnie z procedurami",
+      "content": "Bezwstydnie okradali Polskę"
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Donald Tusk zapowiada rozliczenia dotyczące rządów PiS",
+    "notes_to_editor": "Zaleca się unikanie mocnych sformułowań w tytule, aby lepiej odzwierciedlić treść artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 112,
+    "processing_time_ms": 14434,
+    "model": "gpt-4o-mini"
+  }
+}

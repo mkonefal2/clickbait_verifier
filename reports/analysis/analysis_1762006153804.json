@@ -1,0 +1,50 @@
+{
+  "id": 1762006153804,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/nadchodzi-nowa-era-nuklearna-swiat-drzy-po-slowach-trumpa/e781prm",
+  "title": "Nuklearna gra Trumpa wywołuje ciarki u światowych przywódców. \"Wkrótce się przekonacie\"",
+  "score": 68,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'ciarki' i 'wkrótce się przekonacie', które wzbudzają emocje.",
+    "Treść artykułu odnosi się do kontrowersyjnych wypowiedzi Trumpa, co potwierdza obecność fraz związanych z niepewnością i strachem.",
+    "W artykule występują cytaty, co zwiększa jego wiarygodność, ale nie ma konkretnych danych liczbowych ani źródeł.",
+    "Występuje niezgodność między tytułem a treścią, ponieważ tytuł sugeruje dramatyczne emocje, które nie są w pełni odzwierciedlone w treści."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa emocjonalnych słów, które przyciągają uwagę, jak 'ciarki' i 'wkrótce się przekonacie'.",
+    "Artykuł dotyczy kontrowersyjnych wypowiedzi Trumpa, co może budzić niepokój.",
+    "Zawiera cytaty, co sprawia, że jest bardziej wiarygodny, ale brakuje konkretnych danych.",
+    "Tytuł i treść nie do końca się zgadzają, ponieważ tytuł sugeruje większe napięcie, niż jest w artykule."
+  ],
+  "summary": "Artykuł opisuje kontrowersyjne wypowiedzi Donalda Trumpa dotyczące wznowienia testów broni jądrowej, które wywołują niepokój wśród światowych przywódców. Zawiera opinie ekspertów na temat możliwych konsekwencji tej decyzji oraz obawy związane z bezpieczeństwem międzynarodowym.",
+  "signals": {
+    "title_hits": [
+      "ciarki",
+      "wkrótce się przekonacie"
+    ],
+    "content_hits": [
+      "bezprecedensowy krok",
+      "lekkomyślna decyzja",
+      "nowa era nuklearna"
+    ],
+    "credibility_hits": [
+      "Alex Raufoglu",
+      "Donald Trump"
+    ],
+    "mismatch": {
+      "title": "Nuklearna gra Trumpa wywołuje ciarki u światowych przywódców. 'Wkrótce się przekonacie'",
+      "content": "Słowa Donalda Trumpa o wznowieniu testów broni jądrowej zelektryzowały nie tylko Demokratów w USA, ale i światowych przywódców."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Trump komentuje wznowienie testów broni jądrowej, budząc obawy wśród przywódców.",
+    "notes_to_editor": "Zaleca się unikanie emocjonalnych fraz w tytule, aby zwiększyć obiektywność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 17,
+    "tokens_content": 144,
+    "processing_time_ms": 15693,
+    "model": "gpt-4o-mini"
+  }
+}

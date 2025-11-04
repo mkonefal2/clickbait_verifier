@@ -1,0 +1,50 @@
+{
+  "id": 1762267121858,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/polska/news-grzegorz-braun-laureatem-nagrody-pokoju-i-praw-czlowieka,nId,8037410",
+  "title": "Grzegorz Braun laureatem Nagrody Pokoju i Praw Człowieka",
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera imię i nazwisko osoby oraz informację o nagrodzie, co jest neutralne, ale może budzić ciekawość.",
+    "Treść artykułu zawiera sensacyjne informacje na temat fundacji przyznającej nagrodę oraz kontrowersji związanych z laureatem.",
+    "W artykule występują liczby i cytaty, co podnosi jego wiarygodność.",
+    "Zidentyfikowano pewne niezgodności między tytułem a treścią, ale nie są one drastyczne."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł informuje o nagrodzie, co jest neutralne, ale może przyciągać uwagę.",
+    "Artykuł opisuje kontrowersje związane z fundacją, która przyznała nagrodę, oraz z osobą laureata.",
+    "W tekście są liczby i cytaty, co sprawia, że jest bardziej wiarygodny.",
+    "Tytuł i treść są w dużej mierze zgodne, ale niektóre szczegóły mogą budzić wątpliwości."
+  ],
+  "summary": "Grzegorz Braun został laureatem Nagrody Pokoju i Praw Człowieka, przyznawanej przez kontrowersyjną fundację powiązaną z reżimem białoruskim. Artykuł opisuje również wcześniejsze kontrowersje związane z Braunem oraz decyzje Parlamentu Europejskiego dotyczące uchwały immunitetu. Fundacja, która przyznała nagrodę, ma historię wspierania osób związanych z reżimami autorytarnymi.",
+  "signals": {
+    "title_hits": [],
+    "content_hits": [
+      "nagrody",
+      "kontrowersyjna fundacja",
+      "sympatyzujący z Putinem",
+      "gróźb",
+      "skandaliczna wypowiedź"
+    ],
+    "credibility_hits": [
+      "cytaty z OKO.press",
+      "liczby dotyczące immunitetu",
+      "źródła informacji o fundacji"
+    ],
+    "mismatch": {
+      "title": "Grzegorz Braun laureatem Nagrody Pokoju i Praw Człowieka",
+      "content": "Nagroda przyznawana przez kontrowersyjną fundację, co nie jest podkreślone w tytule."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Grzegorz Braun otrzymał Nagrodę Pokoju i Praw Człowieka od kontrowersyjnej fundacji",
+    "notes_to_editor": "Rozważyć dodanie kontekstu dotyczącego fundacji w tytule, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 280,
+    "processing_time_ms": 16833,
+    "model": "gpt-4o-mini"
+  }
+}

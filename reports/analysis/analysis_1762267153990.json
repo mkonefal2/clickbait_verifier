@@ -1,0 +1,49 @@
+{
+  "id": 1762267153990,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/wroclaw/smierc-8-latki-w-kudowie-zdroju-zwrot-w-sprawie-rpo-zaskarza-wyrok/3pnq6kg",
+  "title": "Śmierć 8-latki w Kudowie-Zdroju. Zwrot w sprawie. RPO zaskarża wyrok",
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy emocjonalne, takie jak 'śmierć' i 'zwrot w sprawie', co może wzbudzać ciekawość.",
+    "Treść artykułu jest zgodna z tytułem, nie ma istotnych rozbieżności.",
+    "W artykule występują odniesienia do źródeł, co podnosi jego wiarygodność.",
+    "Nie znaleziono wyraźnych sygnałów clickbaitowych w treści, ale tytuł może być uznany za nieco sensacyjny."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera emocjonalne słowa, które mogą przyciągać uwagę czytelników.",
+    "Treść artykułu odpowiada tytułowi, więc nie ma w niej sprzeczności.",
+    "Artykuł odnosi się do wiarygodnych źródeł, co zwiększa jego rzetelność.",
+    "Choć tytuł może być nieco sensacyjny, treść nie zawiera przesadnych informacji."
+  ],
+  "summary": "Artykuł opisuje sprawę śmierci 8-letniej dziewczynki w Kudowie-Zdroju, która miała miejsce trzy lata temu. Kierowca, który spowodował wypadek, uciekł z miejsca zdarzenia, a wyrok w jego sprawie został uznany za zbyt łagodny. Rzecznik Praw Obywatelskich zaskarżył ten wyrok, domagając się jego ponownego rozpatrzenia przez Sąd Najwyższy.",
+  "signals": {
+    "title_hits": [
+      "śmierć",
+      "zwrot w sprawie"
+    ],
+    "content_hits": [
+      "śmierć 8-latki",
+      "RPO zaskarża wyrok"
+    ],
+    "credibility_hits": [
+      "Rzecznik Praw Obywatelskich",
+      "Gazeta Wyborcza"
+    ],
+    "mismatch": {
+      "exists": false,
+      "details": "Tytuł jest zgodny z treścią."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Rzecznik Praw Obywatelskich zaskarża wyrok w sprawie śmierci 8-latki w Kudowie-Zdroju",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć sensacyjności."
+  },
+  "diagnostics": {
+    "tokens_title": 13,
+    "tokens_content": 129,
+    "processing_time_ms": 19040,
+    "model": "gpt-4o-mini"
+  }
+}

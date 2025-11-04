@@ -1,0 +1,48 @@
+{
+  "id": 1762006152170,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/politico/w-koalicji-friedricha-merza-wrze-coraz-wiecej-punktow-zapalnych/vmxqz8z",
+  "title": "Niemcy pogrążają się w impasie. Strach przed skrajną prawicą paraliżuje rząd",
+  "score": 58,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'pogrążają się w impasie' oraz 'paraliżuje rząd', co sugeruje dramatyzm sytuacji.",
+    "Treść artykułu odnosi się do problemów politycznych w Niemczech, ale nie dostarcza konkretnych danych ani cytatów, co wpływa na wiarygodność.",
+    "Zauważono niezgodność między tytułem a treścią, ponieważ tytuł sugeruje silniejszy dramatyzm niż przedstawiony w artykule.",
+    "W artykule występują ogólne stwierdzenia dotyczące sytuacji politycznej, ale brak jest konkretnych liczb lub źródeł, co obniża jego wiarygodność."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów, które mogą przyciągać uwagę, co sprawia, że wygląda na sensacyjny.",
+    "Artykuł opisuje problemy polityczne w Niemczech, ale nie zawiera wielu konkretów ani cytatów, co może wpływać na postrzeganą wiarygodność.",
+    "Tytuł i treść nie do końca się zgadzają, ponieważ tytuł sugeruje większy dramatyzm niż to, co jest opisane w artykule.",
+    "W artykule brakuje konkretnych danych, co może sprawić, że wydaje się mniej wiarygodny."
+  ],
+  "summary": "Artykuł omawia kryzys polityczny w Niemczech pod rządami kanclerza Friedricha Merza. Wskazuje na rosnące napięcia w koalicji rządowej oraz obawy związane z wpływem skrajnej prawicy, które paraliżują działania reformacyjne rządu. Problemy obejmują m.in. kwestie związane z poborem do wojska i emeryturami.",
+  "signals": {
+    "title_hits": [
+      "pogrążają się w impasie",
+      "strach przed skrajną prawicą",
+      "paraliżuje rząd"
+    ],
+    "content_hits": [
+      "koalicja w Niemczech",
+      "AfD rośnie w siłę",
+      "strach przed skrajną prawicą"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "title": "Niemcy pogrążają się w impasie. Strach przed skrajną prawicą paraliżuje rząd",
+      "content": "Koalicja w Niemczech się chwieje, a AfD rośnie w siłę."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Kryzys polityczny w Niemczech: wyzwania dla koalicji rządowej",
+    "notes_to_editor": "Zaleca się dodanie konkretnych danych i cytatów, aby zwiększyć wiarygodność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 14,
+    "tokens_content": 210,
+    "processing_time_ms": 16829,
+    "model": "gpt-4o-mini"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": 1762180693591,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/slawomir-mentzen-odpowiada-poslom-pis-mam-dla-was-propozycje/eh5znsd",
+  "title": "Sławomir Mentzen odpowiada posłom PiS. \"Mam dla was propozycję\"",
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazę 'mam dla was propozycję', co może budzić ciekawość, ale nie jest to skrajnie sensacyjne.",
+    "Treść artykułu odnosi się bezpośrednio do tytułu, co zmniejsza ryzyko niezgodności.",
+    "W treści pojawiają się emocjonalne wypowiedzi Mentzena, co może być uznane za element clickbaitowy.",
+    "Brak konkretnych danych liczbowych lub cytatów z wiarygodnych źródeł, co osłabia sygnały wiarygodności."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł sugeruje, że Mentzen ma coś ważnego do powiedzenia, co może przyciągać uwagę.",
+    "Treść artykułu jest zgodna z tytułem, co jest pozytywne, ponieważ nie wprowadza w błąd.",
+    "W artykule znajdują się emocjonalne wypowiedzi, co może sprawiać wrażenie sensacyjności.",
+    "Brakuje jednak konkretnych danych lub źródeł, co może wpływać na postrzeganą wiarygodność informacji."
+  ],
+  "summary": "Sławomir Mentzen w swoim wpisie na platformie X odnosi się do krytyki ze strony posłów PiS, zarzucając im kłamstwo i manipulację. Wskazuje na potrzebę odpowiedzi na ich ataki, aby nie pozwolić na wprowadzenie w błąd opinii publicznej. Wspomina o dwóch politykach PiS, Mariuszu Błaszczaku i Radosławie Fogielu.",
+  "signals": {
+    "title_hits": [
+      "mam dla was propozycję"
+    ],
+    "content_hits": [
+      "kłamać",
+      "manipulować",
+      "obrażać"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "title_content_match": true,
+      "title_content_similarity": 0.8
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Sławomir Mentzen odpowiada na krytykę posłów PiS",
+    "notes_to_editor": "Rozważyć dodanie źródeł lub danych liczbowych dla zwiększenia wiarygodności artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 90,
+    "processing_time_ms": 14796,
+    "model": "gpt-4o-mini"
+  }
+}

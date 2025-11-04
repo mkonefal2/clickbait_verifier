@@ -1,0 +1,49 @@
+{
+  "id": 1762180689131,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/co-sie-dzieje-w-akademii-policji-w-szczytnie-nie-zycze-najgorszemu-wrogowi/zl9jx6y",
+  "title": "Co się dzieje w Akademii Policji w Szczytnie. \"Nie życzę najgorszemu wrogowi\"",
+  "score": 65,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazę sensacyjną \"Nie życzę najgorszemu wrogowi\", co podnosi jego clickbaitowość.",
+    "Treść artykułu opisuje konkretne przypadki mobbingu, co jest zgodne z tytułem, ale nie wyjaśnia w pełni kontekstu.",
+    "W tytule i treści występuje pewien poziom niezgodności, ponieważ tytuł sugeruje szerszą narrację, podczas gdy treść koncentruje się na dwóch przypadkach.",
+    "Artykuł zawiera cytaty i konkretne informacje, co podnosi jego wiarygodność."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera emocjonalne stwierdzenie, które może przyciągać uwagę czytelników.",
+    "Treść artykułu dotyczy przypadków mobbingu w Akademii Policji, co jest zgodne z tytułem, ale nie wyjaśnia całej sytuacji.",
+    "Tytuł sugeruje, że sprawa jest bardziej dramatyczna, niż to przedstawiono w artykule.",
+    "Artykuł zawiera cytaty i konkretne dane, co czyni go bardziej wiarygodnym."
+  ],
+  "summary": "Artykuł opisuje przypadki mobbingu w Akademii Policji w Szczytnie, gdzie dwóch pracowników zgłosiło nieprawidłowości, a w odpowiedzi zostali zwolnieni. Obie sprawy są obecnie badane przez prokuraturę. W artykule przedstawiono także wypowiedzi osób dotkniętych tymi sytuacjami.",
+  "signals": {
+    "title_hits": [
+      "Nie życzę najgorszemu wrogowi"
+    ],
+    "content_hits": [
+      "mobbing",
+      "zwolnienie",
+      "prokuratura"
+    ],
+    "credibility_hits": [
+      "cytaty",
+      "konkretne przypadki"
+    ],
+    "mismatch": {
+      "title": "Co się dzieje w Akademii Policji w Szczytnie. \"Nie życzę najgorszemu wrogowi\"",
+      "content": "Opis przypadków mobbingu i reakcji uczelni."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Przypadki mobbingu w Akademii Policji w Szczytnie",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby zmniejszyć clickbaitowość."
+  },
+  "diagnostics": {
+    "tokens_title": 14,
+    "tokens_content": 120,
+    "processing_time_ms": 14243,
+    "model": "gpt-4o-mini"
+  }
+}

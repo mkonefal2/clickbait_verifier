@@ -1,0 +1,49 @@
+{
+  "id": 1762267139505,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/donald-tusk-uderza-w-politykow-pis-uzyli-wladzy-by-zdobyc-wielkie-pieniadze/vggl0kf",
+  "title": "Ostry wpis Donalda Tuska o politykach PiS. \"Użyli władzy, by zdobyć pieniądze\"",
+  "score": 62,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'ostry wpis' i 'zdobyć pieniądze', co wskazuje na clickbaitowość.",
+    "Treść artykułu odnosi się do krytyki polityków PiS przez Donalda Tuska, co jest zgodne z tytułem.",
+    "W tytule i treści występują absoluty, co zwiększa poziom clickbaitu.",
+    "W artykule pojawia się cytat z Donalda Tuska, co dodaje wiarygodności, ale nie neutralizuje clickbaitowego charakteru tytułu.",
+    "Wykryto mismatch, ponieważ tytuł sugeruje bardziej dramatyczny ton niż treść artykułu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa emocjonalnych słów, co może przyciągać uwagę, ale również sugeruje, że artykuł jest bardziej sensacyjny.",
+    "Treść artykułu rzeczywiście dotyczy krytyki polityków PiS przez Donalda Tuska, co jest zgodne z tym, co obiecuje tytuł.",
+    "W artykule pojawia się cytat, co sprawia, że jest bardziej wiarygodny, ale tytuł nadal brzmi dramatycznie.",
+    "Tytuł może sugerować większy skandal niż to, co faktycznie jest opisane w artykule."
+  ],
+  "summary": "Donald Tusk skrytykował polityków Prawa i Sprawiedliwości, porównując ich do rosyjskich oligarchów. W swoim wpisie na platformie X stwierdził, że w Polsce politycy użyli władzy, aby zdobyć wielkie pieniądze. Artykuł przedstawia jego wypowiedź oraz kontekst krytyki.",
+  "signals": {
+    "title_hits": [
+      "ostry wpis",
+      "zdobyć pieniądze"
+    ],
+    "content_hits": [
+      "ostry wpis",
+      "porównał polityków PiS do rosyjskich oligarchów"
+    ],
+    "credibility_hits": [
+      "cytat z Donalda Tuska"
+    ],
+    "mismatch": {
+      "title": "Ostry wpis Donalda Tuska o politykach PiS. \"Użyli władzy, by zdobyć pieniądze\"",
+      "content": "Premier Donald Tusk skrytykował polityków Prawa i Sprawiedliwości."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Donald Tusk krytykuje polityków PiS za wykorzystanie władzy dla zysku",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia sensacyjności."
+  },
+  "diagnostics": {
+    "tokens_title": 14,
+    "tokens_content": 66,
+    "processing_time_ms": 16629,
+    "model": "gpt-4o-mini"
+  }
+}

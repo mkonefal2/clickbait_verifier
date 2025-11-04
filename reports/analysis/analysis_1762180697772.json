@@ -1,0 +1,51 @@
+{
+  "id": 1762180697772,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/lodz/igly-w-cukierkach-podczas-halloween-w-lodzi-policja-ujawnila-szczegoly/fg257jh",
+  "title": "Dzieci w Łodzi dostały cukierki z igłami. Policja ujawniła sprawczynię. Spore zaskoczenie",
+  "score": 62,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'cukierki z igłami' oraz 'spore zaskoczenie', co zwiększa jego clickbaitowość.",
+    "Treść artykułu dostarcza informacji o niebezpiecznej sytuacji, ale nie wykracza poza to, co jest obiecane w tytule.",
+    "Wykryto niewielką niezgodność między tytułem a treścią, ponieważ tytuł sugeruje większe zaskoczenie niż to, które jest opisane w artykule.",
+    "W artykule znajdują się cytaty z policji, co zwiększa jego wiarygodność.",
+    "Zastosowane liczby i konkretne informacje o wydarzeniu również wspierają wiarygodność treści."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera sensacyjne elementy, które mogą przyciągać uwagę czytelników.",
+    "Artykuł opisuje sytuację związaną z niebezpiecznymi cukierkami, co jest zgodne z tym, co obiecuje tytuł.",
+    "Jednak tytuł sugeruje większe zaskoczenie, niż to, które jest przedstawione w treści.",
+    "W artykule są cytaty z policji, co sprawia, że jest on bardziej wiarygodny.",
+    "Podano konkretne informacje, co również zwiększa zaufanie do treści."
+  ],
+  "summary": "Artykuł opisuje incydent, w którym dzieci w Łodzi otrzymały cukierki z metalowymi igłami podczas Halloween. Policja zidentyfikowała sprawczynię, która była małoletnią dziewczynką, i określiła sytuację jako niefortunny żart. Rzecznik prasowy zgierskiej policji komentuje również możliwe konsekwencje dla dziecka.",
+  "signals": {
+    "title_hits": [
+      "cukierki z igłami",
+      "spore zaskoczenie"
+    ],
+    "content_hits": [
+      "cukierki z igłami",
+      "niesmaczny żart"
+    ],
+    "credibility_hits": [
+      "'niesmacznego żartu'",
+      "sierż. sztab. Bartłomiej Arcimowicz"
+    ],
+    "mismatch": {
+      "title": "spore zaskoczenie",
+      "content": "niefortunny żart"
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Dzieci w Łodzi otrzymały cukierki z igłami, policja zidentyfikowała sprawczynię.",
+    "notes_to_editor": "Zaleca się unikanie sensacyjnych fraz w tytule, aby zwiększyć obiektywność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 15,
+    "tokens_content": 102,
+    "processing_time_ms": 18288,
+    "model": "gpt-4o-mini"
+  }
+}

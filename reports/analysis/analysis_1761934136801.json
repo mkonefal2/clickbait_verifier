@@ -1,0 +1,52 @@
+{
+  "id": 1761934136801,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/slask/sasiedzi-nie-widzieli-jej-27-lat-pani-mirella-zostala-przesluchana-w-sadzie/msb1v3v",
+  "title": "Sąsiedzi nie widzieli pani Mirelli przez 27 lat. Dziś była w sądzie",
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy wywołujące ciekawość, takie jak 'nie widzieli przez 27 lat', co może sugerować sensacyjność.",
+    "Treść artykułu jest zgodna z tytułem, ale brakuje w niej szczegółowych informacji, które mogłyby potwierdzić wiarygodność.",
+    "W treści nie występują żadne cytaty ani liczby, które mogłyby zwiększyć jej wiarygodność.",
+    "Mismatched detection jest minimalny, ponieważ tytuł i treść są spójne, ale tytuł jest bardziej sensacyjny niż treść."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł przyciąga uwagę, używając intrygującej informacji o tym, że sąsiedzi nie widzieli pani Mirelli przez 27 lat.",
+    "Treść artykułu potwierdza tytuł, ale nie dostarcza wielu szczegółów, co może budzić wątpliwości co do pełnej wiarygodności.",
+    "Brak cytatów i konkretów w treści sprawia, że artykuł wydaje się mniej rzetelny.",
+    "Tytuł i treść są zgodne, ale tytuł jest bardziej dramatyczny niż sama historia."
+  ],
+  "summary": "Artykuł opisuje sytuację pani Mirelli, która została przesłuchana w sądzie po 27 latach, w trakcie których nie była widziana przez sąsiadów. Istnieją podejrzenia, że mogła być przetrzymywana w domu. Informacje pochodzą z relacji mediów, w tym RMF FM.",
+  "signals": {
+    "title_hits": [
+      "27 lat",
+      "nie widzieli",
+      "dziś była w sądzie"
+    ],
+    "content_hits": [
+      "27 lat",
+      "przesłuchana",
+      "podejrzenie",
+      "psychologa"
+    ],
+    "credibility_hits": [
+      "Polska Agencja Prasowa",
+      "RMF FM"
+    ],
+    "mismatch": {
+      "exists": false,
+      "details": "Tytuł i treść są spójne."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Pani Mirella przesłuchana w sądzie po 27 latach nieobecności wśród sąsiadów",
+    "notes_to_editor": "Rozważyć dodanie więcej szczegółów i cytatów, aby zwiększyć wiarygodność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 11,
+    "tokens_content": 66,
+    "processing_time_ms": 13543,
+    "model": "gpt-4o-mini"
+  }
+}

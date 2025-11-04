@@ -1,0 +1,50 @@
+{
+  "id": 1762267138106,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/sport/pilka-nozna/news-ogromne-wyroznienie-dla-beckhama-krol-karol-iii-uhonorowal-l,nId,8037425",
+  "title": "Ogromne wyróżnienie dla Beckhama. Król Karol III uhonorował legendę futbolu",
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazę 'ogromne wyróżnienie', co jest wyrazem emocjonalnym, a także użycie słowa 'legenda' może być uznane za absolut.",
+    "Treść artykułu jest zgodna z tytułem, opisując uhonorowanie Beckhama przez króla Karola III.",
+    "W artykule znajdują się liczby, takie jak 115 występów w reprezentacji, co podnosi wiarygodność.",
+    "Nie ma istotnych niezgodności między tytułem a treścią, co zmniejsza ryzyko clickbaitu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa emocjonalnych słów, co może przyciągać uwagę, ale nie jest przesadnie sensacyjny.",
+    "Artykuł dokładnie opisuje wydarzenie, które jest zapowiedziane w tytule.",
+    "Podano konkretne liczby i osiągnięcia Beckhama, co sprawia, że tekst jest bardziej wiarygodny.",
+    "Nie występują znaczące różnice między tytułem a treścią, co jest pozytywne."
+  ],
+  "summary": "David Beckham został uhonorowany tytułem szlacheckim przez króla Karola III podczas ceremonii na zamku Windsor. Beckham, były kapitan reprezentacji Anglii, został pasowany na rycerza za swoje osiągnięcia sportowe oraz działalność charytatywną. Uroczystość odbyła się w towarzystwie jego żony, Victorii, która również otrzymała tytuł Lady Beckham.",
+  "signals": {
+    "title_hits": [
+      "ogromne wyróżnienie",
+      "legenda futbolu"
+    ],
+    "content_hits": [
+      "tytuł szlachecki",
+      "pasowany na rycerza",
+      "król Karol III"
+    ],
+    "credibility_hits": [
+      "115 razy",
+      "Ambasador Dobrej Woli UNICEF"
+    ],
+    "mismatch": {
+      "exists": false,
+      "details": "Tytuł i treść są spójne."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "David Beckham uhonorowany tytułem szlacheckim przez króla Karola III",
+    "notes_to_editor": "Tytuł mógłby być bardziej neutralny, aby uniknąć emocjonalnego wydźwięku."
+  },
+  "diagnostics": {
+    "tokens_title": 14,
+    "tokens_content": 366,
+    "processing_time_ms": 22434,
+    "model": "gpt-4o-mini"
+  }
+}

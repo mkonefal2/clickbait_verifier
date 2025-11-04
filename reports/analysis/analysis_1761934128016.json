@@ -1,0 +1,51 @@
+{
+  "id": 1761934128016,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/raporty/raport-wojna-z-rosja/news-tomahawki-dla-ukrainy-pentagon-dal-zielone-swiatlo-trumpowi,nId,8036710",
+  "title": "Pentagon dał zgodę na Tomahawki dla Ukrainy",
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazę 'zgodę', co może sugerować sensacyjność, ale nie jest to absolut.",
+    "Treść artykułu odnosi się bezpośrednio do decyzji Pentagonu, co jest zgodne z tytułem.",
+    "W artykule występują liczby (zasięg rakiet), co zwiększa wiarygodność.",
+    "Nie znaleziono znaczących luk ciekawości w treści.",
+    "Występują cytaty, co również podnosi poziom wiarygodności."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł sugeruje, że Pentagon podjął ważną decyzję, co jest zgodne z treścią artykułu.",
+    "Artykuł zawiera konkretne informacje o decyzji oraz reakcjach, co czyni go wiarygodnym.",
+    "W treści są liczby i cytaty, co dodaje jej autorytetu.",
+    "Nie ma w artykule niejasnych lub przesadnych stwierdzeń, które mogłyby wprowadzać w błąd."
+  ],
+  "summary": "Artykuł informuje o decyzji Pentagonu dotyczącej przekazania Ukrainie rakiet Tomahawk. Prezydent Donald Trump ma ostatecznie zatwierdzić tę decyzję, która budzi emocje w USA i Rosji. W artykule przedstawiono również obawy dotyczące użycia rakiet przez Ukrainę oraz reakcje europejskich sojuszników.",
+  "signals": {
+    "title_hits": [
+      "zgodę"
+    ],
+    "content_hits": [
+      "rakiet Tomahawk",
+      "decyzja Pentagonu",
+      "rozmowa z Władimirem Putinem"
+    ],
+    "credibility_hits": [
+      "CNN",
+      "źródła amerykańskiej stacji",
+      "cytaty"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "title_summary_match": true
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Pentagon rozważa przekazanie rakiet Tomahawk Ukrainie",
+    "notes_to_editor": "Artykuł jest dobrze zbilansowany, ale tytuł mógłby być bardziej neutralny."
+  },
+  "diagnostics": {
+    "tokens_title": 8,
+    "tokens_content": 552,
+    "processing_time_ms": 12633,
+    "model": "gpt-4o-mini"
+  }
+}

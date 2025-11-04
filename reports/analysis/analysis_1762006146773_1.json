@@ -1,0 +1,54 @@
+{
+  "id": 1762006146773,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/zakopane/news-serial-1670-przypomnial-o-niezwyklym-i-zapomnianym-zwyczaju-,nId,8036780",
+  "title": "Serial \"1670\" przypomniał o niezwykłym i zapomnianym zwyczaju Rzeczypospolitej",
+  "score": 38,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'niezwykłym' i 'zapomnianym', co podnosi jego clickbaitowość.",
+    "Treść artykułu jest zgodna z tytułem, ale nie dostarcza dodatkowych informacji, które mogłyby wzbudzić ciekawość.",
+    "W artykule znajdują się konkretne liczby i cytaty, co zwiększa jego wiarygodność.",
+    "Wykryto niewielką rozbieżność między tytułem a treścią, co wpływa na ocenę.",
+    "Ogólna ocena clickbaitu opiera się na analizie tytułu (40%), treści (15%) oraz rozbieżności (40%)."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słów, które mogą przyciągać uwagę, jak 'niezwykłym' i 'zapomnianym', co sprawia, że jest nieco sensacyjny.",
+    "Treść artykułu odpowiada tytułowi, ale nie dodaje zaskakujących informacji, które mogłyby wzbudzić większe zainteresowanie.",
+    "Artykuł zawiera konkretne dane i cytaty, co czyni go bardziej wiarygodnym.",
+    "Tytuł i treść są zgodne, ale nieco się różnią, co wpływa na ocenę.",
+    "Na podstawie analizy tytułu, treści i ich zgodności, artykuł otrzymał umiarkowaną ocenę clickbaitu."
+  ],
+  "summary": "Artykuł opisuje portrety trumienne, które były popularnym zwyczajem w XVII wieku w Rzeczypospolitej. Zawiera informacje o ich znaczeniu, technice wykonania oraz współczesnym zainteresowaniu tym elementem polskiej kultury. Wspomniano również o ich wystawie w Muzeum Zamkowym w Niedzicy.",
+  "signals": {
+    "title_hits": [
+      "niezwykłym",
+      "zapomnianym"
+    ],
+    "content_hits": [
+      "portretach trumiennych",
+      "Rzeczypospolitej",
+      "Muzeum Zamkowego",
+      "sarmackiej"
+    ],
+    "credibility_hits": [
+      "Sylwia Bogaczyk",
+      "XVII wieku",
+      "10 centymetrów"
+    ],
+    "mismatch": {
+      "is_mismatch": false,
+      "mismatch_details": ""
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Serial '1670' przedstawia portrety trumienne z Rzeczypospolitej",
+    "notes_to_editor": "Zaleca się unikanie fraz sensacyjnych w tytule, aby zwiększyć obiektywność."
+  },
+  "diagnostics": {
+    "tokens_title": 14,
+    "tokens_content": 464,
+    "processing_time_ms": 22253,
+    "model": "gpt-4o-mini"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": 1762020483059,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/lublin/kierowca-tira-ruszyl-w-strone-galerii-o-krok-od-tragedii-w-lublinie/7xwy45n",
+  "title": "Kierowca tira ruszył w stronę galerii. O krok od tragedii w Lublinie",
+  "score": 62,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'o krok od tragedii', co wzbudza silne emocje.",
+    "Treść artykułu opisuje incydent z kierowcą tira, ale nie dostarcza szczegółowych informacji o ewentualnych konsekwencjach, co może prowadzić do luk ciekawości.",
+    "Występuje niezgodność między tytułem a treścią, ponieważ tytuł sugeruje dramatyczny rozwój sytuacji, podczas gdy treść jest bardziej stonowana.",
+    "Zidentyfikowano kilka sygnałów wiarygodności, takich jak źródło informacji (Lublin112) oraz konkretne dane o czasie i miejscu zdarzenia."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł artykułu używa emocjonalnych słów, co może przyciągać uwagę czytelników.",
+    "Artykuł opisuje incydent z kierowcą tira, ale nie wyjaśnia dokładnie, co się wydarzyło, co może budzić ciekawość.",
+    "Tytuł sugeruje poważne konsekwencje, ale treść jest bardziej stonowana, co może wprowadzać w błąd.",
+    "Artykuł zawiera wiarygodne źródła i konkretne informacje o zdarzeniu."
+  ],
+  "summary": "31 października 2025 roku w Lublinie doszło do incydentu z udziałem kierowcy tira, który zjechał z drogi i skierował się w stronę centrum handlowego Felicity, ignorując znaki o ograniczeniu wysokości pojazdów. Zdarzenie miało miejsce na alei Witosa, a kierowca był obywatelem Białorusi. Policja została poinformowana o sytuacji.",
+  "signals": {
+    "title_hits": [
+      "o krok od tragedii"
+    ],
+    "content_hits": [
+      "kierowca tira",
+      "centrum handlowe",
+      "znaki o ograniczeniu wysokości"
+    ],
+    "credibility_hits": [
+      "Lublin112",
+      "31 października 2025",
+      "alei Witosa"
+    ],
+    "mismatch": {
+      "title": "Kierowca tira ruszył w stronę galerii. O krok od tragedii w Lublinie",
+      "content": "Kierowca tira zjechał z drogi, ale nie doszło do tragedii ani poważnych konsekwencji."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Incydent z kierowcą tira w Lublinie - zjechał w stronę centrum handlowego",
+    "notes_to_editor": "Rozważyć zmianę tytułu na bardziej neutralny, aby uniknąć wrażenia sensacyjności."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 92,
+    "processing_time_ms": 14393,
+    "model": "gpt-4o-mini"
+  }
+}

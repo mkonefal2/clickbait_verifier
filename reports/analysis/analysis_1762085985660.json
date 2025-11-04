@@ -1,0 +1,52 @@
+{
+  "id": 1762085985660,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/swiat/news-powodz-w-wietnamie-35-ofiar-smiertelnych-zabytkowe-miasto-po,nId,8036843",
+  "title": "Powódź w Wietnamie. 35 ofiar śmiertelnych, zabytkowe miasto pod wodą [ZDJĘCIA]",
+  "score": 32,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera liczby (35 ofiar), co może przyciągać uwagę, ale nie jest przesadnie sensacyjny.",
+    "Treść artykułu jest zgodna z tytułem, opisując powódź i jej skutki.",
+    "W treści występują konkretne dane, takie jak liczba zalanych domów i ofiar, co zwiększa wiarygodność.",
+    "Nie znaleziono wyraźnych sygnałów clickbaitowych w treści, ale tytuł może budzić ciekawość."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera konkretne informacje o liczbie ofiar, co może przyciągać uwagę, ale nie jest przesadnie dramatyczny.",
+    "Treść artykułu odpowiada tytułowi, szczegółowo opisując powódź i jej skutki.",
+    "Artykuł zawiera konkretne dane, co sprawia, że jest bardziej wiarygodny.",
+    "Nie znaleziono wyraźnych elementów clickbaitowych w treści, ale tytuł może wzbudzać ciekawość."
+  ],
+  "summary": "Artykuł opisuje sytuację po rekordowych powodziach w Wietnamie, które spowodowały 35 ofiar śmiertelnych i zniszczenia w zabytkowym mieście Hoi An. Intensywne opady deszczu doprowadziły do zalania tysięcy domów oraz zniszczenia pól uprawnych. W artykule podano konkretne liczby dotyczące zniszczeń i ofiar, a także przyczyny kataklizmu.",
+  "signals": {
+    "title_hits": [
+      "35 ofiar",
+      "zabytkowe miasto pod wodą"
+    ],
+    "content_hits": [
+      "35 ofiar śmiertelnych",
+      "zalanych jest ponad 16,5 tys. domów",
+      "rekordowe opady"
+    ],
+    "credibility_hits": [
+      "VDDMA",
+      "dane",
+      "cytaty mieszkańców"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "title": "Powódź w Wietnamie. 35 ofiar śmiertelnych, zabytkowe miasto pod wodą [ZDJĘCIA]",
+      "content": "Liczba ofiar śmiertelnych rekordowych powodzi w środkowym Wietnamie wzrosła do 35."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Powódź w Wietnamie powoduje 35 ofiar śmiertelnych i zniszczenia w Hoi An",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć potencjalnego clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 15,
+    "tokens_content": 392,
+    "processing_time_ms": 16199,
+    "model": "gpt-4o-mini"
+  }
+}

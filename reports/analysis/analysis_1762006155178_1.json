@@ -1,0 +1,47 @@
+{
+  "id": 1762006155178,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/rosja-nasila-nocne-ostrzaly-wystrzelili-najwiecej-pociskow-od-dwoch-lat/ekewm8m",
+  "title": "Rosja nasila nocne ostrzały. Wystrzelili najwięcej pocisków od dwóch lat",
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy sugerujące sensacyjność, takie jak 'nasilają' i 'najwięcej', co może wzbudzać ciekawość.",
+    "Treść artykułu jest zgodna z tytułem, jednak nie zawiera dodatkowych informacji, które mogłyby potwierdzić lub wzbogacić sensacyjny ton tytułu.",
+    "W artykule znajdują się cytaty i odniesienia do źródeł, co podnosi jego wiarygodność."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł artykułu używa słów, które mogą przyciągać uwagę, jak 'nasilają' i 'najwięcej'.",
+    "Treść artykułu odpowiada tytułowi, ale nie dodaje wielu szczegółów, które mogłyby go usprawiedliwiać.",
+    "Artykuł zawiera cytaty i odniesienia do agencji prasowej, co sprawia, że jest bardziej wiarygodny."
+  ],
+  "summary": "Artykuł informuje o nasileniu nocnych ostrzałów przez Rosję, które osiągnęły najwyższy poziom od dwóch lat. W październiku 2025 roku Rosja wystrzeliła wiele pocisków w kierunku Ukrainy, co zostało potwierdzone przez analizę danych sił powietrznych Ukrainy. Prezydent Ukrainy, Wołodymyr Zełenski, oskarżył Rosję o działania mające na celu wywołanie chaosu.",
+  "signals": {
+    "title_hits": [
+      "nasilają",
+      "najwięcej"
+    ],
+    "content_hits": [
+      "nasilają nocne ostrzały",
+      "najwięcej pocisków od dwóch lat"
+    ],
+    "credibility_hits": [
+      "francuska agencja AFP",
+      "Polska Agencja Prasowa"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "content_detail": "Treść nie rozwija w pełni sensacyjnego tonu tytułu."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Rosja zwiększa nocne ostrzały, osiągając najwyższy poziom w ciągu dwóch lat",
+    "notes_to_editor": "Zaleca się unikanie użycia fraz, które mogą być interpretowane jako sensacyjne w tytułach."
+  },
+  "diagnostics": {
+    "tokens_title": 12,
+    "tokens_content": 114,
+    "processing_time_ms": 15190,
+    "model": "gpt-4o-mini"
+  }
+}

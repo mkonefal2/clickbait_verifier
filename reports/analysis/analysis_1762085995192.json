@@ -1,0 +1,51 @@
+{
+  "id": 1762085995192,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/poznan/news-7-latek-nie-zyje-tragiczny-final-halloweenowej-zabawy,nId,8036770",
+  "title": "7-latek nie żyje",
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazę 'nie żyje', co jest absolutem i może wzbudzać emocje.",
+    "Treść artykułu jest zgodna z tytułem, nie ma wyraźnego rozbieżności między nimi.",
+    "W artykule znajdują się liczby (wiek dziecka, godzina zgonu), co zwiększa wiarygodność.",
+    "Nie wykryto innych fraz sensacyjnych ani luk ciekawości w treści."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnego sformułowania 'nie żyje', co może przyciągać uwagę.",
+    "Treść artykułu dokładnie opisuje sytuację, która jest zgodna z tytułem.",
+    "Artykuł zawiera konkretne informacje, takie jak wiek dziecka i czas zdarzenia, co dodaje mu wiarygodności.",
+    "Nie znaleziono innych przesadnych lub sensacyjnych zwrotów w treści."
+  ],
+  "summary": "Artykuł opisuje tragiczny wypadek, w którym 7-letni chłopiec zmarł po potrąceniu przez samochód podczas halloweenowego zbierania słodyczy. Wypadek miał miejsce w Zdunach, a policja oraz prokuratura prowadzą śledztwo w tej sprawie. Chłopiec został przetransportowany do szpitala, gdzie mimo wysiłków lekarzy zmarł.",
+  "signals": {
+    "title_hits": [
+      "nie żyje"
+    ],
+    "content_hits": [
+      "7-letni chłopiec",
+      "potrącony przez samochód",
+      "zmarł w szpitalu"
+    ],
+    "credibility_hits": [
+      "7-latek",
+      "policja",
+      "prokuratura",
+      "podkomisarz Piotr Szczepaniak"
+    ],
+    "mismatch": {
+      "exists": false,
+      "details": "Tytuł jest zgodny z treścią artykułu."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Tragiczny wypadek: 7-latek zmarł po potrąceniu",
+    "notes_to_editor": "Rozważyć zmianę tytułu na bardziej neutralny, aby uniknąć emocjonalnego ładunku."
+  },
+  "diagnostics": {
+    "tokens_title": 4,
+    "tokens_content": 335,
+    "processing_time_ms": 11024,
+    "model": "gpt-4o-mini"
+  }
+}

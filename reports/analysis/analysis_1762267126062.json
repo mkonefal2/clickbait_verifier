@@ -1,0 +1,50 @@
+{
+  "id": 1762267126062,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/swiat/news-lukaszenka-uderza-w-polske-i-litwe-podpisal-dekret,nId,8037159",
+  "title": "Łukaszenka uderza w Polskę i Litwę",
+  "score": 62,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazę 'uderza', co jest sensacyjne i wywołuje emocje.",
+    "W treści artykułu występują absoluty, takie jak 'ogromne poruszenie' oraz 'sytuacja bliska katastrofy'.",
+    "Wykryto lukę ciekawości w tytule, która nie jest w pełni rozwinięta w treści.",
+    "Zidentyfikowano cytaty i liczby, co podnosi wiarygodność, ale nie wystarczająco równoważy sensacyjność.",
+    "Tytuł sugeruje dramatyczne wydarzenie, które nie jest w pełni odzwierciedlone w treści, co prowadzi do niezgodności."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów, które mogą wzbudzać emocje.",
+    "W artykule są stwierdzenia, które brzmią dramatycznie, co może przyciągać uwagę.",
+    "Tytuł pozostawia pewne pytania bez odpowiedzi, co może skłaniać do kliknięcia.",
+    "Artykuł zawiera cytaty i dane, co sprawia, że jest bardziej wiarygodny, ale nie równoważy to jego sensacyjności.",
+    "Tytuł sugeruje coś bardziej dramatycznego niż to, co jest opisane w treści."
+  ],
+  "summary": "Prezydent Białorusi Alaksandr Łukaszenka podpisał dekret zakazujący wjazdu ciężarówek i ciągników zarejestrowanych w Polsce i na Litwie do Białorusi. Ograniczenia będą obowiązywać do 31 grudnia 2027 roku i są odpowiedzią na wcześniejsze zamknięcie granic przez te kraje. Decyzja ta budzi obawy wśród firm transportowych w regionie.",
+  "signals": {
+    "title_hits": [
+      "uderza"
+    ],
+    "content_hits": [
+      "ogromne poruszenie",
+      "sytuacja bliska katastrofy"
+    ],
+    "credibility_hits": [
+      "Sekretarz generalny Międzynarodowego Sojuszu Transportu i Logistyki",
+      "Olegas Tarasovas mówi"
+    ],
+    "mismatch": {
+      "title": "Łukaszenka uderza w Polskę i Litwę",
+      "content": "Artykuł opisuje konkretne ograniczenia w transporcie, a nie bezpośrednie ataki."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Białoruś wprowadza zakaz wjazdu dla ciężarówek z Polski i Litwy",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć sensacyjności."
+  },
+  "diagnostics": {
+    "tokens_title": 6,
+    "tokens_content": 392,
+    "processing_time_ms": 16916,
+    "model": "gpt-4o-mini"
+  }
+}

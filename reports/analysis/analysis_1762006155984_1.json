@@ -1,0 +1,50 @@
+{
+  "id": 1762006155984,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/sankcje-dokopaly-putinowi-stan-kluczowego-dla-rosji-sektora-dawno-nie-byl-tak-zly/gy2t9my",
+  "title": "Na Rosję spadł kolejny kryzys. Tak sankcje dokopały Putinowi",
+  "score": 62,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'kolejny kryzys' i 'dokopały', które mogą wzbudzać emocje.",
+    "Treść artykułu opisuje konkretne problemy rosyjskiego lotnictwa, co jest zgodne z tytułem, ale nie w pełni oddaje jego dramatyzm.",
+    "W artykule występują cytaty i odniesienia do ekspertów, co zwiększa jego wiarygodność.",
+    "Wykryto również liczby i konkretne dane dotyczące stanu lotnictwa, co może przyciągać uwagę czytelników."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa emocjonalnych słów, które mogą przyciągać uwagę czytelników.",
+    "Treść artykułu rzeczywiście dotyczy problemów w rosyjskim lotnictwie, ale nie jest tak dramatyczna, jak sugeruje tytuł.",
+    "Artykuł zawiera wypowiedzi ekspertów, co sprawia, że jest bardziej wiarygodny.",
+    "Podano konkretne dane, co może zainteresować czytelników."
+  ],
+  "summary": "Artykuł opisuje kryzys w rosyjskim lotnictwie, który jest wynikiem zachodnich sankcji. Władze rosyjskie zmagają się z rosnącą liczbą wypadków i brakiem dostępu do części zamiennych. Ekspert wskazuje, że sytuacja ta jest katastrofalna dla kraju pogrążonego w kryzysie gospodarczym.",
+  "signals": {
+    "title_hits": [
+      "kolejny kryzys",
+      "dokopały"
+    ],
+    "content_hits": [
+      "rosnąca liczba podniebnych wypadków",
+      "brak dostępu do części zamiennych",
+      "katastrofa"
+    ],
+    "credibility_hits": [
+      "Oleksandr Laneckij",
+      "Friendly Avia Support"
+    ],
+    "mismatch": {
+      "title_content_match": false,
+      "explanation": "Tytuł sugeruje dramatyczny kryzys, podczas gdy treść koncentruje się na konkretnych problemach technicznych."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Kryzys w rosyjskim lotnictwie spowodowany sankcjami",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby lepiej odzwierciedlić treść artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 150,
+    "processing_time_ms": 15671,
+    "model": "gpt-4o-mini"
+  }
+}

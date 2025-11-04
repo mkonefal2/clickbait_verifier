@@ -1,0 +1,55 @@
+{
+  "id": 1762085987160,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/polityka/news-czy-sikorski-przejmie-stery-po-tusku-oto-co-mysla-polacy,nId,8036824",
+  "title": "Czy Sikorski przejmie stery po Tusku? Oto co myślą Polacy",
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera pytanie, co może wzbudzać ciekawość, ale nie używa skrajnych emocji ani sensacyjnych fraz.",
+    "Treść artykułu przedstawia wyniki sondażu dotyczącego poparcia dla Radosława Sikorskiego jako potencjalnego premiera, co jest zgodne z tytułem.",
+    "W artykule znajdują się konkretne liczby i dane z sondażu, co podnosi jego wiarygodność.",
+    "Nie znaleziono znaczących rozbieżności między tytułem a treścią, co zmniejsza ocenę clickbaitu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zadaje pytanie, co może zainteresować czytelników, ale nie jest przesadnie emocjonalny.",
+    "Artykuł mówi o wynikach sondażu na temat Radosława Sikorskiego jako kandydata na premiera, co jest zgodne z tytułem.",
+    "Zawiera konkretne dane z badania, co sprawia, że jest bardziej wiarygodny.",
+    "Nie ma dużych różnic między tym, co mówi tytuł, a tym, co jest w treści, co zmniejsza wrażenie clickbaitu."
+  ],
+  "summary": "Artykuł omawia wyniki sondażu przeprowadzonego przez United Surveys, dotyczącego możliwości zastąpienia Donalda Tuska przez Radosława Sikorskiego na stanowisku premiera. Z danych wynika, że 44,6% Polaków jest przeciwnych takiemu rozwiązaniu, podczas gdy 33,1% je popiera. W artykule przytoczone są także opinie polityków na ten temat.",
+  "signals": {
+    "title_hits": [
+      "Czy",
+      "przejmie",
+      "steryl",
+      "Oto",
+      "co myślą Polacy"
+    ],
+    "content_hits": [
+      "sondaż",
+      "44,6 proc.",
+      "33,1 proc.",
+      "zmiana na stanowisku premiera"
+    ],
+    "credibility_hits": [
+      "sondaż United Surveys",
+      "1000 osób",
+      "metodą CATI i CAWI"
+    ],
+    "mismatch": {
+      "title": "Czy Sikorski przejmie stery po Tusku?",
+      "content": "Artykuł nie stwierdza, że Sikorski przejmie stery, a jedynie przedstawia opinie Polaków na ten temat."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Opinie Polaków na temat ewentualnej zmiany premiera na Radosława Sikorskiego",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby zmniejszyć wrażenie clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 314,
+    "processing_time_ms": 14995,
+    "model": "gpt-4o-mini"
+  }
+}

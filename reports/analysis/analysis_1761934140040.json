@@ -1,0 +1,50 @@
+{
+  "id": 1761934140040,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/zaczela-sie-faza-0-duze-poruszenie-w-nato-podejrzane-ruchy-rosji/mlxcnq7",
+  "title": "\"Zaczęła się faza 0\". Duże poruszenie w NATO. Podejrzane ruchy Rosji",
+  "score": 62,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne takie jak \"duże poruszenie\" oraz \"podejrzane ruchy\", co zwiększa jego clickbaitowość.",
+    "Treść artykułu odnosi się do aktualnych wydarzeń i zawiera konkretne informacje, ale nie dostarcza wystarczających dowodów na poparcie sensacyjnych stwierdzeń w tytule.",
+    "W artykule występują liczby i cytaty, co podnosi jego wiarygodność, ale nie równoważy to ogólnej sensacyjności tytułu.",
+    "Występuje niezgodność między tytułem a treścią, ponieważ tytuł sugeruje dramatyczne wydarzenia, podczas gdy treść jest bardziej informacyjna."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa emocjonalnych zwrotów, które mogą przyciągać uwagę, co sprawia, że jest bardziej clickbaitowy.",
+    "Artykuł dostarcza informacji o sytuacji w NATO i Rosji, ale nie wszystkie stwierdzenia w tytule są w pełni poparte w treści.",
+    "W artykule znajdują się konkretne dane i cytaty, co sprawia, że jest bardziej wiarygodny, ale nadal ma sensacyjne elementy.",
+    "Tytuł może wprowadzać w błąd, sugerując większe napięcie niż to, co przedstawia treść."
+  ],
+  "summary": "Artykuł opisuje nowy etap przygotowań Rosji do ewentualnego konfliktu z NATO, określany jako \"fazę 0\". W NATO narasta niepokój, a organizacja planuje odświeżenie regionalnych planów obronnych. W artykule przytoczono informacje o prezentacji koncepcji obronnej przez dowódcę sił lądowych NATO dla przedstawicieli 32 krajów.",
+  "signals": {
+    "title_hits": [
+      "duże poruszenie",
+      "podejrzane ruchy"
+    ],
+    "content_hits": [
+      "nowy etap przygotowań",
+      "faza 0",
+      "niepokój w NATO"
+    ],
+    "credibility_hits": [
+      "Welt am Sonntag",
+      "Christopher T. Donahue"
+    ],
+    "mismatch": {
+      "title": "Tytuł sugeruje dramatyczne wydarzenia.",
+      "content": "Treść jest bardziej informacyjna i nie tak sensacyjna."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "\"Rosja rozpoczęła nowy etap przygotowań do konfliktu z NATO\"",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 12,
+    "tokens_content": 164,
+    "processing_time_ms": 15948,
+    "model": "gpt-4o-mini"
+  }
+}

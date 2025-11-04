@@ -1,0 +1,48 @@
+{
+  "id": 1762006157039,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/sukces-ukraincow-pod-moskwa-zniszczyli-wazny-rurociag/l3trqxc",
+  "title": "Sukces Ukraińców pod Moskwą. Zniszczyli ważny rurociąg",
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'sukces' i 'ważny', które mogą budzić ciekawość.",
+    "Treść artykułu jest zgodna z tytułem, jednak nie dostarcza dodatkowych szczegółów, które mogłyby potwierdzić wagę 'sukcesu'.",
+    "W artykule pojawiają się liczby ('trzy nitki'), co może zwiększać jego wiarygodność.",
+    "Nie znaleziono cytatów ani odniesień do wiarygodnych źródeł poza agencją prasową."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słów, które mogą przyciągać uwagę, jak 'sukces' i 'ważny'.",
+    "Treść artykułu odpowiada tytułowi, ale brakuje w niej szczegółów, które mogłyby lepiej wyjaśnić, dlaczego to jest sukces.",
+    "W artykule są liczby, co sprawia, że wydaje się bardziej wiarygodny.",
+    "Nie ma wielu cytatów ani odniesień do innych źródeł, co może wpływać na postrzeganą rzetelność informacji."
+  ],
+  "summary": "Artykuł informuje o ataku ukraińskich sił specjalnych, które zniszczyły trzy nitki rurociągu Kolcewoj wokół Moskwy. Rurociąg ten był używany do zaopatrywania rosyjskiej armii w paliwo. Informację tę przekazał wywiad wojskowy Ukrainy.",
+  "signals": {
+    "title_hits": [
+      "sukces",
+      "ważny"
+    ],
+    "content_hits": [
+      "trzy nitki",
+      "zniszczyli"
+    ],
+    "credibility_hits": [
+      "Polska Agencja Prasowa"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "details": "Tytuł i treść są zgodne, jednak tytuł sugeruje większą wagę wydarzenia niż przedstawiona w artykule."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Ukraińskie siły zniszczyły rurociąg wokół Moskwy",
+    "notes_to_editor": "Rozważyć dodanie więcej kontekstu do artykułu, aby lepiej wyjaśnić znaczenie opisanego wydarzenia."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 69,
+    "processing_time_ms": 14099,
+    "model": "gpt-4o-mini"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": 1762267124123,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/polska/news-smierc-barbary-skrzypek-sa-wyniki-badan-toksykologicznych,nId,8037415",
+  "title": "Śmierć Barbary Skrzypek: Są wyniki badań toksykologicznych",
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazę 'wyniki badań', co może budzić ciekawość, ale nie jest to skrajnie sensacyjne.",
+    "Treść artykułu jest zgodna z tytułem, nie ma wyraźnych niezgodności.",
+    "W artykule brak jest wyraźnych sygnałów wiarygodności, takich jak konkretne liczby czy cytaty, ale jest odniesienie do źródła informacji.",
+    "Analiza treści wykazała obecność kilku fraz, które mogą być uznane za sensacyjne, ale nie dominują one w artykule."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jest interesujący, ale nie przesadnie sensacyjny.",
+    "Treść artykułu odpowiada tytułowi, co oznacza, że nie wprowadza w błąd.",
+    "Brakuje konkretnych dowodów lub cytatów, ale artykuł odnosi się do wiarygodnego źródła.",
+    "W artykule pojawiają się pewne zwroty, które mogą przyciągać uwagę, ale nie są one głównym tematem."
+  ],
+  "summary": "Artykuł informuje o wynikach badań toksykologicznych Barbary Skrzypek, które nie wykazały obecności toksycznych substancji w jej organizmie. Opisuje również dalsze kroki w śledztwie dotyczącym jej nagłej śmierci, która miała miejsce trzy dni po jej przesłuchaniu jako świadka w sprawie afery związanej z tzw. dwoma wieżami.",
+  "signals": {
+    "title_hits": [
+      "wyniki badań"
+    ],
+    "content_hits": [
+      "badania biegłych",
+      "żadnych toksycznych substancji"
+    ],
+    "credibility_hits": [
+      "dowiedział się reporter RMF FM",
+      "opinia toksykologiczna"
+    ],
+    "mismatch": {
+      "exists": false,
+      "details": "Tytuł i treść są zgodne."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Wyniki badań toksykologicznych Barbary Skrzypek",
+    "notes_to_editor": "Rozważyć dodanie więcej danych statystycznych lub cytatów dla zwiększenia wiarygodności."
+  },
+  "diagnostics": {
+    "tokens_title": 9,
+    "tokens_content": 267,
+    "processing_time_ms": 14310,
+    "model": "gpt-4o-mini"
+  }
+}

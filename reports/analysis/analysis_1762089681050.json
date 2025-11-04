@@ -1,0 +1,53 @@
+{
+  "id": 1762089681050,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/dwoch-brytyjskich-obywateli-zatrzymanych-w-zwiazku-z-atakiem-w-pociagu-nowe/vmrfkre",
+  "title": "Atak nożowników w brytyjskim pociągu. Nowe informacje o sprawcach",
+  "score": 38,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'atak nożowników', co może wzbudzać emocje.",
+    "Treść artykułu jest zgodna z tytułem, ale nie dostarcza nowych, szokujących informacji.",
+    "Brak absolutów i luk ciekawości, ale tytuł sugeruje dramatyczny kontekst.",
+    "W artykule znajdują się cytaty z przedstawiciela policji, co zwiększa jego wiarygodność.",
+    "Zidentyfikowano 5 tokenów w tytule i 92 w treści."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa emocjonujących słów, co może przyciągać uwagę czytelników.",
+    "Treść jest spójna z tytułem, ale nie zawiera zaskakujących informacji.",
+    "Nie ma przesadnych stwierdzeń, ale tytuł może sugerować większą dramatyczność niż jest w rzeczywistości.",
+    "Artykuł zawiera cytaty, co sprawia, że jest bardziej wiarygodny.",
+    "Analiza wykazała, że tytuł jest krótki, a treść nie jest zbyt długa."
+  ],
+  "summary": "Artykuł informuje o ataku nożowników w pociągu w Wielkiej Brytanii, który miał miejsce w sobotę. Policja potwierdziła, że zatrzymane osoby to obywatele brytyjscy, a incydent nie jest klasyfikowany jako akt terrorystyczny. W artykule zawarte są również wypowiedzi przedstawiciela policji na ten temat.",
+  "signals": {
+    "title_hits": [
+      "atak nożowników",
+      "nowe informacje"
+    ],
+    "content_hits": [
+      "atak nożownika",
+      "obywatele brytyjscy",
+      "przedstawiciel policji"
+    ],
+    "credibility_hits": [
+      "Polska Agencja Prasowa",
+      "John Loveless"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "title_sensational": true,
+      "content_sensational": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Incydent w brytyjskim pociągu: zatrzymano dwóch obywateli",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć sensacyjności."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 92,
+    "processing_time_ms": 14349,
+    "model": "gpt-4o-mini"
+  }
+}

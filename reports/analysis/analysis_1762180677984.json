@@ -1,0 +1,52 @@
+{
+  "id": 1762180677984,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/swiat/news-9-miesieczne-dziecko-nie-zyje-po-ataku-psa,nId,8037072",
+  "title": "9-miesięczne dziecko nie żyje po ataku psa",
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazę 'nie żyje', co może budzić emocje, ale jest zgodny z treścią.",
+    "Treść artykułu zawiera szczegóły dotyczące tragicznego zdarzenia, co jest informacyjne.",
+    "Nie wykryto znaczących luk ciekawości ani sensacyjnych fraz w treści.",
+    "Mismatches między tytułem a treścią są minimalne, ponieważ tytuł odzwierciedla główny temat artykułu.",
+    "W artykule znajdują się cytaty i odniesienia do lokalnych władz, co zwiększa wiarygodność."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł mówi o tragicznym zdarzeniu, które jest zgodne z treścią artykułu.",
+    "Artykuł opisuje szczegóły ataku psa na dziecko, co jest istotne i informacyjne.",
+    "Nie ma w nim przesadnych emocji ani sensacyjnych stwierdzeń.",
+    "Tytuł i treść są spójne, a artykuł zawiera cytaty od lokalnych władz, co dodaje mu wiarygodności."
+  ],
+  "summary": "Artykuł opisuje tragiczną sytuację, w której 9-miesięczne dziecko zmarło po ataku psa w miejscowości Rogiet w Walii. Służby ratunkowe interweniowały, ale nie udało się uratować życia dziecka. Policja prowadzi dochodzenie w tej sprawie, a lokalne władze apelują o uszanowanie prywatności rodziny.",
+  "signals": {
+    "title_hits": [
+      "nie żyje",
+      "atak psa"
+    ],
+    "content_hits": [
+      "tragicznego ataku psa",
+      "życia niemowlęcia nie udało się uratować",
+      "szczegółowe dochodzenie"
+    ],
+    "credibility_hits": [
+      "BBC",
+      "nadinspektor John Davies",
+      "radny hrabstwa Rogiet"
+    ],
+    "mismatch": {
+      "title": "Tytuł jest zgodny z treścią.",
+      "content": "Treść dostarcza szczegółowych informacji na temat zdarzenia."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Tragiczny atak psa na 9-miesięczne dziecko w Walii",
+    "notes_to_editor": "Zaleca się unikanie dramatyzacji w tytule, aby lepiej odzwierciedlić ton artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 9,
+    "tokens_content": 267,
+    "processing_time_ms": 19851,
+    "model": "gpt-4o-mini"
+  }
+}

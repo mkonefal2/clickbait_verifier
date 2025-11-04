@@ -1,0 +1,51 @@
+{
+  "id": 1762180701915,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/donald-trump-nagle-wyjal-z-kieszeni-kartke-przynioslem-mala-liste-wideo/fmnhfbm",
+  "title": "Donald Trump podczas wywiadu nagle wyjął kartkę. \"Przyniosłem małą listę\"",
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy, które mogą budzić ciekawość ('nagle wyjął kartkę', 'małą listę'), co wskazuje na elementy clickbaitu.",
+    "Treść artykułu jest zgodna z tytułem, jednak nie zawiera zbyt wielu szczegółów, co może budzić wrażenie niedosytu.",
+    "W artykule pojawiają się cytaty oraz odniesienia do konkretnego wydarzenia, co zwiększa jego wiarygodność.",
+    "Analiza wykazała, że tytuł i treść są spójne, co zmniejsza ryzyko oceny jako silny clickbait."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera zwroty, które mogą przyciągać uwagę, jak 'nagle' i 'małą listę', co sprawia, że może być postrzegany jako clickbaitowy.",
+    "Treść artykułu jest zgodna z tytułem, ale brakuje w niej szczegółowych informacji, co może pozostawić czytelnika z poczuciem niedosytu.",
+    "Artykuł zawiera cytaty i odniesienia do wydarzeń, co zwiększa jego wiarygodność.",
+    "Tytuł i treść pasują do siebie, co zmniejsza ryzyko uznania artykułu za mocno clickbaitowy."
+  ],
+  "summary": "Podczas wywiadu z telewizją CBS News Donald Trump wyjął z kieszeni kartkę, na której wymienił osiem konfliktów zbrojnych, które jego zdaniem udało mu się zakończyć. Wydarzenie miało miejsce w programie '60 minut'. Trump stwierdził, że przyniósł 'małą listę' konfliktów, co wzbudziło zainteresowanie dziennikarzy.",
+  "signals": {
+    "title_hits": [
+      "nagle",
+      "małą listę"
+    ],
+    "content_hits": [
+      "nagle wyjął kartkę",
+      "Przyniosłem małą listę",
+      "osiem konfliktów zbrojnych"
+    ],
+    "credibility_hits": [
+      "CBS News",
+      "60 minut",
+      "cytat"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "content_detail_level": "low"
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Donald Trump podczas wywiadu pokazał kartkę z listą konfliktów.",
+    "notes_to_editor": "Rozważyć dodanie większej ilości kontekstu lub szczegółów w treści artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 14,
+    "tokens_content": 98,
+    "processing_time_ms": 17248,
+    "model": "gpt-4o-mini"
+  }
+}

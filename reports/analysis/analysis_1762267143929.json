@@ -1,0 +1,42 @@
+{
+  "id": 1762267143929,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/polski-system-antydronowy-wiceszef-mon-ujawnia-szczegoly/s3wf61f",
+  "title": "Polska zbuduje własny system antydronowy. \"To musi być priorytet\"",
+  "score": 22,
+  "label": "not_clickbait",
+  "rationale": [
+    "Tytuł nie zawiera fraz sensacyjnych ani absolutów.",
+    "Treść artykułu jest zgodna z tytułem, nie występują nieścisłości.",
+    "W artykule pojawia się cytat z wiceministra obrony, co zwiększa wiarygodność.",
+    "Brak luk ciekawości, artykuł jasno przedstawia informacje."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jest informacyjny i nie używa przesadzonych słów.",
+    "Treść artykułu odpowiada tytułowi, nie ma sprzeczności.",
+    "Cytat z wiceministra dodaje wiarygodności informacji.",
+    "Artykuł jasno przedstawia plany dotyczące systemu antydronowego."
+  ],
+  "summary": "Artykuł informuje o planach Polski dotyczących budowy własnego systemu antydronowego. Wiceminister obrony narodowej Cezary Tomczyk podkreślił, że wzmocnienie zdolności w tej dziedzinie musi być priorytetem. Informacje pochodzą z ogłoszenia rządowego, które ma na celu zwiększenie bezpieczeństwa kraju.",
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "Cytat z wiceministra obrony narodowej"
+    ],
+    "mismatch": {
+      "is_mismatch": false,
+      "mismatch_details": []
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Polska planuje budowę systemu antydronowego",
+    "notes_to_editor": "Artykuł dobrze przedstawia plany rządu, warto podkreślić znaczenie systemu antydronowego w kontekście bezpieczeństwa."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 85,
+    "processing_time_ms": 14269,
+    "model": "gpt-4o-mini"
+  }
+}

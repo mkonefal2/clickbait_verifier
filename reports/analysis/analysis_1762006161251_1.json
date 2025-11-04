@@ -1,0 +1,53 @@
+{
+  "id": 1762006161251,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/wroclaw/tragiczny-wypadek-na-dk-35-jedna-osoba-nie-zyje-droga-zablokowana/m9zdb0f",
+  "title": "Tragiczny wypadek na DK 35. Jedna osoba nie żyje. Droga zablokowana",
+  "score": 20,
+  "label": "not_clickbait",
+  "rationale": [
+    "Tytuł zawiera słowa kluczowe związane z wypadkiem, ale nie używa sensacyjnych fraz ani absolutów.",
+    "Treść artykułu jest zgodna z tytułem, dostarczając konkretnych informacji o wypadku.",
+    "Nie wykryto luk ciekawości ani przesadnych emocji w treści.",
+    "W artykule podano źródło informacji oraz datę, co zwiększa jego wiarygodność."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jest informacyjny i nie zawiera przesadnych słów.",
+    "Treść artykułu odpowiada tytułowi, podając szczegóły dotyczące wypadku.",
+    "Nie ma w artykule niejasnych lub przesadnych stwierdzeń.",
+    "Podano źródło informacji oraz datę, co sprawia, że artykuł jest bardziej wiarygodny."
+  ],
+  "summary": "Artykuł informuje o tragicznym wypadku drogowym na DK 35, gdzie zderzyły się dwa samochody osobowe. W wyniku zdarzenia jedna osoba zginęła, a droga została zablokowana. Na miejsce wypadku skierowano sześć zastępów straży pożarnej.",
+  "signals": {
+    "title_hits": [
+      "tragiczny",
+      "nie żyje",
+      "droga zablokowana"
+    ],
+    "content_hits": [
+      "tragiczny wypadek",
+      "jedna osoba nie żyje",
+      "droga zablokowana",
+      "zderzyły się dwa samochody"
+    ],
+    "credibility_hits": [
+      "Polska Agencja Prasowa",
+      "Szymon Pulcyn",
+      "data"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "title_content_similarity": 1.0
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Wypadek na DK 35. Jedna osoba zginęła, droga zablokowana",
+    "notes_to_editor": "Artykuł dobrze informuje o zdarzeniu, brak potrzeby zmian."
+  },
+  "diagnostics": {
+    "tokens_title": 11,
+    "tokens_content": 56,
+    "processing_time_ms": 13209,
+    "model": "gpt-4o-mini"
+  }
+}

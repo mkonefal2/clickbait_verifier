@@ -1,0 +1,50 @@
+{
+  "id": 1762006151248,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/tragiczny-final-halloweenowej-zabawy-nie-zyje-7-latek/j9zkt6n",
+  "title": "7-latek nie żyje. Tragiczny wypadek podczas halloweenowej zabawy",
+  "score": 70,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'tragiczny' oraz absolut 'nie żyje', co zwiększa jego clickbaitowość.",
+    "Treść artykułu jest zgodna z tytułem, ale nie zawiera dodatkowych informacji, które mogłyby złagodzić wrażenie sensacyjności.",
+    "W artykule podano konkretne informacje o wypadku, co dodaje wiarygodności, ale nie zmienia ogólnego charakteru clickbaitowego tytułu.",
+    "Wykryto brak luk ciekawości, ponieważ tytuł i treść są spójne i nie pozostawiają pytań bez odpowiedzi."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa emocjonalnych słów, co sprawia, że wydaje się bardziej sensacyjny.",
+    "Treść artykułu odpowiada tytułowi, ale nie wnosi dodatkowych informacji, które mogłyby złagodzić jego dramatyzm.",
+    "Podano konkretne szczegóły dotyczące wypadku, co zwiększa wiarygodność, ale nie zmienia ogólnego wrażenia sensacyjności.",
+    "Nie ma w artykule pytań, które mogłyby budzić ciekawość, ponieważ wszystko jest jasne."
+  ],
+  "summary": "Podczas halloweenowej zabawy w Zdunach (woj. wielkopolskie) doszło do tragicznego wypadku, w którym zginął 7-letni chłopiec. Dziecko zostało potrącone przez samochód podczas zbierania słodyczy. Mimo szybkiej interwencji służb medycznych, nie udało się go uratować.",
+  "signals": {
+    "title_hits": [
+      "tragiczny",
+      "nie żyje"
+    ],
+    "content_hits": [
+      "tragiczny wypadek",
+      "7-letni chłopiec",
+      "potrącone przez samochód"
+    ],
+    "credibility_hits": [
+      "Dziennikarze Onet Wiadomości",
+      "szybkiej interwencji służb medycznych"
+    ],
+    "mismatch": {
+      "exists": false,
+      "reason": ""
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Wypadek podczas halloweenowej zabawy - zginął 7-letni chłopiec",
+    "notes_to_editor": "Rozważyć zmianę tytułu na bardziej neutralny, aby zmniejszyć wrażenie sensacyjności."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 56,
+    "processing_time_ms": 14980,
+    "model": "gpt-4o-mini"
+  }
+}

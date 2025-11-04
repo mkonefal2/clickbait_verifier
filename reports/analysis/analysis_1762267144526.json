@@ -1,0 +1,47 @@
+{
+  "id": 1762267144526,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/szymon-holownia-ambasadorem-w-watykanie-stanowczy-glos-z-rzadu/kbgb4k2",
+  "title": "Szymon Hołownia łączony z zupełnie nową funkcją. Jest stanowczy głos z rządu",
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'zupełnie nową funkcją' i 'stanowczy głos', co może wzbudzać ciekawość.",
+    "Treść artykułu odnosi się do spekulacji na temat przyszłości Szymona Hołowni, ale nie dostarcza nowych informacji.",
+    "W artykule występuje niezgodność między tytułem a treścią, ponieważ tytuł sugeruje potwierdzenie informacji, a treść zawiera zaprzeczenie.",
+    "Brak cytatów i konkretów, które mogłyby zwiększyć wiarygodność artykułu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słów, które mogą przyciągać uwagę, co sprawia, że artykuł wydaje się bardziej sensacyjny.",
+    "Treść mówi o spekulacjach dotyczących Szymona Hołowni, ale nie przynosi nowych informacji.",
+    "Tytuł sugeruje, że coś jest pewne, podczas gdy artykuł mówi, że to nieprawda.",
+    "Brakuje cytatów lub danych, które mogłyby potwierdzić wiarygodność informacji."
+  ],
+  "summary": "Artykuł omawia spekulacje dotyczące Szymona Hołowni i jego potencjalnej roli jako ambasadora w Watykanie. Informacje te pochodzą z wypowiedzi dziennikarki TVN24 oraz wiceszefa MON, który zaprzeczył tym doniesieniom. Nie podano żadnych konkretnych faktów ani źródeł potwierdzających te spekulacje.",
+  "signals": {
+    "title_hits": [
+      "zupełnie nową funkcją",
+      "stanowczy głos"
+    ],
+    "content_hits": [
+      "nie ujawnił wprost",
+      "mógłby zostać ambasadorem",
+      "jest to nieprawda"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "title": "Szymon Hołownia łączony z zupełnie nową funkcją.",
+      "content": "Głos w tej sprawie zabrał Paweł Zalewski. Wiceszef MON w programie 'Fakty po Faktach' wprost stwierdził, że 'oczywiście jest to nieprawda'."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Szymon Hołownia nie potwierdza swojej przyszłości politycznej.",
+    "notes_to_editor": "Rozważyć dodanie cytatów lub danych, aby zwiększyć wiarygodność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 13,
+    "tokens_content": 109,
+    "processing_time_ms": 18212,
+    "model": "gpt-4o-mini"
+  }
+}

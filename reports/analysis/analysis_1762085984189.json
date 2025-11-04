@@ -1,0 +1,50 @@
+{
+  "id": 1762085984189,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/swiat/news-atak-nozownikow-w-brytyjskim-pociagu-co-wiemy-o-sprawcach,nId,8036850",
+  "title": "Atak nożowników w brytyjskim pociągu. Co wiemy o sprawcach?",
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera pytanie, co może wzbudzać ciekawość, ale nie używa skrajnych emocji ani nie wprowadza w błąd.",
+    "Treść artykułu dostarcza konkretne informacje o ataku, jednak zawiera również sensacyjne elementy, takie jak odniesienia do stanu zdrowia ofiar.",
+    "W artykule występują liczby (np. 11 osób rannych) oraz cytaty (oświadczenie Króla Karola III), co zwiększa wiarygodność.",
+    "Zidentyfikowano niewielką rozbieżność między tytułem a treścią, ponieważ tytuł sugeruje więcej informacji o sprawcach, niż jest w rzeczywistości podane."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł stawia pytanie, co może przyciągać uwagę, ale nie jest przesadnie dramatyczny.",
+    "Artykuł przedstawia szczegóły dotyczące ataku, ale zawiera również nieco sensacyjne informacje o stanie ofiar.",
+    "Podano konkretne liczby i cytaty, co sprawia, że artykuł wydaje się bardziej wiarygodny.",
+    "Jest niewielka różnica między tym, co obiecuje tytuł, a tym, co jest w treści."
+  ],
+  "summary": "Artykuł opisuje atak nożowników w pociągu w Wielkiej Brytanii, do którego doszło w sobotę. Policja zatrzymała dwóch napastników, którzy są obywatelami brytyjskimi. Po ataku do szpitala trafiło 11 osób, a stan dwóch z nich jest poważny. Policja nie widzi związku ataku z terroryzmem, a Król Karol III wyraził współczucie dla ofiar.",
+  "signals": {
+    "title_hits": [
+      "atak nożowników",
+      "co wiemy o sprawcach"
+    ],
+    "content_hits": [
+      "napastnicy to obywatele Wielkiej Brytanii",
+      "11 osób",
+      "stan dwóch osób określany jest jako zagrażający życiu"
+    ],
+    "credibility_hits": [
+      "Policja przekazała nowe informacje",
+      "Król Karol III wydał w oświadczenie"
+    ],
+    "mismatch": {
+      "title": "Co wiemy o sprawcach?",
+      "content": "Mniej szczegółów o sprawcach niż sugeruje tytuł."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Atak nożowników w brytyjskim pociągu - szczegóły",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 249,
+    "processing_time_ms": 27015,
+    "model": "gpt-4o-mini"
+  }
+}

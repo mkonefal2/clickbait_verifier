@@ -1,0 +1,53 @@
+{
+  "id": 1762020473364,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/slaskie/news-tlenek-wegla-znow-atakuje-piecioosobowa-rodzina-podtrula-sie,nId,8036806",
+  "title": "Tlenek węgla znów atakuje. Pięcioosobowa rodzina podtruła się czadem",
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazę 'znów atakuje', co może sugerować sensacyjność.",
+    "W treści artykułu znajdują się konkretne informacje o zdarzeniu, co zwiększa wiarygodność.",
+    "Zidentyfikowano brak istotnych niezgodności między tytułem a treścią.",
+    "W artykule występują liczby i cytaty od przedstawicieli służb ratunkowych, co podnosi jego wiarygodność.",
+    "Zastosowano frazy, które mogą wzbudzać ciekawość, ale nie są one przesadzone."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł sugeruje, że tlenek węgla jest poważnym zagrożeniem, co jest zgodne z treścią artykułu.",
+    "Artykuł dostarcza szczegółowych informacji o incydencie, co czyni go wiarygodnym.",
+    "Nie znaleziono większych rozbieżności między tytułem a treścią.",
+    "W artykule są podane konkretne liczby i cytaty, co zwiększa jego rzetelność.",
+    "Choć tytuł może budzić ciekawość, nie jest przesadnie sensacyjny."
+  ],
+  "summary": "Pięcioosobowa rodzina z trojgiem dzieci podtruła się tlenkiem węgla w Zwonowicach. Wszyscy zostali przewiezieni do szpitala. Przyczyną podtrucia była niesprawna płyta gazowa oraz słaba bateria w czujniku tlenku węgla. Straż pożarna apeluje o regularne sprawdzanie stanu technicznego urządzeń grzewczych.",
+  "signals": {
+    "title_hits": [
+      "znów atakuje"
+    ],
+    "content_hits": [
+      "tlenek węgla",
+      "podtruła się",
+      "czujka czadu",
+      "wysokie stężenie"
+    ],
+    "credibility_hits": [
+      "Wojciech Kasperzec z rybnickiej Państwowej Straży Pożarnej",
+      "800 ppm",
+      "ponad 30 zgłoszeń"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "title_summary_match": true
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Rodzina z trojgiem dzieci podtruła się tlenkiem węgla",
+    "notes_to_editor": "Rozważyć zmianę tytułu na mniej sensacyjny, aby lepiej odzwierciedlał treść artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 305,
+    "processing_time_ms": 17850,
+    "model": "gpt-4o-mini"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": 1761934137172,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/donald-trump-wywoluje-duchy-przeszlosci-i-oglasza-powrot-do-testow-atomowych-jak/4c1zlm8",
+  "title": "Donald Trump ogłasza powrót do testów atomowych. Jak realistyczne są jego plany?",
+  "score": 55,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazę 'ogłasza powrót', co może być uznane za sensacyjne.",
+    "W treści użyto zwrotu 'wywołuje duchy przeszłości', co również wzmacnia efekt clickbaitowy.",
+    "Zidentyfikowano lukę ciekawości w pytaniu 'Jak realistyczne są jego plany?'.",
+    "Tytuł i treść są zgodne, ale tytuł sugeruje większą dramatyczność niż treść.",
+    "W artykule pojawiają się cytaty i odniesienia do źródeł, co zwiększa wiarygodność."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł sugeruje dramatyczny powrót do testów atomowych, co przyciąga uwagę.",
+    "W treści użyto zwrotów, które mogą budzić emocje i ciekawość.",
+    "Pytanie w tytule zachęca do przeczytania, ale może wprowadzać w błąd co do skali zagrożenia.",
+    "Artykuł zawiera cytaty i odniesienia, co czyni go bardziej wiarygodnym."
+  ],
+  "summary": "Donald Trump ogłosił, że Stany Zjednoczone rozpoczną testy broni atomowej, co wywołało wiele pytań dotyczących legalności tej decyzji oraz aktualnych testów jądrowych innych krajów. Artykuł analizuje te kwestie oraz potencjalne konsekwencje tej deklaracji.",
+  "signals": {
+    "title_hits": [
+      "ogłasza powrót",
+      "testów atomowych"
+    ],
+    "content_hits": [
+      "wywołuje duchy przeszłości",
+      "Może wywołać globalną reakcję łańcuchową"
+    ],
+    "credibility_hits": [
+      "Benedikt Fuest",
+      "Die Welt"
+    ],
+    "mismatch": {
+      "title_content_match": "partial",
+      "explanation": "Tytuł sugeruje dramatyczny powrót, podczas gdy treść jest bardziej analityczna."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Donald Trump ogłasza plany testów atomowych – analiza sytuacji.",
+    "notes_to_editor": "Rozważyć zmianę tytułu, aby uniknąć sensacyjności."
+  },
+  "diagnostics": {
+    "tokens_title": 13,
+    "tokens_content": 138,
+    "processing_time_ms": 12097,
+    "model": "gpt-4o-mini"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": 1762085980816,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/ekonomia/news-niemcy-pokorni-wobec-przemiany-polski-czas-wynioslosci-minal,nId,8036817",
+  "title": "Niemcy pokorni wobec przemiany Polski? \"Czas wyniosłości minął\"",
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy sugerujące sensacyjność, takie jak 'pokorni' i 'czas wyniosłości minął'.",
+    "Treść artykułu jest zgodna z tytułem, ale niektóre sformułowania mogą budzić ciekawość.",
+    "W artykule pojawiają się liczby i cytaty, co zwiększa jego wiarygodność.",
+    "Analiza wykazała, że tytuł i treść są spójne, co zmniejsza ryzyko clickbaitu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera wyrazy, które mogą przyciągać uwagę, jak 'pokorni' i 'wyniosłość'.",
+    "Treść artykułu odpowiada tytułowi, ale niektóre sformułowania mogą wzbudzać ciekawość czytelników.",
+    "Artykuł zawiera liczby i cytaty, co sprawia, że jest bardziej wiarygodny.",
+    "Tytuł i treść są zgodne, co zmniejsza ryzyko, że jest to typowy clickbait."
+  ],
+  "summary": "Artykuł omawia zmiany w relacjach gospodarczych między Polską a Niemcami, podkreślając rosnącą pewność siebie Polaków oraz ich osiągnięcia w cyfryzacji. Szwajcarski dziennik 'Neue Zuercher Zeitung' zauważa, że Niemcy powinny zmienić swoje postrzeganie Polski, która z dawnego 'biedaka' staje się coraz bardziej konkurencyjna. Mimo postępów, Polska wciąż pozostaje w tyle za Niemcami pod względem zamożności.",
+  "signals": {
+    "title_hits": [
+      "pokorni",
+      "czas wyniosłości minął"
+    ],
+    "content_hits": [
+      "pewność siebie",
+      "cyfryzacja",
+      "wzrost gospodarczy"
+    ],
+    "credibility_hits": [
+      "cytaty",
+      "liczby",
+      "źródła"
+    ],
+    "mismatch": {
+      "is_mismatch": false,
+      "mismatch_details": []
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Zmiany w relacjach gospodarczych między Polską a Niemcami",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 455,
+    "processing_time_ms": 15861,
+    "model": "gpt-4o-mini"
+  }
+}

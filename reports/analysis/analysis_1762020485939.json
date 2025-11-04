@@ -1,0 +1,48 @@
+{
+  "id": 1762020485939,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/tajemnie-drony-nad-lotniskiem-wojskowym-w-belgii-minister-obrony-alarmuje/91e7r0n",
+  "title": "Drony nad lotniskiem wojskowym w Belgii. Minister obrony alarmuje",
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera słowo 'alarmuje', które może sugerować sytuację kryzysową, co jest elementem clickbaitu.",
+    "Treść artykułu jest zgodna z tytułem, ale nie zawiera dodatkowych informacji, które mogłyby wzbudzić większe zainteresowanie.",
+    "W treści występuje cytat ministra, co zwiększa wiarygodność informacji.",
+    "Brak absolutów i luk ciekawości w treści, co ogranicza stopień clickbaitu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'alarmuje', co może sugerować powagę sytuacji, ale nie jest to przesadzone.",
+    "Treść artykułu odpowiada tytułowi i dostarcza konkretne informacje bez zbędnych dramatyzacji.",
+    "Cytat ministra dodaje wiarygodności, co jest pozytywne.",
+    "Artykuł nie zawiera przesadnych stwierdzeń ani nie pozostawia pytań bez odpowiedzi."
+  ],
+  "summary": "Artykuł informuje o zauważeniu dronów nad lotniskiem wojskowym Kleine Brogel w Belgii. Minister obrony Theo Francken potwierdził, że system detekcji działa i śledztwo w tej sprawie jest w toku. Wspomniano o czujności strażników, którzy wykonali zdjęcia dronów.",
+  "signals": {
+    "title_hits": [
+      "alarmuje"
+    ],
+    "content_hits": [
+      "Nad Kleine Brogel zauważono kilka dronów",
+      "System detekcji działa",
+      "Śledztwo jest w toku"
+    ],
+    "credibility_hits": [
+      "Theo Francken, szef belgijskiego resortu obrony"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "title_content_similarity": 0.9
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Drony zauważone nad lotniskiem wojskowym w Belgii",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby zredukować elementy clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 66,
+    "processing_time_ms": 13129,
+    "model": "gpt-4o-mini"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": 1762006150257,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/pogoda-na-wszystkich-swietych-i-dzien-zaduszny-skrajne-zjawiska/ykqybfk",
+  "title": "Pogoda zaskoczy Polaków. Mamy prognozę na najbliższe dni",
+  "score": 55,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazę 'zaskoczy', co jest sygnałem sensacyjnym.",
+    "Treść artykułu dostarcza konkretne informacje o prognozie pogody, ale tytuł sugeruje większą niespodziankę niż to, co jest przedstawione w treści.",
+    "W treści występują konkretne dane, takie jak temperatura i porywy wiatru, co podnosi wiarygodność.",
+    "Wykryto lukę ciekawości w tytule, która nie jest w pełni spełniona przez treść.",
+    "Zgodność tytułu z treścią jest umiarkowana, co wpływa na wyższą ocenę clickbaitu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł sugeruje, że pogoda będzie dużym zaskoczeniem, co może przyciągać uwagę, ale treść nie potwierdza tego w pełni.",
+    "Artykuł zawiera konkretne informacje o prognozie pogody, co zwiększa jego wiarygodność.",
+    "Jednak użycie słowa 'zaskoczy' w tytule może wprowadzać w błąd, ponieważ treść nie jest aż tak dramatyczna.",
+    "Tytuł i treść nie są całkowicie zgodne, co podnosi ocenę clickbaitu."
+  ],
+  "summary": "Artykuł przedstawia prognozę pogody na Wszystkich Świętych i Dzień Zaduszny w Polsce. Zawiera informacje o skrajnych zjawiskach pogodowych, takich jak wysokie temperatury na południu kraju oraz silne porywy wiatru w górach. Prognoza wskazuje również na nadchodzące ochłodzenie.",
+  "signals": {
+    "title_hits": [
+      "zaskoczy"
+    ],
+    "content_hits": [
+      "skrajne zjawiska",
+      "temperatura do 19 st. C",
+      "silne porywy wiatru do 80 km na godz."
+    ],
+    "credibility_hits": [
+      "Polska Agencja Prasowa",
+      "Katarzyna Ścisłowska",
+      "prognoza długoterminowa"
+    ],
+    "mismatch": {
+      "title": "Pogoda zaskoczy Polaków",
+      "content": "Prognoza długoterminowa wskazuje na ochłodzenie w kolejnych dniach"
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Prognoza pogody na najbliższe dni w Polsce",
+    "notes_to_editor": "Rozważyć zmianę tytułu na bardziej neutralny, aby lepiej odzwierciedlał treść artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 64,
+    "processing_time_ms": 15513,
+    "model": "gpt-4o-mini"
+  }
+}

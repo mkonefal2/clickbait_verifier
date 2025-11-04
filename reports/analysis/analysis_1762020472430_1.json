@@ -1,0 +1,43 @@
+{
+  "id": 1762020472430,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/poznan/news-7-latek-nie-zyje-tragiczny-final-halloweenowej-zabawy,nId,8036770",
+  "title": "7-latek nie żyje",
+  "score": 15,
+  "label": "not_clickbait",
+  "rationale": [
+    "Tytuł jest bezpośredni i odnosi się do faktu, nie zawiera sensacyjnych fraz ani luk ciekawości.",
+    "Treść artykułu jest zgodna z tytułem, opisując tragiczną sytuację bez przesady.",
+    "Nie wykryto fraz sensacyjnych ani absolutów w treści.",
+    "Zawiera cytaty od przedstawicieli policji, co zwiększa wiarygodność.",
+    "Brak jakichkolwiek niezgodności między tytułem a treścią."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jasno informuje o tragicznym zdarzeniu, co jest zgodne z treścią artykułu.",
+    "Artykuł opisuje wypadek, który miał miejsce, bez użycia dramatycznych lub przesadzonych słów.",
+    "Zawiera wypowiedzi policji, co potwierdza rzetelność informacji.",
+    "Nie znaleziono elementów, które mogłyby wprowadzać w błąd czytelnika."
+  ],
+  "summary": "Artykuł opisuje tragiczny wypadek, w którym 7-letni chłopiec zmarł po potrąceniu przez samochód podczas zbierania słodyczy na Halloween. Policja i prokuratura prowadzą śledztwo w tej sprawie, a w artykule zawarte są szczegóły dotyczące okoliczności zdarzenia oraz wypowiedzi przedstawicieli służb.",
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "podkomisarz Piotr Szczepaniak z Komendy Powiatowej Policji w Krotoszynie"
+    ],
+    "mismatch": {
+      "exists": false,
+      "details": "Tytuł i treść są zgodne."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Tragiczny wypadek: 7-latek zmarł po potrąceniu",
+    "notes_to_editor": "Artykuł jest rzetelny i nie zawiera elementów clickbaitowych."
+  },
+  "diagnostics": {
+    "tokens_title": 4,
+    "tokens_content": 305,
+    "processing_time_ms": 10316,
+    "model": "gpt-4o-mini"
+  }
+}

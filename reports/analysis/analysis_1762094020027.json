@@ -1,0 +1,53 @@
+{
+  "id": 1762094020027,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/slask/o-krok-od-tragedii-na-slasku-piecioosobowa-rodzina-trafila-do-szpitala/yww9rw4",
+  "title": "O krok od tragedii na Śląsku. Pięcioosobowa rodzina trafiła do szpitala",
+  "score": 60,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne ('o krok od tragedii'), co zwiększa jego clickbaitowość.",
+    "Treść artykułu jest zgodna z tytułem, ale nie dostarcza dodatkowych informacji, które mogłyby usprawiedliwić dramatyzm tytułu.",
+    "W tytule i treści występują liczby (pięcioosobowa rodzina), co może zwiększać wiarygodność, ale nie równoważy sensacyjności.",
+    "W artykule nie ma cytatów ani odniesień do źródeł, co obniża sygnały wiarygodności."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa dramatycznych słów, co sprawia, że przyciąga uwagę, ale może wprowadzać w błąd.",
+    "Treść artykułu odpowiada tytułowi, ale nie wyjaśnia dokładnie sytuacji, co może budzić wątpliwości.",
+    "W artykule podano konkretne liczby, co może sugerować rzetelność informacji, ale brakuje cytatów lub źródeł.",
+    "Brak dodatkowych informacji w treści sprawia, że tytuł wydaje się bardziej sensacyjny niż rzeczywistość."
+  ],
+  "summary": "Pięcioosobowa rodzina z trojgiem dzieci podtruła się tlenkiem węgla w Zwonowicach koło Rybnika. Wszyscy zostali przewiezieni do szpitala. Mimo obecności czujki czadu, jej bateria była słaba, co mogło przyczynić się do wypadku.",
+  "signals": {
+    "title_hits": [
+      "krok od tragedii",
+      "pięcioosobowa rodzina"
+    ],
+    "content_hits": [
+      "podtruła się",
+      "tlenkiem węgla",
+      "czujka czadu",
+      "szpital"
+    ],
+    "credibility_hits": [
+      "Polska Agencja Prasowa",
+      "1 listopada 2025",
+      "Zwonowice",
+      "woj. śląskie"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "title_content_details": "Tytuł i treść są zgodne, ale tytuł jest bardziej dramatyczny niż treść."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Rodzina z trojgiem dzieci trafiła do szpitala po podtruciu tlenkiem węgla na Śląsku",
+    "notes_to_editor": "Rozważyć użycie mniej dramatycznych sformułowań w tytule, aby lepiej odzwierciedlić treść artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 70,
+    "processing_time_ms": 18739,
+    "model": "gpt-4o-mini"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": 1762085982516,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/polska/news-tragiczny-bilans-weekendu-na-drogach-policja-przekazala-pier,nId,8036833",
+  "title": "Tragiczny bilans weekendu",
+  "score": 25,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazę 'tragiczny', co jest emocjonalnym określeniem i może wywoływać silne reakcje.",
+    "Treść artykułu zawiera konkretne liczby dotyczące wypadków, co zwiększa jej wiarygodność.",
+    "W artykule występują również cytaty od ekspertów, co dodaje mu autorytetu.",
+    "Zauważono pewne niezgodności między tytułem a treścią, ponieważ tytuł nie odzwierciedla szczegółów dotyczących liczby wypadków i ich okoliczności."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa emocjonalnego słowa 'tragiczny', co może przyciągać uwagę.",
+    "Artykuł podaje konkretne liczby dotyczące wypadków, co sprawia, że jest bardziej wiarygodny.",
+    "Cytaty od ekspertów dodają artykułowi autorytetu.",
+    "Tytuł nie do końca odzwierciedla szczegóły zawarte w treści, co może wprowadzać w błąd."
+  ],
+  "summary": "Artykuł przedstawia statystyki dotyczące wypadków drogowych w Polsce w trakcie weekendu, w tym liczbę ofiar śmiertelnych i rannych. Policja informuje o zatrzymaniach nietrzeźwych kierowców oraz o wzmożonych kontrolach w związku z akcją Znicz. Ekspert podkreśla znaczenie odpowiedzialności kierowców oraz noszenia elementów odblaskowych przez pieszych.",
+  "signals": {
+    "title_hits": [
+      "tragiczny"
+    ],
+    "content_hits": [
+      "146 wypadków",
+      "6 osób",
+      "184 osoby",
+      "518 nietrzeźwych kierowców"
+    ],
+    "credibility_hits": [
+      "Policja",
+      "Marek Konkolewski",
+      "Główny Inspektor Transportu Drogowego"
+    ],
+    "mismatch": {
+      "title": "Tragiczny bilans weekendu",
+      "content": "146 wypadków, 6 ofiar, 184 ranni"
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Bilans wypadków drogowych w weekend",
+    "notes_to_editor": "Zaleca się unikanie emocjonalnych określeń w tytule, aby zwiększyć obiektywność."
+  },
+  "diagnostics": {
+    "tokens_title": 4,
+    "tokens_content": 295,
+    "processing_time_ms": 13725,
+    "model": "gpt-4o-mini"
+  }
+}

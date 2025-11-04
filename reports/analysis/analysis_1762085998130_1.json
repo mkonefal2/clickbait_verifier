@@ -1,0 +1,46 @@
+{
+  "id": 1762085998130,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/warszawa/news-symbol-pamieci-narodowej-i-bohaterstwa-100-lat-grobu-nieznan,nId,8035247",
+  "title": "Symbol pamięci narodowej i bohaterstwa. 100 lat Grobu Nieznanego Żołnierza",
+  "score": 22,
+  "label": "not_clickbait",
+  "rationale": [
+    "Tytuł nie zawiera fraz sensacyjnych ani absolutów, a jego treść jest zgodna z artykułem.",
+    "W treści artykułu nie występują elementy typowe dla clickbaitu, takie jak przesadne emocje czy nieprecyzyjne informacje.",
+    "Nie wykryto luk ciekawości, które mogłyby sugerować manipulację w celu przyciągnięcia uwagi.",
+    "Zidentyfikowano sygnały wiarygodności, takie jak konkretne daty, miejsca i źródła informacji.",
+    "Zgodność tytułu z treścią jest wysoka, co wpływa na niską ocenę clickbaitu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jest prosty i informacyjny, nie próbuje przesadnie przyciągnąć uwagi.",
+    "Artykuł dostarcza rzetelnych informacji na temat Grobu Nieznanego Żołnierza, bez zbędnych emocji.",
+    "Nie ma w nim żadnych pułapek, które mogłyby wprowadzać w błąd czytelnika.",
+    "Podano konkretne daty i źródła, co zwiększa wiarygodność tekstu.",
+    "Tytuł dobrze odzwierciedla treść artykułu, co również wpływa na jego ocenę."
+  ],
+  "summary": "Artykuł opisuje historię Grobu Nieznanego Żołnierza w Warszawie z okazji setnej rocznicy jego odsłonięcia. Przedstawia znaczenie tego miejsca jako symbolu pamięci narodowej oraz jego historię, w tym wydarzenia związane z jego budową i odbudową po zniszczeniach wojennych. Zawiera również informacje o ceremoniach odbywających się w tym miejscu.",
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "2 listopada 1925 r. nastąpiło odsłonięcie Grobu Nieznanego Żołnierza w Warszawie.",
+      "Pomnik stał się narodowym mauzoleum, do którego z czasem dołączano prochy bohaterów z innych pól bitewnych.",
+      "Idea upamiętnienia bezimiennych żołnierzy narodziła się w Europie po zakończeniu I wojny światowej."
+    ],
+    "mismatch": {
+      "is_mismatch": false,
+      "details": "Tytuł jest zgodny z treścią artykułu."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "100 lat Grobu Nieznanego Żołnierza w Warszawie",
+    "notes_to_editor": "Artykuł jest dobrze napisany i nie wymaga zmian."
+  },
+  "diagnostics": {
+    "tokens_title": 12,
+    "tokens_content": 654,
+    "processing_time_ms": 15852,
+    "model": "gpt-4o-mini"
+  }
+}

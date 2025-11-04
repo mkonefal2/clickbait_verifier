@@ -1,0 +1,52 @@
+{
+  "id": 1762085985660,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/swiat/news-powodz-w-wietnamie-35-ofiar-smiertelnych-zabytkowe-miasto-po,nId,8036843",
+  "title": "Powódź w Wietnamie. 35 ofiar śmiertelnych, zabytkowe miasto pod wodą [ZDJĘCIA]",
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera liczby (35 ofiar) oraz odniesienie do emocjonalnych skutków katastrofy (zabytkowe miasto pod wodą), co może wzbudzać ciekawość.",
+    "Treść artykułu jest zgodna z tytułem, dostarczając szczegółowych informacji o powodzi i jej skutkach.",
+    "W artykule użyto cytatów mieszkańców, co zwiększa jego wiarygodność.",
+    "Nie znaleziono znaczących luk ciekawości, ale tytuł może sugerować bardziej dramatyczne wydarzenia niż te, które są opisane w treści."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera konkretne liczby i odniesienia do emocjonalnych skutków, co może przyciągać uwagę czytelników.",
+    "Treść artykułu jest spójna z tytułem i dostarcza szczegółowych informacji na temat powodzi w Wietnamie.",
+    "Artykuł zawiera cytaty mieszkańców, co dodaje mu autentyczności.",
+    "Mimo że tytuł może wydawać się dramatyczny, treść nie jest przesadnie sensacyjna."
+  ],
+  "summary": "Artykuł opisuje sytuację po rekordowych powodziach w Wietnamie, które spowodowały 35 ofiar śmiertelnych i zniszczenia w zabytkowym mieście Hoi An. Intensywne opady deszczu doprowadziły do zalania tysięcy domów oraz zniszczenia pól uprawnych. W artykule przedstawiono również dane dotyczące skali zniszczeń oraz wypowiedzi mieszkańców dotkniętych katastrofą.",
+  "signals": {
+    "title_hits": [
+      "35 ofiar",
+      "zabytkowe miasto",
+      "pod wodą"
+    ],
+    "content_hits": [
+      "35 ofiar śmiertelnych",
+      "zalanie tysięcy domów",
+      "zniszczenia pól uprawnych"
+    ],
+    "credibility_hits": [
+      "VDDMA",
+      "cytaty mieszkańców",
+      "dane o stratach"
+    ],
+    "mismatch": {
+      "detected": false,
+      "details": "Tytuł i treść są zgodne."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Powódź w Wietnamie: 35 ofiar śmiertelnych i zniszczenia w Hoi An",
+    "notes_to_editor": "Zaleca się unikanie dramatyzacji w tytule, aby lepiej odzwierciedlić treść artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 14,
+    "tokens_content": 352,
+    "processing_time_ms": 14418,
+    "model": "gpt-4o-mini"
+  }
+}

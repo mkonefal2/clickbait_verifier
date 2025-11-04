@@ -1,0 +1,50 @@
+{
+  "id": 1762020478537,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/fronty-wojny-ujawnil-afere-w-wojsku-zandarmi-przeszukali-mu-dom-odwet-i-kompromitacja/dqp8k4x",
+  "title": "Ujawniamy. Wojsko gubi miny przeciwpancerne. \"Szybko się zorientowali\"",
+  "score": 65,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'ujawniamy' oraz 'gubi miny przeciwpancerne', które przyciągają uwagę.",
+    "W treści artykułu występują elementy sensacyjne, takie jak przeszukanie domu byłego oficera oraz odniesienia do kompromitacji.",
+    "Zidentyfikowano brak zgodności między tytułem a treścią, ponieważ tytuł sugeruje większą dramatyzację sytuacji niż ta, która jest opisana w artykule.",
+    "W artykule pojawiają się cytaty oraz odniesienia do osób, co zwiększa wiarygodność, ale nie neutralizuje clickbaitowego charakteru tytułu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł artykułu używa mocnych słów, które mają na celu przyciągnięcie uwagi czytelników.",
+    "Treść artykułu opisuje poważne incydenty w wojsku, co może budzić zainteresowanie, ale tytuł może wprowadzać w błąd co do skali problemu.",
+    "Są cytaty i odniesienia do ekspertów, co dodaje wiarygodności, ale nie zmienia sensacyjnego charakteru tytułu.",
+    "W artykule jest pewna niezgodność między tym, co obiecuje tytuł, a tym, co rzeczywiście jest opisane w treści."
+  ],
+  "summary": "Artykuł opisuje sytuację związaną z aferą w wojsku, gdzie żandarmeria przeszukała dom byłego oficera, który ujawniał zagubienie min przeciwpancernych. Wspomniano także o innych incydentach, w tym zagubieniu wagonów z materiałami wybuchowymi oraz wycieku wrażliwych danych z Żandarmerii Wojskowej.",
+  "signals": {
+    "title_hits": [
+      "ujawniamy",
+      "gubi miny przeciwpancerne"
+    ],
+    "content_hits": [
+      "afera w wojsku",
+      "żandarmi przeszukali mu dom",
+      "kompromitacja"
+    ],
+    "credibility_hits": [
+      "por. Michał Krawczyk",
+      "podcast 'Fronty wojny'"
+    ],
+    "mismatch": {
+      "title": "Ujawniamy. Wojsko gubi miny przeciwpancerne. \"Szybko się zorientowali\"",
+      "content": "Artykuł opisuje przeszukanie domu byłego oficera i inne incydenty, ale nie wskazuje na dramatyczne 'gubienie' min."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Problemy w wojsku: żandarmeria przeszukuje dom byłego oficera związane z zagubieniem min przeciwpancernych.",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia sensacyjności."
+  },
+  "diagnostics": {
+    "tokens_title": 12,
+    "tokens_content": 110,
+    "processing_time_ms": 16153,
+    "model": "gpt-4o-mini"
+  }
+}

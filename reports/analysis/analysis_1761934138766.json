@@ -1,0 +1,49 @@
+{
+  "id": 1761934138766,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/ukraincy-walcza-o-pokrowsk-sytuacja-jest-trudna/htfhm7g",
+  "title": "Trudna sytuacja wokół Pokrowska. Wołodymyr Zełenski alarmuje",
+  "score": 52,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'trudna sytuacja' i 'alarmuje', co zwiększa jego clickbaitowość.",
+    "Treść artykułu odnosi się do sytuacji wojennej, co jest tematem emocjonalnym i wzbudza ciekawość.",
+    "Zidentyfikowano niezgodność między tytułem a treścią, ponieważ tytuł sugeruje bardziej dramatyczną sytuację niż ta przedstawiona w artykule.",
+    "W artykule pojawia się cytat od Wołodymyra Zełenskiego, co podnosi wiarygodność informacji."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa emocjonalnych słów, co może przyciągać uwagę czytelników.",
+    "Artykuł dotyczy sytuacji wojennej, co naturalnie budzi zainteresowanie.",
+    "Tytuł może sugerować większe dramatyzm niż to, co jest opisane w treści.",
+    "Cytaty od znanych osób, jak prezydent Ukrainy, zwiększają zaufanie do informacji."
+  ],
+  "summary": "Artykuł informuje o trudnej sytuacji w Pokrowsku, gdzie trwają intensywne walki. Prezydent Ukrainy Wołodymyr Zełenski przekazał, że ukraińska armia prowadzi działania obronne w obwodzie donieckim. Sytuacja w regionie jest niepokojąca, co podkreśla komunikat PAP.",
+  "signals": {
+    "title_hits": [
+      "trudna sytuacja",
+      "alarmuje"
+    ],
+    "content_hits": [
+      "sytuacja jest trudna",
+      "ciężkie walki"
+    ],
+    "credibility_hits": [
+      "Wołodymyr Zełenski",
+      "Polska Agencja Prasowa"
+    ],
+    "mismatch": {
+      "title": "Trudna sytuacja wokół Pokrowska. Wołodymyr Zełenski alarmuje",
+      "content": "Sytuacja jest trudna i mają tam miejsce ciężkie walki."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Sytuacja w Pokrowsku: Wołodymyr Zełenski informuje o działaniach obronnych",
+    "notes_to_editor": "Rozważyć zmianę tytułu na bardziej neutralny, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 73,
+    "processing_time_ms": 12683,
+    "model": "gpt-4o-mini"
+  }
+}

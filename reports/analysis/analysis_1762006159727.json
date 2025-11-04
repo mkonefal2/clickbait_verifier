@@ -1,0 +1,48 @@
+{
+  "id": 1762006159727,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/tylko-w-onecie/obraz-straszny-minister-zurek-o-zarzutach-wobec-ekipy-zbigniewa-ziobry/8ldnyt4",
+  "title": "\"Obraz straszny\". Minister Żurek o zarzutach wobec ekipy Zbigniewa Ziobry",
+  "score": 55,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazę sensacyjną \"obraz straszny\", co podnosi wynik analizy.",
+    "Treść artykułu odnosi się do zarzutów wobec ekipy Zbigniewa Ziobry, co jest zgodne z tytułem, ale nie rozwija w pełni kontekstu.",
+    "W artykule pojawiają się cytaty, co zwiększa wiarygodność, ale nie ma konkretnych liczb ani źródeł.",
+    "Wynik mismatch detection jest umiarkowany, ponieważ tytuł i treść są zgodne, ale tytuł jest bardziej dramatyczny niż treść."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa emocjonalnego języka, co może przyciągać uwagę czytelników.",
+    "Treść artykułu odnosi się do komentarzy ministra Żurka na temat zarzutów wobec ekipy Zbigniewa Ziobry, co jest zgodne z tytułem.",
+    "Artykuł zawiera cytaty, co dodaje mu wiarygodności, ale brakuje konkretów, takich jak liczby czy źródła.",
+    "Tytuł jest bardziej dramatyczny niż sama treść, co może wprowadzać w błąd."
+  ],
+  "summary": "Minister sprawiedliwości Waldemar Żurek komentuje zarzuty wobec byłego kierownictwa resortu sprawiedliwości, wskazując, że po zebraniu wszystkich przypadków powstaje \"straszny obraz\". Mec. Przemysław Rosati ocenia sytuację jako ewenement na skalę światową.",
+  "signals": {
+    "title_hits": [
+      "obraz straszny"
+    ],
+    "content_hits": [
+      "obraz straszny",
+      "ewenement na skalę światową"
+    ],
+    "credibility_hits": [
+      "Minister Żurek",
+      "mec. Przemysław Rosati"
+    ],
+    "mismatch": {
+      "is_mismatch": false,
+      "reason": "Tytuł i treść są zgodne, ale tytuł jest bardziej dramatyczny."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Minister Żurek komentuje zarzuty wobec ekipy Zbigniewa Ziobry",
+    "notes_to_editor": "Rozważyć użycie mniej dramatycznego języka w tytule, aby lepiej odzwierciedlić treść artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 12,
+    "tokens_content": 104,
+    "processing_time_ms": 14532,
+    "model": "gpt-4o-mini"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": 1762020465291,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/polska/news-syn-kazimierza-gorskiego-w-szczerym-wyznaniu-taty-po-prostu-,nId,8035089",
+  "title": "​Syn Kazimierza Górskiego w szczerym wyznaniu: Taty po prostu nie było w domu",
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy, które mogą budzić ciekawość, takie jak 'szczerym wyznaniu' i 'Taty po prostu nie było w domu'.",
+    "Treść artykułu jest zgodna z tytułem, jednak nie zawiera sensacyjnych elementów.",
+    "W artykule występują liczby, takie jak 'trzy czwarte roku', co zwiększa wiarygodność.",
+    "Nie znaleziono znaczących niezgodności między tytułem a treścią."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera zwroty, które mogą przyciągać uwagę, ale nie jest przesadnie sensacyjny.",
+    "Treść artykułu jest spójna z tytułem i nie wprowadza w błąd.",
+    "W artykule pojawiają się konkretne liczby, co dodaje mu wiarygodności.",
+    "Nie znaleziono dużych różnic między tym, co obiecuje tytuł, a tym, co jest w treści."
+  ],
+  "summary": "Artykuł przedstawia wspomnienia Dariusza Górskiego, syna Kazimierza Górskiego, o jego ojcu jako o człowieku, który mimo zawodowych obowiązków cenił rodzinę. Opisuje relacje w rodzinie, tradycje świąteczne oraz wartości, jakie przekazywał swoim dzieciom. Kazimierz Górski był dla swoich dzieci przede wszystkim tatą, a nie tylko legendą futbolu.",
+  "signals": {
+    "title_hits": [
+      "szczerym wyznaniu",
+      "Taty po prostu nie było w domu"
+    ],
+    "content_hits": [
+      "trzy czwarte roku",
+      "dom jako azyl"
+    ],
+    "credibility_hits": [
+      "Dariusz Górski",
+      "RMF FM"
+    ],
+    "mismatch": {
+      "exists": false,
+      "details": ""
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Wspomnienia Dariusza Górskiego o ojcu Kazimierzu Górskim",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby zmniejszyć element clickbaitowy."
+  },
+  "diagnostics": {
+    "tokens_title": 14,
+    "tokens_content": 496,
+    "processing_time_ms": 14055,
+    "model": "gpt-4o-mini"
+  }
+}

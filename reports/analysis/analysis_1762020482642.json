@@ -1,0 +1,52 @@
+{
+  "id": 1762020482642,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/zmiana-na-stanowisku-premiera-tylu-zwolennikow-ma-donald-tusk-sondaz/qxdf17v",
+  "title": "Zmiana na stanowisku premiera? Tylu zwolenników ma Tusk [SONDAŻ]",
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera pytanie, co może budzić ciekawość, ale nie jest przesadnie sensacyjny.",
+    "W treści artykułu znajdują się konkretne dane z sondażu, co zwiększa wiarygodność.",
+    "Wykryto frazy takie jak 'zmiana na stanowisku' oraz 'tylu zwolenników', które mogą być uznane za sensacyjne.",
+    "Zgodność tytułu z treścią jest na poziomie umiarkowanym, ponieważ tytuł sugeruje więcej niż artykuł dostarcza.",
+    "W artykule użyto konkretnej liczby procentowej, co podnosi jego wiarygodność."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zadaje pytanie, co może przyciągać uwagę, ale nie jest przesadnie dramatyczny.",
+    "Artykuł zawiera konkretne dane z badania, co sprawia, że jest bardziej wiarygodny.",
+    "Niektóre sformułowania mogą budzić ciekawość, ale nie są one przesadzone.",
+    "Tytuł sugeruje więcej informacji, niż artykuł rzeczywiście zawiera.",
+    "Podano konkretne liczby, co zwiększa zaufanie do przedstawionych informacji."
+  ],
+  "summary": "Artykuł przedstawia wyniki sondażu dotyczącego poparcia dla Donalda Tuska jako premiera. Z badania wynika, że 44,6% Polaków jest przeciwnych jego zastąpieniu przez Radosława Sikorskiego, podczas gdy 33,1% popiera tę zmianę, a 22,3% jest niezdecydowanych. Sondaż został przeprowadzony przez United Surveys dla Wirtualnej Polski.",
+  "signals": {
+    "title_hits": [
+      "zmiana na stanowisku",
+      "tylu zwolenników"
+    ],
+    "content_hits": [
+      "44,6 proc.",
+      "33,1 proc.",
+      "22,3 proc."
+    ],
+    "credibility_hits": [
+      "sondaż United Surveys",
+      "Polska Agencja Prasowa"
+    ],
+    "mismatch": {
+      "title_content_mismatch": true,
+      "title_suggests_more": true
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Poparcie dla Donalda Tuska w sondażu",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 92,
+    "processing_time_ms": 14447,
+    "model": "gpt-4o-mini"
+  }
+}

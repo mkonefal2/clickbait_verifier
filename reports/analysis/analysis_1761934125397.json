@@ -1,0 +1,50 @@
+{
+  "id": 1761934125397,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/radio/news-upadlem-bo-nie-wiedzialem-co-mam-ze-soba-zrobic-co-slychac-u,nId,8036665",
+  "title": "\"Upadłem, bo nie wiedziałem co mam ze sobą zrobić\". Co słychać u Tomasza Sikory?",
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazę 'nie wiedziałem co mam ze sobą zrobić', co może wzbudzać ciekawość, ale nie jest to absolut.",
+    "Treść artykułu jest spójna z tytułem, przedstawia osobiste doświadczenia Tomasza Sikory, co zmniejsza ryzyko mismatch.",
+    "W artykule pojawiają się cytaty i konkretne informacje, co podnosi wiarygodność.",
+    "Ogólna analiza wykazała umiarkowany stopień clickbaitu, głównie przez lukę ciekawości w tytule."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera intrygujące stwierdzenie, które może przyciągnąć uwagę, ale nie jest przesadnie sensacyjny.",
+    "Treść artykułu jest zgodna z tytułem, opowiada o osobistych doświadczeniach Tomasza Sikory, co sprawia, że jest wiarygodna.",
+    "Artykuł zawiera cytaty i konkretne informacje, co zwiększa jego rzetelność.",
+    "Ogólnie rzecz biorąc, artykuł ma umiarkowany stopień clickbaitu, głównie przez intrygujący tytuł."
+  ],
+  "summary": "Artykuł przedstawia wywiad z Tomaszem Sikorą, byłym biathlonistą, który opowiada o swojej karierze sportowej, osobistych zmaganiach oraz pracy nad książką. Sikora dzieli się swoimi wspomnieniami z igrzysk olimpijskich oraz refleksjami na temat psychiki w sporcie. Wspomina również, jak sport pomógł mu w pokonywaniu nieśmiałości.",
+  "signals": {
+    "title_hits": [
+      "nie wiedziałem co mam ze sobą zrobić"
+    ],
+    "content_hits": [
+      "byłem nieprawdopodobnie nieśmiały",
+      "sport uratował mi życie",
+      "upadłem na mecie"
+    ],
+    "credibility_hits": [
+      "mówi w podcaście",
+      "srebrny medalista z Turynu",
+      "chce zawrzeć w niej historie"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "content_summary_match": true
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Tomasz Sikora o swojej karierze i pracy nad książką",
+    "notes_to_editor": "Zaleca się unikać fraz, które mogą budzić ciekawość, aby zmniejszyć stopień clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 14,
+    "tokens_content": 622,
+    "processing_time_ms": 17038,
+    "model": "gpt-4o-mini"
+  }
+}

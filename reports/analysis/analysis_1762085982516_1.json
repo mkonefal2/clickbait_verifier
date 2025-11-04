@@ -1,0 +1,50 @@
+{
+  "id": 1762085982516,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/polska/news-tragiczny-bilans-weekendu-na-drogach-policja-przekazala-pier,nId,8036833",
+  "title": "Tragiczny bilans weekendu",
+  "score": 15,
+  "label": "not_clickbait",
+  "rationale": [
+    "Tytuł jest prosty i odnosi się bezpośrednio do treści artykułu, nie zawiera fraz sensacyjnych ani absolutów.",
+    "Treść artykułu dostarcza konkretne dane dotyczące wypadków, ofiar i działań policji, co wzmacnia jego wiarygodność.",
+    "Brak luk ciekawości; artykuł nie sugeruje informacji, które nie są zawarte w treści.",
+    "Nie występują znaczące rozbieżności między tytułem a treścią, co potwierdza zgodność.",
+    "Sygnały wiarygodności obejmują konkretne liczby i cytaty od ekspertów."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł artykułu jasno odnosi się do jego treści i nie jest przesadzony.",
+    "Artykuł zawiera konkretne informacje o wypadkach, co czyni go wiarygodnym.",
+    "Nie ma w nim niejasnych zapowiedzi, które mogłyby wprowadzać w błąd.",
+    "Tytuł i treść są zgodne, co jest pozytywnym sygnałem.",
+    "W artykule znajdują się konkretne liczby i wypowiedzi ekspertów, co zwiększa jego rzetelność."
+  ],
+  "summary": "Artykuł przedstawia statystyki dotyczące wypadków drogowych w Polsce w ostatni weekend, informując o 146 wypadkach, 6 ofiarach śmiertelnych oraz 184 osobach rannych. Policja zatrzymała 518 nietrzeźwych kierowców. W artykule zawarte są także porady dotyczące bezpieczeństwa na drogach oraz przypomnienie o wzmożonych kontrolach w ramach Akcji Znicz.",
+  "signals": {
+    "title_hits": [],
+    "content_hits": [
+      "146 wypadków",
+      "6 osób",
+      "184 osoby",
+      "518 nietrzeźwych kierowców"
+    ],
+    "credibility_hits": [
+      "Policja",
+      "Marek Konkolewski - zastępca Głównego Inspektora Transportu Drogowego"
+    ],
+    "mismatch": {
+      "exists": false,
+      "details": "Brak rozbieżności między tytułem a treścią."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Bilans wypadków drogowych w weekend",
+    "notes_to_editor": "Artykuł jest dobrze napisany i nie zawiera elementów clickbaitowych."
+  },
+  "diagnostics": {
+    "tokens_title": 4,
+    "tokens_content": 335,
+    "processing_time_ms": 13934,
+    "model": "gpt-4o-mini"
+  }
+}

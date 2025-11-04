@@ -1,0 +1,50 @@
+{
+  "id": 1762267150359,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/wraca-sprawa-immunitetu-grzegorza-brauna-jest-nowa-decyzja-komisji-pe/dezy2lw",
+  "title": "Wraca sprawa immunitetu Grzegorza Brauna. Komisja prawna PE podjęła decyzję",
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy takie jak 'wraca sprawa', co może sugerować sensacyjność, ale nie jest to skrajnie clickbaitowe.",
+    "Treść artykułu jest zgodna z tytułem, jednak nie zawiera szczegółowych informacji, które mogłyby wzbudzić większe zainteresowanie.",
+    "W treści pojawiają się liczby (sześć przestępstw), co zwiększa wiarygodność, ale brak jest cytatów lub odniesień do źródeł.",
+    "Mismatches są minimalne, ponieważ tytuł i treść są ze sobą spójne."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł sugeruje, że sprawa Grzegorza Brauna jest poważna, ale nie jest przesadnie dramatyczny.",
+    "Artykuł jasno przedstawia sytuację, ale nie dostarcza wielu szczegółów, które mogłyby przyciągnąć uwagę.",
+    "W treści znajdują się konkretne liczby, co dodaje wiarygodności, ale brakuje cytatów lub źródeł.",
+    "Tytuł i treść są zgodne, co oznacza, że nie ma dużych rozbieżności między nimi."
+  ],
+  "summary": "Komisja prawna Parlamentu Europejskiego zdecydowała o uchwałach dotyczących immunitetu europosła Grzegorza Brauna. Sprawa dotyczy podejrzeń o popełnienie sześciu przestępstw, w tym naruszenia nietykalności cielesnej lekarki. Ostateczna decyzja w tej sprawie zostanie podjęta przez całą izbę.",
+  "signals": {
+    "title_hits": [
+      "wraca sprawa",
+      "podjęła decyzję"
+    ],
+    "content_hits": [
+      "Komisja prawna",
+      "uchwał",
+      "sześciu przestępstw"
+    ],
+    "credibility_hits": [
+      "Polska Agencja Prasowa",
+      "liczba sześciu"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "content_detail_level": "low"
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Decyzja Komisji prawnej PE w sprawie immunitetu Grzegorza Brauna",
+    "notes_to_editor": "Rozważyć dodanie więcej szczegółów dotyczących sprawy dla zwiększenia wartości informacyjnej."
+  },
+  "diagnostics": {
+    "tokens_title": 15,
+    "tokens_content": 102,
+    "processing_time_ms": 19743,
+    "model": "gpt-4o-mini"
+  }
+}

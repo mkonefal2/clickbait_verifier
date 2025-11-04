@@ -1,0 +1,52 @@
+{
+  "id": 1762085987160,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/polityka/news-czy-sikorski-przejmie-stery-po-tusku-oto-co-mysla-polacy,nId,8036824",
+  "title": "Czy Sikorski przejmie stery po Tusku? Oto co myślą Polacy",
+  "score": 38,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera pytanie, co może budzić ciekawość, ale nie używa skrajnych emocji ani mocnych słów.",
+    "Treść artykułu skupia się na wynikach sondażu, co jest zgodne z tytułem, ale nie dostarcza jednoznacznej odpowiedzi na postawione pytanie.",
+    "W artykule występują liczby i cytaty, co zwiększa jego wiarygodność.",
+    "Nie znaleziono wyraźnych sygnałów clickbaitowych w treści, ale tytuł może być uznany za lekko sensacyjny."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł stawia pytanie, co może przyciągać uwagę, ale nie jest przesadnie dramatyczny.",
+    "Artykuł przedstawia wyniki sondażu na temat ewentualnej zmiany premiera, co odpowiada tytułowi, ale nie daje jednoznacznej odpowiedzi.",
+    "W artykule są podane konkretne liczby i cytaty, co sprawia, że jest bardziej wiarygodny.",
+    "Nie ma w nim przesadnych emocji, ale tytuł może wydawać się nieco sensacyjny."
+  ],
+  "summary": "Artykuł omawia wyniki sondażu dotyczącego możliwości zastąpienia Donalda Tuska przez Radosława Sikorskiego na stanowisku premiera. Z danych wynika, że 44,6% Polaków jest przeciwko tej zmianie, podczas gdy 33,1% ją popiera. W artykule przytoczone są także opinie polityków oraz szczegóły dotyczące badania.",
+  "signals": {
+    "title_hits": [
+      "przejmie",
+      "stery",
+      "myślą"
+    ],
+    "content_hits": [
+      "sondaż",
+      "44,6 proc.",
+      "33,1 proc.",
+      "zmiana na stanowisku premiera"
+    ],
+    "credibility_hits": [
+      "sondaż United Surveys",
+      "metodą CATI i CAWI na próbie 1000 osób"
+    ],
+    "mismatch": {
+      "title_content_match": "partial",
+      "explanation": "Tytuł sugeruje, że artykuł dostarczy odpowiedzi na pytanie, ale w rzeczywistości przedstawia jedynie wyniki sondażu."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Opinie Polaków na temat ewentualnej zmiany premiera",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 320,
+    "processing_time_ms": 14437,
+    "model": "gpt-4o-mini"
+  }
+}

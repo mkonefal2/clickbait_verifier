@@ -1,0 +1,49 @@
+{
+  "id": 1761934133394,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/szkola-we-wlodarach-ostrzelana-nowe-ustalenia/ny7pfgd",
+  "title": "Oddał strzały w kierunku szkoły. Nowe informacje w sprawie 38-latka",
+  "score": 55,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'Oddał strzały' oraz 'Nowe informacje', co sugeruje dramatyzm.",
+    "Treść artykułu jest zgodna z tytułem, jednak tytuł może wprowadzać w błąd co do szczegółów sytuacji.",
+    "W treści artykułu znajdują się konkretne informacje o incydencie, co podnosi wiarygodność.",
+    "Zidentyfikowano 3 frazy sensacyjne w tytule i 2 w treści, co przyczyniło się do wysokiego wyniku clickbaitu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł artykułu używa dramatycznych sformułowań, co może przyciągać uwagę.",
+    "Treść jest zgodna z tytułem, ale tytuł może sugerować większą sensację niż rzeczywiście miała miejsce.",
+    "Artykuł zawiera konkretne informacje, co sprawia, że jest wiarygodny.",
+    "Zidentyfikowano kilka zwrotów, które mogą być uznane za sensacyjne, co wpływa na ocenę clickbaitu."
+  ],
+  "summary": "Artykuł opisuje incydent, w którym 38-letni mężczyzna ostrzelał budynek szkoły podstawowej oraz przedszkola we Włodarach. Został aresztowany, a w jego domu znaleziono pistolet pneumatyczny i wiatrówkę. Grozi mu kara do 5 lat pozbawienia wolności.",
+  "signals": {
+    "title_hits": [
+      "Oddał strzały",
+      "Nowe informacje"
+    ],
+    "content_hits": [
+      "ostrzał budynku",
+      "38-letni mieszkaniec"
+    ],
+    "credibility_hits": [
+      "decyzją sądu",
+      "grozi kara do 5 lat"
+    ],
+    "mismatch": {
+      "exists": false,
+      "details": ""
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Mężczyzna ostrzelał budynek szkoły we Włodarach, aresztowany",
+    "notes_to_editor": "Rozważyć zmianę tytułu na bardziej neutralny, aby uniknąć wrażenia sensacyjności."
+  },
+  "diagnostics": {
+    "tokens_title": 13,
+    "tokens_content": 82,
+    "processing_time_ms": 13013,
+    "model": "gpt-4o-mini"
+  }
+}

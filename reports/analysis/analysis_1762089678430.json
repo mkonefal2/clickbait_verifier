@@ -1,0 +1,44 @@
+{
+  "id": 1762089678430,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/sport/news-jakub-moder-po-operacji-nie-zagra-przez-kilka-miesiecy,nId,8036853",
+  "title": "Jakub Moder po operacji. Nie zagra przez kilka miesięcy",
+  "score": 20,
+  "label": "not_clickbait",
+  "rationale": [
+    "Tytuł jest zgodny z treścią artykułu, nie zawiera fraz sensacyjnych ani absolutów.",
+    "Treść artykułu dostarcza konkretnych informacji o operacji Jakuba Modera oraz jego kontuzji.",
+    "Nie wykryto luk ciekawości ani przesadnych emocji w treści.",
+    "Cytaty z trenera Feyenoordu zwiększają wiarygodność informacji.",
+    "Brak rozbieżności między tytułem a treścią."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł odpowiada na to, co jest opisane w artykule, nie używa przesadnych słów.",
+    "Artykuł informuje o operacji Jakuba Modera i jego przerwie w grze.",
+    "Nie ma w nim sensacyjnych stwierdzeń ani prób wywołania emocji.",
+    "Cytaty z trenera dodają wiarygodności do przedstawionych informacji.",
+    "Tytuł i treść są spójne i nie wprowadzają w błąd."
+  ],
+  "summary": "Jakub Moder, piłkarz Feyenoordu Rotterdam i reprezentant Polski, przeszedł operację pleców, co oznacza, że nie zagra przez kilka miesięcy. Informację o jego kontuzji przekazał trener Robin Van Persie. Moder, wcześniej grający w Brighton, dołączył do Feyenoordu w styczniu 2023 roku.",
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "Cytat z Robina Van Persiego"
+    ],
+    "mismatch": {
+      "exists": false,
+      "details": "Tytuł i treść są zgodne."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Jakub Moder przeszedł operację pleców i nie zagra przez kilka miesięcy",
+    "notes_to_editor": "Artykuł jest informacyjny i nie zawiera elementów clickbaitowych."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 172,
+    "processing_time_ms": 11233,
+    "model": "gpt-4o-mini"
+  }
+}

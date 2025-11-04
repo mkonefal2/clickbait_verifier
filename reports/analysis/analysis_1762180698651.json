@@ -1,0 +1,47 @@
+{
+  "id": 1762180698651,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/olsztyn/burza-po-slowach-burmistrza-uznal-ze-dzieci-ze-wsi-sa-gorzej-ubrane/cd9z9nn",
+  "title": "Kontrowersyjne słowa burmistrza. \"Dzieci ze wsi są gorzej ubrane\"",
+  "score": 62,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazę 'kontrowersyjne słowa', co sugeruje sensacyjność.",
+    "W treści artykułu pojawia się stwierdzenie burmistrza, które jest kontrowersyjne i wywołuje emocje.",
+    "Wykryto lukę ciekawości w postaci niepełnych informacji o kontekście wypowiedzi burmistrza.",
+    "Tytuł i treść są zgodne, ale tytuł jest bardziej dramatyczny niż treść.",
+    "Brak konkretnych danych liczbowych lub cytatów z innych źródeł, co obniża sygnały wiarygodności."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł sugeruje, że wypowiedź burmistrza jest kontrowersyjna, co przyciąga uwagę.",
+    "Treść artykułu opisuje wypowiedź burmistrza, która wywołała emocje, ale nie dostarcza pełnego kontekstu.",
+    "Tytuł jest bardziej dramatyczny niż sama treść, co może wprowadzać w błąd.",
+    "Brakuje dodatkowych informacji, które mogłyby potwierdzić wiarygodność wypowiedzi."
+  ],
+  "summary": "Artykuł opisuje kontrowersyjną wypowiedź burmistrza Korsz, który stwierdził, że dzieci ze wsi są gorzej ubrane i nie powinny chodzić do szkół w mieście. Jego słowa wywołały burzę, a burmistrz przeprosił osoby, które poczuły się urażone. Zapowiedział również, że wróci do tej sprawy.",
+  "signals": {
+    "title_hits": [
+      "kontrowersyjne słowa",
+      "gorzej ubrane"
+    ],
+    "content_hits": [
+      "kontrowersyjne słowa burmistrza",
+      "gorzej ubrane"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "title_content_match": "partial",
+      "explanation": "Tytuł jest bardziej dramatyczny niż treść, co może wprowadzać w błąd."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Wypowiedź burmistrza na temat ubioru dzieci ze wsi",
+    "notes_to_editor": "Rozważyć dodanie kontekstu do wypowiedzi burmistrza, aby zwiększyć wiarygodność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 85,
+    "processing_time_ms": 13533,
+    "model": "gpt-4o-mini"
+  }
+}

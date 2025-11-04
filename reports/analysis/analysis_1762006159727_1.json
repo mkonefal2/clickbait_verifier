@@ -1,0 +1,48 @@
+{
+  "id": 1762006159727,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/tylko-w-onecie/obraz-straszny-minister-zurek-o-zarzutach-wobec-ekipy-zbigniewa-ziobry/8ldnyt4",
+  "title": "\"Obraz straszny\". Minister Żurek o zarzutach wobec ekipy Zbigniewa Ziobry",
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazę sensacyjną \"obraz straszny\", co podnosi jego clickbaitowość.",
+    "Treść artykułu odnosi się do komentarzy ministra Żurka, co jest zgodne z tytułem, ale nie rozwija go w sposób sensacyjny.",
+    "W artykule pojawiają się cytaty, co zwiększa jego wiarygodność.",
+    "Mismatched detection jest minimalny, ponieważ tytuł i treść są spójne."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnego wyrażenia \"obraz straszny\", co może przyciągać uwagę czytelników.",
+    "Artykuł faktycznie odnosi się do wypowiedzi ministra Żurka, co sprawia, że tytuł jest odpowiedni.",
+    "Cytaty w artykule dodają mu wiarygodności.",
+    "Nie ma dużych rozbieżności między tytułem a treścią, co jest pozytywne."
+  ],
+  "summary": "Minister sprawiedliwości Waldemar Żurek komentuje zarzuty wobec byłego kierownictwa resortu sprawiedliwości, wskazując na niepokojący obraz sytuacji. Podkreśla, że dotychczas traktował przypadki osobno, ale teraz dostrzega ich powiązania. Mec. Przemysław Rosati ocenia te działania jako ewenement na skalę światową.",
+  "signals": {
+    "title_hits": [
+      "obraz straszny"
+    ],
+    "content_hits": [
+      "obraz straszny",
+      "ewenement na skalę światową"
+    ],
+    "credibility_hits": [
+      "Waldemar Żurek",
+      "Przemysław Rosati"
+    ],
+    "mismatch": {
+      "exists": false,
+      "details": "Tytuł i treść są zgodne."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Minister Żurek o zarzutach wobec ekipy Zbigniewa Ziobry",
+    "notes_to_editor": "Rozważyć użycie mniej sensacyjnych zwrotów w tytule."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 92,
+    "processing_time_ms": 12019,
+    "model": "gpt-4o-mini"
+  }
+}

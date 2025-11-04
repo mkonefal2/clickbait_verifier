@@ -1,0 +1,43 @@
+{
+  "id": 1762020467587,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/swiat/news-slowackie-szlaki-zamkniete-dla-turystow,nId,8036798",
+  "title": "Słowackie szlaki zamknięte dla turystów",
+  "score": 15,
+  "label": "not_clickbait",
+  "rationale": [
+    "Tytuł jest zgodny z treścią artykułu, nie zawiera fraz sensacyjnych ani absolutów.",
+    "Treść artykułu dostarcza konkretnych informacji na temat zamknięcia szlaków, co jest zgodne z tytułem.",
+    "Nie wykryto luk ciekawości ani niezgodności między tytułem a treścią.",
+    "Artykuł zawiera cytaty i dane z wiarygodnego źródła (dyrekcja TANAP), co podnosi jego wiarygodność."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jasno informuje o zamknięciu szlaków, co jest zgodne z treścią artykułu.",
+    "Artykuł dostarcza szczegółowych informacji na temat przyczyn zamknięcia szlaków i jakie trasy pozostaną otwarte.",
+    "Nie ma w nim przesadnych stwierdzeń ani sensacyjnych zwrotów.",
+    "Zawiera cytaty od odpowiednich służb, co czyni go wiarygodnym."
+  ],
+  "summary": "Od 1 listopada słowacki Tatrzański Park Narodowy zamyka wysokogórskie odcinki szlaków turystycznych powyżej schronisk do końca maja. Zamknięcie ma na celu ochronę przyrody i zapewnienie bezpieczeństwa turystom w trudnych zimowych warunkach. Niektóre trasy pozostaną otwarte, a turyści powinni pamiętać o słowackich ograniczeniach przy planowaniu wędrówek.",
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "cytaty",
+      "źródła"
+    ],
+    "mismatch": {
+      "exists": false,
+      "details": ""
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Zamknięcie szlaków turystycznych w Tatrach Słowackich od 1 listopada",
+    "notes_to_editor": "Artykuł jest dobrze napisany i nie wymaga dużych zmian."
+  },
+  "diagnostics": {
+    "tokens_title": 7,
+    "tokens_content": 325,
+    "processing_time_ms": 11228,
+    "model": "gpt-4o-mini"
+  }
+}

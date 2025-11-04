@@ -1,0 +1,49 @@
+{
+  "id": 1762267151299,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/tylko-w-onecie/jaka-droge-wybierze-zbigniew-ziobro-kazdy-sposob-na-unikanie-jest-dobry/fjdqjlv",
+  "title": "Czy Zbigniew Ziobro wróci do kraju? Zapytaliśmy jego posłów. \"Każdy sposób na unikanie jest dobry\"",
+  "score": 55,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera pytanie, co wzbudza ciekawość, oraz sensacyjną frazę \"Każdy sposób na unikanie jest dobry\", co zwiększa jego clickbaitowość.",
+    "Treść artykułu odnosi się do aktualnych wydarzeń politycznych, ale nie dostarcza konkretnej odpowiedzi na pytanie postawione w tytule, co wskazuje na pewien mismatch.",
+    "W artykule pojawiają się cytaty i odniesienia do działań prokuratury, co dodaje wiarygodności, ale nie zmienia ogólnego wrażenia clickbaitowego."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł stawia pytanie, które może zainteresować czytelników, a także zawiera kontrowersyjną wypowiedź, co sprawia, że jest bardziej przyciągający.",
+    "Treść artykułu dotyczy sytuacji politycznej, ale nie odpowiada bezpośrednio na pytanie z tytułu, co może wprowadzać w błąd.",
+    "Artykuł zawiera cytaty i odniesienia do działań prokuratury, co sprawia, że jest bardziej wiarygodny, ale nadal ma elementy clickbaitu."
+  ],
+  "summary": "Artykuł omawia sytuację Zbigniewa Ziobry, byłego ministra sprawiedliwości, który jest ścigany przez prokuraturę. Zawiera informacje o wniosku o uchwałę immunitetu oraz spekulacje na temat jego powrotu do kraju. W artykule cytowani są posłowie, którzy komentują jego sytuację i strategię unikania konsekwencji prawnych.",
+  "signals": {
+    "title_hits": [
+      "wróci do kraju",
+      "każdy sposób na unikanie"
+    ],
+    "content_hits": [
+      "Zbigniew Ziobro",
+      "uchwała immunitetu",
+      "prokuratura",
+      "sposób na unikanie"
+    ],
+    "credibility_hits": [
+      "cytaty",
+      "informacje o prokuraturze"
+    ],
+    "mismatch": {
+      "title": "Czy Zbigniew Ziobro wróci do kraju?",
+      "content": "Artykuł nie odpowiada bezpośrednio na to pytanie."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Sytuacja Zbigniewa Ziobry w kontekście wniosku o uchwałę immunitetu",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby zmniejszyć element clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 18,
+    "tokens_content": 132,
+    "processing_time_ms": 17202,
+    "model": "gpt-4o-mini"
+  }
+}

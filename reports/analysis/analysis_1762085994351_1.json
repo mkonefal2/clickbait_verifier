@@ -1,0 +1,51 @@
+{
+  "id": 1762085994351,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/lublin/news-gruzin-i-ukrainiec-wlamali-sie-do-domu-co-im-grozi,nId,8036845",
+  "title": "Gruzin i Ukrainiec włamali się do domu. Co im grozi?",
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera pytanie, co może wzbudzać ciekawość, ale nie używa skrajnych emocji ani sensacyjnych fraz.",
+    "Treść artykułu jest zgodna z tytułem, dostarczając informacji o zatrzymaniu dwóch mężczyzn za włamanie.",
+    "W treści występują konkretne liczby (wiek podejrzanych) oraz odniesienia do przepisów prawnych, co zwiększa wiarygodność.",
+    "Nie znaleziono wyraźnych sygnałów clickbaitowych w treści, ale tytuł może być uznany za lekko sensacyjny."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł stawia pytanie, co może przyciągać uwagę, ale nie jest przesadnie dramatyczny.",
+    "Artykuł szczegółowo opisuje sytuację związaną z zatrzymaniem dwóch mężczyzn za włamanie, co jest zgodne z tytułem.",
+    "W treści pojawiają się konkretne informacje, takie jak wiek podejrzanych i możliwe kary, co dodaje wiarygodności.",
+    "Nie znaleziono wyraźnych elementów clickbaitowych, ale tytuł może być postrzegany jako lekko sensacyjny."
+  ],
+  "summary": "Artykuł opisuje zatrzymanie dwóch mężczyzn, Gruzina i Ukraińca, w związku z włamaniem do domu jednorodzinnego w gminie Kłoczew. Złodzieje ukradli biżuterię i pieniądze, a po zatrzymaniu usłyszeli zarzuty kradzieży z włamaniem. Sąd zdecydował o ich aresztowaniu na dwa miesiące, a za przestępstwo grozi im do 10 lat więzienia.",
+  "signals": {
+    "title_hits": [
+      "włamali się",
+      "co im grozi"
+    ],
+    "content_hits": [
+      "zatrzymali dwie osoby",
+      "kradzieżą biżuterii",
+      "grozi do 10 lat więzienia"
+    ],
+    "credibility_hits": [
+      "32-letni Gruzin",
+      "33-letni Ukrainiec",
+      "Prokuratura Rejonowa w Rykach"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "title_content_mismatch": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Zatrzymano dwóch mężczyzn za włamanie do domu w Kłoczewie",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 183,
+    "processing_time_ms": 12567,
+    "model": "gpt-4o-mini"
+  }
+}

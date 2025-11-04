@@ -1,0 +1,52 @@
+{
+  "id": 1762267130181,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/raporty/raport-wojna-z-rosja/news-zelenski-przy-linii-frontu-zolnierze-hur-przebijaja-sie-w-re,nId,8037407",
+  "title": "Zełenski przy linii frontu. Żołnierze HUR przebijają się w rejonie Pokrowska",
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy, które mogą budzić ciekawość, takie jak 'przy linii frontu' i 'przebijają się', co wskazuje na sensacyjny ton.",
+    "Treść artykułu jest zgodna z tytułem, jednak nie zawiera wielu konkretów, które mogłyby potwierdzić wiarygodność informacji.",
+    "W artykule występują cytaty i odniesienia do źródeł, co podnosi jego wiarygodność.",
+    "Analiza wykazała, że tytuł i treść są spójne, co zmniejsza ryzyko oceny jako clickbait.",
+    "Zastosowane frazy sensacyjne i luk ciekawości przyczyniły się do wyższej oceny clickbaitu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera zwroty, które mogą przyciągać uwagę, jak 'przy linii frontu' i 'przebijają się', co może sugerować dramatyzm.",
+    "Treść artykułu odpowiada tytułowi, ale brakuje w niej szczegółowych informacji, które mogłyby zwiększyć jej wiarygodność.",
+    "Artykuł zawiera cytaty i odniesienia do źródeł, co sprawia, że jest bardziej wiarygodny.",
+    "Tytuł i treść są spójne, co zmniejsza ryzyko, że artykuł jest typowym clickbaitowym materiałem.",
+    "Użycie sensacyjnych zwrotów wpłynęło na ocenę jako umiarkowanie clickbaitowy."
+  ],
+  "summary": "Artykuł opisuje wizytę prezydenta Ukrainy Wołodymyra Zełenskiego w Dobropolu, gdzie spotkał się z wojskowymi. Porusza sytuację na froncie w rejonie Pokrowska, wskazując na intensywne walki oraz działania ukraińskich sił zbrojnych w obronie terytoriów. Zawiera także informacje o strategiach i potrzebach ukraińskiej armii w kontekście konfliktu z Rosją.",
+  "signals": {
+    "title_hits": [
+      "przy linii frontu",
+      "przebijają się"
+    ],
+    "content_hits": [
+      "wizytę w Dobropolu",
+      "sytuację na froncie",
+      "intensywne działania"
+    ],
+    "credibility_hits": [
+      "cytaty",
+      "dane analityków"
+    ],
+    "mismatch": {
+      "is_mismatch": false,
+      "details": "Tytuł i treść są zgodne."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Zełenski odwiedza front w rejonie Pokrowska",
+    "notes_to_editor": "Rozważyć dodanie więcej konkretów w treści, aby zwiększyć wiarygodność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 493,
+    "processing_time_ms": 19130,
+    "model": "gpt-4o-mini"
+  }
+}

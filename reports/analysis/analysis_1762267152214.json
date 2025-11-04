@@ -1,0 +1,47 @@
+{
+  "id": 1762267152214,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/warszawa/dramatyczne-odkrycie-w-narwi-w-okolicach-ostroleki-trwa-identyfikacja-ciala/qqmhczb",
+  "title": "Dramatyczne odkrycie w Narwi. Trwa identyfikacja ciała",
+  "score": 62,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera słowo 'dramatyczne', co jest frazą sensacyjną.",
+    "Treść artykułu opisuje konkretne zdarzenie, ale używa emocjonalnego języka.",
+    "Zidentyfikowano brak cytatów lub konkretnych danych, co obniża wiarygodność.",
+    "Tytuł i treść są zgodne, ale tytuł jest bardziej dramatyczny niż treść."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa emocjonalnego słowa 'dramatyczne', co może przyciągać uwagę.",
+    "Artykuł opisuje odkrycie ciała w Narwi, ale nie zawiera szczegółowych informacji.",
+    "Brak cytatów lub konkretnych danych może wpływać na postrzeganą wiarygodność.",
+    "Tytuł i treść są spójne, ale tytuł jest bardziej dramatyczny niż sama treść."
+  ],
+  "summary": "Artykuł informuje o odkryciu ciała w Narwi, w okolicach Ostrołęki. Ratownicy znaleźli zwłoki częściowo zanurzone w wodzie podczas intensywnych poszukiwań. W artykule podano lokalizację zdarzenia oraz datę odkrycia.",
+  "signals": {
+    "title_hits": [
+      "dramatyczne"
+    ],
+    "content_hits": [
+      "ciało",
+      "zanurzone",
+      "ratownicy",
+      "poszukiwania"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "title_content_match": "true",
+      "title_is_more_dramatic": "true"
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Odkrycie ciała w Narwi w okolicach Ostrołęki",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć emocjonalnych konotacji."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 92,
+    "processing_time_ms": 16244,
+    "model": "gpt-4o-mini"
+  }
+}

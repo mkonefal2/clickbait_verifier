@@ -1,0 +1,51 @@
+{
+  "id": 1762180686467,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/poznan/news-strzelanina-na-lesnej-drodze-w-wielkopolsce,nId,8036885",
+  "title": "Strzelanina w Wielkopolsce",
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera słowo 'strzelanina', które jest frazą sensacyjną.",
+    "W treści artykułu znajdują się szczegóły dotyczące incydentu, co zmniejsza lukę ciekawości.",
+    "Nie stwierdzono znaczących niezgodności między tytułem a treścią.",
+    "Artykuł zawiera cytaty z policji oraz konkretne informacje o liczbie zatrzymanych i rannych, co zwiększa wiarygodność."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'strzelanina', co może przyciągać uwagę.",
+    "Treść artykułu dostarcza szczegółowych informacji o incydencie, co zmniejsza niepewność co do tego, co się wydarzyło.",
+    "Tytuł i treść są zgodne, co oznacza, że nie ma wprowadzenia w błąd.",
+    "Artykuł zawiera wypowiedzi policji i konkretne liczby, co sprawia, że jest bardziej wiarygodny."
+  ],
+  "summary": "W artykule opisano incydent strzelaniny, który miał miejsce w Wielkopolsce, gdzie ranne zostały dwie osoby. Policja przeprowadziła obławę w powiecie gostyńskim, zatrzymując pięć osób. W treści zawarte są szczegóły dotyczące przebiegu zdarzeń oraz działania służb mundurowych.",
+  "signals": {
+    "title_hits": [
+      "strzelanina"
+    ],
+    "content_hits": [
+      "policja",
+      "zatrzymano",
+      "ranni",
+      "obława"
+    ],
+    "credibility_hits": [
+      "RMF FM",
+      "podkom. Monika Curyk",
+      "młodsza aspirant Anna Klój"
+    ],
+    "mismatch": {
+      "title": "Strzelanina w Wielkopolsce",
+      "content": "Wielkopolska policja zakończyła obławę w powiecie gostyńskim."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Incydent z użyciem broni w Wielkopolsce",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć sensacyjności."
+  },
+  "diagnostics": {
+    "tokens_title": 4,
+    "tokens_content": 290,
+    "processing_time_ms": 12811,
+    "model": "gpt-4o-mini"
+  }
+}

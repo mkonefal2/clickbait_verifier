@@ -1,0 +1,53 @@
+{
+  "id": 1762094020825,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/amerykanski-sen-sie-skonczyl-amerykanie-mowia-o-rewolucji-to-nie-jest-zdrowe/pxl2hpp",
+  "title": "Amerykański sen się skończył. \"Mamy w kraju głęboki kryzys\"",
+  "score": 62,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazę sensacyjną 'Amerykański sen się skończył', co wskazuje na dramatyczny ton.",
+    "W treści artykułu występują absoluty, takie jak 'głęboki kryzys', co potęguje wrażenie dramatyzmu.",
+    "Występuje pewna niezgodność między tytułem a treścią, ponieważ tytuł sugeruje koniec amerykańskiego snu, podczas gdy treść koncentruje się na nastrojach społecznych.",
+    "Artykuł zawiera cytaty i odniesienia do badań, co dodaje wiarygodności, ale nie równoważy ogólnego tonu clickbaitowego.",
+    "Analiza wykazała, że tytuł ma większy wpływ na ocenę clickbaitu niż treść, co podnosi wynik."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł artykułu używa dramatycznego języka, co przyciąga uwagę.",
+    "W treści pojawiają się mocne stwierdzenia, które mogą wywoływać emocje.",
+    "Tytuł sugeruje poważne zmiany w USA, ale treść bardziej skupia się na nastrojach ludzi.",
+    "Artykuł zawiera cytaty oraz odniesienia do badań, co sprawia, że jest bardziej wiarygodny.",
+    "Ogólnie, tytuł jest bardziej chwytliwy niż sama treść, co wpływa na ocenę."
+  ],
+  "summary": "Artykuł omawia pesymistyczne nastroje w USA, gdzie wielu Amerykanów wyraża frustrację wobec administracji Donalda Trumpa. W badaniach przeprowadzonych przez organizację Public First większość respondentów ocenia sytuację w kraju jako krytyczną, a niektórzy mówią o potrzebie rewolucji. Opisano również protesty przeciwko administracji.",
+  "signals": {
+    "title_hits": [
+      "Amerykański sen się skończył",
+      "głęboki kryzys"
+    ],
+    "content_hits": [
+      "frustracja",
+      "rewolucja",
+      "głęboki kryzys"
+    ],
+    "credibility_hits": [
+      "Erin Doherty",
+      "Public First",
+      "POLITICO"
+    ],
+    "mismatch": {
+      "title": "Amerykański sen się skończył",
+      "content": "Nastroje w kraju"
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Nastroje w USA: Amerykanie wyrażają frustrację i potrzebę zmian",
+    "notes_to_editor": "Zaleca się unikanie dramatycznych sformułowań w tytule, aby lepiej odzwierciedlić treść artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 12,
+    "tokens_content": 135,
+    "processing_time_ms": 18954,
+    "model": "gpt-4o-mini"
+  }
+}

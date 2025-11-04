@@ -1,0 +1,52 @@
+{
+  "id": 1762020466203,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/swiat/news-orban-ostro-o-tusku-polska-stala-sie-wasalem-brukseli,nId,8036796",
+  "title": "Orban ostro o Tusku: \"Polska stała się wasalem Brukseli!\"",
+  "score": 62,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazę sensacyjną \"ostro o Tusku\" oraz absolut \"stała się wasalem\", co zwiększa jego clickbaitowość.",
+    "W treści artykułu pojawiają się emocjonalne wypowiedzi Orbana, co potwierdza obecność fraz sensacyjnych.",
+    "Zidentyfikowano brak zgodności między tytułem a treścią, ponieważ tytuł sugeruje silniejsze oskarżenie niż treść artykułu.",
+    "Artykuł zawiera cytaty z Orbana, co dodaje wiarygodności, ale nie ma konkretnych liczb ani źródeł.",
+    "Analiza wykazała, że tytuł ma 10 słów, a treść 763 słowa, co wpływa na obliczenia."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów, co sprawia, że jest bardziej przyciągający uwagę.",
+    "W artykule znajdują się emocjonalne wypowiedzi, które mogą wzbudzać zainteresowanie czytelników.",
+    "Tytuł i treść nie do końca się zgadzają, co może wprowadzać w błąd.",
+    "Cytaty z Orbana dodają wiarygodności, ale brakuje konkretów, które mogłyby wzmocnić artykuł.",
+    "Tytuł jest krótki, a treść obszerna, co wpływa na ocenę."
+  ],
+  "summary": "W artykule węgierski premier Viktor Orban krytykuje Donalda Tuska, oskarżając go o ataki na Węgry i próbę odwracania uwagi od problemów politycznych w Polsce. Orban twierdzi, że Tusk uczynił Polskę wasalem Brukseli i podkreśla, że Węgry nie zamierzają podążać za polityką rządu polskiego. W artykule poruszono również spotkanie Orbana z Zbigniewem Ziobrą oraz reakcję Tuska na te wydarzenia.",
+  "signals": {
+    "title_hits": [
+      "ostro",
+      "wasalem"
+    ],
+    "content_hits": [
+      "ostro skrytykował",
+      "panikuje",
+      "prześladuje"
+    ],
+    "credibility_hits": [
+      "Orban: \"Tusk panikuje",
+      "Orban podkreślił"
+    ],
+    "mismatch": {
+      "title": "Orban ostro o Tusku: \"Polska stała się wasalem Brukseli!\"",
+      "content": "W artykule Orban krytykuje Tuska, ale nie ma dowodów na to, że Polska rzeczywiście stała się wasalem."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Orban krytykuje Tuska za politykę w Polsce",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 763,
+    "processing_time_ms": 15834,
+    "model": "gpt-4o-mini"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": 1762267148800,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/pociski-storm-shadow-dla-ukrainy-jest-ruch-wielkiej-brytanii/vxcxl72",
+  "title": "Potężna broń dla Ukrainy. Jest ruch Wielkiej Brytanii",
+  "score": 62,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazę 'Potężna broń', co jest absolutem i może wzbudzać emocje.",
+    "Treść artykułu informuje o przekazaniu pocisków Storm Shadow przez Wielką Brytanię, co jest zgodne z tytułem.",
+    "W artykule znajdują się cytaty oraz odniesienia do agencji informacyjnej, co zwiększa jego wiarygodność.",
+    "Wykryto lukę ciekawości w tytule, która może przyciągać czytelników."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów, co może przyciągać uwagę, ale nieco przesadza z dramatyzmem.",
+    "Treść artykułu jest zgodna z tytułem i dostarcza konkretne informacje o pomocy dla Ukrainy.",
+    "Artykuł zawiera wiarygodne źródła, co zwiększa jego rzetelność.",
+    "Tytuł może budzić ciekawość, co sprawia, że jest bardziej chwytliwy."
+  ],
+  "summary": "Artykuł informuje o decyzji rządu Wielkiej Brytanii dotyczącej przekazania Ukrainie pocisków manewrujących Storm Shadow. W kontekście obaw o nasilenie ataków na ludność cywilną w Ukrainie, Londyn postanowił uzupełnić zapasy tej broni. Informacje pochodzą z agencji Bloomberg.",
+  "signals": {
+    "title_hits": [
+      "Potężna broń"
+    ],
+    "content_hits": [
+      "pociski Storm Shadow",
+      "przekazali pociski",
+      "atak w głębi Rosji"
+    ],
+    "credibility_hits": [
+      "Polska Agencja Prasowa",
+      "Bloomberg"
+    ],
+    "mismatch": {
+      "is_mismatch": false,
+      "details": "Tytuł i treść są zgodne."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Brytyjczycy przekazują pociski Storm Shadow dla Ukrainy",
+    "notes_to_editor": "Rozważyć użycie mniej emocjonalnych sformułowań w tytule."
+  },
+  "diagnostics": {
+    "tokens_title": 9,
+    "tokens_content": 85,
+    "processing_time_ms": 13658,
+    "model": "gpt-4o-mini"
+  }
+}

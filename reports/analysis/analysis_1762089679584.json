@@ -1,0 +1,51 @@
+{
+  "id": 1762089679584,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/atak-hakerski-na-supergrosz-firma-wydala-oswiadczenie/4020yet",
+  "title": "Atak hakerski, firma wydała oświadczenie. \"Istnieje wysokie ryzyko\"",
+  "score": 55,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazę sensacyjną \"wysokie ryzyko\", co podnosi jego clickbaitowość.",
+    "Treść artykułu zawiera konkretne informacje o ataku hakerskim i wycieku danych, co zwiększa jej wiarygodność.",
+    "W tytule i treści występują elementy, które mogą budzić ciekawość, ale są zgodne z faktami przedstawionymi w artykule.",
+    "Wykryto niezgodność w tytule, ponieważ nie ma szczegółowych informacji na temat ryzyka w treści, co może wprowadzać w błąd.",
+    "W artykule podano konkretne liczby dotyczące poszkodowanych, co zwiększa jego wiarygodność."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnego sformułowania \"wysokie ryzyko\", co może przyciągać uwagę.",
+    "Artykuł dostarcza konkretne informacje o ataku hakerskim i wycieku danych, co czyni go bardziej wiarygodnym.",
+    "Choć tytuł i treść są zgodne, niektóre sformułowania mogą budzić ciekawość, ale są oparte na faktach.",
+    "Tytuł sugeruje większe zagrożenie, niż to, co jest opisane w treści, co może być mylące.",
+    "Podano konkretne liczby dotyczące osób poszkodowanych, co zwiększa zaufanie do artykułu."
+  ],
+  "summary": "Artykuł opisuje atak hakerski na serwis pożyczkowy SuperGrosz, w wyniku którego wyciekły dane osobowe, w tym numery PESEL. Firma poinformowała, że poszkodowanych jest blisko 10 tys. osób, a skala wycieku może być większa. W artykule zamieszczono również oświadczenie firmy w tej sprawie.",
+  "signals": {
+    "title_hits": [
+      "wysokie ryzyko"
+    ],
+    "content_hits": [
+      "atak hakerski",
+      "wyciekły m.in. numery PESEL",
+      "oświadczenie",
+      "blisko 10 tys. osób"
+    ],
+    "credibility_hits": [
+      "10 tys. osób"
+    ],
+    "mismatch": {
+      "title": "Istnieje wysokie ryzyko",
+      "content": "Brak szczegółowych informacji o ryzyku"
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Atak hakerski na SuperGrosz, firma wydaje oświadczenie o wycieku danych",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia sensacyjności."
+  },
+  "diagnostics": {
+    "tokens_title": 12,
+    "tokens_content": 98,
+    "processing_time_ms": 14705,
+    "model": "gpt-4o-mini"
+  }
+}

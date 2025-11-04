@@ -1,0 +1,50 @@
+{
+  "id": 1762006142860,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/trojmiasto/news-znalezisko-na-plazy-w-ustce-zaleca-sie-niepodchodzenie,nId,8036783",
+  "title": "Znalezisko na plaży w Ustce. \"Zaleca się niepodchodzenie\"",
+  "score": 32,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazę 'zaleca się niepodchodzenie', co może budzić ciekawość, ale nie jest to ekstremalnie sensacyjne.",
+    "Treść artykułu jest zgodna z tytułem, opisując znalezisko drona i zalecenia dotyczące bezpieczeństwa.",
+    "W artykule występują cytaty z rzeczniczki, co podnosi jego wiarygodność.",
+    "Nie znaleziono wyraźnych sygnałów clickbaitowych w treści, ale tytuł może być uznany za lekko sensacyjny."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera zwrot, który może przyciągać uwagę, ale nie jest przesadnie dramatyczny.",
+    "Artykuł dokładnie opisuje, co się wydarzyło, a tytuł jest zgodny z treścią.",
+    "Cytaty z rzeczniczki dodają wiarygodności artykułowi.",
+    "Nie ma w nim przesadnych elementów, ale tytuł może budzić ciekawość."
+  ],
+  "summary": "Na plaży w Ustce znaleziono fragmenty wojskowego drona, który był imitacją celu powietrznego używaną do szkolenia. Rzeczniczka Centralnego Poligonu Sił Powietrznych zaleca, aby w przypadku znalezienia takich przedmiotów nie podchodzić do nich i powiadomić służby. Znaleziony element mógł stanowić zagrożenie dla bezpieczeństwa.",
+  "signals": {
+    "title_hits": [
+      "zaleca się niepodchodzenie"
+    ],
+    "content_hits": [
+      "fragmenty wojskowego drona",
+      "zaleca się niepodchodzenie",
+      "powiadomienie służb"
+    ],
+    "credibility_hits": [
+      "RMF FM",
+      "major Karolina Krzewina-Hyc",
+      "Centralnego Poligonu Sił Powietrznych"
+    ],
+    "mismatch": {
+      "is_mismatch": false,
+      "details": "Tytuł jest zgodny z treścią artykułu."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Znaleziono fragmenty wojskowego drona na plaży w Ustce",
+    "notes_to_editor": "Rozważyć neutralniejszy tytuł, aby zredukować elementy clickbaitowe."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 225,
+    "processing_time_ms": 15980,
+    "model": "gpt-4o-mini"
+  }
+}

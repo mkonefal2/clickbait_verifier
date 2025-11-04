@@ -1,0 +1,53 @@
+{
+  "id": 1762006157394,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/tyle-bedzie-kosztowalo-powstrzymanie-putina-zla-wiadomosc-dla-europy/gzp2e4t",
+  "title": "Nowe wyliczenia. Tyle będzie kosztowało powstrzymanie Putina. Zaboli",
+  "score": 67,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'Zaboli', co sugeruje emocjonalną reakcję.",
+    "Treść artykułu dostarcza konkretne informacje o kosztach związanych z powstrzymywaniem Putina, co jest zgodne z tytułem.",
+    "W artykule pojawiają się liczby i odniesienia do źródła (The Economist), co zwiększa jego wiarygodność.",
+    "W tytule i treści występują elementy, które mogą wzbudzać ciekawość, ale nie są one przesadnie dramatyczne.",
+    "Zauważono zgodność między tytułem a treścią, co zmniejsza ryzyko dezinformacji."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa emocjonalnych słów, co może przyciągać uwagę czytelników.",
+    "Artykuł rzeczywiście omawia koszty związane z powstrzymywaniem Putina, co jest zgodne z tym, co obiecuje tytuł.",
+    "Podano konkretne liczby i źródła, co sprawia, że artykuł jest bardziej wiarygodny.",
+    "Choć tytuł może budzić ciekawość, nie jest on przesadnie dramatyczny.",
+    "Tytuł i treść dobrze się ze sobą zgadzają, co jest pozytywne."
+  ],
+  "summary": "Artykuł omawia rosnące koszty związane z powstrzymywaniem Rosji w kontekście wojny z Ukrainą. Dziennikarze 'The Economist' przedstawiają wyliczenia dotyczące wydatków, które będą musieli ponieść sojusznicy Ukrainy, aby wspierać kraj w obronie przed Rosją. Wskazują, że większość tych kosztów spadnie na Europę.",
+  "signals": {
+    "title_hits": [
+      "Zaboli"
+    ],
+    "content_hits": [
+      "Nowe wyliczenia",
+      "kosztów",
+      "powstrzymać Putina",
+      "zła wiadomość",
+      "miliony dolarów"
+    ],
+    "credibility_hits": [
+      "Dziennikarze 'The Economist'",
+      "ukraińskiego ministerstwa obrony"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "title_summary_match": true
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Nowe wyliczenia dotyczące kosztów powstrzymania Putina",
+    "notes_to_editor": "Zaleca się unikanie emocjonalnych fraz w tytule, aby zwiększyć neutralność."
+  },
+  "diagnostics": {
+    "tokens_title": 12,
+    "tokens_content": 138,
+    "processing_time_ms": 16069,
+    "model": "gpt-4o-mini"
+  }
+}

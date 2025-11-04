@@ -1,0 +1,53 @@
+{
+  "id": 1762180679161,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/swiat/news-niezidentyfikowane-drony-nad-baza-z-bronia-jadrowa-szpiegost,nId,8037059",
+  "title": "Niezidentyfikowane drony nad bazą z bronią jądrową. Szpiegostwo?",
+  "score": 62,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazę 'Niezidentyfikowane drony', co może wzbudzać ciekawość.",
+    "Słowo 'szpiegostwo' jest absolutem, co zwiększa sensacyjność tytułu.",
+    "Treść artykułu dostarcza szczegółowych informacji na temat incydentu, co jest zgodne z tytułem.",
+    "W artykule znajdują się cytaty ministra obrony, co zwiększa wiarygodność.",
+    "Wykryto niewielką rozbieżność między tytułem a treścią, ponieważ tytuł sugeruje jednoznaczne szpiegostwo, podczas gdy treść podaje to jako możliwość."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera intrygujące sformułowania, które mogą przyciągnąć uwagę czytelników.",
+    "Użycie słowa 'szpiegostwo' sprawia, że tytuł brzmi bardziej dramatycznie.",
+    "Treść artykułu szczegółowo opisuje incydent z dronami, co jest zgodne z tym, co obiecuje tytuł.",
+    "Artykuł zawiera wypowiedzi ministra, co dodaje mu wiarygodności.",
+    "Tytuł sugeruje pewność co do szpiegostwa, podczas gdy artykuł przedstawia to jako jedną z możliwości."
+  ],
+  "summary": "W artykule opisano incydent z niezidentyfikowanymi dronami, które przelatywały nad bazą Kleine-Brogel w Belgii, gdzie przechowywana jest amerykańska broń jądrowa. Minister obrony Belgii, Theo Francken, zasugerował, że mogło to być działanie szpiegowskie, mające na celu przetestowanie reakcji służb. Podobne incydenty miały miejsce w innych bazach wojskowych w Belgii.",
+  "signals": {
+    "title_hits": [
+      "Niezidentyfikowane drony",
+      "szpiegostwo"
+    ],
+    "content_hits": [
+      "przeloty dronów",
+      "operacja szpiegowska",
+      "profesjonalne urządzenia"
+    ],
+    "credibility_hits": [
+      "Theo Francken",
+      "cytaty",
+      "liczby"
+    ],
+    "mismatch": {
+      "title": "szpiegostwo?",
+      "content": "możliwa operacja szpiegowska"
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Drony zauważone nad bazą z bronią jądrową w Belgii",
+    "notes_to_editor": "Zaleca się unikanie sensacyjnych sformułowań w tytule, aby lepiej odzwierciedlić treść artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 327,
+    "processing_time_ms": 20992,
+    "model": "gpt-4o-mini"
+  }
+}

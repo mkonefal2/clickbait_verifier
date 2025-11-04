@@ -1,0 +1,52 @@
+{
+  "id": 1762267122987,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/polska/news-klienci-placili-wiecej-niz-powinni-operator-sieci-komorkowej,nId,8036968",
+  "title": "Klienci płacili więcej, niż powinni? Operator sieci komórkowej pod lupą UOKiK",
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera pytanie, co może budzić ciekawość, ale nie używa ekstremalnych fraz sensacyjnych.",
+    "W treści artykułu znajdują się konkretne zarzuty wobec operatora, co zwiększa wiarygodność.",
+    "Zidentyfikowano kilka fraz, które mogą być uznane za sensacyjne, ale nie dominują w treści.",
+    "Zgłoszone praktyki operatora są poważne, ale artykuł przedstawia je w sposób informacyjny, co zmniejsza stopień clickbaitu.",
+    "W artykule brakuje wyraźnych sygnałów wiarygodności, takich jak liczby czy cytaty z ekspertów, co wpływa na ocenę."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł stawia pytanie, co może przyciągnąć uwagę, ale nie jest przesadnie dramatyczny.",
+    "Artykuł opisuje konkretne zarzuty wobec operatora, co czyni go bardziej wiarygodnym.",
+    "Choć pojawiają się sensacyjne sformułowania, nie są one głównym tematem tekstu.",
+    "Zarzuty wobec operatora są poważne, ale artykuł przedstawia je w sposób rzeczowy.",
+    "Brakuje mocnych dowodów, takich jak liczby czy cytaty, co obniża ocenę clickbaitu."
+  ],
+  "summary": "Artykuł opisuje zarzuty Urzędu Ochrony Konkurencji i Konsumentów wobec operatora sieci Plus, dotyczące nieuprawnionego pobierania opłat oraz podwyższania cen bez podstawy prawnej. UOKiK wskazuje na praktyki, które mogą naruszać zbiorowe interesy konsumentów, w tym niepełne informacje o warunkach usług. Operatorowi grozi kara do 10% obrotu.",
+  "signals": {
+    "title_hits": [
+      "więcej",
+      "pod lupą"
+    ],
+    "content_hits": [
+      "nieuprawnionym pobieraniu opłat",
+      "podwyższaniu cen",
+      "kara do 10 proc."
+    ],
+    "credibility_hits": [
+      "UOKiK",
+      "prezes UOKiK Tomasz Chróstny"
+    ],
+    "mismatch": {
+      "title_content_mismatch": false,
+      "content_title_mismatch": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Zarzuty wobec operatora sieci komórkowej dotyczące nieuprawnionych opłat",
+    "notes_to_editor": "Artykuł mógłby zawierać więcej danych statystycznych lub cytatów dla zwiększenia wiarygodności."
+  },
+  "diagnostics": {
+    "tokens_title": 13,
+    "tokens_content": 632,
+    "processing_time_ms": 15562,
+    "model": "gpt-4o-mini"
+  }
+}

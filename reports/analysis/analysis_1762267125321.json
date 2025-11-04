@@ -1,0 +1,51 @@
+{
+  "id": 1762267125321,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/swiat/news-legendarny-park-rozrywki-zamyka-sie-po-50-latach-ponad-200-h,nId,8037409",
+  "title": "Legendarny park rozrywki zamyka się po 50 latach. Ponad 200 hektarów na sprzedaż",
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'legendarny' i 'ponad 200 hektarów', co podnosi poziom clickbaitu.",
+    "Treść artykułu jest zgodna z tytułem, jednak zawiera wiele emocjonalnych odniesień, co może wprowadzać w błąd.",
+    "W treści znajdują się liczby i cytaty, co zwiększa wiarygodność, ale nie równoważy sensacyjności tytułu.",
+    "Występuje niewielka rozbieżność między tytułem a treścią, ponieważ tytuł sugeruje dramatyczne zakończenie, podczas gdy treść skupia się na faktach."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa emocjonalnych słów, co może przyciągać uwagę, ale też sugerować większą sensację niż jest w rzeczywistości.",
+    "Artykuł dobrze opisuje zamknięcie parku, ale niektóre fragmenty mogą budzić wrażenie, że sytuacja jest bardziej dramatyczna niż jest.",
+    "Zawiera konkretne liczby i cytaty, co sprawia, że jest bardziej wiarygodny, ale tytuł może wprowadzać w błąd.",
+    "Tytuł i treść są zgodne, ale tytuł może sugerować większe emocje niż te, które są przedstawione w artykule."
+  ],
+  "summary": "Artykuł informuje o zamknięciu parku rozrywki Six Flags America po 50 latach działalności w Bowie, Maryland. Decyzja ta wynika z nowej strategii firmy, która planuje sprzedaż terenu o powierzchni 500 akrów. W artykule opisano również emocjonalne reakcje fanów oraz przyszłość terenu, który ma być przeznaczony pod nowe inwestycje.",
+  "signals": {
+    "title_hits": [
+      "legendarny",
+      "50 lat",
+      "ponad 200 hektarów"
+    ],
+    "content_hits": [
+      "50 lat działalności",
+      "500 akrów",
+      "wspomnienia"
+    ],
+    "credibility_hits": [
+      "Six Flags Entertainment Corporation",
+      "Richard A. Zimmerman"
+    ],
+    "mismatch": {
+      "title": "Legendarny park rozrywki zamyka się po 50 latach. Ponad 200 hektarów na sprzedaż",
+      "content": "Zamknięcie parku rozrywki Six Flags America w Bowie, Maryland, po 50 latach działalności."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Zamknięcie parku rozrywki Six Flags America po 50 latach działalności",
+    "notes_to_editor": "Rozważyć użycie bardziej neutralnego języka w tytule, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 12,
+    "tokens_content": 486,
+    "processing_time_ms": 18330,
+    "model": "gpt-4o-mini"
+  }
+}

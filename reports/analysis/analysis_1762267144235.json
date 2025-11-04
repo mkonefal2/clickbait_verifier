@@ -1,0 +1,45 @@
+{
+  "id": 1762267144235,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/smierc-barbary-skrzypek-nieoficjalnie-jest-opinia-bieglych/zxs6t3q",
+  "title": "Nieoficjalnie: są wyniki badań toksykologicznych Barbary Skrzypek",
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera słowo 'nieoficjalnie', co może sugerować sensacyjność.",
+    "Treść artykułu jest zgodna z tytułem, nie ma istotnych rozbieżności.",
+    "W treści nie występują frazy sensacyjne ani absoluty.",
+    "Zawiera konkretne informacje o wynikach badań toksykologicznych.",
+    "Brak cytatów lub dodatkowych źródeł, co wpływa na wiarygodność."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł sugeruje, że artykuł dotyczy wyników badań toksykologicznych, co jest zgodne z treścią.",
+    "Artykuł nie używa przesadnych lub dramatycznych sformułowań.",
+    "Podaje konkretne informacje, ale brakuje dodatkowych źródeł, co może wpływać na postrzeganą wiarygodność.",
+    "Ogólnie artykuł jest umiarkowanie clickbaitowy."
+  ],
+  "summary": "Artykuł informuje o wynikach badań toksykologicznych Barbary Skrzypek, które nie wykazały obecności toksycznych substancji w jej organizmie. Opinia biegłych została przekazana do prokuratury, która prowadzi śledztwo w sprawie jej śmierci. Informacje pochodzą od RMF FM.",
+  "signals": {
+    "title_hits": [
+      "nieoficjalnie"
+    ],
+    "content_hits": [],
+    "credibility_hits": [
+      "RMF FM"
+    ],
+    "mismatch": {
+      "exists": false,
+      "details": ""
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Wyniki badań toksykologicznych Barbary Skrzypek",
+    "notes_to_editor": "Rozważyć dodanie cytatów lub dodatkowych źródeł dla zwiększenia wiarygodności."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 75,
+    "processing_time_ms": 14025,
+    "model": "gpt-4o-mini"
+  }
+}

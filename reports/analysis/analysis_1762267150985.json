@@ -1,0 +1,46 @@
+{
+  "id": 1762267150985,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/szczecin/mial-brutalnie-zgwalcic-dwie-starsze-kobiety-jest-akt-oskarzenia/5w7bgzc",
+  "title": "Miał zgwałcić dwie starsze kobiety. Stanie przed sądem",
+  "score": 62,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'zgwałcić' i 'starsze kobiety', co podnosi jego clickbaitowość.",
+    "Treść artykułu jest zgodna z tytułem, ale używa emocjonalnie naładowanych słów.",
+    "W artykule nie ma wyraźnych sygnałów wiarygodności, takich jak konkretne cytaty czy dane statystyczne.",
+    "Zidentyfikowano brakujące elementy, które mogłyby zwiększyć wiarygodność, takie jak źródła informacji."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa dramatycznych słów, co sprawia, że jest bardziej przyciągający, ale też sensacyjny.",
+    "Treść artykułu pasuje do tytułu, ale emocjonalny język może budzić kontrowersje.",
+    "Brakuje w artykule konkretnych dowodów lub cytatów, które mogłyby potwierdzić przedstawione informacje.",
+    "Nie ma wystarczających źródeł, które zwiększałyby zaufanie do treści artykułu."
+  ],
+  "summary": "Artykuł opisuje sprawę Jacka G., który miał zgwałcić dwie starsze kobiety w Kołobrzegu. Prokuratura skierowała akt oskarżenia do sądu, a oskarżonemu grozi do 22 lat więzienia. Wspomniano również o wcześniejszych przestępstwach popełnionych przez mężczyznę.",
+  "signals": {
+    "title_hits": [
+      "zgwałcić",
+      "starsze kobiety"
+    ],
+    "content_hits": [
+      "zgwałcić",
+      "brutalne gwałty"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "title_content_match": true,
+      "content_summary_match": true
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Oskarżenie o gwałt na dwóch starszych kobietach w Kołobrzegu",
+    "notes_to_editor": "Rozważyć dodanie źródeł lub cytatów, aby zwiększyć wiarygodność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 72,
+    "processing_time_ms": 14648,
+    "model": "gpt-4o-mini"
+  }
+}

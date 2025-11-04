@@ -1,0 +1,49 @@
+{
+  "id": 1762020482308,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/zapalilo-sie-auto-w-tunelu-pod-martwa-wisla-akcja-strazy-pozarnej/x25xxjj",
+  "title": "Groźny pożar w Gdańsku. Zapaliło się auto w tunelu pod Martwą Wisłą",
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera słowo 'groźny', co może być uznane za frazę sensacyjną.",
+    "Treść artykułu jest zgodna z tytułem, nie ma znaczących niezgodności.",
+    "W artykule występują informacje o akcji strażaków oraz działaniu systemów pożarowych, co dodaje wiarygodności.",
+    "Nie znaleziono liczby ani cytatów, które mogłyby wzmocnić sygnały wiarygodności."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'groźny', co może przyciągać uwagę, ale nie jest przesadnie sensacyjny.",
+    "Treść artykułu odpowiada tytułowi, więc nie ma sprzeczności.",
+    "Artykuł zawiera informacje o działaniach strażaków, co zwiększa jego wiarygodność.",
+    "Brak konkretnej liczby lub cytatów, które mogłyby wzmocnić zaufanie do artykułu."
+  ],
+  "summary": "W Gdańsku w tunelu pod Martwą Wisłą doszło do pożaru samochodu osobowego. Na miejsce zdarzenia przybyły służby ratunkowe, a strażacy potwierdzili, że wszystkie systemy pożarowe zadziałały prawidłowo. Artykuł informuje o akcji ratunkowej i sytuacji na miejscu zdarzenia.",
+  "signals": {
+    "title_hits": [
+      "groźny"
+    ],
+    "content_hits": [
+      "pożar",
+      "zapaliło się",
+      "akcja strażaków"
+    ],
+    "credibility_hits": [
+      "Dziennikarze Onet Wiadomości",
+      "KM PSP Gdańsk"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "content_summary_match": true
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Pożar samochodu w tunelu pod Martwą Wisłą w Gdańsku",
+    "notes_to_editor": "Rozważyć usunięcie słowa 'groźny' z tytułu, aby zmniejszyć stopień clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 12,
+    "tokens_content": 65,
+    "processing_time_ms": 12285,
+    "model": "gpt-4o-mini"
+  }
+}

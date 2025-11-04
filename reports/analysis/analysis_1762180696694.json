@@ -1,0 +1,48 @@
+{
+  "id": 1762180696694,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/krakow/austriacy-zatrzymani-w-krakowie-kradli-dla-zabawy-grozi-im-piec-lat/2nmt1xg",
+  "title": "Turyści z Austrii zatrzymani w Krakowie. Ich wycieczka zakończyła się aresztem",
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'zatrzymani' i 'areszt', które mogą wzbudzać ciekawość.",
+    "Treść artykułu dostarcza konkretne informacje o incydencie, ale nie zawiera przesadnych stwierdzeń.",
+    "Wykryto niewielką rozbieżność między tytułem a treścią, ponieważ tytuł sugeruje dramatyzm, który jest częściowo potwierdzony w treści.",
+    "Brak istotnych sygnałów wiarygodności, takich jak cytaty czy konkretne liczby, co wpływa na ocenę.",
+    "Analiza wykazała, że tytuł i treść są spójne, ale tytuł mógłby być bardziej neutralny."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słów, które mogą przyciągać uwagę, jak 'zatrzymani' i 'areszt', co może budzić ciekawość czytelników.",
+    "Artykuł opisuje konkretne wydarzenie, ale nie przesadza z dramatyzmem.",
+    "Tytuł i treść są w dużej mierze zgodne, ale tytuł mógłby być mniej emocjonalny.",
+    "Brakuje w artykule cytatów lub danych, które zwiększyłyby jego wiarygodność.",
+    "Ogólnie artykuł jest informacyjny, ale tytuł mógłby być bardziej neutralny."
+  ],
+  "summary": "Artykuł opisuje incydent, w którym turyści z Austrii zostali zatrzymani w Krakowie po tym, jak okradli lokalny salon tatuażu. Po dokonaniu kradzieży zostali namierzeni przez policję i aresztowani. Zdarzenie miało miejsce podczas ich wizyty w mieście.",
+  "signals": {
+    "title_hits": [
+      "zatrzymani",
+      "areszt"
+    ],
+    "content_hits": [
+      "okradli salon tatuażu",
+      "zatrzymani w Krakowie"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "exists": true,
+      "description": "Tytuł sugeruje dramatyzm, który jest częściowo potwierdzony w treści."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Turyści z Austrii aresztowani w Krakowie za kradzież",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć nadmiernego dramatyzmu."
+  },
+  "diagnostics": {
+    "tokens_title": 13,
+    "tokens_content": 88,
+    "processing_time_ms": 16601,
+    "model": "gpt-4o-mini"
+  }
+}

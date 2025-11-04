@@ -1,0 +1,51 @@
+{
+  "id": 1762006160329,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/tylko-w-onecie/przygotowuje-ciala-do-pogrzebu-przez-25-lat-widzialem-juz-chyba-wszystko/3k1g0x5",
+  "title": "Jest \"specjalistą od śmierci\". Zdradza tajemnicze kulisy swojego fachu",
+  "score": 62,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'specjalistą od śmierci' oraz 'tajemnicze kulisy', co zwiększa jego clickbaitowość.",
+    "Treść artykułu zawiera emocjonalne opisy, które mogą wzbudzać ciekawość, ale również są zgodne z tematem.",
+    "Występuje pewne niedopasowanie między tytułem a treścią, ponieważ tytuł sugeruje więcej tajemniczości, niż jest w rzeczywistości.",
+    "Artykuł zawiera cytaty, co zwiększa jego wiarygodność.",
+    "Analiza wykazała, że tytuł ma 12 tokenów, a treść 146 tokenów."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa emocjonalnych i sensacyjnych słów, co przyciąga uwagę, ale może wprowadzać w błąd.",
+    "Treść artykułu jest zgodna z tytułem, ale nie zawiera tak wielu tajemnic, jak sugeruje nagłówek.",
+    "W artykule są cytaty, co sprawia, że jest bardziej wiarygodny.",
+    "Tytuł i treść różnią się nieco w zakresie obietnicy tajemniczości."
+  ],
+  "summary": "Artykuł przedstawia rozmowę z Adamem Ragielem, który od 25 lat zajmuje się przygotowaniem ciał do pogrzebu. Wspomina o trudnych momentach w swojej pracy, w tym o tragediach związanych ze śmiercią dzieci. Opisuje, jak jego doświadczenia wpływają na postrzeganie kruchości życia.",
+  "signals": {
+    "title_hits": [
+      "specjalistą od śmierci",
+      "tajemnicze kulisy"
+    ],
+    "content_hits": [
+      "przygotowuje ciała",
+      "25 lat",
+      "śmierć dziecka"
+    ],
+    "credibility_hits": [
+      "cytaty",
+      "doświadczenie"
+    ],
+    "mismatch": {
+      "title": "Jest 'specjalistą od śmierci'. Zdradza tajemnicze kulisy swojego fachu",
+      "content": "Artykuł skupia się na osobistych doświadczeniach i emocjach związanych z pracą w branży funeralnej."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Specjalista funeralny dzieli się swoimi doświadczeniami",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 12,
+    "tokens_content": 146,
+    "processing_time_ms": 15787,
+    "model": "gpt-4o-mini"
+  }
+}

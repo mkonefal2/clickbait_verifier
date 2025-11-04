@@ -1,0 +1,51 @@
+{
+  "id": 1762006154831,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/richard-branson-pod-wrazeniem-slow-donalda-tuska-przyznal-mu-racje/3pdckjn",
+  "title": "\"Brutalna prawda\" w słowach Donalda Tuska. Miliarder pod wrażeniem słów premiera",
+  "score": 52,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazę 'Brutalna prawda', co jest sensacyjnym wyrażeniem.",
+    "Tytuł sugeruje silne emocje i opinię miliardera, co może wprowadzać w błąd co do treści.",
+    "Treść artykułu odnosi się do konkretnego zdarzenia, ale nie rozwija wątków w sposób, który by uzasadniał tytuł.",
+    "W artykule pojawiają się cytaty i odniesienia do źródła, co podnosi wiarygodność, ale nie równoważy sensacyjności tytułu.",
+    "Występuje niezgodność między tytułem a treścią, ponieważ tytuł sugeruje większą intensywność emocji niż jest to przedstawione w treści."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnego wyrażenia 'Brutalna prawda', co przyciąga uwagę, ale może być mylące.",
+    "Sugeruje, że miliarder miał bardzo silne emocje, podczas gdy artykuł nie rozwija tego wątku.",
+    "Artykuł odnosi się do konkretnej sytuacji, ale nie wyjaśnia jej w sposób, który by uzasadniał tytuł.",
+    "W artykule są cytaty, co zwiększa jego wiarygodność, ale tytuł jest bardziej sensacyjny niż treść.",
+    "Tytuł i treść nie do końca się zgadzają, co może wprowadzać w błąd."
+  ],
+  "summary": "Richard Branson, brytyjski miliarder, skomentował słowa Donalda Tuska, które padły w rozmowie z tygodnikiem 'Sunday Times'. W swoim komentarzu na mediach społecznościowych Branson wyraził uznanie dla Tuska, zwracając uwagę na mocne przesłanie dotyczące wojny w Ukrainie.",
+  "signals": {
+    "title_hits": [
+      "Brutalna prawda"
+    ],
+    "content_hits": [
+      "miliarder",
+      "słowa Donalda Tuska"
+    ],
+    "credibility_hits": [
+      "Richard Branson",
+      "Donald Tusk",
+      "Sunday Times"
+    ],
+    "mismatch": {
+      "title": "Tytuł sugeruje emocjonalną reakcję, której nie ma w treści.",
+      "content": "Treść koncentruje się na faktach i komentarzach, a nie na dramatyzacji."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Richard Branson komentuje słowa Donalda Tuska na temat Ukrainy.",
+    "notes_to_editor": "Rozważyć użycie mniej sensacyjnych sformułowań w tytule."
+  },
+  "diagnostics": {
+    "tokens_title": 14,
+    "tokens_content": 107,
+    "processing_time_ms": 16167,
+    "model": "gpt-4o-mini"
+  }
+}

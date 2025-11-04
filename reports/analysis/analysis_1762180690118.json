@@ -1,0 +1,49 @@
+{
+  "id": 1762180690118,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/holownia-nie-stawil-sie-w-prokuraturze-jego-pelnomocnik-wyjasnia-powody/bq9h9ps",
+  "title": "Szymon Hołownia nie stawił się w prokuraturze. Pełnomocnik marszałka o powodach",
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazę 'nie stawił się', co może budzić ciekawość, ale nie jest to absolut.",
+    "Treść artykułu dostarcza informacji na temat nieobecności Szymona Hołowni w prokuraturze oraz wypowiedzi jego pełnomocnika.",
+    "Zidentyfikowano brak istotnych niezgodności między tytułem a treścią.",
+    "W artykule znajdują się cytaty i odniesienia do źródeł, co podnosi jego wiarygodność."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł wzbudza ciekawość, ale nie używa przesadnych słów.",
+    "Artykuł informuje o nieobecności Szymona Hołowni w prokuraturze i zawiera wypowiedź jego pełnomocnika.",
+    "Tytuł jest zgodny z treścią artykułu, co jest pozytywne.",
+    "W artykule są cytaty i odniesienia do źródeł, co sprawia, że jest bardziej wiarygodny."
+  ],
+  "summary": "Artykuł informuje, że Szymon Hołownia nie stawił się na przesłuchanie w prokuraturze. Jego pełnomocnik, mec. Filip Curyło, wyjaśnia powody tej nieobecności, odnosząc się do wcześniejszych wypowiedzi Hołowni dotyczących 'zamachu stanu'.",
+  "signals": {
+    "title_hits": [
+      "nie stawił się"
+    ],
+    "content_hits": [
+      "nie stawił się",
+      "pełnomocnik",
+      "zamachu stanu"
+    ],
+    "credibility_hits": [
+      "mec. Filip Curyło",
+      "Polska Agencja Prasowa"
+    ],
+    "mismatch": {
+      "title": "Szymon Hołownia nie stawił się w prokuraturze.",
+      "content": "Pełnomocnik wyjaśnia powody nieobecności."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Szymon Hołownia nie pojawił się na przesłuchaniu w prokuraturze.",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć sensacyjności."
+  },
+  "diagnostics": {
+    "tokens_title": 14,
+    "tokens_content": 72,
+    "processing_time_ms": 12918,
+    "model": "gpt-4o-mini"
+  }
+}

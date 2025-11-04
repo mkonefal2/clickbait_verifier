@@ -1,0 +1,50 @@
+{
+  "id": 1762006155510,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/rosjanie-nacieraja-na-pokrowsk-kijow-wysyla-do-walki-sily-specjalne/lcqn4cf",
+  "title": "Rosjanie nacierają na Pokrowsk. Kijów wysyła do walki siły specjalne",
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'nacierają', co może budzić emocje.",
+    "Treść artykułu jest zgodna z tytułem, co zmniejsza stopień clickbaitu.",
+    "W tytule i treści nie występują absoluty ani luk ciekawości.",
+    "Artykuł zawiera źródło (Polska Agencja Prasowa), co zwiększa jego wiarygodność."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa emocjonującego języka, co może przyciągać uwagę.",
+    "Treść artykułu odpowiada tytułowi, co jest pozytywne.",
+    "Nie ma w nim przesadnych stwierdzeń ani niejasnych informacji.",
+    "Artykuł powołuje się na wiarygodne źródło, co zwiększa jego rzetelność."
+  ],
+  "summary": "Artykuł informuje o działaniach ukraińskich sił specjalnych, które zostały wysłane do Pokrowska, aby odzyskać kontrolę nad kluczowymi szlakami logistycznymi w obliczu ataku rosyjskiego. Informacje pochodzą z mediów powołujących się na źródła wojskowe.",
+  "signals": {
+    "title_hits": [
+      "nacierają",
+      "Kijów",
+      "siły specjalne"
+    ],
+    "content_hits": [
+      "ukraińskie siły specjalne",
+      "ciężkich walk",
+      "media z powołaniem na źródła wojskowe"
+    ],
+    "credibility_hits": [
+      "Polska Agencja Prasowa"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "title_content_similarity": 0.9
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Ukraińskie siły specjalne wysłane do Pokrowska w odpowiedzi na atak rosyjski",
+    "notes_to_editor": "Rozważyć użycie bardziej neutralnego języka w tytule."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 49,
+    "processing_time_ms": 13742,
+    "model": "gpt-4o-mini"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": 1762020469896,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/kultura/news-to-sie-nazywa-przebranie-heidi-klum-znowu-pokazala-na-co-ja-,nId,8036802",
+  "title": "To się nazywa przebranie! Heidi Klum znowu pokazała, na co ją stać",
+  "score": 55,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'to się nazywa przebranie' oraz 'znowu pokazała, na co ją stać', co sugeruje emocjonalny ładunek.",
+    "Treść artykułu skupia się na szczegółowym opisie przebrania Heidi Klum, co jest zgodne z tytułem, ale używa również absolutów, takich jak 'absolutnie przerażająca stylizacja'.",
+    "W treści występują liczby, takie jak 'ponad 35 osób' zaangażowanych w kostium, co zwiększa wiarygodność, ale nie równoważy emocjonalnego ładunku tytułu.",
+    "Wykryto nieznaczną niezgodność między tytułem a treścią, ponieważ tytuł sugeruje, że Klum 'pokazuje, na co ją stać', co może być interpretowane jako bardziej ogólne osiągnięcie, podczas gdy treść koncentruje się na konkretnym wydarzeniu.",
+    "Zidentyfikowano kilka sygnałów wiarygodności, takich jak cytaty i szczegóły dotyczące współpracy z oscarowym charakteryzatorem."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa emocjonalnych zwrotów, które przyciągają uwagę, co może sugerować, że artykuł jest bardziej sensacyjny.",
+    "Treść artykułu szczegółowo opisuje przebranie Heidi Klum, co jest zgodne z tytułem, ale zawiera również mocne wyrażenia.",
+    "W artykule pojawiają się liczby, co dodaje mu wiarygodności, ale tytuł może wprowadzać w błąd co do ogólnego przesłania.",
+    "Jest pewna niezgodność między tym, co sugeruje tytuł, a tym, co jest opisane w artykule.",
+    "Artykuł zawiera źródła i cytaty, co zwiększa jego rzetelność."
+  ],
+  "summary": "Artykuł opisuje przebranie Heidi Klum na corocznej imprezie halloweenowej w Nowym Jorku. Klum zaskoczyła wszystkich kostiumem Meduzy, stworzonym przy współpracy z oscarowym charakteryzatorem. W artykule wymieniono również inne znane osobistości, które wzięły udział w imprezie, oraz ich kreatywne kostiumy.",
+  "signals": {
+    "title_hits": [
+      "przebranie",
+      "znowu pokazała",
+      "na co ją stać"
+    ],
+    "content_hits": [
+      "Heidi Klum",
+      "przebranie",
+      "Meduzy",
+      "35 osób"
+    ],
+    "credibility_hits": [
+      "oscarowym charakteryzatorem",
+      "Mike’em Marino"
+    ],
+    "mismatch": {
+      "title": "Tytuł sugeruje ogólne osiągnięcie, podczas gdy treść koncentruje się na konkretnym wydarzeniu.",
+      "content": "Treść szczegółowo opisuje przebranie, ale nie odnosi się do ogólnych osiągnięć Klum."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Heidi Klum zaprezentowała swoje przebranie na imprezie halloweenowej",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 14,
+    "tokens_content": 327,
+    "processing_time_ms": 20899,
+    "model": "gpt-4o-mini"
+  }
+}

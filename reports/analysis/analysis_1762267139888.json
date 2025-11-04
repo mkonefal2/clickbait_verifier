@@ -1,0 +1,47 @@
+{
+  "id": 1762267139888,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/donald-tusk-z-apelem-do-zbigniewa-ziobry-uczciwi-nie-maja-sie-czego-bac/2r00q6l",
+  "title": "Donald Tusk do Zbigniewa Ziobry: nie chce pan przejść do historii jako fujara",
+  "score": 62,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazę sensacyjną 'nie chce pan przejść do historii jako fujara', co wzbudza ciekawość.",
+    "Treść artykułu odnosi się do wypowiedzi Donalda Tuska, ale nie rozwija wątku tytułowego w sposób szczegółowy.",
+    "W artykule występuje cytat z Tuska, co zwiększa wiarygodność, ale nie ma dodatkowych źródeł ani liczb.",
+    "Wykryto niezgodność między tytułem a treścią, ponieważ tytuł sugeruje dramatyzm, a treść jest bardziej stonowana."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnego wyrażenia, które przyciąga uwagę, co może być uznane za clickbait.",
+    "Artykuł opisuje wypowiedź Donalda Tuska, ale nie rozwija kontekstu tytułowego w wystarczający sposób.",
+    "W treści znajduje się cytat, co dodaje wiarygodności, ale brakuje dodatkowych informacji.",
+    "Tytuł i treść nie do końca się zgadzają, ponieważ tytuł sugeruje większe napięcie niż to, co jest opisane w artykule."
+  ],
+  "summary": "Donald Tusk zwrócił się do Zbigniewa Ziobry, wyrażając nadzieję na spotkanie. W kontekście grożących mu zarzutów, Tusk przypomniał słowa Ziobry, że 'uczciwi nie mają się czego bać'. Artykuł dotyczy sytuacji politycznej i potencjalnych konsekwencji dla Ziobry.",
+  "signals": {
+    "title_hits": [
+      "fujara"
+    ],
+    "content_hits": [
+      "uczciwi nie mają się czego bać"
+    ],
+    "credibility_hits": [
+      "Donald Tusk",
+      "Zbigniew Ziobro"
+    ],
+    "mismatch": {
+      "title": "Tytuł sugeruje dramatyczną sytuację.",
+      "content": "Treść jest bardziej stonowana i informacyjna."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Donald Tusk apeluje do Zbigniewa Ziobry w kontekście grożących mu zarzutów",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 13,
+    "tokens_content": 76,
+    "processing_time_ms": 15012,
+    "model": "gpt-4o-mini"
+  }
+}

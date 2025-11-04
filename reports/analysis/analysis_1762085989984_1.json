@@ -1,0 +1,50 @@
+{
+  "id": 1762085989984,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/raporty/raport-wojna-z-rosja/news-ukraina-przeszla-do-ataku-rosyjski-tankowiec-w-ogniu,nId,8036832",
+  "title": "Ukraina przeszła do ataku. Rosyjski tankowiec w ogniu",
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'przeszła do ataku' i 'w ogniu', które mogą wzbudzać emocje.",
+    "Treść artykułu informuje o konkretnym incydencie, co jest zgodne z tytułem, ale nie rozwija go w sposób sensacyjny.",
+    "W artykule brakuje cytatów, ale zawiera konkretne informacje o ataku dronowym i jego skutkach.",
+    "Zidentyfikowano lukę ciekawości w tytule, która może przyciągać czytelników."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa emocjonalnych słów, które mogą przyciągać uwagę, ale nie są przesadzone.",
+    "Treść artykułu jest zgodna z tytułem i dostarcza konkretne informacje o ataku.",
+    "Artykuł nie zawiera cytatów, ale podaje szczegóły dotyczące incydentu.",
+    "Tytuł może budzić ciekawość, co może skłonić do przeczytania artykułu."
+  ],
+  "summary": "Artykuł informuje o ukraińskim ataku dronowym, który miał miejsce w nocy z soboty na niedzielę. Atak spowodował pożar rosyjskiego tankowca oraz infrastruktury w terminalu naftowym w porcie czarnomorskim Tuapse, co zostało potwierdzone przez władze lokalne.",
+  "signals": {
+    "title_hits": [
+      "przeszła do ataku",
+      "w ogniu"
+    ],
+    "content_hits": [
+      "ukraiński atak dronowy",
+      "pożar tankowca",
+      "infrastruktura"
+    ],
+    "credibility_hits": [
+      "władze Kraju Krasnodarskiego",
+      "Telegram"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "title_summary_match": true
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Ukraiński atak dronowy spalił rosyjski tankowiec",
+    "notes_to_editor": "Rozważyć użycie mniej emocjonalnych sformułowań w tytule."
+  },
+  "diagnostics": {
+    "tokens_title": 8,
+    "tokens_content": 35,
+    "processing_time_ms": 13698,
+    "model": "gpt-4o-mini"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": 1762085995961,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/slaskie/news-miliony-dla-slaskiego-szpitala-moze-stac-sie-najnowoczesniej,nId,8036311",
+  "title": "Miliony dla śląskiego szpitala. Może stać się najnowocześniejszy w kraju",
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazę 'najnowocześniejszy w kraju', co jest absolutem i może wzbudzać ciekawość.",
+    "W treści artykułu znajdują się konkretne informacje o kwocie 100 mln zł oraz planowanych inwestycjach, co zwiększa wiarygodność.",
+    "W artykule są cytaty dyrektora szpitala oraz lekarzy, co podnosi jego autorytet.",
+    "Zidentyfikowano niewielki mismatch między tytułem a treścią, ponieważ tytuł sugeruje pewność, podczas gdy treść mówi o możliwościach.",
+    "Ogólnie, tytuł jest sensacyjny, ale treść dostarcza konkretne informacje."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słów, które mogą przyciągać uwagę, jak 'najnowocześniejszy w kraju'.",
+    "Artykuł zawiera konkretne dane o dotacji oraz planowanych modernizacjach, co czyni go wiarygodnym.",
+    "Cytaty od dyrektora szpitala i lekarzy dodają autorytetu tekstowi.",
+    "Tytuł sugeruje pewność, podczas gdy artykuł mówi o możliwościach, co może wprowadzać w błąd.",
+    "Mimo to, treść jest informacyjna i dobrze opisuje sytuację."
+  ],
+  "summary": "Wojewódzki Szpital Specjalistyczny im. św. Barbary w Sosnowcu otrzyma blisko 100 mln zł z Krajowego Planu Odbudowy na rozwój diagnostyki, leczenia onkologicznego i cyfryzację. Inwestycje mają na celu zakup nowoczesnych urządzeń oraz poprawę jakości leczenia pacjentów onkologicznych, co może uczynić szpital jednym z najnowocześniejszych w Polsce.",
+  "signals": {
+    "title_hits": [
+      "najnowocześniejszy"
+    ],
+    "content_hits": [
+      "100 mln zł",
+      "nowoczesnych urządzeń",
+      "wsparcie młodego personelu medycznego"
+    ],
+    "credibility_hits": [
+      "dyrektor placówki",
+      "cytaty",
+      "Krajowy Plan Odbudowy"
+    ],
+    "mismatch": {
+      "title": "Może stać się najnowocześniejszy w kraju",
+      "content": "po zmianach sosnowiecki szpital będzie jednym z najnowocześniejszych"
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Śląski szpital otrzyma 100 mln zł na modernizację",
+    "notes_to_editor": "Zaleca się unikanie absolutów w tytułach, aby zwiększyć wiarygodność."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 293,
+    "processing_time_ms": 13374,
+    "model": "gpt-4o-mini"
+  }
+}

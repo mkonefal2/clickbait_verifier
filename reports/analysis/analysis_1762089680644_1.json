@@ -1,0 +1,54 @@
+{
+  "id": 1762089680644,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/politico/jest-najwiekszym-koszmarem-trumpa-moze-zostac-burmistrzem-nowego-jorku/ckbd2jd",
+  "title": "Jest \"największym koszmarem Donalda Trumpa\". Ta wygrana może zatrząść Nowym Jorkiem",
+  "score": 62,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'największym koszmarem', co wzbudza emocje.",
+    "W treści artykułu pojawia się cytat, który odnosi się do tytułu, co może sugerować zgodność, ale także wzmacnia element clickbaitowy.",
+    "Wykryto lukę ciekawości w tytule, która przyciąga uwagę czytelnika.",
+    "Zidentyfikowano niezgodność między tytułem a treścią, ponieważ tytuł sugeruje dramatyczne wydarzenia, podczas gdy treść jest bardziej informacyjna.",
+    "W artykule pojawiają się liczby i konkretne daty, co zwiększa jego wiarygodność."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów, które przyciągają uwagę, jak 'największym koszmarem'.",
+    "Cytat w artykule odnosi się do tytułu, co może sugerować, że treść jest zgodna z tym, co obiecuje tytuł.",
+    "Tytuł wzbudza ciekawość, ale nie do końca oddaje charakter treści, która jest bardziej stonowana.",
+    "Artykuł zawiera konkretne informacje, co czyni go bardziej wiarygodnym."
+  ],
+  "summary": "Artykuł opisuje Zohrana Mamdaniego, który ma szansę zostać pierwszym muzułmańskim burmistrzem Nowego Jorku. Podkreśla jego postępowe podejście oraz opozycję ze strony Republikanów, którzy starają się go zdyskredytować. Wskazuje na polaryzację polityczną w mieście oraz nadzieje mieszkańców związane z jego kandydaturą.",
+  "signals": {
+    "title_hits": [
+      "największym koszmarem",
+      "wygrana",
+      "zatrząść"
+    ],
+    "content_hits": [
+      "najgorszym koszmarem",
+      "muzułmańskim burmistrzem",
+      "przełom",
+      "polaryzujących momentów"
+    ],
+    "credibility_hits": [
+      "Jeff Coltin",
+      "2 listopada 2025",
+      "CHARLY TRIBALLEAU / AFP"
+    ],
+    "mismatch": {
+      "title": "Jest 'największym koszmarem Donalda Trumpa'. Ta wygrana może zatrząść Nowym Jorkiem",
+      "content": "Jest 'największym koszmarem Donalda Trumpa'. Ta wygrana może zatrząść Nowym Jorkiem"
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Kandydatura Zohrana Mamdaniego na burmistrza Nowego Jorku",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć emocjonalnych skojarzeń."
+  },
+  "diagnostics": {
+    "tokens_title": 15,
+    "tokens_content": 123,
+    "processing_time_ms": 17461,
+    "model": "gpt-4o-mini"
+  }
+}

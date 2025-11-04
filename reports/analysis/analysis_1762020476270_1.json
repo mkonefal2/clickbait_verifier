@@ -1,0 +1,54 @@
+{
+  "id": 1762020476270,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/sport/pilka-nozna/news-co-ze-zdrowiem-lewandowskiego-flick-wydal-oswiadczenie,nId,8036799",
+  "title": "Co ze zdrowiem Lewandowskiego? Flick wydał oświadczenie",
+  "score": 32,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera pytanie, co może wzbudzać ciekawość, ale nie używa skrajnych emocji ani sensacyjnych fraz.",
+    "Treść artykułu jest zgodna z tytułem i dostarcza konkretne informacje na temat zdrowia Lewandowskiego.",
+    "Nie wykryto znaczących fraz sensacyjnych ani absolutów w treści.",
+    "W artykule znajdują się liczby dotyczące meczów i punktów, co podnosi wiarygodność.",
+    "Brak cytatów z wiarygodnych źródeł poza oświadczeniem trenera."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zadaje pytanie, co może zainteresować czytelników, ale nie jest przesadnie emocjonalny.",
+    "Treść artykułu odpowiada na pytanie zawarte w tytule, dostarczając konkretne informacje o zdrowiu Lewandowskiego.",
+    "Nie znaleziono przesadnych lub sensacyjnych zwrotów w artykule.",
+    "Artykuł zawiera liczby, które zwiększają jego wiarygodność.",
+    "Brakuje jednak cytatów z innych źródeł, co mogłoby wzmocnić zaufanie do informacji."
+  ],
+  "summary": "Trener Barcelony Hansi Flick potwierdził, że Robert Lewandowski i Dani Olmo są zdrowi i gotowi do gry w nadchodzącym meczu z Elche. W artykule omówiono również niepewny występ Lamine’a Yamala oraz kontuzje innych zawodników, w tym Pedriego. Barcelona przystępuje do meczu jako wicelider La Liga, tracąc pięć punktów do Realu Madryt.",
+  "signals": {
+    "title_hits": [
+      "zdrowiem",
+      "oświadczenie"
+    ],
+    "content_hits": [
+      "zdrowi",
+      "gotowi do gry",
+      "niepewny",
+      "kontuzji"
+    ],
+    "credibility_hits": [
+      "Hansi Flick",
+      "cztery bramki",
+      "22 punkty"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "content_summary_match": true
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Oświadczenie Flicka w sprawie zdrowia Lewandowskiego",
+    "notes_to_editor": "Rozważyć dodanie cytatów z wywiadów lub innych źródeł, aby zwiększyć wiarygodność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 9,
+    "tokens_content": 370,
+    "processing_time_ms": 15825,
+    "model": "gpt-4o-mini"
+  }
+}

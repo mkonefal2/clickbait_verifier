@@ -1,0 +1,48 @@
+{
+  "id": 1762020471274,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/raporty/raport-wojna-z-rosja/news-pieklo-w-donbasie-ukraincy-kontratakuja-w-pokrowsku,nId,8036795",
+  "title": "Co się dzieje w Pokrowsku?",
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "Tytuł nie zawiera fraz sensacyjnych ani absolutów, ale jest nieco ogólny, co może budzić ciekawość.",
+    "Treść artykułu dostarcza informacji na temat sytuacji wojennej w Pokrowsku, jednak nie zawiera przesadnych stwierdzeń.",
+    "W artykule występują nieznaczne niezgodności między tytułem a treścią, ponieważ tytuł nie odnosi się do konkretnego aspektu sytuacji.",
+    "W artykule pojawiają się cytaty i liczby, co zwiększa jego wiarygodność."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jest dość neutralny, ale może wzbudzać ciekawość czytelnika.",
+    "Artykuł opisuje aktualną sytuację w Pokrowsku, nie używając przesadnych stwierdzeń.",
+    "Tytuł nie do końca odzwierciedla szczegóły zawarte w treści, co może wprowadzać w błąd.",
+    "W artykule znajdują się cytaty i konkretne liczby, co sprawia, że jest bardziej wiarygodny."
+  ],
+  "summary": "Artykuł opisuje aktualną sytuację w Pokrowsku, gdzie ukraińskie wojsko prowadzi działania wojenne przeciwko rosyjskim siłom. Zawiera informacje o kontratakach, dezinformacji oraz różnicach w relacjach ukraińskich i rosyjskich mediów. Wspomniane są także działania sił specjalnych Ukrainy oraz ich dowódcy.",
+  "signals": {
+    "title_hits": [],
+    "content_hits": [
+      "trudna sytuacja",
+      "kontratak",
+      "dezinformacja",
+      "liczby żołnierzy"
+    ],
+    "credibility_hits": [
+      "cytaty z ukraińskiego wojska",
+      "liczby z działań wojennych"
+    ],
+    "mismatch": {
+      "title": "Co się dzieje w Pokrowsku?",
+      "content": "Artykuł szczegółowo opisuje sytuację wojenną, ale tytuł jest ogólny."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Aktualna sytuacja w Pokrowsku",
+    "notes_to_editor": "Rozważyć bardziej precyzyjny tytuł, który lepiej odzwierciedla treść artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 5,
+    "tokens_content": 712,
+    "processing_time_ms": 15964,
+    "model": "gpt-4o-mini"
+  }
+}

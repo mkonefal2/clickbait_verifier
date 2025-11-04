@@ -1,0 +1,50 @@
+{
+  "id": 1761934117506,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/swiat/news-chinczycy-biora-myszy-w-kosmos-leca-boskim-statkiem,nId,8036680",
+  "title": "Chińczycy biorą myszy w Kosmos. Lecą Boskim Statkiem",
+  "score": 32,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazę 'Boskim Statkiem', co może być uznane za sensacyjne.",
+    "Treść artykułu jest zgodna z tytułem, opisując misję kosmiczną z udziałem myszy.",
+    "W artykule występują konkretne liczby (np. liczba myszy, liczba projektów naukowych), co zwiększa wiarygodność.",
+    "W treści nie ma wyraźnych luk ciekawości, ale tytuł może budzić zainteresowanie."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa wyrażenia 'Boskim Statkiem', co może brzmieć sensacyjnie.",
+    "Artykuł rzeczywiście opisuje misję kosmiczną, w której biorą udział myszy.",
+    "Podano konkretne liczby, co sprawia, że artykuł wydaje się bardziej wiarygodny.",
+    "Nie ma w treści informacji, które mogłyby wprowadzać w błąd, ale tytuł przyciąga uwagę."
+  ],
+  "summary": "Chiński statek kosmiczny Shenzhou-21 wystartował z kosmodromu Jiuquan z trzyosobową załogą oraz myszy, które będą użyte w eksperymentach naukowych na stacji Tiangong. Misja potrwa sześć miesięcy, a załoga przeprowadzi 27 projektów badawczych. Chiny planują również wysłać ludzi na Księżyc do 2030 roku.",
+  "signals": {
+    "title_hits": [
+      "Boskim Statkiem"
+    ],
+    "content_hits": [
+      "myszy",
+      "eksperymenty naukowe",
+      "27 projektów"
+    ],
+    "credibility_hits": [
+      "płk Zhang Lu",
+      "CNSA",
+      "2030"
+    ],
+    "mismatch": {
+      "title": "Chińczycy biorą myszy w Kosmos. Lecą Boskim Statkiem",
+      "content": "Opisuje misję Shenzhou-21 z udziałem myszy."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Chiński statek kosmiczny Shenzhou-21 z myszy na pokładzie wystartował w misję.",
+    "notes_to_editor": "Rozważyć zmianę tytułu na bardziej neutralny, aby uniknąć sensacyjności."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 365,
+    "processing_time_ms": 13950,
+    "model": "gpt-4o-mini"
+  }
+}

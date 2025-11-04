@@ -1,0 +1,50 @@
+{
+  "id": 1762006132257,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/polska/news-atak-hakerski-na-popularne-biuro-podrozy-wyciekly-dane-czesc,nId,8036784",
+  "title": "Atak hakerski na popularne biuro podróży",
+  "score": 25,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazę 'atak hakerski', co jest sensacyjne, ale nie przesadzone.",
+    "Treść artykułu dostarcza konkretne informacje o incydencie, co zmniejsza stopień clickbaitu.",
+    "W artykule pojawiają się liczby, takie jak 'około 10 tys. użytkowników', co zwiększa wiarygodność.",
+    "Nie stwierdzono znaczących rozbieżności między tytułem a treścią, co pozytywnie wpływa na ocenę.",
+    "Zidentyfikowano kilka sygnałów wiarygodności, w tym cytaty z ministra cyfryzacji."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł odnosi się do rzeczywistego wydarzenia, co czyni go mniej sensacyjnym.",
+    "Artykuł zawiera konkretne informacje o ataku hakerskim, co zwiększa jego rzetelność.",
+    "Podano liczby, co dodaje wiarygodności i pozwala lepiej zrozumieć skalę problemu.",
+    "Tytuł i treść są zgodne, co sprawia, że artykuł nie jest mylący dla czytelników.",
+    "W artykule znajdują się cytaty z wiarygodnych źródeł, co podnosi jego autorytet."
+  ],
+  "summary": "Artykuł opisuje atak hakerski na biuro podróży ITAKA, w wyniku którego wyciekły dane logowania części klientów. W artykule podano, że incydent wykryto 30 października i dotyczy około 10 tys. użytkowników. ITAKA zapewnia, że nie wyciekły dane finansowe ani hasła. Minister cyfryzacji poinformował o działaniach operacyjnych mających na celu wykrycie sprawców.",
+  "signals": {
+    "title_hits": [
+      "atak hakerski"
+    ],
+    "content_hits": [
+      "wyciekły dane logowania",
+      "około 10 tys. użytkowników"
+    ],
+    "credibility_hits": [
+      "Igor Skrzypek",
+      "Krzysztof Gawkowski"
+    ],
+    "mismatch": {
+      "title": "Atak hakerski na popularne biuro podróży",
+      "content": "Hakerzy zaatakowali biuro podróży ITAKA. Wyciekły dane logowania części klientów."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Incydent hakerski w biurze podróży ITAKA",
+    "notes_to_editor": "Rozważyć dodanie więcej kontekstu dotyczącego działań zabezpieczających."
+  },
+  "diagnostics": {
+    "tokens_title": 8,
+    "tokens_content": 158,
+    "processing_time_ms": 15422,
+    "model": "gpt-4o-mini"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": 1762267145359,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/wszystko-co-wiadomo-o-dorianie-s-w-jego-mieszkaniu-dokonano-szokujacego-odkrycia/1pyx1r8",
+  "title": "Zabójstwo Białorusinki w Warszawie. Kim jest skazany Dorian S.?",
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'zabójstwo' oraz odniesienie do skazania, co może wzbudzać emocje.",
+    "Treść artykułu dostarcza faktów na temat wyroku sądowego, jednak nie zawiera nadmiernych emocji czy dramatyzacji.",
+    "Wykryto pewne niezgodności między tytułem a treścią, ponieważ tytuł sugeruje, że artykuł skupi się na osobie Doriana S., podczas gdy treść bardziej koncentruje się na samym przestępstwie.",
+    "W treści artykułu znajdują się konkretne dane, takie jak daty i miejsca, co zwiększa jej wiarygodność."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów, które mogą przyciągać uwagę, jak 'zabójstwo' i 'skazany'.",
+    "Artykuł przedstawia fakty dotyczące wyroku sądowego, ale nie jest przesadnie emocjonalny.",
+    "Tytuł sugeruje, że artykuł będzie bardziej o Dorianie S., podczas gdy treść koncentruje się na przestępstwie.",
+    "W artykule są konkretne informacje, takie jak daty i miejsca, co sprawia, że jest bardziej wiarygodny."
+  ],
+  "summary": "Artykuł opisuje wyrok sądu apelacyjnego w sprawie Doriana S., skazania za gwałt i zabójstwo 25-letniej Białorusinki Lizy. Zdarzenie miało miejsce w lutym 2024 roku w Warszawie. W mieszkaniu Doriana S. znaleziono dowody, takie jak książki o seryjnych mordercach oraz narzędzia przestępstwa.",
+  "signals": {
+    "title_hits": [
+      "zabójstwo",
+      "skazany"
+    ],
+    "content_hits": [
+      "wyrok",
+      "gwałt",
+      "zabójstwo",
+      "znaleziono"
+    ],
+    "credibility_hits": [
+      "data",
+      "miejsce",
+      "źródło"
+    ],
+    "mismatch": {
+      "title": "Zabójstwo Białorusinki w Warszawie. Kim jest skazany Dorian S.?",
+      "content": "Sąd Apelacyjny w Warszawie podtrzymał wyrok dla Doriana S. za gwałt i zabójstwo 25-letniej Białorusinki Lizy."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Wyrok w sprawie Doriana S. za zabójstwo Białorusinki w Warszawie",
+    "notes_to_editor": "Rozważyć zmianę tytułu na bardziej neutralny, aby uniknąć sensacyjności."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 113,
+    "processing_time_ms": 17669,
+    "model": "gpt-4o-mini"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": 1762006147739,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/atak-hakerski-na-znane-biuro-podrozy-wyciekly-dane-czesci-klientow/8ksz29z",
+  "title": "Atak hakerski na znane biuro podróży. Wyciekły dane klientów",
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'atak hakerski' i 'wyciekły dane', co może wzbudzać ciekawość.",
+    "Treść artykułu jest zgodna z tytułem, jednak nie dostarcza szczegółowych informacji o skali wycieku, co może prowadzić do luk ciekawości.",
+    "W artykule pojawiają się sygnały wiarygodności, takie jak cytat od ministra cyfryzacji oraz konkretna data.",
+    "Zidentyfikowano 2 frazy sensacyjne w tytule i 1 w treści, co przyczynia się do oceny clickbaitowości."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł artykułu zawiera zwroty, które mogą przyciągać uwagę, jak 'atak hakerski' i 'wyciek danych'.",
+    "Treść jest zgodna z tytułem, ale brakuje w niej szczegółów, co może sprawić, że czytelnik poczuje niedosyt informacji.",
+    "Artykuł zawiera cytat od ministra, co zwiększa jego wiarygodność.",
+    "Zidentyfikowano kilka zwrotów, które mogą być uznane za sensacyjne."
+  ],
+  "summary": "Artykuł informuje o ataku hakerskim na biuro podróży Nowa Itaka, w wyniku którego doszło do wycieku danych logowania części klientów. Minister cyfryzacji Krzysztof Gawkowski zapewnił, że specjaliści z NASK są w stałym kontakcie z biurem podróży, aby zaradzić sytuacji.",
+  "signals": {
+    "title_hits": [
+      "atak hakerski",
+      "wyciekły dane"
+    ],
+    "content_hits": [
+      "atak hakerski",
+      "wyciekły dane logowania"
+    ],
+    "credibility_hits": [
+      "Minister cyfryzacji",
+      "Krzysztof Gawkowski",
+      "NASK"
+    ],
+    "mismatch": {
+      "title": "Atak hakerski na znane biuro podróży. Wyciekły dane klientów",
+      "content": "Atak hakerski na znane biuro podróży. Wyciekły dane klientów"
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Atak hakerski na biuro podróży Nowa Itaka i wyciek danych klientów",
+    "notes_to_editor": "Rozważyć dodanie szczegółów dotyczących skali wycieku danych, aby zaspokoić ciekawość czytelników."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 54,
+    "processing_time_ms": 18678,
+    "model": "gpt-4o-mini"
+  }
+}

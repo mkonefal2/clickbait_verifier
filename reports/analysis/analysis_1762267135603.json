@@ -1,0 +1,53 @@
+{
+  "id": 1762267135603,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/warszawa/news-milion-historii-pod-jednym-niebem-odkryj-sekrety-najslynniej,nId,8037414",
+  "title": "Milion historii pod jednym niebem. Odkryj sekrety najsłynniejszego cmentarza w Polsce!",
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne ('milion historii', 'odkryj sekrety'), co podwyższa wskaźnik clickbaitu.",
+    "Treść artykułu jest zgodna z tytułem, jednak nie zawiera zbyt wielu informacji, które mogłyby wzbudzić ciekawość.",
+    "W artykule występują liczby i cytaty, co zwiększa jego wiarygodność.",
+    "Wykryto niewielką niezgodność między tytułem a treścią, co wpływa na ocenę.",
+    "Analiza treści wykazała umiarkowane użycie języka emocjonalnego, co również podnosi wynik."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł artykułu używa emocjonalnych słów, co może przyciągać uwagę czytelników.",
+    "Treść artykułu odpowiada tytułowi, ale nie zawiera zbyt wielu zaskakujących informacji.",
+    "Artykuł zawiera konkretne dane i cytaty, co sprawia, że jest bardziej wiarygodny.",
+    "Zauważono niewielkie różnice między tytułem a tym, co jest napisane w artykule.",
+    "Ogólnie artykuł ma umiarkowany poziom clickbaitu."
+  ],
+  "summary": "Artykuł opisuje historię Cmentarza Powązkowskiego w Warszawie, jego znaczenie jako miejsca pochówku wybitnych Polaków oraz jego rolę w polskiej historii i kulturze. Zawiera informacje o założeniu cmentarza, jego rozwoju oraz o działaniach mających na celu zachowanie jego dziedzictwa. Wspomniane są również znane postacie pochowane na Powązkach.",
+  "signals": {
+    "title_hits": [
+      "milion historii",
+      "odkryj sekrety"
+    ],
+    "content_hits": [
+      "235 lat temu",
+      "ponad milion osób",
+      "najstarsza i największa nekropolia"
+    ],
+    "credibility_hits": [
+      "dr Rafał Radziwonka",
+      "Muzeum Warszawy",
+      "Społeczny Komitet Opieki nad Starymi Powązkami"
+    ],
+    "mismatch": {
+      "exists": false,
+      "details": ""
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Historia Cmentarza Powązkowskiego w Warszawie",
+    "notes_to_editor": "Rozważyć zmianę tytułu na bardziej neutralny, aby zmniejszyć poziom clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 14,
+    "tokens_content": 647,
+    "processing_time_ms": 19046,
+    "model": "gpt-4o-mini"
+  }
+}

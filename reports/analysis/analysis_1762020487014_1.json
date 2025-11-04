@@ -1,0 +1,50 @@
+{
+  "id": 1762020487014,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/warszawa/grozny-wypadek-kolo-warszawy-auto-dachowalo-sa-ranni-w-tym-dwoje-dzieci/lfp2n11",
+  "title": "Groźny wypadek w Pruszkowie. Są ranni, w tym dwoje dzieci",
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera słowo 'groźny', co jest frazą sensacyjną, ale nie używa absolutów ani nie wywołuje silnej ciekawości.",
+    "Treść artykułu jest zgodna z tytułem, dostarczając konkretne informacje o wypadku.",
+    "W artykule pojawiają się liczby (siedem rannych, w tym dwoje dzieci), co zwiększa jego wiarygodność.",
+    "Nie znaleziono istotnych sygnałów niezgodności między tytułem a treścią."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'groźny', co może budzić emocje, ale nie jest przesadnie dramatyczny.",
+    "Treść artykułu odpowiada tytułowi, podając szczegóły dotyczące wypadku.",
+    "Artykuł zawiera konkretne liczby, co sprawia, że jest bardziej wiarygodny.",
+    "Nie ma znaczących rozbieżności między tytułem a treścią artykułu."
+  ],
+  "summary": "W artykule opisano wypadek drogowy, który miał miejsce w Pruszkowie koło Warszawy. W wyniku zderzenia dwóch samochodów osobowych dachował jeden z pojazdów, a łącznie rannych zostało siedem osób, w tym dwoje dzieci. Służby informują o poważnych utrudnieniach w ruchu drogowym.",
+  "signals": {
+    "title_hits": [
+      "groźny"
+    ],
+    "content_hits": [
+      "zderzenie",
+      "dachował",
+      "siedem osób",
+      "dwoje dzieci"
+    ],
+    "credibility_hits": [
+      "ratownicy medyczni",
+      "potężne utrudnienia"
+    ],
+    "mismatch": {
+      "is_mismatch": false,
+      "details": []
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Wypadek drogowy w Pruszkowie. Ranni, w tym dzieci",
+    "notes_to_editor": "Rozważyć użycie mniej emocjonalnych sformułowań w tytule."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 75,
+    "processing_time_ms": 11956,
+    "model": "gpt-4o-mini"
+  }
+}

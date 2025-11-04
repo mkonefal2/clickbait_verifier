@@ -1,0 +1,46 @@
+{
+  "id": 1762020478147,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/elzbieta-penderecka-nie-zyje-wielka-strata/kq01nfv",
+  "title": "Zmarła Elżbieta Penderecka. \"Wielka postać polskiej kultury\"",
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazę 'Wielka postać polskiej kultury', co może budzić ciekawość, ale nie jest to skrajnie sensacyjne.",
+    "Treść artykułu jest zgodna z tytułem, nie ma znaczących niezgodności.",
+    "W artykule znajdują się informacje o zmarłej osobie, co jest zgodne z normami informacyjnymi.",
+    "Brak innych sygnałów wiarygodności, takich jak liczby czy cytaty, ale artykuł opiera się na źródle prasowym."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera zwrot, który może przyciągać uwagę, ale nie jest przesadnie dramatyczny.",
+    "Treść artykułu odpowiada tytułowi, więc nie ma sprzeczności między nimi.",
+    "Artykuł informuje o zmarłej osobie, co jest ważnym tematem, ale nie zawiera dodatkowych danych, które mogłyby zwiększyć jego wiarygodność."
+  ],
+  "summary": "Artykuł informuje o śmierci Elżbiety Pendereckiej, żony znanego kompozytora Krzysztofa Pendereckiego. Była prezesem Stowarzyszenia im. Ludwiga van Beethovena i miała 78 lat. Wspomniano również o jej roli w organizacji Wielkanocnego Festiwalu Ludwiga van Beethovena w Warszawie.",
+  "signals": {
+    "title_hits": [
+      "Wielka postać polskiej kultury"
+    ],
+    "content_hits": [
+      "Zmarła Elżbieta Penderecka",
+      "prezeska Stowarzyszenia im. Ludwiga van Beethovena"
+    ],
+    "credibility_hits": [
+      "Polska Agencja Prasowa"
+    ],
+    "mismatch": {
+      "exists": false,
+      "details": null
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Zmarła Elżbieta Penderecka, prezeska Stowarzyszenia im. Ludwiga van Beethovena",
+    "notes_to_editor": "Rozważyć dodanie więcej informacji o osiągnięciach Elżbiety Pendereckiej, aby zwiększyć wartość informacyjną artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 81,
+    "processing_time_ms": 11501,
+    "model": "gpt-4o-mini"
+  }
+}

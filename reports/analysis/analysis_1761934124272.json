@@ -1,0 +1,51 @@
+{
+  "id": 1761934124272,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/news-kosmiczny-nietoperz-na-niebie-niezwykle-odkrycie-w-halloween,nId,8036684",
+  "title": "\"Kosmiczny nietoperz\" na niebie. Niezwykłe odkrycie w Halloween",
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'kosmiczny nietoperz' i 'niezwykłe odkrycie', które mogą wzbudzać ciekawość.",
+    "Treść artykułu jest zgodna z tytułem, jednak niektóre fragmenty mogą sugerować przesadę w opisie odkrycia.",
+    "W artykule znajdują się liczby i cytaty naukowców, co podnosi jego wiarygodność.",
+    "Analiza wykazała, że tytuł i treść nie są w pełni zgodne, co wpływa na ocenę clickbaitu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa intrygujących słów, które mogą przyciągnąć uwagę czytelników.",
+    "Treść artykułu odpowiada tytułowi, ale niektóre opisy mogą brzmieć przesadnie.",
+    "W artykule są podane liczby i cytaty, co sprawia, że jest bardziej wiarygodny.",
+    "Zauważono pewne różnice między tytułem a treścią, co wpływa na postrzeganą clickbajtowość."
+  ],
+  "summary": "Artykuł opisuje odkrycie naukowców z Europejskiego Obserwatorium Południowego, którzy zidentyfikowali obłok kosmicznego gazu i pyłu przypominający nietoperza. Odkrycie miało miejsce w dniu Halloween, a mgławica znajduje się blisko 10 000 lat świetlnych od Ziemi. Naukowcy podkreślają, że w jej wnętrzu rodzą się gwiazdy, co czyni ją interesującym obiektem badań.",
+  "signals": {
+    "title_hits": [
+      "kosmiczny nietoperz",
+      "niezwykłe odkrycie"
+    ],
+    "content_hits": [
+      "naukowcy",
+      "mgławica",
+      "gwiazdy"
+    ],
+    "credibility_hits": [
+      "Europejskie Obserwatorium Południowe",
+      "10 000 lat świetlnych",
+      "teleskop"
+    ],
+    "mismatch": {
+      "title": "Kosmiczny nietoperz",
+      "content": "obłok kosmicznego gazu i pyłu"
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Odkrycie obłoku gazu i pyłu przypominającego nietoperza w Halloween",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 332,
+    "processing_time_ms": 13328,
+    "model": "gpt-4o-mini"
+  }
+}

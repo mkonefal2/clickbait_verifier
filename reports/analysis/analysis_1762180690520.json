@@ -1,0 +1,46 @@
+{
+  "id": 1762180690520,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/karol-nawrocki-przy-grobie-nieznanego-zolnierza-to-zadanie-dla-mnie-i-rzadu/d9mg0z9",
+  "title": "Prezydent Nawrocki przy Grobie Nieznanego Żołnierza: to zadanie dla mnie i rządu",
+  "score": 20,
+  "label": "not_clickbait",
+  "rationale": [
+    "Tytuł nie zawiera fraz sensacyjnych ani absolutów.",
+    "Treść artykułu jest zgodna z tytułem, nie występują rozbieżności.",
+    "Brak luk ciekawości w tytule i treści.",
+    "Treść zawiera cytat prezydenta, co zwiększa wiarygodność.",
+    "Nie znaleziono innych sygnałów wiarygodności, takich jak liczby czy źródła."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jest informacyjny i nie używa przesadnych słów.",
+    "Treść artykułu odpowiada tytułowi, nie ma sprzeczności.",
+    "Nie ma w artykule niejasnych lub prowokujących stwierdzeń.",
+    "Cytat prezydenta dodaje wiarygodności artykułowi.",
+    "Brak dodatkowych danych, które mogłyby potwierdzić informacje."
+  ],
+  "summary": "Artykuł relacjonuje wystąpienie prezydenta Karola Nawrockiego przy Grobie Nieznanego Żołnierza, gdzie podkreślił znaczenie tego miejsca dla narodu. Nawrocki mówił o wolności i odpowiedzialności, jakie spoczywają na współczesnym społeczeństwie. Wskazał, że grób jest symbolem niepodległości i refleksji nad przyszłością kraju.",
+  "signals": {
+    "title_hits": [],
+    "content_hits": [
+      "Cytat: 'To zadanie dla mnie i rządu'"
+    ],
+    "credibility_hits": [
+      "Cytat prezydenta",
+      "Źródło: PAP"
+    ],
+    "mismatch": {
+      "title_content_match": true
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Prezydent Nawrocki o znaczeniu Grobu Nieznanego Żołnierza",
+    "notes_to_editor": "Artykuł jest dobrze napisany i nie zawiera elementów clickbaitowych."
+  },
+  "diagnostics": {
+    "tokens_title": 12,
+    "tokens_content": 164,
+    "processing_time_ms": 12483,
+    "model": "gpt-4o-mini"
+  }
+}

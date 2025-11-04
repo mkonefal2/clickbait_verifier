@@ -1,0 +1,52 @@
+{
+  "id": 1762006154109,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/ostrzelali-stacje-paliw-brutalny-atak-rosji-kilkanascie-osob-rannych/cdfwz37",
+  "title": "Brutalny atak Rosji. Jedna osoba nie żyje, kilkanaście jest rannych",
+  "score": 55,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne ('Brutalny atak', 'jedna osoba nie żyje'), co zwiększa jego clickbaitowość.",
+    "Treść artykułu jest zgodna z tytułem, ale użycie emocjonalnych słów w tytule podnosi ocenę clickbaitu.",
+    "W artykule występują liczby (1 zmarła, 15 rannych), co może zwiększać wiarygodność, ale nie neutralizuje clickbaitowego charakteru tytułu.",
+    "W treści brakuje cytatów lub odniesień do źródeł, co wpływa na postrzeganą wiarygodność informacji."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa emocjonalnych słów, co sprawia, że jest bardziej przyciągający, ale też bardziej sensacyjny.",
+    "Treść artykułu odpowiada tytułowi, ale tytuł mógłby być mniej dramatyczny.",
+    "W artykule są podane konkretne liczby, co może pomóc w ocenie sytuacji, ale brakuje odniesień do źródeł.",
+    "Brak cytatów wpływa na postrzeganą wiarygodność informacji."
+  ],
+  "summary": "Artykuł informuje o rosyjskim ataku rakietowym na Mikołajów, w wyniku którego jedna osoba zginęła, a co najmniej 15 osób, w tym dziecko, zostało rannych. Władze obwodu mikołajowskiego przekazały szczegóły dotyczące tego tragicznego incydentu.",
+  "signals": {
+    "title_hits": [
+      "Brutalny atak",
+      "jedna osoba nie żyje",
+      "kilkanaście jest rannych"
+    ],
+    "content_hits": [
+      "Brutalny atak Rosji",
+      "jedna osoba nie żyje",
+      "kilkanaście jest rannych"
+    ],
+    "credibility_hits": [
+      "Polska Agencja Prasowa",
+      "15",
+      "dziecko"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "title_content_similarity": 0.9
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Atak rakietowy na Mikołajów - jedna ofiara śmiertelna, kilkanaście osób rannych",
+    "notes_to_editor": "Rozważyć użycie mniej dramatycznych sformułowań w tytule."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 52,
+    "processing_time_ms": 13670,
+    "model": "gpt-4o-mini"
+  }
+}

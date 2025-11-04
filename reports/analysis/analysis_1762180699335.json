@@ -1,0 +1,48 @@
+{
+  "id": 1762180699335,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/opinie/20-lat-temu-przewidzial-to-co-sie-teraz-dzieje-gorzka-prognoza-eksperta-z-usa/ls3lbwm",
+  "title": "20 lat temu przewidział to, co się teraz dzieje. Gorzka prognoza",
+  "score": 55,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'gorzka prognoza', które mogą wywoływać emocje.",
+    "Treść artykułu odnosi się do przewidywań amerykańskiego filozofa, co jest zgodne z tytułem, ale nie dostarcza szczegółowych informacji.",
+    "W artykule brakuje konkretnych danych lub cytatów, co obniża wiarygodność.",
+    "Wykryto lukę ciekawości w tytule, która nie jest w pełni zaspokojona w treści.",
+    "Zidentyfikowano niezgodność w tytule i treści, ponieważ tytuł sugeruje dramatyczne przewidywania, które nie są w pełni rozwinięte w artykule."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa emocjonalnych słów, co może przyciągać uwagę czytelników.",
+    "Artykuł mówi o przewidywaniach filozofa, ale nie dostarcza wielu szczegółów, co może pozostawić czytelników z pytaniami.",
+    "Brakuje konkretów, takich jak liczby czy cytaty, co sprawia, że artykuł wydaje się mniej wiarygodny.",
+    "Tytuł wzbudza ciekawość, ale artykuł nie wypełnia tej obietnicy w pełni.",
+    "Są pewne niezgodności między tym, co obiecuje tytuł, a tym, co rzeczywiście znajduje się w treści."
+  ],
+  "summary": "Artykuł omawia przewidywania amerykańskiego filozofa Harry'ego Frankfurta sprzed 20 lat, które dotyczą obecnej sytuacji społecznej. Frankfurt w swoim eseju 'On Bullshit' analizuje, jak dezinformacja stała się powszechna. Autor podkreśla, że diagnoza Frankfurta stała się rzeczywistością, a jego prace są aktualne w kontekście współczesnych problemów.",
+  "signals": {
+    "title_hits": [
+      "gorzka prognoza"
+    ],
+    "content_hits": [
+      "przewidział",
+      "diagnoza",
+      "bullshit"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "title": "gorzka prognoza",
+      "content": "brak szczegółowych informacji"
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Przewidywania filozofa sprzed 20 lat w kontekście współczesnych problemów",
+    "notes_to_editor": "Rozważyć dodanie konkretnych danych lub cytatów, aby zwiększyć wiarygodność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 12,
+    "tokens_content": 104,
+    "processing_time_ms": 16235,
+    "model": "gpt-4o-mini"
+  }
+}

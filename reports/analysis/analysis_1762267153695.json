@@ -1,0 +1,46 @@
+{
+  "id": 1762267153695,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/wroclaw/nocny-poscig-w-lubinie-23-latek-uciekal-z-ronda-ze-sloikiem-w-rekach/ywsqtrg",
+  "title": "Nocny pościg w Lubinie. Niebywałe, z czym uciekał kierowca",
+  "score": 54,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazę 'Niebywałe', co jest sygnałem sensacyjnym.",
+    "W treści artykułu występuje opis niecodziennej sytuacji, co wzmacnia element ciekawości.",
+    "Występuje pewne niedopasowanie między tytułem a treścią, ponieważ tytuł sugeruje większą sensacyjność niż to, co jest opisane w artykule.",
+    "Brak konkretnych liczb lub cytatów, które mogłyby zwiększyć wiarygodność artykułu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'Niebywałe', co może przyciągać uwagę, ale również sugeruje sensacyjność.",
+    "Artykuł opisuje nietypowy pościg, co może budzić ciekawość czytelników.",
+    "Tytuł może sugerować więcej dramatyzmu niż to, co faktycznie jest w treści.",
+    "Brakuje w artykule konkretnych danych lub cytatów, które mogłyby potwierdzić jego wiarygodność."
+  ],
+  "summary": "Artykuł opisuje nocny pościg w Lubinie, gdzie policja zatrzymała 23-letniego kierowcę uciekającego z słoikiem w rękach. Po zatrzymaniu okazało się, że mężczyzna miał w słoiku coś, co mogło być nielegalne. Grozi mu do trzech lat pozbawienia wolności.",
+  "signals": {
+    "title_hits": [
+      "Niebywałe"
+    ],
+    "content_hits": [
+      "nocny pościg",
+      "słoik",
+      "uciekający kierowca"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "title": "Niebywałe, z czym uciekał kierowca",
+      "content": "uciekający kierowca ze słoikiem w rękach"
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Nocny pościg w Lubinie z udziałem 23-letniego kierowcy",
+    "notes_to_editor": "Rozważyć dodanie więcej informacji o przyczynach pościgu i konsekwencjach dla kierowcy."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 104,
+    "processing_time_ms": 18535,
+    "model": "gpt-4o-mini"
+  }
+}

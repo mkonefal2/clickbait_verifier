@@ -1,0 +1,55 @@
+{
+  "id": 1762085993544,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/lodz/news-igly-w-cukierkach-na-halloween-wiadomo-kto-je-tam-wsadzil,nId,8036826",
+  "title": "Igły w cukierkach na Halloween",
+  "score": 62,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazę sensacyjną 'igły w cukierkach', co przyciąga uwagę i wzbudza niepokój.",
+    "Treść artykułu zawiera informacje o incydencie z igłami, co potwierdza tytuł, ale również dodaje kontekst.",
+    "W artykule występują absoluty, takie jak 'wszystkie dzieci', co podnosi poziom clickbaitu.",
+    "W treści są cytaty z wiarygodnych źródeł, co zwiększa jej autorytet, ale nie zmienia sensacji tytułu.",
+    "Występują również liczby, co może zwiększać wiarygodność, ale nie wpływa na clickbaitowość."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł wzbudza silne emocje, co może przyciągać czytelników.",
+    "Artykuł rzeczywiście opisuje incydent z igłami, co sprawia, że tytuł jest zgodny z treścią.",
+    "W tekście pojawiają się mocne sformułowania, które mogą wywoływać niepokój.",
+    "Cytaty z policji i innych źródeł dodają wiarygodności, ale nie zmieniają sensacyjnego charakteru tytułu.",
+    "W artykule są też liczby, co może sprawić, że informacje wydają się bardziej rzetelne."
+  ],
+  "summary": "Artykuł opisuje incydent, w którym dzieci zbierające cukierki na Halloween w Łodzi znalazły igły w czekoladkach. Stand-uperka Aleksandra Radomska ostrzegła innych rodziców w mediach społecznościowych. Policja potwierdziła, że sprawcą był małoletni, który umieścił igły w słodyczach jako żart. W artykule wspomniano również o innym incydencie z Lubonia, gdzie mężczyzna zaatakował dzieci.",
+  "signals": {
+    "title_hits": [
+      "igły",
+      "cukierkach",
+      "Halloween"
+    ],
+    "content_hits": [
+      "igły",
+      "cukierkach",
+      "dzieci",
+      "żart"
+    ],
+    "credibility_hits": [
+      "RMF24",
+      "Aneta Sobieraj",
+      "Aleksandra Radomska"
+    ],
+    "mismatch": {
+      "exists": false,
+      "details": {}
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Incydent z igłami w cukierkach podczas Halloween w Łodzi",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby zredukować sensacyjność."
+  },
+  "diagnostics": {
+    "tokens_title": 5,
+    "tokens_content": 520,
+    "processing_time_ms": 16568,
+    "model": "gpt-4o-mini"
+  }
+}

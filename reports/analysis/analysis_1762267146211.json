@@ -1,0 +1,43 @@
+{
+  "id": 1762267146211,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/poznan/byly-burmistrz-murowanej-gosliny-skazany-dariusz-u-trafi-do-wiezienia/2ljhcmc",
+  "title": "Były samorządowiec z Wielkopolski prawomocnie skazany. Trafi do więzienia",
+  "score": 20,
+  "label": "not_clickbait",
+  "rationale": [
+    "Tytuł nie zawiera fraz sensacyjnych ani absolutów.",
+    "Treść artykułu jest zgodna z tytułem, nie ma wykrytych luk ciekawości.",
+    "Brak sygnałów wiarygodności w treści, ale artykuł opiera się na faktach.",
+    "Analiza wykazała niską wartość clickbaitową na podstawie tytułu i treści."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jest informacyjny i nie używa przesadnych słów.",
+    "Treść artykułu odpowiada tytułowi, nie ma w niej nic, co mogłoby zaskoczyć czytelnika.",
+    "Artykuł bazuje na faktach, co zwiększa jego wiarygodność.",
+    "Ogólnie artykuł nie ma cech typowych dla clickbaitu."
+  ],
+  "summary": "Były burmistrz Murowanej Gośliny, Dariusz U., został prawomocnie skazany na 2 lata i 4 miesiące więzienia za seksualne wykorzystywanie pasierbicy oraz znęcanie się nad nią i byłą żoną. Wyrok zapadł 4 listopada 2025 roku, a informację przekazała Polska Agencja Prasowa.",
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "Polska Agencja Prasowa",
+      "dane o wyroku"
+    ],
+    "mismatch": {
+      "title": "Tytuł odpowiada treści artykułu.",
+      "content": "Treść artykułu jest zgodna z tytułem."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Dariusz U., były burmistrz Murowanej Gośliny, skazany na więzienie.",
+    "notes_to_editor": "Artykuł jest dobrze napisany i nie wymaga zmian."
+  },
+  "diagnostics": {
+    "tokens_title": 11,
+    "tokens_content": 93,
+    "processing_time_ms": 14679,
+    "model": "gpt-4o-mini"
+  }
+}

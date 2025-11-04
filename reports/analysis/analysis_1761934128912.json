@@ -1,0 +1,46 @@
+{
+  "id": 1761934128912,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/warszawa/news-wielka-kwesta-na-starych-powazkach-juz-w-ten-weekend,nId,8036697",
+  "title": "Wielka kwesta na Starych Powązkach już w ten weekend",
+  "score": 15,
+  "label": "not_clickbait",
+  "rationale": [
+    "Tytuł nie zawiera fraz sensacyjnych ani absolutów.",
+    "Treść artykułu jest zgodna z tytułem, dostarczając konkretne informacje o wydarzeniu.",
+    "Nie wykryto luk ciekawości w treści.",
+    "Artykuł zawiera konkretne liczby i cytaty, co zwiększa jego wiarygodność.",
+    "Analiza wykazała, że tytuł i treść są spójne, co minimalizuje ryzyko clickbaitu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jest prosty i informacyjny, nie używa przesadnych słów.",
+    "Treść artykułu dokładnie opisuje wydarzenie, które jest zapowiadane w tytule.",
+    "Nie ma w artykule żadnych niejasności, które mogłyby wzbudzać ciekawość.",
+    "Artykuł zawiera konkretne dane i cytaty, co sprawia, że jest bardziej wiarygodny.",
+    "Tytuł i treść są zgodne, co oznacza, że nie ma w nich sprzeczności."
+  ],
+  "summary": "W dniach 1 i 2 listopada odbędzie się 51. edycja tradycyjnej kwesty na Cmentarzu Powązkowskim, mającej na celu zbieranie funduszy na konserwację zabytków. W wydarzeniu weźmie udział około 350 osób, w tym znane postacie z kultury i polityki. Zebrane środki zostaną przeznaczone na renowację nagrobków, a akcja trwa od 9 do 19.",
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "350 osób",
+      "51. edycja",
+      "1,7 tysiąca zabytkowych nagrobków"
+    ],
+    "mismatch": {
+      "is_mismatch": false,
+      "mismatch_details": ""
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Kwesta na Starych Powązkach w weekend",
+    "notes_to_editor": "Artykuł jest informacyjny i nie wymaga zmian."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 420,
+    "processing_time_ms": 14742,
+    "model": "gpt-4o-mini"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": 1761934134721,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/krakow/przetrzymywal-i-wykorzystywal-kobiete-odpowie-on-i-trzy-inne-osoby/cf15c2m",
+  "title": "Przetrzymywał i wykorzystywał kobietę. Pomagała mu żona i koleżanka",
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'przetrzymywał' i 'wykorzystywał', co wskazuje na dramatyczny charakter sytuacji.",
+    "Treść artykułu jest zgodna z tytułem, co zmniejsza ryzyko mismatch.",
+    "W treści występują konkretne informacje o przestępstwie, co zwiększa wiarygodność.",
+    "Nie znaleziono wyraźnych sygnałów wiarygodności, takich jak cytaty czy liczby."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł artykułu używa mocnych słów, które przyciągają uwagę, co może być uznane za clickbait.",
+    "Treść artykułu odpowiada tytułowi, co jest pozytywne, ponieważ nie wprowadza w błąd.",
+    "W artykule znajdują się konkretne informacje o przestępstwie, co zwiększa jego wiarygodność.",
+    "Brakuje jednak dodatkowych źródeł lub cytatów, które mogłyby potwierdzić przedstawione informacje."
+  ],
+  "summary": "Artykuł opisuje przypadek mężczyzny, który bezprawnie przetrzymywał i wykorzystywał kobietę w Krakowie. W działaniach tych pomagały mu żona oraz koleżanka. Policja zatrzymała wszystkich podejrzanych, którzy usłyszeli zarzuty i mogą stanąć przed sądem.",
+  "signals": {
+    "title_hits": [
+      "przetrzymywał",
+      "wykorzystywał",
+      "pomagała"
+    ],
+    "content_hits": [
+      "przetrzymywał",
+      "wykorzystywał",
+      "pomagała"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "exists": false,
+      "reason": "Tytuł i treść są zgodne."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Mężczyzna przetrzymywał kobietę, jego żona i koleżanka również zaangażowane",
+    "notes_to_editor": "Rozważyć dodanie cytatów lub danych statystycznych dla zwiększenia wiarygodności."
+  },
+  "diagnostics": {
+    "tokens_title": 14,
+    "tokens_content": 106,
+    "processing_time_ms": 11832,
+    "model": "gpt-4o-mini"
+  }
+}

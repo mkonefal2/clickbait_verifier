@@ -1,0 +1,50 @@
+{
+  "id": 1762006159481,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/zweglone-ciala-na-karaibach-trump-robi-co-chce-a-europa-umywa-rece/kh0z374",
+  "title": "Na karaibskie plaże wypływają zwęglone ciała. Efekt brutalnego pokazu siły Donalda Trumpa",
+  "score": 72,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'zwęglone ciała' oraz 'brutalnego pokazu siły', co wskazuje na silny ładunek emocjonalny.",
+    "Treść artykułu odnosi się do sytuacji politycznej, ale używa dramatycznych sformułowań, co zwiększa stopień clickbaitu.",
+    "Występuje niezgodność między tytułem a treścią, ponieważ tytuł sugeruje konkretny incydent, podczas gdy treść odnosi się do szerszego kontekstu politycznego.",
+    "W artykule pojawiają się cytaty oraz odniesienia do wydarzeń, co może zwiększać jego wiarygodność, ale nie równoważy to emocjonalnego ładunku tytułu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa dramatycznych słów, co przyciąga uwagę, ale może wprowadzać w błąd.",
+    "Artykuł omawia sytuację polityczną, ale nie dostarcza konkretnych informacji na temat incydentu, co może być mylące.",
+    "W treści znajdują się cytaty i odniesienia do wydarzeń, co sprawia, że artykuł wydaje się bardziej wiarygodny.",
+    "Jednak dramatyzm tytułu sprawia, że całość ma wyraźny charakter clickbaitowy."
+  ],
+  "summary": "Artykuł opisuje sytuację polityczną na Karaibach w kontekście działań Donalda Trumpa. Zawiera refleksje na temat wpływu wielkich mocarstw na mniejsze państwa oraz obawę przed wzrostem brutalności w międzynarodowych relacjach. Wspomniane są także konkretne wydarzenia, takie jak bombardowanie statku przez armię USA.",
+  "signals": {
+    "title_hits": [
+      "zwęglone ciała",
+      "brutalnego pokazu siły"
+    ],
+    "content_hits": [
+      "brutalny porządek światowy",
+      "mniejsze państwa",
+      "tyrani"
+    ],
+    "credibility_hits": [
+      "Nahal Toosi",
+      "EPA/Orlando Barria, Andrew CABALLERO-REYNOLDS"
+    ],
+    "mismatch": {
+      "title": "Na karaibskie plaże wypływają zwęglone ciała. Efekt brutalnego pokazu siły Donalda Trumpa",
+      "content": "Artykuł omawia szerszy kontekst polityczny, nie skupiając się na konkretnym incydencie."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Sytuacja polityczna na Karaibach w erze Donalda Trumpa",
+    "notes_to_editor": "Rozważyć zmianę tytułu na bardziej neutralny, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 14,
+    "tokens_content": 150,
+    "processing_time_ms": 17096,
+    "model": "gpt-4o-mini"
+  }
+}

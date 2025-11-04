@@ -1,0 +1,50 @@
+{
+  "id": 1762180705310,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/warszawa/ekstradycja-wielkiego-bu-zapadla-kluczowa-decyzja/r0mpg98",
+  "title": "Ekstradycja \"Wielkiego Bu\". Zapadła kluczowa decyzja",
+  "score": 32,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazę 'kluczowa decyzja', co może sugerować sensacyjność.",
+    "Treść artykułu jest zgodna z tytułem, nie zawiera nieprawdziwych informacji.",
+    "W artykule występują cytaty z niemieckiej prokuratury, co zwiększa jego wiarygodność.",
+    "Brak wyraźnych luk ciekawości, ale tytuł może budzić pewne zainteresowanie."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'kluczowa decyzja', co może brzmieć sensacyjnie.",
+    "Treść artykułu odpowiada tytułowi i nie wprowadza w błąd.",
+    "Artykuł zawiera cytaty z prokuratury, co czyni go bardziej wiarygodnym.",
+    "Nie ma w nim wyraźnych zagadek, ale tytuł może przyciągać uwagę."
+  ],
+  "summary": "Hanzeatycki Sąd Apelacyjny w Hamburgu zgodził się na ekstradycję Patryka M., znanego jako 'Wielki Bu', do Polski. Decyzja ta musi być jeszcze formalnie zatwierdzona przez Prokuraturę Generalną w Niemczech. Patryk M. złożył również wniosek o azyl polityczny, jednak niemiecka prokuratura zapewnia, że nie wpłynie to na proces ekstradycji.",
+  "signals": {
+    "title_hits": [
+      "kluczowa decyzja"
+    ],
+    "content_hits": [
+      "ekstradycja",
+      "Wielki Bu",
+      "Prokuratura Generalna",
+      "wniosek o azyl"
+    ],
+    "credibility_hits": [
+      "Hanzeatycki Sąd Apelacyjny",
+      "niemicka prokuratura"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "title_content_similarity": 0.85
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Decyzja o ekstradycji Patryka M. do Polski",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 83,
+    "processing_time_ms": 16107,
+    "model": "gpt-4o-mini"
+  }
+}

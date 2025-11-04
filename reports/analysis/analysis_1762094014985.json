@@ -1,0 +1,52 @@
+{
+  "id": 1762094014985,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/polska/news-coraz-wiecej-rezygnacji-z-sanatoriow-kuracjusze-wskazuja-zas,nId,8036318",
+  "title": "Coraz więcej rezygnacji z sanatoriów. Kuracjusze wskazują zaskakujące powody",
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazę 'coraz więcej', co sugeruje trend, ale nie jest to skrajny absolut.",
+    "Treść artykułu dostarcza konkretne dane i przykłady, co zmniejsza ryzyko clickbaitu.",
+    "W artykule występują cytaty i dane z wiarygodnych źródeł, co podnosi jego rzetelność.",
+    "Nie stwierdzono istotnych niezgodności między tytułem a treścią, co pozytywnie wpływa na ocenę.",
+    "Całkowity wynik clickbaitu obliczono na podstawie wagi tytułu, treści oraz wykrycia mismatch."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł sugeruje, że temat jest interesujący, ale nie przesadza z dramatyzmem.",
+    "Artykuł podaje konkretne powody rezygnacji z sanatoriów, co czyni go informacyjnym.",
+    "Cytaty i dane z NFZ dodają wiarygodności i pomagają zrozumieć sytuację.",
+    "Tytuł dobrze odzwierciedla treść artykułu, co sprawia, że nie wprowadza w błąd."
+  ],
+  "summary": "Artykuł opisuje rosnącą liczbę rezygnacji z wyjazdów do sanatoriów w Polsce, mimo niższych cen w sezonie jesienno-zimowym. Kuracjusze wskazują na różne powody, takie jak mroźna pogoda, obowiązki domowe oraz brak bezpłatnego Wi-Fi. NFZ informuje, że w niektórych regionach nawet 80% skierowań jest zwracanych.",
+  "signals": {
+    "title_hits": [
+      "coraz więcej",
+      "zaskakujące powody"
+    ],
+    "content_hits": [
+      "coraz więcej osób",
+      "powody rezygnacji",
+      "dane Narodowego Funduszu Zdrowia"
+    ],
+    "credibility_hits": [
+      "NFZ potwierdza",
+      "cytaty",
+      "dane"
+    ],
+    "mismatch": {
+      "title": "Tytuł jest zgodny z treścią",
+      "content": "Treść artykułu rozwija temat tytułu"
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Rezygnacje z sanatoriów rosną, kuracjusze podają powody",
+    "notes_to_editor": "Artykuł dobrze przedstawia sytuację, ale warto unikać fraz, które mogą być postrzegane jako sensacyjne."
+  },
+  "diagnostics": {
+    "tokens_title": 12,
+    "tokens_content": 390,
+    "processing_time_ms": 25361,
+    "model": "gpt-4o-mini"
+  }
+}

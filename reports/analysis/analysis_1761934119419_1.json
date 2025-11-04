@@ -1,0 +1,50 @@
+{
+  "id": 1761934119419,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/swiat/news-kluczowa-zmiana-dla-pasazerow-ryanair-przygotuj-sie-juz-od-l,nId,8036410",
+  "title": "Kluczowa zmiana dla pasażerów Ryanair",
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera słowo 'kluczowa', co może sugerować sensacyjność, ale nie jest to absolut.",
+    "Treść artykułu jest zgodna z tytułem i dostarcza konkretnych informacji na temat zmiany w polityce Ryanair.",
+    "Nie znaleziono wyraźnych luk ciekawości ani przesadnych fraz w treści.",
+    "W artykule znajdują się liczby (np. 80 procent pasażerów korzysta z cyfrowych kart), co zwiększa wiarygodność.",
+    "Brak cytatów z wiarygodnych źródeł, co wpływa na ocenę wiarygodności."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'kluczowa', co może brzmieć sensacyjnie, ale nie jest to przesadzone.",
+    "Treść artykułu jest spójna z tytułem i dostarcza konkretne informacje o zmianach w Ryanair.",
+    "Nie ma w artykule przesadnych stwierdzeń ani niejasnych informacji.",
+    "Artykuł zawiera liczby, co czyni go bardziej wiarygodnym.",
+    "Brak cytatów z ekspertów lub źródeł, co może wpływać na postrzeganą wiarygodność."
+  ],
+  "summary": "Artykuł informuje o wprowadzeniu przez Ryanair cyfrowych kart pokładowych, które będą obowiązkowe od 12 listopada 2025 roku. Pasażerowie będą musieli dokonywać odprawy online, a papierowe karty nie będą już akceptowane. Zmiana ma na celu obniżenie kosztów oraz korzyści dla środowiska.",
+  "signals": {
+    "title_hits": [
+      "kluczowa"
+    ],
+    "content_hits": [
+      "cyfrowe karty pokładowe",
+      "80 procent"
+    ],
+    "credibility_hits": [
+      "Ryanair",
+      "cyfrowe karty pokładowe"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "title_content_similarity": 0.85
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Zmiana w polityce kart pokładowych Ryanair",
+    "notes_to_editor": "Rozważyć dodanie cytatów z przedstawicieli Ryanair dla zwiększenia wiarygodności."
+  },
+  "diagnostics": {
+    "tokens_title": 7,
+    "tokens_content": 370,
+    "processing_time_ms": 13503,
+    "model": "gpt-4o-mini"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": 1762180700422,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/poznan/strzaly-na-lesnej-drodze-w-wielkopolsce-koniec-policyjnej-oblawy/e52zsqs",
+  "title": "Policyjna obława w Wielkopolsce zakończona. Na posesji padły strzały",
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'policyjna obława' i 'padły strzały', które mogą wzbudzać ciekawość.",
+    "Treść artykułu jest zgodna z tytułem, co zmniejsza ryzyko mismatchu.",
+    "W artykule pojawiają się liczby (pięć osób zatrzymanych), co zwiększa wiarygodność.",
+    "W treści nie występują żadne absoluty ani przesadzone stwierdzenia."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera emocjonujące sformułowania, które mogą przyciągać uwagę czytelników.",
+    "Treść artykułu odpowiada tytułowi, co sprawia, że jest bardziej wiarygodna.",
+    "Artykuł podaje konkretne informacje, takie jak liczba zatrzymanych osób, co dodaje mu rzetelności.",
+    "Nie ma w nim przesadnych stwierdzeń, co sprawia, że jest mniej clickbaitowy."
+  ],
+  "summary": "Artykuł informuje o zakończeniu policyjnej obławy w Wielkopolsce, podczas której na prywatnej posesji padły strzały. Funkcjonariusze odkryli magazyn broni i amunicji, a w sprawie zatrzymano pięć osób. Informacje pochodzą z relacji RMF FM.",
+  "signals": {
+    "title_hits": [
+      "policyjna obława",
+      "padły strzały"
+    ],
+    "content_hits": [
+      "policyjna obława",
+      "strzały",
+      "pięć osób"
+    ],
+    "credibility_hits": [
+      "RMF FM",
+      "pięć osób"
+    ],
+    "mismatch": {
+      "exists": false,
+      "details": "Tytuł i treść są zgodne."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Zakończenie policyjnej obławy w Wielkopolsce po strzałach na posesji",
+    "notes_to_editor": "Rozważyć użycie mniej emocjonalnych sformułowań w tytule."
+  },
+  "diagnostics": {
+    "tokens_title": 12,
+    "tokens_content": 85,
+    "processing_time_ms": 20603,
+    "model": "gpt-4o-mini"
+  }
+}

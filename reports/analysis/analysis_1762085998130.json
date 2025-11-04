@@ -1,0 +1,44 @@
+{
+  "id": 1762085998130,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/warszawa/news-symbol-pamieci-narodowej-i-bohaterstwa-100-lat-grobu-nieznan,nId,8035247",
+  "title": "Symbol pamięci narodowej i bohaterstwa. 100 lat Grobu Nieznanego Żołnierza",
+  "score": 22,
+  "label": "not_clickbait",
+  "rationale": [
+    "Tytuł zawiera konkretne informacje o temacie artykułu, nie używa sensacyjnych fraz ani absolutów.",
+    "Treść artykułu jest zgodna z tytułem, dostarczając szczegółowych informacji na temat Grobu Nieznanego Żołnierza.",
+    "Nie znaleziono luk ciekawości ani przesadnych stwierdzeń w treści.",
+    "Artykuł zawiera konkretne daty, liczby i źródła, co zwiększa jego wiarygodność."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jasno informuje o temacie artykułu, nie jest przesadzony ani sensacyjny.",
+    "Treść artykułu odpowiada tytułowi, dostarczając szczegółowych informacji o Grobie Nieznanego Żołnierza.",
+    "Nie ma w nim niejasnych lub przesadzonych stwierdzeń, które mogłyby wprowadzać w błąd.",
+    "Artykuł zawiera konkretne daty i informacje, co czyni go wiarygodnym."
+  ],
+  "summary": "Artykuł opisuje historię Grobu Nieznanego Żołnierza w Warszawie z okazji setnej rocznicy jego odsłonięcia. Zawiera informacje o jego znaczeniu jako symbolu narodowej tożsamości oraz o wydarzeniach związanych z jego powstaniem i odbudową po II wojnie światowej. Podkreśla rolę grobu w upamiętnieniu poległych żołnierzy i jego obecne znaczenie w polskiej kulturze.",
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "2 listopada 1925 r. nastąpiło odsłonięcie Grobu Nieznanego Żołnierza w Warszawie.",
+      "Pomnik stał się narodowym mauzoleum, do którego z czasem dołączano prochy bohaterów z innych pól bitewnych.",
+      "W czasie II wojny światowej Pałac Saski został wysadzony przez Niemców."
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "mismatch_score": 0
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "100 lat Grobu Nieznanego Żołnierza w Warszawie",
+    "notes_to_editor": "Artykuł dobrze informuje o temacie, nie wymaga zmian."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 668,
+    "processing_time_ms": 15232,
+    "model": "gpt-4o-mini"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": 1762180701085,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/slask/niebezpieczne-zdarzenie-na-slasku-dziecko-wpadlo-do-zbiornika-wodnego/70g1tyx",
+  "title": "Dwuletni chłopiec w stanie ciężkim po wypadku. Lekarze walczą o jego życie",
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy emocjonalne i dramatyczne, takie jak 'w stanie ciężkim' i 'walczą o jego życie', co podnosi stopień clickbaitu.",
+    "Treść artykułu jest zgodna z tytułem, opisując wypadek dziecka i jego stan zdrowia, co zmniejsza ryzyko mismatch.",
+    "W treści pojawiają się informacje o stanie zdrowia dziecka oraz źródło informacji, co zwiększa wiarygodność artykułu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa dramatycznych sformułowań, co może przyciągać uwagę, ale także sugerować sensacyjność.",
+    "Artykuł zgodnie opisuje wypadek dziecka i jego stan, co sprawia, że tytuł nie wprowadza w błąd.",
+    "W artykule podano konkretne informacje o stanie zdrowia oraz źródło, co zwiększa jego wiarygodność."
+  ],
+  "summary": "Dwuletni chłopiec wpadł do zbiornika wodnego i został przewieziony do szpitala w stanie ciężkim z powodu hipotermii. Lekarze informują, że jego stan jest stabilny, ale wymaga dalszej opieki. Artykuł podaje również źródło informacji oraz datę zdarzenia.",
+  "signals": {
+    "title_hits": [
+      "w stanie ciężkim",
+      "walczą o jego życie"
+    ],
+    "content_hits": [
+      "wpadł do zbiornika wodnego",
+      "stan stabilny, ale ciężki",
+      "głębokiej hipotermii"
+    ],
+    "credibility_hits": [
+      "Polska Agencja Prasowa",
+      "3 listopada 2025"
+    ],
+    "mismatch": {
+      "exists": false,
+      "details": "Tytuł jest zgodny z treścią artykułu."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Dwuletni chłopiec w ciężkim stanie po wypadku w zbiorniku wodnym",
+    "notes_to_editor": "Rozważyć użycie mniej dramatycznych sformułowań w tytule, aby zmniejszyć wrażenie clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 12,
+    "tokens_content": 66,
+    "processing_time_ms": 15707,
+    "model": "gpt-4o-mini"
+  }
+}

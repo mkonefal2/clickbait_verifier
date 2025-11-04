@@ -1,0 +1,48 @@
+{
+  "id": 1762020481189,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/o-krok-od-tragedii-na-slasku-piecioosobowa-rodzina-trafila-do-szpitala/t4ys389",
+  "title": "O krok od tragedii na Śląsku. Pięcioosobowa rodzina trafiła do szpitala",
+  "score": 65,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazę sensacyjną 'o krok od tragedii', co wskazuje na dramatyczny ton.",
+    "W treści artykułu znajdują się konkretne informacje o zdarzeniu, ale tytuł sugeruje większe napięcie niż to, co jest opisane.",
+    "Wykryto kilka sygnałów wiarygodności, takich jak źródło (Polska Agencja Prasowa) oraz konkretne dane o zdarzeniu.",
+    "W treści nie ma absolutów ani luk ciekawości, ale tytuł wywołuje silne emocje."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł sugeruje dramatyczną sytuację, co przyciąga uwagę, ale nie do końca odzwierciedla rzeczywistość opisaną w artykule.",
+    "Artykuł podaje konkretne informacje o incydencie, co zwiększa jego wiarygodność.",
+    "Nie ma w nim przesadnych stwierdzeń ani pytań, które mogłyby wprowadzać w błąd, ale tytuł jest emocjonalny.",
+    "Ogólnie, artykuł jest informacyjny, ale tytuł może wprowadzać w błąd co do skali tragedii."
+  ],
+  "summary": "Pięcioosobowa rodzina z trojgiem dzieci podtruła się tlenkiem węgla w Zwonowicach pod Rybnikiem. Wszyscy członkowie rodziny zostali przewiezieni do szpitala. W mieszkaniu znajdowała się czujka czadu, która miała słabą baterię.",
+  "signals": {
+    "title_hits": [
+      "o krok od tragedii"
+    ],
+    "content_hits": [
+      "podtruła się",
+      "czujka czadu",
+      "szpital"
+    ],
+    "credibility_hits": [
+      "Polska Agencja Prasowa"
+    ],
+    "mismatch": {
+      "title": "O krok od tragedii na Śląsku",
+      "content": "Pięcioosobowa rodzina trafiła do szpitala"
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Rodzina z pięcioma osobami trafiła do szpitala po podtruciu tlenkiem węgla",
+    "notes_to_editor": "Rozważyć zmianę tytułu na bardziej neutralny, aby lepiej odzwierciedlał treść artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 11,
+    "tokens_content": 69,
+    "processing_time_ms": 15334,
+    "model": "gpt-4o-mini"
+  }
+}

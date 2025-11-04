@@ -1,0 +1,43 @@
+{
+  "id": 1762085981715,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/polska/news-dzien-zaduszny-w-polsce-historia-tradycje-i-wspolczesne-obch,nId,8034992",
+  "title": "Dzień Zaduszny w Polsce. Historia, tradycje i współczesne obchody",
+  "score": 10,
+  "label": "not_clickbait",
+  "rationale": [
+    "Tytuł jest zgodny z treścią artykułu, nie zawiera fraz sensacyjnych ani absolutów.",
+    "Treść artykułu dostarcza szczegółowych informacji na temat Dnia Zadusznego, jego tradycji i współczesnych obchodów.",
+    "Nie wykryto luk ciekawości ani niezgodności między tytułem a treścią.",
+    "Artykuł zawiera konkretne informacje, takie jak daty, tradycje oraz odniesienia do kultury, co zwiększa jego wiarygodność."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł odpowiada treści artykułu i nie jest przesadnie dramatyczny.",
+    "Artykuł dokładnie opisuje Dzień Zaduszny, jego tradycje oraz to, jak jest obchodzony dzisiaj.",
+    "Nie znalazłem żadnych niezgodności między tym, co mówi tytuł, a tym, co jest w artykule.",
+    "Artykuł zawiera konkretne informacje, co sprawia, że jest wiarygodny."
+  ],
+  "summary": "Artykuł opisuje Dzień Zaduszny, obchodzony 2 listopada w Polsce, jako czas pamięci o zmarłych. Zawiera informacje o tradycjach związanych z tym dniem, takich jak odwiedzanie cmentarzy, zapalanie zniczy oraz modlitwy. Współczesne obchody łączą dawne zwyczaje z nowymi formami upamiętnienia, a święto pozostaje istotnym elementem polskiej kultury.",
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "Źródło: rmf24",
+      "Daty, tradycje, odniesienia do kultury"
+    ],
+    "mismatch": {
+      "is_mismatch": false,
+      "mismatch_details": []
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Dzień Zaduszny w Polsce: Tradycje i współczesne obchody",
+    "notes_to_editor": "Artykuł jest dobrze napisany i nie wymaga zmian."
+  },
+  "diagnostics": {
+    "tokens_title": 11,
+    "tokens_content": 643,
+    "processing_time_ms": 11035,
+    "model": "gpt-4o-mini"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": 1762006145322,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/warszawa/news-tragedia-pod-wolominem-cialo-44-letniej-kobiety-znalezione-w,nId,8036773",
+  "title": "Tragedia pod Wołominem. Ciało 44-letniej kobiety znalezione w szambie",
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'tragedia' oraz 'ciało', co może wzbudzać emocje.",
+    "Treść artykułu jest zgodna z tytułem, jednak zawiera również elementy, które mogą wywołać ciekawość czytelnika.",
+    "W artykule pojawiają się cytaty z przedstawicieli policji i prokuratury, co zwiększa jego wiarygodność.",
+    "Nie stwierdzono istotnych rozbieżności między tytułem a treścią, co wpływa na niższy wynik clickbaitu.",
+    "W artykule nie ma użycia absolutów ani luk ciekawości, co obniża jego ocenę clickbaitową."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa emocjonalnych słów, które mogą przyciągać uwagę, ale nie jest przesadnie sensacyjny.",
+    "Treść artykułu odpowiada tytułowi i dostarcza konkretne informacje na temat zdarzenia.",
+    "Cytaty z policji i prokuratury dodają wiarygodności artykułowi.",
+    "Nie znaleziono znaczących różnic między tytułem a treścią, co jest pozytywne.",
+    "Artykuł nie zawiera przesadnych stwierdzeń ani nie pozostawia pytań bez odpowiedzi."
+  ],
+  "summary": "W miejscowości Chrzęsne pod Wołominem znaleziono ciało 44-letniej kobiety w szambie. Ratownicy podjęli próbę reanimacji, jednak nie udało się jej uratować. Prokuratura prowadzi śledztwo w tej sprawie, a w pobliżu znajdował się 7-letni chłopiec, który został objęty opieką.",
+  "signals": {
+    "title_hits": [
+      "tragedia",
+      "ciało"
+    ],
+    "content_hits": [
+      "znalezione w szambie",
+      "ratownicy",
+      "prokuratura"
+    ],
+    "credibility_hits": [
+      "Komenda Stołeczna Policji",
+      "Prokuratura Okręgowa Warszawa-Praga"
+    ],
+    "mismatch": {
+      "exists": false,
+      "details": "Brak istotnych rozbieżności między tytułem a treścią."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Ciało 44-letniej kobiety znalezione w szambie pod Wołominem",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby zmniejszyć emocjonalny ładunek."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 250,
+    "processing_time_ms": 15203,
+    "model": "gpt-4o-mini"
+  }
+}

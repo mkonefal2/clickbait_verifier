@@ -1,0 +1,55 @@
+{
+  "id": 1761934129794,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/sport/pilka-nozna/news-gigantyczna-afera-prawie-150-sedziow-zawieszonych-obstawiali,nId,8036693",
+  "title": "Gigantyczna afera. Prawie 150 sędziów zawieszonych, obstawiali u bukmacherów",
+  "score": 68,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'gigantyczna afera' oraz liczby, co zwiększa jego clickbaitowość.",
+    "Treść artykułu dostarcza konkretne informacje na temat zawieszenia sędziów, co jest zgodne z tytułem, ale tytuł jest bardziej dramatyczny.",
+    "W treści znajdują się liczby dotyczące sędziów i zakładów, co podnosi wiarygodność artykułu.",
+    "Zidentyfikowano niewielką lukę ciekawości, ponieważ tytuł sugeruje większą sensację niż to, co jest w treści.",
+    "Wykryto zgodność między tytułem a treścią, ale tytuł jest bardziej emocjonalny niż informacyjny."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów, co przyciąga uwagę, ale może sugerować większą sensację niż to, co naprawdę się wydarzyło.",
+    "Artykuł dostarcza szczegółowych informacji o zawieszeniu sędziów, co jest zgodne z tytułem, ale tytuł brzmi bardziej dramatycznie.",
+    "W treści są liczby, które potwierdzają informacje, co sprawia, że artykuł jest wiarygodny.",
+    "Tytuł może wzbudzać ciekawość, ale nieco przesadza z dramatyzmem w porównaniu do faktów przedstawionych w artykule."
+  ],
+  "summary": "Artykuł informuje o zawieszeniu 149 sędziów przez Turecką Federację Piłkarską z powodu podejrzeń o obstawianie wyników meczów. Wśród zawieszonych są sędziowie prowadzący mecze w ekstraklasie. Ujawniono, że wielu z nich posiada konta u bukmacherów, a niektórzy obstawiali tysiące zakładów. Sprawą zajmuje się również prokuratura.",
+  "signals": {
+    "title_hits": [
+      "gigantyczna afera",
+      "prawie 150",
+      "zawieszonych",
+      "obstawiali"
+    ],
+    "content_hits": [
+      "149 sędziów",
+      "obstawianie wyników",
+      "371 z 571 sędziów",
+      "10 tysięcy zakładów"
+    ],
+    "credibility_hits": [
+      "Turecka Federacja Piłkarska",
+      "Ibrahim Haciosmanoglu",
+      "prokuratura w Stambule"
+    ],
+    "mismatch": {
+      "title_content_mismatch": "Tytuł jest bardziej dramatyczny niż treść, co może wprowadzać w błąd.",
+      "content_title_match": "Treść artykułu odpowiada tytułowi, ale z mniejszym ładunkiem emocjonalnym."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Zawieszenie 149 sędziów w związku z obstawianiem meczów",
+    "notes_to_editor": "Zaleca się unikanie przesadnych sformułowań w tytule, aby lepiej odzwierciedlić treść artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 236,
+    "processing_time_ms": 15813,
+    "model": "gpt-4o-mini"
+  }
+}

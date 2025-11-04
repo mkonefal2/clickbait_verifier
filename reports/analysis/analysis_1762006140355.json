@@ -1,0 +1,51 @@
+{
+  "id": 1762006140355,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/poznan/news-batonik-z-7-centymetrowym-wkretem-przykry-final-halloweenowe,nId,8036788",
+  "title": "Batonik z 7-centymetrowym wkrętem. Przykry finał halloweenowego żartu",
+  "score": 62,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera sensacyjne elementy, takie jak 'przykry finał' i '7-centymetrowym wkrętem', co sugeruje dramatyzm.",
+    "Treść artykułu opisuje incydent, który mógł być niebezpieczny, ale wyjaśnia, że był to żart dzieci, co zmniejsza dramatyzm.",
+    "W artykule występują liczby (7 centymetrów) oraz odniesienia do działań policji, co zwiększa wiarygodność.",
+    "Zidentyfikowano niezgodność między tytułem a treścią, ponieważ tytuł sugeruje większe zagrożenie niż to, co opisuje artykuł."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa dramatycznych sformułowań, które przyciągają uwagę, jak 'przykry finał' i '7-centymetrowym wkrętem'.",
+    "Artykuł opisuje incydent, który mógł być niebezpieczny, ale wyjaśnia, że był to żart dzieci, co zmienia kontekst.",
+    "W artykule są podane konkretne liczby i informacje o działaniach policji, co sprawia, że jest bardziej wiarygodny.",
+    "Tytuł sugeruje większe zagrożenie niż to, co rzeczywiście miało miejsce w opisywanym zdarzeniu."
+  ],
+  "summary": "Artykuł opisuje incydent, w którym w batoniku znaleziono metalowy wkręt. Policja wyjaśnia sprawę, która okazała się żartem trzech 10-letnich dziewczynek. W artykule poruszono również wcześniejsze przypadki podobnych sytuacji podczas Halloween, które były traktowane poważnie przez policję.",
+  "signals": {
+    "title_hits": [
+      "7-centymetrowym wkrętem",
+      "przykry finał"
+    ],
+    "content_hits": [
+      "metalowy wkręt",
+      "żart",
+      "narażenie dziecka na utratę zdrowia"
+    ],
+    "credibility_hits": [
+      "Policjanci z Trzemeszna",
+      "30-letni mężczyzna",
+      "sprawa zostanie przekazana do dzielnicowych"
+    ],
+    "mismatch": {
+      "title": "Batonik z 7-centymetrowym wkrętem. Przykry finał halloweenowego żartu",
+      "content": "Artykuł wyjaśnia, że incydent był żartem dzieci, co nie jest zgodne z dramatycznym tonem tytułu."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Incydent z batonikiem i metalowym wkrętem podczas Halloween",
+    "notes_to_editor": "Rozważyć neutralizację tytułu, aby lepiej odzwierciedlał treść artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 276,
+    "processing_time_ms": 14884,
+    "model": "gpt-4o-mini"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": 1762085993544,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/lodz/news-igly-w-cukierkach-na-halloween-wiadomo-kto-je-tam-wsadzil,nId,8036826",
+  "title": "Igły w cukierkach na Halloween",
+  "score": 62,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazę sensacyjną 'igły w cukierkach', co może wzbudzać niepokój i ciekawość.",
+    "Treść artykułu zawiera szczegóły o incydencie, ale również wyjaśnia, że sprawca był małoletni i nie miał złych intencji.",
+    "W artykule występuje mismatch między tytułem a treścią, ponieważ tytuł sugeruje większe zagrożenie niż to, co opisuje treść.",
+    "W treści znajdują się cytaty z rzecznika policji oraz zeznania świadków, co zwiększa wiarygodność informacji."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł przyciąga uwagę, ponieważ mówi o niebezpiecznych igłach w cukierkach, co może budzić strach.",
+    "Artykuł opisuje incydent, ale wyjaśnia, że sprawca to młoda osoba, która nie miała złych zamiarów.",
+    "Tytuł może wprowadzać w błąd, sugerując większe zagrożenie, niż to, co rzeczywiście miało miejsce.",
+    "W artykule są cytaty z policji i świadków, co sprawia, że informacje są bardziej wiarygodne."
+  ],
+  "summary": "Artykuł opisuje incydent, w którym dzieci w Łodzi znalazły igły w cukierkach podczas Halloween. Sprawcą okazała się małoletnia osoba, która umieściła igły w słodyczach jako żart. Dodatkowo, w Luboniu doszło do ataku na dwie dziewczynki zbierające słodycze, co również zostało opisane w artykule.",
+  "signals": {
+    "title_hits": [
+      "igły",
+      "cukierkach",
+      "Halloween"
+    ],
+    "content_hits": [
+      "igły w cukierkach",
+      "małoletnia osoba",
+      "żart"
+    ],
+    "credibility_hits": [
+      "cytaty z policji",
+      "świadkowie"
+    ],
+    "mismatch": {
+      "title": "Igły w cukierkach na Halloween",
+      "content": "Artykuł wyjaśnia, że sprawca był małoletni i nie miał złych intencji."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Incydent z igłami w cukierkach podczas Halloween w Łodzi",
+    "notes_to_editor": "Rozważyć zmianę tytułu, aby lepiej odzwierciedlał treść artykułu i uniknąć wrażenia sensacyjności."
+  },
+  "diagnostics": {
+    "tokens_title": 6,
+    "tokens_content": 399,
+    "processing_time_ms": 18680,
+    "model": "gpt-4o-mini"
+  }
+}

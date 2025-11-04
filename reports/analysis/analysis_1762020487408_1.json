@@ -1,0 +1,40 @@
+{
+  "id": 1762020487408,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/wroclaw/choroba-niebieskiego-jezyka-w-polsce-najnowszy-przypadek-na-dolnym-slasku/b45z0z3",
+  "title": "Choroba niebieskiego języka. Najnowszy przypadek na Dolnym Śląsku",
+  "score": 15,
+  "label": "not_clickbait",
+  "rationale": [
+    "Tytuł nie zawiera fraz sensacyjnych ani absolutów.",
+    "Treść artykułu jest zgodna z tytułem, nie ma wykrytych niezgodności.",
+    "W artykule podano konkretne liczby dotyczące ognisk choroby, co zwiększa wiarygodność.",
+    "Nie znaleziono luk ciekawości ani innych sygnałów clickbaitowych."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jest informacyjny i nie przesadza z emocjami.",
+    "Treść artykułu odpowiada tytułowi, więc nie ma sprzeczności.",
+    "Podano konkretne dane dotyczące liczby przypadków, co sprawia, że artykuł jest wiarygodny.",
+    "Nie ma w nim elementów, które mogłyby wprowadzać w błąd czytelnika."
+  ],
+  "summary": "Artykuł informuje o najnowszym przypadku choroby niebieskiego języka, który został stwierdzony w Polsce na Dolnym Śląsku. Od początku 2025 roku odnotowano już 15 ognisk tej choroby, a najnowsze wykryto w stadzie owiec w powiecie kamiennogórskim. Informacje pochodzą z Głównego Inspektoratu Weterynarii.",
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "konkretne liczby",
+      "źródło informacji (Główny Inspektorat Weterynarii)"
+    ],
+    "mismatch": {}
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Najnowszy przypadek choroby niebieskiego języka na Dolnym Śląsku",
+    "notes_to_editor": "Artykuł jest dobrze napisany i nie zawiera elementów clickbaitowych."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 102,
+    "processing_time_ms": 12007,
+    "model": "gpt-4o-mini"
+  }
+}

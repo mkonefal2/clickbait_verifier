@@ -1,0 +1,50 @@
+{
+  "id": 1762006144570,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/warszawa/news-rozpoznajesz-tego-mezczyzne-chodzi-o-atak-na-kobiete,nId,8036786",
+  "title": "Rozpoznajesz tego mężczyznę? Chodzi o atak na kobietę",
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "Title contains a curiosity gap with the question 'Rozpoznajesz tego mężczyznę?', which may entice readers to click.",
+    "Content provides factual information about a police investigation without sensationalism.",
+    "Mismatch detected: the title implies a personal connection to the reader, while the content is purely informational.",
+    "No strong emotional language or absolute terms found in the content."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zadaje pytanie, które może wzbudzać ciekawość, co może przyciągnąć czytelników.",
+    "Treść artykułu jest rzeczowa i dotyczy poszukiwań mężczyzny przez policję, bez przesadnych emocji.",
+    "Tytuł sugeruje osobisty związek z czytelnikiem, podczas gdy treść jest informacyjna.",
+    "Nie znaleziono w treści przesadnych słów ani absolutnych stwierdzeń."
+  ],
+  "summary": "Policjanci z Żyrardowa poszukują mężczyzny, który napadł na kobietę. Opublikowano jego wizerunek oraz szczegóły dotyczące wyglądu. Policja prosi o pomoc w identyfikacji napastnika oraz przekazywanie informacji na temat jego lokalizacji.",
+  "signals": {
+    "title_hits": [
+      "rozpoznajesz",
+      "atak"
+    ],
+    "content_hits": [
+      "policjanci",
+      "napadł",
+      "poszukiwany"
+    ],
+    "credibility_hits": [
+      "Policja",
+      "numer telefonu"
+    ],
+    "mismatch": {
+      "title": "Rozpoznajesz tego mężczyznę?",
+      "content": "Policjanci z Żyrardowa szukają mężczyzny..."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Policja poszukuje mężczyzny w związku z atakiem na kobietę",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 8,
+    "tokens_content": 218,
+    "processing_time_ms": 13278,
+    "model": "gpt-4o-mini"
+  }
+}

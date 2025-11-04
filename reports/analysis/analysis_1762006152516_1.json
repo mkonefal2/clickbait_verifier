@@ -1,0 +1,50 @@
+{
+  "id": 1762006152516,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/aleksander-lukaszenko-roman-protasiewicz-jest-agentem-bialoruskiego-wywiadu/m7p7twk",
+  "title": "Łukaszenko: Roman Protasiewicz jest agentem białoruskiego wywiadu",
+  "score": 25,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera sensacyjną informację o oskarżeniu, co może wzbudzać ciekawość, ale nie jest przesadnie dramatyczny.",
+    "Treść artykułu jest zgodna z tytułem, co zmniejsza ryzyko mismatchu.",
+    "W artykule pojawiają się cytaty z wiarygodnego źródła (BiełTA), co zwiększa jego wiarygodność.",
+    "W treści nie występują absoluty ani przesadne emocje, co wskazuje na umiarkowany stopień clickbaitu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł informuje o oskarżeniu, co może przyciągać uwagę, ale nie jest zbyt dramatyczny.",
+    "Treść artykułu odpowiada tytułowi, co sprawia, że jest spójna.",
+    "Artykuł zawiera cytaty z wiarygodnego źródła, co podnosi jego rzetelność.",
+    "Nie ma w nim przesadnych emocji ani skrajnych stwierdzeń, co wskazuje na umiarkowany poziom clickbaitu."
+  ],
+  "summary": "Artykuł informuje o oskarżeniu Romana Protasiewicza przez Aleksandra Łukaszenkę, który twierdzi, że Protasiewicz jest agentem białoruskiego wywiadu. Informacja ta została przekazana przez białoruską agencję informacyjną BiełTA. Protasiewicz był wcześniej współredaktorem opozycyjnego kanału Nexta, uznanego przez władze białoruskie za ekstremistyczny.",
+  "signals": {
+    "title_hits": [
+      "agentem białoruskiego wywiadu"
+    ],
+    "content_hits": [
+      "Roman Protasiewicz",
+      "białoruskiego wywiadu",
+      "BiełTA",
+      "Aleksandra Łukaszenki"
+    ],
+    "credibility_hits": [
+      "BiełTA",
+      "Aleksander Łukaszenko"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "content_summary_match": true
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Oskarżenie Romana Protasiewicza o bycie agentem białoruskiego wywiadu",
+    "notes_to_editor": "Zaleca się unikanie sensacyjnych sformułowań w tytule."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 99,
+    "processing_time_ms": 15889,
+    "model": "gpt-4o-mini"
+  }
+}

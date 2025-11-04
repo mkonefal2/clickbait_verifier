@@ -1,0 +1,52 @@
+{
+  "id": 1762006145958,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/wroclaw/news-tragiczny-wypadek-w-dolnoslaskiem-nie-zyje-jedna-osoba,nId,8036778",
+  "title": "Tragiczny wypadek w Dolnośląskiem",
+  "score": 20,
+  "label": "not_clickbait",
+  "rationale": [
+    "Tytuł zawiera słowo 'tragiczny', które jest emocjonalne, ale nie jest ekstremalnie sensacyjne.",
+    "Treść artykułu jest zgodna z tytułem i dostarcza konkretne informacje o wypadku.",
+    "Brak użycia fraz sensacyjnych, absolutów czy luk ciekawości w treści.",
+    "Cytaty z wiarygodnych źródeł (policja) oraz konkretne liczby (wiek ofiary) zwiększają wiarygodność.",
+    "Brak istotnych niezgodności między tytułem a treścią."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jest emocjonalny, ale nie przesadny, co sprawia, że artykuł nie jest uznawany za clickbait.",
+    "Treść artykułu dokładnie opisuje wypadek, podając szczegóły i cytaty z policji.",
+    "Nie ma w artykule przesadnych stwierdzeń ani sensacyjnych zwrotów.",
+    "Podano konkretne informacje, takie jak wiek ofiary, co zwiększa zaufanie do artykułu.",
+    "Tytuł i treść są ze sobą zgodne, co potwierdza rzetelność informacji."
+  ],
+  "summary": "Artykuł opisuje tragiczny wypadek drogowy, do którego doszło na drodze krajowej nr 35 między Gniechowicami a Małuszowem. W wyniku zderzenia dwóch samochodów osobowych zginął 26-letni kierowca, a drugi kierowca odniósł powierzchowne obrażenia. Droga była zablokowana przez kilka godzin, ale obecnie jest już przejezdna.",
+  "signals": {
+    "title_hits": [
+      "tragiczny"
+    ],
+    "content_hits": [
+      "zginęła",
+      "zderzyły się",
+      "powierzchowne obrażenia"
+    ],
+    "credibility_hits": [
+      "26-letni kierowca",
+      "RMF FM",
+      "komenda miejska policji"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "title_content_mismatch": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Wypadek drogowy w Dolnośląskiem",
+    "notes_to_editor": "Artykuł jest rzetelny i dobrze opisuje wydarzenie, nie wymaga zmian."
+  },
+  "diagnostics": {
+    "tokens_title": 5,
+    "tokens_content": 151,
+    "processing_time_ms": 14913,
+    "model": "gpt-4o-mini"
+  }
+}

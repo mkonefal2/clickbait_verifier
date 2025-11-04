@@ -1,0 +1,43 @@
+{
+  "id": 1762267137144,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/sport/news-nowa-kolekcja-olimpijska-oto-jak-beda-wygladac-polacy-na-zio,nId,8037413",
+  "title": "Nowa kolekcja olimpijska. Oto jak będą wyglądać Polacy na ZIO 2026",
+  "score": 23,
+  "label": "not_clickbait",
+  "rationale": [
+    "Tytuł nie zawiera fraz sensacyjnych ani absolutów.",
+    "Treść artykułu jest zgodna z tytułem i dostarcza konkretne informacje o kolekcji strojów olimpijskich.",
+    "Nie znaleziono luk ciekawości ani przesadnych obietnic w tytule ani treści.",
+    "W artykule występują konkretne liczby i źródła, co zwiększa jego wiarygodność."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jest prosty i informacyjny, nie używa przesadnych słów.",
+    "Treść artykułu odpowiada tytułowi, mówiąc o strojach, które polscy sportowcy będą nosić na igrzyskach.",
+    "Nie ma w nim żadnych niejasnych obietnic ani sensacji.",
+    "Artykuł zawiera konkretne informacje i źródła, co czyni go wiarygodnym."
+  ],
+  "summary": "Artykuł przedstawia nową kolekcję strojów, które polscy sportowcy będą nosić podczas Zimowych Igrzysk Olimpijskich w 2026 roku. Kolekcja, stworzona przez Polski Komitet Olimpijski i firmę adidas, łączy nowoczesne technologie z narodowymi symbolami. W artykule omówiono także szczegóły dotyczące designu oraz funkcji strojów.",
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "Źródło: Polski Komitet Olimpijski",
+      "Liczby: XXV Zimowe Igrzyska Olimpijskie, daty 6-22 lutego"
+    ],
+    "mismatch": {
+      "exists": false,
+      "description": "Tytuł jest zgodny z treścią artykułu."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Prezentacja kolekcji strojów olimpijskich dla Polaków na ZIO 2026",
+    "notes_to_editor": "Artykuł jest dobrze napisany i nie wymaga zmian."
+  },
+  "diagnostics": {
+    "tokens_title": 11,
+    "tokens_content": 472,
+    "processing_time_ms": 14025,
+    "model": "gpt-4o-mini"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": 1762089680061,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/ten-dzwiek-wywolal-salwy-smiechu-w-calym-bloku-w-kijowie-oksana-zabuzko-o-zyciu-pod/ssp3gxt",
+  "title": "Oksana Zabużko: Mówiłam, że dziś Kijów, jutro Warszawa. To się właśnie rozgrywa",
+  "score": 32,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy, które mogą budzić ciekawość, ale nie są skrajnie sensacyjne.",
+    "Treść artykułu jest zgodna z tytułem, co zmniejsza ryzyko mismatch.",
+    "W artykule pojawiają się cytaty, co zwiększa jego wiarygodność.",
+    "Nie występują w treści żadne ekstremalne frazy ani absoluty."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł wzbudza ciekawość, ale nie jest przesadnie sensacyjny.",
+    "Treść artykułu odpowiada tytułowi, co sprawia, że jest bardziej wiarygodny.",
+    "W artykule są cytaty, co dodaje mu autorytetu.",
+    "Nie ma w nim przesadnych lub dramatycznych stwierdzeń."
+  ],
+  "summary": "W artykule przedstawiono rozmowę z Oksaną Zabużko, ukraińską pisarką, która mówi o swoim doświadczeniu życia w oblężonym Kijowie oraz o literaturze jako narzędziu walki z zakłamaniem. Zabużko odnosi się do sytuacji w Europie i podkreśla znaczenie rachunku sumienia w kontekście aktualnych wydarzeń.",
+  "signals": {
+    "title_hits": [
+      "Mówiłam",
+      "Kijów",
+      "Warszawa"
+    ],
+    "content_hits": [
+      "Oksana Zabużko",
+      "rachunek sumienia",
+      "życia w oblężonym Kijowie"
+    ],
+    "credibility_hits": [
+      "Oksana Zabużko",
+      "podcast",
+      "Magdalena Rigamonti"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "title_summary_match": true
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Oksana Zabużko o sytuacji w Kijowie i Warszawie",
+    "notes_to_editor": "Artykuł dobrze oddaje temat rozmowy, ale tytuł mógłby być bardziej neutralny."
+  },
+  "diagnostics": {
+    "tokens_title": 16,
+    "tokens_content": 112,
+    "processing_time_ms": 11795,
+    "model": "gpt-4o-mini"
+  }
+}

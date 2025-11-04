@@ -1,0 +1,52 @@
+{
+  "id": 1762267151575,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/tylko-w-onecie/wscieklosc-w-pis-po-wybuchu-afery-z-dzialka-pod-cpk-koszmarne-straty/ped935n",
+  "title": "Wściekłość nie opuszcza PiS. \"Koszmarne straty wizerunkowe\"",
+  "score": 65,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy emocjonalne ('wściekłość', 'koszmarne straty'), co zwiększa jego clickbaitowość.",
+    "Treść artykułu odnosi się do kontrowersji związanej z PiS, co jest zgodne z tytułem, ale używa języka sensacyjnego.",
+    "W artykule występują cytaty, co dodaje wiarygodności, ale nie zmienia ogólnej oceny clickbaitowości.",
+    "Wykryto również lukę ciekawości w tytule, która przyciąga uwagę czytelników."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa emocjonalnych słów, co sprawia, że jest bardziej chwytliwy.",
+    "Treść artykułu dotyczy kontrowersji w PiS, co pasuje do tytułu, ale jest podane w dramatyczny sposób.",
+    "Artykuł zawiera cytaty, co sprawia, że jest bardziej wiarygodny, ale to nie zmienia faktu, że jest sensacyjny.",
+    "Tytuł wzbudza ciekawość, co może skłonić ludzi do kliknięcia."
+  ],
+  "summary": "Artykuł opisuje kontrowersje związane z aferą sprzedaży działki pod inwestycje CPK przez polityków PiS. W lokalnych strukturach partii panuje wściekłość i zawstydzenie z powodu tego procederu. Działacze obawiają się, że społeczeństwo nie zapomni o tej sprawie, co może wpłynąć na wizerunek partii.",
+  "signals": {
+    "title_hits": [
+      "wściekłość",
+      "koszmarne straty"
+    ],
+    "content_hits": [
+      "wściekłość",
+      "koszmarne straty",
+      "afera",
+      "proceder"
+    ],
+    "credibility_hits": [
+      "cytaty",
+      "lokalni działacze",
+      "Leszek Szymański / PAP"
+    ],
+    "mismatch": {
+      "exists": false,
+      "details": ""
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Problemy wizerunkowe PiS po aferze z działką pod CPK",
+    "notes_to_editor": "Rozważyć użycie mniej emocjonalnego języka w tytule i treści."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 132,
+    "processing_time_ms": 14854,
+    "model": "gpt-4o-mini"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": 1761934118393,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/swiat/news-europa-powinna-placic-bialorusi-za-czyste-powietrze-lukaszen,nId,8036421",
+  "title": "\"Europa powinna płacić Białorusi za czyste powietrze\". Łukaszenka wystawia rachunek",
+  "score": 62,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazę sensacyjną \"powinna płacić\", co sugeruje kontrowersyjny temat.",
+    "Treść artykułu również zawiera kontrowersyjne wypowiedzi Łukaszenki, co podnosi poziom clickbaitu.",
+    "W artykule występują absoluty, takie jak \"najważniejszy zasób dla człowieka\", co zwiększa emocjonalny ładunek.",
+    "Zidentyfikowano lukę ciekawości w tytule, która przyciąga uwagę czytelnika.",
+    "Zgłoszone są liczby, takie jak \"300 razy czystsze powietrze\", co dodaje wiarygodności, ale również może być użyte do manipulacji.",
+    "Zidentyfikowano niezgodność między tytułem a treścią, ponieważ tytuł sugeruje, że Łukaszenka formalnie wystawia rachunek, podczas gdy w treści jest to bardziej sugestia."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów, które mogą wzbudzać kontrowersje i emocje.",
+    "Artykuł opisuje wypowiedzi Łukaszenki, które są kontrowersyjne i mogą przyciągać uwagę.",
+    "W treści pojawiają się liczby, które mogą zwiększać wiarygodność, ale także mogą być używane w sposób manipulacyjny.",
+    "Tytuł może wprowadzać w błąd, sugerując, że Łukaszenka formalnie żąda pieniędzy, podczas gdy w artykule jest to bardziej sugestywne."
+  ],
+  "summary": "Aleksander Łukaszenka podczas wizyty w Berezyńskim Rezerwacie Biosfery zasugerował, że Europa powinna płacić Białorusi za czyste powietrze, które trafia na Zachód. W artykule omawiane są jego kontrowersyjne wypowiedzi dotyczące ochrony środowiska oraz relacji z Unią Europejską, a także znaczenie białoruskich lasów i mokradeł.",
+  "signals": {
+    "title_hits": [
+      "powinna płacić",
+      "czyste powietrze",
+      "rachunek"
+    ],
+    "content_hits": [
+      "czyste powietrze",
+      "300 razy czystsze",
+      "najważniejszy zasób"
+    ],
+    "credibility_hits": [
+      "Białoruska Agencja Telegraficzna (BiełTA)",
+      "300 razy czystsze"
+    ],
+    "mismatch": {
+      "title": "Tytuł sugeruje formalne żądanie płatności.",
+      "content": "Treść przedstawia sugestię Łukaszenki, a nie formalne żądanie."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Łukaszenka sugeruje, że Europa powinna rekompensować Białorusi za czyste powietrze",
+    "notes_to_editor": "Rozważyć zmianę tytułu na bardziej neutralny, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 13,
+    "tokens_content": 716,
+    "processing_time_ms": 17420,
+    "model": "gpt-4o-mini"
+  }
+}

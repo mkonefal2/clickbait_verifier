@@ -1,0 +1,51 @@
+{
+  "id": 1762267147604,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/slask/zadzgal-wlasnych-rodzicow-jest-wyrok-jedyna-adekwatna-kara/lx22yv0",
+  "title": "Zadźgał własnych rodziców, jest wyrok. \"Jedyna adekwatna kara\"",
+  "score": 68,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'Zadźgał' oraz 'jedyna adekwatna kara', które mogą wzbudzać emocje.",
+    "Treść artykułu jest zgodna z tytułem, jednak użycie absolutów w tytule zwiększa jego clickbaitowość.",
+    "W treści znajdują się konkretne informacje o wyroku sądowym, co dodaje wiarygodności, ale nie zmienia sensacyjnego charakteru tytułu.",
+    "Wykryto brak cytatów lub źródeł poza informacją o wyroku, co wpływa na ocenę wiarygodności."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów, które mogą przyciągać uwagę, jak 'zadźgał' i 'jedyna adekwatna kara'.",
+    "Treść artykułu potwierdza to, co jest napisane w tytule, ale tytuł jest bardziej dramatyczny niż sama informacja.",
+    "Artykuł zawiera konkretne dane o wyroku sądowym, co sprawia, że jest wiarygodny, ale tytuł może wprowadzać w błąd.",
+    "Brak dodatkowych cytatów lub źródeł osłabia wiarygodność artykułu."
+  ],
+  "summary": "Artykuł informuje o prawomocnym wyroku dożywocia dla 33-letniego Piotra B., który zabił swoich rodziców. Sąd Apelacyjny w Katowicach utrzymał wcześniejszy wyrok, a zbrodnia miała miejsce w lutym 2024 roku. Ofiary zostały zadźgane nożem, co podkreśla brutalność czynu.",
+  "signals": {
+    "title_hits": [
+      "Zadźgał",
+      "jedyna adekwatna kara"
+    ],
+    "content_hits": [
+      "prawomocna kara dożywocia",
+      "zabójstwo swoich rodziców",
+      "Sąd Apelacyjny"
+    ],
+    "credibility_hits": [
+      "Polska Agencja Prasowa",
+      "wyrok",
+      "Katowice"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "title_emphasis": "sensational"
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Wyrok dożywocia dla mężczyzny za zabójstwo rodziców",
+    "notes_to_editor": "Rozważyć zmianę tytułu na bardziej neutralny, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 12,
+    "tokens_content": 79,
+    "processing_time_ms": 15161,
+    "model": "gpt-4o-mini"
+  }
+}

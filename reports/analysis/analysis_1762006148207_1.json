@@ -1,0 +1,52 @@
+{
+  "id": 1762006148207,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/duza-awaria-blik-a-wicepremier-mowi-o-zewnetrznym-ataku/ff0s8hl",
+  "title": "Duża awaria BLIK-a. Wicepremier mówi o \"zewnętrznym ataku\"",
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazę 'duża awaria', co może być uznane za sensacyjne.",
+    "W treści artykułu użyto cytatu wicepremiera, co zwiększa wiarygodność.",
+    "Zidentyfikowano niewielką rozbieżność między tytułem a treścią, ponieważ tytuł sugeruje większą dramatyczność niż opisane w artykule wydarzenia.",
+    "W artykule brak jest konkretnych liczb, które mogłyby wzmocnić jego wiarygodność."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera słowo 'duża', co może sugerować coś bardziej dramatycznego niż to, co opisano w artykule.",
+    "Artykuł zawiera cytat wicepremiera, co dodaje mu autorytetu.",
+    "Tytuł i treść nieco się różnią, ponieważ tytuł brzmi bardziej alarmująco niż sama treść.",
+    "Brakuje konkretów, takich jak liczby, które mogłyby wzmocnić przekaz."
+  ],
+  "summary": "Artykuł opisuje awarię systemu płatności BLIK, która miała miejsce 1 listopada 2025 roku. Użytkownicy zgłaszali problemy z generowaniem kodów i wykonywaniem przelewów. Wicepremier Krzysztof Gawkowski poinformował, że przyczyną awarii był 'zewnętrzny atak'. Po godzinie 11:30 awaria została naprawiona.",
+  "signals": {
+    "title_hits": [
+      "duża awaria",
+      "zewnętrznym ataku"
+    ],
+    "content_hits": [
+      "duża awaria",
+      "zewnętrznym ataku",
+      "poważne problemy techniczne",
+      "zewnętrznego ataku"
+    ],
+    "credibility_hits": [
+      "Wicepremier mówi",
+      "Krzysztof Gawkowski",
+      "po godz. 11:30 awaria została naprawiona"
+    ],
+    "mismatch": {
+      "title": "Duża awaria BLIK-a. Wicepremier mówi o 'zewnętrznym ataku'",
+      "content": "Użytkownicy systemu płatności BLIK zgłaszali w sobotę poważne problemy techniczne."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Awaria systemu BLIK. Wicepremier informuje o przyczynie",
+    "notes_to_editor": "Rozważyć użycie mniej dramatycznych sformułowań w tytule."
+  },
+  "diagnostics": {
+    "tokens_title": 12,
+    "tokens_content": 87,
+    "processing_time_ms": 16908,
+    "model": "gpt-4o-mini"
+  }
+}

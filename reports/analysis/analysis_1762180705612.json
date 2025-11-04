@@ -1,0 +1,48 @@
+{
+  "id": 1762180705612,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/warszawa/tragedia-na-warszawskim-ursusie-nie-zyje-7-letnie-dziecko/hvvqe0p",
+  "title": "Tragedia na warszawskim Ursusie. Nie żyje 7-letnie dziecko",
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne ('tragedia', 'nie żyje'), co podnosi wskaźnik clickbaitu.",
+    "Treść artykułu jest zgodna z tytułem, co zmniejsza ryzyko mismatch.",
+    "W artykule nie ma zbyt wielu sygnałów wiarygodności, poza podaniem źródła.",
+    "Wykryto 2 frazy sensacyjne w tytule i 1 w treści, co wpływa na wynik.",
+    "Zastosowane wagi: title=0.4, content=0.15, mismatch=0.4."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł artykułu zawiera emocjonalne słowa, co może przyciągać uwagę.",
+    "Treść jest spójna z tytułem, co oznacza, że nie wprowadza w błąd.",
+    "Artykuł opiera się na wiarygodnym źródle, ale brakuje dodatkowych informacji potwierdzających.",
+    "W artykule występują pewne dramatyczne sformułowania, co wpływa na jego odbiór."
+  ],
+  "summary": "Artykuł opisuje tragiczną sytuację, w której 7-letni chłopiec zmarł na warszawskim Ursusie po zakrztuszeniu się jedzeniem. Mimo prób reanimacji, nie udało się uratować jego życia. Informacje pochodzą z Polskiego Radia.",
+  "signals": {
+    "title_hits": [
+      "tragedia",
+      "nie żyje"
+    ],
+    "content_hits": [
+      "zakrztusił się jedzeniem"
+    ],
+    "credibility_hits": [
+      "Polskie Radio"
+    ],
+    "mismatch": {
+      "exists": false,
+      "details": "Tytuł i treść są zgodne."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Zmarło 7-letnie dziecko na warszawskim Ursusie",
+    "notes_to_editor": "Rozważyć neutralniejsze sformułowania w tytule."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 45,
+    "processing_time_ms": 15023,
+    "model": "gpt-4o-mini"
+  }
+}

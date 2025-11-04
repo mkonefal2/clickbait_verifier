@@ -1,0 +1,51 @@
+{
+  "id": 1762006158865,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/wasyl-stus-w-radzieckim-lagrze-straznicy-zgotowali-mu-pieklo/dbbx81c",
+  "title": "Wasyl Stus w radzieckim łagrze. Strażnicy zgotowali mu piekło",
+  "score": 65,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazę sensacyjną 'zgotowali mu piekło', co wskazuje na emocjonalny ładunek.",
+    "Treść artykułu jest zgodna z tytułem, jednak użycie dramatycznych opisów wpływa na ocenę clickbaitu.",
+    "W artykule znajdują się konkretne liczby (40 lat temu), co zwiększa wiarygodność.",
+    "Brak cytatów i źródeł, co obniża ocenę wiarygodności.",
+    "Wykryto lukę ciekawości w tytule, która przyciąga uwagę czytelnika."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa emocjonalnego języka, co może przyciągać uwagę.",
+    "Treść artykułu odpowiada tytułowi, ale dramatyczny styl wpływa na postrzeganą sensacyjność.",
+    "Artykuł zawiera konkretne informacje, co sprawia, że jest bardziej wiarygodny.",
+    "Brakuje cytatów i źródeł, co może budzić wątpliwości co do rzetelności.",
+    "Tytuł sugeruje coś intrygującego, co może zachęcać do kliknięcia."
+  ],
+  "summary": "Artykuł opisuje tragiczne losy Wasyla Stusa, ukraińskiego poety, który zmarł w radzieckim łagrze. Przed śmiercią ogłosił głodówkę, a jego ostatnie dni były pełne cierpienia. Współwięźniowie relacjonują dramatyczne wydarzenia, które miały miejsce 40 lat temu.",
+  "signals": {
+    "title_hits": [
+      "zgotowali mu piekło"
+    ],
+    "content_hits": [
+      "40 lat temu",
+      "głodówkę",
+      "błagać o leki"
+    ],
+    "credibility_hits": [
+      "40 lat temu"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "title_sensational": true,
+      "content_sensational": true
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Wasyl Stus w radzieckim łagrze: jego tragiczne losy",
+    "notes_to_editor": "Rozważyć zmianę tytułu na bardziej neutralny, aby zredukować element clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 12,
+    "tokens_content": 85,
+    "processing_time_ms": 17379,
+    "model": "gpt-4o-mini"
+  }
+}

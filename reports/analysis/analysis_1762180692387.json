@@ -1,0 +1,43 @@
+{
+  "id": 1762180692387,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/od-poniedzialku-mozna-skladac-wnioski-o-bon-cieplowniczy-takie-warunki-nalezy-spelnic/v71hr80",
+  "title": "Od poniedziałku można składać wnioski o bon ciepłowniczy. Takie warunki należy spełnić",
+  "score": 10,
+  "label": "not_clickbait",
+  "rationale": [
+    "Tytuł nie zawiera fraz sensacyjnych ani absolutów.",
+    "Treść artykułu jest zgodna z tytułem, nie ma wykrytych luk ciekawości.",
+    "W artykule znajdują się konkretne informacje o bonie ciepłowniczym, co zwiększa jego wiarygodność.",
+    "Brak sygnałów clickbaitowych w treści i tytule."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jest informacyjny i nie używa przesadnych słów.",
+    "Treść artykułu odpowiada tytułowi, nie ma w niej niejasności.",
+    "Artykuł zawiera konkretne informacje o bonie ciepłowniczym, co czyni go wiarygodnym.",
+    "Nie znaleziono żadnych elementów typowych dla clickbaitu."
+  ],
+  "summary": "Artykuł informuje, że od poniedziałku 3 listopada 2025 roku gospodarstwa domowe mogą składać wnioski o bon ciepłowniczy. Wnioski będą przyjmowane do 15 grudnia 2025 roku. Podano również, że bon ciepłowniczy jest dostępny dla gospodarstw korzystających z ciepła systemowego.",
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "Polska Agencja Prasowa",
+      "konkretne daty"
+    ],
+    "mismatch": {
+      "exists": false,
+      "details": ""
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Możliwość składania wniosków o bon ciepłowniczy od poniedziałku",
+    "notes_to_editor": "Artykuł jest informacyjny i nie wymaga zmian."
+  },
+  "diagnostics": {
+    "tokens_title": 16,
+    "tokens_content": 96,
+    "processing_time_ms": 14702,
+    "model": "gpt-4o-mini"
+  }
+}

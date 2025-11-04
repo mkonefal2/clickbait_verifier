@@ -1,0 +1,49 @@
+{
+  "id": 1762006136345,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/swiat/news-wyslannik-putina-wskazal-potencjalny-termin-zakonczenia-wojn,nId,8035847",
+  "title": "Wysłannik Putina wskazał potencjalny termin zakończenia wojny. \"Zmierzamy w stronę pokoju\"",
+  "score": 62,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'wskazał potencjalny termin' i 'zmierzamy w stronę pokoju', co może budzić ciekawość czytelników.",
+    "Treść artykułu zawiera informacje o wypowiedziach Kiriłła Dmitrijewa oraz analizach amerykańskiego wywiadu, co wprowadza elementy niepewności i kontrowersji.",
+    "W artykule występują cytaty i odniesienia do źródeł, co zwiększa wiarygodność, ale także może być interpretowane jako sposób na przyciągnięcie uwagi.",
+    "Zidentyfikowano niezgodność między tytułem a treścią, ponieważ tytuł sugeruje pozytywny rozwój sytuacji, podczas gdy treść wskazuje na brak realnych oznak zakończenia wojny."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów, które przyciągają uwagę, co może sprawić, że czytelnicy będą bardziej zainteresowani artykułem.",
+    "Artykuł omawia wypowiedzi rosyjskiego wysłannika i analizuje sytuację wojenną, co dodaje kontrowersji i niepewności.",
+    "W artykule są cytaty i odniesienia do różnych źródeł, co może zwiększać jego wiarygodność, ale także przyciągać uwagę.",
+    "Tytuł może wprowadzać w błąd, sugerując pozytywne zakończenie, podczas gdy treść wskazuje na brak realnych postępów w negocjacjach."
+  ],
+  "summary": "Kiriłł Dmitrijew, wysłannik Putina, podczas konferencji w Arabii Saudyjskiej stwierdził, że wojna w Ukrainie może zakończyć się w ciągu roku. Jednak analizy amerykańskiego wywiadu wskazują, że Putin nie wykazuje gotowości do kompromisu, a sytuacja w regionie pozostaje napięta. Ukraińscy eksperci podkreślają, że Rosja walczy już nie o zwycięstwo, lecz o uniknięcie porażki.",
+  "signals": {
+    "title_hits": [
+      "wskazał potencjalny termin",
+      "zmierzamy w stronę pokoju"
+    ],
+    "content_hits": [
+      "wojna Rosji przeciwko Ukrainie może zakończyć się w ciągu najbliższego roku",
+      "Putin nie wykazuje żadnych oznak gotowości do kompromisu"
+    ],
+    "credibility_hits": [
+      "cytowany przez agencję Reuters",
+      "źródła NBC w administracji i Kongresie"
+    ],
+    "mismatch": {
+      "title": "Wysłannik Putina wskazał potencjalny termin zakończenia wojny. \"Zmierzamy w stronę pokoju\"",
+      "content": "Treść artykułu wskazuje na brak realnych oznak zakończenia wojny."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Wysłannik Putina mówi o możliwym zakończeniu wojny w Ukrainie",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 15,
+    "tokens_content": 587,
+    "processing_time_ms": 17042,
+    "model": "gpt-4o-mini"
+  }
+}

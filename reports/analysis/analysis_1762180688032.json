@@ -1,0 +1,50 @@
+{
+  "id": 1762180688032,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/wroclaw/news-gdy-zona-spala-przylozyl-jej-noz-do-gardla-nastepnie-ja-zgwa,nId,8037100",
+  "title": "Gdy żona spała, przyłożył jej nóż do gardła. Następnie ją zgwałcił",
+  "score": 82,
+  "label": "extreme",
+  "rationale": [
+    "Tytuł zawiera sensacyjne frazy, takie jak 'przyłożył jej nóż do gardła' oraz 'zgwałcił', które mogą wywoływać silne emocje.",
+    "Treść artykułu opisuje brutalne przestępstwo, co potwierdza użycie mocnych słów i opisów.",
+    "Wykryto znaczne niedopasowanie między tytułem a treścią, ponieważ tytuł nie oddaje pełnej skali przemocy opisanej w artykule.",
+    "Artykuł zawiera cytaty z prokuratury, co dodaje wiarygodności, ale nie zmienia sensacyjnego charakteru tytułu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jest bardzo emocjonalny i zawiera dramatyczne opisy, co przyciąga uwagę czytelników.",
+    "Artykuł opisuje poważne przestępstwo, co sprawia, że treść jest szokująca.",
+    "Tytuł nie do końca odzwierciedla wszystkie szczegóły przedstawione w artykule, co może wprowadzać w błąd.",
+    "W artykule znajdują się cytaty z prokuratury, co zwiększa jego wiarygodność, ale tytuł wciąż jest sensacyjny."
+  ],
+  "summary": "Artykuł opisuje brutalne przestępstwo, w którym 38-letni mężczyzna usiłował zabić swoją żonę, przykładając jej nóż do gardła, gdy spała. Po obudzeniu się kobieta została zgwałcona. Prokuratura postawiła mu zarzuty usiłowania zabójstwa, gwałtu oraz znęcania się nad żoną i dziećmi. Mężczyzna został aresztowany i grozi mu dożywocie.",
+  "signals": {
+    "title_hits": [
+      "przyłożył jej nóż do gardła",
+      "zgwałcił"
+    ],
+    "content_hits": [
+      "usiłowania zabójstwa",
+      "gwałtu",
+      "znęcania się"
+    ],
+    "credibility_hits": [
+      "cytaty z prokuratury",
+      "szczegóły dotyczące zarzutów"
+    ],
+    "mismatch": {
+      "title": "Gdy żona spała, przyłożył jej nóż do gardła. Następnie ją zgwałcił",
+      "content": "Artykuł opisuje szerszy kontekst przemocy w rodzinie, w tym znęcanie się nad dziećmi."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Mężczyzna usłyszał zarzuty usiłowania zabójstwa i gwałtu na żonie",
+    "notes_to_editor": "Rozważyć zmianę tytułu na bardziej neutralny, aby uniknąć sensacyjności."
+  },
+  "diagnostics": {
+    "tokens_title": 12,
+    "tokens_content": 329,
+    "processing_time_ms": 17765,
+    "model": "gpt-4o-mini"
+  }
+}

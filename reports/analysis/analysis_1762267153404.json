@@ -1,0 +1,51 @@
+{
+  "id": 1762267153404,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/wroclaw/dramatyczna-akcja-na-dworcu-we-wroclawiu-policjant-uratowal-zycie-seniora/e2qmcc1",
+  "title": "Policjant uratował życie seniora na dworcu. Kamera wszystko nagrała [WIDEO]",
+  "score": 55,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne ('uratował życie', 'kamera wszystko nagrała'), które mogą wzbudzać emocje.",
+    "W treści artykułu znajdują się konkretne informacje o akcji ratunkowej, co zwiększa jej wiarygodność.",
+    "Zidentyfikowano pewne niedopasowanie między tytułem a treścią, ponieważ tytuł sugeruje dramatyzm, podczas gdy treść jest bardziej informacyjna.",
+    "W artykule występują elementy wiarygodności, takie jak konkretne źródło i daty."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł artykułu używa emocjonalnych słów, co może przyciągać uwagę czytelników.",
+    "Treść artykułu dostarcza konkretnych informacji o akcji ratunkowej, co sprawia, że jest bardziej wiarygodna.",
+    "Tytuł może sugerować większy dramatyzm niż to, co jest opisane w treści.",
+    "Artykuł zawiera daty i źródła, co zwiększa jego rzetelność."
+  ],
+  "summary": "Na wrocławskim Dworcu Głównym doszło do sytuacji, w której starszy mężczyzna wszedł na komisariat z silnie krwawiącą nogą. Policjant natychmiast udzielił mu pomocy, co uratowało życie seniorowi. Cała akcja została zarejestrowana przez kamerę komisariatu.",
+  "signals": {
+    "title_hits": [
+      "uratował życie",
+      "kamera wszystko nagrała"
+    ],
+    "content_hits": [
+      "senior",
+      "krwawiącą nogą",
+      "policjant",
+      "pomocy"
+    ],
+    "credibility_hits": [
+      "KWP we Wrocławiu",
+      "data"
+    ],
+    "mismatch": {
+      "title": "Policjant uratował życie seniora na dworcu. Kamera wszystko nagrała [WIDEO]",
+      "content": "Senior wszedł na komisariat z krwawiącą raną. Policjant zareagował błyskawicznie."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Policjant udzielił pomocy seniorowi z raną na dworcu.",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć nadmiernej sensacji."
+  },
+  "diagnostics": {
+    "tokens_title": 12,
+    "tokens_content": 80,
+    "processing_time_ms": 16461,
+    "model": "gpt-4o-mini"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": 1762006149223,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/dzien-wszystkich-swietych-wspominamy-tych-ktorzy-odeszli-w-2025-r/s0rlwq4",
+  "title": "Dzień Wszystkich Świętych. Wspominamy tych, którzy odeszli w 2025 r.",
+  "score": 20,
+  "label": "not_clickbait",
+  "rationale": [
+    "Tytuł nie zawiera fraz sensacyjnych ani absolutów.",
+    "Treść artykułu jest zgodna z tytułem i nie wprowadza w błąd.",
+    "Brak luk ciekawości w tytule i treści.",
+    "Nie znaleziono sygnałów wiarygodności, takich jak cytaty czy liczby.",
+    "Mismtach detection wykazał zgodność między tytułem a treścią."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jest prosty i nie używa przesadnych słów.",
+    "Treść artykułu odpowiada tytułowi, nie wprowadza w błąd.",
+    "Nie ma w nim pytań ani niejasności, które mogłyby wzbudzać ciekawość.",
+    "Artykuł nie zawiera cytatów ani statystyk, co może wpływać na jego wiarygodność.",
+    "Tytuł i treść są zgodne, nie ma sprzeczności."
+  ],
+  "summary": "Artykuł opisuje Dzień Wszystkich Świętych, który przypada na 1 listopada. W tym dniu Polacy wspominają zmarłych, w tym osoby publiczne, które odeszły w 2025 roku. Autor podkreśla znaczenie ich twórczości i obecności w kulturze, nauce oraz sporcie, które pozostawiły trwały ślad w pamięci społeczeństwa.",
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [],
+    "mismatch": {
+      "title": "Dzień Wszystkich Świętych. Wspominamy tych, którzy odeszli w 2025 r.",
+      "content": "Dzień Wszystkich Świętych (1 listopada) to czas, kiedy Polacy tłumnie odwiedzają cmentarze..."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Wspomnienie o osobach publicznych, które odeszły w 2025 roku",
+    "notes_to_editor": "Artykuł dobrze oddaje temat, ale można by dodać więcej informacji o zmarłych osobach."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 124,
+    "processing_time_ms": 15911,
+    "model": "gpt-4o-mini"
+  }
+}

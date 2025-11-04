@@ -1,0 +1,48 @@
+{
+  "id": 1762267138869,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/dlugi-weekend-w-listopadzie-sprawdz-kto-ma-dodatkowy-dzien-wolny/h56sgtg",
+  "title": "Czterodniowy weekend przed Świętem Niepodległości. Kto nie musi brać urlopu",
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy sugerujące długi weekend, co może budzić ciekawość, ale nie jest ekstremalnie sensacyjny.",
+    "Treść artykułu wyjaśnia, że 10 listopada nie jest dniem ustawowo wolnym, co jest zgodne z tytułem.",
+    "W tytule użyto słowa 'czterodniowy', co może być uznane za absolut, ale nie w sposób przesadny.",
+    "Nie znaleziono istotnych sygnałów wiarygodności w treści, takich jak konkretne liczby czy cytaty."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł sugeruje, że będzie długi weekend, co może zainteresować czytelników, ale nie jest to przesadnie sensacyjne.",
+    "Treść artykułu potwierdza informacje zawarte w tytule, wyjaśniając, że 10 listopada nie jest dniem wolnym.",
+    "Użycie słowa 'czterodniowy' może przyciągać uwagę, ale nie jest to zbyt mocne.",
+    "Artykuł nie zawiera wielu źródeł ani danych, które mogłyby zwiększyć jego wiarygodność."
+  ],
+  "summary": "Artykuł omawia układ świąt w listopadzie 2025 roku, wskazując na możliwość długiego weekendu przed Świętem Niepodległości. Zawiera informacje o tym, że 10 listopada nie jest dniem ustawowo wolnym, ale wiele osób nie będzie musiało pracować w tym dniu. Podano również datę publikacji oraz autora tekstu.",
+  "signals": {
+    "title_hits": [
+      "czterodniowy",
+      "weekend",
+      "Kto nie musi brać urlopu"
+    ],
+    "content_hits": [
+      "długi weekend",
+      "10 listopada",
+      "dzień wolny"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "title_content_match": true,
+      "title_content_mismatch": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Długi weekend przed Świętem Niepodległości - informacje o dniu wolnym",
+    "notes_to_editor": "Rozważyć dodanie źródeł lub danych statystycznych dla zwiększenia wiarygodności artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 12,
+    "tokens_content": 79,
+    "processing_time_ms": 16299,
+    "model": "gpt-4o-mini"
+  }
+}

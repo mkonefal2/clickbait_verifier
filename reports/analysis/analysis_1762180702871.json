@@ -1,0 +1,51 @@
+{
+  "id": 1762180702871,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/kalifornia-uderza-w-trumpa-jego-wlasna-bronia-odpowiadamy-ciosem/rk98r1j",
+  "title": "Kalifornia odgrywa się na Donaldzie Trumpie. \"Odpowiadamy ciosem\"",
+  "score": 62,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'odgrywa się' i 'odpowiadamy ciosem', które sugerują dramatyzm.",
+    "Treść artykułu odnosi się do politycznych działań Kalifornii, ale nie dostarcza wystarczających informacji, aby potwierdzić sensacyjny ton tytułu.",
+    "W artykule występują cytaty, co podnosi jego wiarygodność, ale nie ma konkretnych liczb ani źródeł.",
+    "Występuje niezgodność między tytułem a treścią, ponieważ tytuł sugeruje osobisty atak na Trumpa, podczas gdy treść koncentruje się na działaniach politycznych."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa emocjonalnych słów, co sprawia, że wydaje się bardziej dramatyczny niż treść artykułu.",
+    "Artykuł opisuje działania polityczne Kalifornii wobec Trumpa, ale nie wyjaśnia ich w sposób, który pasowałby do tytułu.",
+    "Cytaty w artykule dodają mu wiarygodności, ale brak jest konkretnych danych, które mogłyby go wzmocnić.",
+    "Tytuł sugeruje osobisty atak, podczas gdy treść skupia się na politycznych strategiach."
+  ],
+  "summary": "Artykuł opisuje działania polityków demokratycznych w Kalifornii, którzy planują kontratak przeciwko prezydentowi Trumpowi poprzez głosowanie nad 'Proposition 50'. Inicjatywa ma na celu zmianę granic okręgów wyborczych, co może wpłynąć na wyniki nadchodzących wyborów uzupełniających. W artykule zawarte są również emocjonalne wypowiedzi polityków.",
+  "signals": {
+    "title_hits": [
+      "odgrywa się",
+      "odpowiadamy ciosem"
+    ],
+    "content_hits": [
+      "odgrywa się",
+      "odpowiadamy ciosem",
+      "Proposition 50"
+    ],
+    "credibility_hits": [
+      "Stefanie Bolzen",
+      "Gavin Newsom",
+      "AFP"
+    ],
+    "mismatch": {
+      "title": "Kalifornia odgrywa się na Donaldzie Trumpie. \"Odpowiadamy ciosem\"",
+      "content": "Artykuł koncentruje się na politycznych działaniach Kalifornii, a nie na osobistym ataku na Trumpa."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Kalifornia podejmuje działania przeciwko Donaldowi Trumpowi w kontekście wyborów",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby lepiej odzwierciedlić treść artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 155,
+    "processing_time_ms": 15339,
+    "model": "gpt-4o-mini"
+  }
+}

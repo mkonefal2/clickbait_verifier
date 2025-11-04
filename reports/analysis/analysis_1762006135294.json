@@ -1,0 +1,52 @@
+{
+  "id": 1762006135294,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/swiat/news-strzelanina-na-krecie-sa-zabici-i-ranni,nId,8036794",
+  "title": "Strzelanina na Krecie. Są zabici i ranni ",
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'strzelanina' i 'są zabici i ranni', co może wzbudzać emocje.",
+    "Treść artykułu jest zgodna z tytułem, jednak zawiera również dodatkowe informacje, które mogą być uznane za sensacyjne.",
+    "W artykule występują liczby (dwie osoby nie żyją, 10 rannych), co zwiększa jego wiarygodność.",
+    "Brak cytatów lub źródeł, co może wpływać na postrzeganą wiarygodność informacji."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł artykułu używa mocnych słów, które mogą przyciągać uwagę czytelników.",
+    "Treść artykułu odpowiada tytułowi, ale zawiera dodatkowe szczegóły, które mogą być dramatyczne.",
+    "Artykuł podaje konkretne liczby, co sprawia, że jest bardziej wiarygodny.",
+    "Brak cytatów lub źródeł może sprawić, że niektórzy czytelnicy będą mniej pewni informacji."
+  ],
+  "summary": "Na Krecie doszło do strzelaniny, w wyniku której zginęły co najmniej dwie osoby, a dziesięć zostało rannych. Policja podejrzewa, że incydent był wynikiem rodzinnej zemsty. Szczegóły dotyczące sprawcy nie zostały ujawnione.",
+  "signals": {
+    "title_hits": [
+      "strzelanina",
+      "zabici",
+      "ranni"
+    ],
+    "content_hits": [
+      "dwie osoby nie żyją",
+      "10 rannych",
+      "rodzinna zemsta"
+    ],
+    "credibility_hits": [
+      "lokalna policja",
+      "co najmniej dwie osoby",
+      "dziesięć zostało rannych"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "title_content_similarity": 0.85
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Strzelanina na Krecie - szczegóły incydentu",
+    "notes_to_editor": "Rozważyć dodanie cytatów lub źródeł dla zwiększenia wiarygodności artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 7,
+    "tokens_content": 114,
+    "processing_time_ms": 16243,
+    "model": "gpt-4o-mini"
+  }
+}

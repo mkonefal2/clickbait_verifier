@@ -1,0 +1,49 @@
+{
+  "id": 1761934116372,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/swiat/news-byla-poszukiwana-w-polsce-za-oszustwo-wpadla-w-hiszpanii,nId,8036705",
+  "title": "Była poszukiwana w Polsce za oszustwo, wpadła w Hiszpanii",
+  "score": 25,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera informację o poszukiwanej osobie, co może budzić ciekawość, ale nie jest przesadnie sensacyjny.",
+    "Treść artykułu jest zgodna z tytułem i dostarcza konkretne informacje o zatrzymaniu kobiety.",
+    "W artykule występują liczby (24,5 tysiąca złotych) oraz cytaty z wiarygodnych źródeł, co zwiększa jego wiarygodność.",
+    "Nie znaleziono wyraźnych fraz sensacyjnych ani absolutów w treści."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł informuje o zatrzymaniu kobiety poszukiwanej w Polsce, co może zainteresować czytelników, ale nie jest przesadnie dramatyczne.",
+    "Treść artykułu dokładnie opisuje sytuację, a tytuł dobrze odzwierciedla zawartość tekstu.",
+    "W artykule podano konkretne liczby i odniesienia do źródeł, co czyni go bardziej wiarygodnym.",
+    "Nie ma w nim przesadnych emocji ani sensacyjnych zwrotów."
+  ],
+  "summary": "Artykuł opisuje zatrzymanie 27-letniej kobiety na lotnisku w Hiszpanii, która była poszukiwana przez polskie władze za oszustwo. Wyłudziła 24,5 tysiąca złotych, podając się za pracownicę banku. Po zatrzymaniu została przekazana do sądu w Madrycie, gdzie czeka na ekstradycję do Polski.",
+  "signals": {
+    "title_hits": [],
+    "content_hits": [
+      "poszukiwana",
+      "oszustwo",
+      "zatrzymanie",
+      "europejski nakaz aresztowania"
+    ],
+    "credibility_hits": [
+      "radio Onda Cero",
+      "24,5 tysiąca złotych",
+      "do ośmiu lat więzienia"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "title_content_mismatch": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Zatrzymano kobietę poszukiwaną w Polsce za oszustwo w Hiszpanii",
+    "notes_to_editor": "Artykuł jest informacyjny, ale można rozważyć bardziej neutralny tytuł."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 156,
+    "processing_time_ms": 13968,
+    "model": "gpt-4o-mini"
+  }
+}

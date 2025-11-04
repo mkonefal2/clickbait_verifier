@@ -1,0 +1,52 @@
+{
+  "id": 1762267130970,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/krakow/news-krakow-bedzie-znow-sparalizowany-wazna-ulica-przejdzie-remon,nId,8037395",
+  "title": "Kraków będzie znów sparaliżowany? Ważna ulica przejdzie remont",
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera pytanie, co może wzbudzać ciekawość, ale nie jest skrajnie sensacyjny.",
+    "Treść artykułu jest zgodna z tytułem, opisując remont ulicy i związane z nim utrudnienia.",
+    "W treści znajdują się konkretne liczby (koszt remontu, czas trwania prac), co zwiększa wiarygodność.",
+    "Nie wykryto nadmiaru fraz sensacyjnych ani absolutów w treści."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł stawia pytanie, co może przyciągać uwagę, ale nie jest przesadnie dramatyczny.",
+    "Artykuł rzeczywiście opisuje remont ulicy w Krakowie i związane z tym utrudnienia, co zgadza się z tytułem.",
+    "W artykule podano konkretne dane, takie jak koszt i czas trwania remontu, co sprawia, że jest bardziej wiarygodny.",
+    "Nie znaleziono przesadnych lub sensacyjnych zwrotów w treści artykułu."
+  ],
+  "summary": "Artykuł informuje o planowanej przebudowie ulicy Piastowskiej w Krakowie, która ma rozpocząć się w listopadzie lub grudniu. Remont potrwa około 9 miesięcy i wiąże się z kosztami rzędu 10,5 mln zł. Prace mają na celu poprawę bezpieczeństwa i komfortu użytkowników, w tym budowę nowych chodników i drogi dla rowerów.",
+  "signals": {
+    "title_hits": [
+      "sparaliżowany",
+      "ważna ulica",
+      "remont"
+    ],
+    "content_hits": [
+      "utrudnienia",
+      "9 miesięcy",
+      "10,5 mln zł"
+    ],
+    "credibility_hits": [
+      "Zarząd Dróg Miasta Krakowa",
+      "Krzysztof Wojdowski",
+      "nowa jezdnia"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "title_content_similarity": 0.85
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Remont ulicy Piastowskiej w Krakowie - utrudnienia dla kierowców",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 318,
+    "processing_time_ms": 17394,
+    "model": "gpt-4o-mini"
+  }
+}

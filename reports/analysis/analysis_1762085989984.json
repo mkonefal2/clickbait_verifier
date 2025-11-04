@@ -1,0 +1,49 @@
+{
+  "id": 1762085989984,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/raporty/raport-wojna-z-rosja/news-ukraina-przeszla-do-ataku-rosyjski-tankowiec-w-ogniu,nId,8036832",
+  "title": "Ukraina przeszła do ataku. Rosyjski tankowiec w ogniu",
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'przeszła do ataku' oraz 'w ogniu', które mogą wzbudzać emocje.",
+    "Treść artykułu dostarcza konkretne informacje o ataku dronowym i jego skutkach, co jest zgodne z tytułem.",
+    "Zidentyfikowano niewielką lukę ciekawości, ponieważ tytuł nie precyzuje szczegółów ataku.",
+    "Brak cytatów lub konkretnych liczb w treści, co obniża sygnały wiarygodności.",
+    "Zidentyfikowano zgodność tytułu z treścią, co pozytywnie wpływa na ocenę."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa emocjonalnych słów, które mogą przyciągać uwagę czytelników.",
+    "Artykuł opisuje konkretny atak dronowy na rosyjski tankowiec, co jest zgodne z tym, co obiecuje tytuł.",
+    "Tytuł nie dostarcza wszystkich szczegółów, co może budzić ciekawość czytelników.",
+    "Nie ma cytatów ani liczb, co sprawia, że artykuł jest mniej wiarygodny.",
+    "Tytuł i treść są spójne, co pozytywnie wpływa na ocenę."
+  ],
+  "summary": "Artykuł informuje o ukraińskim ataku dronowym, który miał miejsce w nocy z soboty na niedzielę. Atak spowodował pożar rosyjskiego tankowca oraz infrastruktury w terminalu naftowym w porcie czarnomorskim Tuapse. Władze Kraju Krasnodarskiego przekazały te informacje za pośrednictwem Telegramu.",
+  "signals": {
+    "title_hits": [
+      "przeszła do ataku",
+      "w ogniu"
+    ],
+    "content_hits": [
+      "ukraiński atak dronowy",
+      "pożar tankowca",
+      "Kraj Krasnodarski"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "exists": false,
+      "details": {}
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Ukraiński atak dronowy spalił rosyjski tankowiec",
+    "notes_to_editor": "Rozważyć dodanie cytatów lub danych liczbowych dla zwiększenia wiarygodności."
+  },
+  "diagnostics": {
+    "tokens_title": 8,
+    "tokens_content": 43,
+    "processing_time_ms": 12966,
+    "model": "gpt-4o-mini"
+  }
+}

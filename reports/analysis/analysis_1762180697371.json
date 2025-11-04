@@ -1,0 +1,43 @@
+{
+  "id": 1762180697371,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kujawsko-pomorskie/zderzenie-samochodow-na-drodze-krajowej-trzy-osoby-zostaly-ranne/hbyx4tz",
+  "title": "Zderzenie samochodów na drodze krajowej. Trzy osoby zostały ranne",
+  "score": 10,
+  "label": "not_clickbait",
+  "rationale": [
+    "Tytuł jest zgodny z treścią artykułu, nie zawiera fraz sensacyjnych ani luk ciekawości.",
+    "Treść artykułu jest krótka i rzeczowa, podaje konkretne informacje o zdarzeniu.",
+    "Brak użycia absolutów czy przesadnych stwierdzeń, co wpływa na niską ocenę clickbaitu.",
+    "W artykule znajdują się konkretne liczby (trzy osoby ranne) oraz źródło (Polska Agencja Prasowa), co zwiększa wiarygodność."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jasno opisuje zdarzenie i jest zgodny z treścią artykułu.",
+    "Artykuł dostarcza konkretnych informacji o wypadku, bez zbędnych emocji.",
+    "Nie ma w nim przesadnych stwierdzeń ani sensacyjnych fraz, co sprawia, że jest rzetelny.",
+    "Podano źródło informacji oraz liczby, co zwiększa zaufanie do artykułu."
+  ],
+  "summary": "Artykuł informuje o zderzeniu dwóch samochodów osobowych na drodze krajowej nr 15 w Busewie koło Strzelna. W wyniku wypadku trzy osoby zostały ranne. Droga była zablokowana przez kilka godzin. Informacje pochodzą z Polskiej Agencji Prasowej.",
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "Polska Agencja Prasowa",
+      "trzy osoby"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "content_summary_match": true
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Wypadek drogowy na krajowej drodze, trzy osoby ranne",
+    "notes_to_editor": "Artykuł jest dobrze napisany, nie wymaga poprawek."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 67,
+    "processing_time_ms": 12845,
+    "model": "gpt-4o-mini"
+  }
+}

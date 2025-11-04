@@ -1,0 +1,52 @@
+{
+  "id": 1762085986436,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/swiat/news-trump-grozi-szybka-i-brutalna-interwencja-militarna-w-nigeri,nId,8036823",
+  "title": "Trump grozi \"szybką i brutalną\" interwencją militarną w Nigerii",
+  "score": 62,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'szybką i brutalną', co zwiększa jego clickbaitowość.",
+    "Treść artykułu odnosi się bezpośrednio do tytułu, jednak niektóre fragmenty mogą budzić wątpliwości co do ich zgodności.",
+    "W artykule występują liczby i cytaty, co podnosi jego wiarygodność.",
+    "Wykryto lukę ciekawości w kontekście braku dowodów potwierdzających oskarżenia Trumpa.",
+    "Waga tytułu wynosi 40%, treści 15%, a rozbieżności 40%, co wpływa na ostateczny wynik."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera mocne słowa, które przyciągają uwagę, co sprawia, że jest bardziej sensacyjny.",
+    "Treść artykułu jest zgodna z tytułem, ale niektóre informacje mogą być niejasne.",
+    "Artykuł zawiera cytaty i liczby, co zwiększa jego wiarygodność.",
+    "W artykule pojawia się brak dowodów na niektóre twierdzenia, co może budzić ciekawość czytelników.",
+    "Ocena została obliczona na podstawie tytułu, treści i ich zgodności."
+  ],
+  "summary": "Donald Trump zapowiedział interwencję militarną USA w Nigerii, jeśli rząd nie podejmie działań wobec prześladowania chrześcijan. W artykule przedstawiono również reakcje rządu Nigerii oraz kontekst sytuacji religijnej w kraju. Trump ogłosił wstrzymanie pomocy finansowej dla Nigerii, co wywołało kontrowersje.",
+  "signals": {
+    "title_hits": [
+      "szybką i brutalną"
+    ],
+    "content_hits": [
+      "szybką i brutalną",
+      "masowych mordów na chrześcijanach",
+      "natychmiast wstrzymują wszelką pomoc finansową"
+    ],
+    "credibility_hits": [
+      "Donald Trump zapowiedział",
+      "oświadczenie opublikował",
+      "cytaty z Trumpa"
+    ],
+    "mismatch": {
+      "title": "Tytuł sugeruje, że Trump grozi interwencją, co jest zgodne z treścią.",
+      "content": "Treść artykułu rozwija temat, ale niektóre twierdzenia Trumpa nie są poparte dowodami."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Trump zapowiada interwencję militarną w Nigerii w związku z prześladowaniami chrześcijan",
+    "notes_to_editor": "Rozważyć dodanie kontekstu dotyczącego sytuacji w Nigerii oraz reakcji międzynarodowej."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 564,
+    "processing_time_ms": 18697,
+    "model": "gpt-4o-mini"
+  }
+}

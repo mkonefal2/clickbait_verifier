@@ -1,0 +1,42 @@
+{
+  "id": 1762006149223,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/dzien-wszystkich-swietych-wspominamy-tych-ktorzy-odeszli-w-2025-r/s0rlwq4",
+  "title": "Dzień Wszystkich Świętych. Wspominamy tych, którzy odeszli w 2025 r.",
+  "score": 20,
+  "label": "not_clickbait",
+  "rationale": [
+    "Tytuł nie zawiera fraz sensacyjnych ani absolutów.",
+    "Treść artykułu jest zgodna z tytułem, nie ma rozbieżności.",
+    "Nie występują w treści elementy, które mogłyby wzbudzać sensację.",
+    "Brak luk ciekawości, artykuł jasno przedstawia temat.",
+    "Artykuł zawiera informacje o zmarłych osobach publicznych, co jest zgodne z kontekstem Dnia Wszystkich Świętych."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jest prosty i informacyjny, nie używa przesadzonych słów.",
+    "Treść artykułu odpowiada tytułowi, nie ma w niej sprzeczności.",
+    "Artykuł nie stara się przyciągnąć uwagi sensacyjnymi informacjami.",
+    "Nie ma w nim elementów, które mogłyby wzbudzać ciekawość bez podania konkretów.",
+    "Artykuł poświęcony jest zmarłym osobom publicznym, co jest zgodne z tematem Dnia Wszystkich Świętych."
+  ],
+  "summary": "Artykuł opisuje Dzień Wszystkich Świętych, kiedy Polacy wspominają zmarłych. Skupia się na osobach publicznych, które odeszły w 2025 roku, podkreślając ich wpływ na kulturę, naukę i sport. Wspomnienia te mają na celu uhonorowanie ich twórczości i obecności w życiu społecznym.",
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [],
+    "mismatch": {
+      "exists": false,
+      "details": ""
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Wspomnienie o zmarłych osobach publicznych w 2025 roku",
+    "notes_to_editor": "Artykuł jest dobrze skonstruowany, nie wymaga zmian."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 115,
+    "processing_time_ms": 14721,
+    "model": "gpt-4o-mini"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": 1761934138458,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/trzecia-gospodarka-swiata-miedzy-chinska-inwazja-i-amerykanskim-huraganem/80ythzt",
+  "title": "UE między chińską \"inwazją\" i \"huraganem\" z USA. Ratunek: bazooka handlowa",
+  "score": 65,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera sensacyjne frazy takie jak 'inwazja' i 'huragan', co podnosi poziom clickbaitu.",
+    "Treść artykułu odnosi się do tytułu, ale używa ironii, co może wprowadzać w błąd.",
+    "W tytule i treści występują absoluty, co jest charakterystyczne dla clickbaitu.",
+    "Brak cytatów i konkretnych danych liczbowych w treści, co obniża sygnały wiarygodności.",
+    "Wykryto pewne niezgodności między tytułem a treścią, co wpływa na ocenę."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów, które mogą przyciągać uwagę, jak 'inwazja' i 'huragan'.",
+    "Treść artykułu jest związana z tytułem, ale zawiera ironię, co może być mylące.",
+    "W artykule brakuje konkretnych danych i cytatów, co wpływa na jego wiarygodność.",
+    "Tytuł i treść nie są całkowicie zgodne, co może wprowadzać w błąd czytelników."
+  ],
+  "summary": "Artykuł omawia sytuację gospodarczą Europy w kontekście rywalizacji z Chinami i USA. Autor porusza kwestie innowacji niemieckich oraz krytykuje podejście Europy do globalnego handlu. Wskazuje na potrzebę reakcji na wyzwania związane z globalnym rynkiem i konkurencją.",
+  "signals": {
+    "title_hits": [
+      "inwazja",
+      "huragan",
+      "bazooka"
+    ],
+    "content_hits": [
+      "inwazją",
+      "huraganem",
+      "bazookę"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "title": "UE między chińską 'inwazją' i 'huraganem' z USA. Ratunek: bazooka handlowa",
+      "content": "Między chińską 'inwazją' i amerykańskim 'huraganem': Europa wyciąga bazookę handlową"
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "UE w obliczu wyzwań gospodarczych związanych z Chinami i USA",
+    "notes_to_editor": "Rozważyć dodanie danych liczbowych lub cytatów dla zwiększenia wiarygodności artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 15,
+    "tokens_content": 147,
+    "processing_time_ms": 14198,
+    "model": "gpt-4o-mini"
+  }
+}

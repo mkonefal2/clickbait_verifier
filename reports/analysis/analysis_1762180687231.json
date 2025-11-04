@@ -1,0 +1,52 @@
+{
+  "id": 1762180687231,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/slaskie/news-podwojny-gaz-nadmierna-predkosc-o-wlos-od-dramatu-w-tarnowsk,nId,8037088",
+  "title": "Podwójny gaz, nadmierna prędkość. O włos od dramatu w Tarnowskich Górach",
+  "score": 62,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne takie jak 'podwójny gaz' i 'o włos od dramatu', które mogą wzbudzać emocje.",
+    "Treść artykułu opisuje wypadek drogowy, ale nie dostarcza dodatkowych informacji, które mogłyby potwierdzić dramatyzm tytułu.",
+    "W treści występują liczby (wiek kierowców, poziom alkoholu), co zwiększa wiarygodność, ale nie zmienia sensacyjnego tonu tytułu.",
+    "Wykryto pewne niezgodności między tytułem a treścią, ponieważ tytuł sugeruje dramatyzm, podczas gdy treść jest bardziej informacyjna.",
+    "Zastosowane w artykule cytaty z policji dodają wiarygodności, ale nie zmieniają ogólnego wrażenia clickbaitowego."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa emocjonalnych słów, które mogą przyciągać uwagę, jak 'dramatu' i 'podwójny gaz'.",
+    "Artykuł opisuje wypadek drogowy, ale nie zawiera dodatkowych informacji, które mogłyby uzasadnić dramatyczny ton tytułu.",
+    "W treści są liczby i cytaty, co sprawia, że jest bardziej wiarygodna, ale tytuł nadal brzmi sensacyjnie.",
+    "Tytuł i treść nie do końca się zgadzają, ponieważ tytuł sugeruje większe emocje niż te, które są przedstawione w artykule.",
+    "Cytaty z policji dodają wiarygodności, ale nie zmieniają ogólnego wrażenia, że tytuł jest clickbaitowy."
+  ],
+  "summary": "Artykuł opisuje wypadek drogowy w Tarnowskich Górach, w którym 18-letni kierowca volkswagena, będąc pod wpływem alkoholu, doprowadził do dachowania pojazdu. W aucie znajdował się również 17-letni pasażer, który trafił do szpitala. Policja apeluje o ostrożność w związku z prowadzeniem pojazdów pod wpływem alkoholu.",
+  "signals": {
+    "title_hits": [
+      "podwójny gaz",
+      "o włos od dramatu"
+    ],
+    "content_hits": [
+      "18-latek",
+      "17-latek",
+      "ponad pół promila"
+    ],
+    "credibility_hits": [
+      "policja",
+      "komunikat"
+    ],
+    "mismatch": {
+      "title": "Podwójny gaz, nadmierna prędkość. O włos od dramatu w Tarnowskich Górach",
+      "content": "W artykule opisano wypadek, ale nie ma dramatycznych szczegółów, które uzasadniałyby tytuł."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Wypadek drogowy w Tarnowskich Górach z udziałem nietrzeźwych kierowców",
+    "notes_to_editor": "Rozważyć zmianę tytułu na bardziej neutralny, aby lepiej odzwierciedlał treść artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 13,
+    "tokens_content": 218,
+    "processing_time_ms": 20965,
+    "model": "gpt-4o-mini"
+  }
+}

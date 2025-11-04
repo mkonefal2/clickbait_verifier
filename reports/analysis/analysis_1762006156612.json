@@ -1,0 +1,47 @@
+{
+  "id": 1762006156612,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/seul-chce-pomocy-chin-w-dialogu-z-pjongjangiem-ostra-reakcja-korei-pln/n66r8xd",
+  "title": "Korea Płd. i Chiny chcą denuklearyzacji Korei Płn. Pjongjang reaguje. \"Mrzonka\"",
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'Mrzonka', co może wzbudzać ciekawość.",
+    "Treść artykułu jest zgodna z tytułem, ale nie zawiera dodatkowych informacji, które mogłyby potwierdzić sensacyjność.",
+    "W tytule użyto absolutu w kontekście 'denuklearyzacji', co może być postrzegane jako przesadne.",
+    "Brak cytatów lub konkretnych danych liczbowych, co obniża sygnały wiarygodności.",
+    "Analiza wykazała, że tytuł i treść są spójne, co zmniejsza ryzyko mismatchu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera słowo 'Mrzonka', co może przyciągać uwagę czytelników.",
+    "Treść artykułu odpowiada tytułowi, ale nie dodaje niczego, co mogłoby go wzmocnić.",
+    "Słowo 'denuklearyzacja' w tytule może być uznane za zbyt mocne.",
+    "Artykuł nie zawiera cytatów ani danych, co może wpływać na jego wiarygodność.",
+    "Tytuł i treść są zgodne, co jest pozytywne."
+  ],
+  "summary": "Artykuł opisuje chęć Korei Południowej do wznowienia dialogu z Koreą Północną oraz prośbę o pomoc ze strony Chin. Prezydent Korei Południowej, Lee Jae Myung, podkreśla konieczność denuklearyzacji Pjongjangu. W artykule zawarta jest również reakcja Korei Północnej na te działania.",
+  "signals": {
+    "title_hits": [
+      "Mrzonka"
+    ],
+    "content_hits": [
+      "denuklearyzacja",
+      "dialog"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "exists": false,
+      "details": "Tytuł i treść są zgodne."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Korea Płd. zwraca się do Chin o pomoc w dialogu z Koreą Płn.",
+    "notes_to_editor": "Rozważyć dodanie cytatów lub danych liczbowych, aby zwiększyć wiarygodność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 15,
+    "tokens_content": 110,
+    "processing_time_ms": 32768,
+    "model": "gpt-4o-mini"
+  }
+}

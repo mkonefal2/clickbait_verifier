@@ -1,0 +1,59 @@
+{
+  "id": 1762020482642,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/zmiana-na-stanowisku-premiera-tylu-zwolennikow-ma-donald-tusk-sondaz/qxdf17v",
+  "title": "Zmiana na stanowisku premiera? Tylu zwolenników ma Tusk [SONDAŻ]",
+  "score": 32,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera pytanie, co może wzbudzać ciekawość, ale nie używa skrajnych emocji ani sensacyjnych fraz.",
+    "Treść artykułu odnosi się bezpośrednio do tytułu, prezentując wyniki sondażu dotyczącego poparcia dla Donalda Tuska.",
+    "W tytule i treści występują liczby (44,6%, 33,1%, 22,3%), co zwiększa wiarygodność.",
+    "Nie znaleziono znaczących rozbieżności między tytułem a treścią, co pozytywnie wpływa na ocenę.",
+    "Analiza wykazała, że tytuł jest zgodny z treścią, a użycie słowa 'sondaż' sugeruje, że artykuł opiera się na danych."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zadaje pytanie, co może przyciągać uwagę, ale nie jest przesadnie dramatyczny.",
+    "Artykuł jasno przedstawia wyniki sondażu dotyczącego poparcia dla Donalda Tuska, co jest zgodne z tytułem.",
+    "W artykule pojawiają się konkretne liczby, co zwiększa jego wiarygodność.",
+    "Nie ma dużych różnic między tytułem a treścią, co jest pozytywne.",
+    "Tytuł i treść są ze sobą spójne, a obecność słowa 'sondaż' sugeruje, że artykuł opiera się na rzeczywistych danych."
+  ],
+  "summary": "Artykuł przedstawia wyniki sondażu dotyczącego poparcia dla Donalda Tuska na stanowisku premiera. Z danych wynika, że 44,6% badanych jest przeciwnych jego zastąpieniu przez Radosława Sikorskiego, podczas gdy 33,1% popiera tę zmianę, a 22,3% jest niezdecydowanych. Sondaż został przeprowadzony przez United Surveys dla Wirtualnej Polski.",
+  "signals": {
+    "title_hits": [
+      "zmiana",
+      "premiera",
+      "zwolenników",
+      "sondaż"
+    ],
+    "content_hits": [
+      "zmiana",
+      "premiera",
+      "zwolenników",
+      "sondaż",
+      "44,6%",
+      "33,1%",
+      "22,3%"
+    ],
+    "credibility_hits": [
+      "sondaż",
+      "United Surveys",
+      "Wirtualnej Polski"
+    ],
+    "mismatch": {
+      "exists": false,
+      "details": {}
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Wyniki sondażu dotyczącego poparcia dla Donalda Tuska na stanowisku premiera",
+    "notes_to_editor": "Artykuł dobrze przedstawia wyniki sondażu, ale tytuł mógłby być bardziej neutralny."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 97,
+    "processing_time_ms": 16462,
+    "model": "gpt-4o-mini"
+  }
+}

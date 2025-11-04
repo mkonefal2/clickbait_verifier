@@ -1,0 +1,50 @@
+{
+  "id": 1762020484745,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/rosja-wpadla-we-wlasna-pulapke-amerykanski-dowodca-czeka-ja-katastrofa/9zpjt6r",
+  "title": "To być albo nie być dla Putina. Amerykański dowódca: Rosję czeka katastrofa [OPINIA]",
+  "score": 62,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'katastrofa' i 'to być albo nie być', co podnosi jego clickbaitowość.",
+    "Treść artykułu odnosi się do sytuacji wojennej, ale nie dostarcza konkretnych dowodów ani statystyk, co osłabia sygnały wiarygodności.",
+    "Występuje pewne niedopasowanie między tytułem a treścią, ponieważ tytuł sugeruje dramatyczne konsekwencje, które nie są w pełni rozwinięte w artykule.",
+    "W artykule użyto emocjonalnego języka, co zwiększa jego atrakcyjność, ale również wpływa na ocenę clickbaitu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa dramatycznych słów, które przyciągają uwagę, co sprawia, że artykuł wydaje się bardziej sensacyjny.",
+    "Treść odnosi się do trudnej sytuacji w Rosji, ale nie zawiera wielu konkretów, co może budzić wątpliwości co do jej rzetelności.",
+    "Tytuł sugeruje poważne konsekwencje, które nie są w pełni rozwinięte w artykule, co może wprowadzać w błąd.",
+    "Artykuł używa emocjonalnego języka, co czyni go bardziej interesującym, ale także wpływa na jego ocenę jako clickbait."
+  ],
+  "summary": "Artykuł omawia sytuację wojenną w Ukrainie, koncentrując się na działaniach Rosji i przewidywaniach dotyczących przyszłości pod rządami Putina. Były amerykański dowódca wskazuje na trudności, jakie napotyka Rosja, oraz na konsekwencje decyzji Putina, które mogą prowadzić do katastrofy. W artykule podkreślono dramatyczne skutki konfliktu.",
+  "signals": {
+    "title_hits": [
+      "katastrofa",
+      "to być albo nie być"
+    ],
+    "content_hits": [
+      "oboz śmierci",
+      "zacięte walki",
+      "krwawe lata"
+    ],
+    "credibility_hits": [
+      "były amerykański dowódca",
+      "Chuck Pfarrer"
+    ],
+    "mismatch": {
+      "title": "To być albo nie być dla Putina. Amerykański dowódca: Rosję czeka katastrofa",
+      "content": "Artykuł koncentruje się na trudnej sytuacji wojennej, ale nie rozwija w pełni dramatycznych konsekwencji sugerowanych w tytule."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Analiza sytuacji wojennej w Ukrainie i przewidywania dotyczące Rosji",
+    "notes_to_editor": "Zaleca się unikanie dramatycznych fraz w tytule, aby lepiej odzwierciedlić treść artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 16,
+    "tokens_content": 203,
+    "processing_time_ms": 18658,
+    "model": "gpt-4o-mini"
+  }
+}

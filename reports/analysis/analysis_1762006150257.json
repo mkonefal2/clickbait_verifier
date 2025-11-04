@@ -1,0 +1,49 @@
+{
+  "id": 1762006150257,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/pogoda-na-wszystkich-swietych-i-dzien-zaduszny-skrajne-zjawiska/ykqybfk",
+  "title": "Pogoda zaskoczy Polaków. Mamy prognozę na najbliższe dni",
+  "score": 52,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazę 'zaskoczy', co jest uznawane za sensacyjne sformułowanie.",
+    "W treści artykułu występują konkretne dane dotyczące prognozy pogody, co zwiększa wiarygodność.",
+    "Zidentyfikowano lukę ciekawości w tytule, która nie jest w pełni zaspokojona przez treść.",
+    "Mismatched detection wskazuje na pewne rozbieżności między tytułem a treścią, co wpływa na ocenę clickbaitu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł sugeruje, że pogoda będzie niespodziewana, co może przyciągać uwagę.",
+    "Artykuł zawiera konkretne informacje o prognozowanej pogodzie, co czyni go bardziej wiarygodnym.",
+    "Tytuł wzbudza ciekawość, ale nie wszystkie obietnice są spełnione w treści.",
+    "Zauważono, że tytuł i treść nie do końca się pokrywają, co wpływa na ocenę clickbaitu."
+  ],
+  "summary": "Artykuł przedstawia prognozę pogody na Wszystkich Świętych i Dzień Zaduszny, wskazując na skrajne zjawiska pogodowe w Polsce. Na południu kraju przewidywana jest temperatura do 19 st. C, podczas gdy w górach mogą wystąpić silne porywy wiatru do 80 km/h oraz deszcze na zachodzie. Długoterminowa prognoza sugeruje ochłodzenie w kolejnych dniach.",
+  "signals": {
+    "title_hits": [
+      "zaskoczy"
+    ],
+    "content_hits": [
+      "skrajne zjawiska",
+      "temperatura do 19 st. C",
+      "silne porywy wiatru do 80 km/h"
+    ],
+    "credibility_hits": [
+      "Polska Agencja Prasowa",
+      "Katarzyna Ścisłowska"
+    ],
+    "mismatch": {
+      "title": "Pogoda zaskoczy Polaków",
+      "content": "Prognoza długoterminowa wskazuje na ochłodzenie"
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Prognoza pogody na najbliższe dni w Polsce",
+    "notes_to_editor": "Rozważyć zmianę tytułu na bardziej neutralny, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 91,
+    "processing_time_ms": 16841,
+    "model": "gpt-4o-mini"
+  }
+}

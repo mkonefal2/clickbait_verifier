@@ -1,0 +1,51 @@
+{
+  "id": 1762006147739,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/atak-hakerski-na-znane-biuro-podrozy-wyciekly-dane-czesci-klientow/8ksz29z",
+  "title": "Atak hakerski na znane biuro podróży. Wyciekły dane klientów",
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'atak hakerski' i 'wyciekły dane', co może wzbudzać ciekawość.",
+    "Treść artykułu jest zgodna z tytułem, jednak nie dostarcza szczegółowych informacji na temat skali wycieku.",
+    "W artykule pojawia się cytat od ministra cyfryzacji, co podnosi jego wiarygodność.",
+    "Nie występują w artykule liczby ani konkretne źródła poza cytatem, co ogranicza jego rzetelność."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera słowa, które mogą przyciągać uwagę, jak 'atak hakerski' i 'wyciek danych'.",
+    "Treść artykułu odpowiada tytułowi, ale brakuje w niej szczegółowych informacji o wycieku.",
+    "Artykuł cytuje ministra, co zwiększa jego wiarygodność.",
+    "Brak konkretnych liczb i źródeł w treści ogranicza rzetelność informacji."
+  ],
+  "summary": "Artykuł informuje o ataku hakerskim na biuro podróży Nowa Itaka, w wyniku którego doszło do wycieku danych logowania części klientów. Minister cyfryzacji Krzysztof Gawkowski zapewnia, że specjaliści z NASK współpracują z biurem podróży w celu rozwiązania problemu.",
+  "signals": {
+    "title_hits": [
+      "atak hakerski",
+      "wyciekły dane"
+    ],
+    "content_hits": [
+      "atak hakerski",
+      "wyciekły dane",
+      "Krzysztof Gawkowski",
+      "NASK"
+    ],
+    "credibility_hits": [
+      "Polska Agencja Prasowa",
+      "Krzysztof Gawkowski"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "details": "Tytuł i treść są zgodne, jednak treść nie rozwija tematu na tyle, aby w pełni wyjaśnić sytuację."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Atak hakerski na biuro podróży Nowa Itaka i wyciek danych klientów",
+    "notes_to_editor": "Rozważyć dodanie szczegółów dotyczących skali wycieku i działań podejmowanych przez biuro podróży."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 92,
+    "processing_time_ms": 14151,
+    "model": "gpt-4o-mini"
+  }
+}

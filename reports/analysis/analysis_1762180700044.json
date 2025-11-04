@@ -1,0 +1,48 @@
+{
+  "id": 1762180700044,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/pogoda/wiemy-jaka-pogoda-czeka-nas-w-dlugi-weekend-nie-wszedzie-bedzie-cieplo/msf24d8",
+  "title": "W długi weekend nie wszędzie będzie ciepły. Te regiony mogą być pokrzywdzone",
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy sugerujące negatywne konsekwencje ('pokrzywdzone'), co może budzić ciekawość.",
+    "Treść artykułu dostarcza konkretne informacje o prognozie pogody, co jest zgodne z tytułem.",
+    "Nie wykryto wyraźnych sygnałów wiarygodności, takich jak cytaty czy konkretne liczby, co obniża ocenę.",
+    "W tytule i treści występują pewne nieścisłości w zakresie użycia słów, co może prowadzić do nieporozumień."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł sugeruje, że niektóre regiony mogą mieć gorszą pogodę, co wzbudza ciekawość.",
+    "Artykuł rzeczywiście opisuje prognozę pogody, co jest zgodne z tytułem.",
+    "Brak konkretów, jak cytaty czy liczby, może sprawiać, że artykuł wydaje się mniej wiarygodny.",
+    "Niektóre sformułowania mogą być mylące, co wpływa na ogólną ocenę."
+  ],
+  "summary": "Artykuł omawia prognozę pogody na długi weekend od 8 do 11 listopada. Zawiera informacje o podziale warunków atmosferycznych w Polsce, wskazując na regiony, gdzie będzie słonecznie i ciepło, oraz te, które mogą doświadczyć gorszej pogody z chmurami i mgłami. Podano również przewidywaną temperaturę w niektórych częściach kraju.",
+  "signals": {
+    "title_hits": [
+      "pokrzywdzone"
+    ],
+    "content_hits": [
+      "podzieli Polskę",
+      "słonecznie",
+      "bardzo ciepło",
+      "chmur",
+      "gęstych mgieł"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "title_content_consistency": "consistent",
+      "mismatch_score": 0
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Prognoza pogody na długi weekend: różne warunki w Polsce",
+    "notes_to_editor": "Rozważyć dodanie cytatów lub danych liczbowych dla zwiększenia wiarygodności artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 12,
+    "tokens_content": 138,
+    "processing_time_ms": 12808,
+    "model": "gpt-4o-mini"
+  }
+}

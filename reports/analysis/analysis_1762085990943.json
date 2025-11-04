@@ -1,0 +1,52 @@
+{
+  "id": 1762085990943,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/raporty/raport-wojna-z-rosja/news-ukrainskie-sily-specjalne-laduja-w-pokrowsku-operacja-dowodz,nId,8036732",
+  "title": "Ukraińskie siły specjalne lądują w Pokrowsku. Operacją dowodzi Budanow",
+  "score": 25,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy związane z wydarzeniami wojennymi, co może budzić emocje, ale nie zawiera skrajnych słów ani absolutów.",
+    "Treść artykułu jest zgodna z tytułem, dostarczając konkretne informacje o działaniach ukraińskich sił specjalnych.",
+    "W treści występują liczby i cytaty, co zwiększa wiarygodność informacji.",
+    "Nie ma istotnych rozbieżności między tytułem a treścią, co wpływa na niższy poziom clickbaitu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł odnosi się do ważnych wydarzeń wojennych, ale nie używa przesadnych słów.",
+    "Treść artykułu dokładnie opisuje działania ukraińskich sił specjalnych, co jest zgodne z tytułem.",
+    "Artykuł zawiera konkretne informacje i źródła, co sprawia, że jest bardziej wiarygodny.",
+    "Nie ma dużych różnic między tym, co mówi tytuł a tym, co jest w treści, co zmniejsza efekt clickbaitu."
+  ],
+  "summary": "Artykuł informuje o lądowaniu ukraińskich sił specjalnych w Pokrowsku, które mają na celu przeciwdziałanie rosyjskiej ofensywie. Operacją dowodzi Kyryło Budanow, szef Głównego Zarządu Wywiadu Wojskowego Ukrainy. W treści podano również informacje o działaniach Rosjan w tym regionie oraz szczegóły dotyczące samej operacji.",
+  "signals": {
+    "title_hits": [
+      "Ukraińskie siły specjalne",
+      "Pokrowsku",
+      "Operacją dowodzi Budanow"
+    ],
+    "content_hits": [
+      "Ukraińskie siły specjalne operują",
+      "akcją dowodzi",
+      "informuje agencja Reutera"
+    ],
+    "credibility_hits": [
+      "agencja Reutera",
+      "Kyryło Budanow",
+      "7. Korpus Szybkiego Reagowania"
+    ],
+    "mismatch": {
+      "exists": false,
+      "details": "Tytuł i treść są zgodne."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Ukraińskie siły specjalne w Pokrowsku pod dowództwem Budanowa",
+    "notes_to_editor": "Rozważyć dodanie kontekstu dotyczącego sytuacji w regionie."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 145,
+    "processing_time_ms": 15478,
+    "model": "gpt-4o-mini"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": 1762020475371,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/sport/news-wta-w-rijadzie-swiatek-zaczela-od-wygranej-z-keys,nId,8036803",
+  "title": "WTA w Rijadzie: Świątek zaczęła od wygranej z Keys",
+  "score": 15,
+  "label": "not_clickbait",
+  "rationale": [
+    "Tytuł nie zawiera fraz sensacyjnych ani absolutów.",
+    "Treść artykułu jest zgodna z tytułem i dostarcza konkretne informacje o meczu.",
+    "Brak luk ciekawości, ponieważ artykuł jasno przedstawia wynik meczu.",
+    "Nie znaleziono sygnałów wiarygodności, ale artykuł opiera się na faktach.",
+    "Zgodność tytułu z treścią wynosi 100%, co wpływa na niską ocenę clickbaitu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jest prosty i informacyjny, nie używa przesadnych słów.",
+    "Treść artykułu dokładnie opisuje wynik meczu, co pasuje do tytułu.",
+    "Nie ma w artykule żadnych niejasności, wszystko jest jasne i zrozumiałe.",
+    "Artykuł opiera się na faktach, co zwiększa jego wiarygodność.",
+    "Tytuł i treść są ze sobą zgodne, co sprawia, że artykuł nie jest clickbaitowy."
+  ],
+  "summary": "Iga Świątek wygrała z Madison Keys w swoim pierwszym meczu grupowym turnieju WTA Finals w Rijadzie, osiągając wynik 6:1, 6:2. Mecz trwał 61 minut i był ósmym spotkaniem między tymi zawodniczkami, z których Świątek wygrała sześć.",
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [],
+    "mismatch": {
+      "title_content_match": true,
+      "mismatch_score": 0
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Iga Świątek wygrała z Madison Keys w meczu WTA w Rijadzie",
+    "notes_to_editor": "Artykuł jest dobrze napisany i nie wymaga zmian."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 72,
+    "processing_time_ms": 14554,
+    "model": "gpt-4o-mini"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": 1761934138107,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/tomahawki-dla-ukrainy-jest-przelomowa-decyzja-pentagonu/dwx49vl",
+  "title": "Tomahawki dla Ukrainy. Jest przełomowa decyzja Pentagonu",
+  "score": 62,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazę 'przełomowa decyzja', co jest uznawane za absolut i może budzić ciekawość.",
+    "Treść artykułu potwierdza, że Pentagon zgodził się na przekazanie rakiet Tomahawk, co jest zgodne z tytułem.",
+    "W artykule pojawiają się liczby i odniesienia do źródła (CNN), co zwiększa jego wiarygodność.",
+    "Jednakże, tytuł może sugerować większą dramatyczność sytuacji niż ma to miejsce w treści."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słów, które mogą przyciągać uwagę, jak 'przełomowa decyzja'.",
+    "Artykuł rzeczywiście mówi o zgodzie Pentagonu na przekazanie rakiet, co zgadza się z tytułem.",
+    "W treści znajdują się odniesienia do wiarygodnych źródeł, co podnosi jej rzetelność.",
+    "Jednak tytuł może wydawać się bardziej dramatyczny niż sama treść artykułu."
+  ],
+  "summary": "Artykuł informuje o decyzji Pentagonu dotyczącej przekazania Ukrainie rakiet Tomahawk. Prezydent USA, Donald Trump, ma ostatecznie podjąć decyzję w tej sprawie. W treści zawarte są również odniesienia do wcześniejszych wypowiedzi Trumpa na temat tego tematu.",
+  "signals": {
+    "title_hits": [
+      "przełomowa decyzja"
+    ],
+    "content_hits": [
+      "Pentagon wyraził zgodę",
+      "rakiet dalekiego zasięgu Tomahawk"
+    ],
+    "credibility_hits": [
+      "informuje CNN"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "content_detail": "Treść artykułu odpowiada na pytania zawarte w tytule."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Pentagon zgadza się na przekazanie Ukrainie rakiet Tomahawk",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby zredukować element clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 95,
+    "processing_time_ms": 10835,
+    "model": "gpt-4o-mini"
+  }
+}

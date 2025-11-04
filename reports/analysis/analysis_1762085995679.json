@@ -1,0 +1,45 @@
+{
+  "id": 1762085995679,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/poznan/news-7-latek-nie-zyje-tragiczny-final-halloweenowej-zabawy,nId,8036770",
+  "title": "7-latek nie żyje",
+  "score": 20,
+  "label": "not_clickbait",
+  "rationale": [
+    "Tytuł jest krótki i bez użycia sensacyjnych fraz czy absolutów.",
+    "Treść artykułu jest zgodna z tytułem, opisując tragiczną sytuację bez przesadnych emocji.",
+    "Nie wykryto luk ciekawości ani innych sygnałów clickbaitowych w treści.",
+    "Artykuł zawiera konkretne informacje, takie jak wiek dziecka, okoliczności wypadku oraz działania służb.",
+    "Brak niezgodności między tytułem a treścią."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jest prosty i bez przesadnych emocji.",
+    "Treść dokładnie opisuje tragiczną sytuację, co jest zgodne z tytułem.",
+    "Nie ma w artykule żadnych sensacyjnych zwrotów ani niejasności.",
+    "Artykuł podaje konkretne informacje, takie jak wiek chłopca i okoliczności wypadku.",
+    "Tytuł i treść są ze sobą zgodne."
+  ],
+  "summary": "Artykuł opisuje tragiczny wypadek, w którym 7-letni chłopiec zmarł po potrąceniu przez samochód podczas zbierania słodyczy w Halloween. Policja i prokuratura prowadzą dochodzenie w tej sprawie. Chłopiec został przetransportowany do szpitala, gdzie mimo wysiłków lekarzy zmarł.",
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "Cytat podkomisarza Piotra Szczepaniaka z Komendy Powiatowej Policji w Krotoszynie",
+      "Podano konkretne informacje o wieku chłopca i okolicznościach wypadku"
+    ],
+    "mismatch": {
+      "exists": false,
+      "details": ""
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Tragiczny wypadek: 7-latek zmarł po potrąceniu",
+    "notes_to_editor": "Artykuł dobrze informuje o tragicznym zdarzeniu, ale można rozważyć bardziej neutralny tytuł."
+  },
+  "diagnostics": {
+    "tokens_title": 4,
+    "tokens_content": 226,
+    "processing_time_ms": 12704,
+    "model": "gpt-4o-mini"
+  }
+}

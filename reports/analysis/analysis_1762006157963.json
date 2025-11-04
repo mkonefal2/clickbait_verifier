@@ -1,0 +1,45 @@
+{
+  "id": 1762006157963,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/tysiace-osob-na-ulicach-nowego-sadu-upamietnili-tragedie-16-minutowa-cisza/p9hkvek",
+  "title": "Tysiące osób na ulicach Nowego Sadu. Upamiętnili tragedię 16-minutową ciszą",
+  "score": 20,
+  "label": "not_clickbait",
+  "rationale": [
+    "Tytuł nie zawiera fraz sensacyjnych ani absolutów.",
+    "Treść artykułu jest zgodna z tytułem, opisując wydarzenie upamiętnienia tragedii.",
+    "Nie występują luki ciekawości w tytule ani treści.",
+    "W artykule są podane konkretne liczby (16 ofiar, 16 minut ciszy), co zwiększa wiarygodność.",
+    "Brak sygnałów niezgodności między tytułem a treścią."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jest prosty i informacyjny, nie używa przesadnych słów.",
+    "Treść artykułu dokładnie opisuje wydarzenie, które jest przedstawione w tytule.",
+    "Nie ma w artykule żadnych niejasności ani zaskakujących informacji.",
+    "Podane są konkretne liczby, co sprawia, że artykuł jest bardziej wiarygodny.",
+    "Tytuł i treść dobrze się uzupełniają, nie ma między nimi sprzeczności."
+  ],
+  "summary": "Artykuł opisuje wydarzenie, w którym tysiące Serbów zgromadziło się w Nowym Sadzie, aby uczcić pamięć 16 ofiar tragedii na dworcu kolejowym. Uczestnicy przeszli z 16 punktów miasta do dworca, gdzie oddali hołd ofiarom, zachowując 16-minutową ciszę. Wydarzenie miało miejsce w pierwszą rocznicę tragedii.",
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "16 ofiar",
+      "16 minut ciszy"
+    ],
+    "mismatch": {
+      "title": "Tytuł odpowiada treści",
+      "content": "Treść jest zgodna z tytułem"
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Tysiące osób w Nowym Sadzie upamiętniło ofiary tragedii 16-minutową ciszą",
+    "notes_to_editor": "Artykuł jest dobrze napisany i nie zawiera elementów clickbaitowych."
+  },
+  "diagnostics": {
+    "tokens_title": 14,
+    "tokens_content": 110,
+    "processing_time_ms": 13884,
+    "model": "gpt-4o-mini"
+  }
+}

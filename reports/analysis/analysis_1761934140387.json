@@ -1,0 +1,49 @@
+{
+  "id": 1761934140387,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/zginelo-78-osob-11-kar-dozywocia-po-tragicznym-pozarze-kurortu-w-turcji/ctqqbsq",
+  "title": "11 kar dożywocia. Jest wyrok w sprawie tragicznego pożaru hotelu w Turcji",
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'tragicznego pożaru' i 'kar dożywocia', które mogą wzbudzać emocje.",
+    "Treść artykułu jest zgodna z tytułem, jednak nie zawiera szczegółowych informacji, które mogłyby potwierdzić wiarygodność.",
+    "W artykule pojawiają się liczby (11 kar dożywocia, 78 osób), co może zwiększać jego wiarygodność.",
+    "Brak cytatów lub odniesień do innych źródeł, co osłabia sygnały wiarygodności."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł artykułu używa emocjonalnych słów, co może przyciągać uwagę czytelników.",
+    "Treść artykułu jest zgodna z tytułem, ale nie dostarcza wielu szczegółów, które mogłyby potwierdzić informacje.",
+    "W artykule podano konkretne liczby, co może sugerować, że informacje są wiarygodne.",
+    "Brakuje cytatów lub odniesień do innych źródeł, co może wpływać na postrzeganą wiarygodność."
+  ],
+  "summary": "Turecki sąd skazał właściciela hotelu oraz 10 innych osób na dożywocie w związku z tragicznym pożarem, który miał miejsce w styczniu. W wyniku tego zdarzenia zginęło 78 osób. Wyrok został ogłoszony w piątek, a sprawa dotyczy poważnego zaniedbania związane z bezpieczeństwem obiektu.",
+  "signals": {
+    "title_hits": [
+      "tragicznego pożaru",
+      "kar dożywocia"
+    ],
+    "content_hits": [
+      "11 kar dożywocia",
+      "78 osób"
+    ],
+    "credibility_hits": [
+      "Polska Agencja Prasowa",
+      "agencja Anadolu"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "content_detail_level": "low"
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Wyrok w sprawie pożaru hotelu w Turcji: 11 osób skazanych na dożywocie",
+    "notes_to_editor": "Rozważyć dodanie więcej szczegółów dotyczących wyroku i kontekstu sprawy."
+  },
+  "diagnostics": {
+    "tokens_title": 14,
+    "tokens_content": 83,
+    "processing_time_ms": 14627,
+    "model": "gpt-4o-mini"
+  }
+}

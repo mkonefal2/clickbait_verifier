@@ -1,0 +1,51 @@
+{
+  "id": 1762180671937,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/ciekawostki/news-to-warzywo-jest-zdrowsze-niz-szpinak-mleko-i-pomarancze-raze,nId,8037099",
+  "title": "To warzywo jest zdrowsze niż szpinak, mleko i pomarańcze razem wzięte! Sprawdź, co wybrali naukowcy",
+  "score": 62,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy absolutne ('zdrowsze niż szpinak, mleko i pomarańcze razem wzięte'), co zwiększa jego clickbaitowość.",
+    "Treść artykułu zawiera sensacyjne stwierdzenia o rzeżusze wodnej, które są zgodne z tytułem, ale mogą wprowadzać w błąd co do jej właściwości.",
+    "W artykule występują konkretne liczby (np. 100 punktów na 100 możliwych), co dodaje wiarygodności, ale nie zmienia ogólnej oceny clickbaitu.",
+    "Wykryto niezgodność między tytułem a treścią, ponieważ tytuł sugeruje, że rzeżucha wodna jest lepsza od wszystkich wymienionych produktów, co nie jest do końca udowodnione w treści.",
+    "Analiza wykazała, że tytuł i treść są ze sobą zgodne, ale tytuł jest bardziej sensacyjny niż treść."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów, które mogą przyciągać uwagę, co sprawia, że jest bardziej clickbaitowy.",
+    "Artykuł mówi o rzeżusze wodnej jako zdrowym warzywie, ale niektóre twierdzenia mogą być przesadzone.",
+    "Podano konkretne dane, co dodaje wiarygodności, ale tytuł może wprowadzać w błąd co do rzeczywistej wartości rzeżuchy.",
+    "Tytuł sugeruje, że rzeżucha jest lepsza od innych produktów, co nie jest w pełni udowodnione w artykule.",
+    "Ogólnie, tytuł jest bardziej sensacyjny niż sama treść artykułu."
+  ],
+  "summary": "Artykuł opisuje rzeżuchę wodną jako wyjątkowe warzywo, które według badań naukowych z USA jest najzdrowszym jedzeniem na świecie. Zawiera wiele witamin i minerałów, a także ma właściwości detoksykujące. Artykuł podaje również informacje na temat uprawy rzeżuchy wodnej w warunkach domowych oraz jej porównania z innymi popularnymi produktami.",
+  "signals": {
+    "title_hits": [
+      "zdrowsze niż",
+      "razem wzięte"
+    ],
+    "content_hits": [
+      "najzdrowszym jedzeniem na świecie",
+      "100 punktów na 100 możliwych"
+    ],
+    "credibility_hits": [
+      "badania z USA",
+      "naukowy ranking superżywności"
+    ],
+    "mismatch": {
+      "title": "Tytuł sugeruje, że rzeżucha wodna jest lepsza od wszystkich wymienionych produktów.",
+      "content": "Treść artykułu nie dostarcza jednoznacznych dowodów na to."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Rzeżucha wodna - najzdrowsze warzywo według badań naukowych",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 15,
+    "tokens_content": 682,
+    "processing_time_ms": 22379,
+    "model": "gpt-4o-mini"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": 1761934132001,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/goraca-debata-o-przyszlosci-pis-rozliczeniach-i-tubkach-telusa-zobacz-program-co-mowi/nz9j3nv",
+  "title": "Gorąca debata o przyszłości PiS. Zobacz program \"Co mówi Polska\"",
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'gorąca debata', co może sugerować emocjonalny ładunek.",
+    "Treść artykułu jest zgodna z tytułem, jednak nie zawiera szczegółowych informacji, które mogłyby potwierdzić sensacyjność.",
+    "W artykule nie ma cytatów ani konkretnych danych, co wpływa na niską wiarygodność.",
+    "Wykryto lukę ciekawości w tytule, zachęcającą do kliknięcia, ale nie jest to skrajny przypadek clickbaitu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa emocjonalnych słów, co może przyciągać uwagę czytelników.",
+    "Treść artykułu odpowiada tytułowi, ale nie dostarcza wielu szczegółów, które mogłyby go wzmocnić.",
+    "Brak cytatów i konkretnych danych obniża wiarygodność artykułu.",
+    "Tytuł zachęca do kliknięcia, ale nie jest to skrajny przypadek przesadnego nagłówka."
+  ],
+  "summary": "Artykuł opisuje debatę na temat przyszłości Prawa i Sprawiedliwości oraz rozliczeń politycznych, która miała miejsce w programie \"Co mówi Polska\". W programie udział wzięli przedstawiciele różnych partii politycznych, omawiając aktualne wydarzenia i nadchodzące wybory w 2027 roku.",
+  "signals": {
+    "title_hits": [
+      "gorąca debata"
+    ],
+    "content_hits": [
+      "debata",
+      "rozliczenia",
+      "program"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "title_content_match": true,
+      "content_detail_level": "low"
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Debata o przyszłości PiS w programie 'Co mówi Polska'",
+    "notes_to_editor": "Rozważyć dodanie bardziej szczegółowych informacji w treści, aby zwiększyć wiarygodność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 12,
+    "tokens_content": 108,
+    "processing_time_ms": 13800,
+    "model": "gpt-4o-mini"
+  }
+}

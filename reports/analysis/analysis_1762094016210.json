@@ -1,0 +1,53 @@
+{
+  "id": 1762094016210,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/swiat/news-wielka-kradziez-parmezanu-we-wloszech-zlodzieje-wyniesli-ser,nId,8036860",
+  "title": "Wielka kradzież parmezanu we Włoszech. Złodzieje wynieśli ser wart fortunę",
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'wielka kradzież' i 'ser wart fortunę', które mogą wzbudzać ciekawość.",
+    "Treść artykułu dostarcza szczegółowych informacji na temat kradzieży, co jest zgodne z tytułem.",
+    "W artykule występują liczby (200 form parmezanu, wartość 100 tysięcy euro), co zwiększa jego wiarygodność.",
+    "Nie znaleziono istotnych luk ciekawości, ale tytuł może sugerować większe dramatyzowanie sytuacji niż ma to miejsce w treści.",
+    "Zidentyfikowano niewielką niezgodność między tytułem a treścią, ponieważ tytuł sugeruje większą sensacyjność niż jest to przedstawione w artykule."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów, które mogą przyciągać uwagę, jak 'wielka kradzież' i 'fortuna'.",
+    "Artykuł dokładnie opisuje kradzież, co pasuje do tytułu.",
+    "Podano konkretne liczby, co sprawia, że artykuł wydaje się bardziej wiarygodny.",
+    "Nie ma dużych niejasności, ale tytuł może wydawać się bardziej dramatyczny niż sama historia.",
+    "Zauważono niewielkie różnice między tym, co mówi tytuł, a tym, co jest w treści."
+  ],
+  "summary": "W artykule opisano kradzież około 200 form parmezanu w serowarni w Bolonii, której wartość oszacowano na ponad 100 tysięcy euro. Włoskie służby prowadzą śledztwo w tej sprawie, a prezes zakładu wyraził zaskoczenie z powodu tak dużej kradzieży. Eksperci zauważają, że kradzieże parmezanu nie są rzadkością, ale ta sytuacja budzi szczególne poruszenie.",
+  "signals": {
+    "title_hits": [
+      "wielka kradzież",
+      "ser wart fortunę"
+    ],
+    "content_hits": [
+      "200 ogromnych form parmezanu",
+      "wartość zrabowanego sera oszacowano na ponad 100 tysięcy euro",
+      "zuchwała kradzież"
+    ],
+    "credibility_hits": [
+      "Dario Zappoli",
+      "100 tysięcy euro",
+      "monitoring zarejestrował"
+    ],
+    "mismatch": {
+      "title": "Wielka kradzież parmezanu we Włoszech. Złodzieje wynieśli ser wart fortunę",
+      "content": "Około 200 ogromnych form parmezanu padło łupem złodziei w znanej serowarni w prowincji Bolonia we Włoszech."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Kradzież parmezanu w Włoszech - złodzieje wynieśli 200 form sera",
+    "notes_to_editor": "Rozważyć zmianę tytułu na bardziej neutralny, aby zmniejszyć element clickbaitowy."
+  },
+  "diagnostics": {
+    "tokens_title": 12,
+    "tokens_content": 310,
+    "processing_time_ms": 21660,
+    "model": "gpt-4o-mini"
+  }
+}

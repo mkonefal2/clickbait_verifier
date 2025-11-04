@@ -1,0 +1,54 @@
+{
+  "id": 1762020473364,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/slaskie/news-tlenek-wegla-znow-atakuje-piecioosobowa-rodzina-podtrula-sie,nId,8036806",
+  "title": "Tlenek węgla znów atakuje. Pięcioosobowa rodzina podtruła się czadem",
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'znów atakuje', co może wzbudzać emocje.",
+    "Treść artykułu jest zgodna z tytułem, opisując incydent z tlenkiem węgla.",
+    "W tytule użyto liczby 'pięcioosobowa rodzina', co zwiększa wiarygodność.",
+    "W treści znajdują się konkretne dane, takie jak stężenie tlenku węgla oraz liczba osób poszkodowanych.",
+    "Nie znaleziono istotnych luk ciekawości w treści."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa emocjonalnych słów, co może przyciągać uwagę czytelników.",
+    "Artykuł rzeczywiście opisuje sytuację związaną z tlenkiem węgla, co jest zgodne z tytułem.",
+    "Podano konkretne liczby, co sprawia, że artykuł wydaje się bardziej wiarygodny.",
+    "Treść zawiera ważne informacje o zagrożeniu związanym z tlenkiem węgla.",
+    "Nie ma w artykule niejasnych lub mylących informacji."
+  ],
+  "summary": "Pięcioosobowa rodzina z trojgiem dzieci podtruła się tlenkiem węgla w Zwonowicach. Wszyscy zostali przewiezieni do szpitala. Przyczyną podtrucia była niesprawna płyta gazowa oraz słaba bateria w czujniku czadu. Strażacy apelują o regularne sprawdzanie stanu technicznego urządzeń grzewczych.",
+  "signals": {
+    "title_hits": [
+      "atakuje",
+      "podtruła się"
+    ],
+    "content_hits": [
+      "tlenek węgla",
+      "pięcioosobowa rodzina",
+      "czujka czadu",
+      "wysokie stężenie"
+    ],
+    "credibility_hits": [
+      "Wojciech Kasperzec",
+      "800 ppm",
+      "30 zgłoszeń"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "title_summary_match": true
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Incydent z tlenkiem węgla w Zwonowicach: pięcioosobowa rodzina podtruła się",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć emocjonalnego wydźwięku."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 314,
+    "processing_time_ms": 13878,
+    "model": "gpt-4o-mini"
+  }
+}

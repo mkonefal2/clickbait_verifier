@@ -1,0 +1,50 @@
+{
+  "id": 1762267150666,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/ziobro-w-budapeszcie-wegierski-dziennikarz-orban-zrobi-dla-sojusznikow-wszystko/83753lk",
+  "title": "Ziobro dostanie azyl? Węgierski dziennikarz: Orban zrobi wszystko",
+  "score": 62,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera pytanie, co może wzbudzać ciekawość czytelnika (lukę ciekawości).",
+    "Fraza 'Orban zrobi wszystko' jest absolutem, co podnosi stopień clickbaitu.",
+    "Treść artykułu odnosi się do wywiadu z dziennikarzem, co zwiększa wiarygodność, ale nie zmienia sensacyjności tytułu.",
+    "W artykule pojawia się konkretna informacja o Zbigniewie Ziobrze i jego sytuacji prawnej, co jest zgodne z tytułem, ale nie wyczerpuje jego sensacyjności."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł stawia pytanie, co może przyciągać uwagę czytelników.",
+    "Stwierdzenie, że 'Orban zrobi wszystko', jest bardzo mocne i sugeruje dramatyczne wydarzenia.",
+    "Artykuł bazuje na wypowiedzi dziennikarza, co dodaje mu wiarygodności, ale nie zmienia faktu, że tytuł jest sensacyjny.",
+    "Treść artykułu odnosi się do sytuacji Zbigniewa Ziobry, co jest zgodne z tytułem, ale nie wyjaśnia w pełni jego sensacyjnego charakteru."
+  ],
+  "summary": "Artykuł opisuje wizytę Zbigniewa Ziobry w Budapeszcie oraz komentarz węgierskiego dziennikarza Zsolta Sarkadiego na temat polityki Viktora Orbana. Sarkadi wskazuje, że Orban ma długą tradycję udzielania azylów zagranicznym politykom, co może dotyczyć Ziobry, któremu w Polsce grożą prokuratorskie zarzuty.",
+  "signals": {
+    "title_hits": [
+      "azyl",
+      "Orban zrobi wszystko"
+    ],
+    "content_hits": [
+      "Węgierski dziennikarz",
+      "Orban",
+      "Zbigniew Ziobro"
+    ],
+    "credibility_hits": [
+      "Zsolt Sarkadi",
+      "Onet"
+    ],
+    "mismatch": {
+      "exists": false,
+      "details": "Tytuł jest zgodny z treścią artykułu."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Czy Zbigniew Ziobro otrzyma azyl na Węgrzech?",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby zredukować elementy clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 138,
+    "processing_time_ms": 15157,
+    "model": "gpt-4o-mini"
+  }
+}

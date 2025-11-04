@@ -1,0 +1,49 @@
+{
+  "id": 1762085996480,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/slaskie/news-miliony-dla-slaskiego-szpitala-moze-stac-sie-najnowoczesniej,nId,8036311",
+  "title": "Miliony dla śląskiego szpitala. Może stać się najnowocześniejszy w kraju",
+  "score": 36,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazę 'najnowocześniejszy w kraju', co jest absolutem i może wzbudzać ciekawość.",
+    "W treści artykułu znajdują się konkretne liczby dotyczące kwot dofinansowania oraz szczegółowe informacje o planowanych inwestycjach.",
+    "W artykule występują cytaty dyrektora szpitala, co zwiększa wiarygodność informacji.",
+    "Zidentyfikowano niewielką niezgodność między tytułem a treścią, ponieważ tytuł sugeruje pewność, podczas gdy treść mówi o możliwościach."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnego słowa 'najnowocześniejszy', co może przyciągać uwagę, ale nie jest to potwierdzone w treści.",
+    "Artykuł zawiera konkretne informacje o kwotach dofinansowania i planach modernizacji szpitala, co czyni go wiarygodnym.",
+    "Cytaty z dyrektora szpitala dodają autorytetu do przedstawionych informacji.",
+    "Tytuł może być nieco mylący, ponieważ sugeruje pewność, podczas gdy artykuł opisuje plany i możliwości."
+  ],
+  "summary": "Wojewódzki Szpital Specjalistyczny im. św. Barbary w Sosnowcu otrzyma blisko 100 mln zł z Krajowego Planu Odbudowy na rozwój diagnostyki i leczenia onkologicznego. Środki zostaną przeznaczone na zakup nowoczesnych urządzeń oraz cyfryzację placówki, co ma przyczynić się do poprawy jakości leczenia pacjentów.",
+  "signals": {
+    "title_hits": [
+      "najnowocześniejszy"
+    ],
+    "content_hits": [
+      "100 mln zł",
+      "nowoczesnych urządzeń",
+      "cyfryzację"
+    ],
+    "credibility_hits": [
+      "dyrektor placówki",
+      "cytaty"
+    ],
+    "mismatch": {
+      "title": "Może stać się najnowocześniejszy w kraju",
+      "content": "po zmianach sosnowiecki szpital będzie jednym z najnowocześniejszych"
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Dofinansowanie dla śląskiego szpitala na modernizację",
+    "notes_to_editor": "Zaleca się unikanie absolutów w tytule, aby lepiej odzwierciedlić treść artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 318,
+    "processing_time_ms": 12526,
+    "model": "gpt-4o-mini"
+  }
+}

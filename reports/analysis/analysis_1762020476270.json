@@ -1,0 +1,54 @@
+{
+  "id": 1762020476270,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/sport/pilka-nozna/news-co-ze-zdrowiem-lewandowskiego-flick-wydal-oswiadczenie,nId,8036799",
+  "title": "Co ze zdrowiem Lewandowskiego? Flick wydał oświadczenie",
+  "score": 32,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera pytanie, co może budzić ciekawość, ale nie używa ekstremalnych fraz sensacyjnych.",
+    "Treść artykułu jest zgodna z tytułem i dostarcza konkretne informacje o stanie zdrowia Lewandowskiego.",
+    "W artykule nie występują żadne absolutne stwierdzenia ani przesadzone emocje.",
+    "Zidentyfikowano kilka sygnałów wiarygodności, takich jak cytaty i konkretne informacje o zawodnikach.",
+    "Wykryto niewielką lukę ciekawości, ale nie jest ona na tyle silna, aby klasyfikować artykuł jako silnie clickbaitowy."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zadaje pytanie, co może zainteresować czytelników, ale nie jest przesadnie dramatyczny.",
+    "Treść artykułu odpowiada na pytanie zawarte w tytule, dostarczając informacji o zdrowiu Lewandowskiego.",
+    "Nie ma w artykule przesadnych stwierdzeń ani emocjonalnych opisów.",
+    "Artykuł zawiera cytaty i konkretne dane, co zwiększa jego wiarygodność.",
+    "Choć jest kilka elementów, które mogą wzbudzić ciekawość, nie są one na tyle silne, by uznać artykuł za bardzo clickbaitowy."
+  ],
+  "summary": "Trener Barcelony Hansi Flick potwierdził, że Robert Lewandowski i Dani Olmo są zdrowi i gotowi do gry w nadchodzącym meczu. W artykule omówiono także niepewny występ Lamine’a Yamala oraz kontuzje innych zawodników, w tym Pedriego. Barcelona obecnie zajmuje drugie miejsce w tabeli La Liga.",
+  "signals": {
+    "title_hits": [
+      "zdrowiem",
+      "oświadczenie"
+    ],
+    "content_hits": [
+      "potwierdził",
+      "zdrowi",
+      "gotowi do gry"
+    ],
+    "credibility_hits": [
+      "Hansi Flick",
+      "Robert Lewandowski",
+      "Dani Olmo",
+      "cytaty"
+    ],
+    "mismatch": {
+      "title": "Co ze zdrowiem Lewandowskiego?",
+      "content": "Artykuł dotyczy zdrowia Lewandowskiego, co jest zgodne z tytułem."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Stan zdrowia Lewandowskiego i Olmo potwierdzony przez Flicka",
+    "notes_to_editor": "Rozważyć unikanie pytań w tytule, aby zredukować element ciekawości."
+  },
+  "diagnostics": {
+    "tokens_title": 8,
+    "tokens_content": 330,
+    "processing_time_ms": 15680,
+    "model": "gpt-4o-mini"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": 1761934135064,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/politico/zweglone-ciala-na-karaibach-trump-robi-co-chce-a-europa-umywa-rece/w4nsj2b",
+  "title": "Na karaibskie plaże wypływają zwęglone ciała. Efekt brutalnego pokazu siły Donalda Trumpa",
+  "score": 72,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'zwęglone ciała' i 'brutalnego pokazu siły', co zwiększa jego clickbaitowość.",
+    "Treść artykułu odnosi się do tytułu, ale używa dramatycznych sformułowań, co potęguje wrażenie sensacji.",
+    "W artykule występują cytaty, co może podnieść wiarygodność, jednak są one w kontekście emocjonalnym.",
+    "Wykryto brak konkretnych danych liczbowych lub źródeł, co obniża poziom wiarygodności.",
+    "Występuje znaczna niezgodność między tytułem a treścią, ponieważ tytuł sugeruje konkretny incydent, podczas gdy treść jest bardziej ogólnym komentarzem politycznym."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa dramatycznych słów, co sprawia, że wygląda na sensacyjny.",
+    "Treść artykułu odnosi się do tytułu, ale jest napisana w emocjonalnym tonie.",
+    "Artykuł zawiera cytaty, co może zwiększać jego wiarygodność, ale brakuje konkretnych danych.",
+    "Tytuł i treść nie do końca się zgadzają, co może wprowadzać w błąd czytelników."
+  ],
+  "summary": "Artykuł opisuje sytuację na Karaibach w kontekście polityki Donalda Trumpa, wskazując na bezsilność mniejszych państw wobec wielkich mocarstw. Zawiera refleksje na temat brutalności i siły w międzynarodowych relacjach, a także na temat wpływu Trumpa na region.",
+  "signals": {
+    "title_hits": [
+      "zwęglone ciała",
+      "brutalnego pokazu siły"
+    ],
+    "content_hits": [
+      "brutalnego pokazu siły",
+      "bezsilności",
+      "mniejsze państwa"
+    ],
+    "credibility_hits": [
+      "Nahal Toosi",
+      "EPA/Orlando Barria, Andrew CABALLERO-REYNOLDS"
+    ],
+    "mismatch": {
+      "title": "Na karaibskie plaże wypływają zwęglone ciała. Efekt brutalnego pokazu siły Donalda Trumpa",
+      "content": "Artykuł omawia ogólną sytuację polityczną, a nie konkretny incydent."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Sytuacja polityczna na Karaibach w erze Donalda Trumpa",
+    "notes_to_editor": "Rozważyć dodanie konkretnych danych i źródeł dla zwiększenia wiarygodności artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 15,
+    "tokens_content": 138,
+    "processing_time_ms": 15817,
+    "model": "gpt-4o-mini"
+  }
+}

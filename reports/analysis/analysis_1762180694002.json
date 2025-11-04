@@ -1,0 +1,52 @@
+{
+  "id": 1762180694002,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/szef-klubu-pis-o-ziobrze-ma-do-wyboru-droge-meczennika-albo-pozostanie-za-granica/sfx9p9r",
+  "title": "Zbigniew Ziobro schroni się na Węgrzech? \"Ma do wyboru dwie drogi\"",
+  "score": 62,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera pytanie, co może budzić ciekawość, oraz używa frazy 'schroni się', co sugeruje dramatyzm.",
+    "W treści pojawia się cytat z Mariusza Błaszczaka, co zwiększa wiarygodność, ale również zawiera sensacyjne elementy dotyczące zdrowia Ziobry.",
+    "Wykryto lukę ciekawości w tytule, ponieważ nie podano, jakie są konkretne drogi, co może skłaniać do kliknięcia.",
+    "Zgodność tytułu z treścią jest częściowa, ponieważ tytuł sugeruje, że Ziobro może schronić się na Węgrzech, podczas gdy treść koncentruje się na jego wyborze między dwiema drogami."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł stawia pytanie, co może przyciągać uwagę, a także sugeruje dramatyczną sytuację Zbigniewa Ziobry.",
+    "W artykule cytowany jest Mariusz Błaszczak, co dodaje wiarygodności, ale także wprowadza sensacyjne elementy związane z jego zdrowiem.",
+    "Tytuł nie wyjaśnia, jakie dokładnie są te dwie drogi, co może zachęcać do kliknięcia.",
+    "Tytuł i treść nie są całkowicie zgodne, ponieważ tytuł sugeruje, że Ziobro może uciec na Węgry, podczas gdy treść mówi o jego wyborze."
+  ],
+  "summary": "Artykuł omawia wypowiedź Mariusza Błaszczaka na temat Zbigniewa Ziobry, który stoi przed dylematem wyboru między drogą męczennika a pozostaniem za granicą. W kontekście tej decyzji wspomniano o poważnych zarzutach, które mogą zostać postawione Ziobrze. W artykule poruszono również kwestie jego stanu zdrowia.",
+  "signals": {
+    "title_hits": [
+      "schroni się",
+      "ma do wyboru",
+      "dwie drogi"
+    ],
+    "content_hits": [
+      "ma do wyboru",
+      "droga męczennika",
+      "poważnie chory",
+      "26 zarzutów"
+    ],
+    "credibility_hits": [
+      "Mariusz Błaszczak",
+      "Radio Zet"
+    ],
+    "mismatch": {
+      "title": "Zbigniew Ziobro schroni się na Węgrzech?",
+      "content": "Ma do wyboru drogę męczennika albo pozostanie za granicą."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Zbigniew Ziobro przed dylematem: droga męczennika czy pozostanie za granicą?",
+    "notes_to_editor": "Rozważyć zmianę tytułu na bardziej neutralny, aby uniknąć sensacyjności."
+  },
+  "diagnostics": {
+    "tokens_title": 12,
+    "tokens_content": 95,
+    "processing_time_ms": 19203,
+    "model": "gpt-4o-mini"
+  }
+}

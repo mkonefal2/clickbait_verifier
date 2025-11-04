@@ -1,0 +1,45 @@
+{
+  "id": 1761934141145,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/warszawa/nie-zyje-jedna-z-najbogatszych-polek-barbara-komorowska-miala-77-lat/89sn5wr",
+  "title": "Nie żyje jedna z najbogatszych Polek. Barbara Komorowska miała 77 lat",
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'najbogatszych Polek', co może wzbudzać ciekawość.",
+    "Treść artykułu jest zgodna z tytułem, jednak nie dostarcza dodatkowych informacji, które mogłyby zaspokoić ciekawość czytelnika.",
+    "Nie znaleziono wyraźnych sygnałów wiarygodności, takich jak cytaty czy liczby, co wpływa na ocenę.",
+    "Wykryto niewielką liczbę słów w tytule (12) i treści (54), co wskazuje na prostotę przekazu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera zwrot, który może przyciągać uwagę, mówiąc o 'najbogatszych Polek'.",
+    "Treść artykułu jest zgodna z tytułem, ale nie dostarcza dodatkowych informacji, które mogłyby zaspokoić ciekawość czytelnika.",
+    "Brak cytatów lub danych liczbowych, które zwiększałyby wiarygodność artykułu.",
+    "Artykuł jest krótki, co może wpływać na jego odbiór."
+  ],
+  "summary": "Barbara Komorowska, współzałożycielka firmy mleczarskiej Bakoma i jedna z najbogatszych Polek, zmarła w wieku 77 lat. Odeszła 28 października 2025 roku. Była żoną byłego posła PSL Zbigniewa Komorowskiego.",
+  "signals": {
+    "title_hits": [
+      "najbogatszych Polek"
+    ],
+    "content_hits": [
+      "najbogatszych Polek",
+      "77 lat"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "title_content_match": true,
+      "content_details": "Brak dodatkowych informacji w treści."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Zmarła Barbara Komorowska, współzałożycielka firmy Bakoma, miała 77 lat",
+    "notes_to_editor": "Rozważyć dodanie więcej kontekstu lub informacji o życiu i osiągnięciach Barbary Komorowskiej."
+  },
+  "diagnostics": {
+    "tokens_title": 12,
+    "tokens_content": 54,
+    "processing_time_ms": 13057,
+    "model": "gpt-4o-mini"
+  }
+}

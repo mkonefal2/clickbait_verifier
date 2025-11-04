@@ -1,0 +1,52 @@
+{
+  "id": 1762006160949,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/warszawa/polska-liderem-jestesmy-najwiekszym-producentem-swiec-i-zniczy-w-europie/8nvebse",
+  "title": "Polska największym producentem świec i zniczy w Europie. \"Wysoki poziom\"",
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazę 'największym producentem', co jest absolutem.",
+    "W treści występuje konkretna liczba dotycząca eksportu (700 mln euro), co zwiększa wiarygodność.",
+    "W tytule użyto cudzysłowu, co może sugerować sensacyjność, ale nie jest to wyraźny clickbait.",
+    "Zgłoszono niewielką niezgodność między tytułem a treścią, ponieważ tytuł nie podaje szczegółów dotyczących 'wysokiego poziomu'.",
+    "Analiza treści wykazuje umiarkowaną sensacyjność, ale nie jest przesadnie dramatyczna."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów, takich jak 'największym producentem', co może przyciągać uwagę.",
+    "Artykuł zawiera konkretne dane, jak wartość eksportu, co czyni go bardziej wiarygodnym.",
+    "Cytat w tytule może sugerować, że artykuł jest bardziej sensacyjny, ale nie jest to wyraźny przypadek clickbaitu.",
+    "Tytuł i treść są w dużej mierze zgodne, chociaż tytuł nie wyjaśnia, co oznacza 'wysoki poziom'.",
+    "Ogólnie artykuł ma umiarkowany poziom clickbaitu, ale nie jest przesadnie dramatyczny."
+  ],
+  "summary": "Artykuł informuje, że Polska pozostaje największym producentem świec i zniczy w Europie, a jej eksport w ubiegłym roku wyniósł około 700 mln euro. Przedstawiciel branży, Łukasz Kuchta, zauważa, że na rynku pojawiają się także produkty LED-owe z Azji, które stanowią około 14 proc. rynku.",
+  "signals": {
+    "title_hits": [
+      "największym producentem",
+      "Wysoki poziom"
+    ],
+    "content_hits": [
+      "700 mln euro",
+      "produkty LED-owe",
+      "14 proc. rynku"
+    ],
+    "credibility_hits": [
+      "Polska Agencja Prasowa",
+      "Łukasz Kuchta"
+    ],
+    "mismatch": {
+      "title": "Wysoki poziom",
+      "content": "Brak szczegółów na temat 'wysokiego poziomu'"
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Polska liderem w produkcji świec i zniczy w Europie",
+    "notes_to_editor": "Rozważyć dodanie więcej kontekstu do tytułu, aby uniknąć luk ciekawości."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 114,
+    "processing_time_ms": 15351,
+    "model": "gpt-4o-mini"
+  }
+}

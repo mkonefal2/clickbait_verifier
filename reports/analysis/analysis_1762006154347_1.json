@@ -1,0 +1,51 @@
+{
+  "id": 1762006154347,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/przewaga-10-do-1-na-froncie-w-ukrainie-rozgrywa-sie-kluczowa-bitwa/wxgsc6x",
+  "title": "Tak może upaść kolejne ukraińskie miasto. Rosja ma przewagę 10:1. \"Wywołali chaos\"",
+  "score": 66,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'upadek miasta' i 'przewaga 10:1', które mogą wzbudzać emocje.",
+    "W treści artykułu pojawiają się cytaty, co zwiększa wiarygodność, ale również użycie fraz takich jak 'wywołali chaos' jest sensacyjne.",
+    "Występuje pewna niezgodność między tytułem a treścią, ponieważ tytuł sugeruje dramatyczny upadek miasta, podczas gdy treść koncentruje się na sytuacji wojennej.",
+    "Analiza wykazała, że tytuł ma 22 tokeny, a treść 214 tokenów, co wskazuje na różnice w długości i potencjalnej intensywności emocjonalnej."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów, które mogą przyciągać uwagę, jak 'upadek miasta' i 'przewaga 10:1'.",
+    "W artykule są cytaty, co dodaje mu wiarygodności, ale niektóre sformułowania są dramatyczne.",
+    "Tytuł sugeruje, że miasto na pewno upadnie, podczas gdy artykuł opisuje aktualną sytuację, co może wprowadzać w błąd.",
+    "Tytuł jest krótki, a treść znacznie dłuższa, co może wpływać na odbiór informacji."
+  ],
+  "summary": "Artykuł opisuje sytuację w Pokrowsku, gdzie siły rosyjskie mają przewagę w walkach z ukraińskimi żołnierzami. Miasto jest częściowo oblężone, a walki trwają od dłuższego czasu. Ukraińscy oficerowie relacjonują trudności w koordynacji działań oraz chaos wywołany przez rosyjskie ataki.",
+  "signals": {
+    "title_hits": [
+      "upadek",
+      "przewaga 10:1",
+      "wywołali chaos"
+    ],
+    "content_hits": [
+      "przewaga 10 do 1",
+      "wywołali chaos",
+      "ciężkie walki"
+    ],
+    "credibility_hits": [
+      "Julian Ropcke",
+      "Diego Herrera Carcedo / AFP"
+    ],
+    "mismatch": {
+      "title": "Tak może upaść kolejne ukraińskie miasto.",
+      "content": "Artykuł opisuje aktualną sytuację w Pokrowsku, nie przewiduje jednoznacznie upadku miasta."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Sytuacja w Pokrowsku: Rosja ma przewagę 10:1 w walkach.",
+    "notes_to_editor": "Zaleca się unikanie dramatycznych sformułowań w tytule, aby lepiej odzwierciedlić treść artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 22,
+    "tokens_content": 214,
+    "processing_time_ms": 17651,
+    "model": "gpt-4o-mini"
+  }
+}

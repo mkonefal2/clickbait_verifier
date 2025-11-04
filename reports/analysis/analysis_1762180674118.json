@@ -1,0 +1,51 @@
+{
+  "id": 1762180674118,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/polska/news-chorzy-na-raka-odsylani-do-domu-dramatyczna-sytuacja-w-polsk,nId,8037097",
+  "title": "Chorzy na raka odsyłani do domu",
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazę 'odsyłani do domu', co może budzić emocje, ale nie jest skrajnie sensacyjny.",
+    "Treść artykułu dostarcza konkretne informacje o ograniczeniach w przyjęciach pacjentów onkologicznych z powodu wyczerpania limitów finansowych.",
+    "Zidentyfikowano lukę ciekawości w tytule, ale jest ona umiarkowana, ponieważ treść wyjaśnia sytuację.",
+    "W artykule znajdują się konkretne liczby dotyczące finansowania NFZ, co zwiększa wiarygodność.",
+    "Nie stwierdzono znaczących rozbieżności między tytułem a treścią, co sugeruje, że tytuł jest adekwatny."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł może wzbudzać emocje, ale nie jest przesadnie dramatyczny.",
+    "Artykuł opisuje problemy z przyjęciami pacjentów onkologicznych w Polsce z powodu braku funduszy.",
+    "Tytuł i treść są zgodne, co oznacza, że nie wprowadza w błąd.",
+    "Podano konkretne liczby dotyczące finansowania, co dodaje wiarygodności artykułowi."
+  ],
+  "summary": "Artykuł opisuje sytuację w polskich szpitalach, które ograniczają przyjęcia nowych pacjentów, w tym chorych onkologicznie, z powodu wyczerpania limitów finansowych Narodowego Funduszu Zdrowia. Część planowych zabiegów jest przekładana na przyszłość, co budzi niepokój wśród pacjentów i lekarzy.",
+  "signals": {
+    "title_hits": [
+      "odsyłani do domu"
+    ],
+    "content_hits": [
+      "ograniczenia przyjęć",
+      "wyczerpane limity finansowania",
+      "przekładane zabiegi"
+    ],
+    "credibility_hits": [
+      "3,5 mld zł",
+      "10,5 mld zł",
+      "23 mld zł"
+    ],
+    "mismatch": {
+      "exists": false,
+      "description": "Tytuł jest zgodny z treścią artykułu."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Ograniczenia w przyjęciach pacjentów onkologicznych w Polsce",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć emocjonalnego ładunku."
+  },
+  "diagnostics": {
+    "tokens_title": 6,
+    "tokens_content": 353,
+    "processing_time_ms": 18268,
+    "model": "gpt-4o-mini"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": 1762085991882,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/krakow/news-krakowianie-pokazali-wielkie-serce-rekordowy-wynik-zbiorki-n,nId,8036848",
+  "title": "Krakowianie pokazali wielkie serce. Rekordowy wynik zbiórki na cmentarzu",
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'wielkie serce' i 'rekordowy wynik', co może wzbudzać ciekawość.",
+    "Treść artykułu jest zgodna z tytułem, jednak niektóre elementy mogą być uznane za przesadzone.",
+    "W artykule występują liczby (74 tys. zł, 61,5 tys. zł), co zwiększa jego wiarygodność.",
+    "Cytaty znanych osób dodają autorytetu, ale nie są kluczowe dla głównej informacji.",
+    "Zidentyfikowano kilka fraz, które mogą być uznane za clickbaitowe, ale nie dominują one w treści."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa emocjonalnych zwrotów, które mogą przyciągać uwagę, ale nie są całkowicie zgodne z faktami przedstawionymi w artykule.",
+    "Treść artykułu dokładnie opisuje wydarzenie i jego wyniki, co sprawia, że jest zgodna z tytułem.",
+    "W artykule pojawiają się konkretne liczby, co zwiększa jego wiarygodność.",
+    "Cytaty znanych osób dodają wartości, ale nie są kluczowe dla zrozumienia głównego tematu.",
+    "Mimo że artykuł zawiera pewne elementy clickbaitowe, nie są one na tyle silne, aby uznać go za wysoce sensacyjny."
+  ],
+  "summary": "W sobotniej kweście na Cmentarzu Rakowickim w Krakowie zebrano 74 tysiące złotych na renowację zapomnianych nagrobków. W wydarzeniu uczestniczyli wolontariusze oraz znane osoby, w tym Anna Dymna i Robert Makłowicz. Tegoroczny wynik zbiórki jest rekordowy w porównaniu do 61,5 tys. zł zebranych w roku ubiegłym.",
+  "signals": {
+    "title_hits": [
+      "wielkie serce",
+      "rekordowy wynik"
+    ],
+    "content_hits": [
+      "74 tysiące złotych",
+      "61,5 tys. zł"
+    ],
+    "credibility_hits": [
+      "Anna Dymna",
+      "Robert Makłowicz",
+      "prezydent Krakowa"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "mismatch_score": 0
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Rekordowa kwesta na Cmentarzu Rakowickim w Krakowie",
+    "notes_to_editor": "Rozważyć użycie bardziej neutralnego języka w tytule, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 204,
+    "processing_time_ms": 16802,
+    "model": "gpt-4o-mini"
+  }
+}

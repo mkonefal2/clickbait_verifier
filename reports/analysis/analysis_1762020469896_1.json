@@ -1,0 +1,53 @@
+{
+  "id": 1762020469896,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/kultura/news-to-sie-nazywa-przebranie-heidi-klum-znowu-pokazala-na-co-ja-,nId,8036802",
+  "title": "To się nazywa przebranie! Heidi Klum znowu pokazała, na co ją stać",
+  "score": 62,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'to się nazywa przebranie' oraz 'na co ją stać', co wzbudza ciekawość.",
+    "Treść artykułu dostarcza szczegółowych informacji o kostiumie Heidi Klum, co jest zgodne z tytułem, ale nie wyczerpuje wszystkich obietnic tytułu.",
+    "W artykule występują liczby, takie jak 'ponad 35 osób' zaangażowanych w stworzenie kostiumu, co dodaje wiarygodności.",
+    "W treści brakuje cytatów i bezpośrednich odniesień do źródeł, co obniża poziom wiarygodności.",
+    "Analiza mismatch wykazała, że tytuł i treść są częściowo zgodne, ale tytuł sugeruje większą sensacyjność, niż jest to przedstawione w treści."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jest chwytliwy i zawiera zwroty, które przyciągają uwagę, co może sugerować, że artykuł jest bardziej sensacyjny.",
+    "Treść artykułu opisuje kostium Heidi Klum na imprezie Halloween, co jest zgodne z tytułem, ale nie wyczerpuje wszystkich obietnic zawartych w tytule.",
+    "Artykuł zawiera konkretne liczby, co sprawia, że jest bardziej wiarygodny, ale brakuje mu cytatów i źródeł.",
+    "Ogólnie tytuł i treść są zgodne, ale tytuł może sugerować większą sensacyjność niż to, co jest faktycznie w artykule."
+  ],
+  "summary": "Artykuł opisuje występ Heidi Klum na corocznej imprezie Halloween w Nowym Jorku, gdzie zaprezentowała przerażający kostium Meduzy. W treści wymieniono również inne znane osobistości, które wzięły udział w wydarzeniu oraz ich oryginalne przebrania. Klum, znana z kreatywnych kostiumów, zaskoczyła wszystkich swoim nowym wcieleniem.",
+  "signals": {
+    "title_hits": [
+      "przebranie",
+      "pokazała",
+      "na co ją stać"
+    ],
+    "content_hits": [
+      "Heidi Klum",
+      "Halloween",
+      "kostium",
+      "Meduza",
+      "35 osób"
+    ],
+    "credibility_hits": [
+      "35 osób"
+    ],
+    "mismatch": {
+      "title": "Tytuł sugeruje większą sensacyjność",
+      "content": "Treść dostarcza konkretne informacje, ale nie wyczerpuje wszystkich obietnic tytułu"
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Heidi Klum zaprezentowała kostium Meduzy na imprezie Halloween",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 14,
+    "tokens_content": 317,
+    "processing_time_ms": 15585,
+    "model": "gpt-4o-mini"
+  }
+}

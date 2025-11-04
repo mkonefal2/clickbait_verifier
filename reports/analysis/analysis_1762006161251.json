@@ -1,0 +1,52 @@
+{
+  "id": 1762006161251,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/wroclaw/tragiczny-wypadek-na-dk-35-jedna-osoba-nie-zyje-droga-zablokowana/m9zdb0f",
+  "title": "Tragiczny wypadek na DK 35. Jedna osoba nie żyje. Droga zablokowana",
+  "score": 20,
+  "label": "not_clickbait",
+  "rationale": [
+    "Tytuł zawiera konkretne informacje o wypadku, nie używa sensacyjnych fraz ani absolutów.",
+    "Treść artykułu jest zgodna z tytułem, opisując wypadek i jego konsekwencje.",
+    "Brak luk ciekawości, ponieważ artykuł podaje wszystkie istotne informacje.",
+    "W artykule znajdują się źródła (Polska Agencja Prasowa) oraz konkretne liczby (jedna osoba zginęła, sześć zastępów straży pożarnej)."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jest jasny i informacyjny, nie zawiera przesadnych stwierdzeń ani emocjonalnych słów.",
+    "Treść artykułu odpowiada tytułowi, dokładnie opisując zdarzenie.",
+    "Nie ma w artykule niejasności ani pytań, które mogłyby wzbudzić ciekawość czytelnika.",
+    "Artykuł powołuje się na wiarygodne źródło i podaje konkretne dane dotyczące wypadku."
+  ],
+  "summary": "Na drodze krajowej nr 35 między Gniechowicami a Małuszowem doszło do tragicznego wypadku, w wyniku którego jedna osoba zginęła. Droga jest zablokowana, a na miejscu zdarzenia pracuje sześć zastępów straży pożarnej. Wypadek miał miejsce po godzinie 9.",
+  "signals": {
+    "title_hits": [
+      "tragiczny",
+      "nie żyje",
+      "droga zablokowana"
+    ],
+    "content_hits": [
+      "tragiczny wypadek",
+      "jedna osoba nie żyje",
+      "droga zablokowana",
+      "zderzyły się dwa samochody"
+    ],
+    "credibility_hits": [
+      "Polska Agencja Prasowa",
+      "sześć zastępów straży pożarnej"
+    ],
+    "mismatch": {
+      "exists": false,
+      "details": "Tytuł i treść są zgodne."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Wypadek na DK 35 - jedna osoba nie żyje, droga zablokowana",
+    "notes_to_editor": "Artykuł jest informacyjny i nie zawiera elementów clickbaitowych."
+  },
+  "diagnostics": {
+    "tokens_title": 12,
+    "tokens_content": 75,
+    "processing_time_ms": 13884,
+    "model": "gpt-4o-mini"
+  }
+}

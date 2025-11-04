@@ -1,0 +1,49 @@
+{
+  "id": 1762006151005,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/szalony-pomysl-dotyczacy-ratownikow-medycznych-chaos-to-malo-powiedziane/xhgpgb1",
+  "title": "\"Szalony pomysł\" dotyczący ratowników medycznych. \"Chaos to mało powiedziane\"",
+  "score": 68,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne i absoluty, takie jak 'szalony pomysł' i 'chaos to mało powiedziane', co zwiększa jego clickbaitowość.",
+    "Treść artykułu odnosi się do kontrowersyjnego pomysłu dotyczącego wyposażenia ratowników medycznych, co jest zgodne z tytułem, ale nie dostarcza szczegółowych informacji.",
+    "W artykule brakuje konkretnych danych lub cytatów, co wpływa negatywnie na sygnały wiarygodności.",
+    "Mismatched detection jest umiarkowane, ponieważ tytuł i treść są ze sobą spójne, ale tytuł jest bardziej dramatyczny niż treść.",
+    "Waga tytułu (0.4) i mismatch (0.4) przyczyniły się do wysokiego wyniku clickbaitu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa emocjonalnych słów, co przyciąga uwagę, ale może wprowadzać w błąd.",
+    "Treść artykułu dotyczy kontrowersyjnego pomysłu dotyczącego ratowników, co jest zgodne z tytułem, ale nie wyjaśnia wszystkiego.",
+    "Brak konkretów i źródeł w artykule sprawia, że jest mniej wiarygodny.",
+    "Tytuł i treść są spójne, ale tytuł jest bardziej dramatyczny niż sama treść."
+  ],
+  "summary": "Artykuł omawia kontrowersyjny pomysł dotyczący wyposażenia ratowników medycznych w kamizelki nożoodporne. Autor wskazuje na potencjalne zagrożenia związane z tym pomysłem, podkreślając, że może to wpłynąć na życie i zdrowie ludzi. Dodatkowo, porusza problem higieny w karetkach pogotowia.",
+  "signals": {
+    "title_hits": [
+      "szalony pomysł",
+      "chaos"
+    ],
+    "content_hits": [
+      "chaos to mało powiedziane",
+      "wielki żart",
+      "życie i zdrowie ludzi"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "title_content_match": true,
+      "title_dramatic": true,
+      "content_detail_level": "low"
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Kontrowersyjny pomysł dotyczący wyposażenia ratowników medycznych",
+    "notes_to_editor": "Rozważyć dodanie konkretnych danych lub źródeł dla zwiększenia wiarygodności artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 14,
+    "tokens_content": 92,
+    "processing_time_ms": 17286,
+    "model": "gpt-4o-mini"
+  }
+}

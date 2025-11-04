@@ -1,0 +1,50 @@
+{
+  "id": 1762020483906,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/mroczna-strona-rzadow-zelenskiego-potrzebuja-teraz-kozla-ofiarnego/p5zrx6v",
+  "title": "Mroczna strona rządów Wołodymyra Zełenskiego. \"Potrzebują teraz kozła ofiarnego\"",
+  "score": 62,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne: 'mroczna strona', 'kozła ofiarnego', co zwiększa jego clickbaitowość.",
+    "Treść artykułu odnosi się do krytyki rządów Zełenskiego, co jest zgodne z tytułem, ale używa emocjonalnego języka.",
+    "W treści znajdują się wypowiedzi ekspertów, co dodaje wiarygodności, ale nie zmienia ogólnego charakteru artykułu.",
+    "Wykryto niezgodność w tytule i treści, ponieważ tytuł sugeruje bardziej dramatyczne wnioski niż te zawarte w artykule."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów, które przyciągają uwagę, jak 'mroczna strona' i 'kozła ofiarnego'.",
+    "Artykuł rzeczywiście omawia krytykę rządów Zełenskiego, ale nieco mniej dramatycznie niż sugeruje tytuł.",
+    "W artykule są cytaty ekspertów, co sprawia, że jest bardziej wiarygodny, ale nadal ma sensacyjny ton.",
+    "Tytuł i treść nie do końca się zgadzają, ponieważ tytuł sugeruje większe kontrowersje niż te, które są przedstawione w artykule."
+  ],
+  "summary": "Artykuł omawia krytykę rządów Wołodymyra Zełenskiego, wskazując na oskarżenia o autorytaryzm oraz działania mające na celu uciszenie krytyków. Eksperci zwracają uwagę na niepokojące aspekty jego przywództwa, a także na sytuację polityczną w Ukrainie. W artykule pojawiają się opinie zarówno zwolenników, jak i przeciwników Zełenskiego.",
+  "signals": {
+    "title_hits": [
+      "mroczna strona",
+      "kozła ofiarnego"
+    ],
+    "content_hits": [
+      "autorytaryzm",
+      "niepokojącego",
+      "ofiara"
+    ],
+    "credibility_hits": [
+      "ekspert z renomowanego think tanku",
+      "była wicepremier Ukrainy"
+    ],
+    "mismatch": {
+      "title": "Mroczna strona rządów Wołodymyra Zełenskiego. 'Potrzebują teraz kozła ofiarnego'",
+      "content": "Mroczna strona rządów Wołodymyra Zełenskiego. 'Potrzebują teraz kozła ofiarnego'"
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Krytyka rządów Wołodymyra Zełenskiego i oskarżenia o autorytaryzm",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby lepiej odzwierciedlić treść artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 14,
+    "tokens_content": 158,
+    "processing_time_ms": 15677,
+    "model": "gpt-4o-mini"
+  }
+}

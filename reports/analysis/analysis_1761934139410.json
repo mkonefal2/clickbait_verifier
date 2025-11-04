@@ -1,0 +1,50 @@
+{
+  "id": 1761934139410,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/viktor-orban-w-potrzasku-usa-i-ue-dokrecaja-srube-wegry-musza-zdecydowac-albo-sa/sxnm1n7",
+  "title": "Viktor Orban w potrzasku. Musi szukać przyjaciół tam, gdzie dotąd widział wrogów",
+  "score": 55,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'w potrzasku' i 'muszą szukać przyjaciół', które mogą wzbudzać emocje.",
+    "Treść artykułu odnosi się do sytuacji Węgier w kontekście polityki międzynarodowej, co jest zgodne z tytułem, ale nie dostarcza szczegółowych informacji.",
+    "W artykule pojawiają się cytaty i odniesienia do analityków, co zwiększa jego wiarygodność.",
+    "Zidentyfikowano niezgodność między tytułem a treścią, ponieważ tytuł sugeruje dramatyzm, podczas gdy treść jest bardziej analityczna."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa emocjonalnych sformułowań, co może przyciągać uwagę czytelników.",
+    "Treść artykułu wyjaśnia sytuację Węgier w kontekście polityki międzynarodowej, co jest zgodne z tytułem, ale nie jest tak dramatyczne, jak sugeruje tytuł.",
+    "Artykuł zawiera wypowiedzi ekspertów, co podnosi jego wiarygodność.",
+    "Tytuł może wprowadzać w błąd, sugerując większy dramatyzm niż jest w rzeczywistości."
+  ],
+  "summary": "Artykuł opisuje sytuację Węgier w kontekście rosnących sankcji USA i UE wobec Rosji, które zmuszają kraj do zmiany polityki energetycznej. Premier Viktor Orban stoi przed dylematem wyboru między członkostwem w UE a współpracą z Rosją. W artykule cytowani są eksperci, którzy komentują trudności związane z alternatywnymi dostawami ropy z Chorwacji.",
+  "signals": {
+    "title_hits": [
+      "w potrzasku",
+      "muszą szukać przyjaciół"
+    ],
+    "content_hits": [
+      "sankcje",
+      "dostawy",
+      "wspierają rosyjską agresję"
+    ],
+    "credibility_hits": [
+      "Tamas Pletser",
+      "analityk ds. ropy i gazu"
+    ],
+    "mismatch": {
+      "title": "Viktor Orban w potrzasku. Musi szukać przyjaciół tam, gdzie dotąd widział wrogów",
+      "content": "Artykuł analizuje polityczną sytuację Węgier i nie dostarcza dramatycznych informacji."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Węgry w trudnej sytuacji politycznej wobec sankcji USA i UE",
+    "notes_to_editor": "Rozważyć użycie mniej emocjonalnych sformułowań w tytule."
+  },
+  "diagnostics": {
+    "tokens_title": 15,
+    "tokens_content": 233,
+    "processing_time_ms": 19177,
+    "model": "gpt-4o-mini"
+  }
+}

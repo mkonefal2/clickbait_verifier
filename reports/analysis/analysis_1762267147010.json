@@ -1,0 +1,45 @@
+{
+  "id": 1762267147010,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/religia/aktualnosci/oblezenie-jasnej-gory-prawda-byla-zupelnie-inna/p08g8cb",
+  "title": "Oblężenie Jasnej Góry. Prawda była zupełnie inna",
+  "score": 55,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazę 'prawda była zupełnie inna', co wzbudza ciekawość i sugeruje sensacyjny charakter informacji.",
+    "Treść artykułu odnosi się do historycznych faktów, ale nie dostarcza wystarczających dowodów na poparcie twierdzeń zawartych w tytule.",
+    "W artykule brak jest cytatów, liczb czy odniesień do wiarygodnych źródeł, co obniża jego wiarygodność.",
+    "Występuje niezgodność między tytułem a treścią, ponieważ tytuł sugeruje kontrowersyjną prawdę, podczas gdy treść jest bardziej informacyjna."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł sugeruje, że artykuł ujawnia kontrowersyjną prawdę, co przyciąga uwagę.",
+    "Artykuł opisuje historyczne wydarzenia, ale nie dostarcza dowodów na poparcie twierdzeń z tytułu.",
+    "Brak cytatów i odniesień do źródeł sprawia, że artykuł wydaje się mniej wiarygodny.",
+    "Tytuł i treść nie do końca się zgadzają, co może wprowadzać w błąd."
+  ],
+  "summary": "Artykuł omawia oblężenie Jasnej Góry, wskazując, że wydarzenia historyczne były inne niż powszechnie sądzono. Autor podkreśla, że klasztor był atakowany przez polskie oddziały, a nie było tu objawień jak w innych sanktuariach. Jasna Góra jest ważnym centrum kultu maryjnego w Polsce, odwiedzanym przez tysiące pielgrzymów.",
+  "signals": {
+    "title_hits": [
+      "prawda była zupełnie inna"
+    ],
+    "content_hits": [
+      "oblężenie Jasnej Góry",
+      "najważniejsze centrum kultu maryjnego"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "title": "Oblężenie Jasnej Góry. Prawda była zupełnie inna",
+      "content": "Treść artykułu jest bardziej informacyjna i nie dostarcza dowodów na sensacyjność tytułu."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Oblężenie Jasnej Góry: Fakty historyczne",
+    "notes_to_editor": "Zaleca się dodanie cytatów lub odniesień do źródeł, aby zwiększyć wiarygodność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 8,
+    "tokens_content": 104,
+    "processing_time_ms": 14550,
+    "model": "gpt-4o-mini"
+  }
+}

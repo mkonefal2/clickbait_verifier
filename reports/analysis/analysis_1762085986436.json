@@ -1,0 +1,52 @@
+{
+  "id": 1762085986436,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/swiat/news-trump-grozi-szybka-i-brutalna-interwencja-militarna-w-nigeri,nId,8036823",
+  "title": "Trump grozi \"szybką i brutalną\" interwencją militarną w Nigerii",
+  "score": 62,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne: 'szybką i brutalną', co wzbudza emocje.",
+    "Treść artykułu potwierdza groźby Trumpa, ale nie dostarcza dowodów na masowe mordy.",
+    "W treści występują absoluty, takie jak 'natychmiast' i 'wszelką pomoc', co zwiększa clickbaitowość.",
+    "Zidentyfikowano niezgodność między tytułem a treścią, ponieważ tytuł sugeruje dramatyczną sytuację, podczas gdy artykuł przedstawia bardziej złożony kontekst.",
+    "Cytaty z Trumpa i innych źródeł zwiększają wiarygodność, ale nie są wystarczające, aby zneutralizować clickbaitowy charakter tytułu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa emocjonalnych słów, co przyciąga uwagę czytelników.",
+    "Artykuł opisuje groźby Trumpa dotyczące Nigerii, ale nie przedstawia dowodów na jego oskarżenia.",
+    "W treści pojawiają się mocne słowa, które mogą wywoływać silne reakcje.",
+    "Tytuł może sugerować dramatyzm, który nie do końca odzwierciedla złożoność sytuacji opisywanej w artykule.",
+    "Cytaty z różnych osób dodają kontekstu, ale nie zmieniają sensacji w tytule."
+  ],
+  "summary": "Donald Trump zapowiedział interwencję militarną USA w Nigerii, jeśli rząd nie podejmie działań przeciwko prześladowaniom chrześcijan. W artykule omawiane są również reakcje rządu Nigerii oraz kontekst religijnych napięć w kraju. Trump ogłosił wstrzymanie pomocy dla Nigerii, co wywołało kontrowersje.",
+  "signals": {
+    "title_hits": [
+      "szybką i brutalną"
+    ],
+    "content_hits": [
+      "szybką i brutalną",
+      "natychmiast",
+      "wszelką pomoc"
+    ],
+    "credibility_hits": [
+      "Donald Trump zapowiedział",
+      "oświadczenie opublikował",
+      "cytaty z Trumpa"
+    ],
+    "mismatch": {
+      "title": "Tytuł sugeruje dramatyczną sytuację, podczas gdy treść przedstawia bardziej złożony kontekst.",
+      "content": "Artykuł dostarcza informacji o groźbach Trumpa, ale nie potwierdza ich w sposób jednoznaczny."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Trump zapowiada interwencję militarną w Nigerii w obliczu oskarżeń o prześladowania chrześcijan",
+    "notes_to_editor": "Rozważyć zmianę tytułu na bardziej neutralny, aby uniknąć wrażenia sensacyjności."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 509,
+    "processing_time_ms": 17116,
+    "model": "gpt-4o-mini"
+  }
+}

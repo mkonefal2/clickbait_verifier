@@ -1,0 +1,45 @@
+{
+  "id": 1762267151875,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/warszawa/7-latek-zakrztusil-sie-zelkami-nowe-informacje-o-tragedii/qgdltkb",
+  "title": "7-latek zakrztusił się żelkami. Nowe informacje o tragedii",
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'tragedia', co może wzbudzać emocje.",
+    "Treść artykułu jest zgodna z tytułem, ale nie dostarcza nowych informacji poza tym, co już jest w tytule.",
+    "W artykule nie ma cytatów ani konkretnych liczb, co obniża wiarygodność.",
+    "Wykryto lukę ciekawości w tytule, ale nie jest ona zbyt intensywna."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'tragedia', co może przyciągać uwagę czytelników.",
+    "Treść artykułu odpowiada tytułowi, ale nie wnosi wiele nowego.",
+    "Brak cytatów i konkretnych danych wpływa na postrzeganą wiarygodność informacji.",
+    "Tytuł sugeruje dramatyczną sytuację, ale nie jest to przesadzone."
+  ],
+  "summary": "Artykuł opisuje tragiczną sytuację, w której 7-letni chłopiec zakrztusił się żelkami i zmarł po próbie reanimacji. Zdarzenie miało miejsce w Warszawie, a wstępne ustalenia wskazują na nieszczęśliwy wypadek. Policja prowadzi dochodzenie w tej sprawie.",
+  "signals": {
+    "title_hits": [
+      "tragedia"
+    ],
+    "content_hits": [
+      "zakrztusił się",
+      "nieszczęśliwy wypadek"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "title": "7-latek zakrztusił się żelkami. Nowe informacje o tragedii",
+      "content": "7-latek zakrztusił się żelkami. Nowe informacje o tragedii"
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "7-latek zmarł po zakrztuszeniu się żelkami",
+    "notes_to_editor": "Rozważyć użycie mniej emocjonalnych słów w tytule."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 90,
+    "processing_time_ms": 12839,
+    "model": "gpt-4o-mini"
+  }
+}

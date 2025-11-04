@@ -1,0 +1,46 @@
+{
+  "id": 1762006153452,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/nadchodzi-cios-brexitu-giganci-zabieraja-pieniadze-i-uciekaja-z-londynu/02t7kj6",
+  "title": "Brytyjczycy rozżaleni. Zrozumieli, co zrobili, opuszczając UE",
+  "score": 62,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera emocjonalne słowa takie jak 'rozżaleni' i 'zrozumieli', co wskazuje na sensacyjny ton.",
+    "Treść artykułu używa fraz takich jak 'cios brexitu' oraz 'giganci zabierają pieniądze', co wzmacnia wrażenie dramatyzmu.",
+    "W artykule nie ma wyraźnych cytatów ani danych liczbowych, co obniża sygnały wiarygodności.",
+    "Występuje niezgodność między tytułem a treścią, ponieważ tytuł sugeruje osobiste odczucia Brytyjczyków, podczas gdy treść koncentruje się na faktach dotyczących gospodarki."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa emocjonalnych słów, co sprawia, że brzmi sensacyjnie.",
+    "W treści artykułu pojawiają się dramatyczne frazy, które podkreślają negatywne skutki brexitu.",
+    "Brak cytatów i konkretów osłabia wiarygodność artykułu.",
+    "Tytuł sugeruje osobiste odczucia, a treść skupia się na faktach, co wprowadza niezgodność."
+  ],
+  "summary": "Artykuł opisuje negatywne skutki brexitu dla Londynu, wskazując na przenoszenie oddziałów banków do Unii Europejskiej. Brytyjczycy wyrażają swoje rozczarowanie, ponieważ sytuacja gospodarcza kraju pogarsza się, wbrew obietnicom byłego premiera Borisa Johnsona. Londyn traci na znaczeniu jako centrum finansowe.",
+  "signals": {
+    "title_hits": [
+      "rozżaleni",
+      "zrozumieli"
+    ],
+    "content_hits": [
+      "cios brexitu",
+      "giganci zabierają pieniądze"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "title": "Brytyjczycy rozżaleni. Zrozumieli, co zrobili, opuszczając UE",
+      "content": "Cios brexitu dopiero nadchodzi. Jest gorzej, niż wszyscy zakładali."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Brytyjczycy obawiają się skutków brexitu i przenoszenia firm z Londynu",
+    "notes_to_editor": "Rozważyć dodanie cytatów lub danych liczbowych dla zwiększenia wiarygodności artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 136,
+    "processing_time_ms": 14163,
+    "model": "gpt-4o-mini"
+  }
+}

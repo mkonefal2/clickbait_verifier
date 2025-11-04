@@ -1,0 +1,46 @@
+{
+  "id": 1762267140840,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/gdzie-jest-zbigniew-ziobro-jego-zona-zabrala-glos-bedzie-informowac/hjmftx0",
+  "title": "Żona Ziobry o jego powrocie do kraju. \"Mąż sam poinformuje\"",
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazę, która może budzić ciekawość ('Mąż sam poinformuje'), co może sugerować pewien stopień clickbaitu.",
+    "Treść artykułu jest zgodna z tytułem, co zmniejsza ryzyko mismatchu.",
+    "W treści pojawia się konkretna informacja o liczbie zarzutów (26), co zwiększa wiarygodność.",
+    "Brak innych sygnałów wiarygodności, takich jak dodatkowe źródła czy cytaty z ekspertów."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera zwrot, który może przyciągać uwagę, co sugeruje umiarkowany poziom clickbaitu.",
+    "Treść artykułu odpowiada tytułowi, więc nie ma rozbieżności między nimi.",
+    "W artykule podano konkretne informacje o liczbie zarzutów, co dodaje mu wiarygodności.",
+    "Brakuje jednak dodatkowych źródeł czy cytatów, które mogłyby wzmocnić zaufanie do informacji."
+  ],
+  "summary": "Artykuł informuje o Zbigniewie Ziobrze, który przebywał na Węgrzech i ma stawić czoła 26 zarzutom. Jego żona, Patrycja Kotecka-Ziobro, przekazała, że mąż sam będzie informować opinię publiczną o swoim powrocie do kraju. W czwartek sejmowa komisja regulaminowa zajmie się wnioskiem o uchylenie immunitetu polityka.",
+  "signals": {
+    "title_hits": [
+      "Mąż sam poinformuje"
+    ],
+    "content_hits": [
+      "26 zarzutów"
+    ],
+    "credibility_hits": [
+      "Patrycja Kotecka-Ziobro"
+    ],
+    "mismatch": {
+      "title": "Żona Ziobry o jego powrocie do kraju. \"Mąż sam poinformuje\"",
+      "content": "Gdzie przebywa Zbigniew Ziobro? \"Sam będzie informować\""
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Informacje o Zbigniewie Ziobrze i jego żony na temat powrotu do kraju",
+    "notes_to_editor": "Rozważyć dodanie więcej kontekstu lub źródeł, aby zwiększyć wiarygodność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 99,
+    "processing_time_ms": 15939,
+    "model": "gpt-4o-mini"
+  }
+}

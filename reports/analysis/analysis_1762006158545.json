@@ -1,0 +1,49 @@
+{
+  "id": 1762006158545,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/viktor-orban-ostro-krytykuje-donalda-tuska-jest-w-trybie-paniki/d8syn9w",
+  "title": "Viktor Orban uderza w Donalda Tuska. \"Jest w trybie paniki\"",
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazę sensacyjną 'uderza w', co może sugerować dramatyzm.",
+    "W treści pojawia się cytat z Viktora Orbana, co zwiększa wiarygodność.",
+    "Zidentyfikowano lukę ciekawości w tytule, która może przyciągać czytelników.",
+    "Zgłoszono nieznaczną niezgodność między tytułem a treścią, ponieważ tytuł sugeruje większą intensywność krytyki niż jest to przedstawione w artykule."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnego języka, co może przyciągać uwagę, ale nieco przesadza z dramatyzmem.",
+    "W artykule znajduje się cytat, co dodaje mu wiarygodności.",
+    "Tytuł może wzbudzać ciekawość, ale nie do końca odpowiada treści.",
+    "Krytyka Orbana jest przedstawiona, ale nie jest tak intensywna, jak sugeruje tytuł."
+  ],
+  "summary": "Artykuł opisuje krytykę, jaką Viktor Orban skierował pod adresem Donalda Tuska, oskarżając go o atak na Węgry. Wspomniano o wcześniejszych wypowiedziach Tuska dotyczących spotkania Orbana ze Zbigniewem Ziobrą. Całość opublikowano w mediach społecznościowych przez Orbana.",
+  "signals": {
+    "title_hits": [
+      "uderza",
+      "trybie paniki"
+    ],
+    "content_hits": [
+      "ostro krytykuje",
+      "jest w trybie paniki"
+    ],
+    "credibility_hits": [
+      "Polska Agencja Prasowa",
+      "Dziennikarze Onet Wiadomości"
+    ],
+    "mismatch": {
+      "title": "Viktor Orban uderza w Donalda Tuska. \"Jest w trybie paniki\"",
+      "content": "Viktor Orban ostro krytykuje Donalda Tuska."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Viktor Orban krytykuje Donalda Tuska za jego wypowiedzi",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 85,
+    "processing_time_ms": 17173,
+    "model": "gpt-4o-mini"
+  }
+}

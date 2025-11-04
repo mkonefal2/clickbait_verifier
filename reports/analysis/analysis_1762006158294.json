@@ -1,0 +1,49 @@
+{
+  "id": 1762006158294,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/ukraincy-uderzyli-w-rosyjska-elektrocieplownie-cios-dla-logistyki-rosji/0wrsntc",
+  "title": "Ukraińcy uderzyli w elektrociepłownię. \"Cios dla logistyki Rosji\"",
+  "score": 55,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazę sensacyjną 'Cios dla logistyki Rosji', co zwiększa jego clickbaitowość.",
+    "Treść artykułu jest zgodna z tytułem, jednak użycie słowa 'cios' w tytule sugeruje większe dramatyzowanie sytuacji.",
+    "W treści występują konkretne informacje o ataku, co podnosi wiarygodność, ale nie zmienia sensacyjnego tonu tytułu.",
+    "Zidentyfikowano 3 frazy sensacyjne w tytule i 2 w treści, co wpływa na wyższy wynik clickbaitu.",
+    "Mismatched detection wykazał, że tytuł i treść są zgodne, ale tytuł jest bardziej dramatyczny."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów, które przyciągają uwagę, jak 'cios', co może sugerować większe dramatyzowanie sytuacji.",
+    "Treść artykułu rzeczywiście opisuje atak na elektrociepłownię, ale tytuł może wprowadzać w błąd co do skali wydarzenia.",
+    "W artykule są konkretne informacje, co zwiększa jego wiarygodność, mimo że tytuł jest bardziej sensacyjny.",
+    "Zidentyfikowano kilka zwrotów, które mogą być uznane za sensacyjne, co wpływa na ocenę clickbaitu."
+  ],
+  "summary": "Artykuł opisuje atak ukraińskiej marynarki wojennej na rosyjską elektrociepłownię Orłowska oraz podstację energetyczną Nowobrianska. Informacje pochodzą z agencji Interfax-Ukraina i dotyczą wpływu tego ataku na logistykę Rosji. Podano również szczegóły dotyczące użytych pocisków Neptun.",
+  "signals": {
+    "title_hits": [
+      "Cios dla logistyki Rosji"
+    ],
+    "content_hits": [
+      "ukraińska marynarka wojenna",
+      "pociski Neptun"
+    ],
+    "credibility_hits": [
+      "Polska Agencja Prasowa",
+      "Interfax-Ukraina"
+    ],
+    "mismatch": {
+      "is_mismatch": false,
+      "details": "Tytuł i treść są zgodne, ale tytuł jest bardziej dramatyczny."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Ukraińcy przeprowadzili atak na rosyjską elektrociepłownię.",
+    "notes_to_editor": "Rozważyć użycie mniej dramatycznego języka w tytule, aby lepiej odzwierciedlić treść artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 13,
+    "tokens_content": 78,
+    "processing_time_ms": 16338,
+    "model": "gpt-4o-mini"
+  }
+}

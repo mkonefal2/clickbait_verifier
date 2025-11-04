@@ -1,0 +1,48 @@
+{
+  "id": 1762094020506,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/slask/tragedia-kolo-rybnika-41-letni-motocyklista-potracony-podczas-wyprzedzania/xs47d20",
+  "title": "Tragedia koło Rybnika. Nie żyje 41-letni motocyklista",
+  "score": 20,
+  "label": "not_clickbait",
+  "rationale": [
+    "Tytuł zawiera słowo 'tragedia', które może być uznane za sensacyjne, ale nie jest to fraza absolutna ani luk ciekawości.",
+    "Treść artykułu jest zgodna z tytułem, nie ma rozbieżności.",
+    "Brak fraz sensacyjnych i absolutów w treści.",
+    "Artykuł zawiera konkretne informacje o wypadku, co zwiększa jego wiarygodność."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'tragedia', co może przyciągać uwagę, ale nie jest to przesadzone.",
+    "Treść artykułu dokładnie odpowiada tytułowi, nie ma w niej nieścisłości.",
+    "W artykule nie ma przesadnych lub sensacyjnych zwrotów.",
+    "Podano konkretne informacje o wypadku, co sprawia, że artykuł jest wiarygodny."
+  ],
+  "summary": "Na trasie w kierunku Żor na Śląsku doszło do tragicznego wypadku, w którym 41-letni motocyklista został śmiertelnie potrącony przez kierowcę samochodu osobowego. Kierowca nie zauważył motocyklisty, który już wykonywał manewr wyprzedzania. Policja prowadzi dochodzenie w tej sprawie.",
+  "signals": {
+    "title_hits": [
+      "tragedia"
+    ],
+    "content_hits": [
+      "41-letni motocyklista",
+      "potrącił",
+      "wypadku"
+    ],
+    "credibility_hits": [
+      "Policja Śląska",
+      "Dziennikarze Onet Wiadomości"
+    ],
+    "mismatch": {
+      "title_content_match": true
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Wypadek drogowy koło Rybnika. Zginął 41-letni motocyklista",
+    "notes_to_editor": "Rozważyć użycie bardziej neutralnego języka w tytule."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 77,
+    "processing_time_ms": 17917,
+    "model": "gpt-4o-mini"
+  }
+}

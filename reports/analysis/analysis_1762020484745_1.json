@@ -1,0 +1,51 @@
+{
+  "id": 1762020484745,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/rosja-wpadla-we-wlasna-pulapke-amerykanski-dowodca-czeka-ja-katastrofa/9zpjt6r",
+  "title": "To być albo nie być dla Putina. Amerykański dowódca: Rosję czeka katastrofa [OPINIA]",
+  "score": 67,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne ('to być albo nie być', 'czeka katastrofa'), co podnosi wskaźnik clickbaitu.",
+    "Treść artykułu odnosi się do sytuacji w Ukrainie i przewidywań dotyczących Rosji, ale nie dostarcza konkretnych dowodów na katastrofę.",
+    "Występuje pewna niezgodność między tytułem a treścią, ponieważ tytuł sugeruje dramatyzm, który nie jest w pełni odzwierciedlony w analizie.",
+    "W artykule pojawiają się liczby i cytaty, co może zwiększać jego wiarygodność, ale nie równoważy to ogólnego wrażenia clickbaitowego."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa dramatycznych sformułowań, co sprawia, że jest bardziej przyciągający, ale także mniej obiektywny.",
+    "Treść artykułu omawia sytuację w Ukrainie i przewidywania dotyczące Rosji, ale nie dostarcza konkretnych dowodów na katastrofę.",
+    "Tytuł sugeruje większy dramatyzm niż ten, który jest przedstawiony w artykule.",
+    "W artykule są liczby i cytaty, co może sprawić, że wygląda na bardziej wiarygodny, ale nie zmienia to jego sensacyjnego charakteru."
+  ],
+  "summary": "Artykuł omawia sytuację na froncie ukraińskim oraz przewidywania byłego amerykańskiego dowódcy dotyczące Rosji. Zawiera analizy dotyczące działań wojennych i konsekwencji decyzji Putina. Autor wskazuje na wysokie straty wśród żołnierzy rosyjskich oraz na zagrożenie dla samego Putina w kontekście wojny.",
+  "signals": {
+    "title_hits": [
+      "to być albo nie być",
+      "czeka katastrofa"
+    ],
+    "content_hits": [
+      "cztery krwawe lata",
+      "dziesiątki tysięcy żołnierzy",
+      "los dyktatorów"
+    ],
+    "credibility_hits": [
+      "były amerykański dowódca",
+      "liczby",
+      "cytaty"
+    ],
+    "mismatch": {
+      "title": "To być albo nie być dla Putina. Amerykański dowódca: Rosję czeka katastrofa",
+      "content": "Nie ma wątpliwości, że walki na ukraińskim froncie są zacięte i przerażające."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Analiza sytuacji Rosji w kontekście wojny na Ukrainie według amerykańskiego dowódcy",
+    "notes_to_editor": "Rozważyć zmianę tytułu na mniej sensacyjny, aby lepiej odzwierciedlić treść artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 17,
+    "tokens_content": 236,
+    "processing_time_ms": 16473,
+    "model": "gpt-4o-mini"
+  }
+}

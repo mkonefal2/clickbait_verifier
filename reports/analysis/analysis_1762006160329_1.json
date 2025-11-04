@@ -1,0 +1,49 @@
+{
+  "id": 1762006160329,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/tylko-w-onecie/przygotowuje-ciala-do-pogrzebu-przez-25-lat-widzialem-juz-chyba-wszystko/3k1g0x5",
+  "title": "Jest \"specjalistą od śmierci\". Zdradza tajemnicze kulisy swojego fachu",
+  "score": 55,
+  "label": "strong",
+  "rationale": [
+    "Title contains sensational phrases like 'specjalistą od śmierci' and 'tajemnicze kulisy', which are likely to attract attention.",
+    "Content includes emotional anecdotes and personal reflections, enhancing the sensational aspect.",
+    "Mismatch detected as the title suggests revealing secrets, while the content focuses more on personal experiences.",
+    "Credibility signals present include quotes and a specific time frame of 25 years in the profession."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera sensacyjne zwroty, które przyciągają uwagę, takie jak 'specjalistą od śmierci'.",
+    "Treść artykułu opiera się na emocjonalnych opowieściach, co zwiększa jego atrakcyjność.",
+    "Zauważono rozbieżność między tytułem a treścią, ponieważ tytuł sugeruje ujawnienie sekretów, a treść koncentruje się na osobistych doświadczeniach.",
+    "Artykuł zawiera cytaty i odniesienia do 25-letniego doświadczenia, co podnosi jego wiarygodność."
+  ],
+  "summary": "Artykuł przedstawia Adama Ragiela, który od 25 lat przygotowuje ciała do pogrzebu. W rozmowie dzieli się swoimi doświadczeniami i emocjami związanymi z pracą w prosektorium, w tym wspomnieniem o tragedii związanej z utonięciem dziecka. Opowiada o kruchości życia i refleksjach, jakie towarzyszą mu w codziennej pracy.",
+  "signals": {
+    "title_hits": [
+      "specjalistą od śmierci",
+      "tajemnicze kulisy"
+    ],
+    "content_hits": [
+      "przygotowuje ciała do pogrzebu",
+      "25 lat"
+    ],
+    "credibility_hits": [
+      "Adam Ragiel",
+      "25 lat"
+    ],
+    "mismatch": {
+      "title": "Jest 'specjalistą od śmierci'. Zdradza tajemnicze kulisy swojego fachu",
+      "content": "Artykuł koncentruje się na osobistych doświadczeniach i refleksjach, a nie na ujawnieniu tajemnic."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Specjalista od śmierci opowiada o swojej pracy i doświadczeniach",
+    "notes_to_editor": "Rozważyć zmianę tytułu na bardziej neutralny, aby lepiej odzwierciedlał treść artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 12,
+    "tokens_content": 120,
+    "processing_time_ms": 14611,
+    "model": "gpt-4o-mini"
+  }
+}

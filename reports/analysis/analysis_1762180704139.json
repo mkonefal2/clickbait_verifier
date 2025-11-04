@@ -1,0 +1,45 @@
+{
+  "id": 1762180704139,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/ubostwo-w-ue-najnowsze-dane-eurostatu/dwx3qzm",
+  "title": "Ubóstwo w UE. Najnowsze dane Eurostatu",
+  "score": 10,
+  "label": "not_clickbait",
+  "rationale": [
+    "Tytuł jest neutralny i informacyjny, nie zawiera fraz sensacyjnych ani absolutów.",
+    "Treść artykułu dostarcza konkretnych danych statystycznych dotyczących ubóstwa w UE, co jest zgodne z tytułem.",
+    "Brak luk ciekawości, ponieważ artykuł nie sugeruje żadnych nieoczekiwanych informacji ani dramatyzacji.",
+    "Zidentyfikowano dane liczbowe (8,2 proc., 7,3 proc., 9,0 proc.) jako sygnały wiarygodności.",
+    "Nie występuje mismatch, ponieważ tytuł i treść są zgodne."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jest jasny i informuje o temacie artykułu bez przesadnych emocji.",
+    "Artykuł przedstawia konkretne statystyki dotyczące ubóstwa w Unii Europejskiej, co odpowiada tytułowi.",
+    "Nie ma w nim żadnych sensacyjnych stwierdzeń ani prób wzbudzenia niepotrzebnego zainteresowania.",
+    "Podano konkretne liczby, co zwiększa wiarygodność informacji.",
+    "Tytuł i treść pasują do siebie, nie ma sprzeczności."
+  ],
+  "summary": "Artykuł przedstawia dane opublikowane przez Eurostat dotyczące ubóstwa w Unii Europejskiej w 2024 roku. Wskazuje, że 8,2 proc. pracujących osób było zagrożonych ubóstwem, z różnicami między kobietami (7,3 proc.) a mężczyznami (9,0 proc.).",
+  "signals": {
+    "title_hits": [],
+    "content_hits": [
+      "8,2 proc.",
+      "7,3 proc.",
+      "9,0 proc."
+    ],
+    "credibility_hits": [
+      "dane Eurostatu"
+    ],
+    "mismatch": {}
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Dane Eurostatu o ubóstwie w UE",
+    "notes_to_editor": "Artykuł jest dobrze napisany i nie wymaga zmian."
+  },
+  "diagnostics": {
+    "tokens_title": 7,
+    "tokens_content": 70,
+    "processing_time_ms": 13163,
+    "model": "gpt-4o-mini"
+  }
+}

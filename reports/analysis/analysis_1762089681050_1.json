@@ -1,0 +1,50 @@
+{
+  "id": 1762089681050,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/dwoch-brytyjskich-obywateli-zatrzymanych-w-zwiazku-z-atakiem-w-pociagu-nowe/vmrfkre",
+  "title": "Atak nożowników w brytyjskim pociągu. Nowe informacje o sprawcach",
+  "score": 40,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazę 'atak nożowników', co może być uznane za sensacyjne.",
+    "Treść artykułu jest zgodna z tytułem, jednak nie dostarcza nowych, zaskakujących informacji.",
+    "W artykule pojawiają się konkretne informacje o zatrzymanych osobach, co zwiększa jego wiarygodność.",
+    "Brak luk ciekawości, ale tytuł sugeruje większą ilość informacji niż jest w rzeczywistości."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów, co może przyciągać uwagę, ale nie jest całkowicie zgodny z treścią.",
+    "Artykuł informuje o ataku w pociągu i zatrzymaniu dwóch osób, ale nie dodaje zaskakujących szczegółów.",
+    "Podano konkretne informacje o zatrzymanych, co sprawia, że artykuł jest bardziej wiarygodny.",
+    "Tytuł może sugerować więcej informacji, niż rzeczywiście zawiera artykuł."
+  ],
+  "summary": "W artykule opisano atak nożowników w pociągu w Wielkiej Brytanii, który miał miejsce w sobotę wieczorem. Policja poinformowała, że nie traktuje tego incydentu jako akt terrorystyczny. Zatrzymano dwie osoby, które są obywatelami brytyjskimi. Informacje pochodzą z wypowiedzi przedstawiciela policji.",
+  "signals": {
+    "title_hits": [
+      "atak nożowników",
+      "nowe informacje"
+    ],
+    "content_hits": [
+      "atak nożownika",
+      "zatrzymane dwie osoby",
+      "obywatele brytyjscy"
+    ],
+    "credibility_hits": [
+      "Polska Agencja Prasowa",
+      "John Loveless"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "details": "Tytuł i treść są zgodne, ale tytuł sugeruje więcej szczegółów."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Atak nożowników w brytyjskim pociągu - informacje o zatrzymanych",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 102,
+    "processing_time_ms": 12897,
+    "model": "gpt-4o-mini"
+  }
+}

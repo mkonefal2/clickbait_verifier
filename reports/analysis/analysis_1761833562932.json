@@ -1,0 +1,53 @@
+{
+  "id": 1761833562932,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/wroclaw/news-koszmar-w-rodzinie-zastepczej-dzieci-byly-molestowane-i-bite,nId,8036020",
+  "title": "Koszmar w rodzinie zastępczej. Dzieci były molestowane i bite",
+  "score": 65,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'koszmar', co zwiększa jego clickbaitowość.",
+    "Treść artykułu jest spójna z tytułem, jednak zawiera wiele dramatycznych szczegółów, które mogą wzbudzać emocje.",
+    "W treści występują absoluty, takie jak 'wszystkie dzieci', co również podnosi poziom clickbaitu.",
+    "Zidentyfikowano kilka sygnałów wiarygodności, w tym konkretne liczby i odniesienia do źródeł.",
+    "Mismatches nie występują, ponieważ tytuł i treść są zgodne."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów, co sprawia, że jest bardziej przyciągający, ale też dramatyczny.",
+    "Treść artykułu dokładnie opisuje sytuację, która jest zgodna z tytułem, co oznacza, że nie wprowadza w błąd.",
+    "W artykule pojawiają się konkretne liczby i odniesienia, co zwiększa jego wiarygodność.",
+    "Nie znaleziono rozbieżności między tytułem a treścią, co jest pozytywne."
+  ],
+  "summary": "Artykuł opisuje sprawę małżeństwa z powiatu głogowskiego, które prowadziło rodzinę zastępczą i zostało oskarżone o molestowanie oraz znęcanie się nad dziećmi. Prokuratura ujawnia szczegóły dotyczące przestępstw, które miały trwać przez kilka lat. Oskarżeni zostali zatrzymani, a sprawa trafiła do sądu.",
+  "signals": {
+    "title_hits": [
+      "koszmar",
+      "molestowane",
+      "bite"
+    ],
+    "content_hits": [
+      "wykorzystywania seksualnego",
+      "znęcania się",
+      "przez kilka lat"
+    ],
+    "credibility_hits": [
+      "prokuratura",
+      "akt oskarżenia",
+      "biegli psychiatrzy"
+    ],
+    "mismatch": {
+      "exists": false,
+      "details": {}
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Oskarżenia wobec małżeństwa prowadzącego rodzinę zastępczą o molestowanie dzieci",
+    "notes_to_editor": "Zaleca się unikanie dramatycznych sformułowań w tytule, aby zwiększyć neutralność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 563,
+    "processing_time_ms": 14097,
+    "model": "gpt-4o-mini"
+  }
+}

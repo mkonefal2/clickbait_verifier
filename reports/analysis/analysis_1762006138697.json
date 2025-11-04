@@ -1,0 +1,50 @@
+{
+  "id": 1762006138697,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/krakow/news-kwesta-na-cmentarzu-rakowickim-dymna-w-rmf-fm-to-cudowne-swi,nId,8036793",
+  "title": "Kwesta na Cmentarzu Rakowickim. Dymna w RMF FM: To cudowne święto",
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazę 'cudowne święto', co jest wyrazem emocjonalnym i może budzić ciekawość.",
+    "Treść artykułu koncentruje się na kweście na cmentarzu, co jest zgodne z tytułem, ale tytuł sugeruje większą sensacyjność.",
+    "W treści znajdują się cytaty, które dodają wiarygodności, ale nie ma liczby ani konkretnego źródła poza ogólnym odniesieniem do RMF FM.",
+    "Wykryto niewielką niezgodność między tytułem a treścią, ponieważ tytuł sugeruje bardziej ogólne 'cudowne święto', podczas gdy treść skupia się na kweście."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa emocjonalnego sformułowania, co może przyciągać uwagę czytelników.",
+    "Artykuł rzeczywiście dotyczy kweście, ale tytuł może sugerować, że wydarzenie jest bardziej niezwykłe niż opisane w treści.",
+    "Cytaty z uczestników dodają autentyczności, ale brakuje konkretnej liczby lub źródła, które mogłyby wzmocnić wiarygodność.",
+    "Tytuł i treść są w dużej mierze zgodne, ale tytuł mógłby być bardziej neutralny."
+  ],
+  "summary": "Artykuł opisuje kwestę na Cmentarzu Rakowickim w Krakowie, w której udział wzięła aktorka Anna Dymna. Zbierane fundusze mają na celu renowację zapomnianych grobów. Dymna oraz inni uczestnicy podkreślają znaczenie pamięci o zmarłych i wspólnoty. W zeszłym roku zebrano 61,5 tys. zł na ten cel.",
+  "signals": {
+    "title_hits": [
+      "cudowne święto"
+    ],
+    "content_hits": [
+      "kwesta",
+      "Cmentarz Rakowicki",
+      "Anna Dymna",
+      "remont zapomnianych grobowców"
+    ],
+    "credibility_hits": [
+      "RMF FM",
+      "cytaty"
+    ],
+    "mismatch": {
+      "title": "cudowne święto",
+      "content": "kwesta na cmentarzu"
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Kwesta na Cmentarzu Rakowickim z udziałem Anny Dymnej",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 12,
+    "tokens_content": 285,
+    "processing_time_ms": 14045,
+    "model": "gpt-4o-mini"
+  }
+}

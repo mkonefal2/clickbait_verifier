@@ -1,0 +1,43 @@
+{
+  "id": 1762020478147,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/elzbieta-penderecka-nie-zyje-wielka-strata/kq01nfv",
+  "title": "Zmarła Elżbieta Penderecka. \"Wielka postać polskiej kultury\"",
+  "score": 20,
+  "label": "not_clickbait",
+  "rationale": [
+    "Tytuł zawiera informację o zmarłej osobie, co jest zgodne z treścią artykułu.",
+    "Frazy sensacyjne i absoluty są minimalne, a tytuł nie wprowadza w błąd.",
+    "Treść artykułu jest zgodna z tytułem, nie ma rozbieżności.",
+    "Artykuł zawiera źródło (Polska Agencja Prasowa) oraz datę, co zwiększa jego wiarygodność."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł informuje o śmierci Elżbiety Pendereckiej i jest zgodny z treścią artykułu.",
+    "Nie ma w nim przesadnych lub sensacyjnych sformułowań, co czyni go neutralnym.",
+    "Treść artykułu dokładnie odpowiada tytułowi, więc nie ma w niej nieścisłości.",
+    "Artykuł podaje źródło informacji oraz datę, co zwiększa jego rzetelność."
+  ],
+  "summary": "Elżbieta Penderecka, żona znanego kompozytora, zmarła w wieku 78 lat. Była prezesem Stowarzyszenia im. Ludwiga van Beethovena i organizowała Wielkanocny Festiwal Ludwiga van Beethovena w Warszawie. Jej śmierć jest dużą stratą dla polskiej kultury.",
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "Polska Agencja Prasowa",
+      "data"
+    ],
+    "mismatch": {
+      "exists": false,
+      "details": ""
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Zmarła Elżbieta Penderecka, prezeska Stowarzyszenia im. Ludwiga van Beethovena",
+    "notes_to_editor": "Tytuł jest odpowiedni i nie wymaga zmian, jednak można rozważyć bardziej neutralne sformułowanie."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 66,
+    "processing_time_ms": 12328,
+    "model": "gpt-4o-mini"
+  }
+}

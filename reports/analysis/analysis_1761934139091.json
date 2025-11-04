@@ -1,0 +1,42 @@
+{
+  "id": 1761934139091,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/usa-zaatakuja-wenezuele-donald-trump-reaguje-na-doniesienia-mediow/xfqm1f7",
+  "title": "Donald Trump zaprzecza doniesieniom. Zabrał głos w sprawie Wenezueli",
+  "score": 20,
+  "label": "not_clickbait",
+  "rationale": [
+    "Tytuł nie zawiera fraz sensacyjnych ani absolutów.",
+    "Treść artykułu jasno przedstawia stanowisko Donalda Trumpa w sprawie doniesień o ataku na Wenezuelę.",
+    "Nie występują istotne niezgodności między tytułem a treścią.",
+    "Artykuł zawiera odniesienie do źródła informacji, co zwiększa jego wiarygodność."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jest spokojny i nie używa przesadnych słów.",
+    "Artykuł wyjaśnia, że Donald Trump zaprzecza plotkom o ataku na Wenezuelę.",
+    "Tytuł i treść są ze sobą zgodne, co oznacza, że nie wprowadzają w błąd.",
+    "Podano źródło informacji, co sprawia, że artykuł jest bardziej wiarygodny."
+  ],
+  "summary": "Donald Trump zaprzeczył doniesieniom o planowanym ataku Stanów Zjednoczonych na Wenezuelę. Informacje te zostały opublikowane przez 'Miami Herald', które powołało się na źródła z otoczenia prezydenta. Artykuł przedstawia reakcję Trumpa na te spekulacje.",
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "Miami Herald"
+    ],
+    "mismatch": {
+      "is_mismatch": false,
+      "details": "Tytuł i treść są zgodne."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Donald Trump zaprzecza doniesieniom o ataku na Wenezuelę",
+    "notes_to_editor": "Artykuł jest dobrze skonstruowany i nie zawiera elementów clickbaitowych."
+  },
+  "diagnostics": {
+    "tokens_title": 12,
+    "tokens_content": 78,
+    "processing_time_ms": 9635,
+    "model": "gpt-4o-mini"
+  }
+}

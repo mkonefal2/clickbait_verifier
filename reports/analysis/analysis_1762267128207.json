@@ -1,0 +1,48 @@
+{
+  "id": 1762267128207,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/kultura/news-amerykanski-dziennik-chwali-polski-film-to-wielki-hit-netfli,nId,8037399",
+  "title": "Amerykański dziennik chwali polski film. To wielki hit Netfliksa",
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne takie jak 'wielki hit', co może wzbudzać ciekawość.",
+    "Treść artykułu jest zgodna z tytułem, jednak niektóre sformułowania mogą być uznane za przesadzone.",
+    "W treści występują konkretne liczby i cytaty, co zwiększa wiarygodność.",
+    "Zidentyfikowano lukę ciekawości w tytule, która może przyciągać czytelników."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów, które mogą przyciągać uwagę, jak 'wielki hit'.",
+    "Artykuł rzeczywiście opisuje uznanie dla polskiego filmu, ale niektóre stwierdzenia mogą być nieco przesadzone.",
+    "W treści znajdują się konkretne informacje i cytaty, co sprawia, że artykuł wydaje się wiarygodny.",
+    "Tytuł może wzbudzać ciekawość, co jest typowe dla clickbaitowych nagłówków."
+  ],
+  "summary": "Artykuł opisuje uznanie dla polskiego filmu 'Druga Furioza', który znalazł się w zestawieniu najlepszych filmów akcji według 'The New York Times'. Krytyk chwali dynamiczną fabułę oraz wybitną kreację Mateusza Damięckiego, porównując jego rolę do kultowych postaci. Film zdobywa popularność zarówno w Polsce, jak i za granicą.",
+  "signals": {
+    "title_hits": [
+      "wielki hit"
+    ],
+    "content_hits": [
+      "uznanie",
+      "najlepszych filmów akcji"
+    ],
+    "credibility_hits": [
+      "The New York Times",
+      "Mateusz Damięcki"
+    ],
+    "mismatch": {
+      "title": "Amerykański dziennik chwali polski film. To wielki hit Netfliksa",
+      "content": "Artykuł rzeczywiście opisuje uznanie dla filmu, ale nie wszystkie stwierdzenia w tytule są w pełni poparte treścią."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Amerykański dziennik wyróżnia polski film 'Druga Furioza' w zestawieniu najlepszych filmów akcji",
+    "notes_to_editor": "Rozważyć użycie mniej sensacyjnych sformułowań w tytule."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 375,
+    "processing_time_ms": 14747,
+    "model": "gpt-4o-mini"
+  }
+}

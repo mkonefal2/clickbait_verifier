@@ -1,0 +1,50 @@
+{
+  "id": 1762267143068,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/nowy-watek-kradziezy-starodrukow-z-biblioteki-uw-trop-prowadzi-do-rosji/y1k6rfd",
+  "title": "Nowy wątek kradzieży starodruków z BUW. Trop prowadzi do Rosji",
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "Title analysis yielded a score of 35 due to the use of the phrase 'nowy wątek', which creates curiosity.",
+    "Content analysis resulted in a score of 20, as it is straightforward and factual.",
+    "Mismatch detection indicated a minor issue, as the title suggests a broader investigation while the content focuses on a specific suspect.",
+    "Credibility signals were present, including a quote from a prosecutor and specific details about the suspect."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera zwrot 'nowy wątek', który może budzić ciekawość czytelników.",
+    "Treść artykułu jest jasna i oparta na faktach, co zmniejsza wrażenie clickbaitu.",
+    "Tytuł sugeruje szerszy kontekst, podczas gdy treść koncentruje się na jednym podejrzanym.",
+    "Artykuł zawiera wiarygodne informacje, w tym cytaty i szczegóły dotyczące śledztwa."
+  ],
+  "summary": "Artykuł opisuje nowy wątek w sprawie kradzieży starodruków z Biblioteki Uniwersytetu Warszawskiego, który prowadzi do Rosji. Podejrzany, obywatel Gruzji, zeznał, że działał na zlecenie Rosjanina, wskazując konkretne woluminy do kradzieży. Informacje pochodzą z komunikatu rzecznika Prokuratury Okręgowej w Warszawie.",
+  "signals": {
+    "title_hits": [
+      "nowy wątek",
+      "trop prowadzi do"
+    ],
+    "content_hits": [
+      "kradzieży starodruków",
+      "obywatel Gruzji",
+      "zeznanie"
+    ],
+    "credibility_hits": [
+      "Polska Agencja Prasowa",
+      "rzecznik Prokuratury Okręgowej"
+    ],
+    "mismatch": {
+      "title": "Nowy wątek kradzieży starodruków z BUW. Trop prowadzi do Rosji",
+      "content": "Nowy wątek w sprawie starodruków ukradzionych z biblioteki UW. Trop prowadzi do Rosji"
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Nowe informacje w sprawie kradzieży starodruków z BUW",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby zmniejszyć wrażenie clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 12,
+    "tokens_content": 88,
+    "processing_time_ms": 15569,
+    "model": "gpt-4o-mini"
+  }
+}

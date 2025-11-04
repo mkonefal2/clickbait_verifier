@@ -1,0 +1,52 @@
+{
+  "id": 1761934136482,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/poznan/zwrot-w-sprawie-zbrodni-ktora-wstrzasnela-polska-wyrok-dozywocia-uchylony-nowe-fakty/kd75pcy",
+  "title": "Zwrot w sprawie zbrodni, która wstrząsnęła Polską. Nowe fakty",
+  "score": 62,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'wstrząsnęła Polską' oraz 'Nowe fakty', co zwiększa jego clickbaitowość.",
+    "Treść artykułu jest zgodna z tytułem, ale używa również emocjonalnych sformułowań.",
+    "W treści znajdują się konkretne informacje o wyroku sądowym, co podnosi wiarygodność artykułu.",
+    "Wykryto brak cytatów lub odniesień do źródeł, co obniża ogólną ocenę wiarygodności.",
+    "Analiza mismatch wykazała, że tytuł i treść są spójne, co pozytywnie wpływa na ocenę."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa emocjonalnych słów, które mogą przyciągać uwagę, jak 'wstrząsnęła Polską' i 'Nowe fakty'.",
+    "Treść artykułu odpowiada tytułowi, ale także zawiera dramatyczne opisy sytuacji.",
+    "Artykuł dostarcza konkretne informacje o decyzji sądu, co czyni go bardziej wiarygodnym.",
+    "Brakuje jednak cytatów lub odniesień do źródeł, co może wpływać na postrzeganą rzetelność.",
+    "Tytuł i treść są zgodne, co jest pozytywnym aspektem oceny."
+  ],
+  "summary": "Artykuł opisuje decyzję Poznańskiego Sądu Apelacyjnego, który uchylił wyrok dożywocia dla Serhia T. skazanym za potrójne zabójstwo. Sędzia podkreślił, że wyrok był wydany przez neosędzię, co budzi kontrowersje. W artykule przedstawiono również kontekst związany z wcześniejszymi opiniami sędziów.",
+  "signals": {
+    "title_hits": [
+      "wstrząsnęła Polską",
+      "Nowe fakty"
+    ],
+    "content_hits": [
+      "uchwała",
+      "wyrok dożywocia",
+      "potrójne zabójstwo"
+    ],
+    "credibility_hits": [
+      "Poznański Sąd Apelacyjny",
+      "sędzia Henryk Komisarski"
+    ],
+    "mismatch": {
+      "is_mismatch": false,
+      "details": "Tytuł i treść są zgodne."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Decyzja sądu w sprawie uchwały dotyczącej wyroku dożywocia",
+    "notes_to_editor": "Rozważyć dodanie cytatów lub odniesień do źródeł dla zwiększenia wiarygodności."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 149,
+    "processing_time_ms": 15697,
+    "model": "gpt-4o-mini"
+  }
+}

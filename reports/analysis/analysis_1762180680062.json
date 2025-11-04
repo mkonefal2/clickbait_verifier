@@ -1,0 +1,51 @@
+{
+  "id": 1762180680062,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/swiat/news-zawalila-sie-sredniowieczna-wieza-w-centrum-rzymu-zobacz-nag,nId,8037075",
+  "title": "Zawaliła się średniowieczna wieża w centrum Rzymu. Zobacz nagrania ",
+  "score": 32,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazę 'Zobacz nagrania', co może sugerować sensacyjność.",
+    "W treści artykułu pojawiają się emocjonalne opisy, takie jak 'Dramatyczne sceny' oraz 'przerażający huk', co zwiększa stopień clickbaitu.",
+    "Zgłoszenie o rannych pracownikach oraz zamknięciu terenu dla turystów dodaje elementu dramatyzmu.",
+    "Tytuł jest zgodny z treścią, nie ma istotnych rozbieżności.",
+    "W artykule pojawiają się konkretne liczby i cytaty, co zwiększa wiarygodność."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera zachętę do oglądania nagrań, co może przyciągać uwagę.",
+    "W artykule użyto emocjonalnych sformułowań, co sprawia, że jest bardziej dramatyczny.",
+    "Informacje o rannych i zamkniętym terenie dodają powagi sytuacji.",
+    "Tytuł dobrze odzwierciedla treść artykułu, nie ma dużych niezgodności.",
+    "Artykuł zawiera konkretne dane i cytaty, co sprawia, że jest bardziej wiarygodny."
+  ],
+  "summary": "W artykule opisano zawalenie się średniowiecznej wieży Torre dei Conti w Rzymie podczas prac remontowych. W wyniku zdarzenia jeden z pracowników został ciężko ranny, a dwóch innych doznało lekkich obrażeń. Teren był zamknięty dla turystów, co zapobiegło większej tragedii. Nagrania z miejsca wypadku szybko pojawiły się w sieci.",
+  "signals": {
+    "title_hits": [
+      "Zobacz nagrania"
+    ],
+    "content_hits": [
+      "Dramatyczne sceny",
+      "przerażający huk"
+    ],
+    "credibility_hits": [
+      "jeden z pracowników",
+      "agencja ANSA",
+      "Luca Cari"
+    ],
+    "mismatch": {
+      "title": "Zawaliła się średniowieczna wieża w centrum Rzymu. Zobacz nagrania",
+      "content": "Dramatyczne sceny rozegrały się w centrum Rzymu, gdzie podczas prac remontowych częściowo zawaliła się średniowieczna wieża Torre dei Conti."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Zawalenie się średniowiecznej wieży w Rzymie podczas prac remontowych",
+    "notes_to_editor": "Rozważyć zmianę tytułu na bardziej neutralny, aby zmniejszyć element clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 12,
+    "tokens_content": 292,
+    "processing_time_ms": 17727,
+    "model": "gpt-4o-mini"
+  }
+}

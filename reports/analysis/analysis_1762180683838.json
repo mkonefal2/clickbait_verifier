@@ -1,0 +1,51 @@
+{
+  "id": 1762180683838,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/raporty/raport-wojna-z-rosja/news-wycial-jencowi-na-czole-z-brutalny-zbrodniarz-wojenny-zident,nId,8037079",
+  "title": "Wyciął jeńcowi na czole \"Z\": Brutalny zbrodniarz wojenny zidentyfikowany",
+  "score": 65,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'wyciął' i 'brutalny zbrodniarz wojenny', co wskazuje na silny ładunek emocjonalny.",
+    "W treści artykułu znajdują się opisy brutalnych działań, co potwierdza obecność fraz sensacyjnych.",
+    "Zidentyfikowano brak zgodności między tytułem a treścią, ponieważ tytuł sugeruje osobiste działania zbrodniarza, podczas gdy treść koncentruje się na faktach.",
+    "W artykule są podane konkretne informacje, takie jak daty i konteksty, co zwiększa jego wiarygodność."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów, które przyciągają uwagę, co może być uznane za clickbait.",
+    "Artykuł opisuje brutalne działania, co potwierdza, że tytuł jest zgodny z jego treścią, ale w sposób sensacyjny.",
+    "Tytuł może sugerować bardziej dramatyczną narrację, niż to, co faktycznie jest opisane w artykule.",
+    "Artykuł zawiera konkretne informacje i dane, co sprawia, że jest bardziej wiarygodny."
+  ],
+  "summary": "Artykuł informuje o zidentyfikowaniu rosyjskiego bojownika, Wołodymyra Połupołtinnych, który miał dopuścić się brutalnego aktu przemocy wobec ukraińskiego jeńca. Zgodnie z informacjami Służby Bezpieczeństwa Ukrainy, mężczyzna miał wyciąć na czole jeńca literę 'Z', co jest symbolem rosyjskiej inwazji. Opisano również zarzuty dotyczące naruszenia konwencji genewskiej.",
+  "signals": {
+    "title_hits": [
+      "wyciął",
+      "brutalny zbrodniarz wojenny"
+    ],
+    "content_hits": [
+      "brutalny akt przemocy",
+      "tortur",
+      "naruszenie konwencji genewskiej"
+    ],
+    "credibility_hits": [
+      "Służba Bezpieczeństwa Ukrainy",
+      "Wołodymyr Połupołtinnych",
+      "data zdarzenia"
+    ],
+    "mismatch": {
+      "title": "Wyciął jeńcowi na czole 'Z'",
+      "content": "Artykuł koncentruje się na faktach i kontekście, a nie na dramatyzacji."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Zidentyfikowano rosyjskiego bojownika odpowiedzialnego za brutalne tortury jeńca",
+    "notes_to_editor": "Rozważyć zmianę tytułu na bardziej neutralny, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 12,
+    "tokens_content": 332,
+    "processing_time_ms": 16276,
+    "model": "gpt-4o-mini"
+  }
+}

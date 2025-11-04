@@ -1,0 +1,48 @@
+{
+  "id": 1762180701381,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/czy-konfrontacja-usa-z-wenezuela-jest-mozliwa-karaiby-zamieniaja-sie-w-beczke-prochu/vz62v94",
+  "title": "Karaiby zamieniają się w beczkę prochu. Ekspert wyjaśnia, jaki może być następny krok USA",
+  "score": 62,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'beczka prochu', co sugeruje dramatyczną sytuację.",
+    "Treść artykułu odnosi się do obaw związanych z militarną konfrontacją USA i Wenezueli, co potwierdza sensacyjny ton tytułu.",
+    "W artykule pojawiają się cytaty ekspertów, co zwiększa jego wiarygodność, ale nie zmienia sensacyjnego charakteru tytułu.",
+    "Występuje nieznaczna niezgodność między tytułem a treścią, ponieważ tytuł sugeruje, że ekspert wyjaśnia, co się wydarzy, podczas gdy treść koncentruje się na obecnej sytuacji."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa dramatycznych sformułowań, co przyciąga uwagę czytelników.",
+    "Artykuł omawia obawy dotyczące możliwej konfrontacji militarnej USA z Wenezuelą, co odpowiada tonowi tytułu.",
+    "Cytaty ekspertów dodają wiarygodności, ale nie zmieniają faktu, że tytuł jest sensacyjny.",
+    "Tytuł i treść są w dużej mierze zgodne, ale tytuł sugeruje więcej szczegółów, niż artykuł rzeczywiście dostarcza."
+  ],
+  "summary": "Artykuł omawia rosnące napięcia w regionie Karaibów, gdzie USA mogą przygotowywać się do militarnej konfrontacji z Wenezuelą. Ekspert ds. bezpieczeństwa wskazuje na potencjalne zagrożenia związane z rządem Nicolasa Maduro i możliwe scenariusze rozwoju sytuacji. W artykule przytoczone są opinie specjalistów oraz kontekst geopolityczny.",
+  "signals": {
+    "title_hits": [
+      "beczka prochu"
+    ],
+    "content_hits": [
+      "scenariusz zagrożenia",
+      "militarnej wymiany ciosów"
+    ],
+    "credibility_hits": [
+      "ekspert ds. bezpieczeństwa Peter Neumann",
+      "Bild"
+    ],
+    "mismatch": {
+      "title": "Ekspert wyjaśnia, jaki może być następny krok USA",
+      "content": "Artykuł skupia się na obecnej sytuacji i obawach, a nie na konkretnych krokach."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Napięcia w Karaibach: Ekspert ocenia sytuację USA i Wenezueli",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć sensacyjności."
+  },
+  "diagnostics": {
+    "tokens_title": 15,
+    "tokens_content": 162,
+    "processing_time_ms": 16567,
+    "model": "gpt-4o-mini"
+  }
+}

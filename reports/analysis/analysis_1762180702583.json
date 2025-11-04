@@ -1,0 +1,49 @@
+{
+  "id": 1762180702583,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/grozili-ich-rodzinom-tak-donald-trump-dopial-swego-w-negocjacjach-z-europa/706q0wg",
+  "title": "Negocjacje po amerykańsku. \"Wzywali ludzi do ambasady i grozili ich rodzinom\"",
+  "score": 60,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'grozili ich rodzinom', co wzbudza silne emocje.",
+    "Treść artykułu potwierdza tezę z tytułu, jednak używa dramatycznego języka, co zwiększa stopień clickbaitu.",
+    "W artykule znajdują się cytaty i odniesienia do źródeł, co podnosi jego wiarygodność.",
+    "Występuje pewna niezgodność między tytułem a treścią, ponieważ tytuł sugeruje bardziej dramatyczną sytuację niż ta opisana w artykule."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów, które mogą przyciągać uwagę czytelników, jak 'grozili ich rodzinom'.",
+    "Treść artykułu jest zgodna z tytułem, ale używa dramatycznego języka, co może sprawiać wrażenie sensacji.",
+    "Artykuł zawiera cytaty i odniesienia do źródeł, co czyni go bardziej wiarygodnym.",
+    "Jest pewna różnica między tytułem a treścią, ponieważ tytuł może sugerować bardziej dramatyczne wydarzenia niż te opisane w artykule."
+  ],
+  "summary": "Artykuł opisuje brutalne negocjacje między amerykańskimi a europejskimi negocjatorami w sprawie przepisów dotyczących transportu morskiego. Zgodnie z relacjami, amerykańscy negocjatorzy stosowali zastraszanie, co wywołało strach wśród europejskich uczestników rozmów. Informacje pochodzą z serwisu POLITICO oraz urzędników Komisji Europejskiej.",
+  "signals": {
+    "title_hits": [
+      "grozili ich rodzinom"
+    ],
+    "content_hits": [
+      "grozili ich rodzinom",
+      "brutalnych negocjacji",
+      "nietypowym gambicie"
+    ],
+    "credibility_hits": [
+      "serwis POLITICO",
+      "urzędnicy Komisji Europejskiej"
+    ],
+    "mismatch": {
+      "title": "Negocjacje po amerykańsku. \"Wzywali ludzi do ambasady i grozili ich rodzinom\"",
+      "content": "Europejscy negocjatorzy zostali personalnie zaatakowani przez swoich amerykańskich odpowiedników podczas brutalnych negocjacji."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Negocjacje USA z UE: Zastraszanie europejskich negocjatorów",
+    "notes_to_editor": "Rozważyć złagodzenie języka w tytule, aby uniknąć wrażenia sensacji."
+  },
+  "diagnostics": {
+    "tokens_title": 12,
+    "tokens_content": 142,
+    "processing_time_ms": 19308,
+    "model": "gpt-4o-mini"
+  }
+}

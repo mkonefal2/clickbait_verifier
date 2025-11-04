@@ -1,0 +1,43 @@
+{
+  "id": 1762085981715,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/polska/news-dzien-zaduszny-w-polsce-historia-tradycje-i-wspolczesne-obch,nId,8034992",
+  "title": "Dzień Zaduszny w Polsce. Historia, tradycje i współczesne obchody",
+  "score": 10,
+  "label": "not_clickbait",
+  "rationale": [
+    "Tytuł jest zgodny z treścią artykułu, nie zawiera fraz sensacyjnych ani absolutów.",
+    "Treść artykułu dostarcza szczegółowych informacji na temat Dnia Zadusznego, jego tradycji i współczesnych obchodów.",
+    "Nie wykryto luk ciekawości ani niezgodności między tytułem a treścią.",
+    "Artykuł zawiera konkretne informacje, takie jak daty i tradycje, co zwiększa jego wiarygodność."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł odpowiada na to, co jest w artykule i nie jest przesadzony.",
+    "Artykuł szczegółowo opisuje Dzień Zaduszny, jego tradycje i jak się go obchodzi dzisiaj.",
+    "Nie ma w nim żadnych niejasności ani sensacyjnych stwierdzeń.",
+    "Podano konkretne informacje, co sprawia, że artykuł jest wiarygodny."
+  ],
+  "summary": "Artykuł opisuje Dzień Zaduszny, obchodzony 2 listopada w Polsce, jako czas pamięci o zmarłych. Zawiera informacje o tradycjach związanych z tym dniem, takich jak odwiedzanie cmentarzy, zapalanie zniczy oraz modlitwy za dusze zmarłych. Wskazuje również na zmiany w obchodach, które zachodzą w XXI wieku, w tym na nowe formy upamiętnienia zmarłych.",
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "daty",
+      "tradycje"
+    ],
+    "mismatch": {
+      "is_mismatch": false,
+      "details": "Tytuł i treść są zgodne."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Obchody Dnia Zadusznego w Polsce: Historia i tradycje",
+    "notes_to_editor": "Artykuł jest dobrze napisany i informacyjny, nie wymaga zmian."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 650,
+    "processing_time_ms": 12307,
+    "model": "gpt-4o-mini"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": 1762180704991,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/tylko-w-onecie/karol-nawrocki-ojcem-chrzestnym-koalicji-pis-i-konfederacji-ma-spora-autonomie/rls4sf1",
+  "title": "Karol Nawrocki ojcem chrzestnym koalicji PiS i Konfederacji? \"Może być arbitrem\"",
+  "score": 58,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera pytanie, co może sugerować lukę ciekawości.",
+    "Fraza 'ojcem chrzestnym' jest sensacyjna i może przyciągać uwagę.",
+    "W treści artykułu pojawiają się cytaty, co zwiększa wiarygodność, ale tytuł sugeruje bardziej dramatyczny kontekst.",
+    "Zauważono niezgodność między tytułem a treścią, ponieważ tytuł sugeruje pewność, podczas gdy treść jest bardziej spekulacyjna."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zadaje pytanie, co może wzbudzać ciekawość czytelników.",
+    "Użycie frazy 'ojcem chrzestnym' jest mocne i przyciągające uwagę.",
+    "Artykuł zawiera cytaty, co dodaje mu wiarygodności, ale tytuł może sugerować bardziej dramatyczną sytuację, niż jest w rzeczywistości.",
+    "Tytuł i treść nie do końca się zgadzają, ponieważ tytuł brzmi pewnie, a treść jest bardziej spekulacyjna."
+  ],
+  "summary": "Artykuł omawia rolę Karola Nawrockiego w kontekście koalicji PiS i Konfederacji. W wypowiedzi prof. Przemysława Sadury podkreślono, że Nawrocki ma dużą autonomię i może pełnić różne funkcje w przyszłości. Dodatkowo, poruszono temat wpływu afery dotyczącej działki pod CPK na nadchodzące wybory parlamentarne.",
+  "signals": {
+    "title_hits": [
+      "ojcem chrzestnym",
+      "może być"
+    ],
+    "content_hits": [
+      "ma sporą autonomię",
+      "może być prezydentem"
+    ],
+    "credibility_hits": [
+      "prof. Przemysław Sadura",
+      "sondaże"
+    ],
+    "mismatch": {
+      "title": "Karol Nawrocki ojcem chrzestnym koalicji PiS i Konfederacji?",
+      "content": "Karol Nawrocki rzeczywiście równie dobrze może być prezydentem Konfederacji, jak i prezydentem PiS."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Karol Nawrocki i jego rola w koalicji PiS i Konfederacji",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia sensacyjności."
+  },
+  "diagnostics": {
+    "tokens_title": 15,
+    "tokens_content": 116,
+    "processing_time_ms": 28868,
+    "model": "gpt-4o-mini"
+  }
+}

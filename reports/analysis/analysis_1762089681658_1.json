@@ -1,0 +1,45 @@
+{
+  "id": 1762089681658,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/niezidentyfikowane-drony-nad-baza-w-belgii-jest-w-niej-bron-jadrowa-usa/vlm9rvd",
+  "title": "Drony nad belgijską bazą. Przechowywana jest w niej broń jądrowa",
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy, które mogą wzbudzać ciekawość, takie jak 'drony' i 'broń jądrowa'.",
+    "Treść artykułu jest zgodna z tytułem, co zmniejsza ryzyko mismatch.",
+    "W treści pojawiają się informacje o niezidentyfikowanych dronach oraz broni jądrowej, co jest istotne dla kontekstu.",
+    "Brak cytatów lub konkretnych danych liczbowych, co wpływa na niską ocenę wiarygodności."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zwraca uwagę na temat dronów i broni jądrowej, co może zainteresować czytelników.",
+    "Treść artykułu odpowiada tytułowi, co sprawia, że nie wprowadza w błąd.",
+    "Artykuł informuje o sytuacji w belgijskiej bazie, ale nie zawiera dodatkowych źródeł ani cytatów, co może wpływać na jego wiarygodność."
+  ],
+  "summary": "Artykuł informuje o niezidentyfikowanych dronach zauważonych nad belgijską bazą lotnictwa wojskowego Kleine-Brogel, w której przechowywana jest broń jądrowa USA. Minister obrony Belgii, Theo Francken, potwierdził te doniesienia. W artykule nie ma dodatkowych szczegółów dotyczących incydentu.",
+  "signals": {
+    "title_hits": [
+      "drony",
+      "broń jądrowa"
+    ],
+    "content_hits": [
+      "niezidentyfikowane drony",
+      "broń jądrowa USA"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "exists": false,
+      "reason": "Tytuł i treść są zgodne."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Niezidentyfikowane drony nad belgijską bazą wojskową",
+    "notes_to_editor": "Rozważyć dodanie cytatów lub danych liczbowych dla zwiększenia wiarygodności artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 66,
+    "processing_time_ms": 13542,
+    "model": "gpt-4o-mini"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": 1762089681658,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/niezidentyfikowane-drony-nad-baza-w-belgii-jest-w-niej-bron-jadrowa-usa/vlm9rvd",
+  "title": "Drony nad belgijską bazą. Przechowywana jest w niej broń jądrowa",
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'broń jądrowa', co może wzbudzać emocje.",
+    "Treść artykułu jest zgodna z tytułem, ale nie dostarcza dodatkowych informacji, które mogłyby zaspokoić ciekawość czytelnika.",
+    "W artykule nie ma cytatów ani konkretnych liczb, co wpływa na niską ocenę wiarygodności.",
+    "Wykryto niewielką liczbę słów w tytule (10) i treści (56), co wpływa na ogólną ocenę."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł może przyciągać uwagę, ponieważ wspomina o broni jądrowej, co jest tematem kontrowersyjnym.",
+    "Treść artykułu jest zgodna z tytułem, ale nie oferuje dodatkowych informacji, które mogłyby rozwiać wątpliwości czytelnika.",
+    "Brak cytatów i konkretów wpływa na postrzeganą wiarygodność artykułu.",
+    "Artykuł jest krótki, co również wpływa na jego ocenę."
+  ],
+  "summary": "Artykuł informuje o niezidentyfikowanych dronach zauważonych nad belgijską bazą lotnictwa wojskowego Kleine-Brogel, w której przechowywana jest broń jądrowa USA. Minister obrony Belgii, Theo Francken, potwierdził te doniesienia. W artykule nie ma dodatkowych informacji na temat sytuacji.",
+  "signals": {
+    "title_hits": [
+      "broń jądrowa"
+    ],
+    "content_hits": [
+      "niezidentyfikowane drony",
+      "broń jądrowa USA"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "title_content_match": true,
+      "title_content_similarity": 0.9
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Niezidentyfikowane drony nad belgijską bazą wojskową",
+    "notes_to_editor": "Rozważyć dodanie więcej informacji na temat sytuacji z dronami oraz ich potencjalnego wpływu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 56,
+    "processing_time_ms": 12330,
+    "model": "gpt-4o-mini"
+  }
+}

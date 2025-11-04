@@ -1,0 +1,49 @@
+{
+  "id": 1762180694729,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/wspolpracownicy-tuska-bali-sie-sms-ow-od-jego-tesciowej-zaskakujace-kulisy-rzadu/cwvsw4n",
+  "title": "Współpracownicy Tuska bali się SMS-ów jego teściowej. Zaskakujące kulisy rządu",
+  "score": 65,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'bali się' oraz 'zaskakujące kulisy', co sugeruje dramatyzm.",
+    "Treść odnosi się do konkretnej sytuacji, ale nie rozwija w pełni kontekstu, co może prowadzić do luk ciekawości.",
+    "W tytule i treści występuje pewien stopień niezgodności, ponieważ nie ma wystarczającej ilości informacji o SMS-ach.",
+    "Artykuł zawiera cytaty z książki, co dodaje mu wiarygodności, jednak brak jest konkretnych danych liczbowych czy źródeł poza książką."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa dramatycznych sformułowań, które przyciągają uwagę, jak 'bali się' i 'zaskakujące kulisy'.",
+    "Treść artykułu odnosi się do konkretnej sytuacji, ale nie wyjaśnia jej w pełni, co może budzić ciekawość czytelników.",
+    "W artykule są cytaty, co sprawia, że jest bardziej wiarygodny, ale brakuje konkretów, które mogłyby to potwierdzić."
+  ],
+  "summary": "Artykuł opisuje sytuację, w której współpracownicy Donalda Tuska obawiali się SMS-ów jego teściowej. Zawiera cytaty z książki Kamila Dziubki, która przedstawia kulisy pracy Tuska i jego relacje z zespołem. Wspomniane są także interwencje teściowej w sprawach politycznych.",
+  "signals": {
+    "title_hits": [
+      "bali się",
+      "zaskakujące kulisy"
+    ],
+    "content_hits": [
+      "wielokrotnie zdarzały się sytuacje",
+      "opiernicz",
+      "teściowa"
+    ],
+    "credibility_hits": [
+      "cytaty",
+      "książki"
+    ],
+    "mismatch": {
+      "title": "Tytuł sugeruje dramatyzm i strach, podczas gdy treść nie dostarcza wystarczających informacji na ten temat.",
+      "content": "Treść koncentruje się na jednym aspekcie, co może prowadzić do niepełnego obrazu sytuacji."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Współpracownicy Tuska o relacjach z jego teściową i kulisach rządu",
+    "notes_to_editor": "Rozważyć dodanie więcej kontekstu do treści, aby lepiej wyjaśnić sytuację opisaną w tytule."
+  },
+  "diagnostics": {
+    "tokens_title": 12,
+    "tokens_content": 90,
+    "processing_time_ms": 15926,
+    "model": "gpt-4o-mini"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": 1762180681837,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/polityka/news-co-ze-zmiana-marszalka-senatu-ustalenia-rmf-fm,nId,8037069",
+  "title": "Co ze zmianą marszałka Senatu? Ustalenia RMF FM",
+  "score": 18,
+  "label": "not_clickbait",
+  "rationale": [
+    "Tytuł nie zawiera fraz sensacyjnych ani absolutów.",
+    "Treść artykułu jest zgodna z tytułem, nie ma rozbieżności.",
+    "Nie wykryto luk ciekawości ani przesadnych stwierdzeń.",
+    "Artykuł zawiera konkretne informacje i cytaty, co zwiększa jego wiarygodność."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jest prosty i informacyjny, nie używa przesadnych słów.",
+    "Treść artykułu odpowiada tytułowi, więc nie ma w niej sprzeczności.",
+    "Nie ma w artykule żadnych sensacyjnych stwierdzeń ani niejasności.",
+    "Artykuł opiera się na faktach i cytatach, co czyni go wiarygodnym."
+  ],
+  "summary": "Artykuł informuje, że nie będzie zmiany na stanowisku marszałka Senatu, Małgorzata Kidawa-Błońska pozostanie na tym stanowisku do końca kadencji. Zapis umowy koalicyjnej umożliwia taką zmianę, ale Koalicja Obywatelska nie planuje jej. W artykule przytoczone są wypowiedzi polityków, którzy potwierdzają tę decyzję.",
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "Źródło: RMF FM",
+      "Cytaty od Kacpra Wróblewskiego, Doroty Łobody i Magdaleny Biejat"
+    ],
+    "mismatch": {
+      "exists": false,
+      "details": "Tytuł i treść są zgodne"
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Zmiana marszałka Senatu nie będzie miała miejsca, ustalenia RMF FM",
+    "notes_to_editor": "Artykuł jest dobrze napisany, nie wymaga zmian."
+  },
+  "diagnostics": {
+    "tokens_title": 8,
+    "tokens_content": 271,
+    "processing_time_ms": 16714,
+    "model": "gpt-4o-mini"
+  }
+}

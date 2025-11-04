@@ -1,0 +1,47 @@
+{
+  "id": 1762006133420,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/polska/news-nowe-fakty-ws-awarii-blik-a-zewnetrzny-atak,nId,8036779",
+  "title": "Nowe fakty ws. awarii BLIK-a. \"Zewnętrzny atak\"",
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'nowe fakty' i 'zewnętrzny atak', które mogą wywoływać ciekawość.",
+    "Treść artykułu jest zgodna z tytułem, jednak nie zawiera szczegółowych informacji, które mogłyby potwierdzić sensacyjność tytułu.",
+    "W treści występują cytaty z komunikatu operatora BLIK-a, co podnosi wiarygodność artykułu.",
+    "Zidentyfikowano 3 frazy sensacyjne w tytule i 1 w treści, co wpływa na ocenę clickbaitu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słów, które mogą przyciągnąć uwagę, jak 'nowe fakty' i 'zewnętrzny atak'.",
+    "Treść artykułu odpowiada tytułowi, ale nie dostarcza wielu szczegółów, które mogłyby go uzasadnić.",
+    "Artykuł zawiera cytaty, co sprawia, że jest bardziej wiarygodny.",
+    "W tytule i treści znalazły się wyrazy, które mogą sugerować sensacyjność."
+  ],
+  "summary": "Artykuł opisuje problemy z płatnościami BLIK-iem, które miały miejsce w sobotę. Operator systemu poinformował, że sytuacja została opanowana, a przyczyną problemów był atak typu DDoS. W artykule zawarto także komunikat operatora dotyczący sytuacji.",
+  "signals": {
+    "title_hits": [
+      "nowe fakty",
+      "zewnętrzny atak"
+    ],
+    "content_hits": [
+      "atak typu DDoS"
+    ],
+    "credibility_hits": [
+      "komunikat opublikowany na stronie blik.com"
+    ],
+    "mismatch": {
+      "title": "Nowe fakty ws. awarii BLIK-a. \"Zewnętrzny atak\"",
+      "content": "W treści nie ma szczegółowych informacji o 'nowych faktach', a 'zewnętrzny atak' jest jedynie potwierdzeniem problemu."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Problemy z płatnościami BLIK-a spowodowane atakiem DDoS",
+    "notes_to_editor": "Rozważyć dodanie więcej szczegółów w treści, aby lepiej uzasadnić tytuł."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 85,
+    "processing_time_ms": 13175,
+    "model": "gpt-4o-mini"
+  }
+}

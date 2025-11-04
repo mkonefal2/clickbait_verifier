@@ -1,0 +1,52 @@
+{
+  "id": 1762180683035,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/raporty/raport-wojna-z-rosja/news-trump-i-putin-spotkaja-w-afryce-zakulisowe-negocjacje-i-nowi,nId,8037096",
+  "title": "Trump i Putin spotkają w Afryce? Zakulisowe negocjacje i nowi łącznicy",
+  "score": 55,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera pytanie, co może wzbudzać ciekawość, a także używa słów takich jak 'zakulisowe' i 'nowi łącznicy', co sugeruje sensację.",
+    "Treść artykułu odnosi się do spekulacji na temat spotkania Trumpa i Putina, co jest zgodne z tytułem, ale nie dostarcza konkretnych informacji na ten temat.",
+    "W artykule pojawiają się liczby i konkretne daty, co może zwiększać jego wiarygodność, jednak brak jest cytatów z wiarygodnych źródeł.",
+    "Mismatches są minimalne, tytuł i treść są ze sobą zgodne, ale tytuł stawia pytanie, co może sugerować niepewność."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł artykułu zawiera pytanie, co może przyciągać uwagę czytelników, a także używa słów, które sugerują coś tajemniczego.",
+    "Treść artykułu odnosi się do spekulacji o spotkaniu Trumpa i Putina, co jest zgodne z tytułem, ale nie dostarcza jednoznacznych informacji.",
+    "W artykule są podane konkretne daty i liczby, co może zwiększać jego wiarygodność, ale brakuje cytatów z autorytatywnych źródeł.",
+    "Tytuł i treść są w dużej mierze zgodne, ale pytanie w tytule sugeruje, że nie ma pewności co do spotkania."
+  ],
+  "summary": "Artykuł omawia spekulacje dotyczące potencjalnego spotkania prezydentów USA i Rosji, Donalda Trumpa i Władimira Putina, podczas szczytu G20 w RPA. Prezydent Finlandii Alexander Stubb wskazuje na możliwych łączników między przywódcami oraz na trwające negocjacje w tle, które mogą wpłynąć na sytuację w Ukrainie.",
+  "signals": {
+    "title_hits": [
+      "spotkają",
+      "zakulisowe",
+      "nowi"
+    ],
+    "content_hits": [
+      "spotkanie",
+      "negocjacje",
+      "łącznicy"
+    ],
+    "credibility_hits": [
+      "prezydent Finlandii",
+      "G20",
+      "daty"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "title_question": true
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Możliwe spotkanie Trumpa i Putina podczas szczytu G20 w RPA",
+    "notes_to_editor": "Rozważyć dodanie cytatów z wiarygodnych źródeł, aby zwiększyć autorytet artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 455,
+    "processing_time_ms": 22228,
+    "model": "gpt-4o-mini"
+  }
+}

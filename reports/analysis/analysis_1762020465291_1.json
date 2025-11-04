@@ -1,0 +1,51 @@
+{
+  "id": 1762020465291,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/polska/news-syn-kazimierza-gorskiego-w-szczerym-wyznaniu-taty-po-prostu-,nId,8035089",
+  "title": "​Syn Kazimierza Górskiego w szczerym wyznaniu: Taty po prostu nie było w domu",
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy, które mogą wzbudzać ciekawość, takie jak 'szczerym wyznaniu' i 'Taty po prostu nie było w domu', co sugeruje emocjonalny ładunek.",
+    "Treść artykułu jest zgodna z tytułem, opisując relację syna z ojcem oraz jego życie rodzinne, co zmniejsza ryzyko mismatch.",
+    "W artykule pojawiają się konkretne liczby, takie jak 'trzy czwarte roku', co zwiększa wiarygodność.",
+    "W treści znajdują się cytaty z Dariusza Górskiego, co również podnosi poziom wiarygodności artykułu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera emocjonalne sformułowania, które mogą przyciągać uwagę czytelników.",
+    "Treść artykułu jest spójna z tytułem i opisuje relację syna z ojcem oraz ich życie rodzinne.",
+    "W artykule pojawiają się konkretne liczby, co sprawia, że jest bardziej wiarygodny.",
+    "Cytaty z syna Kazimierza Górskiego dodają autentyczności i głębi do przedstawionej historii."
+  ],
+  "summary": "Artykuł przedstawia wspomnienia Dariusza Górskiego, syna Kazimierza Górskiego, na temat jego ojca jako trenera i rodzica. Opisuje, jak Kazimierz Górski oddzielał życie zawodowe od prywatnego, a także relacje w rodzinie oraz tradycje świąteczne. Wspomnienia ukazują, jak ważna była dla niego rodzina oraz wartości, które przekazywał swoim dzieciom.",
+  "signals": {
+    "title_hits": [
+      "szczerym wyznaniu",
+      "Taty po prostu nie było w domu"
+    ],
+    "content_hits": [
+      "trzy czwarte roku nie było go w domu",
+      "atmosfera w domu była pełna wzajemnego szacunku"
+    ],
+    "credibility_hits": [
+      "Dariusz Górski",
+      "Kazimierz Górski",
+      "cytaty",
+      "liczby"
+    ],
+    "mismatch": {
+      "exists": false,
+      "details": "Tytuł jest zgodny z treścią artykułu."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Wspomnienia syna Kazimierza Górskiego o ojcu i jego życiu rodzinnym",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 14,
+    "tokens_content": 532,
+    "processing_time_ms": 13886,
+    "model": "gpt-4o-mini"
+  }
+}

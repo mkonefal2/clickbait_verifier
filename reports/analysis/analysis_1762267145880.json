@@ -1,0 +1,50 @@
+{
+  "id": 1762267145880,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/zabojstwo-bialorusinki-w-warszawie-sad-podjal-decyzje-w-sprawie-doriana-s/6bqr164",
+  "title": "Brutalne morderstwo w Warszawie. Sąd podjął decyzję w sprawie Doriana S.",
+  "score": 65,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'Brutalne morderstwo', co zwiększa jego clickbaitowość.",
+    "W treści występują konkretne informacje o wyroku sądowym, co dodaje wiarygodności, ale nie zmienia sensacyjnego charakteru tytułu.",
+    "Wykryto mismatch między tytułem a treścią, ponieważ tytuł sugeruje dramatyzm, podczas gdy treść jest bardziej informacyjna.",
+    "Zidentyfikowano sygnały wiarygodności, takie jak źródło (PAP) oraz konkretne informacje o wyroku."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł artykułu używa mocnych słów, co może przyciągać uwagę, ale sprawia, że jest bardziej sensacyjny.",
+    "Treść artykułu dostarcza konkretne informacje o wyroku sądowym, co czyni ją wiarygodną, ale nie zmienia ogólnego wrażenia tytułu.",
+    "Tytuł i treść nie do końca się zgadzają, ponieważ tytuł jest bardziej dramatyczny niż sama treść.",
+    "Artykuł zawiera wiarygodne źródła i konkretne dane, co zwiększa jego rzetelność."
+  ],
+  "summary": "Artykuł dotyczy wyroku sądowego w sprawie Doriana S., skazanego za gwałt i zabójstwo obywatelki Białorusi, Lizy. Sąd Apelacyjny w Warszawie podtrzymał wyrok dożywocia dla mężczyzny, który dopuścił się tych czynów w bramie kamienicy. Informacje pochodzą z wiarygodnych źródeł.",
+  "signals": {
+    "title_hits": [
+      "Brutalne morderstwo"
+    ],
+    "content_hits": [
+      "wyrok",
+      "dożywocia",
+      "gwałt",
+      "zabójstwo"
+    ],
+    "credibility_hits": [
+      "Leszek Szymański",
+      "PAP"
+    ],
+    "mismatch": {
+      "title": "Brutalne morderstwo w Warszawie",
+      "content": "Sąd podjął decyzję w sprawie Doriana S."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Wyrok sądowy w sprawie Doriana S. za zabójstwo obywatelki Białorusi",
+    "notes_to_editor": "Rozważyć zmianę tytułu na bardziej neutralny, aby lepiej odzwierciedlał treść artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 80,
+    "processing_time_ms": 27474,
+    "model": "gpt-4o-mini"
+  }
+}

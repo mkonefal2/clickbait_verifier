@@ -1,0 +1,53 @@
+{
+  "id": 1762180681049,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/nauka/news-czy-post-przerywany-wplywa-na-twoja-koncentracje-oto-co-mowi,nId,8037103",
+  "title": "Czy post przerywany wpływa na twoją koncentrację? Oto co mówią najnowsze badania",
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera pytanie, co może wzbudzać ciekawość, ale nie używa skrajnych emocji ani sensacyjnych słów.",
+    "Treść artykułu jest zgodna z tytułem, dostarczając konkretne informacje na temat wpływu postu przerywanego na koncentrację.",
+    "W artykule znajdują się liczby i cytaty z badań, co zwiększa jego wiarygodność.",
+    "Nie wykryto dużych niezgodności między tytułem a treścią, co pozytywnie wpływa na ocenę."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zadaje pytanie, co może zainteresować czytelników, ale nie jest przesadnie dramatyczny.",
+    "Treść artykułu odpowiada na pytanie z tytułu, przedstawiając wyniki badań na temat postu przerywanego.",
+    "Artykuł zawiera konkretne dane i cytaty, co czyni go bardziej wiarygodnym.",
+    "Nie znaleziono istotnych różnic między tym, co mówi tytuł, a tym, co jest w artykule."
+  ],
+  "summary": "Artykuł omawia wpływ postu przerywanego na zdolności poznawcze, opierając się na badaniach przeprowadzonych przez międzynarodowy zespół naukowców. Wyniki wskazują, że krótkotrwałe głodówki nie mają negatywnego wpływu na koncentrację zdrowych dorosłych, chociaż dłuższe okresy postu mogą prowadzić do pewnych spadków sprawności umysłowej, zwłaszcza u dzieci.",
+  "signals": {
+    "title_hits": [
+      "Czy post przerywany wpływa na twoją koncentrację?",
+      "Oto co mówią najnowsze badania"
+    ],
+    "content_hits": [
+      "nie musisz się martwić",
+      "krótkotrwałe głodówki nie wpływają negatywnie",
+      "71 niezależnych badań",
+      "3484 zdrowych dorosłych"
+    ],
+    "credibility_hits": [
+      "dr David Moreau",
+      "Psychological Bulletin",
+      "badania",
+      "cytaty"
+    ],
+    "mismatch": {
+      "title": "Czy post przerywany wpływa na twoją koncentrację?",
+      "content": "Nie znaleziono dowodów na negatywny wpływ postu na koncentrację."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Wpływ postu przerywanego na koncentrację - wyniki badań",
+    "notes_to_editor": "Artykuł jest dobrze zbadany i zawiera wiarygodne źródła, ale tytuł mógłby być bardziej neutralny."
+  },
+  "diagnostics": {
+    "tokens_title": 12,
+    "tokens_content": 546,
+    "processing_time_ms": 18010,
+    "model": "gpt-4o-mini"
+  }
+}

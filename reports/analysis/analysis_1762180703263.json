@@ -1,0 +1,47 @@
+{
+  "id": 1762180703263,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/niemiecki-general-mowil-o-stracaniu-dronow-zbyt-duze-ryzyko/0qfgwxz",
+  "title": "Niemiecki generał mówił o strącaniu dronów. \"Zbyt duże ryzyko\"",
+  "score": 32,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazę 'zbyt duże ryzyko', co jest sygnałem emocjonalnym.",
+    "Treść artykułu jest zgodna z tytułem, nie ma istotnych rozbieżności.",
+    "W tytule i treści występują powtórzenia, co może sugerować clickbait.",
+    "Brak sensacyjnych fraz, ale tytuł może budzić ciekawość."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa emocjonalnego sformułowania, co może przyciągać uwagę.",
+    "Treść artykułu jest spójna z tytułem, co jest pozytywne.",
+    "Nie ma przesadnych lub sensacyjnych stwierdzeń, ale tytuł może być nieco intrygujący.",
+    "Artykuł nie zawiera zbyt wielu faktów, które mogłyby zwiększyć jego wiarygodność."
+  ],
+  "summary": "Artykuł opisuje wypowiedź niemieckiego generała Carstena Breuera, który podkreślił, że zestrzeliwanie dronów w niemieckiej przestrzeni powietrznej wiąże się z dużym ryzykiem dla ludności cywilnej. Generał zaleca unikanie takich działań ze względu na potencjalne zagrożenia.",
+  "signals": {
+    "title_hits": [
+      "zbyt duże ryzyko"
+    ],
+    "content_hits": [
+      "Niemiecki generał mówił o strącaniu dronów",
+      "zbyt dużym ryzykiem"
+    ],
+    "credibility_hits": [
+      "Polska Agencja Prasowa",
+      "data"
+    ],
+    "mismatch": {
+      "exists": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Niemiecki generał ostrzega przed zestrzeliwaniem dronów",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 12,
+    "tokens_content": 62,
+    "processing_time_ms": 13137,
+    "model": "gpt-4o-mini"
+  }
+}

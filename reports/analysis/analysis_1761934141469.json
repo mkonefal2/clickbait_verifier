@@ -1,0 +1,48 @@
+{
+  "id": 1761934141469,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/warszawa/policja-poszukuje-sprawcy-brutalnie-pobil-kobiete-w-zyrardowie/ws5dhq4",
+  "title": "Brutalnie zaatakował kobietę. Policja szuka sprawcy z nagrania",
+  "score": 66,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'brutalnie zaatakował', co wskazuje na silne emocje.",
+    "Treść artykułu również używa słowa 'brutalnie', co potwierdza obecność fraz sensacyjnych.",
+    "W tytule i treści występuje zgodność, jednak tytuł może sugerować większą dramatyzację niż sama treść.",
+    "Brak konkretnych liczb czy cytatów, co obniża sygnały wiarygodności.",
+    "Wykryto 3 słowa kluczowe w tytule i 2 w treści, co wskazuje na silną obecność clickbaitu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów, co przyciąga uwagę i wzbudza emocje.",
+    "Treść artykułu potwierdza dramatyczność sytuacji, ale nie dodaje dodatkowych informacji, które mogłyby ją wzmocnić.",
+    "Tytuł i treść są zgodne, ale tytuł może być bardziej dramatyczny niż sama historia.",
+    "Brak konkretów, jak liczby czy cytaty, co może wpływać na postrzeganą wiarygodność.",
+    "W artykule jest kilka mocnych słów, co wskazuje na jego clickbaitowy charakter."
+  ],
+  "summary": "Artykuł opisuje brutalny atak na kobietę, który miał miejsce pod Warszawą. Policja prowadzi dochodzenie w tej sprawie, a zdarzenie zostało zarejestrowane przez kamerę monitoringu. Informacje pochodzą z serwisu Radia Zet.",
+  "signals": {
+    "title_hits": [
+      "brutalnie",
+      "zaatakował"
+    ],
+    "content_hits": [
+      "brutalnie",
+      "atakował"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "exists": false,
+      "details": {}
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Policja poszukuje sprawcy ataku na kobietę w Żyrardowie",
+    "notes_to_editor": "Rozważyć dodanie więcej informacji o dochodzeniu i świadkach, aby zwiększyć wiarygodność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 80,
+    "processing_time_ms": 13643,
+    "model": "gpt-4o-mini"
+  }
+}

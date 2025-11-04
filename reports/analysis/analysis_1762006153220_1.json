@@ -1,0 +1,48 @@
+{
+  "id": 1762006153220,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/jd-vance-przebral-sie-na-halloween-podziekujcie-nagranie-hitem-sieci/tq2zrgj",
+  "title": "Tak J.D. Vance przebrał się na Halloween. \"Pamiętajcie, podziękujcie\"",
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy, które mogą wzbudzać ciekawość, takie jak 'Tak J.D. Vance przebrał się' oraz 'Pamiętajcie, podziękujcie'.",
+    "Treść artykułu jest zgodna z tytułem, jednak nie zawiera szczegółowych informacji, które mogłyby potwierdzić sensacyjność.",
+    "W artykule nie ma cytatów ani konkretnych danych, które zwiększałyby jego wiarygodność.",
+    "Wykryto pewne elementy luk ciekawości, ale nie są one bardzo intensywne."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł artykułu zawiera zwroty, które mogą przyciągać uwagę, ale nie są przesadnie sensacyjne.",
+    "Treść artykułu odpowiada tytułowi, ale nie dostarcza wielu szczegółów, które mogłyby wzbudzić większe zainteresowanie.",
+    "Brak cytatów i konkretnych danych osłabia wiarygodność artykułu.",
+    "Chociaż są pewne elementy, które mogą wzbudzać ciekawość, nie są one na tyle silne, aby uznać artykuł za wyraźnie clickbaitowy."
+  ],
+  "summary": "Artykuł opisuje, jak J.D. Vance przebrał się na Halloween, publikując nagranie w mediach społecznościowych. Wideo, w którym żartuje z samego siebie, nawiązuje do popularnych memów związanych z jego spotkaniem z Donaldem Trumpem i Wołodymyrem Zełenskim. Nagranie szybko zdobyło popularność w sieci.",
+  "signals": {
+    "title_hits": [
+      "J.D. Vance",
+      "Halloween",
+      "podziękujcie"
+    ],
+    "content_hits": [
+      "przebrał się",
+      "nagranie hitem sieci",
+      "żartując z samego siebie"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "title_content_match": true,
+      "content_detail_level": "low"
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "J.D. Vance w przebraniu na Halloween",
+    "notes_to_editor": "Rozważyć dodanie cytatów lub danych, aby zwiększyć wiarygodność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 12,
+    "tokens_content": 82,
+    "processing_time_ms": 16212,
+    "model": "gpt-4o-mini"
+  }
+}

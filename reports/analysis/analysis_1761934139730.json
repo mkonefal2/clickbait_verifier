@@ -1,0 +1,49 @@
+{
+  "id": 1761934139730,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/wrze-na-linii-usa-wenezuela-media-naloty-moga-nastapic-w-kazdej-chwili/d4mpyy8",
+  "title": "Wrze na linii USA-Wenezuela. Media: naloty mogą nastąpić w każdej chwili",
+  "score": 65,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazę 'naloty mogą nastąpić w każdej chwili', co jest przykładem luk ciekawości.",
+    "Treść artykułu potwierdza informacje zawarte w tytule, ale używa sensacyjnego języka.",
+    "W artykule występują odniesienia do źródła (Miami Herald), co dodaje wiarygodności.",
+    "W tytule i treści występują absolutne sformułowania, co zwiększa stopień clickbaitu.",
+    "Zidentyfikowano mismatch, ponieważ tytuł sugeruje pilność sytuacji, co jest zgodne z treścią, ale nie wyjaśnia szczegółów."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera zwrot sugerujący, że sytuacja jest bardzo napięta, co przyciąga uwagę.",
+    "Treść artykułu potwierdza informacje z tytułu, ale używa dramatycznego języka.",
+    "Artykuł odnosi się do wiarygodnego źródła, co zwiększa jego rzetelność.",
+    "W tytule i treści pojawiają się mocne sformułowania, co może budzić wrażenie sensacyjności.",
+    "Tytuł i treść są zgodne, ale tytuł nie dostarcza pełnych informacji o sytuacji."
+  ],
+  "summary": "Artykuł informuje o napiętej sytuacji między USA a Wenezuelą, wskazując na możliwe naloty na cele wojskowe w Wenezueli. Informacje te pochodzą z Miami Herald, które sugeruje, że atak może nastąpić w każdej chwili. W artykule podano również kontekst polityczny związany z reżimem Maduro.",
+  "signals": {
+    "title_hits": [
+      "naloty mogą nastąpić w każdej chwili"
+    ],
+    "content_hits": [
+      "Stany Zjednoczone przygotowują się do ataku",
+      "naloty mogą nastąpić w każdej chwili"
+    ],
+    "credibility_hits": [
+      "Miami Herald"
+    ],
+    "mismatch": {
+      "exists": false,
+      "details": "Tytuł i treść są zgodne."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Napięta sytuacja między USA a Wenezuelą: możliwe naloty",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 60,
+    "processing_time_ms": 18034,
+    "model": "gpt-4o-mini"
+  }
+}

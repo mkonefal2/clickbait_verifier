@@ -1,0 +1,51 @@
+{
+  "id": 1762020486671,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/wenezuela-prosi-o-pomoc-wojskowa-list-dostal-min-wladimir-putin/5q5hzfq",
+  "title": "Wenezuela prosi o pomoc wojskową. List dostał m.in. Władimir Putin",
+  "score": 32,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy, które mogą wzbudzać ciekawość, takie jak 'prosi o pomoc wojskową' i 'dostał m.in. Władimir Putin'.",
+    "Treść artykułu jest zgodna z tytułem, co zmniejsza ryzyko mismatchu.",
+    "W artykule pojawiają się konkretne informacje o prośbie Wenezueli do Rosji, Chin i Iranu, co zwiększa wiarygodność.",
+    "Nie znaleziono wyraźnych sygnałów clickbaitowych w treści, ale tytuł może być uznany za lekko sensacyjny."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł artykułu zawiera zwroty, które mogą przyciągać uwagę, jak 'pomoc wojskowa' i 'Władimir Putin'.",
+    "Treść artykułu odpowiada tytułowi, co oznacza, że nie wprowadza w błąd.",
+    "Artykuł zawiera konkretne informacje o prośbie Wenezueli o pomoc, co czyni go bardziej wiarygodnym.",
+    "Choć tytuł może wydawać się nieco sensacyjny, treść jest rzeczowa i informacyjna."
+  ],
+  "summary": "W artykule opisano, jak prezydent Wenezueli Nicolas Maduro zwrócił się o pomoc wojskową do Rosji, Chin i Iranu w obliczu zwiększonej obecności wojskowej USA w regionie Karaibów. Prośba dotyczy głównie dostaw radarów, pomocy w naprawie samolotów oraz pocisków.",
+  "signals": {
+    "title_hits": [
+      "pomoc wojskową",
+      "Władimir Putin"
+    ],
+    "content_hits": [
+      "pomoc wojskową",
+      "Nicolas Maduro",
+      "Rosji",
+      "Chin",
+      "Iranu"
+    ],
+    "credibility_hits": [
+      "Washington Post"
+    ],
+    "mismatch": {
+      "exists": false,
+      "details": "Tytuł i treść są zgodne."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Wenezuela prosi Rosję, Chiny i Iran o pomoc wojskową",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 63,
+    "processing_time_ms": 13216,
+    "model": "gpt-4o-mini"
+  }
+}

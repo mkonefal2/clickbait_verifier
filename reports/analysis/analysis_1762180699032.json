@@ -1,0 +1,50 @@
+{
+  "id": 1762180699032,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/olsztyn/tragiczny-final-poszukiwan-wylowili-z-jeziora-ciala-dwoch-braci/ftf4nt0",
+  "title": "Tragiczny finał poszukiwań. Wyłowili z jeziora ciała dwóch braci",
+  "score": 20,
+  "label": "not_clickbait",
+  "rationale": [
+    "Tytuł zawiera słowo 'tragiczny', które może być uznane za frazę sensacyjną, ale nie jest to absolut.",
+    "Treść artykułu jest zgodna z tytułem, nie występuje mismatch.",
+    "W artykule podano konkretne informacje o wieku braci oraz miejscu zdarzenia, co zwiększa wiarygodność.",
+    "Brak luk ciekawości, artykuł dostarcza pełnych informacji na temat zdarzenia."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'tragiczny', co może wzbudzać emocje, ale nie jest to przesadzone.",
+    "Treść artykułu dokładnie odpowiada tytułowi, nie ma sprzeczności.",
+    "Podano ważne szczegóły, takie jak wiek braci i miejsce zdarzenia, co sprawia, że artykuł jest wiarygodny.",
+    "Artykuł nie zostawia pytań bez odpowiedzi, dostarcza pełnych informacji."
+  ],
+  "summary": "W jeziorze Kruklin na Mazurach odnaleziono ciała dwóch braci, którzy byli poszukiwani od piątku. Policja potwierdziła, że mężczyźni mieli 52 i 48 lat i przyjechali z Ełku na ryby. Poszukiwania zakończyły się tragicznie.",
+  "signals": {
+    "title_hits": [
+      "tragiczny"
+    ],
+    "content_hits": [
+      "ciała dwóch braci",
+      "policja podała",
+      "wiek 52 i 48 lat"
+    ],
+    "credibility_hits": [
+      "Polska Agencja Prasowa",
+      "WOPR",
+      "Piotr Opoka / Shutterstock"
+    ],
+    "mismatch": {
+      "exists": false,
+      "details": "Brak sprzeczności między tytułem a treścią."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Znaleziono ciała dwóch braci w jeziorze Kruklin",
+    "notes_to_editor": "Artykuł jest informacyjny i nie wymaga zmian."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 66,
+    "processing_time_ms": 15693,
+    "model": "gpt-4o-mini"
+  }
+}

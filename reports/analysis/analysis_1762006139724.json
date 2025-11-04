@@ -1,0 +1,51 @@
+{
+  "id": 1762006139724,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/lublin/news-lalka-zaczela-sie-w-lublinie-stanislawa-wokulskiego-historia,nId,8036299",
+  "title": "\"Lalka\" zaczęła się w Lublinie. Stanisława Wokulskiego historia prawdziwa ",
+  "score": 32,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy, które mogą wzbudzać ciekawość, takie jak 'prawdziwa historia', co sugeruje sensacyjny charakter.",
+    "W treści artykułu znajdują się informacje o rzeczywistych wydarzeniach i postaciach, co zwiększa wiarygodność.",
+    "Zidentyfikowano kilka luk ciekawości, w tym odniesienia do znanych postaci literackich i ich rzeczywistych odpowiedników.",
+    "Tytuł i treść są w dużej mierze zgodne, ale tytuł sugeruje bardziej dramatyczne odkrycie niż to, co jest przedstawione w artykule.",
+    "W artykule znajdują się cytaty i odniesienia do źródeł, co podnosi jego wiarygodność."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł może budzić ciekawość, ponieważ używa zwrotu 'prawdziwa historia', co sugeruje, że artykuł odkrywa coś niezwykłego.",
+    "Artykuł opowiada o rzeczywistych wydarzeniach związanych z postacią z powieści 'Lalka', co czyni go bardziej wiarygodnym.",
+    "W treści są elementy, które mogą zaintrygować czytelników, takie jak odniesienia do znanych bohaterów literackich.",
+    "Tytuł i treść są zgodne, ale tytuł może sugerować większe dramatyzm niż to, co rzeczywiście jest opisane w artykule.",
+    "Artykuł zawiera cytaty i odniesienia do źródeł, co zwiększa jego rzetelność."
+  ],
+  "summary": "Artykuł opisuje historię Jana Mincla, który był pierwowzorem postaci Stanisława Wokulskiego z powieści 'Lalka' Bolesława Prusa. Zawiera informacje o jego życiu, sklepie w Lublinie oraz relacjach z pisarzem. Wspomniane są także źródła, które potwierdzają związki między rzeczywistością a literaturą.",
+  "signals": {
+    "title_hits": [
+      "prawdziwa historia"
+    ],
+    "content_hits": [
+      "Jan Mincel",
+      "Stanisław Wokulski",
+      "Bolesław Prus"
+    ],
+    "credibility_hits": [
+      "cytaty",
+      "źródła"
+    ],
+    "mismatch": {
+      "title_content_match": "partial",
+      "explanation": "Tytuł sugeruje odkrycie prawdziwej historii, co jest zgodne z treścią, ale nie oddaje w pełni jej charakteru."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "\"Lalka\" i jej prawdziwy pierwowzór w Lublinie: historia Jana Mincla",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 13,
+    "tokens_content": 1226,
+    "processing_time_ms": 16130,
+    "model": "gpt-4o-mini"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": 1761934133811,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/zbigniew-ziobro-o-spotkaniu-z-viktorem-orbanem-pogratulowalem-mu/r6sdvzn",
+  "title": "Zbigniew Ziobro o spotkaniu z Viktorem Orbanem. \"Pogratulowałem mu\"",
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy, które mogą budzić ciekawość, ale nie są skrajnie sensacyjne.",
+    "Treść artykułu jest zgodna z tytułem, co zmniejsza ryzyko clickbaitu.",
+    "W artykule występują cytaty, co zwiększa jego wiarygodność.",
+    "Nie znaleziono wyraźnych sygnałów sensacyjnych ani absolutów w treści."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł nie jest przesadnie sensacyjny, ale może przyciągać uwagę.",
+    "Treść artykułu odpowiada tytułowi, co jest pozytywne.",
+    "Artykuł zawiera cytaty, co sprawia, że jest bardziej wiarygodny.",
+    "Nie ma w nim przesadnych stwierdzeń ani dramatyzacji."
+  ],
+  "summary": "Zbigniew Ziobro skomentował swoje spotkanie z Viktorem Orbanem, podkreślając znaczenie obrony suwerenności Węgier. W rozmowie poruszył również kwestie polityczne w Polsce, wyrażając przekonanie, że obecna władza zmierza ku końcowi. Spotkanie wywołało reakcje wśród polskich polityków.",
+  "signals": {
+    "title_hits": [
+      "Pogratulowałem mu"
+    ],
+    "content_hits": [
+      "Pogratulowałem mu",
+      "obrony suwerenności",
+      "sprawach ogólnopolitycznych"
+    ],
+    "credibility_hits": [
+      "Zbigniew Ziobro",
+      "Viktor Orban",
+      "cytaty"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "title_content_similarity": 0.85
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Zbigniew Ziobro komentuje spotkanie z Viktorem Orbanem",
+    "notes_to_editor": "Artykuł mógłby być bardziej neutralny w tytule, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 13,
+    "tokens_content": 103,
+    "processing_time_ms": 12191,
+    "model": "gpt-4o-mini"
+  }
+}

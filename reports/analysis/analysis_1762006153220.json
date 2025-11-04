@@ -1,0 +1,47 @@
+{
+  "id": 1762006153220,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/jd-vance-przebral-sie-na-halloween-podziekujcie-nagranie-hitem-sieci/tq2zrgj",
+  "title": "Tak J.D. Vance przebrał się na Halloween. \"Pamiętajcie, podziękujcie\"",
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy, które mogą wzbudzać ciekawość, takie jak 'przebrał się' i 'podziękujcie'.",
+    "Treść artykułu jest zgodna z tytułem, jednak nie zawiera szczegółowych informacji, co może wprowadzać w błąd.",
+    "Brak wyraźnych sygnałów wiarygodności, takich jak cytaty czy konkretne liczby.",
+    "Wykryto niewielką liczbę fraz sensacyjnych w treści, co wpływa na ocenę clickbaitu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera interesujące sformułowania, które mogą przyciągać uwagę czytelników.",
+    "Treść artykułu odpowiada tytułowi, ale nie dostarcza wielu szczegółów, co może być mylące.",
+    "Artykuł nie zawiera mocnych dowodów na wiarygodność, takich jak cytaty czy konkretne dane.",
+    "Zidentyfikowano kilka zwrotów, które mogą być uznane za sensacyjne, ale nie jest ich wiele."
+  ],
+  "summary": "Artykuł opisuje, jak J.D. Vance, wiceprezydent USA, przebrał się na Halloween i opublikował nagranie w mediach społecznościowych. Wideo, w którym żartuje z samego siebie, nawiązuje do memów związanych z jego spotkaniem z Donaldem Trumpem i Wołodymyrem Zełenskim. Nagranie szybko zdobyło popularność w sieci.",
+  "signals": {
+    "title_hits": [
+      "przebrał się",
+      "Pamiętajcie",
+      "podziękujcie"
+    ],
+    "content_hits": [
+      "przebrał się",
+      "nagranie hitem sieci"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "title_content_match": true,
+      "content_details": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "J.D. Vance w przebraniu na Halloween",
+    "notes_to_editor": "Rozważyć dodanie więcej szczegółów w treści artykułu, aby zwiększyć jego wartość informacyjną."
+  },
+  "diagnostics": {
+    "tokens_title": 13,
+    "tokens_content": 79,
+    "processing_time_ms": 14549,
+    "model": "gpt-4o-mini"
+  }
+}

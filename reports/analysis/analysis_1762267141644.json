@@ -1,0 +1,47 @@
+{
+  "id": 1762267141644,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/jaroslaw-kaczynski-o-immunitecie-zbigniewa-ziobry-to-rownoznaczne-z-wyrokiem-smierci/emc1wpj",
+  "title": "Zbigniew Ziobro powinien wrócić do Polski? Szokujące słowa Jarosława Kaczyńskiego",
+  "score": 65,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'szokujące słowa', które mogą przyciągać uwagę.",
+    "Treść artykułu odnosi się do kontrowersyjnej wypowiedzi Jarosława Kaczyńskiego, co zwiększa stopień clickbaitu.",
+    "W artykule występuje pytanie retoryczne, co również podnosi poziom sensacyjności.",
+    "Zidentyfikowano niezgodność między tytułem a treścią, ponieważ tytuł sugeruje, że artykuł dotyczy powrotu Ziobry, podczas gdy treść koncentruje się na wypowiedzi Kaczyńskiego.",
+    "Brak cytatów lub konkretnych liczb, co obniża sygnały wiarygodności."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera emocjonalne słowa, które mogą przyciągać uwagę czytelników.",
+    "Artykuł opisuje kontrowersyjną wypowiedź Jarosława Kaczyńskiego, co sprawia, że jest bardziej sensacyjny.",
+    "W treści pojawia się pytanie retoryczne, co również zwiększa dramatyzm.",
+    "Tytuł sugeruje, że artykuł dotyczy powrotu Zbigniewa Ziobry, podczas gdy w rzeczywistości koncentruje się na wypowiedzi Kaczyńskiego.",
+    "Brak konkretów, takich jak cytaty czy liczby, co może wpływać na postrzeganą wiarygodność informacji."
+  ],
+  "summary": "Artykuł opisuje wypowiedź Jarosława Kaczyńskiego na temat ewentualnego uchwały immunitetu Zbigniewa Ziobry oraz jego powrotu do Polski. Kaczyński odpowiedział pytaniem na pytanie dziennikarzy, co wywołało kontrowersje. W artykule nie ma szczegółowych informacji na temat kontekstu tej sytuacji.",
+  "signals": {
+    "title_hits": [
+      "szokujące"
+    ],
+    "content_hits": [
+      "szokujące",
+      "pytanie"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "title": "Zbigniew Ziobro powinien wrócić do Polski?",
+      "content": "Kaczyński odpowiedział pytaniem na pytanie o powrót Ziobry."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Jarosław Kaczyński komentuje ewentualny powrót Zbigniewa Ziobry",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 92,
+    "processing_time_ms": 18963,
+    "model": "gpt-4o-mini"
+  }
+}

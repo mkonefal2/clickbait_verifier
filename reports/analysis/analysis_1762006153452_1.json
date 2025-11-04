@@ -1,0 +1,46 @@
+{
+  "id": 1762006153452,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/nadchodzi-cios-brexitu-giganci-zabieraja-pieniadze-i-uciekaja-z-londynu/02t7kj6",
+  "title": "Brytyjczycy rozżaleni. Zrozumieli, co zrobili, opuszczając UE",
+  "score": 62,
+  "label": "strong",
+  "rationale": [
+    "Title contains emotional language ('rozżaleni', 'zrozumieli'), which can be considered sensational.",
+    "Content uses phrases like 'cios brexitu', 'giganci zabierają pieniądze', which evoke strong imagery and emotions.",
+    "Mismatch detected: the title suggests a personal realization of the British people, while the content focuses more on economic consequences.",
+    "Lack of specific quotes or statistics to support claims in the content, reducing credibility."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa emocjonalnego języka, co może przyciągać uwagę, ale też wprowadzać w błąd.",
+    "Treść zawiera mocne wyrażenia, które mogą wywoływać silne emocje.",
+    "Tytuł sugeruje osobiste odczucia Brytyjczyków, podczas gdy artykuł bardziej koncentruje się na skutkach ekonomicznych.",
+    "Brak konkretnych cytatów lub statystyk w treści, co wpływa na wiarygodność informacji."
+  ],
+  "summary": "Artykuł opisuje negatywne skutki brexitu dla Londynu, gdzie wiele firm przenosi swoje oddziały do Unii Europejskiej. Brytyjczycy wyrażają swoje rozczarowanie, ponieważ obietnice poprawy sytuacji gospodarczej po brexicie nie zostały spełnione. W efekcie Londyn traci na znaczeniu jako centrum finansowe.",
+  "signals": {
+    "title_hits": [
+      "rozżaleni",
+      "zrozumieli"
+    ],
+    "content_hits": [
+      "cios brexitu",
+      "giganci zabierają pieniądze"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "detected": true,
+      "description": "Title suggests personal feelings, while content focuses on economic issues."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Brytyjczycy wyrażają obawy dotyczące skutków brexitu",
+    "notes_to_editor": "Rozważyć dodanie konkretnych danych lub cytatów, aby zwiększyć wiarygodność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 106,
+    "processing_time_ms": 12946,
+    "model": "gpt-4o-mini"
+  }
+}

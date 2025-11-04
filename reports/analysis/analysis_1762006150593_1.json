@@ -1,0 +1,50 @@
+{
+  "id": 1762006150593,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/polacy-podzieleni-w-sprawie-aresztowania-zbigniewa-ziobry-nowy-sondaz/31mxf1q",
+  "title": "Zbigniew Ziobro powinien trafić do aresztu? Polacy zabrali głos [SONDAŻ]",
+  "score": 62,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera pytanie retoryczne, co może wzbudzać ciekawość czytelników.",
+    "W treści artykułu znajdują się konkretne dane z badania, co podnosi wiarygodność, ale tytuł sugeruje dramatyzm.",
+    "Wykryto frazy sensacyjne, takie jak 'powinien trafić do aresztu'.",
+    "Zauważono niezgodność między tytułem a treścią, ponieważ tytuł sugeruje jednoznaczną opinię, podczas gdy treść przedstawia wyniki badania."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł stawia pytanie, co może przyciągać uwagę czytelników.",
+    "Artykuł zawiera konkretne dane z badania, co czyni go bardziej wiarygodnym, ale tytuł brzmi dramatycznie.",
+    "W tytule użyto mocnych słów, które mogą wywoływać emocje.",
+    "Tytuł sugeruje pewną opinię, podczas gdy treść przedstawia różne opinie Polaków."
+  ],
+  "summary": "Artykuł przedstawia wyniki badania SW Research, w którym ponad połowa Polaków opowiedziała się za tymczasowym aresztowaniem Zbigniewa Ziobry w związku z zarzutami dotyczącymi Funduszu Sprawiedliwości. Badanie zostało przeprowadzone dla 'Rzeczpospolitej'.",
+  "signals": {
+    "title_hits": [
+      "aresztu",
+      "Polacy zabrali głos"
+    ],
+    "content_hits": [
+      "ponad połowa Polaków",
+      "badania SW Research",
+      "Rzeczpospolitej"
+    ],
+    "credibility_hits": [
+      "badanie SW Research",
+      "Rzeczpospolitej"
+    ],
+    "mismatch": {
+      "title": "Zbigniew Ziobro powinien trafić do aresztu?",
+      "content": "Ponad połowa Polaków uważa, że Zbigniew Ziobro powinien zostać tymczasowo aresztowany."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Opinie Polaków na temat aresztowania Zbigniewa Ziobry [SONDAŻ]",
+    "notes_to_editor": "Rozważyć zmianę tytułu na bardziej neutralny, aby lepiej odzwierciedlał treść artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 13,
+    "tokens_content": 65,
+    "processing_time_ms": 17120,
+    "model": "gpt-4o-mini"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": 1761934121382,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/swiat/news-moldawia-wybiera-europe-jest-nowy-premier-kraju,nId,8036709",
+  "title": "Mołdawia wybiera Europę. Jest nowy premier kraju ",
+  "score": 34,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazę 'wybiera Europę', co może sugerować sensacyjny ton, ale nie jest to absolut.",
+    "Treść artykułu dostarcza konkretne informacje o nowym premierze, co zmniejsza stopień clickbaitu.",
+    "W artykule nie występują wyraźne luki ciekawości ani przesadne emocje.",
+    "Występuje zgodność między tytułem a treścią, co obniża ryzyko clickbaitu.",
+    "Artykuł zawiera cytaty i odniesienia do agencji informacyjnej, co zwiększa jego wiarygodność."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł sugeruje, że Mołdawia podejmuje ważną decyzję, co może przyciągać uwagę, ale nie jest przesadnie dramatyczny.",
+    "Treść artykułu dostarcza konkretne informacje o nowym premierze, co sprawia, że jest bardziej informacyjny niż sensacyjny.",
+    "Nie ma w nim przesadnych emocji ani niejasnych stwierdzeń, co czyni go wiarygodnym.",
+    "Tytuł i treść są zgodne, co zmniejsza ryzyko wprowadzenia w błąd czytelników.",
+    "Artykuł zawiera odniesienia do źródeł, co zwiększa jego rzetelność."
+  ],
+  "summary": "Parlament Mołdawii zatwierdził nowego premiera, Alexandru Munteanu, który przez ostatnie 20 lat mieszkał poza krajem. Jego nominacja na czele proeuropejskiego rządu może wskazywać na nowy kierunek polityczny Mołdawii. Munteanu ma doświadczenie w finansach i ekonomii, a wcześniej pracował w Narodowym Banku Mołdawii oraz Banku Światowym.",
+  "signals": {
+    "title_hits": [
+      "wybiera Europę"
+    ],
+    "content_hits": [
+      "nowy premier",
+      "Alexandru Munteanu",
+      "proeuropejski rząd"
+    ],
+    "credibility_hits": [
+      "agencja Reutera",
+      "obywatelstwo mołdawskie, rumuńskie i amerykańskie"
+    ],
+    "mismatch": {
+      "is_mismatch": false,
+      "reason": "Tytuł jest zgodny z treścią artykułu."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Nowy premier Mołdawii zatwierdzony przez parlament",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć sensacyjności."
+  },
+  "diagnostics": {
+    "tokens_title": 8,
+    "tokens_content": 132,
+    "processing_time_ms": 16045,
+    "model": "gpt-4o-mini"
+  }
+}

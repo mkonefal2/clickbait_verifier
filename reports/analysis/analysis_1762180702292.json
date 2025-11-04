@@ -1,0 +1,50 @@
+{
+  "id": 1762180702292,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/donald-tusk-wylicza-sukcesy-polski-gonimy-niemcow/grdp05h",
+  "title": "Donald Tusk wylicza sukcesy Polski. \"Gonimy Niemców\"",
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazę 'Gonimy Niemców', co może być uznane za sensacyjne.",
+    "Treść artykułu odnosi się do sukcesów Polski, ale nie rozwija w sposób szczegółowy, co może budzić ciekawość.",
+    "Zidentyfikowano cytat z Donalda Tuska, co dodaje wiarygodności, ale nie ma wielu konkretów.",
+    "Mismatched detection wskazuje na pewną niezgodność między tytułem a treścią, ponieważ tytuł sugeruje więcej szczegółów o sukcesach."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa wyrażenia 'Gonimy Niemców', co może przyciągać uwagę, ale jest dość ogólny.",
+    "Artykuł mówi o sukcesach Polski, ale nie podaje wielu konkretów, co może sprawić, że czytelnicy będą ciekawi.",
+    "Cytat z Donalda Tuska dodaje wiarygodności, ale brakuje szczegółowych danych.",
+    "Tytuł sugeruje, że artykuł będzie bardziej szczegółowy, niż jest w rzeczywistości."
+  ],
+  "summary": "Artykuł opisuje wystąpienie Donalda Tuska, w którym wymienia polskie sukcesy w różnych dziedzinach, takich jak wzrost gospodarczy i cyfryzacja. Tusk podkreśla, że Niemcy zazdroszczą Polsce postępów. Wspomina również o potrzebie większej obecności Warszawy w Berlinie, powołując się na szwajcarską gazetę.",
+  "signals": {
+    "title_hits": [
+      "Gonimy Niemców"
+    ],
+    "content_hits": [
+      "Gonimy Niemców",
+      "sukcesy",
+      "wzrost",
+      "cyfryzacja"
+    ],
+    "credibility_hits": [
+      "cytat",
+      "szwajcarska gazeta"
+    ],
+    "mismatch": {
+      "title": "Donald Tusk wylicza sukcesy Polski. \"Gonimy Niemców\"",
+      "content": "Artykuł koncentruje się na ogólnych sukcesach, ale nie wylicza ich szczegółowo."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Donald Tusk omawia sukcesy Polski w kontekście Niemiec",
+    "notes_to_editor": "Rozważyć dodanie więcej szczegółów dotyczących wymienionych sukcesów, aby lepiej odzwierciedlić treść artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 104,
+    "processing_time_ms": 16989,
+    "model": "gpt-4o-mini"
+  }
+}

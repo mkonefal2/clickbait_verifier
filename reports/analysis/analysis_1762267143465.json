@@ -1,0 +1,51 @@
+{
+  "id": 1762267143465,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/pierwsze-ustalenia-kontroli-i-tajemniczy-fundusz-minister-o-aferze-z-dzialka-pod-cpk/1vxnq4z",
+  "title": "Pierwsze ustalenia kontroli i tajemniczy fundusz. Minister o aferze z działką pod CPK",
+  "score": 38,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'tajemniczy fundusz', co może budzić ciekawość czytelników.",
+    "Treść artykułu jest zgodna z tytułem, ale nie dostarcza dodatkowych informacji, które mogłyby uzasadnić sensacyjność tytułu.",
+    "W tytule i treści występują absoluty, ale nie są one dominujące.",
+    "W artykule pojawiają się cytaty z ministra, co zwiększa wiarygodność informacji.",
+    "Wykryto niewielką rozbieżność między tytułem a treścią, co wpływa na wynik końcowy."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera intrygujące sformułowania, które mogą przyciągać uwagę czytelników.",
+    "Treść artykułu odpowiada tytułowi, ale nie dodaje zbyt wielu szczegółów, które mogłyby wyjaśnić sensacyjność.",
+    "W artykule są cytaty z ministra, co sprawia, że informacje są bardziej wiarygodne.",
+    "Zauważono niewielką różnicę między tym, co jest napisane w tytule, a tym, co jest w treści."
+  ],
+  "summary": "Artykuł omawia pierwsze ustalenia kontroli dotyczące sprzedaży działki pod Centralny Port Komunikacyjny (CPK) oraz wspomina o tajemniczym funduszu, który został zasilony milionami złotych. Minister rolnictwa Stefan Krajewski komentuje te kwestie, wskazując na nieprawidłowości w procesie decyzyjnym oraz korespondencję z Krajowym Ośrodkiem Wsparcia Rolnictwa.",
+  "signals": {
+    "title_hits": [
+      "pierwsze ustalenia",
+      "tajemniczy fundusz"
+    ],
+    "content_hits": [
+      "pierwsze ustalenia kontroli",
+      "tajemniczy fundusz",
+      "minister rolnictwa"
+    ],
+    "credibility_hits": [
+      "Stefan Krajewski",
+      "Radio ZET"
+    ],
+    "mismatch": {
+      "title": "Tytuł sugeruje sensację, ale treść jest bardziej stonowana.",
+      "content": "Treść dostarcza informacji, ale nie rozwija wątków z tytułu."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Ustalenia kontroli dotyczące działki pod CPK i fundusz ministerialny",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 14,
+    "tokens_content": 133,
+    "processing_time_ms": 15086,
+    "model": "gpt-4o-mini"
+  }
+}

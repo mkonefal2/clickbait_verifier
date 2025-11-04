@@ -1,0 +1,50 @@
+{
+  "id": 1762085987932,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/polityka/news-glosowanie-nad-uchyleniem-ziobrze-immunitetu-przyspiesza-jes,nId,8036851",
+  "title": "Nowy termin głosowania ws. Ziobry",
+  "score": 23,
+  "label": "not_clickbait",
+  "rationale": [
+    "Tytuł jest neutralny i nie zawiera fraz sensacyjnych ani absolutów.",
+    "Treść artykułu jest zgodna z tytułem, opisując konkretne wydarzenie polityczne.",
+    "Brak luk ciekawości w tytule, ponieważ informuje o terminie głosowania.",
+    "Treść zawiera konkretne informacje, takie jak liczby i cytaty, co zwiększa jej wiarygodność."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jest prosty i informacyjny, nie próbuje przyciągnąć uwagi w sensacyjny sposób.",
+    "Artykuł szczegółowo opisuje nadchodzące głosowanie, co odpowiada tytułowi.",
+    "Nie ma w nim niejasności, które mogłyby budzić ciekawość czytelnika.",
+    "Podano konkretne dane i źródła, co sprawia, że tekst jest wiarygodny."
+  ],
+  "summary": "Artykuł informuje o zbliżającym się głosowaniu w Sejmie nad uchwałą o uchyleniu immunitetu Zbigniewa Ziobry, które ma się odbyć w piątek. Zawiera szczegóły dotyczące wniosku prokuratury oraz zarzutów o popełnienie przestępstw związanych z Funduszem Sprawiedliwości. Wskazuje również na możliwe konsekwencje prawne dla Ziobry i jego współpracowników.",
+  "signals": {
+    "title_hits": [],
+    "content_hits": [
+      "głosowanie",
+      "immunitet",
+      "Zbigniew Ziobro",
+      "prokuratura",
+      "przestępstwa"
+    ],
+    "credibility_hits": [
+      "źródło: RMF FM",
+      "cytaty prokuratury",
+      "konkretne liczby"
+    ],
+    "mismatch": {
+      "title": "Nowy termin głosowania ws. Ziobry",
+      "content": "Sejmowe głosowanie w sprawie uchwały o uchwałę immunitetu Zbigniewowi Ziobrze"
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Termin głosowania nad uchwałą o immunitecie Zbigniewa Ziobry",
+    "notes_to_editor": "Tytuł jest odpowiedni, ale można go uczynić bardziej formalnym."
+  },
+  "diagnostics": {
+    "tokens_title": 7,
+    "tokens_content": 408,
+    "processing_time_ms": 12269,
+    "model": "gpt-4o-mini"
+  }
+}

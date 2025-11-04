@@ -1,0 +1,46 @@
+{
+  "id": 1762267150049,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/szalenstwo-donald-trump-gra-va-banque-tak-moze-przechytrzyc-wszystkich/wqx9zdv",
+  "title": "\"Szaleństwo\". Donald Trump gra va banque. Tak może przechytrzyć wszystkich",
+  "score": 62,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'szaleństwo' oraz 'gra va banque', co sugeruje dramatyzm.",
+    "Treść artykułu odnosi się do polityki Donalda Trumpa, ale nie dostarcza konkretnego opisu, co może prowadzić do luk ciekawości.",
+    "W artykule brak jest cytatów, liczb czy źródeł, co obniża wiarygodność.",
+    "Tytuł i treść są zgodne, ale tytuł jest bardziej dramatyczny niż treść, co może wprowadzać w błąd."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa emocjonalnych słów, co sprawia, że wydaje się bardziej sensacyjny.",
+    "Artykuł omawia politykę Donalda Trumpa, ale nie dostarcza szczegółowych informacji, co może budzić ciekawość czytelnika.",
+    "Brak cytatów i danych statystycznych sprawia, że artykuł wydaje się mniej wiarygodny.",
+    "Choć tytuł i treść są spójne, tytuł jest bardziej dramatyczny niż sama treść, co może wprowadzać w błąd."
+  ],
+  "summary": "Artykuł omawia działania Donalda Trumpa w kontekście porozumienia z Chinami, które zapewnia USA dostęp do metali ziem rzadkich. Autor sugeruje, że decyzje Trumpa mogą być wynikiem przemyślanej strategii, a nie przypadkowych okoliczności. Tekst jest opinią na temat polityki prezydenta USA.",
+  "signals": {
+    "title_hits": [
+      "szaleństwo",
+      "gra va banque"
+    ],
+    "content_hits": [
+      "gra va banque",
+      "chłodna kalkulacja"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "title_content_match": "partial",
+      "explanation": "Tytuł jest bardziej dramatyczny niż treść, co może wprowadzać w błąd."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Donald Trump podejmuje ryzykowne decyzje w polityce światowej",
+    "notes_to_editor": "Rozważyć dodanie źródeł i cytatów, aby zwiększyć wiarygodność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 14,
+    "tokens_content": 102,
+    "processing_time_ms": 14104,
+    "model": "gpt-4o-mini"
+  }
+}

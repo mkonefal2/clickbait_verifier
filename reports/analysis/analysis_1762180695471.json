@@ -1,0 +1,50 @@
+{
+  "id": 1762180695471,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/zbigniew-ziobro-sklada-zawiadomienie-na-ministra-zurka-ujawnienie-tajemnicy/hcqsz96",
+  "title": "Ziobro składa zawiadomienie na Waldemara Żurka. Zarzuty ujawnienia tajemnicy",
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera elementy sensacyjne, takie jak 'ujawnienie tajemnicy', co może wzbudzać ciekawość.",
+    "Treść artykułu jest zgodna z tytułem, jednak nie zawiera dodatkowych informacji, które mogłyby potwierdzić tezę.",
+    "W artykule użyto cytatów i odniesienia do Kodeksu karnego, co zwiększa wiarygodność.",
+    "Analiza wykazała, że tytuł i treść są spójne, co zmniejsza ryzyko clickbaitu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera zwrot, który może przyciągać uwagę, jak 'ujawnienie tajemnicy'.",
+    "Treść artykułu odpowiada tytułowi, ale nie dostarcza dodatkowych informacji.",
+    "W artykule są cytaty i odniesienia do prawa, co sprawia, że jest bardziej wiarygodny.",
+    "Tytuł i treść są zgodne, co zmniejsza ryzyko, że artykuł jest clickbaitowy."
+  ],
+  "summary": "Zbigniew Ziobro złożył zawiadomienie do prokuratury na ministra Waldemara Żurka, oskarżając go o ujawnienie tajemnicy śledztwa. Poseł PiS podkreśla, że takie działanie jest przestępstwem ściganym z urzędu zgodnie z Kodeksem karnym.",
+  "signals": {
+    "title_hits": [
+      "ujawnienie tajemnicy"
+    ],
+    "content_hits": [
+      "Zbigniew Ziobro",
+      "zawiadomienie",
+      "ujawnienie tajemnicy",
+      "Kodeks karny"
+    ],
+    "credibility_hits": [
+      "cytat",
+      "Kodeks karny"
+    ],
+    "mismatch": {
+      "is_mismatch": false,
+      "mismatch_details": ""
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Zbigniew Ziobro składa zawiadomienie na ministra Waldemara Żurka",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia sensacyjności."
+  },
+  "diagnostics": {
+    "tokens_title": 13,
+    "tokens_content": 82,
+    "processing_time_ms": 13987,
+    "model": "gpt-4o-mini"
+  }
+}

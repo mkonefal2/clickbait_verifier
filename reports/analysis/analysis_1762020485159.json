@@ -1,0 +1,49 @@
+{
+  "id": 1762020485159,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/samia-suluhu-hassan-zdobyla-98-proc-poparcia-opozycja-grzmi-o-parodii/gbnw55j",
+  "title": "Samia Suluhu Hassan zdobyła 98 proc. poparcia. Opozycja grzmi o parodii",
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera konkretne dane procentowe, co zwiększa jego wiarygodność, ale użycie słowa 'parodia' w kontekście opozycji wprowadza element sensacyjny.",
+    "Treść artykułu potwierdza dane z tytułu, ale używa emocjonalnego języka, co może wprowadzać wrażenie clickbaitu.",
+    "Brak istotnych sygnałów wiarygodności poza cytatem z opozycji, co ogranicza ocenę na poziomie 'mild'.",
+    "Zidentyfikowano 1 frazę sensacyjną w tytule oraz 1 w treści, co wpływa na wynik."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera konkretne liczby, co sprawia, że wygląda na wiarygodny, ale słowo 'parodia' dodaje emocjonalny ładunek.",
+    "Treść artykułu potwierdza informacje z tytułu, ale używa języka, który może być uznany za sensacyjny.",
+    "Brak wielu źródeł informacji ogranicza wiarygodność artykułu.",
+    "W artykule znalazły się frazy, które mogą przyciągać uwagę, co wpływa na jego ocenę."
+  ],
+  "summary": "Artykuł informuje o wygranej Samii Suluhu Hassan w wyborach prezydenckich w Tanzanii, gdzie zdobyła 98 proc. głosów. Opozycja krytykuje wyniki, nazywając je 'parodią demokracji'. W tekście przytoczono wypowiedź rzecznika opozycji, który wyraża wątpliwości co do uczciwości wyborów.",
+  "signals": {
+    "title_hits": [
+      "98 proc. poparcia",
+      "parodia"
+    ],
+    "content_hits": [
+      "98 proc. poparcia",
+      "parodia demokracji"
+    ],
+    "credibility_hits": [
+      "Polska Agencja Prasowa",
+      "AFP"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "content_title_match": true
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Wybory prezydenckie w Tanzanii: Samia Suluhu Hassan zdobyła 98 proc. głosów, opozycja krytykuje wyniki",
+    "notes_to_editor": "Zaleca się unikanie emocjonalnych określeń w tytule, aby zwiększyć wiarygodność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 14,
+    "tokens_content": 82,
+    "processing_time_ms": 15872,
+    "model": "gpt-4o-mini"
+  }
+}

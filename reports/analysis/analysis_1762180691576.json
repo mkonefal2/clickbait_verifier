@@ -1,0 +1,51 @@
+{
+  "id": 1762180691576,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/nowa-rola-dla-szymona-holowni-miejsce-w-sam-raz-dla-niego/5wpg6br",
+  "title": "Nowa rola dla Szymona Hołowni? \"Rozwiązanie dobre dla wszystkich\"",
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera pytanie oraz frazę sugerującą pozytywne rozwiązanie, co może budzić ciekawość czytelnika.",
+    "W treści artykułu pojawia się informacja o potencjalnej roli Szymona Hołowni, ale brakuje konkretów, co może prowadzić do luk ciekawości.",
+    "Zidentyfikowano niewielką liczbę sygnałów wiarygodności, takich jak cytat z dziennikarki TVN24, co podnosi wartość informacyjną artykułu.",
+    "Zgodność tytułu z treścią jest umiarkowana, ponieważ tytuł sugeruje pewność, podczas gdy treść pozostawia wiele pytań."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł stawia pytanie i sugeruje pozytywne rozwiązanie, co może przyciągać uwagę czytelników.",
+    "Artykuł mówi o możliwej nowej roli Szymona Hołowni, ale nie podaje szczegółów, co może budzić ciekawość.",
+    "W artykule pojawia się cytat z dziennikarki, co zwiększa jego wiarygodność.",
+    "Tytuł sugeruje pewność, podczas gdy treść pozostawia wiele niewiadomych, co może wprowadzać w błąd."
+  ],
+  "summary": "Artykuł omawia potencjalną nową rolę Szymona Hołowni jako ambasadora w Watykanie, na podstawie informacji przekazanych przez dziennikarkę TVN24. Wskazuje na możliwe poparcie ze strony kluczowych osób w polityce. Przyszłość Hołowni w polityce pozostaje niepewna.",
+  "signals": {
+    "title_hits": [
+      "nowa rola",
+      "rozwiązanie dobre dla wszystkich"
+    ],
+    "content_hits": [
+      "polityczna przyszłość",
+      "ambasador w Watykanie",
+      "poparcie"
+    ],
+    "credibility_hits": [
+      "dziennikarka TVN24",
+      "Maja Wójcikowska"
+    ],
+    "mismatch": {
+      "title_content_mismatch": true,
+      "title_suggests_certainty": true,
+      "content_lacks_details": true
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Potencjalna nowa rola Szymona Hołowni jako ambasadora w Watykanie",
+    "notes_to_editor": "Rozważyć dodanie więcej konkretów w treści, aby zwiększyć wartość informacyjną artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 13,
+    "tokens_content": 108,
+    "processing_time_ms": 12869,
+    "model": "gpt-4o-mini"
+  }
+}

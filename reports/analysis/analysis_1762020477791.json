@@ -1,0 +1,49 @@
+{
+  "id": 1762020477791,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/duza-awaria-blik-a-obserwujemy-zewnetrzny-atak/ff0s8hl",
+  "title": "Duża awaria BLIK-a. Wicepremier mówi o \"zewnętrznym ataku\"",
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazę 'duża awaria', co jest sensacyjne, oraz cytat z wicepremiera, co podnosi wiarygodność.",
+    "Treść artykułu jest zgodna z tytułem, jednak użycie słowa 'duża' w tytule może być interpretowane jako przesadzone.",
+    "W artykule nie występują liczby ani konkretne źródła poza cytatem z wicepremiera, co wpływa na ocenę wiarygodności.",
+    "Analiza wykazała, że tytuł i treść są spójne, co zmniejsza ryzyko clickbaitu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'duża', co może brzmieć sensacyjnie, ale zawiera również cytat z wicepremiera, co dodaje mu wiarygodności.",
+    "Treść artykułu odpowiada tytułowi, ale użycie słowa 'duża' może być uważane za przesadzone.",
+    "Artykuł nie zawiera dodatkowych liczb ani źródeł, co może wpływać na postrzeganą wiarygodność informacji.",
+    "Tytuł i treść są zgodne, co zmniejsza ryzyko, że jest to typowy clickbait."
+  ],
+  "summary": "Artykuł informuje o poważnych problemach technicznych w systemie płatności BLIK, które uniemożliwiały użytkownikom generowanie kodów i wykonywanie przelewów. Minister cyfryzacji Krzysztof Gawkowski wskazał na możliwość 'zewnętrznego ataku'. Awaria została naprawiona po godzinie 11:30.",
+  "signals": {
+    "title_hits": [
+      "duża awaria",
+      "zewnętrznym ataku"
+    ],
+    "content_hits": [
+      "poważne problemy techniczne",
+      "zewnętrznego ataku"
+    ],
+    "credibility_hits": [
+      "wicepremier",
+      "Krzysztof Gawkowski"
+    ],
+    "mismatch": {
+      "title": "Duża awaria BLIK-a. Wicepremier mówi o 'zewnętrznym ataku'",
+      "content": "Duża awaria BLIK-a. Wicepremier mówi o 'zewnętrznym ataku'"
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Awaria systemu BLIK. Wicepremier informuje o możliwym ataku zewnętrznym",
+    "notes_to_editor": "Rozważyć użycie bardziej neutralnego języka w tytule."
+  },
+  "diagnostics": {
+    "tokens_title": 12,
+    "tokens_content": 81,
+    "processing_time_ms": 16642,
+    "model": "gpt-4o-mini"
+  }
+}

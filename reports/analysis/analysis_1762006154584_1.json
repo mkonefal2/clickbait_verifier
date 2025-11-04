@@ -1,0 +1,50 @@
+{
+  "id": 1762006154584,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/putin-dobija-rosyjska-gospodarke-niedlugo-przebije-niechlubny-rekord/9cnf8j0",
+  "title": "Rosyjska gospodarka się przegrzała. \"Będzie jeszcze gorzej\"",
+  "score": 55,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'przegrzała' i 'Będzie jeszcze gorzej', które mogą wzbudzać emocje.",
+    "Treść artykułu odnosi się do poważnych problemów gospodarczych, co jest zgodne z tytułem, ale używa dramatycznego języka.",
+    "W artykule występują cytaty i odniesienia do źródeł, co podnosi jego wiarygodność.",
+    "Zidentyfikowano pewne niezgodności w tonie między tytułem a treścią, co podnosi poziom clickbaitu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów, które mogą przyciągać uwagę, co sprawia, że jest bardziej sensacyjny.",
+    "Treść artykułu rzeczywiście omawia problemy gospodarcze, ale język jest dramatyczny, co może wprowadzać w błąd.",
+    "Artykuł zawiera cytaty i odniesienia do ekspertów, co czyni go bardziej wiarygodnym.",
+    "Niektóre elementy tytułu i treści mogą się różnić w tonie, co zwiększa wrażenie clickbaitu."
+  ],
+  "summary": "Artykuł opisuje aktualną sytuację gospodarczą Rosji, wskazując na pogłębiające się problemy i ryzyko recesji. Władze przyznają, że sytuacja jest zła, a wiele branż zmaga się z stagnacją. Eksperci sugerują, że jedynym ratunkiem może być zwiększona konsumpcja, jednak i ta możliwość jest ograniczona.",
+  "signals": {
+    "title_hits": [
+      "przegrzała",
+      "Będzie jeszcze gorzej"
+    ],
+    "content_hits": [
+      "gospodarka się wykoleiła",
+      "ryzyko pogrążenia się w recesji",
+      "przebijając antyrekord"
+    ],
+    "credibility_hits": [
+      "Dziennikarze The Moscow Times",
+      "Centrum Analiz Makroekonomicznych"
+    ],
+    "mismatch": {
+      "title_content_similarity": "Wysoka",
+      "tone_difference": "Wysoka"
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Problemy rosyjskiej gospodarki mogą się pogłębiać",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 9,
+    "tokens_content": 137,
+    "processing_time_ms": 16585,
+    "model": "gpt-4o-mini"
+  }
+}

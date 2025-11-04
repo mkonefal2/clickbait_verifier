@@ -1,0 +1,51 @@
+{
+  "id": 1762006155984,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/sankcje-dokopaly-putinowi-stan-kluczowego-dla-rosji-sektora-dawno-nie-byl-tak-zly/gy2t9my",
+  "title": "Na Rosję spadł kolejny kryzys. Tak sankcje dokopały Putinowi",
+  "score": 62,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'kolejny kryzys' i 'dokopały Putinowi', co sugeruje dramatyzację sytuacji.",
+    "Treść artykułu odnosi się do rzeczywistych problemów rosyjskiego lotnictwa, co częściowo łagodzi wrażenie clickbaitowości tytułu.",
+    "W artykule występują cytaty i odniesienia do konkretnej osoby, co zwiększa wiarygodność.",
+    "Występuje niezgodność między tytułem a treścią, ponieważ tytuł sugeruje ogólny kryzys, podczas gdy treść koncentruje się na specyficznym problemie w lotnictwie.",
+    "Obliczona wartość clickbaitu: (40 * 0.4 + 15 * 0.15 + 20 * 0.4) = 62."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł artykułu używa dramatycznych sformułowań, co może przyciągać uwagę, ale niekoniecznie odzwierciedla dokładnie treść.",
+    "Artykuł opisuje rzeczywiste problemy rosyjskiego lotnictwa, co sprawia, że jest bardziej wiarygodny.",
+    "Jednakże tytuł sugeruje szerszy kryzys, podczas gdy treść skupia się na konkretnym aspekcie sytuacji.",
+    "Ogólnie artykuł ma silne elementy clickbaitowe, ale również zawiera wartościowe informacje."
+  ],
+  "summary": "Artykuł omawia kryzys w rosyjskim lotnictwie, który jest wynikiem zachodnich sankcji. Wskazuje na rosnącą liczbę wypadków, problemy z dostępem do części zamiennych oraz konieczność wycofania części floty. Cytat eksperta podkreśla wpływ sankcji na stan sektora lotniczego w Rosji.",
+  "signals": {
+    "title_hits": [
+      "kolejny kryzys",
+      "dokopały Putinowi"
+    ],
+    "content_hits": [
+      "rosnąca liczba wypadków",
+      "brak dostępu do części zamiennych",
+      "masowe kontrole"
+    ],
+    "credibility_hits": [
+      "Oleksandr Laneckij",
+      "Friendly Avia Support"
+    ],
+    "mismatch": {
+      "title": "Na Rosję spadł kolejny kryzys. Tak sankcje dokopały Putinowi",
+      "content": "Artykuł koncentruje się na problemach rosyjskiego lotnictwa, a nie na ogólnym kryzysie."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Rosyjskie lotnictwo w kryzysie z powodu sankcji",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć dramatyzacji sytuacji."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 157,
+    "processing_time_ms": 15446,
+    "model": "gpt-4o-mini"
+  }
+}

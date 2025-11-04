@@ -1,0 +1,50 @@
+{
+  "id": 1762267142758,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/jaroslaw-kaczynski-stawil-sie-w-sadzie-w-dalszym-ciagu-tak-uwazam/byegpk0",
+  "title": "Jarosław Kaczyński stawił się w sądzie. \"W dalszym ciągu tak uważam\"",
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera cytat, co może budzić ciekawość, ale nie jest przesadnie sensacyjny.",
+    "W treści artykułu znajdują się konkretne informacje o wydarzeniach sądowych oraz wypowiedzi Kaczyńskiego, co zwiększa wiarygodność.",
+    "Nie znaleziono wyraźnych fraz sensacyjnych ani absolutów w tytule ani w treści.",
+    "Zidentyfikowano niewielką niezgodność między tytułem a treścią, ponieważ tytuł nie oddaje pełni kontekstu wypowiedzi.",
+    "W artykule pojawia się źródło (Polska Agencja Prasowa), co podnosi jego wiarygodność."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera cytat, co może przyciągać uwagę, ale nie jest przesadnie dramatyczny.",
+    "Treść artykułu dostarcza konkretne informacje o wydarzeniach sądowych i wypowiedzi Kaczyńskiego, co sprawia, że jest wiarygodny.",
+    "Nie znaleziono przesadnych lub sensacyjnych sformułowań w tytule ani w treści.",
+    "Tytuł nie do końca oddaje kontekst wypowiedzi, co może wprowadzać w błąd.",
+    "Artykuł powołuje się na źródło, co zwiększa jego rzetelność."
+  ],
+  "summary": "Jarosław Kaczyński stawił się w sądzie, gdzie odniósł się do swojej wcześniejszej wypowiedzi o Krzysztofie Brejzie. Podkreślił, że jego słowa wynikały z obowiązku przekazania informacji komisji śledczej. Kolejne posiedzenie sądu w tej sprawie zaplanowano na 9 grudnia.",
+  "signals": {
+    "title_hits": [
+      "cytat"
+    ],
+    "content_hits": [
+      "konkretne informacje",
+      "wypowiedzi Kaczyńskiego",
+      "źródło"
+    ],
+    "credibility_hits": [
+      "Polska Agencja Prasowa"
+    ],
+    "mismatch": {
+      "title": "Tytuł nie oddaje pełnego kontekstu wypowiedzi Kaczyńskiego.",
+      "content": "Treść artykułu zawiera szczegóły dotyczące sądu i wypowiedzi."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Jarosław Kaczyński w sądzie: odniesienie do wypowiedzi o Krzysztofie Brejzie",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 15,
+    "tokens_content": 78,
+    "processing_time_ms": 23800,
+    "model": "gpt-4o-mini"
+  }
+}

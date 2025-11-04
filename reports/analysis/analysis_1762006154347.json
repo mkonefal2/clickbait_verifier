@@ -1,0 +1,52 @@
+{
+  "id": 1762006154347,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/przewaga-10-do-1-na-froncie-w-ukrainie-rozgrywa-sie-kluczowa-bitwa/wxgsc6x",
+  "title": "Tak może upaść kolejne ukraińskie miasto. Rosja ma przewagę 10:1. \"Wywołali chaos\"",
+  "score": 65,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'upadek', 'przewaga 10:1' oraz 'wywołali chaos', co wskazuje na silny element clickbaitu.",
+    "Treść artykułu potwierdza tytuł, jednak użycie dramatycznego języka i emocjonalnych stwierdzeń wpływa na ocenę.",
+    "Wykryto niezgodność w tytule i treści, ponieważ tytuł sugeruje pewność upadku miasta, podczas gdy treść nie potwierdza tego bezpośrednio.",
+    "W artykule znajdują się cytaty i odniesienia do działań wojskowych, co podnosi jego wiarygodność, ale nie równoważy elementów clickbaitowych."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa dramatycznych słów, które przyciągają uwagę, jak 'upadek' i 'przewaga 10:1', co może wprowadzać w błąd.",
+    "Treść artykułu odnosi się do sytuacji na froncie, ale nie potwierdza bezpośrednio, że miasto na pewno upadnie.",
+    "Artykuł zawiera cytaty, co czyni go bardziej wiarygodnym, ale dramatyczny język wpływa na jego odbiór.",
+    "Ogólnie, artykuł ma silne elementy clickbaitu, mimo że porusza ważny temat."
+  ],
+  "summary": "Artykuł opisuje sytuację w Pokrowsku, gdzie rosyjskie siły mają przewagę nad ukraińskimi żołnierzami. Wskazuje na chaos i niepewność w działaniach wojskowych, co prowadzi do trudnej sytuacji na froncie. Zawiera relacje ukraińskich oficerów na temat strategii Rosjan oraz ich wpływu na walki w regionie.",
+  "signals": {
+    "title_hits": [
+      "upadek",
+      "przewaga 10:1",
+      "wywołali chaos"
+    ],
+    "content_hits": [
+      "przewaga 10 do 1",
+      "wpędziły Ukraińców w pułapkę",
+      "wywołali chaos"
+    ],
+    "credibility_hits": [
+      "Julian Ropcke",
+      "cytaty ukraińskich oficerów",
+      "liczby"
+    ],
+    "mismatch": {
+      "title": "Tak może upaść kolejne ukraińskie miasto.",
+      "content": "Artykuł nie potwierdza bezpośrednio, że miasto na pewno upadnie."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Rosyjskie siły mają przewagę 10:1 w Pokrowsku.",
+    "notes_to_editor": "Zaleca się unikanie dramatycznych sformułowań w tytule, aby zwiększyć obiektywność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 16,
+    "tokens_content": 204,
+    "processing_time_ms": 16920,
+    "model": "gpt-4o-mini"
+  }
+}

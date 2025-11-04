@@ -1,0 +1,46 @@
+{
+  "id": 1762006151248,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/tragiczny-final-halloweenowej-zabawy-nie-zyje-7-latek/j9zkt6n",
+  "title": "7-latek nie żyje. Tragiczny wypadek podczas halloweenowej zabawy",
+  "score": 60,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'nie żyje' i 'tragiczny wypadek', co zwiększa jego clickbaitowość.",
+    "Treść artykułu jest zgodna z tytułem, jednak zawiera emocjonalny ładunek, co może wpływać na postrzeganą clickbaitowość.",
+    "W artykule nie ma liczby ani cytatów, co obniża sygnały wiarygodności.",
+    "Wykryto lukę ciekawości w tytule, ponieważ nie podano szczegółów dotyczących wypadku."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa dramatycznych słów, co może przyciągać uwagę czytelników.",
+    "Treść artykułu odpowiada tytułowi, ale emocjonalny ton może sprawiać, że wydaje się bardziej sensacyjna.",
+    "Brak konkretów i cytatów w artykule wpływa na jego wiarygodność.",
+    "Tytuł sugeruje, że wydarzenie jest bardziej dramatyczne, niż wynika to z treści."
+  ],
+  "summary": "W piątek wieczorem w Zdunach (woj. wielkopolskie) doszło do tragicznego wypadku, w którym zginął 7-letni chłopiec. Dziecko brało udział w halloweenowym zbieraniu słodyczy, gdy zostało potrącone przez samochód. Mimo szybkiej interwencji służb medycznych, chłopca nie udało się uratować.",
+  "signals": {
+    "title_hits": [
+      "nie żyje",
+      "tragiczny wypadek"
+    ],
+    "content_hits": [
+      "tragiczny wypadek",
+      "nie żyje 7-letni chłopiec"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "title": "7-latek nie żyje. Tragiczny wypadek podczas halloweenowej zabawy",
+      "content": "Tragedia podczas halloweenowej zabawy. Nie żyje 7-letni chłopiec."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Wypadek podczas halloweenowej zabawy - zginął 7-letni chłopiec",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby zmniejszyć emocjonalny ładunek."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 60,
+    "processing_time_ms": 16843,
+    "model": "gpt-4o-mini"
+  }
+}

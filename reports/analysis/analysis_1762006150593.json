@@ -1,0 +1,51 @@
+{
+  "id": 1762006150593,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/polacy-podzieleni-w-sprawie-aresztowania-zbigniewa-ziobry-nowy-sondaz/31mxf1q",
+  "title": "Zbigniew Ziobro powinien trafić do aresztu? Polacy zabrali głos [SONDAŻ]",
+  "score": 55,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera pytanie retoryczne oraz frazy sugerujące kontrowersję, co zwiększa jego clickbaitowość.",
+    "Treść artykułu odnosi się do konkretnego badania, co dodaje wiarygodności, ale sama forma tytułu jest sensacyjna.",
+    "Wykryto lukę ciekawości w tytule, co może przyciągać czytelników.",
+    "Mismatched detection wykazało, że tytuł sugeruje większą kontrowersję, niż jest to przedstawione w treści."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zadaje pytanie, które może wzbudzać emocje i ciekawość, co jest typowe dla clickbaitu.",
+    "Artykuł oparty jest na badaniach, co dodaje mu rzetelności, ale tytuł może wprowadzać w błąd co do jego treści.",
+    "W tytule jest użyta fraza, która może przyciągać uwagę, co sprawia, że jest bardziej sensacyjny.",
+    "Tytuł sugeruje większą kontrowersję niż to, co jest faktycznie omówione w artykule."
+  ],
+  "summary": "Artykuł omawia wyniki badania SW Research, które pokazuje, że ponad połowa Polaków uważa, iż Zbigniew Ziobro powinien zostać tymczasowo aresztowany w związku z zarzutami dotyczącymi Funduszu Sprawiedliwości. Badanie zostało przeprowadzone dla 'Rzeczpospolitej'.",
+  "signals": {
+    "title_hits": [
+      "aresztu",
+      "Polacy zabrali głos",
+      "SONDAŻ"
+    ],
+    "content_hits": [
+      "ponad połowa Polaków",
+      "badania SW Research",
+      "Rzeczpospolitej"
+    ],
+    "credibility_hits": [
+      "badanie SW Research",
+      "Rzeczpospolitej"
+    ],
+    "mismatch": {
+      "title": "Zbigniew Ziobro powinien trafić do aresztu?",
+      "content": "ponad połowa Polaków uważa, że Zbigniew Ziobro powinien zostać tymczasowo aresztowany"
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Opinie Polaków na temat aresztowania Zbigniewa Ziobry w nowym sondażu",
+    "notes_to_editor": "Rozważyć użycie mniej kontrowersyjnego tytułu, aby lepiej odzwierciedlić treść artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 12,
+    "tokens_content": 66,
+    "processing_time_ms": 18429,
+    "model": "gpt-4o-mini"
+  }
+}

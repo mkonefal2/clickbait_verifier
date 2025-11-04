@@ -1,0 +1,47 @@
+{
+  "id": 1762020483059,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/lublin/kierowca-tira-ruszyl-w-strone-galerii-o-krok-od-tragedii-w-lublinie/7xwy45n",
+  "title": "Kierowca tira ruszył w stronę galerii. O krok od tragedii w Lublinie",
+  "score": 65,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazę 'o krok od tragedii', co jest sensacyjne i może wywoływać silne emocje.",
+    "Treść artykułu opisuje incydent z kierowcą tira, ale nie dostarcza szczegółowych informacji o potencjalnych skutkach.",
+    "W treści nie ma cytatów ani konkretnych liczb, co wpływa na niską wiarygodność.",
+    "Występuje niezgodność między tytułem a treścią, ponieważ tytuł sugeruje większe zagrożenie niż opisany incydent."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa dramatycznego języka, co może przyciągać uwagę, ale niekoniecznie odzwierciedla rzeczywisty przebieg wydarzeń.",
+    "Artykuł opisuje incydent z ciężarówką, ale nie podaje szczegółów dotyczących zagrożenia, co może wprowadzać w błąd.",
+    "Brak cytatów i konkretnych danych zmniejsza wiarygodność informacji.",
+    "Tytuł sugeruje, że sytuacja była bardziej niebezpieczna, niż to przedstawiono w artykule."
+  ],
+  "summary": "31 października 2025 roku w Lublinie doszło do incydentu, w którym kierowca tira zjechał z drogi i wjechał do centrum handlowego Felicity, ignorując znaki o ograniczeniu wysokości. Policja została poinformowana o zdarzeniu, które mogło prowadzić do poważnych konsekwencji.",
+  "signals": {
+    "title_hits": [
+      "o krok od tragedii"
+    ],
+    "content_hits": [
+      "kierowca tira",
+      "zjechał z drogi",
+      "centrum handlowe",
+      "ignorując znaki"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "title": "Kierowca tira ruszył w stronę galerii. O krok od tragedii w Lublinie",
+      "content": "Kierowca tira zjechał z drogi i wjechał do centrum handlowego, co mogło prowadzić do poważnych konsekwencji, ale nie opisuje rzeczywistej tragedii."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Incydent z kierowcą tira w Lublinie: wjazd do centrum handlowego",
+    "notes_to_editor": "Rozważyć zmianę tytułu na bardziej neutralny, aby lepiej odzwierciedlał treść artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 83,
+    "processing_time_ms": 16566,
+    "model": "gpt-4o-mini"
+  }
+}

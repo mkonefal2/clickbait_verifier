@@ -1,0 +1,48 @@
+{
+  "id": 1761934137790,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/tajemnicze-balony-nad-wilnem-lotnisko-w-stolicy-litwy-zawiesilo-dzialanie/rhjtnn2",
+  "title": "Tajemnicze balony nad Wilnem. Lotnisko zawiesiło działanie",
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazę 'tajemnicze', co może sugerować sensacyjność.",
+    "Treść artykułu jest krótka i koncentruje się na konkretnej informacji o zawieszeniu ruchu na lotnisku.",
+    "W artykule brak jest cytatów lub konkretnych danych, co obniża wiarygodność.",
+    "Zidentyfikowano pewne niezgodności między tytułem a treścią, ale nie są one znaczące."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'tajemnicze', co może przyciągać uwagę, ale nie jest to skrajnie sensacyjne.",
+    "Artykuł dostarcza konkretne informacje o sytuacji na lotnisku w Wilnie.",
+    "Brakuje w nim cytatów lub danych, co może wpływać na postrzeganą wiarygodność.",
+    "Nie ma dużych rozbieżności między tytułem a treścią, ale są pewne różnice."
+  ],
+  "summary": "Artykuł informuje o czasowym zawieszeniu ruchu na lotnisku w Wilnie z powodu balonów lecących w jego kierunku. Decyzję podjęto na podstawie wstępnych informacji przekazanych przez port lotniczy. Zdarzenie miało miejsce 30 października 2025 roku.",
+  "signals": {
+    "title_hits": [
+      "tajemnicze"
+    ],
+    "content_hits": [
+      "zawiesiło działanie",
+      "balony"
+    ],
+    "credibility_hits": [
+      "Polska Agencja Prasowa",
+      "30 października 2025"
+    ],
+    "mismatch": {
+      "title_content_mismatch": true,
+      "details": "Tytuł sugeruje większą tajemniczość, podczas gdy treść koncentruje się na konkretnej informacji."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Zawieszenie ruchu na lotnisku w Wilnie z powodu balonów",
+    "notes_to_editor": "Rozważyć dodanie więcej informacji i źródeł, aby zwiększyć wiarygodność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 9,
+    "tokens_content": 66,
+    "processing_time_ms": 12583,
+    "model": "gpt-4o-mini"
+  }
+}

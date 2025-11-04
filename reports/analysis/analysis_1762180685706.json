@@ -1,0 +1,54 @@
+{
+  "id": 1762180685706,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/olsztyn/news-burmistrz-wywolal-burze-kontrowersyjne-slowa-o-dzieciach-ze-,nId,8037089",
+  "title": "Burmistrz wywołał burzę. Kontrowersyjne słowa o dzieciach ze wsi",
+  "score": 62,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'wywołał burzę' i 'kontrowersyjne słowa', co wskazuje na silny element clickbaitu.",
+    "Treść artykułu opisuje kontrowersje związane z wypowiedzią burmistrza, co jest zgodne z tytułem, ale nie wprowadza w błąd.",
+    "W artykule występują liczby (np. 42 dzieci, 29 milionów złotych zadłużenia), co zwiększa wiarygodność.",
+    "Nie znaleziono znaczących luk ciekawości, ale tytuł sugeruje dramatyzm sytuacji.",
+    "Mismatches są minimalne, ponieważ tytuł i treść są ze sobą zgodne."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów, które przyciągają uwagę, co może być uznane za clickbait.",
+    "Artykuł rzeczywiście opisuje kontrowersyjną sytuację, więc nie wprowadza w błąd.",
+    "Podano konkretne liczby, co sprawia, że artykuł wydaje się bardziej wiarygodny.",
+    "Tytuł sugeruje dramatyczną sytuację, ale treść artykułu dobrze ją wyjaśnia.",
+    "Tytuł i treść są zgodne, co zmniejsza ryzyko wprowadzenia w błąd."
+  ],
+  "summary": "Artykuł opisuje kontrowersyjne wypowiedzi burmistrza Korsz, Jana Adamowicza, który stwierdził, że dzieci ze wsi nie powinny uczęszczać do miejskiej szkoły z powodu różnic w ubiorze. Jego słowa wywołały podział w lokalnej społeczności, prowadząc do żądań odwołania burmistrza oraz publicznych przeprosin. W artykule przedstawiono także reakcje mieszkańców oraz argumenty burmistrza.",
+  "signals": {
+    "title_hits": [
+      "wywołał burzę",
+      "kontrowersyjne słowa"
+    ],
+    "content_hits": [
+      "burmistrz",
+      "dzieci ze wsi",
+      "kontrowersje",
+      "przeprosiny"
+    ],
+    "credibility_hits": [
+      "42 dzieci",
+      "29 milionów złotych",
+      "8 milionów złotych rocznie"
+    ],
+    "mismatch": {
+      "is_mismatch": false,
+      "details": "Tytuł i treść są zgodne."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Burmistrz Korsz komentuje sytuację dzieci ze wsi w kontekście szkoły",
+    "notes_to_editor": "Rozważyć łagodniejsze sformułowanie tytułu, aby uniknąć nadmiernej sensacji."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 603,
+    "processing_time_ms": 20413,
+    "model": "gpt-4o-mini"
+  }
+}

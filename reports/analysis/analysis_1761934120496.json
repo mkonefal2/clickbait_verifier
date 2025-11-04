@@ -1,0 +1,51 @@
+{
+  "id": 1761934120496,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/swiat/news-kwestia-dni-lub-godzin-usa-gotowe-do-ataku-na-wenezuele,nId,8036417",
+  "title": "\"Kwestia dni lub godzin\". USA gotowe do ataku na Wenezuelę?",
+  "score": 68,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'kwestia dni lub godzin', co wzbudza ciekawość.",
+    "Treść artykułu potwierdza informacje zawarte w tytule, jednak używa dramatycznego języka.",
+    "W artykule występują absolutne stwierdzenia, takie jak 'może nastąpić w każdej chwili'.",
+    "Wykryto kilka sygnałów wiarygodności, w tym cytaty z wiarygodnych źródeł.",
+    "Zgłoszono pewne niezgodności między tytułem a treścią, ale nie są one znaczące."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa dramatycznych słów, które przyciągają uwagę czytelników.",
+    "Treść artykułu potwierdza, że atak może nastąpić wkrótce, ale język jest bardzo emocjonalny.",
+    "W artykule są podane cytaty z wiarygodnych źródeł, co zwiększa jego rzetelność.",
+    "Są pewne różnice między tym, co mówi tytuł a tym, co jest w treści, ale nie są one poważne."
+  ],
+  "summary": "Artykuł informuje o decyzji administracji Donalda Trumpa dotyczącej potencjalnego ataku na Wenezuelę, który może nastąpić wkrótce. Podano, że celem ataków będą instalacje wojskowe związane z przemytem narkotyków. W artykule cytowane są amerykańskie media oraz wypowiedzi polityków, którzy sugerują, że dni wenezuelskiego przywódcy Nicolasa Maduro są policzone.",
+  "signals": {
+    "title_hits": [
+      "kwestia dni lub godzin",
+      "gotowe do ataku"
+    ],
+    "content_hits": [
+      "może nastąpić w każdej chwili",
+      "dni wenezuelskiego przywódcy są policzone"
+    ],
+    "credibility_hits": [
+      "Miami Herald",
+      "Washington Post",
+      "Rick Scott"
+    ],
+    "mismatch": {
+      "title": "Tytuł sugeruje pewność ataku, podczas gdy treść wskazuje na możliwość.",
+      "content": "Treść artykułu rozwija temat ataku, ale nie potwierdza konkretnej daty."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "USA rozważają atak na Wenezuelę w związku z przemytem narkotyków",
+    "notes_to_editor": "Rozważyć złagodzenie dramatyzmu w tytule, aby lepiej odzwierciedlić treść artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 532,
+    "processing_time_ms": 20093,
+    "model": "gpt-4o-mini"
+  }
+}

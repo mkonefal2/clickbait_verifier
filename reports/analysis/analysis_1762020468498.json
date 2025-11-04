@@ -1,0 +1,52 @@
+{
+  "id": 1762020468498,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/swiat/news-tajemnicze-drony-nad-baza-z-bronia-jadrowa-alarm-w-belgii,nId,8036805",
+  "title": "Tajemnicze drony nad bazą z bronią jądrową. Alarm w Belgii",
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'tajemnicze drony' oraz 'alarm', co zwiększa jego clickbaitowość.",
+    "Treść artykułu dostarcza konkretne informacje na temat incydentu z dronami, co jest zgodne z tytułem.",
+    "W artykule występują cytaty i liczby, co podnosi jego wiarygodność.",
+    "Zidentyfikowano pewne niezgodności między tytułem a treścią, ale nie są one znaczące."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa emocjonalnych słów, co może przyciągać uwagę, ale nie jest całkowicie zgodny z treścią.",
+    "Artykuł szczegółowo opisuje incydent z dronami w Belgii, co odpowiada tytułowi.",
+    "W artykule znajdują się cytaty i dane liczbowe, co sprawia, że jest bardziej wiarygodny.",
+    "Tytuł i treść są w większości zgodne, ale można zauważyć pewne różnice."
+  ],
+  "summary": "W artykule opisano incydent z nieautoryzowanym dronem zauważonym w pobliżu belgijskiej bazy lotniczej Kleine-Brogel, gdzie przechowywana jest amerykańska broń jądrowa. Władze belgijskie wszczęły śledztwo w celu zidentyfikowania operatora drona. Minister obrony Belgii zapowiedział działania mające na celu zapewnienie bezpieczeństwa w tym strategicznym miejscu.",
+  "signals": {
+    "title_hits": [
+      "tajemnicze",
+      "alarm"
+    ],
+    "content_hits": [
+      "dron",
+      "baza",
+      "broń jądrowa",
+      "śledztwo"
+    ],
+    "credibility_hits": [
+      "Minister obrony Belgii",
+      "dziennik 'Het Belang van Limburg'",
+      "cytaty"
+    ],
+    "mismatch": {
+      "title": "Tajemnicze drony nad bazą z bronią jądrową. Alarm w Belgii",
+      "content": "W nocy z piątku na sobotę w pobliżu belgijskiej bazy lotniczej Kleine-Brogel, gdzie przechowywana jest amerykańska broń jądrowa, zauważono nieautoryzowanego drona."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Incydent z dronem nad belgijską bazą z bronią jądrową",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby zmniejszyć element clickbaitowy."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 384,
+    "processing_time_ms": 15697,
+    "model": "gpt-4o-mini"
+  }
+}

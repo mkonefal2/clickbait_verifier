@@ -1,0 +1,50 @@
+{
+  "id": 1762006141131,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/poznan/news-niesmak-po-halloween-dzieci-w-zemscie-obrzucily-dom-kamienia,nId,8036785",
+  "title": "Niesmak po Halloween",
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazę 'niesmak', co może sugerować emocjonalny wydźwięk, ale nie jest to absolut.",
+    "Treść artykułu opisuje incydent bez użycia przesadnych lub sensacyjnych fraz.",
+    "W tytule i treści nie występują istotne niezgodności, co zmniejsza ryzyko clickbaitu.",
+    "W artykule pojawiają się cytaty poszkodowanej, co zwiększa wiarygodność informacji.",
+    "W treści występują liczby i odniesienia do lokalizacji, co również podnosi poziom wiarygodności."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł sugeruje negatywne odczucia, ale nie jest przesadny.",
+    "Artykuł opisuje zdarzenie związane z Halloween w sposób rzeczowy.",
+    "Nie ma dużych sprzeczności między tytułem a treścią, co czyni go bardziej wiarygodnym.",
+    "Cytaty z poszkodowanej osoby dodają autentyczności.",
+    "W artykule są konkretne odniesienia do lokalizacji i sytuacji, co zwiększa jego rzetelność."
+  ],
+  "summary": "Artykuł opisuje incydent, który miał miejsce w Zacharzewie, gdzie grupa dzieci obrzuciła kamieniami dom kobiety, która nie otworzyła im drzwi podczas Halloween. Poszkodowana relacjonuje zdarzenie w mediach społecznościowych, podkreślając agresywne zachowanie młodzieży. W artykule wspomniano również o podobnych przypadkach w okolicy oraz o reakcji mieszkańców.",
+  "signals": {
+    "title_hits": [],
+    "content_hits": [
+      "niesmak",
+      "obrzucili",
+      "agresywne zachowanie"
+    ],
+    "credibility_hits": [
+      "cytaty",
+      "liczby",
+      "źródła"
+    ],
+    "mismatch": {
+      "exists": false,
+      "details": "Brak istotnych niezgodności między tytułem a treścią."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Incydent po Halloween w Zacharzewie",
+    "notes_to_editor": "Artykuł ma charakter informacyjny, warto podkreślić kontekst społeczny zdarzenia."
+  },
+  "diagnostics": {
+    "tokens_title": 3,
+    "tokens_content": 380,
+    "processing_time_ms": 11882,
+    "model": "gpt-4o-mini"
+  }
+}

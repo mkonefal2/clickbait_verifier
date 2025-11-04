@@ -1,0 +1,44 @@
+{
+  "id": 1761934116372,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/swiat/news-byla-poszukiwana-w-polsce-za-oszustwo-wpadla-w-hiszpanii,nId,8036705",
+  "title": "Była poszukiwana w Polsce za oszustwo, wpadła w Hiszpanii",
+  "score": 20,
+  "label": "not_clickbait",
+  "rationale": [
+    "Tytuł nie zawiera fraz sensacyjnych ani absolutów.",
+    "Treść artykułu jest zgodna z tytułem, nie ma rozbieżności.",
+    "W artykule znajdują się konkretne informacje o zatrzymaniu kobiety oraz przyczynie jej poszukiwań.",
+    "Nie wykryto luk ciekawości ani innych sygnałów clickbaitowych."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jest prosty i informacyjny, nie używa przesadnych słów.",
+    "Treść artykułu dokładnie odpowiada tytułowi, nie wprowadza w błąd.",
+    "Artykuł zawiera konkretne informacje o zatrzymaniu i oszustwie, co zwiększa jego wiarygodność.",
+    "Nie ma w nim żadnych zwodniczych elementów, które mogłyby przyciągać uwagę w sposób clickbaitowy."
+  ],
+  "summary": "Artykuł informuje o zatrzymaniu kobiety poszukiwanej przez polskie władze za oszustwo, które miało miejsce w 2022 roku. Zatrzymanie miało miejsce na lotnisku w Hiszpanii, gdzie kobieta przyleciała z Irlandii. W treści podano szczegóły dotyczące oszustwa oraz możliwą karę, która jej grozi.",
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "Informacje o zatrzymaniu kobiety przekazało radio Onda Cero.",
+      "Polskie władze wydały europejski nakaz aresztowania.",
+      "Podano konkretne kwoty związane z oszustwem."
+    ],
+    "mismatch": {
+      "exists": false,
+      "reason": ""
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Kobieta poszukiwana w Polsce za oszustwo zatrzymana w Hiszpanii",
+    "notes_to_editor": "Artykuł jest dobrze napisany i nie zawiera elementów clickbaitowych."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 158,
+    "processing_time_ms": 10789,
+    "model": "gpt-4o-mini"
+  }
+}

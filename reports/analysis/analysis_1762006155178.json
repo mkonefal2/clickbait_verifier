@@ -1,0 +1,48 @@
+{
+  "id": 1762006155178,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/rosja-nasila-nocne-ostrzaly-wystrzelili-najwiecej-pociskow-od-dwoch-lat/ekewm8m",
+  "title": "Rosja nasila nocne ostrzały. Wystrzelili najwięcej pocisków od dwóch lat",
+  "score": 38,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy wskazujące na sensacyjność ('nasilają', 'najwięcej pocisków'), co podnosi wynik clickbaitu.",
+    "Treść artykułu jest zgodna z tytułem, jednak nie zawiera dodatkowych informacji, które mogłyby potwierdzić lub wzbogacić przekaz.",
+    "W artykule występują cytaty i odniesienia do źródeł (francuska agencja AFP), co zwiększa wiarygodność.",
+    "Wykryto lukę ciekawości w tytule, ale nie jest ona na tyle silna, by klasyfikować artykuł jako 'strong' lub 'extreme'."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera słowa, które mogą przyciągać uwagę, takie jak 'nasilają' i 'najwięcej', co sugeruje dramatyczny charakter wydarzeń.",
+    "Treść jest zgodna z tytułem, ale nie dodaje nowych, zaskakujących informacji.",
+    "Artykuł odnosi się do wiarygodnych źródeł, co zwiększa jego rzetelność.",
+    "Tytuł wzbudza ciekawość, ale nie w sposób, który mógłby wprowadzać w błąd."
+  ],
+  "summary": "Artykuł informuje o nasileniu nocnych ostrzałów przez Rosję, które miały miejsce w październiku 2025 roku. Rosjanie wystrzelili najwięcej pocisków od dwóch lat, co zostało potwierdzone przez analizę danych ukraińskich sił powietrznych. Prezydent Ukrainy, Wołodymyr Zełenski, oskarżył Rosję o dążenie do chaosu i wywieranie presji psychologicznej na Ukrainę.",
+  "signals": {
+    "title_hits": [
+      "nasilają",
+      "najwięcej pocisków"
+    ],
+    "content_hits": [
+      "nasilają nocne ostrzały",
+      "najwięcej pocisków od dwóch lat"
+    ],
+    "credibility_hits": [
+      "francuska agencja AFP"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "content_detail": "Treść artykułu w pełni odzwierciedla tytuł."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Rosja zwiększa nocne ostrzały w październiku 2025 roku",
+    "notes_to_editor": "Rozważyć dodanie dodatkowych kontekstów lub danych, aby zwiększyć wartość informacyjną artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 102,
+    "processing_time_ms": 17252,
+    "model": "gpt-4o-mini"
+  }
+}

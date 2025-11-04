@@ -1,0 +1,42 @@
+{
+  "id": 1762006160642,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/warszawa/od-dzis-nocna-prohibicja-w-warszawie-na-poczatku-w-dwoch-dzielnicach/k8zq5f8",
+  "title": "Od dziś nocna prohibicja w Warszawie. Na początku w dwóch dzielnicach",
+  "score": 20,
+  "label": "not_clickbait",
+  "rationale": [
+    "Tytuł zawiera konkretne informacje o nowym zakazie, nie używa sensacyjnych fraz ani absolutów.",
+    "Treść artykułu jest zgodna z tytułem, dostarczając szczegółów na temat wprowadzenia nocnej prohibicji w Warszawie.",
+    "Nie znaleziono fraz, które mogłyby wskazywać na clickbaitowość w treści.",
+    "Zidentyfikowano źródło informacji (Polska Agencja Prasowa), co zwiększa wiarygodność artykułu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jasno informuje o nowym zakazie sprzedaży alkoholu w Warszawie, bez przesadnych sformułowań.",
+    "Treść artykułu odpowiada tytułowi, wyjaśniając szczegóły dotyczące wprowadzenia prohibicji.",
+    "Artykuł nie zawiera żadnych przesadnych stwierdzeń ani sensacyjnych zwrotów.",
+    "Podano źródło informacji, co potwierdza rzetelność artykułu."
+  ],
+  "summary": "Artykuł informuje o wprowadzeniu nocnej prohibicji na sprzedaż alkoholu w Warszawie, która zacznie obowiązywać od godziny 22.00 w dwóch dzielnicach: Śródmieściu i Pradze-Północ. Zakaz dotyczy sklepów, stacji benzynowych oraz lokali gastronomicznych. Prohibicja ma charakter pilotażowy.",
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "Polska Agencja Prasowa"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "mismatch_description": "Tytuł i treść są zgodne."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "W Warszawie wprowadzono nocną prohibicję na sprzedaż alkoholu w dwóch dzielnicach.",
+    "notes_to_editor": "Artykuł jest informacyjny i nie wymaga zmian."
+  },
+  "diagnostics": {
+    "tokens_title": 12,
+    "tokens_content": 78,
+    "processing_time_ms": 14516,
+    "model": "gpt-4o-mini"
+  }
+}

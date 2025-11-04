@@ -1,0 +1,50 @@
+{
+  "id": 1762267147296,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/rzeszow/falszywa-karta-dyplomatyczna-na-granicy-probowala-ominac-kolejke/q0msrn7",
+  "title": "Fałszywa karta dyplomatyczna na granicy. Ukrainka próbowała ominąć kolejkę",
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'fałszywa karta dyplomatyczna' i 'próbowała ominąć kolejkę', co może wzbudzać ciekawość.",
+    "Treść artykułu jest zgodna z tytułem, nie ma istotnych niezgodności.",
+    "W artykule pojawiają się liczby (wiek kobiety) oraz odniesienia do źródła (Bieszczadzki Oddział Straży Granicznej), co zwiększa wiarygodność.",
+    "W tytule i treści nie występują absoluty ani przesadne emocje, co wpływa na niższy poziom clickbaitu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa zwrotów, które mogą przyciągać uwagę, jak 'fałszywa karta dyplomatyczna'.",
+    "Treść artykułu jest spójna z tytułem, co oznacza, że nie wprowadza w błąd.",
+    "Artykuł zawiera konkretne informacje, takie jak wiek kobiety i źródło informacji, co czyni go bardziej wiarygodnym.",
+    "Nie ma w nim przesadnych emocji ani dramatyzacji, co sprawia, że jest mniej 'clickbaitowy'."
+  ],
+  "summary": "Artykuł opisuje incydent na granicy, gdzie 47-letnia obywatelka Ukrainy próbowała użyć fałszywej karty dyplomatycznej, aby uniknąć oczekiwania w kolejce. Funkcjonariusze Straży Granicznej z Budomierza zidentyfikowali dokument jako sfałszowany, co stanowi naruszenie prawa, za które grozi kara do pięciu lat pozbawienia wolności.",
+  "signals": {
+    "title_hits": [
+      "fałszywa karta dyplomatyczna",
+      "próbowała ominąć kolejkę"
+    ],
+    "content_hits": [
+      "fałszywa karta dyplomatyczna",
+      "47-letnia obywatelka Ukrainy",
+      "próba użycia sfałszowanych dokumentów"
+    ],
+    "credibility_hits": [
+      "Bieszczadzki Oddział Straży Granicznej",
+      "maksymalna kara pięć lat"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "content_summary_match": true
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Kobieta z Ukrainy próbowała użyć fałszywej karty dyplomatycznej na granicy",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby zmniejszyć wrażenie clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 13,
+    "tokens_content": 113,
+    "processing_time_ms": 17130,
+    "model": "gpt-4o-mini"
+  }
+}

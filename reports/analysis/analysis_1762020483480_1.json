@@ -1,0 +1,45 @@
+{
+  "id": 1762020483480,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/ekshumacje-polskich-zolnierzy-w-ukrainie-ambasador-ukrainy-wskazal-date/k2b9y20",
+  "title": "Ekshumacje polskich żołnierzy w Ukrainie. Ambasador Ukrainy zabrał głos",
+  "score": 22,
+  "label": "not_clickbait",
+  "rationale": [
+    "Tytuł nie zawiera fraz sensacyjnych ani absolutów.",
+    "Treść artykułu jest zgodna z tytułem, nie ma rozbieżności.",
+    "Brak luk ciekawości w treści, artykuł dostarcza pełnych informacji.",
+    "W artykule występują konkretne liczby (31 szczątków), co zwiększa wiarygodność.",
+    "Źródło informacji to Polska Agencja Prasowa, co również podnosi poziom zaufania."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jest informacyjny i nie używa przesadnych sformułowań.",
+    "Treść artykułu odpowiada tytułowi, nie wprowadza w błąd.",
+    "Artykuł nie pozostawia pytań bez odpowiedzi, dostarcza pełnych informacji.",
+    "Podano konkretne liczby, co sprawia, że artykuł jest bardziej wiarygodny.",
+    "Informacje pochodzą z uznanego źródła, co zwiększa ich rzetelność."
+  ],
+  "summary": "Artykuł informuje o ekshumacjach polskich żołnierzy, którzy polegli w obronie Lwowa we wrześniu 1939 roku. Ambasador Ukrainy ogłosił datę pochówku ich szczątków, które odbędą się 14 listopada w Mościskach. W sumie znaleziono szczątki co najmniej 31 osób, które wcześniej pochowano we Lwowie-Zboiskach.",
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "31",
+      "Polska Agencja Prasowa"
+    ],
+    "mismatch": {
+      "is_mismatch": false,
+      "details": "Tytuł i treść są zgodne."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Pochówek polskich żołnierzy w Ukrainie - Ambasador Ukrainy ogłasza datę",
+    "notes_to_editor": "Artykuł ma charakter informacyjny i nie zawiera elementów clickbaitowych."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 104,
+    "processing_time_ms": 12980,
+    "model": "gpt-4o-mini"
+  }
+}

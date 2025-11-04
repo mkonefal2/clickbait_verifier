@@ -1,0 +1,43 @@
+{
+  "id": 1762085992689,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/krakow/news-wypadek-na-a4-cysterna-w-rowie-droga-czesciowo-zablokowana,nId,8036847",
+  "title": "Cysterna w rowie na A4",
+  "score": 15,
+  "label": "not_clickbait",
+  "rationale": [
+    "Tytuł nie zawiera fraz sensacyjnych ani absolutów.",
+    "Treść artykułu jest zgodna z tytułem, opisując wypadek cysterny na autostradzie A4.",
+    "Nie wykryto luk ciekawości w treści ani tytule.",
+    "Artykuł zawiera konkretne informacje, takie jak liczba strażaków i szczegóły dotyczące wypadku, co zwiększa jego wiarygodność."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jest prosty i informacyjny, nie używa przesadnych słów.",
+    "Treść artykułu dokładnie opisuje wypadek cysterny, co zgadza się z tytułem.",
+    "Nie ma w nim niejasności ani sensacyjnych zwrotów, które mogłyby wprowadzać w błąd.",
+    "Artykuł zawiera konkretne dane, co sprawia, że jest bardziej wiarygodny."
+  ],
+  "summary": "Artykuł opisuje wypadek cysterny na autostradzie A4, który miał miejsce 2 listopada. Pojazd przewrócił się w rejonie Tarnowa, a na miejscu zdarzenia pracuje 19 strażaków. Nie ma osób poszkodowanych, jednak występują utrudnienia w ruchu, które mogą potrwać kilka godzin.",
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "źródło: RMF24",
+      "cytat: mł. kpt. Dominik Ryba z Państwowej Straży Pożarnej"
+    ],
+    "mismatch": {
+      "title": "Cysterna w rowie na A4",
+      "content": "Artykuł dotyczy wypadku cysterny, co jest zgodne z tytułem."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Wypadek cysterny na A4",
+    "notes_to_editor": "Artykuł jest dobrze napisany i nie wymaga zmian."
+  },
+  "diagnostics": {
+    "tokens_title": 6,
+    "tokens_content": 211,
+    "processing_time_ms": 12332,
+    "model": "gpt-4o-mini"
+  }
+}

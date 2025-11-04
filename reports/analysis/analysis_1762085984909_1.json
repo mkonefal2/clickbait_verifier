@@ -1,0 +1,51 @@
+{
+  "id": 1762085984909,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/swiat/news-mieszkania-w-najdrozszym-miescie-swiata-tansze-nawet-o-34-pr,nId,8036837",
+  "title": "Mieszkania w najdroższym mieście świata tańsze nawet o 34 proc. Jest jeden haczyk",
+  "score": 62,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'najdroższym mieście świata' oraz 'haczyk', co wskazuje na elementy clickbaitowe.",
+    "Treść artykułu potwierdza informacje zawarte w tytule, jednak dodaje kontekst dotyczący 'nawiedzonych' mieszkań, co może być postrzegane jako sensacyjne.",
+    "W artykule występują liczby i cytaty, co zwiększa jego wiarygodność, ale także może być użyte do wzmocnienia efektu clickbaitowego.",
+    "Wykryto niezgodność między tytułem a treścią, ponieważ tytuł sugeruje ogólne obniżki cen mieszkań, podczas gdy treść koncentruje się na specyficznych przypadkach."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów, które przyciągają uwagę, takich jak 'najdroższym' i 'haczyk', co sprawia, że wygląda na sensacyjny.",
+    "Treść artykułu wyjaśnia, że obniżki cen dotyczą mieszkań z tragiczną historią, co jest interesujące, ale może być postrzegane jako przesadzone.",
+    "Artykuł zawiera konkretne liczby i cytaty, co dodaje mu wiarygodności, ale również może sprawiać wrażenie, że jest bardziej sensacyjny.",
+    "Jest pewna niezgodność między tytułem a treścią, ponieważ tytuł sugeruje ogólne zniżki, podczas gdy treść dotyczy specyficznych przypadków."
+  ],
+  "summary": "Artykuł opisuje sytuację na rynku nieruchomości w Hongkongu, gdzie mieszkania mogą być tańsze o 34% w przypadku, gdy mają złą historię, taką jak gwałtowna śmierć. Lokalne agencje nieruchomości prowadzą listy takich lokali, a zainteresowani mogą zlecić sprawdzenie ich historii. W artykule przytoczone są również opinie ekspertów na temat wpływu kultury na postrzeganie takich mieszkań.",
+  "signals": {
+    "title_hits": [
+      "najdroższym",
+      "haczyk"
+    ],
+    "content_hits": [
+      "34 proc.",
+      "nawiedzone",
+      "gwałtowna śmierć"
+    ],
+    "credibility_hits": [
+      "CNN",
+      "Ng Goon-lau",
+      "Utpal Bhattacharya"
+    ],
+    "mismatch": {
+      "title": "Mieszkania w najdroższym mieście świata tańsze nawet o 34 proc.",
+      "content": "Obniżki dotyczą mieszkań z tragiczną historią."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Ceny mieszkań w Hongkongu mogą być niższe o 34% w przypadku specyficznych okoliczności.",
+    "notes_to_editor": "Rozważyć zmianę tytułu na bardziej neutralny, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 14,
+    "tokens_content": 572,
+    "processing_time_ms": 16313,
+    "model": "gpt-4o-mini"
+  }
+}

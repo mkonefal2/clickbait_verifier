@@ -1,0 +1,51 @@
+{
+  "id": 1762006134407,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/polska/news-oto-najpiekniejszy-grob-na-powazkach-zmarla-jako-18-latka,nId,8036717",
+  "title": "Oto najpiękniejszy grób na Powązkach. Zmarła jako 18-latka",
+  "score": 63,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne ('najpiękniejszy grób'), co zwiększa jego clickbaitowość.",
+    "Treść artykułu jest zgodna z tytułem, jednak nie dostarcza dodatkowych informacji, które mogłyby zaspokoić ciekawość czytelnika.",
+    "W artykule występują liczby (np. 1,7 tys. nagrobków), co podnosi wiarygodność.",
+    "W treści znajdują się cytaty, co również wpływa na postrzeganą wiarygodność informacji.",
+    "Zidentyfikowano brak istotnych luk ciekawości w treści, co może wpływać na odczucie clickbaitu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa emocjonalnych słów, co może przyciągać uwagę, ale nieco przesadza z dramatyzmem.",
+    "Treść artykułu odpowiada na pytania zawarte w tytule, ale nie dostarcza dodatkowych informacji, które mogłyby zaspokoić ciekawość czytelnika.",
+    "Artykuł zawiera konkretne liczby i cytaty, co sprawia, że jest bardziej wiarygodny.",
+    "Nie znaleziono istotnych niejasności w treści, co zmniejsza wrażenie clickbaitu."
+  ],
+  "summary": "Artykuł opisuje grób Lusi Raciborowskiej na Cmentarzu Powązkowskim w Warszawie, który jest uważany za najpiękniejszy. Zawiera informacje o rzeźbie przedstawiającej anioła oraz o historii cmentarza i jego znanych pochowanych. Wspomniano również o kwestach na rzecz renowacji nagrobków, które odbywają się od 1974 roku.",
+  "signals": {
+    "title_hits": [
+      "najpiękniejszy grób"
+    ],
+    "content_hits": [
+      "najpiękniejszy grób",
+      "18-latka",
+      "niezwykła rzeźba",
+      "kwesta"
+    ],
+    "credibility_hits": [
+      "1,7 tys. nagrobków",
+      "cytaty"
+    ],
+    "mismatch": {
+      "exists": false,
+      "details": "Tytuł i treść są zgodne."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Grób Lusi Raciborowskiej na Powązkach - historia i znaczenie",
+    "notes_to_editor": "Rozważyć bardziej neutralne sformułowanie tytułu, aby zmniejszyć wrażenie clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 525,
+    "processing_time_ms": 11784,
+    "model": "gpt-4o-mini"
+  }
+}

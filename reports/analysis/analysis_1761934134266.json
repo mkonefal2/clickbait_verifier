@@ -1,0 +1,44 @@
+{
+  "id": 1761934134266,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/krakow/napasc-na-17-letnia-ukrainke-na-podhalu-sprawca-trafil-do-aresztu/86jvrbv",
+  "title": "Napaść na 17-letnią Ukrainkę na Podhalu. Sprawca trafił do aresztu",
+  "score": 15,
+  "label": "not_clickbait",
+  "rationale": [
+    "Tytuł zawiera konkretne informacje o incydencie, nie używa sensacyjnych fraz ani absolutów.",
+    "Treść artykułu jest zgodna z tytułem, opisując zdarzenie oraz działania policji.",
+    "Brak luk ciekawości w treści, ponieważ artykuł dostarcza pełne informacje o incydencie.",
+    "W artykule znajdują się odniesienia do źródła informacji, co zwiększa wiarygodność.",
+    "Nie znaleziono żadnych sygnałów clickbaitowych w treści ani tytule."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jasno informuje o incydencie, nie używając przesadzonych słów ani zwrotów.",
+    "Treść artykułu jest spójna z tytułem i dostarcza wszystkich niezbędnych informacji.",
+    "Artykuł nie zostawia pytań bez odpowiedzi, co sprawia, że jest rzetelny.",
+    "Podano źródło informacji, co zwiększa zaufanie do artykułu.",
+    "Nie znaleziono żadnych elementów, które mogłyby sugerować, że artykuł jest clickbaitowy."
+  ],
+  "summary": "Artykuł opisuje napaść na 17-letnią Ukrainkę w pociągu na trasie Nowy Targ-Chabówka, do której doszło w nocy z 18 na 19 października. Sprawca, 30-letni mieszkaniec gminy Raba Wyżna, usiłował ukraść jej torebkę. Policja zatrzymała mężczyznę, a sąd podjął decyzję o jego dalszym losie.",
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "Tygodnik Podhalański"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "content_summary_match": true
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Napaść na 17-letnią Ukrainkę w pociągu na Podhalu",
+    "notes_to_editor": "Artykuł jest rzetelny i nie zawiera elementów clickbaitowych."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 103,
+    "processing_time_ms": 13262,
+    "model": "gpt-4o-mini"
+  }
+}

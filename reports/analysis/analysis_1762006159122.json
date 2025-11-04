@@ -1,0 +1,49 @@
+{
+  "id": 1762006159122,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/wszystkich-swietych-na-monte-cassino-za-nasza-wolnosc-i-wasza/tc054qh",
+  "title": "Wszystkich Świętych na Monte Cassino. \"Za naszą wolność i waszą\"",
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazę 'Za naszą wolność i waszą', co może budzić ciekawość, ale nie jest to typowy clickbait.",
+    "Treść artykułu jest zgodna z tytułem, opisując msze odprawioną na Polskim Cmentarzu Wojennym.",
+    "Nie znaleziono wyraźnych sygnałów wiarygodności, takich jak liczby czy konkretne źródła, poza ogólnym odniesieniem do Polskiej Agencji Prasowej.",
+    "W artykule nie występują frazy sensacyjne ani absoluty, co obniża jego clickbaitowość."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł artykułu jest nieco intrygujący, ale nie jest przesadnie sensacyjny.",
+    "Treść artykułu odpowiada tytułowi, opisując wydarzenie związane z uroczystością Wszystkich Świętych.",
+    "Brakuje konkretów, które mogłyby wzmocnić wiarygodność artykułu, jak liczby czy szczegółowe źródła.",
+    "Nie ma w nim przesadnych stwierdzeń ani dramatyzacji, co wpływa na jego ocenę."
+  ],
+  "summary": "Artykuł opisuje uroczystość Wszystkich Świętych, która miała miejsce na Polskim Cmentarzu Wojennym na Monte Cassino. W mszy uczestniczyli przedstawiciele polskiej dyplomacji, duchowieństwa oraz lokalnych władz. Wydarzenie podkreśla znaczenie pamięci o poległych w walce o wolność.",
+  "signals": {
+    "title_hits": [
+      "wolność",
+      "waszą"
+    ],
+    "content_hits": [
+      "Wszystkich Świętych",
+      "msza",
+      "Cmentarz Wojenny"
+    ],
+    "credibility_hits": [
+      "Polska Agencja Prasowa"
+    ],
+    "mismatch": {
+      "is_mismatch": false,
+      "mismatch_details": "Tytuł i treść są zgodne."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Uroczystość Wszystkich Świętych na Monte Cassino",
+    "notes_to_editor": "Artykuł dobrze oddaje temat, ale warto dodać więcej szczegółów dla wzmocnienia wiarygodności."
+  },
+  "diagnostics": {
+    "tokens_title": 12,
+    "tokens_content": 75,
+    "processing_time_ms": 14192,
+    "model": "gpt-4o-mini"
+  }
+}

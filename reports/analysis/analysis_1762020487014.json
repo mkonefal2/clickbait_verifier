@@ -1,0 +1,47 @@
+{
+  "id": 1762020487014,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/warszawa/grozny-wypadek-kolo-warszawy-auto-dachowalo-sa-ranni-w-tym-dwoje-dzieci/lfp2n11",
+  "title": "Groźny wypadek w Pruszkowie. Są ranni, w tym dwoje dzieci",
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera słowo 'groźny', które może być uznane za frazę sensacyjną, ale nie jest to ekstremalny przypadek.",
+    "Treść artykułu jest zgodna z tytułem, co obniża wskaźnik mismatch.",
+    "W artykule znajdują się konkretne liczby (siedem rannych, w tym dwoje dzieci), co podnosi jego wiarygodność.",
+    "Nie znaleziono innych fraz sensacyjnych ani absolutów w treści."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'groźny', co może budzić emocje, ale nie jest to przesadzone.",
+    "Treść artykułu odpowiada tytułowi, co sprawia, że jest bardziej wiarygodny.",
+    "Artykuł zawiera konkretne informacje o liczbie rannych, co zwiększa jego rzetelność.",
+    "Nie znaleziono innych przesadnych stwierdzeń w treści."
+  ],
+  "summary": "W artykule opisano groźny wypadek, do którego doszło w Pruszkowie koło Warszawy, w wyniku zderzenia dwóch aut osobowych. W wypadku rannych zostało siedem osób, w tym dwoje dzieci. Służby informują o poważnych utrudnieniach w ruchu drogowym.",
+  "signals": {
+    "title_hits": [
+      "groźny"
+    ],
+    "content_hits": [
+      "siedem osób",
+      "dwoje dzieci"
+    ],
+    "credibility_hits": [
+      "ratownicy medyczni"
+    ],
+    "mismatch": {
+      "exists": false,
+      "details": "Tytuł i treść są zgodne."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Wypadek w Pruszkowie. Siedem osób rannych, w tym dwoje dzieci",
+    "notes_to_editor": "Rozważyć użycie mniej emocjonalnego języka w tytule."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 75,
+    "processing_time_ms": 12749,
+    "model": "gpt-4o-mini"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": 1762267149687,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/sad-najwyzszy-usa-zadecyduje-w-sprawie-cel-trump-moze-wyjsc-obronna-reka/zptg22p",
+  "title": "Sąd Najwyższy USA zadecyduje w sprawie ceł. Trump może wyjść obronną ręką",
+  "score": 58,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'może wyjść obronną ręką', co wzbudza ciekawość.",
+    "Treść artykułu odnosi się do aktualnych wydarzeń związanych z polityką Donalda Trumpa, ale nie dostarcza szczegółowych informacji, które mogłyby potwierdzić tezę z tytułu.",
+    "W treści występują cytaty i odniesienia do działań zespołu Trumpa, co zwiększa wiarygodność, jednak brak konkretnych danych liczbowych.",
+    "Wykryto niezgodność między tytułem a treścią, ponieważ tytuł sugeruje pozytywny wynik dla Trumpa, podczas gdy treść nie potwierdza tego jednoznacznie."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa zwrotu, który może przyciągać uwagę, sugerując, że Trump ma szansę na korzystny wynik.",
+    "Artykuł opisuje działania Trumpa i jego zespołu w kontekście decyzji Sądu Najwyższego, ale nie daje jednoznacznych odpowiedzi.",
+    "W treści są cytaty i odniesienia do strategii, co dodaje wiarygodności, ale brakuje konkretnych liczb.",
+    "Tytuł i treść nie do końca się zgadzają, ponieważ tytuł sugeruje pozytywny wynik, a artykuł nie potwierdza tego jednoznacznie."
+  ],
+  "summary": "Artykuł omawia sytuację wokół polityki celnej Donalda Trumpa oraz decyzję Sądu Najwyższego USA, który ma zbadać, czy prezydent przekroczył swoje kompetencje. Zespół Trumpa pracuje nad strategią na wypadek negatywnego orzeczenia sądu, mając nadzieję na pozytywny wynik.",
+  "signals": {
+    "title_hits": [
+      "może wyjść obronną ręką"
+    ],
+    "content_hits": [
+      "Sąd Najwyższy USA",
+      "strategia Donalda Trumpa",
+      "plan B"
+    ],
+    "credibility_hits": [
+      "dziennikarzy",
+      "cytaty"
+    ],
+    "mismatch": {
+      "title": "Sąd Najwyższy USA zadecyduje w sprawie ceł. Trump może wyjść obronną ręką",
+      "content": "Artykuł nie potwierdza jednoznacznie pozytywnego wyniku dla Trumpa."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Sąd Najwyższy USA rozpatrzy sprawę ceł w kontekście polityki Donalda Trumpa",
+    "notes_to_editor": "Zaleca się unikanie fraz, które mogą wprowadzać w błąd co do treści artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 14,
+    "tokens_content": 112,
+    "processing_time_ms": 16099,
+    "model": "gpt-4o-mini"
+  }
+}

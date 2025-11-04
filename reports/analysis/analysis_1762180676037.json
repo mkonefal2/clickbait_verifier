@@ -1,0 +1,52 @@
+{
+  "id": 1762180676037,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/polska/news-zagineli-bez-sladu-na-mazurach-ciala-dwoch-braci-wylowione-z,nId,8036869",
+  "title": "Zaginęli bez śladu na Mazurach.",
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazę 'zaginęli bez śladu', co może budzić ciekawość, ale nie jest to skrajnie sensacyjne.",
+    "Treść artykułu dostarcza konkretne informacje o zdarzeniu, jednak używa zwrotów, które mogą sugerować dramatyzm.",
+    "Nie występują w treści żadne absoluty ani przesadne sensacje.",
+    "Zidentyfikowano niewielką niezgodność między tytułem a treścią, ponieważ tytuł nie odnosi się bezpośrednio do odnalezienia ciał.",
+    "W artykule znajdują się cytaty oraz konkretne dane dotyczące akcji poszukiwawczej, co zwiększa jego wiarygodność."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł sugeruje, że mężczyźni zniknęli w tajemniczych okolicznościach, co może przyciągać uwagę, ale nie jest to przesadnie dramatyczne.",
+    "Artykuł przedstawia szczegóły dotyczące poszukiwań i odnalezienia ciał, co jest informacyjne.",
+    "Nie ma w nim przesadnych stwierdzeń ani niepotrzebnych emocji.",
+    "Tytuł nie do końca odzwierciedla zakończenie sprawy, ponieważ nie wspomina o odnalezieniu ciał.",
+    "Artykuł zawiera cytaty i konkretne informacje, co czyni go bardziej wiarygodnym."
+  ],
+  "summary": "W jeziorze Kruklin na Mazurach odnaleziono ciała dwóch braci, którzy zaginęli podczas wędkowania. Poszukiwania trwały od piątku do niedzieli, kiedy to sonar zlokalizował miejsce pod wodą. Służby ustalają okoliczności ich śmierci, a śledztwo w tej sprawie jest w toku.",
+  "signals": {
+    "title_hits": [
+      "zaginęli bez śladu"
+    ],
+    "content_hits": [
+      "odnaleziono ciała",
+      "poszukiwania",
+      "bracia z Ełku"
+    ],
+    "credibility_hits": [
+      "cytaty",
+      "konkretne dane",
+      "informacje o akcji poszukiwawczej"
+    ],
+    "mismatch": {
+      "title": "Zaginęli bez śladu na Mazurach.",
+      "content": "Ciała dwóch mężczyzn zostały odnalezione."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Ciała dwóch braci odnalezione w jeziorze Kruklin na Mazurach.",
+    "notes_to_editor": "Zaleca się unikanie fraz, które mogą budzić niepotrzebne emocje lub sensacje."
+  },
+  "diagnostics": {
+    "tokens_title": 6,
+    "tokens_content": 309,
+    "processing_time_ms": 18805,
+    "model": "gpt-4o-mini"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": 1762006149791,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/jan-turnau-nie-zyje-zmarl-wybitny-teolog-i-publicysta/bhhdnst",
+  "title": "Nie żyje Jan Turnau. Wybitny publicysta i teolog zmarł w wieku 92 lat",
+  "score": 10,
+  "label": "not_clickbait",
+  "rationale": [
+    "Tytuł jest informacyjny i nie zawiera fraz sensacyjnych ani absolutów.",
+    "Treść artykułu jest zgodna z tytułem, dostarczając faktów na temat zmarłego publicysty.",
+    "Brak luk ciekawości, ponieważ artykuł nie sugeruje więcej informacji niż jest w nim zawarte.",
+    "Sygnały wiarygodności obejmują podanie źródła informacji (Polska Agencja Prasowa) oraz konkretne dane (wiek, osiągnięcia)."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł artykułu jest prosty i informacyjny, nie zawiera przesadnych słów ani emocjonalnych stwierdzeń.",
+    "Treść artykułu dokładnie odpowiada tytułowi, przedstawiając fakty o Janie Turnau.",
+    "Nie ma w artykule żadnych niejasności ani obietnic, które nie są spełnione.",
+    "Artykuł zawiera wiarygodne źródła i konkretne informacje, co zwiększa jego rzetelność."
+  ],
+  "summary": "Jan Turnau, znany publicysta i teolog, zmarł w Warszawie w wieku 92 lat. Był cenionym działaczem na rzecz ekumenizmu oraz inicjatorem pierwszego w Polsce międzywyznaniowego tłumaczenia Nowego Testamentu. Informację o jego śmierci podała Polska Agencja Prasowa.",
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "Polska Agencja Prasowa",
+      "92 lata"
+    ],
+    "mismatch": {
+      "title_content_match": true
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Jan Turnau, publicysta i teolog, zmarł w wieku 92 lat",
+    "notes_to_editor": "Artykuł jest rzetelny i nie zawiera elementów clickbaitowych."
+  },
+  "diagnostics": {
+    "tokens_title": 15,
+    "tokens_content": 63,
+    "processing_time_ms": 12189,
+    "model": "gpt-4o-mini"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": 1762085988982,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/raporty/raport-wojna-z-rosja/news-to-jedyna-bron-ktorej-boja-sie-usa-rosja-strzela-do-ukrainy-,nId,8036320",
+  "title": "To jedyna broń, której boją się USA",
+  "score": 55,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazę absolutną 'jedyna broń', co może wzbudzać sensację.",
+    "W treści artykułu znajdują się konkretne informacje na temat pocisków 9M729 oraz ich wpływu na bezpieczeństwo europejskie.",
+    "Występują cytaty ekspertów, co zwiększa wiarygodność artykułu.",
+    "Zauważono pewne niezgodności między tytułem a treścią, ponieważ tytuł sugeruje, że chodzi tylko o jedną broń, podczas gdy artykuł omawia szerszy kontekst."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnego sformułowania 'jedyna broń', co może przyciągać uwagę, ale też może być mylące.",
+    "Artykuł dostarcza szczegółowych informacji na temat pocisków 9M729 i ich znaczenia w kontekście wojny w Ukrainie.",
+    "Cytaty od ekspertów dodają wiarygodności tekstowi.",
+    "Tytuł może nie do końca odzwierciedlać pełen kontekst artykułu, który omawia więcej niż jedną broń."
+  ],
+  "summary": "Artykuł omawia użycie przez Rosję pocisków manewrujących 9M729 w wojnie z Ukrainą oraz ich potencjalne zagrożenie dla bezpieczeństwa europejskiego. Zawiera wypowiedzi ekspertów, w tym ministra spraw zagranicznych Ukrainy oraz byłego attache wojskowego, dotyczące wpływu tych pocisków na politykę zbrojeniową USA i Rosji. Porusza również kwestie traktatu INF.",
+  "signals": {
+    "title_hits": [
+      "jedyna broń",
+      "boją się USA"
+    ],
+    "content_hits": [
+      "pociski manewrujące 9M729",
+      "problem bezpieczeństwa europejskiego",
+      "cytaty ekspertów"
+    ],
+    "credibility_hits": [
+      "cytaty",
+      "liczby",
+      "źródła"
+    ],
+    "mismatch": {
+      "title": "To jedyna broń, której boją się USA",
+      "content": "Artykuł omawia szerszy kontekst użycia pocisków 9M729, a nie tylko jedną broń."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Rosja używa pocisków 9M729 w wojnie z Ukrainą",
+    "notes_to_editor": "Rozważyć zmianę tytułu, aby lepiej odzwierciedlał treść artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 290,
+    "processing_time_ms": 17002,
+    "model": "gpt-4o-mini"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": 1762006152861,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/donald-trump-doczekal-sie-przeprosin-od-premiera-kanady/r0lqykw",
+  "title": "Premier Kanady przeprosił Donalda Trumpa. Ujawniono powód",
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazę 'ujawniono powód', co może sugerować lukę ciekawości.",
+    "Treść artykułu jest zgodna z tytułem, jednak nie zawiera dodatkowych informacji, które mogłyby wzbudzić większe zainteresowanie.",
+    "W tytule i treści nie występują absoluty ani sensacyjne frazy.",
+    "Artykuł zawiera źródło informacji (Polska Agencja Prasowa), co podnosi jego wiarygodność."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł sugeruje, że jest coś interesującego do odkrycia, co może przyciągnąć uwagę.",
+    "Treść artykułu odpowiada tytułowi, ale nie dodaje wielu szczegółów, które mogłyby wzbudzić większą ciekawość.",
+    "Nie ma w nim przesadnych stwierdzeń ani dramatyzacji.",
+    "Artykuł opiera się na wiarygodnym źródle, co sprawia, że jest bardziej rzetelny."
+  ],
+  "summary": "Premier Kanady Mark Carney przeprosił Donalda Trumpa za kontrowersyjną reklamę polityczną, która krytykowała politykę celną. Do przeprosin doszło podczas szczytu APEC w Korei Południowej. Informację podała Polska Agencja Prasowa.",
+  "signals": {
+    "title_hits": [
+      "ujawniono powód"
+    ],
+    "content_hits": [
+      "przeprosił",
+      "kontrowersyjna reklama"
+    ],
+    "credibility_hits": [
+      "Polska Agencja Prasowa"
+    ],
+    "mismatch": {
+      "title": "Tytuł jest zgodny z treścią",
+      "content": "Treść odpowiada tytułowi, ale nie dostarcza dodatkowych informacji."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Premier Kanady przeprosił Donalda Trumpa za kontrowersyjną reklamę",
+    "notes_to_editor": "Rozważyć dodanie więcej szczegółów w treści, aby zwiększyć wartość informacyjną."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 68,
+    "processing_time_ms": 16685,
+    "model": "gpt-4o-mini"
+  }
+}

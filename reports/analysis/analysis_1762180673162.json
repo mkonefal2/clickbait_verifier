@@ -1,0 +1,49 @@
+{
+  "id": 1762180673162,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/polska/news-blik-znow-zaatakowany-jest-komunikat,nId,8037091",
+  "title": "BLIK znów zaatakowany",
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazę 'znów zaatakowany', co może sugerować powtarzalność i dramatyzm sytuacji.",
+    "Treść artykułu jest zgodna z tytułem, opisując atak DDoS na system BLIK.",
+    "W artykule pojawiają się liczby dotyczące transakcji, co zwiększa wiarygodność.",
+    "Zidentyfikowano kilka fraz sensacyjnych, takich jak 'atak DDoS' i 'utrudnienia', które mogą wzbudzać ciekawość."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł sugeruje, że BLIK był ponownie celem ataku, co może brzmieć dramatycznie.",
+    "Artykuł rzeczywiście opisuje atak na BLIK, więc tytuł jest zgodny z treścią.",
+    "W artykule pojawiają się konkretne liczby dotyczące transakcji, co dodaje mu wiarygodności.",
+    "W treści użyto kilku wyrazów, które mogą przyciągać uwagę czytelników."
+  ],
+  "summary": "Artykuł informuje o kolejnych utrudnieniach w korzystaniu z systemu płatności BLIK, spowodowanych atakiem DDoS. Operator systemu potwierdza, że trwają prace nad przywróceniem pełnej funkcjonalności. W artykule zawarto również informacje o wcześniejszych atakach oraz o popularności BLIK-a w Polsce.",
+  "signals": {
+    "title_hits": [
+      "atakowany"
+    ],
+    "content_hits": [
+      "atak DDoS",
+      "utrudnienia",
+      "kolejny"
+    ],
+    "credibility_hits": [
+      "2,4 mld transakcji",
+      "347,3 mld zł"
+    ],
+    "mismatch": {
+      "title": "BLIK znów zaatakowany",
+      "content": "Artykuł opisuje atak DDoS na BLIK, co jest zgodne z tytułem."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Problemy z BLIK-iem spowodowane atakiem DDoS",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć dramatyzacji sytuacji."
+  },
+  "diagnostics": {
+    "tokens_title": 5,
+    "tokens_content": 328,
+    "processing_time_ms": 16032,
+    "model": "gpt-4o-mini"
+  }
+}

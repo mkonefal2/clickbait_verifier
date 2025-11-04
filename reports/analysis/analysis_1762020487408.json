@@ -1,0 +1,45 @@
+{
+  "id": 1762020487408,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/wroclaw/choroba-niebieskiego-jezyka-w-polsce-najnowszy-przypadek-na-dolnym-slasku/b45z0z3",
+  "title": "Choroba niebieskiego języka. Najnowszy przypadek na Dolnym Śląsku",
+  "score": 15,
+  "label": "not_clickbait",
+  "rationale": [
+    "Tytuł nie zawiera fraz sensacyjnych ani absolutów.",
+    "Treść artykułu jest zgodna z tytułem i dostarcza konkretne informacje na temat choroby.",
+    "Brak luk ciekawości w tytule i treści.",
+    "Nie wykryto sygnałów wiarygodności, ale artykuł zawiera konkretne dane o przypadkach choroby.",
+    "Zgodność tytułu z treścią wynosi 100%."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jest informacyjny i nie używa przesadnych słów.",
+    "Treść artykułu dokładnie opisuje sytuację związaną z chorobą, co jest zgodne z tytułem.",
+    "Nie ma w artykule żadnych niejasności ani sensacyjnych zwrotów.",
+    "Artykuł podaje konkretne liczby dotyczące przypadków choroby, co zwiększa jego wiarygodność.",
+    "Tytuł i treść są spójne i nie wprowadzają w błąd."
+  ],
+  "summary": "Artykuł informuje o najnowszym przypadku choroby niebieskiego języka, który został stwierdzony w stadzie owiec na Dolnym Śląsku. Od początku 2025 roku w Polsce odnotowano 15 ognisk tej choroby. Główny Inspektorat Weterynarii przekazał szczegóły dotyczące wykrycia ogniska w powiecie kamiennogórskim.",
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "15 ognisk choroby niebieskiego języka",
+      "Główny Inspektorat Weterynarii"
+    ],
+    "mismatch": {
+      "is_mismatch": false,
+      "mismatch_details": "Tytuł i treść są zgodne."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Najnowszy przypadek choroby niebieskiego języka na Dolnym Śląsku",
+    "notes_to_editor": "Artykuł jest dobrze napisany, nie wymaga zmian."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 90,
+    "processing_time_ms": 14035,
+    "model": "gpt-4o-mini"
+  }
+}

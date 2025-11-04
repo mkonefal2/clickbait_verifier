@@ -1,0 +1,49 @@
+{
+  "id": 1762006154831,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/richard-branson-pod-wrazeniem-slow-donalda-tuska-przyznal-mu-racje/3pdckjn",
+  "title": "\"Brutalna prawda\" w słowach Donalda Tuska. Miliarder pod wrażeniem słów premiera",
+  "score": 62,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazę sensacyjną \"Brutalna prawda\", co podnosi jego clickbaitowość.",
+    "W treści artykułu pojawia się potwierdzenie, że Richard Branson odniósł się do słów Donalda Tuska, co jest zgodne z tytułem.",
+    "W artykule nie ma wyraźnych sygnałów wiarygodności, takich jak konkretne liczby czy źródła, co obniża ocenę.",
+    "Wykryto mismatch między tytułem a treścią, ponieważ tytuł sugeruje większą kontrowersyjność niż przedstawiona w artykule.",
+    "Analiza wykazała, że tytuł ma 16 tokenów, a treść 157 tokenów."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnego wyrażenia, co sprawia, że jest bardziej przyciągający uwagę.",
+    "Treść artykułu rzeczywiście odnosi się do komentarza Bransona na temat Tuska, co jest zgodne z tytułem.",
+    "Brak konkretów i źródeł w artykule sprawia, że jest mniej wiarygodny.",
+    "Tytuł sugeruje większą kontrowersyjność niż to, co faktycznie przedstawia artykuł.",
+    "Tytuł jest krótki, a treść artykułu jest znacznie dłuższa."
+  ],
+  "summary": "Artykuł opisuje reakcję miliardera Richarda Bransona na słowa Donalda Tuska dotyczące wojny w Ukrainie, które padły w wywiadzie dla tygodnika \"Sunday Times\". Branson wyraził swoje uznanie dla mocnych stwierdzeń Tuska, komentując je w mediach społecznościowych.",
+  "signals": {
+    "title_hits": [
+      "Brutalna prawda"
+    ],
+    "content_hits": [
+      "miliarder",
+      "wrażenie",
+      "słowa",
+      "Donald Tusk"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "title": "Brutalna prawda",
+      "content": "Branson zgadza się ze słowami Tuska"
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Richard Branson komentuje słowa Donalda Tuska na temat Ukrainy",
+    "notes_to_editor": "Rozważyć użycie mniej sensacyjnych fraz w tytule."
+  },
+  "diagnostics": {
+    "tokens_title": 16,
+    "tokens_content": 157,
+    "processing_time_ms": 15817,
+    "model": "gpt-4o-mini"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": 1762020474298,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/warszawa/news-grozny-wypadek-w-pruszkowie-9-osob-rannych-w-tym-dzieci,nId,8036801",
+  "title": "Groźny wypadek w Pruszkowie. 9 osób rannych, w tym dzieci",
+  "score": 20,
+  "label": "not_clickbait",
+  "rationale": [
+    "Tytuł zawiera konkretne informacje o wypadku, nie używa fraz sensacyjnych ani absolutów.",
+    "Treść artykułu jest zgodna z tytułem i dostarcza szczegółowych informacji o zdarzeniu.",
+    "W artykule występują liczby (9 rannych, w tym dzieci), co zwiększa jego wiarygodność.",
+    "Nie znaleziono luk ciekawości ani niezgodności między tytułem a treścią."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jasno informuje o wypadku i liczbie rannych, nie jest przesadzony ani sensacyjny.",
+    "Treść artykułu dokładnie opisuje zdarzenie, co potwierdza tytuł.",
+    "Podano konkretne liczby, co sprawia, że artykuł jest bardziej wiarygodny.",
+    "Nie ma niejasności ani sprzeczności między tytułem a treścią."
+  ],
+  "summary": "W wypadku w Pruszkowie pod Warszawą rannych zostało dziewięć osób, w tym dwoje dzieci. Do zdarzenia doszło na skrzyżowaniu, gdzie zderzyły się dwa samochody osobowe. Siedem osób trafiło do szpitala, a w miejscu wypadku występują utrudnienia w ruchu.",
+  "signals": {
+    "title_hits": [],
+    "content_hits": [
+      "9 osób rannych",
+      "dwoje dzieci",
+      "7 poszkodowanych trafiło do szpitala"
+    ],
+    "credibility_hits": [
+      "RMF FM",
+      "konkretne liczby"
+    ],
+    "mismatch": {
+      "is_mismatch": false,
+      "details": "Tytuł i treść są zgodne."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Wypadek w Pruszkowie: 9 osób rannych, w tym dzieci",
+    "notes_to_editor": "Artykuł dobrze przedstawia sytuację, nie wymaga dużych zmian."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 112,
+    "processing_time_ms": 13172,
+    "model": "gpt-4o-mini"
+  }
+}

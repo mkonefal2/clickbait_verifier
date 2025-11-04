@@ -1,0 +1,54 @@
+{
+  "id": 1762020484400,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/paraliz-w-usa-braklo-pieniedzy-na-pomoc-42-mln-amerykanow-bez-jedzenia/ms3ln8b",
+  "title": "\"42 miliony Amerykanów pozostaną bez jedzenia\". Ogromne poruszenie w USA",
+  "score": 62,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazę sensacyjną \"42 miliony Amerykanów pozostaną bez jedzenia\", co wzbudza silne emocje.",
+    "W treści występują absoluty, takie jak \"pierwszy taki przypadek w USA\" oraz \"ogromne poruszenie\", co podkreśla dramatyzm sytuacji.",
+    "Zidentyfikowano lukę ciekawości w tytule, która przyciąga uwagę czytelnika.",
+    "W tytule i treści występują liczby, co może zwiększać wiarygodność, ale także przyciąga uwagę.",
+    "Zidentyfikowano niezgodność między tytułem a treścią, ponieważ tytuł sugeruje dramatyczny efekt, podczas gdy treść dostarcza kontekstu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł wywołuje silne emocje, mówiąc o tym, że 42 miliony Amerykanów mogą zostać bez jedzenia.",
+    "W artykule użyto mocnych sformułowań, które podkreślają powagę sytuacji.",
+    "Tytuł wzbudza ciekawość, ale nie do końca odzwierciedla pełen kontekst sytuacji.",
+    "Artykuł zawiera liczby, co może sprawiać, że jest bardziej wiarygodny, ale również przyciąga uwagę.",
+    "Jest pewna niezgodność między tytułem a treścią, ponieważ tytuł sugeruje dramatyczne skutki, a treść przedstawia szerszy kontekst."
+  ],
+  "summary": "Artykuł opisuje sytuację, w której 42 miliony Amerykanów mogą stracić dostęp do pomocy żywnościowej z powodu braku funduszy. Wzrost kosztów życia oraz zamknięcie rządu prowadzą do dramatycznych skutków dla rodzin w potrzebie. W artykule cytowani są senatorzy oraz przedstawiciele rodzin, które odczuwają skutki tej sytuacji.",
+  "signals": {
+    "title_hits": [
+      "42 miliony",
+      "bez jedzenia",
+      "ogromne poruszenie"
+    ],
+    "content_hits": [
+      "pierwszy taki przypadek",
+      "ogromne poruszenie",
+      "koszty życia w USA dramatycznie wzrosły"
+    ],
+    "credibility_hits": [
+      "Ben Ray Lujan",
+      "Marcia Brown",
+      "Grace Yarrow"
+    ],
+    "mismatch": {
+      "title": "Tytuł sugeruje dramatyczny skutek, podczas gdy treść dostarcza kontekstu.",
+      "content": "Treść artykułu wyjaśnia sytuację, ale nie podkreśla bezpośrednich skutków dla wszystkich 42 milionów."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Brak funduszy na pomoc żywnościową dla 42 milionów Amerykanów",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, który nie wywołuje silnych emocji."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 263,
+    "processing_time_ms": 16685,
+    "model": "gpt-4o-mini"
+  }
+}

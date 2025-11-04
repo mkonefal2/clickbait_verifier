@@ -1,0 +1,49 @@
+{
+  "id": 1762267134806,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/warszawa/news-gwalt-i-morderstwo-25-letniej-lizy-jest-prawomocny-wyrok-sad,nId,8037268",
+  "title": "Sąd ogłosił prawomocny wyrok dla Doriana S.",
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "Tytuł nie zawiera fraz sensacyjnych ani absolutów, ale jest nieco ogólny.",
+    "Treść artykułu zawiera szczegóły dotyczące brutalnego przestępstwa, co może budzić emocje.",
+    "W artykule występują liczby (np. 200 tys. zł zadośćuczynienia) oraz cytaty z sędziów, co zwiększa wiarygodność.",
+    "Zidentyfikowano pewne niezgodności między tytułem a treścią, ponieważ tytuł nie odnosi się do szczegółów przestępstwa."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jest dość ogólny i nie zawiera emocjonalnych słów, ale nie oddaje pełni kontekstu sprawy.",
+    "Artykuł opisuje brutalne przestępstwo, co może wywoływać silne emocje u czytelników.",
+    "W treści znajdują się konkretne liczby i cytaty, co sprawia, że artykuł jest bardziej wiarygodny.",
+    "Tytuł nie w pełni odzwierciedla szczegóły przestępstwa, co może wprowadzać w błąd."
+  ],
+  "summary": "Sąd Apelacyjny w Warszawie utrzymał wyrok dożywotniego więzienia dla Doriana S. za gwałt i zabójstwo 25-letniej Lizy. Kobieta została znaleziona nagą i nieprzytomną w bramie, a po przewiezieniu do szpitala zmarła. Sąd uznał, że Dorian S. działał z premedytacją, a jego obrońcy wnieśli apelację, która została odrzucona.",
+  "signals": {
+    "title_hits": [],
+    "content_hits": [
+      "gwałt",
+      "morderstwo",
+      "dożywotnie więzienie",
+      "brutalny",
+      "premedytacja"
+    ],
+    "credibility_hits": [
+      "200 tys. zł zadośćuczynienia",
+      "cytaty sędziów"
+    ],
+    "mismatch": {
+      "title": "Sąd ogłosił prawomocny wyrok dla Doriana S.",
+      "content": "Opisuje brutalne przestępstwo, a tytuł nie wskazuje na jego charakter."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Prawomocny wyrok dla Doriana S. za gwałt i zabójstwo 25-letniej kobiety",
+    "notes_to_editor": "Zaleca się unikać ogólnych tytułów, które nie oddają kontekstu przestępstwa."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 350,
+    "processing_time_ms": 16065,
+    "model": "gpt-4o-mini"
+  }
+}

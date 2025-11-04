@@ -1,0 +1,50 @@
+{
+  "id": 1762085990943,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/raporty/raport-wojna-z-rosja/news-ukrainskie-sily-specjalne-laduja-w-pokrowsku-operacja-dowodz,nId,8036732",
+  "title": "Ukraińskie siły specjalne lądują w Pokrowsku. Operacją dowodzi Budanow",
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy wskazujące na sensacyjność, takie jak 'siły specjalne' i 'operacją dowodzi', co może wzbudzać ciekawość.",
+    "Treść artykułu jest zgodna z tytułem, nie występują istotne rozbieżności.",
+    "W treści pojawiają się konkretne informacje, takie jak nazwa dowódcy i źródło informacji (agencja Reutera), co zwiększa wiarygodność.",
+    "W tytule i treści nie ma użycia absolutów ani luk ciekawości, co ogranicza stopień clickbaitu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słów, które mogą przyciągać uwagę, jak 'siły specjalne' i 'dowodzi', co może sprawić, że czytelnik będzie bardziej zainteresowany.",
+    "Treść artykułu odpowiada temu, co jest napisane w tytule, więc nie ma w niej nieścisłości.",
+    "W artykule znajdują się konkretne informacje, takie jak imię dowódcy i źródło, co czyni go bardziej wiarygodnym.",
+    "Nie ma w nim przesadnych stwierdzeń ani niejasnych zapowiedzi, co ogranicza jego clickbaitowość."
+  ],
+  "summary": "Artykuł informuje o lądowaniu ukraińskich sił specjalnych w Pokrowsku, które mają na celu przeciwdziałanie rosyjskiej ofensywie. Dowodzi nimi Kyryło Budanow, szef ukraińskiego wywiadu wojskowego. W artykule podano również informacje o sytuacji w regionie oraz o działaniach Rosjan w tym obszarze.",
+  "signals": {
+    "title_hits": [
+      "siły specjalne",
+      "operacją dowodzi"
+    ],
+    "content_hits": [
+      "siły specjalne",
+      "Kyryło Budanow",
+      "agencja Reutera"
+    ],
+    "credibility_hits": [
+      "agencja Reutera",
+      "Kyryło Budanow"
+    ],
+    "mismatch": {
+      "exists": false,
+      "details": ""
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Lądowanie ukraińskich sił specjalnych w Pokrowsku pod dowództwem Budanowa",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby zredukować elementy clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 174,
+    "processing_time_ms": 18344,
+    "model": "gpt-4o-mini"
+  }
+}

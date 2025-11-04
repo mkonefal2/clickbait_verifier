@@ -1,0 +1,51 @@
+{
+  "id": 1762020468498,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/swiat/news-tajemnicze-drony-nad-baza-z-bronia-jadrowa-alarm-w-belgii,nId,8036805",
+  "title": "Tajemnicze drony nad bazą z bronią jądrową. Alarm w Belgii",
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'tajemnicze' i 'alarm', co sugeruje dramatyzm.",
+    "Treść artykułu jest zgodna z tytułem, opisując incydent z dronami w pobliżu bazy z bronią jądrową.",
+    "W artykule występują liczby dotyczące przelotów dronów, co zwiększa wiarygodność.",
+    "Nie znaleziono znaczących luk ciekawości w treści, ale tytuł może wzbudzać większe zainteresowanie niż sama treść."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa emocjonalnych słów, które mogą przyciągnąć uwagę czytelników.",
+    "Treść artykułu odpowiada tytułowi, informując o incydencie z dronami w Belgii.",
+    "Artykuł zawiera konkretne dane, co sprawia, że jest bardziej wiarygodny.",
+    "Choć tytuł może wydawać się bardziej dramatyczny, treść jest informacyjna i rzeczowa."
+  ],
+  "summary": "W pobliżu belgijskiej bazy lotniczej Kleine-Brogel, gdzie przechowywana jest amerykańska broń jądrowa, zauważono nieautoryzowanego drona. Incydent wywołał niepokój wśród władz, które wszczęły śledztwo w sprawie zagrożenia bezpieczeństwa. Minister obrony Belgii zapowiedział działania mające na celu identyfikację operatorów dronów.",
+  "signals": {
+    "title_hits": [
+      "tajemnicze",
+      "alarm"
+    ],
+    "content_hits": [
+      "dron",
+      "bronią jądrową",
+      "śledztwo",
+      "zagrożenie"
+    ],
+    "credibility_hits": [
+      "dziennika 'Het Belang van Limburg'",
+      "liczby przelotów"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "title_content_similarity": 0.85
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Incydent z dronem w pobliżu bazy z bronią jądrową w Belgii",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby zredukować dramatyzm."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 364,
+    "processing_time_ms": 13212,
+    "model": "gpt-4o-mini"
+  }
+}

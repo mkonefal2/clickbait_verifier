@@ -1,0 +1,50 @@
+{
+  "id": 1761934127132,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/raporty/raport-wojna-z-rosja/news-seria-atakow-na-rosyjskie-obiekty-energetyczne-ukrainskie-dr,nId,8036664",
+  "title": "Seria ataków na rosyjskie obiekty energetyczne. Ukraińskie drony w akcji",
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'seria ataków' i 'ukraińskie drony w akcji', co może wzbudzać ciekawość.",
+    "Treść artykułu dostarcza szczegółowych informacji na temat ataków, co jest zgodne z tytułem, ale nie zawiera przesadnych stwierdzeń.",
+    "W artykule występują liczby i cytaty z lokalnych władz, co zwiększa wiarygodność.",
+    "Nie znaleziono znaczących niezgodności między tytułem a treścią, co sugeruje, że tytuł jest adekwatny do opisywanych wydarzeń."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł artykułu używa mocnych słów, które mogą przyciągać uwagę, jak 'seria ataków' i 'ukraińskie drony w akcji'.",
+    "Treść artykułu dokładnie opisuje ataki na rosyjskie obiekty, co odpowiada tytułowi, ale nie jest przesadnie dramatyczna.",
+    "W artykule są podane konkretne liczby i cytaty, co sprawia, że jest bardziej wiarygodny.",
+    "Nie znaleziono dużych różnic między tytułem a treścią, co oznacza, że tytuł dobrze odzwierciedla to, co jest w artykule."
+  ],
+  "summary": "Artykuł opisuje ataki ukraińskich dronów na rosyjskie obiekty energetyczne, w tym elektrownię cieplną w mieście Orzeł oraz rafinerię ropy naftowej. Lokalne władze potwierdzają uszkodzenia infrastruktury i wstrzymanie dostaw ciepłej wody. W artykule przedstawiono również informacje o działaniach obrony powietrznej Rosji, która zestrzeliła wiele ukraińskich dronów.",
+  "signals": {
+    "title_hits": [
+      "seria ataków",
+      "ukraińskie drony"
+    ],
+    "content_hits": [
+      "atak dronów",
+      "uszkodzenia",
+      "potwierdzono"
+    ],
+    "credibility_hits": [
+      "lokalne władze",
+      "Ministerstwo Obrony"
+    ],
+    "mismatch": {
+      "exists": false,
+      "details": ""
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Ataki ukraińskich dronów na rosyjskie obiekty energetyczne",
+    "notes_to_editor": "Rozważyć użycie mniej sensacyjnego języka w tytule."
+  },
+  "diagnostics": {
+    "tokens_title": 11,
+    "tokens_content": 546,
+    "processing_time_ms": 14524,
+    "model": "gpt-4o-mini"
+  }
+}

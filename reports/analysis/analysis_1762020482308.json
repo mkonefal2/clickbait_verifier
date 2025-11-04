@@ -1,0 +1,43 @@
+{
+  "id": 1762020482308,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/zapalilo-sie-auto-w-tunelu-pod-martwa-wisla-akcja-strazy-pozarnej/x25xxjj",
+  "title": "Groźny pożar w Gdańsku. Zapaliło się auto w tunelu pod Martwą Wisłą",
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera słowo 'groźny', co może być uznane za frazę sensacyjną.",
+    "Treść artykułu jest zgodna z tytułem, jednak brak jest szczegółowych informacji, co może wzbudzać ciekawość.",
+    "W artykule nie ma cytatów ani konkretnych liczb, co wpływa na niską ocenę wiarygodności.",
+    "Mismatched detection nie występuje, ponieważ tytuł i treść są zgodne."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'groźny', co może sugerować większe zagrożenie niż to, co opisuje artykuł.",
+    "Treść artykułu odpowiada tytułowi, ale brakuje w niej szczegółów, które mogłyby zainteresować czytelników.",
+    "Artykuł nie zawiera cytatów ani danych liczbowych, co może wpływać na postrzeganą wiarygodność informacji.",
+    "Nie ma rozbieżności między tytułem a treścią, co jest pozytywne."
+  ],
+  "summary": "W artykule opisano pożar samochodu osobowego w tunelu pod Martwą Wisłą w Gdańsku. Na miejscu zdarzenia interweniowały służby ratunkowe, a strażacy potwierdzili, że wszystkie systemy pożarowe zadziałały prawidłowo. Incydent miał miejsce 1 listopada 2025 roku.",
+  "signals": {
+    "title_hits": [
+      "groźny"
+    ],
+    "content_hits": [
+      "pożar",
+      "zapalił się",
+      "tunele"
+    ],
+    "credibility_hits": [],
+    "mismatch": {}
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Pożar samochodu w tunelu pod Martwą Wisłą w Gdańsku",
+    "notes_to_editor": "Rozważyć dodanie szczegółów dotyczących akcji ratunkowej i skutków pożaru."
+  },
+  "diagnostics": {
+    "tokens_title": 13,
+    "tokens_content": 63,
+    "processing_time_ms": 12158,
+    "model": "gpt-4o-mini"
+  }
+}

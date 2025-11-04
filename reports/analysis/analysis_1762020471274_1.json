@@ -1,0 +1,50 @@
+{
+  "id": 1762020471274,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/raporty/raport-wojna-z-rosja/news-pieklo-w-donbasie-ukraincy-kontratakuja-w-pokrowsku,nId,8036795",
+  "title": "Co się dzieje w Pokrowsku?",
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "Tytuł nie zawiera fraz sensacyjnych ani absolutów, ale jest nieco ogólny i nieprecyzyjny.",
+    "Treść artykułu dostarcza informacji o sytuacji wojskowej w Pokrowsku, ale nie wywołuje silnych emocji.",
+    "W artykule występują liczby, takie jak liczba zlikwidowanych żołnierzy, co zwiększa wiarygodność.",
+    "Nie ma istotnych niezgodności między tytułem a treścią, ale tytuł nie odzwierciedla szczegółów sytuacji.",
+    "W artykule pojawiają się cytaty z wiarygodnych źródeł, co podnosi jego rzetelność."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jest dość ogólny i nie zdradza szczegółów, co może budzić ciekawość.",
+    "Treść artykułu opisuje sytuację w Pokrowsku, ale nie jest przesadnie dramatyczna.",
+    "W artykule są podane konkretne liczby, co sprawia, że jest bardziej wiarygodny.",
+    "Nie ma dużych różnic między tytułem a treścią, ale tytuł nie oddaje pełni informacji zawartych w artykule.",
+    "Cytaty z wiarygodnych źródeł dodają rzetelności artykułowi."
+  ],
+  "summary": "Artykuł opisuje sytuację wojskową w Pokrowsku, gdzie ukraińskie siły specjalne przeprowadzają operacje w trudnych warunkach. Rosyjskie media podają sprzeczne informacje o stanie ukraińskich żołnierzy, którzy rzekomo mają być otoczeni. Ukraińskie wojsko zaprzecza tym doniesieniom, podkreślając swoje działania kontratakowe i poprawę pozycji w mieście.",
+  "signals": {
+    "title_hits": [],
+    "content_hits": [
+      "trudna i dynamiczna",
+      "żołnierze składają broń",
+      "sytuacja w Pokrowsku",
+      "liczba zlikwidowanych Rosjan"
+    ],
+    "credibility_hits": [
+      "cytaty z ukraińskiego wojska",
+      "liczby dotyczące strat"
+    ],
+    "mismatch": {
+      "title": "Co się dzieje w Pokrowsku?",
+      "content": "Sytuacja w Pokrowsku jest opisana szczegółowo, a tytuł nie oddaje pełni informacji."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Aktualna sytuacja wojskowa w Pokrowsku",
+    "notes_to_editor": "Rozważyć bardziej precyzyjny tytuł, który lepiej oddaje treść artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 6,
+    "tokens_content": 547,
+    "processing_time_ms": 16315,
+    "model": "gpt-4o-mini"
+  }
+}

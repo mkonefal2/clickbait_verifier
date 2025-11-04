@@ -1,0 +1,49 @@
+{
+  "id": 1761934119419,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/swiat/news-kluczowa-zmiana-dla-pasazerow-ryanair-przygotuj-sie-juz-od-l,nId,8036410",
+  "title": "Kluczowa zmiana dla pasażerów Ryanair",
+  "score": 32,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazę 'kluczowa zmiana', co może sugerować sensacyjność.",
+    "Treść artykułu jest zgodna z tytułem, informując o wprowadzeniu cyfrowych kart pokładowych przez Ryanair.",
+    "W artykule występują liczby, takie jak '80 procent pasażerów', co zwiększa jego wiarygodność.",
+    "Nie znaleziono znaczących luk ciekawości ani absolutów w treści."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł sugeruje ważną zmianę, co może przyciągać uwagę czytelników.",
+    "Artykuł rzeczywiście opisuje wprowadzenie cyfrowych kart pokładowych przez Ryanair, co jest zgodne z tytułem.",
+    "Podano konkretne liczby, co sprawia, że artykuł wydaje się bardziej wiarygodny.",
+    "Nie ma w artykule przesadnych stwierdzeń ani niejasnych informacji."
+  ],
+  "summary": "Ryanair ogłosił, że od 12 listopada 2025 roku wprowadza wyłącznie cyfrowe karty pokładowe, co oznacza, że pasażerowie nie będą otrzymywać papierowych wersji. Zmiana ma na celu obniżenie kosztów i poprawę obsługi, a także zmniejszenie wpływu na środowisko. W artykule opisano również, co zrobić w przypadku braku dostępu do cyfrowej karty.",
+  "signals": {
+    "title_hits": [
+      "kluczowa zmiana"
+    ],
+    "content_hits": [
+      "cyfrowe karty pokładowe",
+      "80 procent pasażerów"
+    ],
+    "credibility_hits": [
+      "Ryanair",
+      "12 listopada 2025",
+      "300 ton mniej papieru"
+    ],
+    "mismatch": {
+      "exists": false,
+      "details": "Tytuł jest zgodny z treścią artykułu."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Zmiana w systemie kart pokładowych Ryanair",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 7,
+    "tokens_content": 329,
+    "processing_time_ms": 13221,
+    "model": "gpt-4o-mini"
+  }
+}
