@@ -1,0 +1,49 @@
+{
+  "id": 1762505625763,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/jaroslaw-kaczynski-wyslal-sygnal-zbigniewowi-ziobrze-tajemnica-poliszynela/kxzm5pl",
+  "title": "Jarosław Kaczyński wysłał sygnał Zbigniewowi Ziobrze? \"Tajemnica poliszynela\"",
+  "score": 65,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera pytanie, co może wzbudzać ciekawość i sugerować sensację.",
+    "Fraza 'tajemnica poliszynela' jest wyrazem sensacyjnym, co podnosi poziom clickbaitu.",
+    "Treść artykułu odnosi się do wypowiedzi polityków, ale nie dostarcza nowych informacji, co może prowadzić do rozbieżności między tytułem a treścią.",
+    "W artykule pojawiają się cytaty, co zwiększa jego wiarygodność, ale nie zmienia ogólnego odbioru clickbaitowego."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zadaje pytanie, co może przyciągać uwagę czytelników.",
+    "Użycie frazy 'tajemnica poliszynela' sugeruje, że chodzi o coś sensacyjnego.",
+    "Treść odnosi się do politycznych wypowiedzi, ale nie przynosi nowych informacji, co może wprowadzać w błąd.",
+    "Artykuł zawiera cytaty, co dodaje mu wiarygodności, ale nie zmienia jego sensacyjnego charakteru."
+  ],
+  "summary": "Artykuł omawia wypowiedź Jarosława Urbaniaka na temat sygnału, jaki Jarosław Kaczyński miał wysłać Zbigniewowi Ziobrze. Urbaniak wskazuje, że obawy polityków PiS dotyczą Marcina Romanowskiego, który mógłby ujawniać informacje o nieprawidłowościach. W artykule pojawiają się również odniesienia do tajemnic politycznych związanych z Funduszem Sprawiedliwości.",
+  "signals": {
+    "title_hits": [
+      "sygnał",
+      "tajemnica poliszynela"
+    ],
+    "content_hits": [
+      "wypowiedź",
+      "tajemnicą poliszynela"
+    ],
+    "credibility_hits": [
+      "Jarosław Urbaniak",
+      "TVP Info"
+    ],
+    "mismatch": {
+      "title_content_mismatch": true,
+      "explanation": "Tytuł sugeruje, że Kaczyński wysłał sygnał, podczas gdy treść koncentruje się na interpretacji wypowiedzi Urbaniaka."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Jarosław Kaczyński i Zbigniew Ziobro: analiza wypowiedzi polityków",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć sensacyjności."
+  },
+  "diagnostics": {
+    "tokens_title": 13,
+    "tokens_content": 155,
+    "processing_time_ms": 13624,
+    "model": "gpt-4o-mini"
+  }
+}

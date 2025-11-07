@@ -1,0 +1,51 @@
+{
+  "id": 1762505624875,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/jaroslaw-kaczynski-porownal-afere-zbigniewa-ziobry-do-500-plus-analogia/31ek55p",
+  "title": "Jarosław Kaczyński mówił o Zbigniewie Ziobrze. Nagle padło porównanie do 500 plus",
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera elementy sensacyjne, takie jak 'nagle padło porównanie', co może wzbudzać ciekawość.",
+    "Treść artykułu jest zgodna z tytułem, ale nie zawiera dodatkowych informacji, które mogłyby potwierdzić sensacyjność.",
+    "Brak absolutów i luk ciekawości w treści, ale tytuł sugeruje dramatyzm sytuacji.",
+    "W artykule pojawiają się konkretne liczby (150 mln zł), co zwiększa wiarygodność.",
+    "Nie ma istotnych sygnałów wiarygodności, takich jak cytaty z innych źródeł."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa zwrotu 'nagle padło porównanie', co może przyciągać uwagę czytelników.",
+    "Treść artykułu odpowiada tytułowi, ale nie dodaje nowych, zaskakujących informacji.",
+    "Nie ma w artykule przesadnych stwierdzeń, ale tytuł sugeruje większy dramatyzm.",
+    "W artykule podano konkretne liczby, co sprawia, że jest bardziej wiarygodny.",
+    "Brakuje jednak dodatkowych źródeł czy cytatów, które mogłyby wzmocnić przekaz."
+  ],
+  "summary": "Jarosław Kaczyński skrytykował decyzję sejmowej komisji regulaminowej o uchyleniu immunitetu Zbigniewowi Ziobrze, nazywając ją 'skandaliczną'. W rozmowie z Polsat News porównał Fundusz Sprawiedliwości, z którego Ziobro miał przywłaszczyć ponad 150 mln zł, do programu 500 plus, wskazując na pewne analogie w kontekście korzyści politycznych.",
+  "signals": {
+    "title_hits": [
+      "nagle",
+      "porównanie"
+    ],
+    "content_hits": [
+      "150 mln zł",
+      "skandaliczną",
+      "analogii"
+    ],
+    "credibility_hits": [
+      "Polsat News"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "details": "Tytuł i treść są zgodne, nie ma rozbieżności."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Jarosław Kaczyński porównuje decyzję o uchwałach w sprawie Zbigniewa Ziobry do programu 500 plus",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 16,
+    "tokens_content": 95,
+    "processing_time_ms": 16756,
+    "model": "gpt-4o-mini"
+  }
+}

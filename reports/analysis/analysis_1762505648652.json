@@ -1,0 +1,48 @@
+{
+  "id": 1762505648652,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/immunitet-zbigniewa-ziobry-wszystko-co-musisz-wiedziec-podsumowanie-nocy/6cnxfnj",
+  "title": "Wszystko, co musisz wiedzieć po komisji w sprawie Zbigniewa Ziobry. Podsumowanie nocy",
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazę 'wszystko, co musisz wiedzieć', co jest typowe dla clickbaitu i może wzbudzać ciekawość.",
+    "Treść artykułu jest zgodna z tytułem, jednak nie zawiera zbyt wielu emocjonalnych lub sensacyjnych elementów.",
+    "W treści pojawiają się konkretne informacje na temat decyzji komisji, co zwiększa wiarygodność.",
+    "Nie znaleziono znaczących luk ciekawości, ale tytuł sugeruje pełne podsumowanie, co może być mylące."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł sugeruje, że artykuł zawiera wszystkie istotne informacje, co może przyciągać czytelników.",
+    "Artykuł rzeczywiście opisuje decyzje komisji dotyczące Zbigniewa Ziobry, co jest zgodne z tytułem.",
+    "Treść jest konkretna i informacyjna, co zwiększa jej wiarygodność.",
+    "Mimo to, tytuł może wprowadzać w błąd, sugerując pełne podsumowanie, a nie tylko kluczowe wydarzenia."
+  ],
+  "summary": "Artykuł dotyczy decyzji komisji regulaminowej w sprawie uchwały o uchylenie immunitetu Zbigniewa Ziobry. Opisuje emocje towarzyszące obradom oraz zapowiedź głosowania w Sejmie. Wspomniano również o stanowisku byłego ministra sprawiedliwości, który nie planuje ubiegać się o azyl na Węgrzech.",
+  "signals": {
+    "title_hits": [
+      "wszystko, co musisz wiedzieć"
+    ],
+    "content_hits": [
+      "decyzji komisji",
+      "uchwała o uchwałę immunitetu"
+    ],
+    "credibility_hits": [
+      "Patrycja Klimek",
+      "Dawid Wolski/East News"
+    ],
+    "mismatch": {
+      "exists": false,
+      "details": "Tytuł jest zgodny z treścią artykułu."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Podsumowanie decyzji komisji w sprawie Zbigniewa Ziobry",
+    "notes_to_editor": "Rozważyć zmianę tytułu na bardziej neutralny, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 15,
+    "tokens_content": 114,
+    "processing_time_ms": 13168,
+    "model": "gpt-4o-mini"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": 1762505616317,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/warszawa/news-nie-sentymenty-a-pragmatyzm-szef-kancelarii-zelenskiego-byl-,nId,8038506",
+  "title": "Nie sentymenty, a pragmatyzm. Szef kancelarii Zełenskiego był w Warszawie",
+  "score": 25,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy, które mogą budzić ciekawość, ale nie są ekstremalnie sensacyjne.",
+    "Treść artykułu jest zgodna z tytułem, nie ma znaczących rozbieżności.",
+    "W artykule pojawiają się cytaty, co podnosi jego wiarygodność, ale brak jest konkretnych liczb czy źródeł.",
+    "Wykryto kilka fraz, które mogą być uznane za sensacyjne, ale nie są one dominujące."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł nie jest przesadnie sensacyjny, ale może wzbudzać ciekawość.",
+    "Treść artykułu odpowiada tytułowi, co jest pozytywne.",
+    "Artykuł zawiera cytaty, co zwiększa jego wiarygodność, ale brakuje konkretnych danych.",
+    "W artykule są pewne zwroty, które mogą być uznane za dramatyczne, ale nie są one najważniejsze."
+  ],
+  "summary": "Artykuł opisuje wizytę Andrija Jermaka, szefa kancelarii prezydenta Ukrainy, w Warszawie. W trakcie spotkań z polskimi politykami omawiano współpracę między Polską a Ukrainą w kontekście bezpieczeństwa oraz przeciwdziałania rosyjskiej dezinformacji. Jermak podkreślił pragmatyczne podejście obu krajów do współpracy.",
+  "signals": {
+    "title_hits": [
+      "sentymenty",
+      "pragmatyzm"
+    ],
+    "content_hits": [
+      "dobre i owocne rozmowy",
+      "bezpieczeństwo Ukrainy to bezpieczeństwo Polski"
+    ],
+    "credibility_hits": [
+      "Marcin Bosacki",
+      "Jermak",
+      "Ukrinform"
+    ],
+    "mismatch": {
+      "exists": false,
+      "details": "Tytuł i treść są zgodne."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Wizyty szefa kancelarii Zełenskiego w Warszawie",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć potencjalnego clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 12,
+    "tokens_content": 292,
+    "processing_time_ms": 13680,
+    "model": "gpt-4o-mini"
+  }
+}

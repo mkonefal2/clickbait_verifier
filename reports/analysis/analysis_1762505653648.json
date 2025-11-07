@@ -1,0 +1,42 @@
+{
+  "id": 1762505653648,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/nowa-kandydatka-na-gubernatora-stanu-nowy-jork-elise-stefanik-ma-polskie-korzenie/bp0mb7c",
+  "title": "Nowa kandydatka na gubernatora stanu Nowy Jork. Ma polskie korzenie",
+  "score": 20,
+  "label": "not_clickbait",
+  "rationale": [
+    "Tytuł jest informacyjny i nie zawiera fraz sensacyjnych ani absolutów.",
+    "Treść artykułu jest zgodna z tytułem i dostarcza konkretne informacje na temat Elise Stefanik.",
+    "Brak luk ciekawości, ponieważ artykuł jasno przedstawia temat.",
+    "Nie znaleziono sygnałów wiarygodności, takich jak cytaty czy liczby, ale artykuł opiera się na faktach.",
+    "Zgodność tytułu z treścią wynosi 100%, co wpływa na niską ocenę clickbaitu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł artykułu jest prosty i informacyjny, nie próbuje przyciągnąć uwagi sensacyjnymi zwrotami.",
+    "Treść artykułu w pełni odpowiada tytułowi, dostarczając istotnych informacji o Elise Stefanik.",
+    "Nie ma w artykule żadnych niejasności, które mogłyby budzić ciekawość czy wątpliwości.",
+    "Artykuł opiera się na faktach, ale nie zawiera dodatkowych źródeł ani cytatów.",
+    "Tytuł i treść są ze sobą zgodne, co sprawia, że artykuł nie jest uznawany za clickbaitowy."
+  ],
+  "summary": "Elise Stefanik, republikańska kongresmenka, ogłosiła zamiar ubiegania się o stanowisko gubernatora stanu Nowy Jork w wyborach 2026. Posiada polskie korzenie, a oficjalne ogłoszenie jej decyzji może nastąpić w najbliższy piątek.",
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [],
+    "mismatch": {
+      "title_content_match": true,
+      "mismatch_score": 0
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Elise Stefanik ogłasza zamiar ubiegania się o stanowisko gubernatora Nowego Jorku",
+    "notes_to_editor": "Artykuł jest informacyjny i nie wymaga zmian."
+  },
+  "diagnostics": {
+    "tokens_title": 11,
+    "tokens_content": 65,
+    "processing_time_ms": 16493,
+    "model": "gpt-4o-mini"
+  }
+}

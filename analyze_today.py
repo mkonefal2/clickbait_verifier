@@ -14,7 +14,10 @@ def analyze_todays_articles():
     # Get today's date dynamically
     today = datetime.now(timezone.utc)
     today_str = today.strftime("%d %B %Y")
-    today_timestamp_prefix = str(int(today.replace(hour=0, minute=0, second=0, microsecond=0).timestamp()))[:8]
+    
+    # Calculate timestamp range for today (00:00 to 23:59 UTC)
+    today_start = int(today.replace(hour=0, minute=0, second=0, microsecond=0).timestamp() * 1000)
+    today_end = int(today.replace(hour=23, minute=59, second=59, microsecond=999999).timestamp() * 1000)
     
     print(f"🚀 Analiza GPT artykułów z dzisiaj ({today_str})")
     print("=" * 60)
@@ -44,8 +47,19 @@ def analyze_todays_articles():
     
     print(f"📊 Istniejące analizy: {len(existing)}")
     
-    # Find today's articles using dynamic timestamp prefix
-    todays_files = list(scraped_dir.glob(f'scraped_{today_timestamp_prefix}*.json'))
+    # Find today's articles using timestamp range instead of prefix
+    all_scraped_files = list(scraped_dir.glob('scraped_*.json'))
+    todays_files = []
+    
+    for file in all_scraped_files:
+        try:
+            # Extract timestamp from filename
+            timestamp = int(file.stem.replace('scraped_', ''))
+            if today_start <= timestamp <= today_end:
+                todays_files.append(file)
+        except ValueError:
+            pass  # Skip files with invalid timestamp format
+    
     to_analyze = []
     seen_titles = set()  # Track titles to avoid duplicates
     

@@ -1,6 +1,11 @@
 # Ignore local documentation and editor/temp files
 /docs/PROJECT_DESCRIPTION_PL.md
 
+# Praca inżynierska - dokumentacja robocza (tylko lokalnie, nie commitować)
+PRACA_INZYNIERSKA.md
+PRACA_INZYNIERSKA_PROMOTOR.md
+EMAIL_DO_PROMOTORA.md
+
 # Python and virtual env
 venv/
 env/

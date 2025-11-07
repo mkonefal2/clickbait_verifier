@@ -1,0 +1,49 @@
+{
+  "id": 1762505623065,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/adam-szlapka-dosadnie-o-zbigniewie-ziobrze-on-sie-naprawde-boi/pkq7wdc",
+  "title": "Rzecznik rządu nie przebierał w słowach. Nazwał Ziobrę \"złym człowiekiem\"",
+  "score": 65,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'nie przebierał w słowach', co sugeruje dramatyzm.",
+    "Treść artykułu zawiera mocne oskarżenia i emocjonalne sformułowania, co zwiększa stopień clickbaitu.",
+    "Występuje rozbieżność między tytułem a treścią, ponieważ tytuł sugeruje większą intensywność wypowiedzi niż jest to przedstawione w treści.",
+    "Brak konkretnych danych liczbowych lub cytatów z innych źródeł, co wpływa na wiarygodność.",
+    "Zastosowanie słów absolutnych, takich jak 'zły człowiek', podnosi poziom clickbaitu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa dramatycznych sformułowań, co przyciąga uwagę, ale może być przesadny.",
+    "W artykule znajdują się mocne oskarżenia, co sprawia, że jest on bardziej emocjonalny niż informacyjny.",
+    "Tytuł sugeruje, że wypowiedź jest bardziej intensywna, niż to jest w rzeczywistości w artykule.",
+    "Brakuje konkretów, które mogłyby potwierdzić te oskarżenia, co wpływa na postrzeganą wiarygodność.",
+    "Słowa takie jak 'zły człowiek' są bardzo mocne i mogą wprowadzać w błąd."
+  ],
+  "summary": "Artykuł opisuje wypowiedź rzecznika rządu Adama Szłapki, który ostro krytykuje Zbigniewa Ziobrę, nazywając go 'złym człowiekiem' oraz 'zwykłym tchórzem'. Szłapka odnosi się do nieobecności Ziobry na posiedzeniu sejmowej komisji, sugerując, że obawia się konsekwencji swoich działań.",
+  "signals": {
+    "title_hits": [
+      "nie przebierał w słowach",
+      "złym człowiekiem"
+    ],
+    "content_hits": [
+      "zły człowiek",
+      "tchórz",
+      "obawia się"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "title": "Rzecznik rządu nie przebierał w słowach. Nazwał Ziobrę 'złym człowiekiem'",
+      "content": "Rzecznik rządu ostro o Zbigniewie Ziobrze. 'To naprawdę zły człowiek'"
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Rzecznik rządu krytycznie ocenia Zbigniewa Ziobrę",
+    "notes_to_editor": "Rozważyć użycie bardziej neutralnego języka w tytule, aby uniknąć wrażenia sensacyjności."
+  },
+  "diagnostics": {
+    "tokens_title": 14,
+    "tokens_content": 98,
+    "processing_time_ms": 21123,
+    "model": "gpt-4o-mini"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": 1762505663461,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/tylko-w-onecie/skandaliczne-zachowanie-na-posiedzeniu-komisji-i-co-sie-patrzysz-ciebie-nikt-nie-lubi/k4h2yfp",
+  "title": "Kulisy obrad komisji w sprawie Ziobry. Skandaliczne zachowanie posłów",
+  "score": 72,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'skandaliczne zachowanie', co zwiększa jego clickbaitowość.",
+    "Treść artykułu opisuje konkretne wydarzenia, ale używa emocjonalnego języka, co również wpływa na ocenę.",
+    "Występuje rozbieżność między tytułem a treścią, ponieważ tytuł sugeruje głębsze analizy kulis, a treść koncentruje się na incydencie.",
+    "Brak cytatów lub wiarygodnych źródeł, co obniża sygnały wiarygodności.",
+    "W artykule użyto emocjonalnego języka, co podnosi poziom clickbaitu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera mocne słowa, które przyciągają uwagę, co sprawia, że jest bardziej clickbaitowy.",
+    "Treść artykułu opisuje konkretne wydarzenia, ale używa emocjonalnego języka, co wpływa na jego odbiór.",
+    "Tytuł sugeruje, że artykuł będzie bardziej szczegółowy, podczas gdy treść skupia się na jednym incydencie.",
+    "Brak cytatów lub źródeł sprawia, że artykuł wydaje się mniej wiarygodny.",
+    "Emocjonalny język w artykule zwiększa jego clickbaitowość."
+  ],
+  "summary": "Artykuł opisuje posiedzenie Komisji Regulaminowej i Spraw Poselskich, na którym doszło do kontrowersyjnych sytuacji z udziałem posłów PiS. W trakcie obrad miały miejsce ostre wymiany zdań i ataki między posłami, co zostało określone jako skandaliczne zachowanie. W artykule przedstawiono również kontekst tego wydarzenia.",
+  "signals": {
+    "title_hits": [
+      "skandaliczne",
+      "kulisy"
+    ],
+    "content_hits": [
+      "skandaliczne zachowanie",
+      "brutalnie atakowali"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "title": "Kulisy obrad komisji w sprawie Ziobry. Skandaliczne zachowanie posłów",
+      "content": "Skandaliczne zachowanie na posiedzeniu komisji. 'I co się patrzysz? Ciebie nikt nie lubi!'"
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Obrady komisji w sprawie Zbigniewa Ziobry: kontrowersyjne zachowanie posłów",
+    "notes_to_editor": "Rozważyć dodanie cytatów lub źródeł dla zwiększenia wiarygodności artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 9,
+    "tokens_content": 94,
+    "processing_time_ms": 21812,
+    "model": "gpt-4o-mini"
+  }
+}

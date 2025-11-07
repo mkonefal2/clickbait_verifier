@@ -1,0 +1,50 @@
+{
+  "id": 1762505605393,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/swiat/news-wegry-przed-wielka-zmiana-fatalne-wiesci-dla-orbana,nId,8038027",
+  "title": "Węgry przed wielką zmianą? Fatalne wieści dla Orbana",
+  "score": 65,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'wielka zmiana' i 'fatalne wieści', co zwiększa jego clickbaitowość.",
+    "Treść artykułu jest zgodna z tytułem, ale nie zawiera wystarczających informacji, aby uzasadnić dramatyzm tytułu.",
+    "W artykule występują liczby i dane z sondaży, co podnosi wiarygodność, ale nie równoważy sensacyjności tytułu.",
+    "Wykryto 5 fraz sensacyjnych w tytule oraz 3 w treści, co wskazuje na silny element clickbaitu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa dramatycznych zwrotów, które przyciągają uwagę, ale mogą wprowadzać w błąd co do rzeczywistej treści.",
+    "Treść artykułu jest zgodna z tytułem, ale nie dostarcza wystarczających dowodów na to, że sytuacja jest aż tak dramatyczna.",
+    "Artykuł zawiera konkretne dane z sondaży, co czyni go bardziej wiarygodnym, ale tytuł nadal jest sensacyjny.",
+    "W artykule i tytule występuje wiele zwrotów, które mogą wywoływać emocje, co zwiększa jego clickbaitowość."
+  ],
+  "summary": "Artykuł omawia wyniki najnowszych sondaży przedwyborczych na Węgrzech, które wskazują na przewagę opozycyjnej partii TISZA nad rządzącym Fideszem. Lider opozycji, Peter Magyar, zyskuje zaufanie społeczne jako potencjalny premier. W artykule przedstawiono także różnice w ocenach sytuacji gospodarczej w zależności od miejsca zamieszkania obywateli.",
+  "signals": {
+    "title_hits": [
+      "wielka zmiana",
+      "fatalne wieści"
+    ],
+    "content_hits": [
+      "35 do 44 proc.",
+      "29 do 34 proc.",
+      "22 proc."
+    ],
+    "credibility_hits": [
+      "sondaż Zavecz Research",
+      "sondaż Republikon",
+      "Policy Solutions"
+    ],
+    "mismatch": {
+      "title_content_mismatch": "Tytuł sugeruje dramatyczne zmiany, podczas gdy treść dostarcza bardziej stonowanych informacji."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Sondaże przedwyborcze na Węgrzech: TISZA wyprzedza Fidesz",
+    "notes_to_editor": "Rozważyć zmianę tytułu na mniej sensacyjny, aby lepiej odzwierciedlał treść artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 8,
+    "tokens_content": 315,
+    "processing_time_ms": 18484,
+    "model": "gpt-4o-mini"
+  }
+}

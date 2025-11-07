@@ -1,0 +1,47 @@
+{
+  "id": 1762505657535,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/polityczne-trzesienie-ziemi-na-wegrzech-viktor-orban-czuje-na-plecach-oddech-kogos/wjm0kbb",
+  "title": "Polityczne trzęsienie ziemi na Węgrzech. Viktor Orban czuje na plecach oddech kogoś, kto zna jego system od środka",
+  "score": 68,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'trzęsienie ziemi' oraz 'oddech kogoś', które wzbudzają ciekawość.",
+    "Treść artykułu potwierdza tytuł, ale używa intensywnych sformułowań, co zwiększa jego clickbaitowość.",
+    "W artykule nie ma konkretnych liczb ani źródeł, co obniża wiarygodność.",
+    "Zidentyfikowano rozbieżność między tytułem a treścią, ale jest ona minimalna, ponieważ treść odnosi się do opisanego w tytule kontekstu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów, które przyciągają uwagę, jak 'trzęsienie ziemi'.",
+    "Artykuł rzeczywiście dotyczy sytuacji politycznej na Węgrzech, ale używa dramatycznych sformułowań.",
+    "Brak konkretów, takich jak liczby czy źródła, wpływa na postrzeganą wiarygodność informacji.",
+    "Tytuł i treść są zgodne, ale treść jest bardziej dramatyczna niż mogłoby się wydawać."
+  ],
+  "summary": "Artykuł opisuje sytuację polityczną na Węgrzech, gdzie Viktor Orban, po piętnastu latach rządów, może stracić władzę. Jego dawny sojusznik, Peter Magyar, staje się jego największym wrogiem, co prowadzi do narastającego napięcia w kraju oraz na arenie międzynarodowej. W artykule podkreślono, że stawka dotyczy nie tylko władzy Orban, ale i przyszłości Węgier.",
+  "signals": {
+    "title_hits": [
+      "trzęsienie ziemi",
+      "oddech kogoś"
+    ],
+    "content_hits": [
+      "trzęsienie ziemi",
+      "Orban czuje",
+      "największy wróg"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "exists": false,
+      "details": "Minimalna rozbieżność między tytułem a treścią."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Sytuacja polityczna na Węgrzech: Viktor Orban w obliczu wyzwań",
+    "notes_to_editor": "Rozważyć dodanie konkretnych danych lub źródeł dla zwiększenia wiarygodności."
+  },
+  "diagnostics": {
+    "tokens_title": 18,
+    "tokens_content": 144,
+    "processing_time_ms": 15049,
+    "model": "gpt-4o-mini"
+  }
+}

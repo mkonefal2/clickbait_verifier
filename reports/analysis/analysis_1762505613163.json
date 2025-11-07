@@ -1,0 +1,50 @@
+{
+  "id": 1762505613163,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/rzeszow/news-3-promile-i-wizyta-w-przedszkolu-tak-przyjechala-odebrac-dzi,nId,8038548",
+  "title": "3 promile i wizyta w przedszkolu. Tak przyjechała odebrać dziecko",
+  "score": 65,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak '3 promile' oraz 'wizyta w przedszkolu', co przyciąga uwagę.",
+    "Treść artykułu jest zgodna z tytułem, jednak tytuł może sugerować większą sensację niż rzeczywistość.",
+    "W artykule występują liczby (3 promile) oraz cytaty z policji, co dodaje wiarygodności.",
+    "Zidentyfikowano lukę ciekawości w tytule, która może skłonić do kliknięcia."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł przyciąga uwagę, używając dramatycznych fraz, które mogą wzbudzać ciekawość.",
+    "Treść artykułu odpowiada tytułowi, ale tytuł może wydawać się bardziej sensacyjny niż sama sytuacja.",
+    "W artykule pojawiają się konkretne liczby i cytaty, co sprawia, że jest bardziej wiarygodny.",
+    "Tytuł sugeruje coś szokującego, co może skłonić do przeczytania artykułu."
+  ],
+  "summary": "Artykuł opisuje incydent, w którym 34-letnia matka przyjechała do przedszkola po swoją córkę, mając prawie 3 promile alkoholu w organizmie. Policja została powiadomiona o jej zachowaniu, a kobieta została zatrzymana. Dziewczynka została przekazana bliskim, a matce grozi kara do 3 lat więzienia oraz utrata prawa jazdy.",
+  "signals": {
+    "title_hits": [
+      "3 promile",
+      "wizyta w przedszkolu"
+    ],
+    "content_hits": [
+      "3 promile",
+      "zatrzymana",
+      "grozi jej 3 lata więzienia"
+    ],
+    "credibility_hits": [
+      "podkarpacka policja",
+      "sąd rodzinny"
+    ],
+    "mismatch": {
+      "title": "3 promile i wizyta w przedszkolu. Tak przyjechała odebrać dziecko",
+      "content": "Prawie 3 promile w organizmie miała 34-latka, która przyjechała samochodem do przedszkola odebrać swoją córkę."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Matka z promilami alkoholu odebrała dziecko z przedszkola",
+    "notes_to_editor": "Rozważyć zmianę tytułu na bardziej neutralny, aby uniknąć wrażenia sensacji."
+  },
+  "diagnostics": {
+    "tokens_title": 12,
+    "tokens_content": 155,
+    "processing_time_ms": 16295,
+    "model": "gpt-4o-mini"
+  }
+}

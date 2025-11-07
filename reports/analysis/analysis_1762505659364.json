@@ -1,0 +1,52 @@
+{
+  "id": 1762505659364,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/smiercionomika-putin-wymyslil-cyniczny-system-ktory-dobija-jego-rodakow/8rxctd3",
+  "title": "\"Śmiercionomika\". Putin wymyślił cyniczny system. Tak dobija Rosjan",
+  "score": 85,
+  "label": "very_extreme",
+  "rationale": [
+    "Tytuł zawiera sensacyjne słowo 'śmiercionomika', które wzbudza silne emocje i ciekawość.",
+    "Fraza 'cyniczny system' sugeruje negatywną konotację i dramatyzację sytuacji.",
+    "W treści artykułu pojawia się stwierdzenie, że Putin 'dobija' Rosjan, co jest mocnym i emocjonalnym sformułowaniem.",
+    "W artykule użyto liczby 1,5 mln, co może zwiększać wiarygodność, ale w kontekście tytułu wzmacnia dramatyzm.",
+    "Tytuł i treść są zgodne, ale użycie emocjonalnych fraz w tytule wprowadza silny element clickbaitu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów, które przyciągają uwagę i wzbudzają emocje.",
+    "Sformułowanie 'cyniczny system' sugeruje, że sytuacja jest bardzo poważna i niepokojąca.",
+    "W artykule mowa jest o dużej liczbie Rosjan, co może budzić zainteresowanie, ale w połączeniu z dramatycznym tytułem tworzy efekt clickbaitu.",
+    "Choć tytuł i treść są spójne, emocjonalny język w tytule sprawia, że artykuł wydaje się bardziej sensacyjny."
+  ],
+  "summary": "Artykuł omawia zjawisko tzw. 'śmiercionomiki', które odnosi się do cynicznego systemu, jaki wprowadził Władimir Putin, aby wykorzystać Rosjan w działaniach wojennych. Autor wskazuje na ogromne wynagrodzenia dla najemników, które są wyższe niż ich potencjalne zarobki w innych zawodach. W artykule podano również liczbę uczestników działań wojennych z Rosji.",
+  "signals": {
+    "title_hits": [
+      "śmiercionomika",
+      "cyniczny system",
+      "dobija"
+    ],
+    "content_hits": [
+      "1,5 mln",
+      "cynicznie mamiąc",
+      "ogromnymi sumami pieniędzy"
+    ],
+    "credibility_hits": [
+      "Władisław Inoziemcew",
+      "7 listopada 2025"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "title_content_similarity": 0.85
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Putin wprowadza system, który wpływa na sytuację Rosjan",
+    "notes_to_editor": "Zaleca się unikanie emocjonalnych fraz w tytule, aby zmniejszyć wrażenie clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 11,
+    "tokens_content": 167,
+    "processing_time_ms": 19357,
+    "model": "gpt-4o-mini"
+  }
+}

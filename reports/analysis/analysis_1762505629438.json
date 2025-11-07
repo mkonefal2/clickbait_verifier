@@ -1,0 +1,47 @@
+{
+  "id": 1762505629438,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/kukiz-zapytany-o-to-jak-zaglosuje-w-sprawie-immunitetu-ziobry/lxxb95s",
+  "title": "Paweł Kukiz o areszcie dla Zbigniewa Ziobry. \"Będą się bali\"",
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazę sensacyjną \"Będą się bali\", co może budzić ciekawość czytelników.",
+    "Treść artykułu jest zgodna z tytułem, jednak nie zawiera dodatkowych informacji, które mogłyby potwierdzić sensacyjność.",
+    "W tytule użyto cudzysłowu, co może sugerować cytat, ale brak jest dodatkowych sygnałów wiarygodności w treści.",
+    "Nie występują w artykule liczby ani konkretne źródła, co obniża jego wiarygodność."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera zwrot, który może przyciągać uwagę, ale nie jest przesadnie sensacyjny.",
+    "Treść artykułu odpowiada tytułowi, ale nie dostarcza dodatkowych informacji, które mogłyby go wzmocnić.",
+    "Brak konkretów i źródeł w artykule sprawia, że jest mniej wiarygodny.",
+    "Ogólnie artykuł nie jest bardzo clickbaitowy, ale ma pewne elementy, które mogą budzić ciekawość."
+  ],
+  "summary": "Paweł Kukiz w rozmowie z \"Wprost\" skomentował kwestię immunitetu Zbigniewa Ziobry, opowiadając się za jego zniesieniem. Uważa, że sprawa jest przesądzona, co może wpłynąć na przyszłe głosowania w tej sprawie.",
+  "signals": {
+    "title_hits": [
+      "Będą się bali"
+    ],
+    "content_hits": [
+      "immunitet",
+      "Zbigniew Ziobro"
+    ],
+    "credibility_hits": [
+      "Wprost"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "content_relevance": true
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Paweł Kukiz komentuje sprawę immunitetu Zbigniewa Ziobry",
+    "notes_to_editor": "Rozważyć dodanie więcej kontekstu i źródeł w artykule, aby zwiększyć jego wiarygodność."
+  },
+  "diagnostics": {
+    "tokens_title": 14,
+    "tokens_content": 102,
+    "processing_time_ms": 14242,
+    "model": "gpt-4o-mini"
+  }
+}

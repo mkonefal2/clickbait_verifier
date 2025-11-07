@@ -1,0 +1,52 @@
+{
+  "id": 1762505606357,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/kultura/news-bratanek-zagral-krola-popu-jest-efektowny-zwiastun-filmu-o-m,nId,8038510",
+  "title": "Bratanek zagrał króla popu. Jest efektowny zwiastun filmu o Michaelu Jacksonie",
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'efektowny zwiastun', co może wzbudzać ciekawość.",
+    "Treść artykułu jest zgodna z tytułem, jednak niektóre sformułowania mogą być uznane za przesadzone.",
+    "W artykule występują liczby (data premiery), co podnosi jego wiarygodność.",
+    "Nie znaleziono znaczących luk ciekawości, ale tytuł może sugerować większą sensację niż jest w rzeczywistości."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa zwrotów, które mogą przyciągać uwagę, jak 'efektowny zwiastun'.",
+    "Treść artykułu jest spójna z tytułem, ale niektóre opisy mogą być nieco przesadzone.",
+    "Artykuł zawiera konkretne informacje, takie jak data premiery filmu, co zwiększa jego rzetelność.",
+    "Nie ma dużych niejasności w treści, ale tytuł może sugerować więcej emocji niż faktycznie przedstawia artykuł."
+  ],
+  "summary": "Artykuł informuje o premierze filmu biograficznego o Michaelu Jacksonie, który ma odbyć się 24 kwietnia 2026 roku. W główną rolę wcieli się bratanek artysty, Jaafar Jackson. Film ma ukazać artystyczną drogę Jacksona oraz elementy jego życia prywatnego. Zwiastun produkcji został już opublikowany.",
+  "signals": {
+    "title_hits": [
+      "efektowny zwiastun"
+    ],
+    "content_hits": [
+      "premiera filmu",
+      "bratanek",
+      "Michael Jackson",
+      "zwiastun"
+    ],
+    "credibility_hits": [
+      "24 kwietnia 2026",
+      "Jaafar Jackson",
+      "Antoine Fuqua"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "title_sensational": true,
+      "content_sensational": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Zapowiedź filmu o Michaelu Jacksonie z bratankiem w roli głównej",
+    "notes_to_editor": "Rozważyć użycie mniej emocjonalnych sformułowań w tytule."
+  },
+  "diagnostics": {
+    "tokens_title": 12,
+    "tokens_content": 292,
+    "processing_time_ms": 13715,
+    "model": "gpt-4o-mini"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": 1762505631298,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/piec-partii-w-sejmie-wyjatkowo-slaby-wynik-dwoch-partii-sa-wyniki-sondazu/12nkmh8",
+  "title": "Koalicjanci KO szorują po dnie. Są wyniki najnowszego sondażu",
+  "score": 65,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne ('szorują po dnie'), co wskazuje na silny ładunek emocjonalny.",
+    "Treść artykułu dostarcza konkretne dane z sondażu, co zwiększa wiarygodność, ale tytuł jest bardziej dramatyczny niż informacyjny.",
+    "W artykule występują liczby i źródła (sondaż pracowni Opinia24), co podnosi jego wartość informacyjną.",
+    "Występuje pewna rozbieżność między tytułem a treścią, ponieważ tytuł sugeruje skrajne negatywne wyniki, podczas gdy treść przedstawia konkretne dane."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów, które mogą przyciągać uwagę, ale są bardziej dramatyczne niż informacyjne.",
+    "Artykuł zawiera konkretne wyniki sondażu, co czyni go wiarygodnym źródłem informacji.",
+    "Choć tytuł sugeruje bardzo negatywne wyniki, treść podaje konkretne liczby, co może wprowadzać w błąd co do rzeczywistej sytuacji.",
+    "Istnieje pewna różnica między tym, co mówi tytuł, a tym, co przedstawia treść, co może wprowadzać w błąd czytelników."
+  ],
+  "summary": "Artykuł przedstawia wyniki najnowszego sondażu dotyczącego preferencji wyborczych Polaków. Koalicja Obywatelska prowadzi z wynikiem 33%, a Prawo i Sprawiedliwość uzyskuje 27,4%. Dwa ugrupowania tworzące obecną koalicję rządzącą notują wyjątkowo słabe wyniki. Ponad 70% ankietowanych zadeklarowało chęć udziału w wyborach.",
+  "signals": {
+    "title_hits": [
+      "szorują po dnie"
+    ],
+    "content_hits": [
+      "33 proc.",
+      "27,4 proc.",
+      "12,6 proc.",
+      "blisko trzy czwarte"
+    ],
+    "credibility_hits": [
+      "sondażu pracowni Opinia24"
+    ],
+    "mismatch": {
+      "title": "Koalicjanci KO szorują po dnie.",
+      "content": "Koalicja Obywatelska prowadzi w sondażu, co nie jest zgodne z dramatycznym tonem tytułu."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Wyniki najnowszego sondażu preferencji wyborczych w Polsce",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 95,
+    "processing_time_ms": 18258,
+    "model": "gpt-4o-mini"
+  }
+}

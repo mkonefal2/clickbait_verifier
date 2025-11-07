@@ -1,0 +1,52 @@
+{
+  "id": 1762505604163,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/swiat/news-policja-lesna-i-drony-kolejny-dzien-poszukiwan-31-letniego-p,nId,8038511",
+  "title": "Policja leśna i drony. Kolejny dzień poszukiwań 31-letniego Polaka na Maderze",
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'policja leśna' i 'drony', co może wzbudzać ciekawość.",
+    "Treść artykułu jest zgodna z tytułem, opisując poszukiwania zaginionego turysty na Maderze.",
+    "W artykule pojawiają się konkretne liczby, takie jak 31-letni Polak oraz liczba 35 osób odnalezionych przez ekipę ratunkową, co zwiększa wiarygodność.",
+    "Nie występują absoluty ani przesadne stwierdzenia, co obniża stopień clickbaitu.",
+    "Wykryto niewielką lukę ciekawości, ale nie jest ona dominująca w treści."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera interesujące elementy, takie jak 'policja leśna' i 'drony', co może przyciągać uwagę.",
+    "Treść artykułu jest spójna z tytułem i opisuje poszukiwania zaginionego turysty na Maderze.",
+    "W artykule znajdują się konkretne dane, takie jak wiek zaginionego oraz liczba osób, które zostały odnalezione przez ekipę ratunkową, co dodaje wiarygodności.",
+    "Nie ma w nim przesadnych stwierdzeń, co sprawia, że nie jest to typowy clickbait.",
+    "Choć artykuł wzbudza ciekawość, nie jest to w sposób przesadny."
+  ],
+  "summary": "Artykuł opisuje poszukiwania 31-letniego turysty z Poznania, który zaginął na Maderze. Akcja ratunkowa trwa od kilku dni i angażuje różne formacje służb portugalskich, w tym policję leśną oraz drony. W artykule podano szczegóły dotyczące miejsca zaginięcia oraz informacje o równoległych poszukiwaniach innej zaginionej osoby.",
+  "signals": {
+    "title_hits": [
+      "policja leśna",
+      "drony"
+    ],
+    "content_hits": [
+      "31-letniego turysty",
+      "poszukiwania",
+      "zaginiony Polak"
+    ],
+    "credibility_hits": [
+      "35 osób",
+      "policja"
+    ],
+    "mismatch": {
+      "exists": false,
+      "details": "Tytuł jest zgodny z treścią artykułu."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Poszukiwania 31-letniego Polaka na Maderze trwają z użyciem dronów",
+    "notes_to_editor": "Artykuł jest informacyjny i nie zawiera elementów typowych dla clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 13,
+    "tokens_content": 339,
+    "processing_time_ms": 18613,
+    "model": "gpt-4o-mini"
+  }
+}

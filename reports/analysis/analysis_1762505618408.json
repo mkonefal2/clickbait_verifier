@@ -1,0 +1,57 @@
+{
+  "id": 1762505618408,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/wroclaw/news-90-latkowie-to-nic-glosowal-nawet-200-latek-wroclaw-zawiadam,nId,8038430",
+  "title": "90-latkowie to nic, głosował nawet 200-latek. Wrocław zawiadamia prokuraturę",
+  "score": 75,
+  "label": "extreme",
+  "rationale": [
+    "Tytuł zawiera sensacyjne stwierdzenie o 200-latku, co wzbudza ciekawość.",
+    "Treść artykułu potwierdza nieprawidłowości w głosowaniu, ale nie dostarcza dowodów na istnienie 200-latków.",
+    "W tytule i treści występują frazy, które mogą być uznane za sensacyjne, co podnosi poziom clickbaitu.",
+    "W artykule znajdują się liczby i cytaty, co zwiększa jego wiarygodność, ale nie równoważy sensacyjności tytułu.",
+    "Występuje rozbieżność między tytułem a treścią, ponieważ tytuł sugeruje istnienie 200-latków, podczas gdy artykuł mówi o podejrzeniach."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł przyciąga uwagę stwierdzeniem o 200-latku, co jest bardzo sensacyjne.",
+    "Artykuł rzeczywiście opisuje nieprawidłowości w głosowaniu, ale nie ma dowodów na to, że ktoś miał 200 lat.",
+    "W tytule i treści są użyte mocne słowa, co sprawia, że artykuł wydaje się bardziej sensacyjny.",
+    "Mimo że artykuł zawiera liczby i cytaty, które mogą zwiększać jego wiarygodność, to sensacyjny tytuł wciąż dominuje.",
+    "Tytuł i treść nie do końca się zgadzają, ponieważ tytuł sugeruje coś, co nie jest potwierdzone w artykule."
+  ],
+  "summary": "Wrocławski magistrat złożył zawiadomienie do prokuratury w związku z podejrzeniem nieprawidłowości w głosowaniu na projekty Wrocławskiego Budżetu Obywatelskiego. Analiza wykazała, że w głosowaniu brała udział podejrzanie duża liczba seniorów, a niektóre głosy mogły być oddane przez osoby mające nawet 200 lat. Miasto czeka na decyzję prokuratury.",
+  "signals": {
+    "title_hits": [
+      "200-latek",
+      "głosował",
+      "Wrocław zawiadamia prokuraturę"
+    ],
+    "content_hits": [
+      "podejrzenie nieprawidłowości",
+      "głosowanie",
+      "200 lat",
+      "analiza",
+      "nadużycia"
+    ],
+    "credibility_hits": [
+      "Agata Dzikowska",
+      "Rada Osiedla Ołbin",
+      "liczby",
+      "cytaty"
+    ],
+    "mismatch": {
+      "title": "90-latkowie to nic, głosował nawet 200-latek.",
+      "content": "W artykule nie ma dowodów na istnienie 200-latków, a jedynie podejrzenia."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Wrocław: Zawiadomienie do prokuratury w sprawie nieprawidłowości w głosowaniu.",
+    "notes_to_editor": "Rozważyć zmianę tytułu na bardziej neutralny, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 12,
+    "tokens_content": 394,
+    "processing_time_ms": 21892,
+    "model": "gpt-4o-mini"
+  }
+}

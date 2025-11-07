@@ -1,0 +1,48 @@
+{
+  "id": 1762505650671,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/jak-mamy-to-zrobic-to-niemozliwe-awantura-w-brukseli/kcr5kvy",
+  "title": "\"Jak mamy to zrobić? To niemożliwe\". Awantura w Brukseli o miliardy euro",
+  "score": 72,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'to niemożliwe', co wzbudza ciekawość.",
+    "W treści występują absoluty, takie jak 'za chwilę do Europy wkroczy armia prawników Putina'.",
+    "Zidentyfikowano rozbieżność między tytułem a treścią, ponieważ tytuł sugeruje dramatyczną sytuację, podczas gdy treść koncentruje się na faktach dotyczących negocjacji.",
+    "Brak konkretnych cytatów lub źródeł, co obniża wiarygodność artykułu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa emocjonalnych zwrotów, co przyciąga uwagę czytelników.",
+    "W artykule pojawiają się mocne sformułowania, które mogą wywoływać silne reakcje.",
+    "Tytuł sugeruje dramatyczną sytuację, ale treść bardziej skupia się na faktach.",
+    "Brak odniesień do wiarygodnych źródeł może budzić wątpliwości co do rzetelności informacji."
+  ],
+  "summary": "Artykuł opisuje trudności, z jakimi boryka się Unia Europejska w negocjacjach dotyczących wykorzystania zamrożonych rosyjskich aktywów, które miałyby sfinansować reparacje dla Ukrainy. W artykule przedstawiono kulisy konfliktu wśród wiceministrów finansów krajów unijnych oraz rosnące napięcie związane z brakiem konsensusu.",
+  "signals": {
+    "title_hits": [
+      "to niemożliwe",
+      "awantura",
+      "miliardy euro"
+    ],
+    "content_hits": [
+      "ostry spór",
+      "zamrożonych rosyjskich aktywów",
+      "brak konsensusu"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "title": "Dramatyzacja sytuacji",
+      "content": "Faktyczne informacje o negocjacjach"
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Negocjacje w Brukseli dotyczące zamrożonych rosyjskich aktywów",
+    "notes_to_editor": "Rozważyć dodanie źródeł i cytatów dla zwiększenia wiarygodności artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 12,
+    "tokens_content": 158,
+    "processing_time_ms": 13245,
+    "model": "gpt-4o-mini"
+  }
+}

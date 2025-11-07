@@ -1,0 +1,46 @@
+{
+  "id": 1762505665338,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/wroclaw/nieznane-obiekty-mialy-spasc-na-dolnym-slasku-policja-zakonczyla-akcje/v3ewnek",
+  "title": "Kierowca zauważył obiekt na niebie. Co się stało pod Wrocławiem?",
+  "score": 55,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy budzące ciekawość, takie jak 'co się stało', co sugeruje sensacyjność.",
+    "Treść artykułu odnosi się do tajemniczych obiektów, co wzmacnia efekt ciekawości.",
+    "Występuje rozbieżność między tytułem a treścią, ponieważ tytuł sugeruje osobiste doświadczenie kierowcy, podczas gdy treść koncentruje się na działaniach służb.",
+    "Brak konkretnych danych liczbowych lub cytatów, co osłabia sygnały wiarygodności."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł wzbudza ciekawość, pytając, co się wydarzyło, co może przyciągać uwagę czytelników.",
+    "Artykuł opisuje tajemnicze obiekty, co dodaje elementu intrygi.",
+    "Tytuł sugeruje osobiste doświadczenie, ale treść koncentruje się na działaniach służb, co może być mylące.",
+    "Brak konkretów, takich jak liczby czy cytaty, sprawia, że artykuł wydaje się mniej wiarygodny."
+  ],
+  "summary": "Artykuł informuje o tajemniczych obiektach, które miały spaść w kilku miejscach na Dolnym Śląsku, w tym pod Wrocławiem. Służby podjęły działania w celu wyjaśnienia zjawiska, a Dolnośląski Urząd Wojewódzki wydał oświadczenie w tej sprawie. Akcja poszukiwawcza trwała kilka godzin i została zakończona.",
+  "signals": {
+    "title_hits": [
+      "co się stało",
+      "zauważył obiekt"
+    ],
+    "content_hits": [
+      "niezidentyfikowane obiekty",
+      "wyjaśnienie zjawiska"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "title": "Tytuł sugeruje osobiste doświadczenie kierowcy.",
+      "content": "Treść koncentruje się na działaniach służb i oświadczeniu urzędników."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Tajemnicze obiekty spadły na Dolnym Śląsku – działania służb",
+    "notes_to_editor": "Rozważyć dodanie konkretnych danych lub cytatów, aby zwiększyć wiarygodność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 81,
+    "processing_time_ms": 13845,
+    "model": "gpt-4o-mini"
+  }
+}

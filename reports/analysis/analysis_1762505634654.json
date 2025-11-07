@@ -1,0 +1,46 @@
+{
+  "id": 1762505634654,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/spada-liczba-wnioskow-o-wizy-pracownicze-rykoszet-dla-legalnych-firm/4hvbvkh",
+  "title": "Spada liczba wniosków o wizy pracownicze. \"Rykoszet dla legalnych firm\"",
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy, które mogą wzbudzać ciekawość, takie jak 'rykoszet', co sugeruje negatywne konsekwencje dla firm.",
+    "Treść artykułu jest zgodna z tytułem, jednak nie dostarcza dodatkowych informacji, które mogłyby w pełni wyjaśnić kontekst.",
+    "W artykule pojawia się źródło (Rzeczpospolita), co zwiększa jego wiarygodność, ale brak jest konkretów liczbowych lub statystycznych."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'rykoszet', co może przyciągać uwagę, sugerując problemy dla firm.",
+    "Treść artykułu odpowiada tytułowi, ale nie rozwija tematu w wystarczający sposób.",
+    "Artykuł odnosi się do źródła, co podnosi jego wiarygodność, ale brakuje konkretnych danych."
+  ],
+  "summary": "Artykuł informuje o spadku liczby wniosków o wizy pracownicze w Polsce, co jest wynikiem zaostrzenia procedur migracyjnych. Zmiany te, mające na celu zwalczanie nieprawidłowości, negatywnie wpływają na legalnie działające firmy, według analizy opublikowanej w 'Rzeczpospolitej'.",
+  "signals": {
+    "title_hits": [
+      "rykoszet"
+    ],
+    "content_hits": [
+      "zaostrzenie procedur migracyjnych",
+      "legalnie działające firmy"
+    ],
+    "credibility_hits": [
+      "Polska Agencja Prasowa",
+      "Rzeczpospolita"
+    ],
+    "mismatch": {
+      "title": "Spada liczba wniosków o wizy pracownicze. 'Rykoszet dla legalnych firm'",
+      "content": "Spada liczba wniosków o wizy pracownicze. 'Rykoszet dla legalnych firm'"
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Spadek liczby wniosków o wizy pracownicze w Polsce",
+    "notes_to_editor": "Rozważyć dodanie konkretnych danych liczbowych lub statystyk dotyczących wpływu zmian na firmy."
+  },
+  "diagnostics": {
+    "tokens_title": 14,
+    "tokens_content": 55,
+    "processing_time_ms": 14619,
+    "model": "gpt-4o-mini"
+  }
+}

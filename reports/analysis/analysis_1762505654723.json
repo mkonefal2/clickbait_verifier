@@ -1,0 +1,52 @@
+{
+  "id": 1762505654723,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/oszusci-blokuja-mieszkania-ekspert-siedem-rad-jak-nie-dac-sie-oszukac/442kbbw",
+  "title": "Oszuści znaleźli genialnie prosty sposób, by zmuszać właścicieli mieszkań do obniżania ceny",
+  "score": 72,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'genialnie prosty sposób', co sugeruje, że temat jest niezwykle interesujący.",
+    "W treści artykułu pojawiają się absoluty, takie jak 'ostro zszedł z ceny', co wzmacnia emocjonalny wydźwięk.",
+    "Zidentyfikowano lukę ciekawości poprzez obietnicę porad dotyczących ochrony przed oszustami.",
+    "Tytuł i treść są zgodne, ponieważ artykuł rzeczywiście omawia metody oszustów i porady dla właścicieli mieszkań.",
+    "W artykule pojawiają się cytaty oraz odniesienia do ekspertów, co zwiększa jego wiarygodność."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów, które przyciągają uwagę, jak 'genialnie prosty sposób', co sprawia, że temat wydaje się bardzo interesujący.",
+    "W treści artykułu są używane wyrażenia, które podkreślają dramatyzm sytuacji, takie jak 'ostro zszedł z ceny'.",
+    "Artykuł obiecuje porady, co może wzbudzać ciekawość czytelników, którzy chcą się dowiedzieć, jak uniknąć oszustw.",
+    "Tytuł i treść są spójne, ponieważ artykuł rzeczywiście dotyczy oszustów i sposobów ochrony przed nimi.",
+    "W artykule są cytaty i odniesienia do ekspertów, co sprawia, że jest bardziej wiarygodny."
+  ],
+  "summary": "Artykuł opisuje metody oszustów na rynku nieruchomości, którzy blokują sprzedaż mieszkań, zmuszając właścicieli do obniżania ceny. Zawiera również siedem porad, jak chronić się przed tego typu praktykami. Ekspert wyjaśnia, jak działają te oszustwa i na co zwracać uwagę przy sprzedaży mieszkań.",
+  "signals": {
+    "title_hits": [
+      "genialnie prosty sposób",
+      "zmuszać właścicieli mieszkań",
+      "obniżania ceny"
+    ],
+    "content_hits": [
+      "oszuści na rynku nieruchomości",
+      "zmuszają właścicieli",
+      "siedem porad"
+    ],
+    "credibility_hits": [
+      "Preston Smith",
+      "fizkes / Getty Images"
+    ],
+    "mismatch": {
+      "title_content_match": true
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Jak oszuści blokują mieszkania i zmuszają właścicieli do obniżania cen",
+    "notes_to_editor": "Zaleca się unikanie użycia fraz sensacyjnych w tytule, aby zwiększyć obiektywność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 14,
+    "tokens_content": 152,
+    "processing_time_ms": 19626,
+    "model": "gpt-4o-mini"
+  }
+}

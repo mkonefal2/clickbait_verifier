@@ -1,0 +1,53 @@
+{
+  "id": 1762505600773,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/polska/news-nowy-system-antydronowy-za-miliardy-wojskowi-maja-co-do-nieg,nId,8038551",
+  "title": "Nowy system antydronowy za miliardy. Wojskowi mają co do niego wątpliwości",
+  "score": 55,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'za miliardy' oraz 'wojskowi mają wątpliwości', co wzbudza ciekawość.",
+    "Treść artykułu dostarcza szczegółowych informacji na temat kontrowersji związanych z zakupem systemu antydronowego, co jest zgodne z tytułem.",
+    "W artykule występują liczby i konkretne dane dotyczące kosztów oraz problemów z systemem, co zwiększa jego wiarygodność.",
+    "Mismatches między tytułem a treścią są minimalne, ponieważ tytuł odnosi się do wątpliwości wojskowych, które są omówione w treści.",
+    "Ogólny ton artykułu jest informacyjny, ale tytuł może być postrzegany jako sensacyjny, co wpływa na ocenę clickbaitu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł artykułu zawiera zwroty, które mogą przyciągać uwagę, jak 'za miliardy' i 'wojskowi mają wątpliwości'.",
+    "Treść artykułu dokładnie opisuje kontrowersje związane z nowym systemem antydronowym, co jest zgodne z tym, co sugeruje tytuł.",
+    "W artykule pojawiają się konkretne liczby i informacje, co sprawia, że jest bardziej wiarygodny.",
+    "Tytuł i treść są ze sobą spójne, ponieważ omawiają wątpliwości ekspertów dotyczące zakupu systemu.",
+    "Mimo że artykuł jest informacyjny, tytuł może wydawać się nieco przesadzony, co wpływa na jego ocenę jako clickbait."
+  ],
+  "summary": "Artykuł omawia kontrowersje związane z zakupem nowego systemu antydronowego SKYctrl przez polską armię, który ma kosztować miliardy złotych. Wskazuje na wątpliwości wojskowych dotyczące skuteczności systemu oraz brak transparentności w procesie zakupowym. Decyzja o zakupie została podjęta w trybie pilnym, co budzi obawy o jakość i efektywność nowego rozwiązania.",
+  "signals": {
+    "title_hits": [
+      "miliardy",
+      "wojskowi mają wątpliwości"
+    ],
+    "content_hits": [
+      "miliardowy kontrakt",
+      "wątpliwości",
+      "braki w ochronie"
+    ],
+    "credibility_hits": [
+      "Gazeta Wyborcza",
+      "liczby",
+      "anonimowe cytaty"
+    ],
+    "mismatch": {
+      "title": "Nowy system antydronowy za miliardy. Wojskowi mają co do niego wątpliwości",
+      "content": "Artykuł rzeczywiście omawia wątpliwości wojskowych, ale nie dostarcza szczegółowych informacji o samej technologii."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Polska armia planuje zakup nowego systemu antydronowego SKYctrl.",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 596,
+    "processing_time_ms": 28034,
+    "model": "gpt-4o-mini"
+  }
+}

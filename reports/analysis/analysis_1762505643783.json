@@ -1,0 +1,49 @@
+{
+  "id": 1762505643783,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/pogoda/niskie-chmury-i-mgly-opanuja-czesc-polski-tu-pogoda-dzis-nie-dopisze/srqjm93",
+  "title": "Dziś pogoda nie wszędzie będzie łaskawa. W tych regionach słońca dziś nie zobaczymy.",
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy sugerujące negatywne zjawiska pogodowe, co może wzbudzać ciekawość.",
+    "Treść artykułu jest zgodna z tytułem, jednak nie zawiera szczegółowych informacji, które mogłyby potwierdzić sensacyjność.",
+    "W artykule występują liczby dotyczące temperatury, co dodaje wiarygodności, ale nie ma cytatów ani źródeł.",
+    "Wykryto lukę ciekawości w tytule, ponieważ nie podano konkretnych regionów, co może skłonić do kliknięcia."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł sugeruje, że pogoda będzie zła w niektórych miejscach, co może przyciągać uwagę.",
+    "Treść artykułu jest spójna z tytułem, ale nie dostarcza wielu szczegółów, które mogłyby potwierdzić dramatyzm sytuacji.",
+    "Artykuł zawiera informacje o temperaturze, co sprawia, że jest bardziej wiarygodny, ale brakuje cytatów lub źródeł.",
+    "Tytuł nie zdradza, o które regiony chodzi, co może wzbudzać ciekawość czytelników."
+  ],
+  "summary": "Artykuł opisuje prognozę pogody na dany dzień, wskazując, że w niektórych regionach Polski dominować będą niskie chmury i mgły, co wpłynie na brak słońca. Temperatura w tych miejscach nie przekroczy 10 stopni Celsjusza, podczas gdy w innych, gdzie pojawi się słońce, temperatura osiągnie około 14 stopni Celsjusza.",
+  "signals": {
+    "title_hits": [
+      "nie wszędzie",
+      "słońca dziś nie zobaczymy"
+    ],
+    "content_hits": [
+      "niskie chmury",
+      "mgły",
+      "temperatura nie osiągnie nawet 10 st. C"
+    ],
+    "credibility_hits": [
+      "ok. 14 st. C"
+    ],
+    "mismatch": {
+      "exists": false,
+      "details": "Tytuł i treść są zgodne."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Prognoza pogody: w niektórych regionach Polski dominować będą chmury i mgły.",
+    "notes_to_editor": "Rozważyć dodanie konkretnych regionów w tytule, aby zwiększyć informacyjność."
+  },
+  "diagnostics": {
+    "tokens_title": 15,
+    "tokens_content": 105,
+    "processing_time_ms": 14525,
+    "model": "gpt-4o-mini"
+  }
+}

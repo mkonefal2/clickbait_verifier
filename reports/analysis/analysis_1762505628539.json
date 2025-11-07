@@ -1,0 +1,45 @@
+{
+  "id": 1762505628539,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/krzysztof-brejza-o-zbigniewie-ziobrze-mafia-przejela-ministerstwo/x6bgpb1",
+  "title": "\"Mafia przejęła ministerstwo\". Europoseł KO o sprawie Zbigniewa Ziobry",
+  "score": 70,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazę sensacyjną \"Mafia przejęła ministerstwo\", co wzbudza silne emocje.",
+    "Treść artykułu odnosi się do wypowiedzi polityka, ale używa dramatycznych sformułowań, co zwiększa poziom clickbaitu.",
+    "Występuje rozbieżność między tytułem a treścią, ponieważ tytuł sugeruje jednoznaczne oskarżenie, podczas gdy treść jest bardziej stonowana.",
+    "Brak konkretnych danych lub źródeł w treści, co obniża wiarygodność informacji."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów, które mogą przyciągać uwagę, co sprawia, że artykuł wydaje się bardziej sensacyjny.",
+    "Treść odnosi się do wypowiedzi polityka, ale nie dostarcza wystarczających dowodów na dramatyczne oskarżenia zawarte w tytule.",
+    "Tytuł sugeruje poważne zarzuty, ale artykuł nie rozwija tego w sposób, który by je potwierdzał.",
+    "Brak konkretów i źródeł w artykule wpływa na jego wiarygodność."
+  ],
+  "summary": "Europoseł Koalicji Obywatelskiej Krzysztof Brejza komentuje sytuację wokół Zbigniewa Ziobry, twierdząc, że mafia przejęła Ministerstwo Sprawiedliwości. Wskazuje na niepokój wśród współpracowników Ziobry oraz krytykuje działania ministerstwa wobec obywateli. Wypowiedź miała miejsce w programie \"Onet Rano\".",
+  "signals": {
+    "title_hits": [
+      "Mafia przejęła ministerstwo"
+    ],
+    "content_hits": [
+      "Mafia przejęła Ministerstwo Sprawiedliwości",
+      "roztrzęsieni jak galaretka"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "title": "Mafia przejęła ministerstwo",
+      "content": "Mafia przejęła Ministerstwo Sprawiedliwości i zaczęła walczyć z obywatelami"
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Europoseł KO komentuje sytuację Zbigniewa Ziobry",
+    "notes_to_editor": "Rozważyć dodanie źródeł lub konkretów, aby zwiększyć wiarygodność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 122,
+    "processing_time_ms": 15867,
+    "model": "gpt-4o-mini"
+  }
+}

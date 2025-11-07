@@ -1,0 +1,48 @@
+{
+  "id": 1762505656601,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/pokerowa-zagrywka-trumpa-chiny-w-potrzasku-prognoza-cenionego-politologa-z-usa/lzyrmq2",
+  "title": "Pokerowa zagrywka Trumpa. Chiny w potrzasku. Prognoza cenionego politologa z USA",
+  "score": 72,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'pokerowa zagrywka' i 'Chiny w potrzasku', które są emocjonalne i mogą wzbudzać ciekawość.",
+    "Treść artykułu jest zgodna z tytułem, ale nie dostarcza konkretnej analizy, co może prowadzić do rozczarowania czytelników.",
+    "Zidentyfikowano brak cytatów lub konkretnych danych, co osłabia sygnały wiarygodności.",
+    "Mismatches między tytułem a treścią są minimalne, ale tytuł sugeruje większą dramatyzację niż to, co jest przedstawione w artykule."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa emocjonalnych słów, które mogą przyciągać uwagę, jak 'pokerowa zagrywka' i 'Chiny w potrzasku'.",
+    "Treść artykułu jest zgodna z tytułem, ale nie dostarcza głębszych informacji, co może rozczarować czytelników.",
+    "Brak konkretnych danych lub cytatów osłabia wiarygodność artykułu.",
+    "Tytuł jest bardziej dramatyczny niż to, co faktycznie opisuje artykuł."
+  ],
+  "summary": "Artykuł omawia niepewność w relacjach amerykańsko-chińskich w kontekście działań Donalda Trumpa. Ekspert James Jay Carafano wskazuje, że zarówno Chiny, jak i sojusznicy USA nie wiedzą, jak zareagować na niejednoznaczne zachowanie Waszyngtonu. W artykule poruszane są również reakcje Pekinu na sytuację.",
+  "signals": {
+    "title_hits": [
+      "pokerowa zagrywka",
+      "Chiny w potrzasku"
+    ],
+    "content_hits": [
+      "niepewność",
+      "reakcje Pekinu"
+    ],
+    "credibility_hits": [
+      "James Jay Carafano"
+    ],
+    "mismatch": {
+      "title": "Tytuł sugeruje dramatyzm, który nie jest w pełni odzwierciedlony w treści.",
+      "content": "Treść jest zgodna z tytułem, ale brakuje głębszej analizy."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Analiza relacji amerykańsko-chińskich w kontekście działań Donalda Trumpa",
+    "notes_to_editor": "Rozważyć dodanie konkretów i danych, aby zwiększyć wiarygodność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 14,
+    "tokens_content": 152,
+    "processing_time_ms": 15146,
+    "model": "gpt-4o-mini"
+  }
+}

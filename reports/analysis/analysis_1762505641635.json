@@ -1,0 +1,48 @@
+{
+  "id": 1762505641635,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/opole/potezny-pozar-na-autostradzie-a4-straty-przekraczaja-milion-zlotych/t6ht8m2",
+  "title": "Potężny pożar na A4. Straty przekraczają milion złotych",
+  "score": 40,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'potężny pożar', co może wzbudzać ciekawość.",
+    "Treść artykułu jest zgodna z tytułem, co zmniejsza ryzyko mismatchu.",
+    "W artykule znajdują się konkretne liczby dotyczące strat, co zwiększa jego wiarygodność.",
+    "Brak luk ciekawości, ponieważ treść dostarcza wszystkich istotnych informacji."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów, które mogą przyciągać uwagę, jak 'potężny pożar'.",
+    "Treść artykułu jest zgodna z tytułem, co oznacza, że nie wprowadza w błąd.",
+    "Artykuł podaje konkretne informacje o stratach, co czyni go bardziej wiarygodnym.",
+    "Nie ma niejasności w treści, więc czytelnik dostaje pełne informacje."
+  ],
+  "summary": "W nocy z 5 na 6 listopada na autostradzie A4 pod Strzelcami Opolskimi doszło do pożaru lawety przewożącej nowe samochody marki Skoda. Straty związane z tym incydentem przekraczają milion złotych, jak informuje portal Opolska360.",
+  "signals": {
+    "title_hits": [
+      "potężny pożar"
+    ],
+    "content_hits": [
+      "potężny pożar",
+      "straty przekraczają milion złotych"
+    ],
+    "credibility_hits": [
+      "ponad 1 mln zł",
+      "informuje portal Opolska360"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "mismatch_score": 0
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Pożar na A4. Straty wynoszą ponad milion złotych",
+    "notes_to_editor": "Rozważyć użycie mniej emocjonalnych sformułowań w tytule."
+  },
+  "diagnostics": {
+    "tokens_title": 9,
+    "tokens_content": 66,
+    "processing_time_ms": 13663,
+    "model": "gpt-4o-mini"
+  }
+}

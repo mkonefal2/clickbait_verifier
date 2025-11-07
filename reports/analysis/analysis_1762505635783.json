@@ -1,0 +1,52 @@
+{
+  "id": 1762505635783,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/spiecie-na-konferencji-ministra-zurka-musi-sie-pan-z-tym-godzic/e1q5v27",
+  "title": "Spięcie na konferencji ministra Żurka. \"Musi się pan z tym godzić\"",
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy, które mogą wzbudzać ciekawość, takie jak 'spięcie' i cytat, co sugeruje dramatyzm.",
+    "Treść artykułu odnosi się do konkretnego wydarzenia, jednak nie zawiera przesadnych stwierdzeń ani sensacyjnych zwrotów.",
+    "W artykule nie występują absoluty ani przesadne emocje, co obniża jego clickbaitowość.",
+    "Zgodność między tytułem a treścią jest wysoka, co również wpływa na niższy wynik clickbaitu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł sugeruje, że na konferencji doszło do emocjonalnej wymiany zdań, co może przyciągać uwagę.",
+    "Artykuł jednak skupia się na konkretnej sytuacji i nie używa przesadnych słów ani dramatycznych opisów.",
+    "Nie ma w nim przesadnych stwierdzeń, co sprawia, że jest bardziej informacyjny niż sensacyjny.",
+    "Tytuł dobrze odzwierciedla treść artykułu, co również wpływa na jego ocenę."
+  ],
+  "summary": "Artykuł opisuje konferencję prasową ministra Waldemara Żurka, podczas której odpowiadał na pytania dotyczące sędziego Tomasza Trębickiego. Żurek odniósł się do obaw związanych z powiązaniami rodzinnymi sędziego z polityką, podkreślając, że nie interesuje się szczegółami sprawy. Wypowiedzi ministra wskazują na kontrowersje związane z procesem sądowym dotyczącym Jarosława Kaczyńskiego.",
+  "signals": {
+    "title_hits": [
+      "spięcie",
+      "musi się pan z tym godzić"
+    ],
+    "content_hits": [
+      "spięcie",
+      "zaprzecza",
+      "musi się pan godzić"
+    ],
+    "credibility_hits": [
+      "Waldemar Żurek",
+      "sędzia Tomasz Trębicki",
+      "Jarosław Kaczyński",
+      "Krzysztof Brejza"
+    ],
+    "mismatch": {
+      "title": "Spięcie na konferencji ministra Żurka. \"Musi się pan z tym godzić\"",
+      "content": "Opisuje konkretne wydarzenie i wypowiedzi ministra."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Konferencja ministra Żurka dotycząca sprawy sędziego Trębickiego",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia sensacyjności."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 134,
+    "processing_time_ms": 16771,
+    "model": "gpt-4o-mini"
+  }
+}

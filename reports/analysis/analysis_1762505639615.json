@@ -1,0 +1,47 @@
+{
+  "id": 1762505639615,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/zbigniew-ziobro-przemowil-przed-komisja-fala-emocjonalnych-komentarzy-na-x/prh1748",
+  "title": "Emocje po wystąpieniu Ziobry. \"Granice żenady\" kontra \"prawda o Tusku\"",
+  "score": 55,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy emocjonalne i kontrowersyjne, co zwiększa jego clickbaitowość.",
+    "W treści pojawiają się komentarze polityków, co może wzbudzać ciekawość, ale nie ma wyraźnych sygnałów sensacyjnych.",
+    "Zidentyfikowano pewne niezgodności między tytułem a treścią, co obniża ocenę wiarygodności.",
+    "Brak konkretnych cytatów lub danych liczbowych, które mogłyby wzmocnić wiarygodność artykułu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa emocjonalnych słów, co może przyciągać uwagę czytelników.",
+    "Artykuł opisuje reakcje polityków na wystąpienie Zbigniewa Ziobry, co może budzić ciekawość.",
+    "Niektóre elementy tytułu mogą nie do końca odpowiadać treści artykułu, co może wprowadzać w błąd.",
+    "Brakuje konkretnych danych lub cytatów, które mogłyby potwierdzić przedstawione informacje."
+  ],
+  "summary": "Artykuł opisuje wystąpienie Zbigniewa Ziobry oraz reakcje polityków na jego słowa. Wskazuje na kontrowersyjne opinie, które pojawiły się w odpowiedzi na jego wypowiedzi, w tym zarzuty dotyczące tchórzostwa oraz stwierdzenia o ujawnieniu prawdy o Donaldzie Tusku. W artykule nie ma jednak szczegółowych informacji na temat samego wystąpienia.",
+  "signals": {
+    "title_hits": [
+      "emocje",
+      "granice żenady",
+      "prawda o Tusku"
+    ],
+    "content_hits": [
+      "emocje",
+      "komentarze polityków"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "title": "Tytuł sugeruje silne emocje i kontrowersje, które nie są w pełni odzwierciedlone w treści.",
+      "content": "Treść koncentruje się na ogólnych reakcjach, a nie na szczegółach wystąpienia."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Reakcje polityków na wystąpienie Zbigniewa Ziobry",
+    "notes_to_editor": "Rozważyć dodanie konkretnych cytatów lub danych liczbowych dla zwiększenia wiarygodności artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 14,
+    "tokens_content": 109,
+    "processing_time_ms": 21844,
+    "model": "gpt-4o-mini"
+  }
+}

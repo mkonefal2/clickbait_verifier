@@ -1,0 +1,48 @@
+{
+  "id": 1762505664378,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/wroclaw/afera-smieciowa-we-wroclawiu-kontrowersje-wokol-zwolnienia-sygnalistki/wlkbytl",
+  "title": "Afera śmieciowa we Wrocławiu. Kontrowersje wokół zwolnienia sygnalistki",
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'afera' i 'kontrowersje', co może sugerować dramatyzację sytuacji.",
+    "Treść artykułu jest zgodna z tytułem, jednak nie zawiera zbyt wielu szczegółów, co może budzić ciekawość czytelnika.",
+    "W artykule pojawia się odniesienie do 'setek milionów złotych', co jest sygnałem wiarygodności, ale również może być postrzegane jako element sensacyjny.",
+    "Nie znaleziono znaczących luk ciekawości w treści, co obniża poziom clickbaitu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa dramatycznych słów, co może przyciągać uwagę, ale nie jest całkowicie mylący.",
+    "Treść artykułu odpowiada tytułowi, jednak brakuje w niej szczegółowych informacji, które mogłyby zaspokoić ciekawość czytelnika.",
+    "Wspomnienie o dużych kwotach dodaje wiarygodności, ale może również wzbudzać emocje.",
+    "Nie znaleziono elementów, które mogłyby wprowadzać w błąd, co sprawia, że artykuł nie jest skrajnie clickbaitowy."
+  ],
+  "summary": "Artykuł opisuje problemy wrocławskiej spółki Ekosystem związane z przetargiem na usługi śmieciowe, wartym setki milionów złotych. W kontekście tych wydarzeń pojawiły się kontrowersje dotyczące zwolnienia sygnalistki, która alarmowała o nieprawidłowościach. Informacje pochodzą z doniesień dziennika 'Wyborcza'.",
+  "signals": {
+    "title_hits": [
+      "afera",
+      "kontrowersje"
+    ],
+    "content_hits": [
+      "setki milionów złotych",
+      "zwolnienie sygnalistki"
+    ],
+    "credibility_hits": [
+      "Wyborcza"
+    ],
+    "mismatch": {
+      "is_mismatch": false,
+      "details": "Tytuł i treść są zgodne."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Problemy związane z przetargiem na usługi śmieciowe we Wrocławiu",
+    "notes_to_editor": "Rozważyć dodanie więcej szczegółów dotyczących sprawy, aby zaspokoić ciekawość czytelników."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 102,
+    "processing_time_ms": 14330,
+    "model": "gpt-4o-mini"
+  }
+}

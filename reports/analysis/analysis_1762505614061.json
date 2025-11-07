@@ -1,0 +1,50 @@
+{
+  "id": 1762505614061,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/warszawa/news-kopali-w-twarz-zostawili-w-samej-bieliznie-najmlodszy-ma-16-,nId,8038519",
+  "title": "Kopali w twarz, zostawili w samej bieliźnie. Najmłodszy ma 16 lat",
+  "score": 75,
+  "label": "extreme",
+  "rationale": [
+    "Tytuł zawiera sensacyjne frazy takie jak 'kopali w twarz' i 'zostawili w samej bieliźnie', które przyciągają uwagę.",
+    "W treści artykułu występują powtórzenia dramatycznych opisów, co potęguje efekt sensacji.",
+    "Występuje znaczna rozbieżność między tytułem a treścią, ponieważ tytuł sugeruje większą brutalność niż jest to opisane w artykule.",
+    "Zawiera konkretne liczby (wiek sprawców) i cytaty z policji, co może zwiększać wiarygodność, ale nie równoważy sensacyjności tytułu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów, które mają na celu przyciągnięcie uwagi czytelników.",
+    "W artykule powtarzają się dramatyczne opisy, co sprawia, że sytuacja wydaje się bardziej szokująca.",
+    "Tytuł sugeruje większą brutalność niż to, co rzeczywiście opisuje artykuł.",
+    "Mimo że artykuł zawiera konkretne informacje i cytaty, to sensacyjny tytuł przeważa nad tymi elementami."
+  ],
+  "summary": "Artykuł opisuje brutalny atak czterech nastolatków na ich 18-letniego kolegę, który został pobity i pozostawiony w samej bieliźnie pod mostem w Warszawie. Policja zatrzymała sprawców, z których najmłodszy ma 16 lat. Zdarzenie miało miejsce podczas imprezy, a poszkodowany został uratowany przez przejeżdżającego mężczyznę.",
+  "signals": {
+    "title_hits": [
+      "kopali w twarz",
+      "zostawili w samej bieliźnie"
+    ],
+    "content_hits": [
+      "dotkliwie pobili",
+      "zatrzymano pięciu podejrzanych",
+      "został pobity"
+    ],
+    "credibility_hits": [
+      "policja",
+      "asp. szt. Marta Haberska"
+    ],
+    "mismatch": {
+      "title": "Kopali w twarz, zostawili w samej bieliźnie. Najmłodszy ma 16 lat",
+      "content": "Artykuł opisuje atak, ale nie podaje szczegółów dotyczących brutalności sugerowanej w tytule."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Nastolatkowie pobili rówieśnika i pozostawili go w samej bieliźnie",
+    "notes_to_editor": "Rozważyć zmianę tytułu na bardziej neutralny, aby uniknąć sensacyjności."
+  },
+  "diagnostics": {
+    "tokens_title": 12,
+    "tokens_content": 308,
+    "processing_time_ms": 18591,
+    "model": "gpt-4o-mini"
+  }
+}

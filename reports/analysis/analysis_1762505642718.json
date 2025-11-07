@@ -1,0 +1,53 @@
+{
+  "id": 1762505642718,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/opole/znika-trzecie-najstarsze-przedsiebiorstwo-w-polsce-zamykaja-browar-i-zniszcza-to/4jwqssf",
+  "title": "Zamykają trzecie najstarsze przedsiębiorstwo w Polsce. \"Nie wiem, jak dalej będę żyła\"",
+  "score": 65,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy emocjonalne i sensacyjne, takie jak 'zamykają' i 'nie wiem, jak dalej będę żyła', co zwiększa jego clickbaitowość.",
+    "Treść artykułu koncentruje się na emocjonalnych reakcjach mieszkańców na zamknięcie browaru, co potwierdza użycie dramatycznych cytatów.",
+    "W artykule brak jest konkretów dotyczących przyczyn zamknięcia, co może budzić ciekawość czytelników.",
+    "Zidentyfikowano rozbieżność między tytułem a treścią, ponieważ tytuł sugeruje osobistą tragedię, podczas gdy treść skupia się na szerszym kontekście społecznym."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa emocjonalnych sformułowań, co przyciąga uwagę czytelników.",
+    "Artykuł opisuje reakcje lokalnych mieszkańców na zamknięcie browaru, co dodaje dramatyzmu.",
+    "Brak szczegółowych informacji o przyczynach zamknięcia może wzbudzać ciekawość.",
+    "Tytuł sugeruje osobiste cierpienie, podczas gdy treść odnosi się do szerszych problemów społecznych."
+  ],
+  "summary": "Artykuł opisuje zamknięcie trzeciego najstarszego przedsiębiorstwa w Polsce, browaru w Namysłowie, które funkcjonowało przez ponad 700 lat. Decyzja koncernu Heineken o likwidacji budzi obawy mieszkańców, którzy obawiają się negatywnych skutków dla lokalnej społeczności i tradycji. W artykule cytowane są emocjonalne wypowiedzi mieszkańców, które podkreślają ich niepewność na przyszłość.",
+  "signals": {
+    "title_hits": [
+      "zamykają",
+      "trzecie najstarsze przedsiębiorstwo",
+      "nie wiem, jak dalej będę żyła"
+    ],
+    "content_hits": [
+      "koniec",
+      "ikona miasteczka",
+      "zniszczą to miasto",
+      "zniszczą pracujących tu ludzi"
+    ],
+    "credibility_hits": [
+      "700 lat",
+      "Heineken",
+      "Namysłów"
+    ],
+    "mismatch": {
+      "title": "Zamykają trzecie najstarsze przedsiębiorstwo w Polsce. 'Nie wiem, jak dalej będę żyła'",
+      "content": "Artykuł koncentruje się na lokalnych reakcjach na zamknięcie browaru, a nie na osobistych historiach."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Zamknięcie trzeciego najstarszego browaru w Polsce budzi obawy mieszkańców",
+    "notes_to_editor": "Rozważyć dodanie więcej informacji o przyczynach zamknięcia i jego konsekwencjach."
+  },
+  "diagnostics": {
+    "tokens_title": 17,
+    "tokens_content": 164,
+    "processing_time_ms": 15242,
+    "model": "gpt-4o-mini"
+  }
+}

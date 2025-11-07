@@ -1,0 +1,42 @@
+{
+  "id": 1762505623962,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/immunitet-zbigniewa-ziobry-sejmowa-komisja-podjela-decyzje/9c57r9w",
+  "title": "Immunitet Zbigniewa Ziobry. Sejmowa komisja podjęła decyzję",
+  "score": 20,
+  "label": "not_clickbait",
+  "rationale": [
+    "Tytuł jest informacyjny i nie zawiera sensacyjnych fraz ani luk ciekawości.",
+    "Treść artykułu jest zgodna z tytułem, przedstawia konkretne informacje o decyzji komisji.",
+    "Brak użycia absolutów i fraz, które mogłyby wprowadzać w błąd czytelnika.",
+    "W artykule pojawia się cytat z przewodniczącego komisji, co zwiększa jego wiarygodność."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jasno informuje o temacie artykułu i nie próbuje przyciągnąć uwagi w sposób przesadny.",
+    "Treść artykułu odpowiada tytułowi, dostarczając konkretne informacje o decyzji dotyczącej immunitetu.",
+    "Nie użyto przesadnych słów ani zwrotów, które mogłyby wprowadzać w błąd.",
+    "Cytat z przewodniczącego komisji dodaje artykułowi autorytetu."
+  ],
+  "summary": "Sejmowa komisja regulaminowa zarekomendowała uchwałę o uchyleniu immunitetu Zbigniewowi Ziobrze. Przewodniczący komisji, Jarosław Urbaniak, potwierdził pozytywny wynik rekomendacji w zakresie wszystkich 26 czynów zawartych we wniosku oraz w sprawie pozwolenia na zatrzymanie.",
+  "signals": {
+    "title_hits": [],
+    "content_hits": [],
+    "credibility_hits": [
+      "Cytat z przewodniczącego komisji"
+    ],
+    "mismatch": {
+      "exists": false,
+      "details": ""
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Decyzja Sejmowej komisji w sprawie immunitetu Zbigniewa Ziobry",
+    "notes_to_editor": "Artykuł jest dobrze skonstruowany i nie wymaga zmian."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 76,
+    "processing_time_ms": 18655,
+    "model": "gpt-4o-mini"
+  }
+}

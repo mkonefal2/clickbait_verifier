@@ -1,0 +1,53 @@
+{
+  "id": 1762505607469,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/polityka/news-nawrocki-ulaskawi-ziobre-jest-odpowiedz-z-kancelarii-prezyde,nId,8037452",
+  "title": "Nawrocki ułaskawi Ziobrę?",
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera pytanie, co może budzić ciekawość, ale nie stosuje mocnych fraz sensacyjnych.",
+    "Treść artykułu koncentruje się na aktualnej sytuacji prawnej Zbigniewa Ziobry i nie zawiera przesadnych stwierdzeń.",
+    "Nie stwierdzono znaczącej rozbieżności między tytułem a treścią, co wpływa na niższy wynik clickbaitu.",
+    "W artykule pojawiają się konkretne liczby i odniesienia do działań prawnych, co zwiększa wiarygodność."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zadaje pytanie, co może wzbudzać ciekawość, ale nie jest przesadnie sensacyjny.",
+    "Treść artykułu skupia się na faktach dotyczących Zbigniewa Ziobry i nie używa dramatycznych sformułowań.",
+    "Tytuł i treść są zgodne, co sprawia, że artykuł nie jest uznawany za mocno clickbaitowy.",
+    "Artykuł zawiera konkretne informacje i liczby, co zwiększa jego wiarygodność."
+  ],
+  "summary": "Artykuł omawia możliwość ułaskawienia Zbigniewa Ziobry przez prezydenta Karola Nawrockiego w kontekście braku postawienia zarzutów i uchwały immunitetu. Minister Marcin Przydacz podkreśla, że droga do jakichkolwiek działań prezydenta jest jeszcze daleka. W artykule przedstawiono również aktualny stan sprawy dotyczącej Ziobry oraz jego obronę przed zarzutami.",
+  "signals": {
+    "title_hits": [
+      "ułaskawi",
+      "Ziobrę"
+    ],
+    "content_hits": [
+      "Zbigniew Ziobro",
+      "Karol Nawrocki",
+      "Marcin Przydacz",
+      "immunitet",
+      "akt oskarżenia"
+    ],
+    "credibility_hits": [
+      "źródło: rmf24",
+      "liczby: 26 przestępstw",
+      "150 mln zł"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "title_summary_match": true
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Czy prezydent Nawrocki rozważa ułaskawienie Zbigniewa Ziobry?",
+    "notes_to_editor": "Artykuł dobrze przedstawia sytuację prawną, ale tytuł mógłby być bardziej neutralny."
+  },
+  "diagnostics": {
+    "tokens_title": 4,
+    "tokens_content": 482,
+    "processing_time_ms": 19983,
+    "model": "gpt-4o-mini"
+  }
+}

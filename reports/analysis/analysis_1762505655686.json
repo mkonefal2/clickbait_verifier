@@ -1,0 +1,46 @@
+{
+  "id": 1762505655686,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/podejrzana-przesylka-w-amerykanskiej-bazie-wojskowej-kilka-osob-trafilo-do-szpitala/23zysqw",
+  "title": "Podejrzana przesyłka w amerykańskiej bazie wojskowej. Kilka osób trafiło do szpitala",
+  "score": 40,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'podejrzana przesyłka' oraz 'kilka osób trafiło do szpitala', co może wzbudzać ciekawość.",
+    "Treść artykułu jest zgodna z tytułem, jednak nie dostarcza dodatkowych informacji, które mogłyby potwierdzić lub obalić sensacyjność tytułu.",
+    "Nie znaleziono wyraźnych sygnałów wiarygodności, takich jak konkretne liczby czy cytaty z ekspertów, co obniża ocenę wiarygodności.",
+    "Mismatch detection wykazała, że tytuł i treść są zgodne, co pozytywnie wpływa na ocenę."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słów, które mogą przyciągać uwagę, jak 'podejrzana przesyłka' i informuje o poważnym incydencie.",
+    "Treść artykułu odpowiada tytułowi, ale nie dostarcza dodatkowych szczegółów, które mogłyby wyjaśnić sytuację.",
+    "Brak konkretnych danych lub cytatów sprawia, że artykuł wydaje się mniej wiarygodny.",
+    "Tytuł i treść są spójne, co jest pozytywne."
+  ],
+  "summary": "W artykule opisano incydent w amerykańskiej bazie wojskowej Andrews, gdzie dostarczono podejrzaną przesyłkę. Po jej otwarciu kilka osób zachorowało i zostało przewiezionych do szpitala. Informacje pochodzą z doniesień CNN.",
+  "signals": {
+    "title_hits": [
+      "podejrzana przesyłka",
+      "kilka osób trafiło do szpitala"
+    ],
+    "content_hits": [
+      "podejrzana przesyłka",
+      "kilka osób zachorowało",
+      "przewiezionych do szpitala"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "title_content_match": true
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Incydent w amerykańskiej bazie wojskowej: kilka osób trafiło do szpitala po otwarciu przesyłki",
+    "notes_to_editor": "Rozważyć dodanie więcej informacji o incydencie oraz źródeł, aby zwiększyć wiarygodność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 13,
+    "tokens_content": 66,
+    "processing_time_ms": 16080,
+    "model": "gpt-4o-mini"
+  }
+}

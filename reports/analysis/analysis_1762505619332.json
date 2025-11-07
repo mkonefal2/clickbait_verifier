@@ -1,0 +1,51 @@
+{
+  "id": 1762505619332,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/wroclaw/news-widmo-grupowych-zwolnien-lg-electronics-pod-wroclawiem-wygas,nId,8038475",
+  "title": "Widmo grupowych zwolnień. LG Electronics pod Wrocławiem wygasza produkcję",
+  "score": 65,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'widmo grupowych zwolnień', co wzbudza emocje i ciekawość.",
+    "Treść artykułu jest zgodna z tytułem, jednak niektóre fragmenty mogą sugerować większe dramatyzowanie sytuacji.",
+    "W treści występują liczby, takie jak '180 osób', co zwiększa wiarygodność, ale także może być użyte do podkreślenia powagi sytuacji.",
+    "Brak bezpośrednich cytatów z pracowników, co może wpłynąć na postrzeganą wiarygodność informacji."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa emocjonalnych słów, które przyciągają uwagę czytelników.",
+    "Treść artykułu odpowiada tytułowi, ale niektóre fragmenty mogą wydawać się przesadzone.",
+    "Podano konkretne liczby, co dodaje wiarygodności, ale może też potęgować wrażenie dramatyzmu.",
+    "Brak cytatów z pracowników może wpłynąć na to, jak postrzegamy rzetelność informacji."
+  ],
+  "summary": "LG Electronics planuje wygaszenie produkcji lodówek w Biskupicach Podgórnych, co może prowadzić do grupowych zwolnień. Związki zawodowe szacują, że pracę może stracić nawet 180 osób. Firma zapewnia, że nie zamyka fabryki, a jedynie zmienia kierunek produkcji, koncentrując się na pralkach.",
+  "signals": {
+    "title_hits": [
+      "widmo grupowych zwolnień",
+      "wygasza produkcję"
+    ],
+    "content_hits": [
+      "grupowych zwolnień",
+      "180 osób",
+      "wygaszania linii"
+    ],
+    "credibility_hits": [
+      "związki zawodowe",
+      "cytaty",
+      "liczby"
+    ],
+    "mismatch": {
+      "exists": false,
+      "details": null
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "LG Electronics wygasza produkcję lodówek pod Wrocławiem",
+    "notes_to_editor": "Rozważyć dodanie więcej cytatów z pracowników dla zwiększenia wiarygodności artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 637,
+    "processing_time_ms": 17151,
+    "model": "gpt-4o-mini"
+  }
+}

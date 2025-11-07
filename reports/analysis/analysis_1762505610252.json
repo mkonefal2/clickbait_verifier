@@ -1,0 +1,52 @@
+{
+  "id": 1762505610252,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/raporty/raport-wojna-z-rosja/news-szokujaca-decyzja-putina-prezydent-odsuwa-lawrowa,nId,8038416",
+  "title": "Szokująca decyzja Putina",
+  "score": 65,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazę 'szokująca', co jest uznawane za element sensacyjny.",
+    "Treść artykułu opisuje konkretne wydarzenia związane z decyzją Putina, ale używa dramatycznego języka.",
+    "Zidentyfikowano lukę ciekawości w tytule, która nie jest w pełni zaspokojona przez treść.",
+    "W artykule pojawiają się liczby i konkretne nazwiska, co zwiększa jego wiarygodność.",
+    "Występuje rozbieżność między tytułem a treścią, ponieważ tytuł sugeruje większą sensację niż to, co jest opisane w artykule."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'szokująca', co przyciąga uwagę, ale może być uznane za przesadzone.",
+    "Artykuł szczegółowo opisuje decyzję Putina i jej przyczyny, ale nie jest tak dramatyczny, jak sugeruje tytuł.",
+    "Tytuł wzbudza ciekawość, ale nie dostarcza pełnych informacji, które mogłyby ją zaspokoić.",
+    "Artykuł zawiera konkretne dane i cytaty, co czyni go bardziej wiarygodnym.",
+    "Istnieje pewna różnica między tym, co obiecuje tytuł, a tym, co rzeczywiście jest opisane w treści."
+  ],
+  "summary": "Artykuł informuje o odsunięciu Siergieja Ławrowa, szefa rosyjskiej dyplomacji, przez Władimira Putina. Decyzja ta była wynikiem nieudanych negocjacji z amerykańskim sekretarzem stanu Marco Rubio, które miały prowadzić do szczytu Trump-Putin. Ławrow nie pojawił się na ważnym posiedzeniu Rady Bezpieczeństwa, co wzbudziło spekulacje na temat jego przyszłości w rządzie.",
+  "signals": {
+    "title_hits": [
+      "szokująca"
+    ],
+    "content_hits": [
+      "Siergiej Ławrow",
+      "Władimir Putin",
+      "Marco Rubio"
+    ],
+    "credibility_hits": [
+      "20 lat",
+      "Rada Bezpieczeństwa",
+      "G20"
+    ],
+    "mismatch": {
+      "title": "Szokująca decyzja Putina",
+      "content": "Odsunięcie Ławrowa z powodu nieudanych negocjacji."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Decyzja Putina o odsunięciu Ławrowa",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby lepiej odzwierciedlić treść artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 4,
+    "tokens_content": 516,
+    "processing_time_ms": 17776,
+    "model": "gpt-4o-mini"
+  }
+}

@@ -1,0 +1,210 @@
+/* Markdown PDF Custom Styles */
+
+/* ===== STRONA TYTUŁOWA ===== */
+h1:first-of-type {
+  font-size: 2.5em;
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 30px;
+  color: #2c3e50;
+  page-break-after: always;
+}
+
+/* ===== UKŁAD STRONY ===== */
+@page {
+  size: A4;
+  margin: 2.5cm 2cm 2cm 2cm;
+}
+
+/* Nagłówek strony (wyświetla tytuł dokumentu) */
+@page {
+  @top-center {
+    content: "Clickbait Verifier - Propozycja Pracy Inżynierskiej";
+    font-size: 9pt;
+    color: #666;
+    font-style: italic;
+  }
+}
+
+/* Stopka strony (numeracja) */
+@page {
+  @bottom-center {
+    content: "Strona " counter(page) " z " counter(pages);
+    font-size: 10pt;
+    color: #666;
+  }
+}
+
+/* Usuń nagłówek/stopkę ze strony tytułowej */
+@page :first {
+  @top-center { content: none; }
+  @bottom-center { content: none; }
+}
+
+/* ===== AUTOMATYCZNA NUMERACJA ROZDZIAŁÓW ===== */
+body {
+  counter-reset: h2counter;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+h2 {
+  counter-reset: h3counter;
+  counter-increment: h2counter;
+  page-break-before: always;
+  padding-top: 20px;
+  color: #2c3e50;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 10px;
+}
+
+h2:before {
+  content: counter(h2counter) ". ";
+  color: #3498db;
+  font-weight: bold;
+}
+
+h3 {
+  counter-increment: h3counter;
+  margin-top: 25px;
+  color: #34495e;
+}
+
+h3:before {
+  content: counter(h2counter) "." counter(h3counter) " ";
+  color: #3498db;
+}
+
+/* ===== PODZIAŁY STRON ===== */
+/* Unikaj dzielenia tabel */
+table {
+  page-break-inside: avoid;
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px 0;
+  font-size: 0.9em;
+}
+
+th {
+  background-color: #3498db;
+  color: white;
+  padding: 12px;
+  text-align: left;
+}
+
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Unikaj dzielenia code blocks */
+pre {
+  page-break-inside: avoid;
+  background: #f5f5f5;
+  padding: 15px;
+  border-radius: 5px;
+  border-left: 4px solid #3498db;
+  overflow-x: auto;
+  font-size: 0.85em;
+}
+
+code {
+  background: #f5f5f5;
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-family: 'Courier New', monospace;
+  font-size: 0.9em;
+}
+
+/* Unikaj dzielenia diagramów Mermaid */
+.mermaid {
+  page-break-inside: avoid;
+  margin: 30px 0;
+  text-align: center;
+}
+
+/* Unikaj dzielenia list */
+ul, ol {
+  page-break-inside: avoid;
+}
+
+/* ===== LINKI ===== */
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Pokaż URL w nawiasach przy drukowaniu */
+@media print {
+  a[href]:after {
+    content: " (" attr(href) ")";
+    font-size: 0.8em;
+    color: #666;
+  }
+}
+
+/* ===== EMOJI I IKONY ===== */
+/* Zachowaj emoji w tekście */
+.emoji {
+  font-family: 'Segoe UI Emoji', 'Apple Color Emoji', 'Noto Color Emoji', sans-serif;
+}
+
+/* ===== BLOKI UWAG ===== */
+blockquote {
+  border-left: 4px solid #3498db;
+  padding-left: 20px;
+  margin: 20px 0;
+  color: #555;
+  font-style: italic;
+  background: #f8f9fa;
+  padding: 15px 20px;
+}
+
+/* ===== CHECKLISTY ===== */
+input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+/* ===== HR (separatory) ===== */
+hr {
+  border: none;
+  border-top: 2px solid #e0e0e0;
+  margin: 30px 0;
+}
+
+/* ===== METADANE (data, autor) ===== */
+.page-break {
+  page-break-after: always;
+}
+
+/* ===== PRINT OPTIMIZATION ===== */
+@media print {
+  /* Lepsze kontrasty dla druku */
+  body {
+    color: #000;
+  }
+  
+  h1, h2, h3 {
+    color: #000;
+  }
+  
+  /* Zachowaj kolory tła w tabelach */
+  th {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  
+  /* Unikaj dzielenia nagłówków od treści */
+  h1, h2, h3, h4, h5, h6 {
+    page-break-after: avoid;
+  }
+}

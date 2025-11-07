@@ -1,0 +1,54 @@
+{
+  "id": 1762505652489,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/lek-i-odraza-w-kijowie-nemezis-zelenskiego-publicznie-go-atakuje-i-prosi-zachod-o/7711vmz",
+  "title": "Nemezis Zełenskiego publicznie go atakuje i prosi Zachód o interwencję",
+  "score": 68,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'nemezis' oraz 'publicznie go atakuje', co wzbudza emocje i ciekawość.",
+    "W treści artykułu występują elementy, które potwierdzają teza tytułu, ale są one przedstawione w sposób bardziej stonowany.",
+    "Wykryto lukę ciekawości w tytule, która może skłonić czytelników do kliknięcia, aby dowiedzieć się więcej.",
+    "Zidentyfikowano kilka sygnałów wiarygodności, takich jak cytaty i odniesienia do znanych postaci politycznych.",
+    "Mismatches między tytułem a treścią są obecne, ponieważ tytuł sugeruje dramatyzm, który nie jest w pełni odzwierciedlony w treści."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów, które przyciągają uwagę, jak 'nemezis' i 'atak', co może budzić emocje.",
+    "Treść artykułu jest bardziej stonowana i nieco mniej dramatyczna niż sugeruje tytuł.",
+    "Tytuł stawia pytania, które mogą skłonić czytelników do kliknięcia, aby uzyskać więcej informacji.",
+    "W artykule są cytaty i odniesienia do znanych osób, co dodaje mu wiarygodności.",
+    "Jednak tytuł i treść nie do końca się zgadzają, ponieważ tytuł sugeruje większy dramatyzm."
+  ],
+  "summary": "Artykuł omawia krytykę prezydenta Ukrainy Wołodymyra Zełenskiego przez jego rywala politycznego, Petro Poroszenkę. Poroszenko wzywa Zachód do interwencji w obliczu rosnącego autorytaryzmu w Ukrainie. W treści podkreślono napięcia polityczne oraz obawy związane z przyszłością kraju.",
+  "signals": {
+    "title_hits": [
+      "nemezis",
+      "publicznie go atakuje",
+      "prosi Zachód o interwencję"
+    ],
+    "content_hits": [
+      "krytycy",
+      "pełzający autorytaryzm",
+      "wezwać zachodnich partnerów"
+    ],
+    "credibility_hits": [
+      "Jamie Dettmer",
+      "Petro Poroszenko",
+      "wojna"
+    ],
+    "mismatch": {
+      "title": "Nemezis Zełenskiego publicznie go atakuje i prosi Zachód o interwencję",
+      "content": "Pomimo szacunku dla przywództwa Wołodymyra Zełenskiego w czasie wojny, ukraiński prezydent znalazł się pod presją."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Krytyka Wołodymyra Zełenskiego przez Petro Poroszenkę i wezwanie do interwencji Zachodu",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby lepiej odzwierciedlić treść artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 137,
+    "processing_time_ms": 19383,
+    "model": "gpt-4o-mini"
+  }
+}

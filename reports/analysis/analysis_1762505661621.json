@@ -1,0 +1,52 @@
+{
+  "id": 1762505661621,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/zbigniew-ziobro-nie-stawil-sie-na-komisji-media-znalazly-bylego-ministra/52w9sp3",
+  "title": "Media znalazły Zbigniewa Ziobrę. Wiadomo, gdzie przebywa były minister",
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'Media znalazły', co może wzbudzać ciekawość.",
+    "Treść artykułu jest zgodna z tytułem, informując o lokalizacji Zbigniewa Ziobry.",
+    "Nie występują w treści żadne absoluty ani przesadne stwierdzenia.",
+    "Tytuł i treść są spójne, co zmniejsza ryzyko rozbieżności.",
+    "W artykule występują konkretne informacje, takie jak lokalizacja i kontekst, co zwiększa wiarygodność."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł może przyciągać uwagę, ponieważ sugeruje, że media odkryły coś ważnego.",
+    "Artykuł dokładnie opisuje, gdzie przebywa Zbigniew Ziobro, co jest zgodne z tytułem.",
+    "Nie ma w nim przesadnych stwierdzeń ani niepotrzebnych emocji.",
+    "Tytuł i treść pasują do siebie, co sprawia, że artykuł jest bardziej wiarygodny.",
+    "Podano konkretne informacje, co dodaje rzetelności artykułowi."
+  ],
+  "summary": "Artykuł informuje, że były minister sprawiedliwości Zbigniew Ziobro przebywa w Budapeszcie na Węgrzech w czasie posiedzenia sejmowej komisji. Wskazano, że znajduje się w siedzibie Centrum Praw Podstawowych, związanym z Polsko-Węgierskim Instytutem Wolności.",
+  "signals": {
+    "title_hits": [
+      "Media znalazły",
+      "Wiadomo, gdzie przebywa"
+    ],
+    "content_hits": [
+      "Zbigniew Ziobro",
+      "Budapeszt",
+      "były minister"
+    ],
+    "credibility_hits": [
+      "Telewizja Republika",
+      "Centrum Praw Podstawowych"
+    ],
+    "mismatch": {
+      "exists": false,
+      "details": "Tytuł i treść są zgodne."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Zbigniew Ziobro przebywa w Budapeszcie podczas posiedzenia komisji.",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 75,
+    "processing_time_ms": 13670,
+    "model": "gpt-4o-mini"
+  }
+}

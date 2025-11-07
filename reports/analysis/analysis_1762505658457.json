@@ -1,0 +1,47 @@
+{
+  "id": 1762505658457,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/rosja-wprowadza-blokade-internetu-dla-powracajacych-obywateli-nowe-zasady/c6cb98j",
+  "title": "Rosja blokuje internet dla powracających obywateli. Karty SIM znikają na 24 godziny",
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'blokuje internet' i 'znikają na 24 godziny', co może wzbudzać ciekawość.",
+    "Treść artykułu jest zgodna z tytułem, jednak nie dostarcza szczegółowych informacji, które mogłyby potwierdzić dramatyzm sytuacji.",
+    "Brak cytatów i konkretnych danych liczbowych, co obniża poziom wiarygodności.",
+    "W artykule nie występują absoluty ani przesadne stwierdzenia, co wpływa na niższy poziom clickbaitu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł artykułu używa mocnych słów, które mogą przyciągać uwagę, jak 'blokuje' i 'znikają'.",
+    "Treść jest zgodna z tytułem, ale nie dostarcza wielu szczegółów, co może sprawiać wrażenie, że sytuacja jest bardziej dramatyczna niż w rzeczywistości.",
+    "Brak cytatów i konkretów sprawia, że artykuł wydaje się mniej wiarygodny.",
+    "Nie ma w nim przesadnych stwierdzeń, co czyni go mniej clickbaitowym."
+  ],
+  "summary": "Rosyjskie władze planują wprowadzenie okresu karencji dla obywateli wracających do kraju, podczas którego nie będą mieli dostępu do mobilnego internetu i SMS-ów. Blokada dotyczy osób korzystających z roamingu międzynarodowego lub posiadających nieaktywne karty SIM przez trzy dni. Informacje te pochodzą z rosyjskich mediów.",
+  "signals": {
+    "title_hits": [
+      "blokuje internet",
+      "znikają na 24 godziny"
+    ],
+    "content_hits": [
+      "okres karencji",
+      "mobilny internet",
+      "SMS-y"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "exists": false,
+      "details": ""
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Rosja wprowadza blokadę internetu dla powracających obywateli.",
+    "notes_to_editor": "Rozważyć dodanie więcej danych i cytatów dla zwiększenia wiarygodności artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 13,
+    "tokens_content": 91,
+    "processing_time_ms": 17220,
+    "model": "gpt-4o-mini"
+  }
+}

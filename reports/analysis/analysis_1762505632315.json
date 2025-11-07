@@ -1,0 +1,49 @@
+{
+  "id": 1762505632315,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/sad-najwyzszy-blokuje-prokuratorow-w-postepowaniach-kasacyjnych/hebbfy1",
+  "title": "Sąd Najwyższy blokuje prokuratorów w postępowaniach kasacyjnych",
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera słowo 'blokuje', co może sugerować konflikt, ale nie jest to fraza ekstremalna.",
+    "Treść artykułu jest zgodna z tytułem, nie ma istotnych rozbieżności.",
+    "W artykule pojawiają się konkretne liczby (około 50 postanowień), co zwiększa wiarygodność.",
+    "Brak fraz sensacyjnych i absolutów w treści.",
+    "Nie występują luki ciekawości, ponieważ artykuł dostarcza pełne informacje na temat sytuacji."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł sugeruje, że Sąd Najwyższy podejmuje ważne decyzje, co jest zgodne z treścią artykułu.",
+    "W artykule podano konkretne liczby, co sprawia, że jest bardziej wiarygodny.",
+    "Nie ma w nim przesadnych lub sensacyjnych stwierdzeń, co czyni go mniej clickbaitowym.",
+    "Treść jest jasna i dostarcza pełnych informacji na temat sytuacji w sądzie."
+  ],
+  "summary": "Artykuł informuje o decyzjach Sądu Najwyższego, który wydał około 50 postanowień blokujących prokuratorów w postępowaniach kasacyjnych. Prokuratorzy domagają się wykluczenia sędziów powołanych po 2017 roku. Najwięcej decyzji zapadło w Izbie Cywilnej oraz Izbie Pracy.",
+  "signals": {
+    "title_hits": [
+      "blokuje"
+    ],
+    "content_hits": [
+      "około 50 postanowień",
+      "sędziów powołanych po 2017 r."
+    ],
+    "credibility_hits": [
+      "Dziennikarze Onet Wiadomości",
+      "Rzeczpospolita"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "content_details": "Treść artykułu w pełni odpowiada tytułowi."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Sąd Najwyższy podejmuje decyzje w sprawie prokuratorów w postępowaniach kasacyjnych",
+    "notes_to_editor": "Artykuł jest informacyjny i nie zawiera elementów clickbaitowych."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 92,
+    "processing_time_ms": 15772,
+    "model": "gpt-4o-mini"
+  }
+}

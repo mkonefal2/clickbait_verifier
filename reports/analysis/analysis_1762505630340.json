@@ -1,0 +1,47 @@
+{
+  "id": 1762505630340,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/narodowe-centrum-kultury-wciaz-bez-siedziby-media-miliony-trafily-do-tvp/tg8s2tm",
+  "title": "Narodowe Centrum Kultury wciąż bez siedziby. Media: miliony trafiły do TVP",
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy sugerujące problem (\"wciąż bez siedziby\") oraz odniesienie do pieniędzy (\"miliony trafiły do TVP\"), co może budzić ciekawość.",
+    "Treść artykułu jest zgodna z tytułem, jednak nie zawiera dodatkowych informacji, które mogłyby potwierdzić sensacyjność tytułu.",
+    "W artykule brakuje cytatów i konkretnych źródeł, co wpływa na wiarygodność informacji.",
+    "W treści nie występują żadne absoluty ani wyraźne luki ciekawości, co obniża stopień clickbaitu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł wskazuje na problem z siedzibą Narodowego Centrum Kultury oraz informuje o dużych kwotach pieniędzy, co może przyciągać uwagę.",
+    "Treść artykułu odpowiada tytułowi, ale nie dostarcza dodatkowych informacji, które mogłyby wzbudzić większe zainteresowanie.",
+    "Brak cytatów i źródeł w artykule wpływa na jego wiarygodność.",
+    "Nie ma w artykule przesadnych stwierdzeń ani elementów, które mogłyby wywoływać silne emocje."
+  ],
+  "summary": "Artykuł opisuje sytuację Narodowego Centrum Kultury, które od kilku lat poszukuje nowej siedziby. W 2024 roku planowana przeprowadzka nie doszła do skutku z powodu wad prawnych, a przeznaczone na ten cel 69 milionów złotych trafiło do mediów publicznych. Informacje pochodzą z relacji TVN24.",
+  "signals": {
+    "title_hits": [
+      "wciąż bez siedziby",
+      "miliony trafiły"
+    ],
+    "content_hits": [
+      "Narodowe Centrum Kultury",
+      "69 mln zł",
+      "media publiczne"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "title_content_match": true,
+      "content_details": false
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Narodowe Centrum Kultury poszukuje siedziby, a fundusze zostały przekazane do TVP",
+    "notes_to_editor": "Zaleca się dodanie źródeł i cytatów dla zwiększenia wiarygodności artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 12,
+    "tokens_content": 92,
+    "processing_time_ms": 13792,
+    "model": "gpt-4o-mini"
+  }
+}

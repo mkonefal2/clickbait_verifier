@@ -1,0 +1,48 @@
+{
+  "id": 1762505644753,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/politico/rosja-chce-nas-wycisnac-do-ostatniej-kropli-krwi-jest-sposob-by-temu-zapobiec-opinia/54s0ejm",
+  "title": "Rosja chce nas wycisnąć do ostatniej kropli krwi. Ofiary śmiertelne to kwestia czasu [OPINIA]",
+  "score": 85,
+  "label": "very_extreme",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'wycisnąć do ostatniej kropli krwi' oraz 'ofiary śmiertelne', co wzbudza silne emocje.",
+    "Treść artykułu odnosi się do poważnych zagrożeń, ale używa dramatycznego języka, co zwiększa stopień clickbaitu.",
+    "Występuje rozbieżność między tytułem a treścią, ponieważ tytuł sugeruje bezpośrednie zagrożenie, podczas gdy treść koncentruje się na analizie sytuacji.",
+    "Brak konkretnych danych liczbowych lub cytatów, co obniża sygnały wiarygodności.",
+    "Mismatched detection wskazuje na wysoką rozbieżność między tytułem a treścią."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa dramatycznych sformułowań, które mają na celu przyciągnięcie uwagi czytelnika.",
+    "Artykuł porusza poważne zagrożenia, ale sposób ich przedstawienia jest bardzo emocjonalny.",
+    "Tytuł sugeruje bezpośrednie niebezpieczeństwo, podczas gdy treść bardziej analizuje sytuację.",
+    "Brak konkretów w postaci danych lub cytatów osłabia wiarygodność artykułu.",
+    "Występuje duża różnica między tym, co obiecuje tytuł, a tym, co jest w treści."
+  ],
+  "summary": "Artykuł omawia zagrożenia związane z cyberprzestępczością ze strony Rosji, koncentrując się na atakach na Liverpool oraz ich wpływie na inne kraje zachodnie, w tym Polskę. Autorka wskazuje na niebezpieczną strategię Kremla, która może prowadzić do ofiar śmiertelnych. Wskazuje na potrzebę działania, aby zapobiec tym zagrożeniom.",
+  "signals": {
+    "title_hits": [
+      "wycisnąć do ostatniej kropli krwi",
+      "ofiary śmiertelne"
+    ],
+    "content_hits": [
+      "cyberprzestępczość",
+      "strategia Kremla"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "title": "Rosja chce nas wycisnąć do ostatniej kropli krwi. Ofiary śmiertelne to kwestia czasu",
+      "content": "Rosja chce nas wycisnąć do ostatniej kropli krwi. Jest sposób, by temu zapobiec"
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Rosja prowadzi ataki cyberprzestępcze na Zachód, w tym Polskę",
+    "notes_to_editor": "Rozważyć użycie mniej dramatycznego języka w tytule, aby lepiej odzwierciedlić treść artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 14,
+    "tokens_content": 169,
+    "processing_time_ms": 17690,
+    "model": "gpt-4o-mini"
+  }
+}

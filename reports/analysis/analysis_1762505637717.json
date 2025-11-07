@@ -1,0 +1,52 @@
+{
+  "id": 1762505637717,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/wolna-wigilia-dla-kurierow-dpd-nie-wszyscy-moga-liczyc-na-odpoczynek/qjhs49w",
+  "title": "Wolna Wigilia dla kurierów DPD? Nie wszyscy mogą liczyć na odpoczynek",
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera pytanie, co może budzić ciekawość, ale nie jest skrajnie sensacyjny.",
+    "Treść artykułu jest zgodna z tytułem, informując o sytuacji kurierów DPD w kontekście Wigilii.",
+    "W artykule pojawiają się konkretne informacje, takie jak źródło (Gazeta Wyborcza) oraz kontekst dotyczący kurierów prowadzących jednoosobową działalność gospodarczą.",
+    "Nie znaleziono wyraźnych fraz sensacyjnych ani absolutów w treści.",
+    "Mismatched detection nie występuje, ponieważ tytuł i treść są spójne."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zadaje pytanie, co może przyciągać uwagę, ale nie jest przesadnie dramatyczny.",
+    "Treść artykułu wyjaśnia sytuację kurierów DPD w związku z dniem wolnym na Wigilię, co jest zgodne z tytułem.",
+    "Artykuł zawiera konkretne informacje, takie jak źródło i kontekst dotyczący kurierów, co zwiększa jego wiarygodność.",
+    "Nie znaleziono przesadnych lub sensacyjnych stwierdzeń w treści.",
+    "Tytuł i treść dobrze się uzupełniają, nie ma rozbieżności."
+  ],
+  "summary": "Artykuł informuje, że firma kurierska DPD ogłosiła, iż Wigilia będzie dniem wolnym dla jej pracowników. Jednak niektórzy kurierzy, prowadzący jednoosobową działalność gospodarczą, będą musieli pracować, ponieważ nie mają podpisanej umowy bezpośrednio z firmą. Informacje te pochodzą z \"Gazety Wyborczej\".",
+  "signals": {
+    "title_hits": [
+      "wolna Wigilia",
+      "kurierzy DPD",
+      "nie wszyscy mogą liczyć na odpoczynek"
+    ],
+    "content_hits": [
+      "Wigilia",
+      "kurierzy DPD",
+      "jednoosobowa działalność gospodarcza"
+    ],
+    "credibility_hits": [
+      "Gazeta Wyborcza"
+    ],
+    "mismatch": {
+      "exists": false,
+      "details": "Tytuł i treść są zgodne."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Wigilia dla kurierów DPD: nie wszyscy będą mieli dzień wolny",
+    "notes_to_editor": "Artykuł dobrze informuje o sytuacji kurierów DPD, ale tytuł mógłby być bardziej neutralny."
+  },
+  "diagnostics": {
+    "tokens_title": 14,
+    "tokens_content": 97,
+    "processing_time_ms": 17784,
+    "model": "gpt-4o-mini"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": 1762505601795,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/polska/news-ustawa-bez-podpisu-jest-weto-prezydenta-nawrockiego,nId,8038476",
+  "title": "Ustawa bez podpisu. Jest weto prezydenta Nawrockiego",
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy, które mogą budzić ciekawość, ale nie są skrajnie sensacyjne.",
+    "Treść artykułu jest zgodna z tytułem, co obniża ryzyko rozbieżności.",
+    "W artykule występują konkretne informacje, takie jak uzasadnienie weta przez prezydenta, co zwiększa wiarygodność.",
+    "Nie znaleziono wyraźnych sygnałów clickbaitowych w treści."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł nie jest przesadnie sensacyjny, ale może przyciągać uwagę.",
+    "Treść artykułu odpowiada temu, co jest napisane w tytule, co jest pozytywne.",
+    "Artykuł zawiera konkretne informacje, co sprawia, że jest bardziej wiarygodny.",
+    "Nie ma w nim przesadnych stwierdzeń ani niejasności."
+  ],
+  "summary": "Artykuł informuje o decyzji prezydenta Karola Nawrockiego, który zawetował nowelizację ustawy znoszącą obowiązek nakładania kar przez KNF na firmy ubezpieczeniowe za opóźnienia w likwidacji szkód. Prezydent argumentuje, że zmiany mogłyby prowadzić do negatywnych praktyk wśród ubezpieczycieli, co byłoby niekorzystne dla społeczeństwa.",
+  "signals": {
+    "title_hits": [],
+    "content_hits": [
+      "weto prezydenta",
+      "negatywnych praktyk",
+      "obowiązek nakładania kar"
+    ],
+    "credibility_hits": [
+      "źródło: rmf24",
+      "uzasadnienie weta"
+    ],
+    "mismatch": {
+      "is_mismatch": false,
+      "mismatch_details": ""
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Prezydent Nawrocki zawetował nowelizację ustawy",
+    "notes_to_editor": "Artykuł jest informacyjny i nie zawiera przesadnych stwierdzeń."
+  },
+  "diagnostics": {
+    "tokens_title": 8,
+    "tokens_content": 420,
+    "processing_time_ms": 16989,
+    "model": "gpt-4o-mini"
+  }
+}

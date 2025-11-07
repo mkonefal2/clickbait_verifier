@@ -1,0 +1,51 @@
+{
+  "id": 1762505602762,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/fakty/swiat/news-eksplozja-powerbanku-na-lotnisku-urzadzenie-przegrzalo-sie-w,nId,8038527",
+  "title": "Eksplozja powerbanku na lotnisku. Urządzenie przegrzało się w kieszeni mężczyzny",
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'eksplozja' i 'przegrzało się', co przyciąga uwagę.",
+    "Treść artykułu jest zgodna z tytułem, ale zawiera również dodatkowe informacje, co zmniejsza stopień clickbaitu.",
+    "W artykule występują liczby (150 osób ewakuowanych), co podnosi jego wiarygodność.",
+    "Brak wyraźnych sygnałów wiarygodności, takich jak cytaty z ekspertów czy źródła naukowe."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jest sensacyjny i przyciągający uwagę, co może sugerować clickbait.",
+    "Artykuł dobrze opisuje incydent, a tytuł odpowiada treści, co zmniejsza wrażenie przesady.",
+    "Podano konkretne liczby, co dodaje wiarygodności, ale brak jest cytatów z ekspertów.",
+    "Ogólnie artykuł jest informacyjny, ale tytuł mógłby być mniej dramatyczny."
+  ],
+  "summary": "Na lotnisku w Melbourne doszło do incydentu, w którym powerbank w kieszeni pasażera przegrzał się i eksplodował. W wyniku zadymienia ewakuowano 150 osób. Mężczyzna doznał poparzeń, a linie Qantas analizują zasady przewozu urządzeń z bateriami litowymi w odpowiedzi na ten i inne podobne incydenty.",
+  "signals": {
+    "title_hits": [
+      "eksplozja",
+      "przegrzało się"
+    ],
+    "content_hits": [
+      "eksplozja powerbanku",
+      "ewakuacja 150 osób",
+      "poparzenia"
+    ],
+    "credibility_hits": [
+      "150 osób",
+      "świadkowie",
+      "linia Qantas"
+    ],
+    "mismatch": {
+      "title": "Eksplozja powerbanku na lotnisku. Urządzenie przegrzało się w kieszeni mężczyzny",
+      "content": "Treść artykułu opisuje incydent związany z eksplozją powerbanku, co jest zgodne z tytułem."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Incydent z powerbankiem na lotnisku w Melbourne",
+    "notes_to_editor": "Rozważyć mniej dramatyczny tytuł, aby lepiej odzwierciedlić treść artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 12,
+    "tokens_content": 380,
+    "processing_time_ms": 16803,
+    "model": "gpt-4o-mini"
+  }
+}

@@ -1,0 +1,442 @@
+<!DOCTYPE html><html><head>
+      <title>PRACA_INZYNIERSKA_PROMOTOR</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="file:///c:\Users\micha\.vscode\extensions\shd101wyy.markdown-preview-enhanced-0.8.20\crossnote\dependencies\katex\katex.min.css">
+      
+      
+      <script type="text/javascript" src="file:///c:\Users\micha\.vscode\extensions\shd101wyy.markdown-preview-enhanced-0.8.20\crossnote\dependencies\mermaid\mermaid.min.js" charset="UTF-8"></script>
+      
+      
+      <style>
+      code[class*=language-],pre[class*=language-]{color:#333;background:0 0;font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.4;-moz-tab-size:8;-o-tab-size:8;tab-size:8;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:.8em;overflow:auto;border-radius:3px;background:#f5f5f5}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal;background:#f5f5f5}.token.blockquote,.token.comment{color:#969896}.token.cdata{color:#183691}.token.doctype,.token.macro.property,.token.punctuation,.token.variable{color:#333}.token.builtin,.token.important,.token.keyword,.token.operator,.token.rule{color:#a71d5d}.token.attr-value,.token.regex,.token.string,.token.url{color:#183691}.token.atrule,.token.boolean,.token.code,.token.command,.token.constant,.token.entity,.token.number,.token.property,.token.symbol{color:#0086b3}.token.prolog,.token.selector,.token.tag{color:#63a35c}.token.attr-name,.token.class,.token.class-name,.token.function,.token.id,.token.namespace,.token.pseudo-class,.token.pseudo-element,.token.url-reference .token.variable{color:#795da3}.token.entity{cursor:help}.token.title,.token.title .token.punctuation{font-weight:700;color:#1d3e81}.token.list{color:#ed6a43}.token.inserted{background-color:#eaffea;color:#55a532}.token.deleted{background-color:#ffecec;color:#bd2c00}.token.bold{font-weight:700}.token.italic{font-style:italic}.language-json .token.property{color:#183691}.language-markup .token.tag .token.punctuation{color:#333}.language-css .token.function,code.language-css{color:#0086b3}.language-yaml .token.atrule{color:#63a35c}code.language-yaml{color:#183691}.language-ruby .token.function{color:#333}.language-markdown .token.url{color:#795da3}.language-makefile .token.symbol{color:#795da3}.language-makefile .token.variable{color:#183691}.language-makefile .token.builtin{color:#0086b3}.language-bash .token.keyword{color:#0086b3}pre[data-line]{position:relative;padding:1em 0 1em 3em}pre[data-line] .line-highlight-wrapper{position:absolute;top:0;left:0;background-color:transparent;display:block;width:100%}pre[data-line] .line-highlight{position:absolute;left:0;right:0;padding:inherit 0;margin-top:1em;background:hsla(24,20%,50%,.08);background:linear-gradient(to right,hsla(24,20%,50%,.1) 70%,hsla(24,20%,50%,0));pointer-events:none;line-height:inherit;white-space:pre}pre[data-line] .line-highlight:before,pre[data-line] .line-highlight[data-end]:after{content:attr(data-start);position:absolute;top:.4em;left:.6em;min-width:1em;padding:0 .5em;background-color:hsla(24,20%,50%,.4);color:#f4f1ef;font:bold 65%/1.5 sans-serif;text-align:center;vertical-align:.3em;border-radius:999px;text-shadow:none;box-shadow:0 1px #fff}pre[data-line] .line-highlight[data-end]:after{content:attr(data-end);top:auto;bottom:.4em}html body{font-family:'Helvetica Neue',Helvetica,'Segoe UI',Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ol,html body>ul{margin-bottom:16px}html body ol,html body ul{padding-left:2em}html body ol.no-list,html body ul.no-list{padding:0;list-style-type:none}html body ol ol,html body ol ul,html body ul ol,html body ul ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:700;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::after,html body code::before{letter-spacing:-.2em;content:'\00a0'}html body pre>code{padding:0;margin:0;word-break:normal;white-space:pre;background:0 0;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:after,html body pre code:before,html body pre tt:after,html body pre tt:before{content:normal}html body blockquote,html body dl,html body ol,html body p,html body pre,html body ul{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body code,html body pre{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview ul{list-style:disc}.markdown-preview ul ul{list-style:circle}.markdown-preview ul ul ul{list-style:square}.markdown-preview ol{list-style:decimal}.markdown-preview ol ol,.markdown-preview ul ol{list-style-type:lower-roman}.markdown-preview ol ol ol,.markdown-preview ol ul ol,.markdown-preview ul ol ol,.markdown-preview ul ul ol{list-style-type:lower-alpha}.markdown-preview .newpage,.markdown-preview .pagebreak{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center!important}.markdown-preview:not([data-for=preview]) .code-chunk .code-chunk-btn-group{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .status{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .output-div{margin-bottom:16px}.markdown-preview .md-toc{padding:0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div,.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}.markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0;min-height:100vh}@media screen and (min-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{font-size:14px!important;padding:1em}}@media print{html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc{padding:0 16px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div,html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% - 300px);padding:2em calc(50% - 457px - 300px / 2);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+      </style>
+      <!-- The content below will be included at the end of the <head> element. --><script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function () {
+    // your code here
+  });
+</script></head><body for="html-export">
+    
+    
+      <div class="crossnote markdown-preview  ">
+      
+<h1 id="clickbait-verifier---propozycja-pracy-inżynierskiej">Clickbait Verifier - Propozycja Pracy Inżynierskiej </h1>
+<h2 id="podstawowe-informacje">Podstawowe informacje </h2>
+<p><strong>Tytuł (propozycja):</strong> System automatycznej detekcji clickbaitu w polskich mediach z wykorzystaniem modeli GPT</p>
+<p><strong>GitHub:</strong> <a href="https://github.com/mkonefal2/clickbait_verifier">https://github.com/mkonefal2/clickbait_verifier</a><br>
+<strong>Live demo:</strong> <a href="https://clickbaitverifier.streamlit.app/">https://clickbaitverifier.streamlit.app/</a></p>
+<hr>
+<h2 id="cel-pracy">Cel pracy </h2>
+<p>Stworzenie w pełni zautomatyzowanego systemu detekcji clickbaitu w polskich mediach internetowych, wykorzystującego:</p>
+<ul>
+<li><strong>Web scraping</strong> (automatyczne zbieranie artykułów)</li>
+<li><strong>GPT-4</strong> (analiza NLP i scoring)</li>
+<li><strong>GitHub Actions</strong> (CI/CD pipeline)</li>
+<li><strong>Streamlit</strong> (interfejs użytkownika)</li>
+</ul>
+<h3 id="problem-badawczy">Problem badawczy </h3>
+<p>Clickbait w polskich mediach to rosnący problem wpływający na jakość dziennikarstwa i zaufanie społeczne. Brakuje narzędzi do automatycznej detekcji sensacyjnych tytułów w języku polskim.</p>
+<h3 id="rozwiązanie">Rozwiązanie </h3>
+<p>System w pełni zautomatyzowany, który:</p>
+<ol>
+<li>Codziennie scrapuje artykuły z 2 polskich portali</li>
+<li>Analizuje je przy użyciu GPT-4o-mini (scoring 0-100)</li>
+<li>Publikuje wyniki w czasie rzeczywistym (live deployment)</li>
+<li>Nie wymaga ręcznej interwencji</li>
+</ol>
+<hr>
+<h2 id="architektura-systemu">Architektura systemu </h2>
+<h3 id="high-level-architecture">High-Level Architecture </h3>
+<div class="mermaid">graph TB
+    subgraph "External Sources"
+        WEB1[Onet.pl]
+        WEB2[RMF24.pl]
+        WEB3[Interia.pl]
+        WEB4[Focus.pl]
+        WEB5[NaukaWPolsce.pl]
+    end
+    
+    subgraph "GitHub Actions - CI/CD Pipeline"
+        CRON[Cron Scheduler&lt;br/&gt;14:30 UTC Daily]
+        SCRAPE_JOB[Scrape Job&lt;br/&gt;Python Script]
+        ANALYZE_JOB[Analyze Job&lt;br/&gt;GPT Analysis]
+        GIT_COMMIT[Auto Commit&lt;br/&gt;Results to Repo]
+    end
+    
+    subgraph "Data Collection Layer"
+        SCRAPER[Web Scraper&lt;br/&gt;scraper.py]
+        FETCHER[HTTP Fetcher&lt;br/&gt;fetcher.py]
+        PARSER[Content Parser&lt;br/&gt;parser.py]
+        EXTRACTOR[YAML Extractors&lt;br/&gt;extractors/*.yaml]
+    end
+    
+    subgraph "AI Analysis Layer"
+        GPT_ANALYZER[GPT Analyzer&lt;br/&gt;analyzer.py]
+        OPENAI_API[OpenAI API&lt;br/&gt;GPT-4o-mini]
+        PROMPT_ENG[Prompt Engineering&lt;br/&gt;System + User Prompts]
+        SPEC[YAML Spec&lt;br/&gt;Scoring Rules]
+    end
+    
+    subgraph "Data Storage"
+        JSON_SCRAPED[(JSON Files&lt;br/&gt;reports/scraped/)]
+        JSON_ANALYSIS[(JSON Files&lt;br/&gt;reports/analysis/)]
+        SCHEMA[JSON Schema&lt;br/&gt;Validation]
+    end
+    
+    subgraph "Presentation Layer - Streamlit UI"
+        FEED[Feed View&lt;br/&gt;feed_view.py&lt;br/&gt;Main User Interface]
+        ARTICLE[Article View&lt;br/&gt;analysis_view.py&lt;br/&gt;Detailed Analysis]
+    end
+    
+    subgraph "User Interface"
+        BROWSER[Web Browser&lt;br/&gt;localhost:8501&lt;br/&gt;OR&lt;br/&gt;clickbaitverifier.streamlit.app]
+    end
+    
+    %% Data Collection Flow (Automated via GitHub Actions)
+    WEB1 &amp; WEB2 &amp; WEB3 &amp; WEB4 &amp; WEB5 --&gt; FETCHER
+    FETCHER --&gt; PARSER
+    PARSER --&gt; EXTRACTOR
+    EXTRACTOR --&gt; SCRAPER
+    SCRAPER --&gt; JSON_SCRAPED
+    
+    %% Analysis Flow (Automated via GitHub Actions)
+    JSON_SCRAPED --&gt; GPT_ANALYZER
+    SPEC --&gt; PROMPT_ENG
+    PROMPT_ENG --&gt; GPT_ANALYZER
+    GPT_ANALYZER --&gt; OPENAI_API
+    OPENAI_API --&gt; GPT_ANALYZER
+    GPT_ANALYZER --&gt; JSON_ANALYSIS
+    JSON_ANALYSIS --&gt; SCHEMA
+    
+    %% Presentation Flow (Read-only for end users)
+    JSON_SCRAPED &amp; JSON_ANALYSIS --&gt; FEED
+    JSON_SCRAPED &amp; JSON_ANALYSIS --&gt; ARTICLE
+    FEED &amp; ARTICLE --&gt; BROWSER
+    
+    %% CI/CD Flow (Automated data collection &amp; analysis)
+    CRON --&gt; SCRAPE_JOB
+    SCRAPE_JOB --&gt; SCRAPER
+    SCRAPE_JOB --&gt; ANALYZE_JOB
+    ANALYZE_JOB --&gt; GPT_ANALYZER
+    ANALYZE_JOB --&gt; GIT_COMMIT
+    GIT_COMMIT --&gt; JSON_SCRAPED
+    GIT_COMMIT --&gt; JSON_ANALYSIS
+    
+    %% Styling
+    classDef external fill:#e1f5ff,stroke:#01579b,stroke-width:2px
+    classDef collection fill:#fff3e0,stroke:#e65100,stroke-width:2px
+    classDef analysis fill:#f3e5f5,stroke:#4a148c,stroke-width:2px
+    classDef storage fill:#e8f5e9,stroke:#1b5e20,stroke-width:2px
+    classDef ui fill:#fce4ec,stroke:#880e4f,stroke-width:2px
+    classDef cicd fill:#fff9c4,stroke:#f57f17,stroke-width:2px
+    
+    class WEB1,WEB2,WEB3,WEB4,WEB5 external
+    class SCRAPER,FETCHER,PARSER,EXTRACTOR collection
+    class GPT_ANALYZER,OPENAI_API,PROMPT_ENG,SPEC analysis
+    class JSON_SCRAPED,JSON_ANALYSIS,SCHEMA storage
+    class FEED,ARTICLE,BROWSER ui
+    class CRON,SCRAPE_JOB,ANALYZE_JOB,GIT_COMMIT cicd
+</div><h3 id="continuous-deployment-flow">Continuous Deployment Flow </h3>
+<div class="mermaid">sequenceDiagram
+    participant Dev as Developer
+    participant Local as Local Git
+    participant GitHub as GitHub Repository
+    participant Actions as GitHub Actions
+    participant StreamlitCloud as Streamlit Cloud
+    participant Users as End Users
+    
+    Note over Dev,Users: Complete CI/CD Pipeline
+    
+    Dev-&gt;&gt;Local: git commit -m "Update code"
+    Dev-&gt;&gt;Local: git push origin master
+    Local-&gt;&gt;GitHub: Push changes to master
+    
+    Note over GitHub,Actions: Automated Data Collection
+    
+    GitHub-&gt;&gt;Actions: Trigger workflow (cron: 14:30 UTC)
+    Actions-&gt;&gt;Actions: Run scrape job
+    Actions-&gt;&gt;Actions: Fetch articles from sources
+    Actions-&gt;&gt;Actions: Run analyze job (GPT-4o-mini)
+    Actions-&gt;&gt;GitHub: Commit new JSON files&lt;br/&gt;(reports/*.json)
+    
+    Note over GitHub,StreamlitCloud: Automated Deployment
+    
+    GitHub-&gt;&gt;StreamlitCloud: Webhook: code/data changed
+    StreamlitCloud-&gt;&gt;StreamlitCloud: Pull latest from master
+    StreamlitCloud-&gt;&gt;StreamlitCloud: pip install -r requirements.txt
+    StreamlitCloud-&gt;&gt;StreamlitCloud: Load environment variables
+    StreamlitCloud-&gt;&gt;StreamlitCloud: Start streamlit app
+    StreamlitCloud-&gt;&gt;StreamlitCloud: Deploy to clickbaitverifier.streamlit.app
+    
+    Note over StreamlitCloud,Users: Live Application
+    
+    Users-&gt;&gt;StreamlitCloud: Visit https://clickbaitverifier.streamlit.app
+    StreamlitCloud-&gt;&gt;StreamlitCloud: Load reports/*.json
+    StreamlitCloud-&gt;&gt;Users: Display feed with latest analyses
+    
+    Note over Dev,Users: Zero-downtime deployment!
+</div><hr>
+<h2 id="obecny-stan-projektu">Obecny stan projektu </h2>
+<h3 id="metryki">Metryki </h3>
+<ul>
+<li><strong>~2000+ linii kodu</strong> (Python, Streamlit, YAML configs)</li>
+<li><strong>941+ przeanalizowanych artykułów</strong> (real-world data)</li>
+<li><strong>2 źródła danych</strong> (Onet, RMF24, w planach wiele innych)</li>
+<li><strong>Production-ready</strong> (live deployment: <a href="https://clickbaitverifier.streamlit.app/">https://clickbaitverifier.streamlit.app/</a>)</li>
+<li><strong>Automated pipeline</strong> (GitHub Actions: daily scraping + analysis)</li>
+<li><strong>Cost-efficient</strong> (~$0.0001 per article, ~17s analysis time)</li>
+</ul>
+<h3 id="technologie">Technologie </h3>
+<ul>
+<li><strong>Backend:</strong> Python 3.11, BeautifulSoup, Requests, OpenAI SDK</li>
+<li><strong>AI/ML:</strong> GPT-4o-mini (OpenAI API), Prompt Engineering</li>
+<li><strong>Frontend:</strong> Streamlit (responsywny UI)</li>
+<li><strong>DevOps:</strong> GitHub Actions (CI/CD), Streamlit Cloud (hosting)</li>
+<li><strong>Data:</strong> JSON files, YAML configs, Git versioning</li>
+</ul>
+<h3 id="scoring-system">Scoring System </h3>
+<ul>
+<li><strong>Skala:</strong> 0-100 punktów</li>
+<li><strong>Kategorie:</strong>
+<ul>
+<li><code>not_clickbait</code> (0-24): artykuły informacyjne</li>
+<li><code>mild</code> (25-49): lekkie cechy clickbaitowe</li>
+<li><code>strong</code> (50-74): wyraźny clickbait</li>
+<li><code>extreme</code> (75-100): skrajny clickbait</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="proponowana-struktura-pracy">Proponowana struktura pracy </h2>
+<h3 id="rozdział-1-wprowadzenie">Rozdział 1: Wprowadzenie </h3>
+<ul>
+<li>Problem clickbaitu w polskich mediach</li>
+<li>Cel pracy: automatyczna detekcja</li>
+<li>Zakres projektu i użyte technologie</li>
+</ul>
+<h3 id="rozdział-2-analiza-problemu">Rozdział 2: Analiza problemu </h3>
+<ul>
+<li>Definicje clickbaitu z literatury</li>
+<li>Metody detekcji (NLP, ML, LLMs)</li>
+<li>Przegląd istniejących rozwiązań (luka w polskojęzycznych narzędziach)</li>
+<li>Wybór technologii (Python, GPT-4, Streamlit, GitHub Actions)</li>
+</ul>
+<h3 id="rozdział-3-projekt-systemu">Rozdział 3: Projekt systemu </h3>
+<ul>
+<li>Architektura ogólna (scraper → analyzer → UI)</li>
+<li>Moduł scrapingu (YAML-based extractors)</li>
+<li>Moduł analizy GPT (prompt engineering, scoring)</li>
+<li>Model danych (JSON schemas)</li>
+<li>Specyfikacja algorytmu (YAML spec, wagi kanałów)</li>
+</ul>
+<h3 id="rozdział-4-implementacja">Rozdział 4: Implementacja </h3>
+<ul>
+<li>Moduł scrapingu (implementacja, retry logic, rate limiting)</li>
+<li>Moduł analizy GPT (batch processing, validation)</li>
+<li>Interface użytkownika (Streamlit, views, filters)</li>
+<li>Automatyzacja (GitHub Actions workflow, cron scheduling)</li>
+<li>Deployment (Streamlit Cloud, continuous deployment)</li>
+</ul>
+<h3 id="rozdział-5-testy-i-walidacja">Rozdział 5: Testy i walidacja </h3>
+<ul>
+<li>Dataset</li>
+<li>Rozkład wyników (distribution scorów, kategorie)</li>
+<li>Analiza przypadków (true/false positives)</li>
+<li>Performance (czas, koszty API, throughput)</li>
+<li><strong>Walidacja z ocenami ludzkimi</strong> (do wykonania: precision, recall, F1-score)</li>
+</ul>
+<h3 id="rozdział-6-wyniki-i-dyskusja">Rozdział 6: Wyniki i dyskusja </h3>
+<ul>
+<li>Skuteczność detekcji</li>
+<li>Analiza błędów</li>
+<li>Analiza wzorców clickbaitu (najczęstsze frazy, różnice między źródłami)</li>
+<li>Aspekty etyczne (bias, privacy, transparentność)</li>
+</ul>
+<h3 id="rozdział-7-wnioski-i-rozwój">Rozdział 7: Wnioski i rozwój </h3>
+<ul>
+<li>Osiągnięcia projektu</li>
+<li>Wkład w dziedzinę (pierwszy polski system z GPT)</li>
+<li>Ograniczenia (zależność od API, koszty, język)</li>
+<li>Kierunki rozwoju (fine-tuning, browser extension, public API)</li>
+</ul>
+<hr>
+<h2 id="możliwości-badawcze">Możliwości badawcze </h2>
+<h3 id="1-walidacja-z-ocenami-ludzkimi">1. Walidacja z ocenami ludzkimi </h3>
+<ul>
+<li>Zebrać oceny od 3-5 osób dla 100-200 artykułów</li>
+<li>Obliczyć metryki: <strong>precision, recall, F1-score</strong></li>
+<li>Inter-annotator agreement (Cohen's kappa)</li>
+<li>Porównanie ocen GPT vs ludzie</li>
+</ul>
+<h3 id="2-analiza-wzorców-clickbaitu">2. Analiza wzorców clickbaitu </h3>
+<ul>
+<li>Najczęstsze frazy sensacyjne w polskich mediach</li>
+<li>Różnice między źródłami (które portale używają więcej clickbaitu?)</li>
+<li>Temporal analysis (jak clickbait zmienia się w czasie?)</li>
+<li>Correlation study (score vs engagement metrics)</li>
+</ul>
+<h3 id="3-porównanie-modeli">3. Porównanie modeli </h3>
+<ul>
+<li><strong>A/B testing:</strong> GPT-4o vs GPT-4o-mini vs GPT-3.5-turbo</li>
+<li>Koszty vs accuracy tradeoff</li>
+<li>Fine-tuning vs prompt engineering</li>
+</ul>
+<h3 id="4-rozszerzenia-techniczne">4. Rozszerzenia techniczne </h3>
+<ul>
+<li>Fine-tuning własnego modelu na polskich danych</li>
+<li>Ensemble methods (GPT + klasyczne ML)</li>
+<li>Browser extension (Chrome/Firefox)</li>
+<li>Public API (RESTful endpoint)</li>
+</ul>
+<h3 id="5-aspekty-społeczne">5. Aspekty społeczne </h3>
+<ul>
+<li>User study: czy system zmienia nawyki czytania?</li>
+<li>Impact study: reakcje redakcji na feedback</li>
+<li>Ethical considerations: odpowiedzialność za automatyczne oceny</li>
+</ul>
+<hr>
+<h2 id="unikalne-aspekty-projektu">Unikalne aspekty projektu </h2>
+<ol>
+<li><strong>Pierwszy polski system</strong> detekcji clickbaitu z GPT</li>
+<li><strong>Live deployment</strong> - publicznie dostępny (<a href="https://clickbaitverifier.streamlit.app/">https://clickbaitverifier.streamlit.app/</a>)</li>
+<li><strong>Fully automated pipeline</strong> - zero manual intervention (scraping → analysis → deployment)</li>
+<li><strong>GitHub Actions as data pipeline</strong> - nowoczesne podejście do MLOps</li>
+<li><strong>Real-world data</strong> - ~1000 artykułów z prawdziwych portali</li>
+<li><strong>Cost-efficient</strong> - $0.0001/article (skalowalne dla większych deploymentów)</li>
+<li><strong>Open-source ready</strong> - możliwość publikacji kodu</li>
+<li><strong>Continuous deployment</strong> - auto-update on every git push</li>
+<li><strong>Prompt engineering</strong> - zaawansowane system/user prompts z YAML spec</li>
+</ol>
+<hr>
+<h2 id="wkład-w-dziedzinę">Wkład w dziedzinę </h2>
+<h3 id="naukowy">Naukowy </h3>
+<ul>
+<li>Pierwsza praca badająca clickbait w <strong>polskich mediach</strong> z użyciem GPT</li>
+<li>Metodologia scoringu (0-100 scale z 4 kategoriami)</li>
+<li>Porównanie efektywności różnych LLMs</li>
+<li>Dataset z ocenami ludzkimi (do stworzenia)</li>
+</ul>
+<h3 id="techniczny">Techniczny </h3>
+<ul>
+<li>Open-source implementation (GitHub)</li>
+<li>YAML-based configuration (łatwe dodawanie źródeł)</li>
+<li>CI/CD pipeline dla ML/NLP tasks</li>
+<li>Production deployment (Streamlit Cloud)</li>
+</ul>
+<h3 id="społeczny">Społeczny </h3>
+<ul>
+<li>Edukacja użytkowników o manipulacji w mediach</li>
+<li>Narzędzie dla dziennikarzy/redakcji</li>
+<li>Publiczny dostęp do analiz (transparentność mediów)</li>
+</ul>
+<hr>
+<h2 id="dataset-i-możliwości-publikacji">Dataset i możliwości publikacji </h2>
+<h3 id="obecny-dataset">Obecny dataset </h3>
+<ul>
+<li><strong>941+ analiz</strong> z GPT-4o-mini</li>
+<li><strong>849 scraped articles</strong> (raw HTML + extracted content)</li>
+<li><strong>5 źródeł</strong> (różnorodność mediów)</li>
+<li><strong>Timespan:</strong> październik-listopad 2025</li>
+<li><strong>Metadata:</strong> timestamps, sources, scores, summaries, signals</li>
+</ul>
+<h3 id="możliwości-publikacji">Możliwości publikacji </h3>
+<ol>
+<li>
+<p><strong>Dataset publikacji:</strong></p>
+<ul>
+<li>100-200 artykułów z human annotations</li>
+<li>Ground truth dla polskiego clickbaitu</li>
+<li>Benchmark dla przyszłych badań</li>
+</ul>
+</li>
+<li>
+<p><strong>Paper konferencyjny:</strong></p>
+<ul>
+<li>NLP conferences (ACL, EMNLP, COLING)</li>
+<li>Polish NLP workshops (PolEval, LREC)</li>
+</ul>
+</li>
+<li>
+<p><strong>Open-source projekt:</strong></p>
+<ul>
+<li>GitHub repository z dokumentacją</li>
+<li>Tutorial: "How to build clickbait detector with GPT"</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="dlaczego-ten-projekt-nadaje-się-na-pracę-inżynierską">Dlaczego ten projekt nadaje się na pracę inżynierską? </h2>
+<h3 id="kompleksowość-techniczna">Kompleksowość techniczna </h3>
+<ul>
+<li>Web scraping, NLP/AI, Backend, Frontend, DevOps, Data Engineering</li>
+</ul>
+<h3 id="rozwiązanie-rzeczywistego-problemu">Rozwiązanie rzeczywistego problemu </h3>
+<ul>
+<li>Clickbait to aktualny problem społeczny</li>
+<li>Praktyczne zastosowanie GPT/NLP</li>
+</ul>
+<h3 id="możliwości-badawcze-1">Możliwości badawcze </h3>
+<ul>
+<li>Walidacja z ocenami ludzkimi</li>
+<li>Analiza wzorców</li>
+<li>Porównanie modeli</li>
+<li>Publikacja naukowa</li>
+</ul>
+<h3 id="nowoczesne-technologie">Nowoczesne technologie </h3>
+<ul>
+<li>GPT-4, GitHub Actions, Streamlit Cloud</li>
+<li>MLOps, Continuous Deployment</li>
+<li>Open-source ready</li>
+</ul>
+
+      </div>
+      
+      
+    
+    
+    <script type="module">
+// TODO: If ZenUML gets integrated into mermaid in the future,
+//      we can remove the following lines.
+
+
+var MERMAID_CONFIG = ({"startOnLoad":false});
+if (typeof MERMAID_CONFIG !== 'undefined') {
+  MERMAID_CONFIG.startOnLoad = false
+  MERMAID_CONFIG.cloneCssStyles = false
+  MERMAID_CONFIG.theme = "default"
+}
+
+mermaid.initialize(MERMAID_CONFIG || {})
+if (typeof(window['Reveal']) !== 'undefined') {
+  function mermaidRevealHelper(event) {
+    var currentSlide = event.currentSlide
+    var diagrams = currentSlide.querySelectorAll('.mermaid')
+    for (var i = 0; i < diagrams.length; i++) {
+      var diagram = diagrams[i]
+      if (!diagram.hasAttribute('data-processed')) {
+        mermaid.init(null, diagram, ()=> {
+          Reveal.slide(event.indexh, event.indexv)
+        })
+      }
+    }
+  }
+  Reveal.addEventListener('slidetransitionend', mermaidRevealHelper)
+  Reveal.addEventListener('ready', mermaidRevealHelper)
+  await mermaid.run({
+    nodes: document.querySelectorAll('.mermaid')
+  })
+} else {
+  await mermaid.run({
+    nodes: document.querySelectorAll('.mermaid')
+  })
+}
+</script>
+    
+    
+    
+  
+    </body></html>

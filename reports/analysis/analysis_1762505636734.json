@@ -1,0 +1,47 @@
+{
+  "id": 1762505636734,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/ulaskawienie-na-horyzoncie-polacy-w-sondazu-ocenili-przywilej-nawrockiego/dnm6l6g",
+  "title": "Ułaskawienie na horyzoncie? Polacy w sondażu ocenili przywilej Nawrockiego",
+  "score": 55,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'ułaskawienie na horyzoncie', co może sugerować niepewność i wzbudzać ciekawość.",
+    "W treści artykułu pojawia się odniesienie do 'królewskiego przywileju', co również jest frazą sensacyjną.",
+    "Zidentyfikowano rozbieżność między tytułem a treścią, ponieważ tytuł sugeruje pewność, podczas gdy treść wskazuje na spekulacje.",
+    "Artykuł zawiera dane z sondażu, co może być uznane za sygnał wiarygodności."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa wyrazów, które mogą przyciągać uwagę, jak 'ułaskawienie na horyzoncie', co może budzić ciekawość czytelników.",
+    "W treści artykułu pojawiają się sformułowania, które mogą być uznane za sensacyjne, co wpływa na postrzeganą clickbaitowość.",
+    "Tytuł sugeruje pewność, podczas gdy artykuł mówi o spekulacjach, co może wprowadzać w błąd.",
+    "Artykuł opiera się na wynikach sondażu, co dodaje mu wiarygodności."
+  ],
+  "summary": "Artykuł omawia temat prawa łaski w kontekście prezydenta RP, Karola Nawrockiego. Zawiera wyniki sondażu przeprowadzonego przez SW Research, który pokazuje podzielone opinie Polaków na temat tego przywileju. Wspomniane są również spekulacje dotyczące Zbigniewa Ziobry.",
+  "signals": {
+    "title_hits": [
+      "ułaskawienie",
+      "na horyzoncie"
+    ],
+    "content_hits": [
+      "królewski przywilej"
+    ],
+    "credibility_hits": [
+      "sondaż SW Research"
+    ],
+    "mismatch": {
+      "title": "Ułaskawienie na horyzoncie?",
+      "content": "spekulacje dotyczące Zbigniewa Ziobry"
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Opinie Polaków na temat przywileju Nawrockiego w sondażu",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 90,
+    "processing_time_ms": 17173,
+    "model": "gpt-4o-mini"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": 1762505662583,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/trojmiasto/brutalne-pobicie-w-gdyni-na-tle-rasowym-napastnik-zaatakowal-miejskiego-radnego/vy38sfw",
+  "title": "Brutalne pobicie w Gdyni na tle rasowym. Napastnik zaatakował też miejskiego radnego. \"Jesteś Polakiem?\"",
+  "score": 80,
+  "label": "extreme",
+  "rationale": [
+    "Tytuł zawiera sensacyjne frazy takie jak 'brutalne pobicie' oraz 'na tle rasowym', co przyciąga uwagę.",
+    "W treści artykułu znajdują się absoluty, takie jak 'dotkliwie pobił', co zwiększa emocjonalny ładunek.",
+    "Występuje znaczna rozbieżność między tytułem a treścią, ponieważ tytuł sugeruje, że incydent jest głównie o rasizmie, podczas gdy treść koncentruje się na pobiciu.",
+    "Artykuł zawiera cytaty świadków, co może zwiększać jego wiarygodność, ale jednocześnie intensyfikuje dramatyzm sytuacji.",
+    "Całość prowadzi do wysokiego wyniku clickbaitu, ponieważ tytuł i treść są skonstruowane w sposób, który ma na celu wywołanie silnych emocji."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów, które przyciągają uwagę, jak 'brutalne' i 'na tle rasowym'.",
+    "W artykule są opisy, które wzbudzają emocje, jak 'dotkliwie pobił', co sprawia, że sytuacja wydaje się bardziej dramatyczna.",
+    "Tytuł sugeruje, że incydent dotyczy głównie rasizmu, ale treść koncentruje się na pobiciu, co wprowadza pewną niezgodność.",
+    "Artykuł zawiera cytaty, które mogą zwiększać jego wiarygodność, ale także dodają dramatyzmu.",
+    "Wszystko to prowadzi do wysokiego poziomu clickbaitu, ponieważ zarówno tytuł, jak i treść mają na celu wywołanie silnych emocji."
+  ],
+  "summary": "Artykuł opisuje brutalne pobicie w Gdyni, które miało miejsce na tle rasowym. Napastnik wyzywał obywateli Kolumbii, a także zaatakował miejskiego radnego, który próbował interweniować. W wyniku ataku jeden z poszkodowanych doznał poważnych obrażeń, w tym złamania szczęki.",
+  "signals": {
+    "title_hits": [
+      "brutalne pobicie",
+      "na tle rasowym",
+      "napastnik zaatakował",
+      "Jesteś Polakiem"
+    ],
+    "content_hits": [
+      "brutalne pobicie",
+      "rasistowskimi okrzykami",
+      "dotkliwie pobił",
+      "złamaną szczękę"
+    ],
+    "credibility_hits": [
+      "świadkiem zdarzenia był też miejski radny",
+      "dokumenty z leczenia szpitalnego"
+    ],
+    "mismatch": {
+      "title": "Tytuł sugeruje, że incydent jest głównie o rasizmie.",
+      "content": "Treść koncentruje się na pobiciu i jego skutkach."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Pobicie w Gdyni z udziałem miejskiego radnego.",
+    "notes_to_editor": "Rozważyć bardziej neutralne sformułowanie tytułu, aby uniknąć nadmiernej sensacji."
+  },
+  "diagnostics": {
+    "tokens_title": 18,
+    "tokens_content": 128,
+    "processing_time_ms": 20636,
+    "model": "gpt-4o-mini"
+  }
+}

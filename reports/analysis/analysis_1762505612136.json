@@ -1,0 +1,55 @@
+{
+  "id": 1762505612136,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/olsztyn/news-strzaly-do-policjantow-w-warminsko-mazurskiem-65-latek-zatrz,nId,8038557",
+  "title": "Strzały do policjantów w Warmińsko-Mazurskiem. 65-latek zatrzymany po pościgu  ",
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'strzały' i 'zatrzymany po pościgu', co może wzbudzać ciekawość czytelnika.",
+    "Treść artykułu jest zgodna z tytułem, jednak nie zawiera szczegółowych informacji, które mogłyby potwierdzić sensacyjność tytułu.",
+    "W artykule pojawiają się liczby (wiek mężczyzny, liczba strzałów), co zwiększa jego wiarygodność.",
+    "Nie znaleziono wyraźnych sygnałów wiarygodności, takich jak cytaty czy źródła poza ogólnym odniesieniem do reportera.",
+    "Mismatched detection jest minimalny, ponieważ tytuł i treść są ze sobą zgodne."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera emocjonujące słowa, które mogą przyciągać uwagę, jak 'strzały' i 'pościg'.",
+    "Treść artykułu odpowiada tytułowi, ale nie dostarcza dodatkowych informacji, które mogłyby potwierdzić dramatyzm sytuacji.",
+    "W artykule są liczby, co sprawia, że wydaje się bardziej wiarygodny.",
+    "Brakuje jednak konkretnych cytatów lub źródeł, które mogłyby wzmocnić zaufanie do informacji.",
+    "Tytuł i treść są zgodne, co oznacza, że nie ma dużych rozbieżności między nimi."
+  ],
+  "summary": "W artykule opisano incydent w Kołodziejowym Grądzie, gdzie 65-letni mężczyzna oddał strzały w kierunku policjantów. Po pościgu został zatrzymany i usłyszał zarzuty dotyczące znęcania się nad żoną oraz nielegalnego posiadania amunicji. Na szczęście nikt nie został ranny.",
+  "signals": {
+    "title_hits": [
+      "strzały",
+      "zatrzymany",
+      "po pościgu"
+    ],
+    "content_hits": [
+      "65-letni mężczyzna",
+      "strzały",
+      "policjantów",
+      "zatrzymany",
+      "zarzuty"
+    ],
+    "credibility_hits": [
+      "reporter RMF FM",
+      "liczby"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "details": "Tytuł i treść są zgodne."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Incydent z udziałem policji w Warmińsko-Mazurskiem: 65-latek zatrzymany po strzałach",
+    "notes_to_editor": "Rozważyć dodanie więcej szczegółów dotyczących incydentu, aby zwiększyć wiarygodność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 150,
+    "processing_time_ms": 15437,
+    "model": "gpt-4o-mini"
+  }
+}

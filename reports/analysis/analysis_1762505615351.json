@@ -1,0 +1,51 @@
+{
+  "id": 1762505615351,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/warszawa/news-martwa-ges-w-kartonie-hodowczyni-oskarzona-o-okrucienstwo,nId,8038502",
+  "title": "Martwa gęś w kartonie. Hodowczyni oskarżona o okrucieństwo",
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera sensacyjne słowa 'martwa gęś' i 'okrucieństwo', co przyciąga uwagę.",
+    "Treść artykułu dostarcza szczegółowych informacji na temat sprawy, ale nie zawiera nadmiernych emocji.",
+    "W artykule występują liczby i konkretne informacje o oskarżeniach, co zwiększa wiarygodność.",
+    "Zidentyfikowano pewne rozbieżności między tytułem a treścią, ale nie są one znaczące."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zwraca uwagę na dramatyczny temat, co może budzić ciekawość.",
+    "Artykuł szczegółowo opisuje sprawę prawną, nie używając przesadnych emocji.",
+    "Zawiera konkretne informacje, co sprawia, że jest bardziej wiarygodny.",
+    "Tytuł i treść są w dużej mierze zgodne, ale tytuł mógłby być mniej sensacyjny."
+  ],
+  "summary": "Artykuł opisuje sprawę prawną dotyczącą hodowczyni, która wysłała martwą gęś w paczce. Prokuratura oskarżyła ją o znęcanie się nad zwierzęciem, co może skutkować karą więzienia. Kobieta została uniewinniona przez sąd, ale prokuratura złożyła apelację, argumentując, że nie przesłuchano świadków i nie uwzględniono wszystkich dowodów.",
+  "signals": {
+    "title_hits": [
+      "martwa gęś",
+      "okrucieństwo"
+    ],
+    "content_hits": [
+      "znęcanie się",
+      "prokuratura",
+      "uniewinnienie"
+    ],
+    "credibility_hits": [
+      "prokuratura",
+      "sąd",
+      "świadkowie"
+    ],
+    "mismatch": {
+      "title_content_mismatch": "Tytuł sugeruje dramatyzm, podczas gdy treść skupia się na faktach prawnych.",
+      "content_title_agreement": "Treść artykułu w dużej mierze odpowiada tytułowi."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Hodowczyni oskarżona o znęcanie się nad gęsią",
+    "notes_to_editor": "Rozważyć mniej sensacyjny tytuł, aby lepiej odzwierciedlić treść artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 8,
+    "tokens_content": 382,
+    "processing_time_ms": 19482,
+    "model": "gpt-4o-mini"
+  }
+}

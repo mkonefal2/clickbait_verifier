@@ -1,0 +1,51 @@
+{
+  "id": 1762505611175,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/krakow/news-zablokuja-zakopianke-przed-dlugim-weekendem-dzisiaj-protest-,nId,8038512",
+  "title": "Blokada zakopianki przed długim weekendem?",
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera pytanie, co może budzić ciekawość, ale nie jest bezpośrednio sensacyjny.",
+    "Treść artykułu jest zgodna z tytułem, informując o planowanym proteście, co ogranicza rozbieżność.",
+    "W artykule pojawiają się konkretne informacje o lokalizacjach protestów oraz obawach mieszkańców, co zwiększa wiarygodność.",
+    "Nie znaleziono silnych fraz sensacyjnych ani absolutów w treści."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zadaje pytanie, co może zachęcać do kliknięcia, ale nie jest przesadnie dramatyczny.",
+    "Treść artykułu odpowiada tytułowi, opisując planowany protest, co sprawia, że nie wprowadza w błąd.",
+    "Artykuł zawiera konkretne informacje o miejscu i czasie protestów, co czyni go bardziej wiarygodnym.",
+    "Nie ma w nim przesadnych emocji ani sensacyjnych zwrotów."
+  ],
+  "summary": "Artykuł informuje o planowanym proteście mieszkańców południowych dzielnic Krakowa oraz okolicznych gmin przeciwko nowym wariantom trasy S7. Protesty mają się odbyć w piątek na dwóch skrzyżowaniach, co może utrudnić wyjazd w kierunku Zakopanego. Mieszkańcy obawiają się o swoje domy i domagają się wycofania propozycji przebiegu drogi.",
+  "signals": {
+    "title_hits": [
+      "blokada",
+      "długi weekend"
+    ],
+    "content_hits": [
+      "protest",
+      "blokady",
+      "mieszkańcy",
+      "kontrowersyjne warianty"
+    ],
+    "credibility_hits": [
+      "Generalna Dyrekcja Dróg Krajowych i Autostrad",
+      "szczegóły protestu"
+    ],
+    "mismatch": {
+      "exists": false,
+      "description": "Tytuł jest zgodny z treścią artykułu."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Protest mieszkańców Krakowa przeciwko nowym wariantom trasy S7",
+    "notes_to_editor": "Rozważyć dodanie więcej szczegółów dotyczących protestów w tytule."
+  },
+  "diagnostics": {
+    "tokens_title": 6,
+    "tokens_content": 265,
+    "processing_time_ms": 16894,
+    "model": "gpt-4o-mini"
+  }
+}

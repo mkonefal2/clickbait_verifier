@@ -1,0 +1,50 @@
+{
+  "id": 1762505626677,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/kolejne-weto-karola-nawrockiego-jest-glos-z-palacu-prezydenckiego/6rzk43p",
+  "title": "Kolejne weto Karola Nawrockiego. Kancelaria prezydenta zdradza szczegóły",
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy, które mogą budzić ciekawość, takie jak 'kolejne weto' i 'zdradza szczegóły', co wskazuje na elementy sensacyjne.",
+    "Treść artykułu jest zgodna z tytułem, co zmniejsza stopień clickbaitu.",
+    "Brak absolutów i luk ciekawości w treści, co wpływa na niższy wynik.",
+    "W artykule podano konkretne informacje na temat decyzji Karola Nawrockiego, co zwiększa wiarygodność."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł może przyciągać uwagę, ale nie jest przesadnie sensacyjny.",
+    "Treść artykułu odpowiada tytułowi, co jest pozytywne.",
+    "Nie ma w artykule przesadnych stwierdzeń ani niejasnych informacji.",
+    "Podano konkretne szczegóły dotyczące decyzji, co czyni artykuł bardziej wiarygodnym."
+  ],
+  "summary": "Artykuł informuje o decyzji Karola Nawrockiego, który zawetował ustawę z dnia 26 września 2025 r. dotyczącą ubezpieczeń. Kancelaria Prezydenta RP ogłosiła tę informację w mediach społecznościowych. W artykule wspomniano również o podpisaniu dwóch innych ustaw przez Nawrockiego.",
+  "signals": {
+    "title_hits": [
+      "kolejne weto",
+      "zdradza szczegóły"
+    ],
+    "content_hits": [
+      "Kancelaria Prezydenta RP poinformowała",
+      "Karol Nawrocki podjął decyzję",
+      "zawetowaniu ustawy"
+    ],
+    "credibility_hits": [
+      "Kancelaria Prezydenta RP",
+      "Leszek Szymański / PAP"
+    ],
+    "mismatch": {
+      "is_mismatch": false,
+      "details": "Tytuł jest zgodny z treścią artykułu."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Karol Nawrocki zawetował ustawę o ubezpieczeniach",
+    "notes_to_editor": "Artykuł ma umiarkowany stopień clickbaitu, warto rozważyć bardziej neutralny tytuł."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 92,
+    "processing_time_ms": 13749,
+    "model": "gpt-4o-mini"
+  }
+}

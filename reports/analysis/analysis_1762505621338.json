@@ -1,0 +1,52 @@
+{
+  "id": 1762505621338,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/zakopane/news-grozny-wypadek-w-malopolsce-ciezarowka-zderzyla-sie-z-pociag,nId,8038546",
+  "title": "Groźny wypadek w Małopolsce. Ciężarówka zderzyła się z pociągiem ",
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera słowo 'groźny', co jest frazą sensacyjną, ale nie jest to skrajne użycie.",
+    "Treść artykułu jest zgodna z tytułem, nie ma dużych rozbieżności.",
+    "W artykule nie występują żadne absoluty ani przesadne sformułowania.",
+    "Zawiera konkretne informacje o wypadku, takie jak lokalizacja i brak obrażeń, co zwiększa wiarygodność.",
+    "Nie ma cytatów ani źródeł, ale podano konkretne dane o zdarzeniu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'groźny', co może przyciągać uwagę, ale nie jest to przesadzone.",
+    "Treść artykułu odpowiada tytułowi, więc nie ma dużych różnic między nimi.",
+    "Artykuł nie zawiera przesadnych stwierdzeń ani nie używa dramatycznego języka.",
+    "Podano konkretne informacje o wypadku, co sprawia, że artykuł wydaje się wiarygodny.",
+    "Brakuje cytatów lub źródeł, ale są konkretne dane dotyczące zdarzenia."
+  ],
+  "summary": "W miejscowości Milik koło Muszyny w Małopolsce doszło do zderzenia ciężarówki z pociągiem pasażerskim. Na szczęście, w wyniku wypadku nikt nie odniósł obrażeń. W wyniku kolizji linia kolejowa została zablokowana, a na miejscu pracują służby ratunkowe.",
+  "signals": {
+    "title_hits": [
+      "groźny"
+    ],
+    "content_hits": [
+      "zderzenie",
+      "nikt nie odniósł obrażeń",
+      "zablokowana linia"
+    ],
+    "credibility_hits": [
+      "RMF24.pl",
+      "Milik koło Muszyny",
+      "Krynica Zdrój-Kraków"
+    ],
+    "mismatch": {
+      "exists": false,
+      "details": "Tytuł i treść są zgodne."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Wypadek ciężarówki z pociągiem w Małopolsce",
+    "notes_to_editor": "Rozważyć użycie mniej dramatycznego języka w tytule."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 115,
+    "processing_time_ms": 17408,
+    "model": "gpt-4o-mini"
+  }
+}

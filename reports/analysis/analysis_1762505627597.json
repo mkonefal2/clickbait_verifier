@@ -1,0 +1,50 @@
+{
+  "id": 1762505627597,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/koniec-bezkarnosci-w-sieci-wrze-po-decyzji-komisji-w-sprawie-ziobry/d4xeexz",
+  "title": "\"Koniec bezkarności\". W sieci wrze po decyzji komisji w sprawie Zbigniewa Ziobry",
+  "score": 70,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne takie jak 'koniec bezkarności', co wywołuje silne emocje.",
+    "Treść artykułu odnosi się do decyzji komisji, ale używa kolokwialnego języka ('miękiszon'), co może wprowadzać w błąd.",
+    "W artykule są cytaty, co zwiększa jego wiarygodność, ale nie ma konkretnych liczb ani źródeł.",
+    "Występuje rozbieżność między tytułem a treścią, ponieważ tytuł sugeruje dramatyczne zmiany, podczas gdy treść jest bardziej stonowana."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów, które mogą wzbudzać emocje, co czyni go bardziej przyciągającym.",
+    "Treść odnosi się do decyzji komisji, ale używa nieformalnego języka, co może wprowadzać w błąd.",
+    "Artykuł zawiera cytaty, co dodaje mu wiarygodności, ale brakuje konkretnych danych.",
+    "Tytuł sugeruje większe zmiany niż te, które są opisane w treści, co może wprowadzać w błąd."
+  ],
+  "summary": "Artykuł omawia decyzję sejmowej komisji regulaminowej w sprawie uchwały dotyczącej immunitetu Zbigniewa Ziobry. Decyzja ta wywołała wiele komentarzy w sieci, w tym reakcje polityków, takich jak Kamila Gasiuk Pihowicz i Jarosław Kaczyński. W artykule zawarte są również opinie na temat tej sytuacji.",
+  "signals": {
+    "title_hits": [
+      "koniec bezkarności"
+    ],
+    "content_hits": [
+      "miękiszon",
+      "wrze",
+      "komisji",
+      "Zbigniewa Ziobry"
+    ],
+    "credibility_hits": [
+      "europosłanka Kamila Gasiuk Pihowicz",
+      "Jarosław Kaczyński"
+    ],
+    "mismatch": {
+      "title": "Koniec bezkarności",
+      "content": "Decyzja komisji w sprawie immunitetu"
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Decyzja komisji w sprawie immunitetu Zbigniewa Ziobry wywołuje kontrowersje",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia sensacji."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 95,
+    "processing_time_ms": 17441,
+    "model": "gpt-4o-mini"
+  }
+}

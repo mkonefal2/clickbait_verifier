@@ -1,0 +1,50 @@
+{
+  "id": 1762505608379,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/polityka/news-wstydliwa-sytuacja-glinski-o-bialoruskiej-nagrodzie-dla-brau,nId,8038559",
+  "title": "\"Wstydliwa sytuacja\". Gliński o białoruskiej nagrodzie dla Brauna",
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazę 'wstydliwa sytuacja', co może budzić ciekawość, ale nie jest to skrajnie sensacyjne.",
+    "Treść artykułu jest zgodna z tytułem, nie ma znaczących rozbieżności.",
+    "W artykule pojawiają się cytaty i odniesienia do konkretnej sytuacji politycznej, co zwiększa jego wiarygodność.",
+    "W treści nie występują skrajne emocje ani przesadne stwierdzenia, co ogranicza stopień clickbaitu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa wyrażenia 'wstydliwa sytuacja', co może przyciągać uwagę, ale nie jest to przesadnie dramatyczne.",
+    "Treść artykułu odpowiada tytułowi, więc nie ma dużych niezgodności.",
+    "Artykuł zawiera cytaty i odniesienia do rzeczywistych wydarzeń, co czyni go bardziej wiarygodnym.",
+    "Nie ma w nim przesadnych emocji ani dramatyzacji, co ogranicza jego clickbaitowy charakter."
+  ],
+  "summary": "Artykuł opisuje wypowiedź Piotra Glińskiego na temat białoruskiej Nagrody Pokoju i Praw Człowieka przyznanej Grzegorzowi Braunowi. Gliński komentuje kontrowersje związane z nagrodą oraz sytuację polityczną w Polsce i na Białorusi. Wskazuje na potrzebę oceny legalności działań polityków oraz odnosi się do kwestii więźniów politycznych.",
+  "signals": {
+    "title_hits": [
+      "wstydliwa sytuacja"
+    ],
+    "content_hits": [
+      "Nie jestem zwolennikiem",
+      "Czasami balansował na granicy",
+      "to jest oczywiście dość wstydliwa sytuacja"
+    ],
+    "credibility_hits": [
+      "Piotr Gliński",
+      "RMF FM",
+      "Międzynarodowa Fundacja im. Emila Czeczko"
+    ],
+    "mismatch": {
+      "exists": false,
+      "details": "Brak rozbieżności między tytułem a treścią."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Gliński komentuje białoruską nagrodę dla Brauna",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia sensacyjności."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 186,
+    "processing_time_ms": 15500,
+    "model": "gpt-4o-mini"
+  }
+}

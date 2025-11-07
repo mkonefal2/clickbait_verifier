@@ -1,0 +1,50 @@
+{
+  "id": 1762505651598,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/kolejny-dron-nad-belgijskim-lotniskiem-ruch-ponownie-wstrzymany/8cty546",
+  "title": "Kolejny dron nad belgijskim lotniskiem. Ruch ponownie wstrzymany",
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy sugerujące sensację, takie jak 'kolejny dron' i 'ruch ponownie wstrzymany', co może budzić ciekawość.",
+    "Treść artykułu jest zgodna z tytułem, nie ma znaczących rozbieżności.",
+    "W artykule znajdują się źródła informacji, takie jak Polska Agencja Prasowa oraz belgijska agencja prasowa Belga.",
+    "Brak użycia absolutów i luk ciekawości, co obniża poziom clickbaitu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł zawiera słowa, które mogą przyciągać uwagę, ale nie są przesadnie sensacyjne.",
+    "Treść artykułu odpowiada tytułowi, co jest pozytywne.",
+    "Artykuł powołuje się na wiarygodne źródła informacji.",
+    "Nie ma w nim przesadnych stwierdzeń ani prób manipulacji emocjami czy ciekawością."
+  ],
+  "summary": "Artykuł informuje o tym, że lotnisko w Liege w Belgii wstrzymało ruch samolotów z powodu wykrycia drona w przestrzeni powietrznej. Wcześniej, w czwartek wieczorem, ruch lotniczy został również zawieszony w portach w Brukseli i Liege. Informacje te zostały podane przez belgijską agencję prasową Belga.",
+  "signals": {
+    "title_hits": [
+      "dron",
+      "ruch wstrzymany"
+    ],
+    "content_hits": [
+      "dron",
+      "wstrzymało ruch",
+      "belgijska agencja prasowa"
+    ],
+    "credibility_hits": [
+      "Polska Agencja Prasowa",
+      "belgijska agencja prasowa Belga"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "mismatch_score": 0
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Wstrzymanie ruchu na belgijskim lotnisku z powodu drona",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby zmniejszyć wrażenie clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 9,
+    "tokens_content": 90,
+    "processing_time_ms": 11738,
+    "model": "gpt-4o-mini"
+  }
+}

@@ -94,11 +94,16 @@ OBOWIĄZKOWE pole 'summary':
 - Neutralny ton, obiektywne fakty
 - Bez ocen typu "tytuł jest sensacyjny" — tylko co artykuł opisuje
 
-Scoring:
-- not_clickbait: 0-24 pkt
-- mild: 25-49 pkt  
-- strong: 50-74 pkt
-- extreme: 75+ pkt
+Scoring (UŻYWAJ PEŁNEGO ZAKRESU):
+- not_clickbait: 0-24 pkt (np. 0, 10, 20)
+- mild: 25-49 pkt (np. 30, 40, 45)
+- strong: 50-74 pkt (np. 55, 65, 72)
+- extreme: 75-100 pkt (np. 80, 90, 95, 100 dla najbardziej ekstremalnych)
+
+WAŻNE: Dla extreme używaj wartości 75-100 w zależności od intensywności clickbaitu!
+- 75-79: umiarkowanie ekstremalne
+- 80-89: bardzo ekstremalne
+- 90-100: najgorsze możliwe przypadki (mnożenie sensacji + kompletna rozbieżność)
 
 Wagi: title={scoring.get('weights', {}).get('title_clickbait_weight', 0.4)}, content={scoring.get('weights', {}).get('content_clickbait_weight', 0.15)}, mismatch={scoring.get('weights', {}).get('mismatch_weight', 0.4)}
 

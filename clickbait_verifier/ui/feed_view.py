@@ -444,7 +444,7 @@ def render_feed(candidates: List[Tuple[float, str]], max_items: int = 10):
             summary_block = f"""
   <div style='margin-top:20px;padding:16px;background:#f9fafb;border-left:3px solid #3b82f6;border-radius:6px;'>
     <div class="helper-text" style='font-size:11px;margin-bottom:8px;color:#9ca3af;text-transform:uppercase;letter-spacing:0.5px;font-weight:600;'>Podsumowanie</div>
-    <div style='font-size:14px;line-height:1.6;color:#374151;'>{html.escape(summary_text)}</div>
+    <div style='font-size:17px;line-height:1.65;color:#374151;font-weight:500;'>{html.escape(summary_text)}</div>
   </div>
 """
         else:

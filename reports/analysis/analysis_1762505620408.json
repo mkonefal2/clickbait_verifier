@@ -1,0 +1,49 @@
+{
+  "id": 1762505620408,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/wroclaw/news-zgloszenie-o-tajemniczym-obiekcie-przy-a4-juz-wiadomo-co-to-,nId,8038518",
+  "title": "Zgłoszenie o tajemniczym obiekcie przy A4. Już wiadomo, co to było",
+  "score": 60,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'tajemniczym obiekcie', co może wzbudzać ciekawość czytelników.",
+    "Treść artykułu dostarcza informacji o zgłoszeniach dotyczących spadających obiektów, ale nie potwierdza żadnych sensacyjnych doniesień.",
+    "W artykule występują liczby i cytaty, co zwiększa jego wiarygodność, ale tytuł sugeruje większą sensację niż rzeczywiście miała miejsce.",
+    "Wykryto rozbieżność między tytułem a treścią, ponieważ tytuł sugeruje, że 'już wiadomo, co to było', podczas gdy treść nie potwierdza tej informacji."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słów, które mogą przyciągać uwagę, jak 'tajemniczy obiekt', co może sprawić, że czytelnicy będą bardziej zainteresowani.",
+    "Artykuł opisuje zgłoszenia o spadających obiektach, ale nie potwierdza żadnych sensacyjnych informacji.",
+    "W artykule są liczby i cytaty, co sprawia, że jest bardziej wiarygodny, ale tytuł sugeruje, że mamy do czynienia z czymś bardziej ekscytującym niż w rzeczywistości.",
+    "Tytuł i treść nie do końca się zgadzają, ponieważ tytuł sugeruje, że wszystko jest już jasne, podczas gdy w artykule nie ma potwierdzenia tej informacji."
+  ],
+  "summary": "Artykuł opisuje zgłoszenia dotyczące spadających obiektów w Dolnośląskiem, które miały miejsce w okolicach autostrady A4. Policja i strażacy nie znaleźli żadnych śladów obiektów, a zgłoszenia mogły być związane z naturalnym rojem meteorów Południowe Taurydy. Akcja poszukiwawcza zakończyła się bez potwierdzenia żadnych incydentów.",
+  "signals": {
+    "title_hits": [
+      "tajemniczym obiekcie"
+    ],
+    "content_hits": [
+      "zgłoszenia",
+      "spadających obiektów",
+      "naturalnym rojem meteorów"
+    ],
+    "credibility_hits": [
+      "dziennikarz RMF FM Krzysztof Zasada",
+      "Dolnośląski Urząd Wojewódzki"
+    ],
+    "mismatch": {
+      "title": "Zgłoszenie o tajemniczym obiekcie przy A4. Już wiadomo, co to było",
+      "content": "Wszystko wskazuje na to, że obserwowane zjawiska mogły być związane z naturalnym rojem meteorów."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Zgłoszenia o spadających obiektach przy A4 - brak potwierdzenia",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć wrażenia sensacji."
+  },
+  "diagnostics": {
+    "tokens_title": 14,
+    "tokens_content": 347,
+    "processing_time_ms": 19480,
+    "model": "gpt-4o-mini"
+  }
+}

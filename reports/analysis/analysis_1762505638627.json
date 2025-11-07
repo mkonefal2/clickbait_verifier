@@ -1,0 +1,42 @@
+{
+  "id": 1762505638627,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/zbigniew-bogucki-o-sprawie-zbigniewa-ziobry-polityczna-wendeta/l4fbsr4",
+  "title": "Zbigniew Bogucki o sprawie Zbigniewa Ziobry. \"Polityczna wendeta\"",
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazę \"polityczna wendeta\", co jest sensacyjne i może wzbudzać ciekawość.",
+    "Treść artykułu jest zgodna z tytułem, jednak nie zawiera szczegółowych informacji, co może prowadzić do luk ciekawości.",
+    "W artykule nie ma żadnych cytatów ani danych liczbowych, co obniża sygnały wiarygodności.",
+    "Mismatches są minimalne, ponieważ tytuł i treść są ze sobą zgodne, ale tytuł może sugerować większą dramatyzację niż rzeczywistość."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnego wyrażenia \"polityczna wendeta\", co może przyciągać uwagę czytelników.",
+    "Treść artykułu odpowiada tytułowi, ale nie dostarcza wielu szczegółów, co może budzić ciekawość.",
+    "Brak cytatów lub danych liczbowych sprawia, że artykuł wydaje się mniej wiarygodny.",
+    "Nie ma dużych rozbieżności między tytułem a treścią, ale tytuł może sugerować większe emocje niż te, które są w artykule."
+  ],
+  "summary": "Artykuł dotyczy wypowiedzi Zbigniewa Boguckiego, szefa Kancelarii Prezydenta, na temat sprawy Zbigniewa Ziobry. W kontekście decyzji o uchwałach dotyczących immunitetu Ziobry, Bogucki zadał pytanie o możliwość sprawiedliwego procesu w Polsce. Artykuł podaje również datę i kontekst polityczny tej sytuacji.",
+  "signals": {
+    "title_hits": [
+      "polityczna wendeta"
+    ],
+    "content_hits": [],
+    "credibility_hits": [],
+    "mismatch": {
+      "exists": false,
+      "details": "Brak rozbieżności między tytułem a treścią."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Zbigniew Bogucki komentuje sprawę Zbigniewa Ziobry",
+    "notes_to_editor": "Rozważyć dodanie cytatów lub danych liczbowych dla zwiększenia wiarygodności artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 77,
+    "processing_time_ms": 15006,
+    "model": "gpt-4o-mini"
+  }
+}

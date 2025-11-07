@@ -1,0 +1,47 @@
+{
+  "id": 1762505617243,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/regiony/warszawa/news-warszawa-szykuje-sie-na-swieto-niepodleglosci-sprawdz-gdzie-,nId,8038528",
+  "title": "Warszawa szykuje się na Święto Niepodległości. Sprawdź, gdzie będą największe utrudnienia",
+  "score": 20,
+  "label": "not_clickbait",
+  "rationale": [
+    "Tytuł nie zawiera fraz sensacyjnych ani absolutów, a jedynie informuje o przygotowaniach do Święta Niepodległości.",
+    "Treść artykułu jest zgodna z tytułem, dostarczając szczegółowych informacji o utrudnieniach w ruchu w Warszawie.",
+    "W artykule występują konkretne liczby i daty, co zwiększa jego wiarygodność.",
+    "Nie wykryto istotnych luk ciekawości ani niezgodności między tytułem a treścią."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł jest informacyjny i nie zawiera przesadnych stwierdzeń.",
+    "Treść artykułu odpowiada tytułowi, szczegółowo opisując utrudnienia związane z obchodami Święta Niepodległości.",
+    "Artykuł podaje konkretne daty i informacje, co czyni go wiarygodnym.",
+    "Nie znaleziono elementów, które mogłyby wprowadzać w błąd czytelnika."
+  ],
+  "summary": "Artykuł informuje o przygotowaniach Warszawy do obchodów Narodowego Święta Niepodległości, wskazując na planowane utrudnienia w ruchu drogowym oraz zmiany w komunikacji miejskiej. Opisuje zakazy parkowania, zamknięcia ulic oraz organizację wydarzeń towarzyszących, takich jak parady i marsze. Podano szczegółowe godziny i lokalizacje, w których będą miały miejsce ograniczenia.",
+  "signals": {
+    "title_hits": [],
+    "content_hits": [
+      "zakazy parkowania",
+      "utrudnienia w ruchu",
+      "zmiany w komunikacji"
+    ],
+    "credibility_hits": [
+      "Zarząd Transportu Miejskiego",
+      "konkretne daty i godziny"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "content_summary_match": true
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Utrudnienia w Warszawie z okazji Święta Niepodległości",
+    "notes_to_editor": "Artykuł jest dobrze skonstruowany i nie wymaga zmian."
+  },
+  "diagnostics": {
+    "tokens_title": 13,
+    "tokens_content": 569,
+    "processing_time_ms": 12311,
+    "model": "gpt-4o-mini"
+  }
+}

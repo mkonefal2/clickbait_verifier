@@ -1,0 +1,46 @@
+{
+  "id": 1762505649598,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/izrael-intensyfikuje-ataki-na-liban-haniebna-zbrodnia-polityczna/ekbe4k4",
+  "title": "Izrael intensyfikuje ataki na Liban. \"Haniebna zbrodnia polityczna\"",
+  "score": 65,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazę 'haniebna zbrodnia polityczna', co jest wyrażeniem sensacyjnym.",
+    "W treści artykułu potwierdzono intensyfikację ataków Izraela na Liban, co jest zgodne z tytułem, ale tytuł używa emocjonalnego języka.",
+    "Wykryto brak cytatów lub konkretów, które mogłyby zwiększyć wiarygodność artykułu.",
+    "Mismatched detection wskazuje na zgodność tytułu z treścią, jednak emocjonalny ładunek tytułu może wprowadzać w błąd."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów, co może przyciągać uwagę, ale też wywołuje silne emocje.",
+    "Artykuł rzeczywiście opisuje intensyfikację ataków, ale tytuł sugeruje większą dramatyzację sytuacji.",
+    "Brakuje w artykule konkretnych danych lub cytatów, które mogłyby potwierdzić przedstawione informacje.",
+    "Tytuł i treść są zgodne, ale sposób sformułowania tytułu może być mylący."
+  ],
+  "summary": "Artykuł informuje o intensyfikacji ataków Izraela na Liban, co zostało potwierdzone przez prezydenta Libanu, Josepha Aouna. Podkreśla on, że działania te łamią rozejm obowiązujący od niemal roku. Izraelska armia przyznała się do przeprowadzenia nalotów na Hezbollah.",
+  "signals": {
+    "title_hits": [
+      "haniebna zbrodnia polityczna"
+    ],
+    "content_hits": [
+      "intensyfikuje ataki",
+      "łamanie ustaleń",
+      "naloty na Hezbollah"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "title_content_match": true,
+      "emotional_language": true
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Izrael zwiększa ataki na Liban, prezydent Libanu komentuje sytuację",
+    "notes_to_editor": "Rozważyć dodanie źródeł lub cytatów dla zwiększenia wiarygodności artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 86,
+    "processing_time_ms": 14283,
+    "model": "gpt-4o-mini"
+  }
+}

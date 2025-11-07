@@ -1,0 +1,48 @@
+{
+  "id": 1762505647730,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/donald-trump-o-wizji-denuklearyzacji-bylaby-czyms-wspanialym/9qve4xc",
+  "title": "Donald Trump o wizji denuklearyzacji. \"Byłaby czymś wspaniałym\"",
+  "score": 45,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazę 'czymś wspaniałym', co jest wyrażeniem emocjonalnym i może budzić ciekawość.",
+    "Treść artykułu jest zgodna z tytułem, jednak nie rozwija tematu w sposób szczegółowy.",
+    "W artykule pojawia się cytat z Donalda Trumpa, co zwiększa jego wiarygodność.",
+    "Nie występują inne sensacyjne frazy ani absoluty, co ogranicza stopień clickbaitu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa emocjonalnego wyrażenia, co może przyciągać uwagę czytelników.",
+    "Treść artykułu odpowiada tytułowi, ale nie dostarcza wielu szczegółów.",
+    "Cytat z Donalda Trumpa dodaje wiarygodności artykułowi.",
+    "Brak innych przesadnych stwierdzeń ogranicza jego clickbaitowość."
+  ],
+  "summary": "Donald Trump wyraził swoją wizję denuklearyzacji, twierdząc, że byłaby ona 'czymś wspaniałym'. Prezydent USA podkreślił, że omawiał ten temat z przywódcami Chin i Rosji, Xi Jinpingiem oraz Władimirem Putinem. Artykuł odnosi się do aktualnych rozmów na temat denuklearyzacji na świecie.",
+  "signals": {
+    "title_hits": [
+      "czymś wspaniałym"
+    ],
+    "content_hits": [
+      "Denuklearyzacja byłaby czymś wspaniałym",
+      "rozmawiał o tym z przywódcami"
+    ],
+    "credibility_hits": [
+      "Donald Trump",
+      "Polska Agencja Prasowa"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "content_detail_level": "low"
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Donald Trump o wizji denuklearyzacji",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby zmniejszyć efekt clickbaitu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 56,
+    "processing_time_ms": 13188,
+    "model": "gpt-4o-mini"
+  }
+}

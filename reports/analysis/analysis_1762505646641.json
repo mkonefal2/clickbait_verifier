@@ -1,0 +1,52 @@
+{
+  "id": 1762505646641,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/donald-trump-o-postepach-w-rozmowach-pokojowych-znaczace/qez17ck",
+  "title": "USA widzą przełom w negocjacjach pokojowych. \"Żeby ta wojna się skończyła\"",
+  "score": 55,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'przełom' i 'żeby ta wojna się skończyła', które mogą wywołać silne emocje.",
+    "Treść artykułu odnosi się do konkretnego komentarza Donalda Trumpa, co zwiększa spójność między tytułem a treścią.",
+    "W tytule użyto absolutnych sformułowań, co może sugerować dramatyzację sytuacji.",
+    "W treści pojawia się cytat Trumpa, co dodaje wiarygodności, ale nie zmienia sensacji tytułu.",
+    "Występuje niewielka rozbieżność między tytułem a treścią, ponieważ tytuł sugeruje większy przełom niż to, co zostało opisane w artykule."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa mocnych słów, które mogą przyciągać uwagę, jak 'przełom' i 'żeby ta wojna się skończyła'.",
+    "Artykuł rzeczywiście odnosi się do wypowiedzi Donalda Trumpa, co sprawia, że jest spójny z tytułem.",
+    "W tytule są użyte wyrazy, które mogą wywołać emocje, co sprawia, że jest bardziej sensacyjny.",
+    "Cytaty z Trumpa w treści dodają wiarygodności, ale nie zmieniają ogólnego wrażenia sensacji.",
+    "Tytuł sugeruje większy sukces w negocjacjach niż to, co jest opisane w artykule."
+  ],
+  "summary": "Donald Trump ogłosił osiągnięcie 'znaczącego postępu' w negocjacjach pokojowych dotyczących wojny w Ukrainie. Podczas spotkania z przywódcami państw Azji Środkowej wyraził nadzieję na mądre decyzje ze strony Moskwy i Kijowa, które mogłyby prowadzić do akceptowalnego rozwiązania konfliktu.",
+  "signals": {
+    "title_hits": [
+      "przełom",
+      "żeby ta wojna się skończyła"
+    ],
+    "content_hits": [
+      "znaczący postęp",
+      "Donald Trump",
+      "rozmowy pokojowe"
+    ],
+    "credibility_hits": [
+      "Donald Trump",
+      "RBC Ukraine"
+    ],
+    "mismatch": {
+      "title_content_mismatch": true,
+      "mismatch_description": "Tytuł sugeruje większy przełom niż to, co zostało opisane w treści."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Donald Trump o postępach w negocjacjach pokojowych.",
+    "notes_to_editor": "Rozważyć bardziej neutralny tytuł, aby uniknąć nadmiernej sensacji."
+  },
+  "diagnostics": {
+    "tokens_title": 14,
+    "tokens_content": 100,
+    "processing_time_ms": 17845,
+    "model": "gpt-4o-mini"
+  }
+}

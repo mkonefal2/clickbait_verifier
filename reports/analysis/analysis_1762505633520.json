@@ -1,0 +1,48 @@
+{
+  "id": 1762505633520,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/kraj/skandaliczne-slowa-dariusza-mateckiego-europosel-zawiadamia-prokurature/6w1frvh",
+  "title": "Skandaliczne słowa Dariusza Mateckiego. Europoseł zawiadamia prokuraturę",
+  "score": 65,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera słowo 'skandaliczne', co jest frazą sensacyjną.",
+    "Treść artykułu potwierdza kontrowersyjność wypowiedzi, co zwiększa zgodność z tytułem.",
+    "W artykule nie ma konkretnych cytatów ani źródeł, co wpływa negatywnie na wiarygodność.",
+    "Występuje rozbieżność w tonie między tytułem a treścią, jednak nie jest to znaczna rozbieżność.",
+    "Zastosowanie słowa 'nawołuje' w kontekście wypowiedzi Mateckiego wzmacnia sensacyjny charakter tytułu."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'skandaliczne', co przyciąga uwagę i sugeruje kontrowersję.",
+    "Treść artykułu rzeczywiście dotyczy kontrowersyjnych wypowiedzi, co sprawia, że tytuł jest zgodny z treścią.",
+    "Brak konkretnych cytatów lub źródeł osłabia wiarygodność artykułu.",
+    "Nie ma dużej różnicy między tytułem a treścią, ale tytuł jest bardziej dramatyczny.",
+    "Słowo 'nawołuje' w kontekście wypowiedzi Mateckiego dodaje sensacji."
+  ],
+  "summary": "Artykuł informuje o zawiadomieniu złożonym przez europoseł Dariusza Jońskiego w sprawie Dariusza Mateckiego. Matecki miał nawoływać do odstrzeliwania polskich funkcjonariuszy w kontekście ewentualnego zatrzymania Zbigniewa Ziobry na Węgrzech. W artykule przedstawiono kontrowersyjne wypowiedzi Mateckiego oraz reakcję Jońskiego.",
+  "signals": {
+    "title_hits": [
+      "skandaliczne",
+      "zawiadamia"
+    ],
+    "content_hits": [
+      "nawołuje do odstrzeliwania",
+      "zawiadomienie"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "title_content_similarity": "wysoka",
+      "content_reliability": "niska"
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Europoseł Dariusz Joński składa zawiadomienie w sprawie Dariusza Mateckiego",
+    "notes_to_editor": "Rozważyć dodanie cytatów lub źródeł dla zwiększenia wiarygodności artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 66,
+    "processing_time_ms": 17037,
+    "model": "gpt-4o-mini"
+  }
+}

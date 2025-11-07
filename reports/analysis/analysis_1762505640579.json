@@ -1,0 +1,48 @@
+{
+  "id": 1762505640579,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/krakow/rewolucja-pod-tatrami-ratownik-medyczny-bedzie-jezdzil-takze-na-motocyklu/mv6nzme",
+  "title": "Rewolucja pod Tatrami. Ratownik medyczny będzie jeździł także na motocyklu",
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazę 'rewolucja', co jest sensacyjne, ale nie ekstremalne.",
+    "Treść artykułu informuje o nowym sposobie działania ratowników medycznych, co jest zgodne z tytułem.",
+    "W artykule nie ma absolutów ani przesadnych obietnic, ale tytuł może budzić ciekawość.",
+    "Brak cytatów lub konkretnych liczb, co wpływa na niską wiarygodność.",
+    "Mismatches są minimalne, ponieważ tytuł i treść są spójne."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa słowa 'rewolucja', co może przyciągać uwagę, ale nie jest przesadnie dramatyczne.",
+    "Artykuł opisuje nowy sposób pracy ratowników medycznych, co jest zgodne z tym, co obiecuje tytuł.",
+    "Nie ma w artykule żadnych przesadnych twierdzeń ani obietnic, co czyni go bardziej wiarygodnym.",
+    "Brakuje konkretów, takich jak cytaty czy liczby, co osłabia jego wiarygodność.",
+    "Tytuł i treść są zgodne, co oznacza, że nie ma dużych rozbieżności."
+  ],
+  "summary": "Artykuł informuje o wprowadzeniu 'motoambulansu' w Zakopanem, który ma zacząć działać od 1 maja 2026 roku. Ratownicy medyczni przechodzą trening jazdy na motocyklu, aby dotrzeć do trudniej dostępnych miejsc. Inicjatywa ma na celu poprawę jakości pomocy medycznej w regionie.",
+  "signals": {
+    "title_hits": [
+      "rewolucja"
+    ],
+    "content_hits": [
+      "motoambulans",
+      "ratownik medyczny",
+      "trening jazdy"
+    ],
+    "credibility_hits": [],
+    "mismatch": {
+      "exists": false,
+      "details": "Tytuł i treść są zgodne."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Nowy sposób działania ratowników medycznych w Zakopanem",
+    "notes_to_editor": "Rozważyć dodanie konkretów, takich jak liczby i cytaty, aby zwiększyć wiarygodność artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 95,
+    "processing_time_ms": 16120,
+    "model": "gpt-4o-mini"
+  }
+}

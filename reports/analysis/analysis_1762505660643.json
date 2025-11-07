@@ -1,0 +1,49 @@
+{
+  "id": 1762505660643,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/ukraina-walczy-o-tomahawki-ambasadorka-w-usa-rozmowy-wciaz-trwaja/evxwjlg",
+  "title": "Ukraina wciąż negocjuje zakup Tomahawków. Pozytywny głos ze strony Kijowa",
+  "score": 35,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazy, które mogą wzbudzać ciekawość, takie jak 'wciąż negocjuje' oraz 'pozytywny głos', ale nie są one skrajnie sensacyjne.",
+    "Treść artykułu jest zgodna z tytułem, informując o aktualnych negocjacjach Ukrainy dotyczących zakupu pocisków Tomahawk.",
+    "Brak wyraźnych sygnałów wiarygodności poza cytatem z ambasadorki, co wpływa na ocenę.",
+    "W artykule nie ma użycia absolutów ani przesadnych stwierdzeń, co ogranicza jego clickbaitowość."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł sugeruje, że Ukraina prowadzi rozmowy o zakupie pocisków Tomahawk, co jest potwierdzone w treści.",
+    "Artykuł informuje o pozytywnych sygnałach z Kijowa, ale nie używa przesadnych słów ani sensacyjnych zwrotów.",
+    "Nie ma wielu źródeł ani danych, co może wpływać na postrzeganą wiarygodność informacji.",
+    "Ogólnie artykuł jest umiarkowanie clickbaitowy, ale nie przesadnie."
+  ],
+  "summary": "Ukraina kontynuuje negocjacje dotyczące zakupu pocisków Tomahawk. Ambasadorka Ukrainy w Stanach Zjednoczonych, Olha Stefaniszyna, poinformowała, że rozmowy są 'raczej pozytywne'. Artykuł opiera się na doniesieniach agencji Bloomberg.",
+  "signals": {
+    "title_hits": [
+      "wciąż negocjuje",
+      "pozytywny głos"
+    ],
+    "content_hits": [
+      "Ukraina nadal zabiega",
+      "rozmowy wciąż trwają"
+    ],
+    "credibility_hits": [
+      "Ambasadorka Ukrainy",
+      "agencja Bloomberga"
+    ],
+    "mismatch": {
+      "title_content_match": true,
+      "title_summary_match": true
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Ukraina prowadzi negocjacje w sprawie zakupu pocisków Tomahawk",
+    "notes_to_editor": "Artykuł jest informacyjny, ale tytuł mógłby być bardziej neutralny."
+  },
+  "diagnostics": {
+    "tokens_title": 10,
+    "tokens_content": 66,
+    "processing_time_ms": 13437,
+    "model": "gpt-4o-mini"
+  }
+}

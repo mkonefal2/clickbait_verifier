@@ -1,0 +1,48 @@
+{
+  "id": 1762505609310,
+  "source": "rmf24",
+  "url": "https://www.rmf24.pl/polityka/news-zbigniew-ziobro-rozwial-watpliwosci-ws-azylu-na-wegrzech,nId,8038491",
+  "title": "Zbigniew Ziobro rozwiał wątpliwości ws. azylu na Węgrzech",
+  "score": 30,
+  "label": "mild",
+  "rationale": [
+    "Tytuł zawiera frazę 'rozwiał wątpliwości', co może sugerować sensacyjność, ale nie jest to skrajnie clickbaitowe.",
+    "Treść artykułu jest zgodna z tytułem i dostarcza konkretne informacje na temat sytuacji Zbigniewa Ziobry.",
+    "W artykule występują liczby (26 zarzutów), co zwiększa wiarygodność, ale brak jest cytatów z innych źródeł.",
+    "Nie znaleziono istotnych luk ciekawości w treści, a tytuł nie wprowadza w błąd."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł sugeruje, że Zbigniew Ziobro wyjaśnia swoją sytuację, co jest zgodne z treścią artykułu.",
+    "Artykuł dostarcza konkretnych informacji na temat zarzutów wobec Ziobry i jego obecności na Węgrzech.",
+    "W tekście pojawiają się liczby, co dodaje mu wiarygodności, ale brakuje cytatów z innych źródeł.",
+    "Nie ma w artykule elementów, które mogłyby wprowadzać w błąd czy wzbudzać nieuzasadnioną ciekawość."
+  ],
+  "summary": "Zbigniew Ziobro poinformował, że nie złożył wniosku o azyl polityczny na Węgrzech, gdzie przebywa z powodu konferencji. Prokuratura planuje postawić mu 26 zarzutów, w tym kierowanie grupą przestępczą. Sejmowa komisja poparła wniosek o uchylenie mu immunitetu oraz o jego zatrzymanie.",
+  "signals": {
+    "title_hits": [
+      "rozwiał wątpliwości"
+    ],
+    "content_hits": [
+      "26 zarzutów",
+      "azyl polityczny",
+      "konferencja"
+    ],
+    "credibility_hits": [
+      "26 zarzutów"
+    ],
+    "mismatch": {
+      "exists": false,
+      "details": "Tytuł i treść są zgodne."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Zbigniew Ziobro wyjaśnia swoją sytuację w sprawie azylu na Węgrzech",
+    "notes_to_editor": "Artykuł jest informacyjny, ale tytuł mógłby być bardziej neutralny."
+  },
+  "diagnostics": {
+    "tokens_title": 9,
+    "tokens_content": 224,
+    "processing_time_ms": 17819,
+    "model": "gpt-4o-mini"
+  }
+}

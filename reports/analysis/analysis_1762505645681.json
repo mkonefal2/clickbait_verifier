@@ -1,0 +1,50 @@
+{
+  "id": 1762505645681,
+  "source": "onet",
+  "url": "https://wiadomosci.onet.pl/swiat/cyniczna-gra-mocarstw-w-afryce-spycha-wielkie-panstwo-w-przepasc-kryzys-uderzy/8z5scze",
+  "title": "Cyniczna gra mocarstw w Afryce spycha wielkie państwo w przepaść. Kryzys uderzy rykoszetem w Europę [ANALIZA]",
+  "score": 72,
+  "label": "strong",
+  "rationale": [
+    "Tytuł zawiera frazy sensacyjne, takie jak 'cyniczna gra mocarstw' oraz 'wielkie państwo w przepaść', które są emocjonalnie nacechowane.",
+    "W treści artykułu pojawiają się liczby, takie jak 'ponad 15 mln sudańskich dzieci', co może zwiększać wiarygodność, ale także przyciąga uwagę.",
+    "Zidentyfikowano rozbieżność między tytułem a treścią, ponieważ tytuł sugeruje dramatyczny wpływ na Europę, podczas gdy treść koncentruje się na sytuacji w Sudanie.",
+    "W artykule brak jest bezpośrednich cytatów lub odniesień do konkretnych źródeł, co obniża jego wiarygodność."
+  ],
+  "rationale_user_friendly": [
+    "Tytuł używa emocjonalnych słów, które mają na celu przyciągnięcie uwagi czytelników.",
+    "W artykule wspomniano o liczbie dzieci potrzebujących pomocy, co może wzbudzać zainteresowanie, ale także może być użyte do manipulacji emocjonalnej.",
+    "Tytuł sugeruje, że sytuacja w Sudanie ma bezpośredni wpływ na Europę, podczas gdy artykuł koncentruje się głównie na Sudanie.",
+    "Brak cytatów lub odniesień do źródeł może wpływać na postrzeganą wiarygodność artykułu."
+  ],
+  "summary": "Artykuł omawia trwającą od 2023 roku wojnę w Sudanie, która prowadzi do ogromnych cierpień ludności, w tym ponad 15 milionów dzieci potrzebujących pomocy. Zawiera informacje o międzynarodowych interesach, które podsycają konflikt, oraz o surowcach naturalnych, które są przedmiotem walki. Wskazuje na złożoność sytuacji i wpływ kryzysu na region.",
+  "signals": {
+    "title_hits": [
+      "cyniczna gra mocarstw",
+      "wielkie państwo w przepaść",
+      "kryzys uderzy rykoszetem"
+    ],
+    "content_hits": [
+      "ponad 15 mln sudańskich dzieci",
+      "międzynarodowych graczy",
+      "zyski"
+    ],
+    "credibility_hits": [
+      "Niddal Salah-Eldin",
+      "EPA/MARWAN MOHAMED / PAP"
+    ],
+    "mismatch": {
+      "title_content_mismatch": "Tytuł sugeruje bezpośredni wpływ kryzysu w Sudanie na Europę, podczas gdy treść skupia się głównie na sytuacji w Sudanie."
+    }
+  },
+  "suggestions": {
+    "rewrite_title_neutral": "Sytuacja w Sudanie: Konflikt i jego międzynarodowe konsekwencje",
+    "notes_to_editor": "Rozważyć dodanie cytatów lub odniesień do źródeł dla zwiększenia wiarygodności artykułu."
+  },
+  "diagnostics": {
+    "tokens_title": 18,
+    "tokens_content": 207,
+    "processing_time_ms": 15980,
+    "model": "gpt-4o-mini"
+  }
+}
